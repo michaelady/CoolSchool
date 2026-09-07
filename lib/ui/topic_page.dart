@@ -7,6 +7,7 @@ import '../l10n/strings.dart';
 import 'exercise_page.dart';
 import 'theme.dart';
 import 'widgets/kid_chrome.dart';
+import 'widgets/mute_button.dart';
 import 'widgets/star_row.dart';
 
 class TopicPage extends StatelessWidget {
@@ -31,17 +32,10 @@ class TopicPage extends StatelessWidget {
                 onPressed: () => Navigator.of(context).pop(),
               ),
               title: Text(pack.title, style: CoolTheme.kid(size: 24, weight: FontWeight.w700)),
-              actions: [
+              actions: const [
                 Padding(
-                  padding: const EdgeInsets.only(right: 12),
-                  child: RoundIconButton(
-                    icon: scope.settings.muted
-                        ? Icons.volume_off_rounded
-                        : Icons.volume_up_rounded,
-                    tooltip: scope.settings.muted ? i18n.unmute : i18n.mute,
-                    selected: scope.settings.muted,
-                    onPressed: scope.settings.toggleMute,
-                  ),
+                  padding: EdgeInsets.only(right: 12),
+                  child: MuteButton(),
                 ),
               ],
             ),

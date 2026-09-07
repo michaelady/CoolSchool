@@ -78,6 +78,8 @@ class KidPillButton extends StatelessWidget {
     this.foreground = Colors.white,
     this.icon,
     this.expand = true,
+    this.borderColor,
+    this.borderWidth = 0,
   });
 
   final String label;
@@ -86,6 +88,8 @@ class KidPillButton extends StatelessWidget {
   final Color foreground;
   final IconData? icon;
   final bool expand;
+  final Color? borderColor;
+  final double borderWidth;
 
   @override
   Widget build(BuildContext context) {
@@ -95,6 +99,9 @@ class KidPillButton extends StatelessWidget {
         decoration: BoxDecoration(
           color: onPressed == null ? color.withValues(alpha: 0.45) : color,
           borderRadius: BorderRadius.circular(22),
+          border: borderWidth > 0
+              ? Border.all(color: borderColor ?? CoolColors.ink, width: borderWidth)
+              : null,
           boxShadow: [
             BoxShadow(
               color: color.withValues(alpha: 0.35),

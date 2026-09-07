@@ -8,10 +8,12 @@ class CoolColors {
   static const card = Color(0xFFFFFDF8);
   static const coral = Color(0xFFFF8A5B);
   static const sun = Color(0xFFFFD93D);
-  static const leaf = Color(0xFF6BCB77);
+  static const leaf = Color(0xFF2FA84A);
+  static const leafDeep = Color(0xFF1B6B30);
   static const grape = Color(0xFFA78BFA);
   static const sky = Color(0xFF4CC9F0);
-  static const rose = Color(0xFFFF6B6B);
+  static const rose = Color(0xFFE53935);
+  static const roseDeep = Color(0xFF9B1B1B);
 }
 
 class CoolTheme {
