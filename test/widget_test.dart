@@ -130,6 +130,7 @@ void main() {
     await tester.tap(find.text('2'));
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
     await tester.pump(ExercisePage.answerFeedbackHold);
     await tester.pumpAndSettle();
     expect(find.text('Super gemacht!'), findsWidgets);
@@ -146,10 +147,19 @@ void main() {
     await tester.tap(find.text('1'));
     await tester.pump();
     expect(find.text('Schade!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
+    expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(find.text('2 + 1 = ?'), findsNothing);
     expect(sfx.events, ['wrong']);
 
-    await tester.pump(ExercisePage.answerFeedbackHold);
+    // Hold must survive a near-full timer pump — this fails if feedback is
+    // cleared in the same frame as the tap / advance.
+    await tester.pump(ExercisePage.answerFeedbackHold - const Duration(milliseconds: 200));
+    expect(find.text('Schade!'), findsOneWidget);
+    expect(find.text('1 + 1 = ?'), findsOneWidget);
+    expect(find.text('2 + 1 = ?'), findsNothing);
+
+    await tester.pump(const Duration(milliseconds: 200));
     await tester.pumpAndSettle();
     expect(find.text('2 + 1 = ?'), findsOneWidget);
     expect(find.text('Schade!'), findsNothing);
@@ -157,10 +167,37 @@ void main() {
     await tester.tap(find.text('3'));
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
     expect(sfx.events, ['wrong', 'correct']);
-    await tester.pump(ExercisePage.answerFeedbackHold);
+
+    await tester.pump(ExercisePage.answerFeedbackHold - const Duration(milliseconds: 200));
+    expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.text('Super gemacht!'), findsNothing);
+
+    await tester.pump(const Duration(milliseconds: 200));
     await tester.pumpAndSettle();
     expect(find.text('Super gemacht!'), findsWidgets);
+  });
+
+  testWidgets('feedback banner appears after tap while hold timer is pending', (tester) async {
+    await tester.pumpWidget(app(pack: tinyPack(exercises: 2)));
+    await openFirstExercise(tester);
+
+    expect(find.text('Richtig!'), findsNothing);
+    expect(find.text('Schade!'), findsNothing);
+
+    await tester.tap(find.text('2'));
+    // One frame only — do not pump the hold duration. If the page advances
+    // in this same frame, the banner never existed.
+    await tester.pump();
+    expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.text('Schade!'), findsNothing);
+    expect(find.text('1 + 1 = ?'), findsOneWidget);
+    expect(find.text('2 + 1 = ?'), findsNothing);
+
+    await tester.pump(const Duration(milliseconds: 1));
+    expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.text('2 + 1 = ?'), findsNothing);
   });
 
   testWidgets('reward Home returns to the home screen', (tester) async {
