@@ -5,6 +5,7 @@ import '../content/models.dart';
 import '../game/scoring.dart';
 import '../l10n/strings.dart';
 import 'exercise_page.dart';
+import 'navigation.dart';
 import 'theme.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/star_row.dart';
@@ -102,12 +103,11 @@ class RewardPage extends StatelessWidget {
                   ),
                 if (hasNext) const SizedBox(height: 12),
                 KidPillButton(
+                  key: const ValueKey<String>('reward-home'),
                   label: i18n.home,
                   icon: Icons.home_rounded,
                   color: CoolColors.coral,
-                  onPressed: () {
-                    Navigator.of(context).popUntil((route) => route.isFirst);
-                  },
+                  onPressed: () => goHome(context, pack: pack),
                 ),
               ],
             ),

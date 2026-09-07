@@ -6,6 +6,7 @@ import '../l10n/strings.dart';
 import 'theme.dart';
 import 'topic_page.dart';
 import 'widgets/kid_chrome.dart';
+import 'widgets/mute_button.dart';
 import 'widgets/sun_mascot.dart';
 
 class HomePage extends StatefulWidget {
@@ -92,14 +93,7 @@ class _HomePageState extends State<HomePage> {
                         onTap: () => _switchLocale('fr'),
                       ),
                       const Spacer(),
-                      RoundIconButton(
-                        icon: scope.settings.muted
-                            ? Icons.volume_off_rounded
-                            : Icons.volume_up_rounded,
-                        tooltip: scope.settings.muted ? i18n.unmute : i18n.mute,
-                        selected: scope.settings.muted,
-                        onPressed: () => setState(scope.settings.toggleMute),
-                      ),
+                      const MuteButton(),
                     ],
                   ),
                   const SizedBox(height: 12),

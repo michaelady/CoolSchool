@@ -10,6 +10,7 @@ import '../l10n/strings.dart';
 import 'reward_page.dart';
 import 'theme.dart';
 import 'widgets/kid_chrome.dart';
+import 'widgets/mute_button.dart';
 
 class ExercisePage extends StatefulWidget {
   const ExercisePage({
@@ -17,6 +18,9 @@ class ExercisePage extends StatefulWidget {
     required this.pack,
     required this.levelIndex,
   });
+
+  /// How long the chosen answer stays highlighted before the next prompt.
+  static const answerFeedbackHold = Duration(milliseconds: 1600);
 
   final ContentPack pack;
   final int levelIndex;
@@ -80,20 +84,22 @@ class _ExercisePageState extends State<ExercisePage>
       _locked = true;
     });
     await scope.speech.stop();
+    if (!mounted) return;
+    // Fire SFX without awaiting playback so the green/red hold is reliable.
     if (correct) {
-      await scope.sfx.correct(muted: scope.settings.muted);
+      unawaited(scope.sfx.correct());
     } else {
-      await scope.sfx.wrong(muted: scope.settings.muted);
+      unawaited(scope.sfx.wrong());
       unawaited(_shake.forward(from: 0));
     }
     _run.mark(correct);
-    await Future<void>.delayed(const Duration(milliseconds: 1100));
+    await Future<void>.delayed(ExercisePage.answerFeedbackHold);
     if (!mounted) return;
     if (_run.isComplete) {
       final score = _run.score;
       await scope.progress.recordBest(_level.id, score.stars);
       if (score.passed) {
-        await scope.sfx.levelUp(muted: scope.settings.muted);
+        unawaited(scope.sfx.levelUp());
       }
       if (!mounted) return;
       await Navigator.of(context).pushReplacement(
@@ -136,17 +142,10 @@ class _ExercisePageState extends State<ExercisePage>
                 _level.title,
                 style: CoolTheme.kid(size: 22, weight: FontWeight.w700),
               ),
-              actions: [
+              actions: const [
                 Padding(
-                  padding: const EdgeInsets.only(right: 12),
-                  child: RoundIconButton(
-                    icon: scope.settings.muted
-                        ? Icons.volume_off_rounded
-                        : Icons.volume_up_rounded,
-                    tooltip: scope.settings.muted ? i18n.unmute : i18n.mute,
-                    selected: scope.settings.muted,
-                    onPressed: () => setState(scope.settings.toggleMute),
-                  ),
+                  padding: EdgeInsets.only(right: 12),
+                  child: MuteButton(),
                 ),
               ],
             ),
@@ -199,6 +198,13 @@ class _ExercisePageState extends State<ExercisePage>
                         ),
                       ),
                     ),
+                    if (_picked != null) ...[
+                      const SizedBox(height: 16),
+                      _FeedbackBanner(
+                        correct: _exercise.isCorrect(_picked!),
+                        label: _exercise.isCorrect(_picked!) ? i18n.correct : i18n.wrong,
+                      ),
+                    ],
                     const SizedBox(height: 20),
                     for (var i = 0; i < _exercise.choices.length; i++)
                       Padding(
@@ -206,23 +212,10 @@ class _ExercisePageState extends State<ExercisePage>
                         child: _ChoiceButton(
                           label: _exercise.choices[i],
                           state: _choiceState(i),
+                          locked: _locked,
                           onPressed: () => _pick(i),
                         ),
                       ),
-                    if (_picked != null) ...[
-                      const SizedBox(height: 8),
-                      Text(
-                        _exercise.isCorrect(_picked!) ? i18n.correct : i18n.wrong,
-                        textAlign: TextAlign.center,
-                        style: CoolTheme.kid(
-                          size: 28,
-                          weight: FontWeight.w700,
-                          color: _exercise.isCorrect(_picked!)
-                              ? CoolColors.leaf
-                              : CoolColors.rose,
-                        ),
-                      ),
-                    ],
                   ],
                 ),
               ),
@@ -243,15 +236,64 @@ class _ExercisePageState extends State<ExercisePage>
 
 enum _ChoiceState { idle, right, wrong }
 
+class _FeedbackBanner extends StatelessWidget {
+  const _FeedbackBanner({required this.correct, required this.label});
+
+  final bool correct;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = correct ? CoolColors.leaf : CoolColors.rose;
+    return Semantics(
+      liveRegion: true,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(
+            color: correct ? CoolColors.leafDeep : CoolColors.roseDeep,
+            width: 4,
+          ),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                correct ? Icons.check_circle_rounded : Icons.cancel_rounded,
+                color: Colors.white,
+                size: 36,
+              ),
+              const SizedBox(width: 10),
+              Flexible(
+                child: Text(
+                  label,
+                  key: const ValueKey<String>('answer-feedback'),
+                  textAlign: TextAlign.center,
+                  style: CoolTheme.kid(size: 28, weight: FontWeight.w700, color: Colors.white),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class _ChoiceButton extends StatelessWidget {
   const _ChoiceButton({
     required this.label,
     required this.state,
+    required this.locked,
     required this.onPressed,
   });
 
   final String label;
   final _ChoiceState state;
+  final bool locked;
   final VoidCallback onPressed;
 
   @override
@@ -262,11 +304,25 @@ class _ChoiceButton extends StatelessWidget {
       _ChoiceState.idle => CoolColors.card,
     };
     final fg = state == _ChoiceState.idle ? CoolColors.ink : Colors.white;
+    final border = switch (state) {
+      _ChoiceState.right => CoolColors.leafDeep,
+      _ChoiceState.wrong => CoolColors.roseDeep,
+      _ChoiceState.idle => null,
+    };
+    final icon = switch (state) {
+      _ChoiceState.right => Icons.check_rounded,
+      _ChoiceState.wrong => Icons.close_rounded,
+      _ChoiceState.idle => null,
+    };
     return KidPillButton(
+      key: ValueKey<String>('choice-$label'),
       label: label,
       color: color,
       foreground: fg,
-      onPressed: onPressed,
+      icon: icon,
+      borderColor: border,
+      borderWidth: state == _ChoiceState.idle ? 0 : 4,
+      onPressed: locked && state == _ChoiceState.idle ? null : onPressed,
     );
   }
 }

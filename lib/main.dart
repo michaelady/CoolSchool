@@ -10,14 +10,15 @@ import 'game/session_settings.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final progress = ProgressStore();
+  final settings = SessionSettings();
   await progress.load();
   runApp(
     CoolSchoolApp(
-      settings: SessionSettings(),
+      settings: settings,
       progress: progress,
       packs: const AssetPackRepository(),
       speech: FlutterTtsSpeech(),
-      sfx: AssetSfx(),
+      sfx: AssetSfx(settings: settings),
     ),
   );
 }

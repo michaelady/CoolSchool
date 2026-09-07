@@ -30,22 +30,20 @@ class CoolSchoolApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Do not rebuild MaterialApp when settings/progress change — that can
+    // reset the navigator (Home becomes a new first route, mute chrome
+    // remounts, reward Home no longer pops to the real home).
     return AppScope(
       settings: settings,
       progress: progress,
       packs: packs,
       speech: speech,
       sfx: sfx,
-      child: ListenableBuilder(
-        listenable: Listenable.merge([settings, progress]),
-        builder: (context, _) {
-          return MaterialApp(
-            title: 'CoolSchool',
-            debugShowCheckedModeBanner: false,
-            theme: CoolTheme.data(),
-            home: HomePage(initialPack: initialPack),
-          );
-        },
+      child: MaterialApp(
+        title: 'CoolSchool',
+        debugShowCheckedModeBanner: false,
+        theme: CoolTheme.data(),
+        home: HomePage(initialPack: initialPack),
       ),
     );
   }
