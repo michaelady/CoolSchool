@@ -1,0 +1,5 @@
+package ch.coolschool.coolschool
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
