@@ -25,5 +25,6 @@ void main() {
       webSoundUrl('correct', page: Uri.parse('http://localhost:8080/')),
       'http://localhost:8080/assets/assets/sounds/correct.wav',
     );
+    expect(webSoundUrl('next', page: Uri.parse('https://example.test/app/?v=p2')), isNot(contains('?')));
   });
 }

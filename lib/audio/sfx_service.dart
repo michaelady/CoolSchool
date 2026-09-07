@@ -9,11 +9,10 @@ const sfxNames = ['correct', 'wrong', 'levelup', 'transition', 'next'];
 /// Public so tests can lock the GitHub Pages / Flutter-web asset URL.
 String webSoundUrl(String name, {Uri? page}) {
   final origin = page ?? Uri.base;
-  final dir = origin.replace(query: '', fragment: '');
-  final path = dir.path.endsWith('/') ? dir.path : '${dir.path}/';
+  final path = origin.path.endsWith('/') ? origin.path : '${origin.path}/';
   // `flutter build web` copies pubspec assets to assets/<assetKey>, so
   // `assets/sounds/foo.wav` is served as `assets/assets/sounds/foo.wav`.
-  return dir.replace(path: '${path}assets/assets/sounds/$name.wav').toString();
+  return '${origin.origin}${path}assets/assets/sounds/$name.wav';
 }
 
 abstract class SfxService {
