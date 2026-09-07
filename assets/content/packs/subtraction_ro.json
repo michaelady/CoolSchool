@@ -1,0 +1,167 @@
+{
+  "id": "subtraction",
+  "locale": "ro",
+  "emoji": "➖",
+  "color": "#A78BFA",
+  "title": "Scădere",
+  "subtitle": "Scădem numere",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Număr și variabilă",
+    "focusId": "MA.1.B",
+    "focusLabel": "Operare și denumire",
+    "cycle": "Ciclul 1–2"
+  },
+  "levels": [
+    {
+      "id": "subtraction-l1",
+      "title": "Luăm",
+      "subtitle": "Minus până la 10",
+      "lp21Tag": "MA.1.A · Spațiul 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-sub-l1-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "Cât fac cinci minus doi?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l1-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "Cât fac șase minus unu?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l1-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Cât fac opt minus trei?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l1-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "Cât fac nouă minus patru?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l1-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "Cât fac șapte minus cinci?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "ro-sub-l1-06",
+          "prompt": "4 − 2 = ?",
+          "promptTts": "Cât fac patru minus doi?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "subtraction-l2",
+      "title": "Numărăm înapoi",
+      "subtitle": "Minus până la 20",
+      "lp21Tag": "MA.1.B · Spațiul 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-sub-l2-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "Cât fac doisprezece minus patru?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l2-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "Cât fac cincisprezece minus șase?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l2-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "Cât fac unsprezece minus trei?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l2-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "Cât fac paisprezece minus cinci?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l2-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "Cât fac optsprezece minus nouă?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-sub-l2-06",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "Cât fac șaisprezece minus șapte?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

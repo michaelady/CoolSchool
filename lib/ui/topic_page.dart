@@ -5,6 +5,7 @@ import '../content/models.dart';
 import '../game/scoring.dart';
 import '../l10n/strings.dart';
 import 'exercise_page.dart';
+import 'navigation.dart';
 import 'theme.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/mute_button.dart';
@@ -119,11 +120,7 @@ class _LevelCard extends StatelessWidget {
           );
           return;
         }
-        Navigator.of(context).push(
-          MaterialPageRoute<void>(
-            builder: (_) => ExercisePage(pack: pack, levelIndex: index),
-          ),
-        );
+        pushKidPage(context, ExercisePage(pack: pack, levelIndex: index));
       },
       child: Row(
         children: [

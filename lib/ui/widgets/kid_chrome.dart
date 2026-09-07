@@ -80,6 +80,7 @@ class KidPillButton extends StatelessWidget {
     this.expand = true,
     this.borderColor,
     this.borderWidth = 0,
+    this.labelSize = 22,
   });
 
   final String label;
@@ -90,6 +91,7 @@ class KidPillButton extends StatelessWidget {
   final bool expand;
   final Color? borderColor;
   final double borderWidth;
+  final double labelSize;
 
   @override
   Widget build(BuildContext context) {
@@ -124,7 +126,7 @@ class KidPillButton extends StatelessWidget {
                 child: Text(
                   label,
                   textAlign: TextAlign.center,
-                  style: CoolTheme.kid(size: 22, weight: FontWeight.w700, color: foreground),
+                  style: CoolTheme.kid(size: labelSize, weight: FontWeight.w700, color: foreground),
                 ),
               ),
             ],

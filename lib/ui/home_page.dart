@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
 import '../content/models.dart';
+import '../l10n/app_locales.dart';
 import '../l10n/strings.dart';
+import 'navigation.dart';
 import 'theme.dart';
 import 'topic_page.dart';
 import 'widgets/kid_chrome.dart';
@@ -10,31 +12,22 @@ import 'widgets/mute_button.dart';
 import 'widgets/sun_mascot.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key, this.initialPack});
-
-  final ContentPack? initialPack;
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  ContentPack? _pack;
+  List<ContentPack> _packs = const [];
   Object? _error;
   bool _loading = true;
   bool _started = false;
 
   @override
-  void initState() {
-    super.initState();
-    _pack = widget.initialPack;
-    _loading = widget.initialPack == null;
-  }
-
-  @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    if (_started || widget.initialPack != null) return;
+    if (_started) return;
     _started = true;
     _load();
   }
@@ -42,10 +35,10 @@ class _HomePageState extends State<HomePage> {
   Future<void> _load() async {
     final scope = AppScope.of(context);
     try {
-      final pack = await scope.packs.loadAddition(scope.settings.locale);
+      final packs = await scope.packs.loadAll(scope.settings.locale);
       if (!mounted) return;
       setState(() {
-        _pack = pack;
+        _packs = packs;
         _error = null;
         _loading = false;
       });
@@ -80,19 +73,23 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
                 children: [
                   Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      _LocaleChip(
-                        label: i18n.deChip,
-                        selected: !i18n.isFr,
-                        onTap: () => _switchLocale('de'),
+                      Expanded(
+                        child: Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: [
+                            for (final code in AppLocales.codes)
+                              _LocaleChip(
+                                label: AppLocales.chips[code]!,
+                                selected: i18n.lang == code,
+                                onTap: () => _switchLocale(code),
+                              ),
+                          ],
+                        ),
                       ),
                       const SizedBox(width: 8),
-                      _LocaleChip(
-                        label: i18n.frChip,
-                        selected: i18n.isFr,
-                        onTap: () => _switchLocale('fr'),
-                      ),
-                      const Spacer(),
                       const MuteButton(),
                     ],
                   ),
@@ -129,43 +126,20 @@ class _HomePageState extends State<HomePage> {
                         style: CoolTheme.kid(size: 16, color: CoolColors.rose),
                       ),
                     )
-                  else ...[
-                    _TopicCard(
-                      emoji: _pack!.emoji,
-                      title: _pack!.title,
-                      subtitle: _pack!.subtitle,
-                      badge: _pack!.lp21.badge,
-                      color: parseHexColor(_pack!.color),
-                      locked: false,
-                      onTap: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute<void>(
-                            builder: (_) => TopicPage(pack: _pack!),
-                          ),
-                        );
-                      },
-                    ),
-                    const SizedBox(height: 16),
-                    _TopicCard(
-                      emoji: '➖',
-                      title: i18n.subtraction,
-                      subtitle: i18n.additionSoonNote,
-                      badge: 'MA.1 ${i18n.isFr ? 'Nombre et variable' : 'Zahl und Variable'}',
-                      color: CoolColors.grape,
-                      locked: true,
-                      onTap: () => _soon(context, i18n),
-                    ),
-                    const SizedBox(height: 16),
-                    _TopicCard(
-                      emoji: '🔷',
-                      title: i18n.shapes,
-                      subtitle: i18n.additionSoonNote,
-                      badge: 'MA.2 ${i18n.isFr ? 'Forme et espace' : 'Form und Raum'}',
-                      color: CoolColors.leaf,
-                      locked: true,
-                      onTap: () => _soon(context, i18n),
-                    ),
-                  ],
+                  else
+                    for (var i = 0; i < _packs.length; i++) ...[
+                      if (i > 0) const SizedBox(height: 16),
+                      _TopicCard(
+                        emoji: _packs[i].emoji,
+                        title: _packs[i].title,
+                        subtitle: _packs[i].subtitle,
+                        badge: _packs[i].lp21.badge,
+                        color: parseHexColor(_packs[i].color),
+                        onTap: () {
+                          pushKidPage(context, TopicPage(pack: _packs[i]));
+                        },
+                      ),
+                    ],
                   const SizedBox(height: 28),
                   Text(
                     i18n.footer,
@@ -177,18 +151,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-      ),
-    );
-  }
-
-  void _soon(BuildContext context, I18n i18n) {
-    ScaffoldMessenger.of(context).hideCurrentSnackBar();
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        behavior: SnackBarBehavior.floating,
-        backgroundColor: CoolColors.ink,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        content: Text(i18n.comingSoonHint, style: CoolTheme.kid(size: 16, color: Colors.white)),
       ),
     );
   }
@@ -214,7 +176,7 @@ class _LocaleChip extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
           child: Text(
             label,
             style: CoolTheme.kid(
@@ -236,7 +198,6 @@ class _TopicCard extends StatelessWidget {
     required this.subtitle,
     required this.badge,
     required this.color,
-    required this.locked,
     required this.onTap,
   });
 
@@ -245,13 +206,12 @@ class _TopicCard extends StatelessWidget {
   final String subtitle;
   final String badge;
   final Color color;
-  final bool locked;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     return KidCard(
-      color: color.withValues(alpha: locked ? 0.55 : 0.92),
+      color: color.withValues(alpha: 0.92),
       onTap: onTap,
       child: Row(
         children: [
@@ -284,8 +244,8 @@ class _TopicCard extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            locked ? Icons.lock_rounded : Icons.chevron_right_rounded,
+          const Icon(
+            Icons.chevron_right_rounded,
             size: 32,
             color: CoolColors.ink,
           ),

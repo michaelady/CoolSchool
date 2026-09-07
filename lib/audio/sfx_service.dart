@@ -6,6 +6,8 @@ abstract class SfxService {
   Future<void> correct();
   Future<void> wrong();
   Future<void> levelUp();
+  Future<void> transition();
+  Future<void> next();
 }
 
 class NoopSfx implements SfxService {
@@ -19,6 +21,12 @@ class NoopSfx implements SfxService {
 
   @override
   Future<void> levelUp() async {}
+
+  @override
+  Future<void> transition() async {}
+
+  @override
+  Future<void> next() async {}
 }
 
 class AssetSfx implements SfxService {
@@ -46,4 +54,10 @@ class AssetSfx implements SfxService {
 
   @override
   Future<void> levelUp() => _play('sounds/levelup.wav');
+
+  @override
+  Future<void> transition() => _play('sounds/transition.wav');
+
+  @override
+  Future<void> next() => _play('sounds/next.wav');
 }

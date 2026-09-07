@@ -1,0 +1,179 @@
+{
+  "id": "vocab",
+  "locale": "en",
+  "emoji": "🗣️",
+  "color": "#4CC9F0",
+  "title": "School words",
+  "subtitle": "Words and pictures",
+  "lp21": {
+    "competenceId": "L1.1",
+    "label": "Listening",
+    "focusId": "L1.1.A",
+    "focusLabel": "Vocabulary",
+    "cycle": "Cycle 1"
+  },
+  "levels": [
+    {
+      "id": "vocab-l1",
+      "title": "Word and picture",
+      "subtitle": "What matches?",
+      "lp21Tag": "L1.1.A · Vocabulary",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-voc-l1-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l1-02",
+          "prompt": "pencil",
+          "promptTts": "pencil",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l1-03",
+          "prompt": "school",
+          "promptTts": "school",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l1-04",
+          "prompt": "apple",
+          "promptTts": "apple",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l1-05",
+          "prompt": "sun",
+          "promptTts": "sun",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l1-06",
+          "prompt": "cat",
+          "promptTts": "cat",
+          "choices": [
+            "🐸",
+            "🐕",
+            "🐱"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "vocab-l2",
+      "title": "Listen",
+      "subtitle": "Listen and tap",
+      "lp21Tag": "L1.1.B · Listening",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-voc-l2-01",
+          "prompt": "Listen and tap",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "🐱",
+            "🐸"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l2-02",
+          "prompt": "Listen and tap",
+          "promptTts": "tree",
+          "choices": [
+            "🏠",
+            "🌳",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l2-03",
+          "prompt": "Listen and tap",
+          "promptTts": "house",
+          "choices": [
+            "🌳",
+            "🏫",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l2-04",
+          "prompt": "Listen and tap",
+          "promptTts": "bag",
+          "choices": [
+            "🎒",
+            "📚",
+            "✏️"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l2-05",
+          "prompt": "Listen and tap",
+          "promptTts": "star",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌼"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-voc-l2-06",
+          "prompt": "Listen and tap",
+          "promptTts": "flower",
+          "choices": [
+            "🌳",
+            "🍎",
+            "🌸"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    }
+  ]
+}

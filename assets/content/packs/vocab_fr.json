@@ -1,0 +1,179 @@
+{
+  "id": "vocab",
+  "locale": "fr",
+  "emoji": "🗣️",
+  "color": "#4CC9F0",
+  "title": "Langue de l’école",
+  "subtitle": "Mots et images",
+  "lp21": {
+    "competenceId": "L1.1",
+    "label": "Écouter",
+    "focusId": "L1.1.A",
+    "focusLabel": "Vocabulaire",
+    "cycle": "Cycle 1"
+  },
+  "levels": [
+    {
+      "id": "vocab-l1",
+      "title": "Mot et image",
+      "subtitle": "Qu’est-ce qui va ?",
+      "lp21Tag": "L1.1.A · Vocabulaire",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-voc-l1-01",
+          "prompt": "livre",
+          "promptTts": "livre",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l1-02",
+          "prompt": "crayon",
+          "promptTts": "crayon",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l1-03",
+          "prompt": "école",
+          "promptTts": "école",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l1-04",
+          "prompt": "pomme",
+          "promptTts": "pomme",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l1-05",
+          "prompt": "soleil",
+          "promptTts": "soleil",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l1-06",
+          "prompt": "chat",
+          "promptTts": "chat",
+          "choices": [
+            "🐸",
+            "🐕",
+            "🐱"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "vocab-l2",
+      "title": "Écoute",
+      "subtitle": "Écoute et touche",
+      "lp21Tag": "L1.1.B · Écouter",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-voc-l2-01",
+          "prompt": "Écoute et touche",
+          "promptTts": "chien",
+          "choices": [
+            "🐕",
+            "🐱",
+            "🐸"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l2-02",
+          "prompt": "Écoute et touche",
+          "promptTts": "arbre",
+          "choices": [
+            "🏠",
+            "🌳",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l2-03",
+          "prompt": "Écoute et touche",
+          "promptTts": "maison",
+          "choices": [
+            "🌳",
+            "🏫",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l2-04",
+          "prompt": "Écoute et touche",
+          "promptTts": "sac",
+          "choices": [
+            "🎒",
+            "📚",
+            "✏️"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l2-05",
+          "prompt": "Écoute et touche",
+          "promptTts": "étoile",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌼"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-voc-l2-06",
+          "prompt": "Écoute et touche",
+          "promptTts": "fleur",
+          "choices": [
+            "🌳",
+            "🍎",
+            "🌸"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    }
+  ]
+}

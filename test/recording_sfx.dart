@@ -20,4 +20,10 @@ class RecordingSfx implements SfxService {
 
   @override
   Future<void> levelUp() async => _record('levelup');
+
+  @override
+  Future<void> transition() async => _record('transition');
+
+  @override
+  Future<void> next() async => _record('next');
 }
