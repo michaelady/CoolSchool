@@ -13,6 +13,9 @@ class RecordingSfx implements SfxService {
   }
 
   @override
+  Future<void> preload() async {}
+
+  @override
   Future<void> correct() async => _record('correct');
 
   @override

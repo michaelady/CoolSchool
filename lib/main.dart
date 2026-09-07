@@ -17,14 +17,16 @@ Future<void> main() async {
   }
   final progress = ProgressStore();
   final settings = SessionSettings();
+  final sfx = AssetSfx(settings: settings);
   await progress.load();
+  await sfx.preload();
   runApp(
     CoolSchoolApp(
       settings: settings,
       progress: progress,
       packs: const AssetPackRepository(),
       speech: FlutterTtsSpeech(),
-      sfx: AssetSfx(settings: settings),
+      sfx: sfx,
     ),
   );
 }

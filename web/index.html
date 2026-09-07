@@ -61,6 +61,21 @@
 </head>
 <body>
   <div class="boot">CoolSchool…</div>
+  <audio id="coolschool-sfx-transition" preload="auto" src="assets/assets/sounds/transition.wav"></audio>
+  <audio id="coolschool-sfx-next" preload="auto" src="assets/assets/sounds/next.wav"></audio>
+  <audio id="coolschool-sfx-correct" preload="auto" src="assets/assets/sounds/correct.wav"></audio>
+  <audio id="coolschool-sfx-wrong" preload="auto" src="assets/assets/sounds/wrong.wav"></audio>
+  <audio id="coolschool-sfx-levelup" preload="auto" src="assets/assets/sounds/levelup.wav"></audio>
+  <script>
+    // First pointerdown resumes audio so later Timer-based next.wav can play.
+    document.addEventListener('pointerdown', function () {
+      document.querySelectorAll('audio[id^="coolschool-sfx-"]').forEach(function (node) {
+        var a = node;
+        var p = a.play();
+        if (p && p.then) p.then(function () { a.pause(); a.currentTime = 0; }).catch(function () {});
+      });
+    }, { once: true });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
