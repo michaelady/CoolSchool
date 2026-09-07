@@ -131,7 +131,17 @@ void main() {
     final en = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-en')));
     final ro = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-ro')));
     expect(de.left < fr.left && fr.left < en.left && en.left < ro.left, isTrue);
-    expect(ro.left - en.right, lessThan(20), reason: 'RO must sit next to EN, not across the header');
+    expect(ro.left - en.right, lessThan(24), reason: 'RO must sit next to EN in the header');
+    expect(
+      ro.top < en.bottom + 16 || (en.left < ro.left && ro.left - en.right < 24),
+      isTrue,
+      reason: 'RO must be in the header with the other chips, not under the sun',
+    );
+    final sun = tester.getRect(find.byKey(const ValueKey<String>('home-sun')));
+    for (final rect in [de, fr, en, ro]) {
+      expect(rect.bottom, lessThanOrEqualTo(sun.top + 0.5), reason: 'language chip is under the sun hero');
+      expect(rect.overlaps(sun), isFalse, reason: 'language chip intersects the sun hero');
+    }
     expect(find.text('Addition'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Kein Login'),
@@ -150,17 +160,46 @@ void main() {
     for (final code in ['de', 'fr', 'en', 'ro']) {
       expectChipOnScreen(tester, code);
     }
+    final sun = tester.getRect(find.byKey(const ValueKey<String>('home-sun')));
+    for (final code in ['de', 'fr', 'en', 'ro']) {
+      final rect = tester.getRect(find.byKey(ValueKey<String>('locale-chip-$code')));
+      expect(rect.overlaps(sun), isFalse, reason: '$code overlaps the sun on a phone width');
+    }
+  });
+
+  testWidgets('chips stay above the sun at the tester 1280x800 desktop size', (tester) async {
+    tester.view.physicalSize = const Size(1280, 800);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+    await pumpApp(tester);
+    final sun = tester.getRect(find.byKey(const ValueKey<String>('home-sun')));
+    for (final code in ['de', 'fr', 'en', 'ro']) {
+      expectChipOnScreen(tester, code);
+      final rect = tester.getRect(find.byKey(ValueKey<String>('locale-chip-$code')));
+      expect(rect.bottom, lessThanOrEqualTo(sun.top + 0.5));
+      expect(rect.overlaps(sun), isFalse, reason: '$code is under the sun at 1280x800');
+    }
   });
 
   testWidgets('language chips switch EN and RO chrome strings', (tester) async {
     await pumpApp(tester);
     await tester.tap(find.text('EN'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.textContaining('No account'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.textContaining('No account'), findsOneWidget);
     expect(find.textContaining('No ads'), findsOneWidget);
 
     await tester.tap(find.text('RO'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.textContaining('Fără cont'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.textContaining('Fără cont'), findsOneWidget);
     expect(find.textContaining('Fără reclame'), findsOneWidget);
   });
@@ -176,6 +215,11 @@ void main() {
       ],
     );
     expect(find.text('Addition'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Subtraktion'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Subtraktion'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Zählen'),

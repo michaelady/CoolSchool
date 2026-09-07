@@ -57,14 +57,19 @@
       background: #E53935;
       border-color: #9B1B1B;
     }
-    /* Real DOM chips — CanvasKit Wrap dropped RO even at 1280×800. */
+    /* Header strip above the hero — never stacked on the sun. */
     #coolschool-locales {
       position: fixed;
-      top: 16px;
-      left: max(20px, calc(50% - 360px));
+      top: 0;
+      left: 0;
+      right: 0;
       z-index: 2147483647;
       display: flex;
+      flex-wrap: wrap;
       gap: 8px;
+      padding: 10px 80px 10px 16px;
+      background: rgba(255, 253, 248, 0.96);
+      box-shadow: 0 1px 4px rgba(45, 49, 66, 0.1);
       pointer-events: auto;
     }
     #coolschool-locales button {

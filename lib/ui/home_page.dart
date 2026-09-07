@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -78,80 +77,93 @@ class _HomePageState extends State<HomePage> {
           child: Center(
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 720),
-              child: ListView(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
+              child: Column(
                 children: [
-                  // Intrinsic chips + Spacer. Do not Wrap (RO dropped off the
-                  // first run on CanvasKit) and do not put chips in a
-                  // horizontal scroll view (RO looked "missing" when clipped).
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      // On web the four chips live in the real DOM
-                      // (#coolschool-locales) so CanvasKit cannot drop RO.
-                      if (kIsWeb)
-                        const SizedBox(width: 232, height: 48)
-                      else
-                        _LanguageChipBar(
-                          selected: i18n.lang,
-                          onSelected: _switchLocale,
+                  // Chip bar is a sibling above the hero, not in a Stack
+                  // with the sun. RO was hittable at ~x=493 but painted
+                  // *under* the unclipped sun rays.
+                  Material(
+                    color: const Color(0xF5FFFDF8),
+                    elevation: 1,
+                    shadowColor: CoolColors.ink.withValues(alpha: 0.12),
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(16, 10, 12, 10),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: _LanguageChipBar(
+                              selected: i18n.lang,
+                              onSelected: _switchLocale,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          const MuteButton(),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: ListView(
+                      padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
+                      children: [
+                        const SunMascot(
+                          key: ValueKey<String>('home-sun'),
+                          size: 96,
                         ),
-                      const Spacer(),
-                      const MuteButton(),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
-                  const SunMascot(size: 120),
-                  const SizedBox(height: 8),
-                  Text(
-                    'CoolSchool',
-                    textAlign: TextAlign.center,
-                    style: CoolTheme.kid(size: 42, weight: FontWeight.w700),
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    i18n.tagline,
-                    textAlign: TextAlign.center,
-                    style: CoolTheme.kid(size: 18, color: CoolColors.inkSoft),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    i18n.ageNote,
-                    textAlign: TextAlign.center,
-                    style: CoolTheme.kid(size: 14, color: CoolColors.inkSoft, weight: FontWeight.w500),
-                  ),
-                  const SizedBox(height: 24),
-                  if (_loading)
-                    const Padding(
-                      padding: EdgeInsets.all(32),
-                      child: Center(child: CircularProgressIndicator()),
-                    )
-                  else if (_error != null)
-                    KidCard(
-                      child: Text(
-                        '$_error',
-                        style: CoolTheme.kid(size: 16, color: CoolColors.rose),
-                      ),
-                    )
-                  else
-                    for (var i = 0; i < _packs.length; i++) ...[
-                      if (i > 0) const SizedBox(height: 16),
-                      _TopicCard(
-                        emoji: _packs[i].emoji,
-                        title: _packs[i].title,
-                        subtitle: _packs[i].subtitle,
-                        badge: _packs[i].lp21.badge,
-                        color: parseHexColor(_packs[i].color),
-                        onTap: () {
-                          pushKidPage(context, TopicPage(pack: _packs[i]));
-                        },
-                      ),
-                    ],
-                  const SizedBox(height: 28),
-                  Text(
-                    i18n.footer,
-                    textAlign: TextAlign.center,
-                    style: CoolTheme.kid(size: 13, color: CoolColors.inkSoft, weight: FontWeight.w500),
+                        const SizedBox(height: 8),
+                        Text(
+                          'CoolSchool',
+                          textAlign: TextAlign.center,
+                          style: CoolTheme.kid(size: 42, weight: FontWeight.w700),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          i18n.tagline,
+                          textAlign: TextAlign.center,
+                          style: CoolTheme.kid(size: 18, color: CoolColors.inkSoft),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          i18n.ageNote,
+                          textAlign: TextAlign.center,
+                          style: CoolTheme.kid(size: 14, color: CoolColors.inkSoft, weight: FontWeight.w500),
+                        ),
+                        const SizedBox(height: 24),
+                        if (_loading)
+                          const Padding(
+                            padding: EdgeInsets.all(32),
+                            child: Center(child: CircularProgressIndicator()),
+                          )
+                        else if (_error != null)
+                          KidCard(
+                            child: Text(
+                              '$_error',
+                              style: CoolTheme.kid(size: 16, color: CoolColors.rose),
+                            ),
+                          )
+                        else
+                          for (var i = 0; i < _packs.length; i++) ...[
+                            if (i > 0) const SizedBox(height: 16),
+                            _TopicCard(
+                              emoji: _packs[i].emoji,
+                              title: _packs[i].title,
+                              subtitle: _packs[i].subtitle,
+                              badge: _packs[i].lp21.badge,
+                              color: parseHexColor(_packs[i].color),
+                              onTap: () {
+                                pushKidPage(context, TopicPage(pack: _packs[i]));
+                              },
+                            ),
+                          ],
+                        const SizedBox(height: 28),
+                        Text(
+                          i18n.footer,
+                          textAlign: TextAlign.center,
+                          style: CoolTheme.kid(size: 13, color: CoolColors.inkSoft, weight: FontWeight.w500),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
@@ -174,18 +186,17 @@ class _LanguageChipBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisSize: MainAxisSize.min,
+    return Wrap(
+      spacing: 8,
+      runSpacing: 8,
       children: [
-        for (var i = 0; i < AppLocales.codes.length; i++) ...[
-          if (i > 0) const SizedBox(width: 8),
+        for (final code in AppLocales.codes)
           _LocaleChip(
-            key: ValueKey<String>('locale-chip-${AppLocales.codes[i]}'),
-            label: AppLocales.chips[AppLocales.codes[i]]!,
-            selected: selected == AppLocales.codes[i],
-            onTap: () => onSelected(AppLocales.codes[i]),
+            key: ValueKey<String>('locale-chip-$code'),
+            label: AppLocales.chips[code]!,
+            selected: selected == code,
+            onTap: () => onSelected(code),
           ),
-        ],
       ],
     );
   }
@@ -209,16 +220,19 @@ class _LocaleChip extends StatelessWidget {
       button: true,
       selected: selected,
       label: label,
-      child: Material(
-        color: selected ? CoolColors.ink : Colors.white,
-        borderRadius: BorderRadius.circular(20),
-        child: InkWell(
+      child: Align(
+        alignment: Alignment.centerLeft,
+        widthFactor: 1,
+        heightFactor: 1,
+        child: Material(
+          color: selected ? CoolColors.ink : Colors.white,
           borderRadius: BorderRadius.circular(20),
-          onTap: onTap,
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(20),
+            onTap: onTap,
+            child: SizedBox(
+              width: 56,
+              height: 48,
               child: Center(
                 child: Text(
                   label,

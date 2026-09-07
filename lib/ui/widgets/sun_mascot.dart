@@ -14,7 +14,9 @@ class SunMascot extends StatelessWidget {
     return SizedBox(
       width: size,
       height: size,
-      child: CustomPaint(painter: _SunPainter()),
+      child: ClipRect(
+        child: CustomPaint(painter: _SunPainter(), size: Size.square(size)),
+      ),
     );
   }
 }
