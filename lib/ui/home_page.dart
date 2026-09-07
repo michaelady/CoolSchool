@@ -72,22 +72,17 @@ class _HomePageState extends State<HomePage> {
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
                 children: [
-                  // Tight left-aligned chips (not a Wrap, not stretched).
-                  // A Wrap next to mute let RO drop off the first run on web.
+                  // Intrinsic chips + Spacer. Do not Wrap (RO dropped off the
+                  // first run on CanvasKit) and do not put chips in a
+                  // horizontal scroll view (RO looked "missing" when clipped).
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Flexible(
-                        child: SingleChildScrollView(
-                          scrollDirection: Axis.horizontal,
-                          clipBehavior: Clip.none,
-                          child: _LanguageChipBar(
-                            selected: i18n.lang,
-                            onSelected: _switchLocale,
-                          ),
-                        ),
+                      _LanguageChipBar(
+                        selected: i18n.lang,
+                        onSelected: _switchLocale,
                       ),
-                      const SizedBox(width: 8),
+                      const Spacer(),
                       const MuteButton(),
                     ],
                   ),
