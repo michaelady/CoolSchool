@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -9,6 +10,7 @@ import '../game/scoring.dart';
 import '../l10n/strings.dart';
 import 'reward_page.dart';
 import 'theme.dart';
+import 'web_feedback_overlay.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/mute_button.dart';
 
@@ -83,6 +85,7 @@ class _ExercisePageState extends State<ExercisePage>
   @override
   void dispose() {
     _holdTimer?.cancel();
+    hideWebAnswerFeedback();
     _shake.dispose();
     _speech?.stop();
     super.dispose();
@@ -104,6 +107,8 @@ class _ExercisePageState extends State<ExercisePage>
   void _pick(int choice) {
     if (_phase != FeedbackPhase.answering) return;
     final correct = _exercise.isCorrect(choice);
+    final i18n = I18n(AppScope.of(context).settings.locale);
+    final label = correct ? i18n.correct : i18n.wrong;
     setState(() {
       _phase = FeedbackPhase.locked;
       _picked = choice;
@@ -111,6 +116,8 @@ class _ExercisePageState extends State<ExercisePage>
       _feedbackPainted = false;
       _holdElapsed = false;
     });
+    // DOM write is synchronous so Chrome sees the banner in this tap turn.
+    showWebAnswerFeedback(correct: correct, label: label);
     _run.mark(correct);
 
     // Paint the locked frame first, then start wall-clock hold + SFX.
@@ -146,6 +153,7 @@ class _ExercisePageState extends State<ExercisePage>
     if (!mounted || _phase != FeedbackPhase.locked) return;
     // Never clear feedback in the same frame that first showed it.
     if (!_feedbackPainted || !_holdElapsed) return;
+    hideWebAnswerFeedback();
 
     if (_run.isComplete) {
       unawaited(_finishRun());
@@ -240,12 +248,13 @@ class _ExercisePageState extends State<ExercisePage>
                             ),
                           ),
                           const SizedBox(height: 12),
-                          // Pinned outside the ListView so the hold cannot
-                          // scroll off-screen or miss the first layout pass.
+                          // Widget-tree banner for tests and native. Flutter web
+                          // also paints a real DOM banner (see web_feedback_overlay)
+                          // so CanvasKit cannot skip the hold text.
                           AnimatedSwitcher(
                             duration: const Duration(milliseconds: 120),
                             switchInCurve: Curves.easeOut,
-                            child: showingFeedback
+                            child: showingFeedback && !kIsWeb
                                 ? _FeedbackBanner(
                                     key: const ValueKey<String>('answer-feedback-banner'),
                                     correct: _feedbackCorrect ?? false,
