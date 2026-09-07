@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'app.dart';
@@ -9,6 +10,11 @@ import 'game/session_settings.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // Put exercise labels (Richtig! / Schade!) into the web semantics DOM so
+  // Chrome testers can observe the hold, not only the JS bundle strings.
+  if (kIsWeb) {
+    WidgetsBinding.instance.ensureSemantics();
+  }
   final progress = ProgressStore();
   final settings = SessionSettings();
   await progress.load();

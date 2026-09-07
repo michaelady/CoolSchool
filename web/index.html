@@ -29,6 +29,34 @@
       font-size: 28px;
       font-weight: 700;
     }
+    /* Real DOM banner so the hold is visible even if CanvasKit skips a frame. */
+    #coolschool-answer-feedback {
+      position: fixed;
+      top: 68px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2147483647;
+      box-sizing: border-box;
+      width: min(92vw, 640px);
+      padding: 16px 22px;
+      border-radius: 22px;
+      border: 4px solid #1B6B30;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.2;
+      text-align: center;
+      pointer-events: none;
+      box-shadow: 0 8px 24px rgba(45, 49, 66, 0.28);
+    }
+    #coolschool-answer-feedback[data-correct="true"] {
+      background: #2FA84A;
+      border-color: #1B6B30;
+    }
+    #coolschool-answer-feedback[data-correct="false"] {
+      background: #E53935;
+      border-color: #9B1B1B;
+    }
   </style>
 </head>
 <body>
