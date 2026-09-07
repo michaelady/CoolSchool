@@ -139,7 +139,12 @@ class SpokenMath {
       return numberWord(n, lang);
     });
     final plus = 'plus';
-    final minus = lang == 'fr' ? 'moins' : 'minus';
+    final minus = switch (lang) {
+      'fr' => 'moins',
+      'ro' => 'scăzut',
+      'en' => 'minus',
+      _ => 'minus',
+    };
     final times = switch (lang) {
       'fr' => 'fois',
       'en' => 'times',

@@ -23,7 +23,7 @@
         {
           "id": "ro-sub-l1-01",
           "prompt": "5 − 2 = ?",
-          "promptTts": "Cât fac cinci minus doi?",
+          "promptTts": "Cât fac cinci scăzut doi?",
           "choices": [
             "2",
             "3",
@@ -34,7 +34,7 @@
         {
           "id": "ro-sub-l1-02",
           "prompt": "6 − 1 = ?",
-          "promptTts": "Cât fac șase minus unu?",
+          "promptTts": "Cât fac șase scăzut unu?",
           "choices": [
             "4",
             "5",
@@ -45,7 +45,7 @@
         {
           "id": "ro-sub-l1-03",
           "prompt": "8 − 3 = ?",
-          "promptTts": "Cât fac opt minus trei?",
+          "promptTts": "Cât fac opt scăzut trei?",
           "choices": [
             "4",
             "5",
@@ -56,7 +56,7 @@
         {
           "id": "ro-sub-l1-04",
           "prompt": "9 − 4 = ?",
-          "promptTts": "Cât fac nouă minus patru?",
+          "promptTts": "Cât fac nouă scăzut patru?",
           "choices": [
             "4",
             "5",
@@ -67,7 +67,7 @@
         {
           "id": "ro-sub-l1-05",
           "prompt": "7 − 5 = ?",
-          "promptTts": "Cât fac șapte minus cinci?",
+          "promptTts": "Cât fac șapte scăzut cinci?",
           "choices": [
             "2",
             "3",
@@ -78,7 +78,7 @@
         {
           "id": "ro-sub-l1-06",
           "prompt": "4 − 2 = ?",
-          "promptTts": "Cât fac patru minus doi?",
+          "promptTts": "Cât fac patru scăzut doi?",
           "choices": [
             "1",
             "2",
@@ -98,7 +98,7 @@
         {
           "id": "ro-sub-l2-01",
           "prompt": "12 − 4 = ?",
-          "promptTts": "Cât fac doisprezece minus patru?",
+          "promptTts": "Cât fac doisprezece scăzut patru?",
           "choices": [
             "7",
             "8",
@@ -109,7 +109,7 @@
         {
           "id": "ro-sub-l2-02",
           "prompt": "15 − 6 = ?",
-          "promptTts": "Cât fac cincisprezece minus șase?",
+          "promptTts": "Cât fac cincisprezece scăzut șase?",
           "choices": [
             "8",
             "9",
@@ -120,7 +120,7 @@
         {
           "id": "ro-sub-l2-03",
           "prompt": "11 − 3 = ?",
-          "promptTts": "Cât fac unsprezece minus trei?",
+          "promptTts": "Cât fac unsprezece scăzut trei?",
           "choices": [
             "7",
             "8",
@@ -131,7 +131,7 @@
         {
           "id": "ro-sub-l2-04",
           "prompt": "14 − 5 = ?",
-          "promptTts": "Cât fac paisprezece minus cinci?",
+          "promptTts": "Cât fac paisprezece scăzut cinci?",
           "choices": [
             "8",
             "9",
@@ -142,7 +142,7 @@
         {
           "id": "ro-sub-l2-05",
           "prompt": "18 − 9 = ?",
-          "promptTts": "Cât fac optsprezece minus nouă?",
+          "promptTts": "Cât fac optsprezece scăzut nouă?",
           "choices": [
             "8",
             "9",
@@ -153,7 +153,7 @@
         {
           "id": "ro-sub-l2-06",
           "prompt": "16 − 7 = ?",
-          "promptTts": "Cât fac șaisprezece minus șapte?",
+          "promptTts": "Cât fac șaisprezece scăzut șapte?",
           "choices": [
             "8",
             "9",

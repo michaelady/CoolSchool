@@ -18,7 +18,9 @@ void main() {
       expect(SpokenMath.prepare('2 + 3 = ?', 'fr'), 'deux plus trois');
       expect(SpokenMath.prepare('2 + 3 = ?', 'de'), 'zwei plus drei');
       expect(SpokenMath.prepare('5 - 2 = ?', 'en'), 'five minus two');
-      expect(SpokenMath.prepare('5 − 2 = ?', 'ro'), 'cinci minus doi');
+      expect(SpokenMath.prepare('5 − 2 = ?', 'de'), 'fünf minus zwei');
+      expect(SpokenMath.prepare('5 − 2 = ?', 'fr'), 'cinq moins deux');
+      expect(SpokenMath.prepare('5 − 2 = ?', 'ro'), 'cinci scăzut doi');
     });
 
     test('rewrites leftover digits inside a sentence', () {

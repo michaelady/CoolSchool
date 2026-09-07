@@ -95,12 +95,12 @@ def add_tts(lang: str, a: int, b: int) -> str:
 
 def sub_tts(lang: str, a: int, b: int) -> str:
     left, right = nword(lang, a), nword(lang, b)
-    minus = "moins" if lang == "fr" else "minus"
+    minus = {"de": "minus", "fr": "moins", "en": "minus", "ro": "scăzut"}[lang]
     return {
-        "de": f"Was ist {left} minus {right}?",
+        "de": f"Was ist {left} {minus} {right}?",
         "fr": f"Combien font {left} {minus} {right} ?",
-        "en": f"What is {left} minus {right}?",
-        "ro": f"Cât fac {left} minus {right}?",
+        "en": f"What is {left} {minus} {right}?",
+        "ro": f"Cât fac {left} {minus} {right}?",
     }[lang]
 
 

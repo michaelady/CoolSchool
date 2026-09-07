@@ -114,6 +114,4 @@ CI (`/.github/workflows/web.yml`) runs analyze + test on every PR, then deploys 
 - Unit: star scoring, level unlock, spoken math, voice picker, pack catalog
 - Widget: language chips, four topics, feedback hold, sticky mute, reward Home
 
-## Note on PR #3
-
-This work is based on latest `main` (Phase 1 QA). **PR #3** (visible Richtig/Schade hold) was still open, so those commits are included here. If #3 merges first, rebase/cherry-pick accordingly.
+The visible Richtig/Schade hold from **PR #3** is merged on `main` and included here.

@@ -40,6 +40,16 @@ void main() {
     expect(pack.levels.first.exercises.first.items, isNotEmpty);
   });
 
+  test('Romanian subtraction TTS uses scăzut, not English minus', () {
+    final pack = loadPack('subtraction', 'ro');
+    for (final level in pack.levels) {
+      for (final exercise in level.exercises) {
+        expect(exercise.promptTts, contains('scăzut'));
+        expect(exercise.promptTts.toLowerCase(), isNot(contains('minus')));
+      }
+    }
+  });
+
   test('vocab packs use picture choices', () {
     final pack = loadPack('vocab', 'fr');
     expect(pack.levels.first.exercises.first.kind, ExerciseKind.vocab);
