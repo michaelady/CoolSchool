@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -255,7 +254,7 @@ class _ExercisePageState extends State<ExercisePage>
                           AnimatedSwitcher(
                             duration: const Duration(milliseconds: 120),
                             switchInCurve: Curves.easeOut,
-                            child: showingFeedback && !kIsWeb
+                            child: showingFeedback
                                 ? _FeedbackBanner(
                                     key: const ValueKey<String>('answer-feedback-banner'),
                                     correct: _feedbackCorrect ?? false,

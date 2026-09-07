@@ -2,8 +2,9 @@ import 'package:web/web.dart' as web;
 
 const webAnswerFeedbackId = 'coolschool-answer-feedback';
 
-/// Browser-owned banner so Flutter web testers see Richtig/Schade in the DOM
-/// and on screen even if the CanvasKit frame is batched with the next prompt.
+/// Browser-owned banner so Chrome testers see Richtig/Schade in the DOM.
+/// Appended on [document.documentElement] with inline z-index so it sits
+/// above Flutter's full-screen CanvasKit / glass pane.
 void showWebAnswerFeedback({required bool correct, required String label}) {
   final existing = web.document.getElementById(webAnswerFeedbackId);
   final el = (existing ?? web.HTMLDivElement()) as web.HTMLElement;
@@ -13,8 +14,18 @@ void showWebAnswerFeedback({required bool correct, required String label}) {
   el.setAttribute('data-correct', correct ? 'true' : 'false');
   el.setAttribute('data-testid', 'answer-feedback');
   el.textContent = label;
+  el.style
+    ..setProperty('position', 'fixed')
+    ..setProperty('top', '68px')
+    ..setProperty('left', '50%')
+    ..setProperty('transform', 'translateX(-50%)')
+    ..setProperty('z-index', '2147483647')
+    ..setProperty('display', 'block')
+    ..setProperty('opacity', '1')
+    ..setProperty('visibility', 'visible')
+    ..setProperty('pointer-events', 'none');
   if (existing == null) {
-    web.document.body?.append(el);
+    web.document.documentElement?.append(el);
   }
 }
 
