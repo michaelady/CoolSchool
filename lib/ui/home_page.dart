@@ -7,7 +7,6 @@ import '../l10n/strings.dart';
 import 'navigation.dart';
 import 'theme.dart';
 import 'topic_page.dart';
-import 'web_locale_bar.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/mute_button.dart';
 import 'widgets/sun_mascot.dart';
@@ -60,16 +59,9 @@ class _HomePageState extends State<HomePage> {
   }
 
   @override
-  void dispose() {
-    hideWebLocaleBar();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     final scope = AppScope.of(context);
     final i18n = I18n(scope.settings.locale);
-    showWebLocaleBar(selected: i18n.lang, onSelect: _switchLocale);
     return SkyBackdrop(
       child: Scaffold(
         backgroundColor: Colors.transparent,
@@ -77,36 +69,12 @@ class _HomePageState extends State<HomePage> {
           child: Center(
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 720),
-              child: Column(
+              // One chip row, painted last so the sun cannot cover RO.
+              child: Stack(
                 children: [
-                  // Chip bar is a sibling above the hero, not in a Stack
-                  // with the sun. RO was hittable at ~x=493 but painted
-                  // *under* the unclipped sun rays.
-                  Material(
-                    color: const Color(0xF5FFFDF8),
-                    elevation: 1,
-                    shadowColor: CoolColors.ink.withValues(alpha: 0.12),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(16, 10, 12, 10),
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Expanded(
-                            child: _LanguageChipBar(
-                              selected: i18n.lang,
-                              onSelected: _switchLocale,
-                            ),
-                          ),
-                          const SizedBox(width: 8),
-                          const MuteButton(),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: ListView(
-                      padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
-                      children: [
+                  ListView(
+                    padding: const EdgeInsets.fromLTRB(20, 88, 20, 28),
+                    children: [
                         const SunMascot(
                           key: ValueKey<String>('home-sun'),
                           size: 96,
@@ -162,7 +130,31 @@ class _HomePageState extends State<HomePage> {
                           textAlign: TextAlign.center,
                           style: CoolTheme.kid(size: 13, color: CoolColors.inkSoft, weight: FontWeight.w500),
                         ),
-                      ],
+                    ],
+                  ),
+                  Positioned(
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    child: Material(
+                      color: const Color(0xF5FFFDF8),
+                      elevation: 3,
+                      shadowColor: CoolColors.ink.withValues(alpha: 0.16),
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(16, 10, 12, 10),
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: _LanguageChipBar(
+                                selected: i18n.lang,
+                                onSelected: _switchLocale,
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            const MuteButton(),
+                          ],
+                        ),
+                      ),
                     ),
                   ),
                 ],

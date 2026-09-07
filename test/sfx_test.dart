@@ -30,14 +30,11 @@ void main() {
     expect(webSoundUrl('next', page: Uri.parse('https://example.test/app/?v=p2')), isNot(contains('?')));
   });
 
-  test('index.html ships four locale buttons and whoosh audio tags', () {
+  test('index.html ships whoosh audio tags', () {
     final html = File('web/index.html').readAsStringSync();
-    for (final code in ['de', 'fr', 'en', 'ro']) {
-      expect(html, contains('id="coolschool-locale-$code"'));
-      expect(html, contains('>${code.toUpperCase()}</button>'));
-    }
     expect(html, contains('coolschool-sfx-transition'));
     expect(html, contains('assets/assets/sounds/transition.wav'));
     expect(html, contains('coolschool-sfx-next'));
+    expect(html, isNot(contains('coolschool-locale-ro')));
   });
 }
