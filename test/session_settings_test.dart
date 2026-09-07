@@ -15,11 +15,15 @@ void main() {
     expect(ticks, 2);
   });
 
-  test('locale switches between de and fr', () {
+  test('locale normalizes BCP-47 tags to de/fr/en/ro', () {
     final settings = SessionSettings();
     settings.setLocale('fr-CH');
     expect(settings.locale, 'fr');
-    settings.setLocale('de');
+    settings.setLocale('en-GB');
+    expect(settings.locale, 'en');
+    settings.setLocale('ro-RO');
+    expect(settings.locale, 'ro');
+    settings.setLocale('de-DE');
     expect(settings.locale, 'de');
   });
 }

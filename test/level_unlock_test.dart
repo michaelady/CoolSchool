@@ -16,9 +16,10 @@ void main() {
     pack = loadPack('de');
   });
 
-  test('addition packs expose three levels', () {
-    expect(pack.levels, hasLength(3));
-    expect(loadPack('fr').levels, hasLength(3));
+  test('addition packs expose three levels in every language', () {
+    for (final locale in ['de', 'fr', 'en', 'ro']) {
+      expect(loadPack(locale).levels, hasLength(3));
+    }
     expect(pack.levels.first.unlockAfterStars, 0);
     expect(pack.levels[1].unlockAfterStars, 1);
   });
@@ -86,11 +87,10 @@ void main() {
     );
   });
 
-  test('DE and FR packs share stable level ids', () {
-    final fr = loadPack('fr');
-    expect(
-      pack.levels.map((level) => level.id).toList(),
-      fr.levels.map((level) => level.id).toList(),
-    );
+  test('DE FR EN RO addition packs share stable level ids', () {
+    final de = pack.levels.map((level) => level.id).toList();
+    expect(loadPack('fr').levels.map((level) => level.id).toList(), de);
+    expect(loadPack('en').levels.map((level) => level.id).toList(), de);
+    expect(loadPack('ro').levels.map((level) => level.id).toList(), de);
   });
 }

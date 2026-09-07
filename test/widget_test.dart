@@ -13,13 +13,13 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'recording_sfx.dart';
 
-ContentPack samplePack() {
+ContentPack samplePack([String file = 'addition_de.json']) {
   return ContentPack.fromJsonString(
-    File('assets/content/packs/addition_de.json').readAsStringSync(),
+    File('assets/content/packs/$file').readAsStringSync(),
   );
 }
 
-ContentPack tinyPack({int exercises = 1, int levels = 1}) {
+ContentPack tinyPack({int exercises = 1, int levels = 1, String title = 'Addition'}) {
   final items = [
     for (var i = 0; i < exercises; i++)
       '''
@@ -49,7 +49,7 @@ ContentPack tinyPack({int exercises = 1, int levels = 1}) {
   "locale": "de",
   "emoji": "+",
   "color": "#FF8A5B",
-  "title": "Addition",
+  "title": "$title",
   "subtitle": "Plus",
   "lp21": {
     "competenceId": "MA.1",
@@ -65,32 +65,54 @@ ContentPack tinyPack({int exercises = 1, int levels = 1}) {
 
 Widget app({
   ContentPack? pack,
+  List<ContentPack>? packs,
   ProgressStore? progress,
   SessionSettings? settings,
   SfxService? sfx,
 }) {
-  final content = pack ?? samplePack();
+  final content = packs ?? [pack ?? samplePack()];
   return CoolSchoolApp(
     settings: settings ?? SessionSettings(),
     progress: progress ?? ProgressStore(persist: false),
-    packs: MemoryPackRepository(content),
+    packs: MemoryPackRepository.all(content),
     speech: const NoopSpeech(),
     sfx: sfx ?? const NoopSfx(),
-    initialPack: content,
   );
 }
 
-Future<void> openFirstExercise(WidgetTester tester, {String level = 'Mini'}) async {
-  await tester.tap(find.text('Addition'));
+Future<void> pumpApp(
+  WidgetTester tester, {
+  ContentPack? pack,
+  List<ContentPack>? packs,
+  ProgressStore? progress,
+  SessionSettings? settings,
+  SfxService? sfx,
+}) async {
+  await tester.pumpWidget(
+    app(pack: pack, packs: packs, progress: progress, settings: settings, sfx: sfx),
+  );
+  await tester.pumpAndSettle();
+}
+
+Future<void> openFirstExercise(
+  WidgetTester tester, {
+  String topic = 'Addition',
+  String level = 'Mini',
+}) async {
+  await tester.tap(find.text(topic));
   await tester.pumpAndSettle();
   await tester.tap(find.text(level));
   await tester.pumpAndSettle();
 }
 
 void main() {
-  testWidgets('home shows Addition and stays ad-free', (tester) async {
-    await tester.pumpWidget(app());
+  testWidgets('home shows four language chips and stays ad-free', (tester) async {
+    await pumpApp(tester);
     expect(find.text('CoolSchool'), findsOneWidget);
+    expect(find.text('DE'), findsOneWidget);
+    expect(find.text('FR'), findsOneWidget);
+    expect(find.text('EN'), findsOneWidget);
+    expect(find.text('RO'), findsOneWidget);
     expect(find.text('Addition'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Kein Login'),
@@ -101,8 +123,47 @@ void main() {
     expect(find.textContaining('Werbung'), findsOneWidget);
   });
 
+  testWidgets('language chips switch EN and RO chrome strings', (tester) async {
+    await pumpApp(tester);
+    await tester.tap(find.text('EN'));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('No account'), findsOneWidget);
+    expect(find.textContaining('No ads'), findsOneWidget);
+
+    await tester.tap(find.text('RO'));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Fără cont'), findsOneWidget);
+    expect(find.textContaining('Fără reclame'), findsOneWidget);
+  });
+
+  testWidgets('home lists subtraction, counting, and school words', (tester) async {
+    await pumpApp(
+      tester,
+      packs: [
+        samplePack('addition_de.json'),
+        samplePack('subtraction_de.json'),
+        samplePack('counting_de.json'),
+        samplePack('vocab_de.json'),
+      ],
+    );
+    expect(find.text('Addition'), findsOneWidget);
+    expect(find.text('Subtraktion'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Zählen'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.text('Zählen'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Schulsprache'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.text('Schulsprache'), findsOneWidget);
+  });
+
   testWidgets('home to topic to first exercise has a back path', (tester) async {
-    await tester.pumpWidget(app());
+    await pumpApp(tester);
     await tester.tap(find.text('Addition'));
     await tester.pumpAndSettle();
     expect(find.text('Zahlenfreunde'), findsOneWidget);
@@ -122,10 +183,52 @@ void main() {
     expect(find.text('CoolSchool'), findsOneWidget);
   });
 
+  testWidgets('subtraction and counting are playable', (tester) async {
+    await pumpApp(
+      tester,
+      packs: [
+        samplePack('subtraction_de.json'),
+        samplePack('counting_de.json'),
+      ],
+    );
+
+    await tester.tap(find.text('Subtraktion'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Wegnehmen'));
+    await tester.pumpAndSettle();
+    expect(find.text('5 − 2 = ?'), findsOneWidget);
+    await tester.tap(find.byTooltip('Zurück'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byTooltip('Zurück'));
+    await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('Zählen'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.text('Zählen'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Kleine Mengen'));
+    await tester.pumpAndSettle();
+    expect(find.text('Wie viele?'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('count-item-0')), findsOneWidget);
+  });
+
+  testWidgets('vocab listen-or-match game is playable', (tester) async {
+    await pumpApp(tester, pack: samplePack('vocab_de.json'));
+    await tester.tap(find.text('Schulsprache'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Wort und Bild'));
+    await tester.pumpAndSettle();
+    expect(find.text('Buch'), findsOneWidget);
+    expect(find.text('📚'), findsOneWidget);
+  });
+
   testWidgets('answering a short run awards stars', (tester) async {
     final tiny = tinyPack();
     final progress = ProgressStore(persist: false);
-    await tester.pumpWidget(app(pack: tiny, progress: progress));
+    await pumpApp(tester, pack: tiny, progress: progress);
     await openFirstExercise(tester);
     await tester.tap(find.text('2'));
     await tester.pump();
@@ -138,10 +241,20 @@ void main() {
     expect(find.text('Home'), findsOneWidget);
   });
 
+  testWidgets('French feedback hold uses Bravo', (tester) async {
+    final settings = SessionSettings()..setLocale('fr');
+    await pumpApp(tester, pack: tinyPack(), settings: settings);
+    await openFirstExercise(tester);
+    await tester.tap(find.text('2'));
+    await tester.pump();
+    expect(find.text('Bravo !'), findsOneWidget);
+    expect(find.text('Richtig!'), findsNothing);
+  });
+
   testWidgets('chosen answer holds a clear correct or wrong visual and SFX', (tester) async {
     final settings = SessionSettings();
     final sfx = RecordingSfx(settings);
-    await tester.pumpWidget(app(pack: tinyPack(exercises: 2), settings: settings, sfx: sfx));
+    await pumpApp(tester, pack: tinyPack(exercises: 2), settings: settings, sfx: sfx);
     await openFirstExercise(tester);
 
     await tester.tap(find.text('1'));
@@ -150,7 +263,7 @@ void main() {
     expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
     expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(find.text('2 + 1 = ?'), findsNothing);
-    expect(sfx.events, ['wrong']);
+    expect(sfx.events, ['transition', 'transition', 'wrong']);
 
     // Hold must survive a near-full timer pump — this fails if feedback is
     // cleared in the same frame as the tap / advance.
@@ -163,12 +276,13 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('2 + 1 = ?'), findsOneWidget);
     expect(find.text('Schade!'), findsNothing);
+    expect(sfx.events, ['transition', 'transition', 'wrong', 'next']);
 
     await tester.tap(find.text('3'));
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
     expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
-    expect(sfx.events, ['wrong', 'correct']);
+    expect(sfx.events, ['transition', 'transition', 'wrong', 'next', 'correct']);
 
     await tester.pump(ExercisePage.answerFeedbackHold - const Duration(milliseconds: 200));
     expect(find.text('Richtig!'), findsOneWidget);
@@ -177,18 +291,17 @@ void main() {
     await tester.pump(const Duration(milliseconds: 200));
     await tester.pumpAndSettle();
     expect(find.text('Super gemacht!'), findsWidgets);
+    expect(sfx.events, ['transition', 'transition', 'wrong', 'next', 'correct', 'levelup']);
   });
 
   testWidgets('feedback banner appears after tap while hold timer is pending', (tester) async {
-    await tester.pumpWidget(app(pack: tinyPack(exercises: 2)));
+    await pumpApp(tester, pack: tinyPack(exercises: 2));
     await openFirstExercise(tester);
 
     expect(find.text('Richtig!'), findsNothing);
     expect(find.text('Schade!'), findsNothing);
 
     await tester.tap(find.text('2'));
-    // One frame only — do not pump the hold duration. If the page advances
-    // in this same frame, the banner never existed.
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
     expect(find.text('Schade!'), findsNothing);
@@ -201,7 +314,7 @@ void main() {
   });
 
   testWidgets('reward Home returns to the home screen', (tester) async {
-    await tester.pumpWidget(app(pack: tinyPack()));
+    await pumpApp(tester, pack: tinyPack());
     await openFirstExercise(tester);
     await tester.tap(find.text('2'));
     await tester.pump();
@@ -220,7 +333,7 @@ void main() {
   testWidgets('mute stays on across the next exercise', (tester) async {
     final settings = SessionSettings();
     final sfx = RecordingSfx(settings);
-    await tester.pumpWidget(app(pack: tinyPack(exercises: 2), settings: settings, sfx: sfx));
+    await pumpApp(tester, pack: tinyPack(exercises: 2), settings: settings, sfx: sfx);
     await openFirstExercise(tester);
 
     expect(find.byIcon(Icons.volume_up_rounded), findsOneWidget);
@@ -232,13 +345,14 @@ void main() {
     await tester.tap(find.text('2'));
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
-    expect(sfx.events, ['muted:correct']);
+    expect(sfx.events, contains('muted:correct'));
     await tester.pump(ExercisePage.answerFeedbackHold);
     await tester.pumpAndSettle();
 
     expect(find.text('2 + 1 = ?'), findsOneWidget);
     expect(settings.muted, isTrue);
     expect(find.byIcon(Icons.volume_off_rounded), findsOneWidget);
+    expect(sfx.events, contains('muted:next'));
 
     await tester.tap(find.text('3'));
     await tester.pump();

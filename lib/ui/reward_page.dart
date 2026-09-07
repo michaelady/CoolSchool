@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -74,6 +76,7 @@ class RewardPage extends StatelessWidget {
                   icon: Icons.replay_rounded,
                   color: CoolColors.sky,
                   onPressed: () {
+                    unawaited(scope.sfx.transition());
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute<void>(
                         builder: (_) => ExercisePage(
@@ -91,6 +94,7 @@ class RewardPage extends StatelessWidget {
                     icon: Icons.arrow_forward_rounded,
                     color: CoolColors.leaf,
                     onPressed: () {
+                      unawaited(scope.sfx.transition());
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute<void>(
                           builder: (_) => ExercisePage(
@@ -107,7 +111,7 @@ class RewardPage extends StatelessWidget {
                   label: i18n.home,
                   icon: Icons.home_rounded,
                   color: CoolColors.coral,
-                  onPressed: () => goHome(context, pack: pack),
+                  onPressed: () => goHome(context),
                 ),
               ],
             ),

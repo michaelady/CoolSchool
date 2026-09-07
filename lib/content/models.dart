@@ -28,24 +28,43 @@ class Lp21Ref {
   }
 }
 
+enum ExerciseKind { math, counting, vocab }
+
 class Exercise {
   const Exercise({
     required this.id,
+    required this.kind,
     required this.prompt,
     required this.promptTts,
     required this.choices,
     required this.correctIndex,
+    this.items = const [],
+    this.visual,
   });
 
   final String id;
+  final ExerciseKind kind;
   final String prompt;
   final String promptTts;
   final List<String> choices;
   final int correctIndex;
+  final List<String> items;
+  final String? visual;
 
   String get correctChoice => choices[correctIndex];
 
   bool isCorrect(int index) => index == correctIndex;
+
+  bool get usesPictureChoices {
+    if (choices.isEmpty) return false;
+    return choices.every(_looksLikePicture);
+  }
+
+  static bool _looksLikePicture(String value) {
+    final trimmed = value.trim();
+    if (trimmed.isEmpty) return false;
+    return !RegExp(r'[A-Za-zÀ-ÿĂăÂâÎîȘșȚț0-9]').hasMatch(trimmed);
+  }
 
   factory Exercise.fromJson(Map<String, dynamic> json) {
     final choices = (json['choices'] as List<dynamic>)
@@ -58,14 +77,29 @@ class Exercise {
     if (correctIndex < 0 || correctIndex >= choices.length) {
       throw const FormatException('correctIndex is out of range');
     }
+    final items = (json['items'] as List<dynamic>?)
+            ?.map((item) => item.toString())
+            .toList(growable: false) ??
+        const <String>[];
     return Exercise(
       id: json['id'] as String,
+      kind: parseExerciseKind(json['kind'] as String?),
       prompt: json['prompt'] as String,
       promptTts: json['promptTts'] as String,
       choices: choices,
       correctIndex: correctIndex,
+      items: items,
+      visual: json['visual'] as String?,
     );
   }
+}
+
+ExerciseKind parseExerciseKind(String? raw) {
+  return switch (raw) {
+    'counting' => ExerciseKind.counting,
+    'vocab' => ExerciseKind.vocab,
+    _ => ExerciseKind.math,
+  };
 }
 
 class Level {

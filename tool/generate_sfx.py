@@ -3,11 +3,15 @@
 
 Correct is a bright rising chime. Wrong is a low buzzy thud. They must be
 easy to tell apart even on laptop speakers.
+
+Transition is a short airy whoosh (screen change). Next is a soft wooden
+pop after the feedback hold. Both stay distinct from correct / wrong.
 """
 
 from __future__ import annotations
 
 import math
+import random
 import struct
 import wave
 from pathlib import Path
@@ -58,11 +62,44 @@ def buzz(freq: float, dur: float, volume: float) -> list[int]:
     return frames
 
 
+def whoosh(dur: float, volume: float) -> list[int]:
+    """Band-limited noise sweep — not a chime and not a buzz."""
+    rng = random.Random(21)
+    n = int(SR * dur)
+    frames: list[int] = []
+    prev = 0.0
+    for i in range(n):
+        t = i / n
+        env = _env(i, n, 0.02, 0.08) * (0.35 + 0.65 * t)
+        noise = rng.uniform(-1.0, 1.0)
+        prev = 0.55 * prev + 0.45 * noise
+        sweep = 280 + 720 * t
+        tone = math.sin(2 * math.pi * sweep * (i / SR))
+        sample = 0.62 * prev + 0.38 * tone
+        frames.append(int(max(-1, min(1, volume * env * sample)) * 32767))
+    return frames
+
+
+def wood_pop(freq: float, dur: float, volume: float) -> list[int]:
+    """Single muted tap, distinct from the correct multi-note chime."""
+    n = int(SR * dur)
+    frames: list[int] = []
+    for i in range(n):
+        t = i / SR
+        env = math.exp(-t * 18) * _env(i, n, 0.004, 0.05)
+        sample = math.sin(2 * math.pi * freq * t)
+        sample += 0.15 * math.sin(2 * math.pi * freq * 2.7 * t)
+        frames.append(int(max(-1, min(1, volume * env * sample)) * 32767))
+    return frames
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     write("correct.wav", chime([523.25, 659.25, 783.99, 1046.50], 0.13, 0.34, 0.03))
     write("wrong.wav", buzz(174.61, 0.48, 0.28))
     write("levelup.wav", chime([523.25, 783.99, 1046.50, 1318.51], 0.15, 0.30, 0.035))
+    write("transition.wav", whoosh(0.26, 0.22))
+    write("next.wav", wood_pop(392.00, 0.18, 0.30))
 
 
 if __name__ == "__main__":

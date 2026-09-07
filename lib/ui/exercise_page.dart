@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -162,6 +161,7 @@ class _ExercisePageState extends State<ExercisePage>
 
     _shake.stop();
     _shake.reset();
+    unawaited(AppScope.of(context).sfx.next());
     setState(() {
       _index += 1;
       _picked = null;
@@ -254,7 +254,7 @@ class _ExercisePageState extends State<ExercisePage>
                           AnimatedSwitcher(
                             duration: const Duration(milliseconds: 120),
                             switchInCurve: Curves.easeOut,
-                            child: showingFeedback && !kIsWeb
+                            child: showingFeedback
                                 ? _FeedbackBanner(
                                     key: const ValueKey<String>('answer-feedback-banner'),
                                     correct: _feedbackCorrect ?? false,
@@ -289,11 +289,24 @@ class _ExercisePageState extends State<ExercisePage>
                             child: KidCard(
                               child: Column(
                                 children: [
+                                  if (_exercise.items.isNotEmpty) ...[
+                                    _ItemSpread(items: _exercise.items),
+                                    const SizedBox(height: 12),
+                                  ],
+                                  if (_exercise.visual != null &&
+                                      _exercise.visual!.trim().isNotEmpty) ...[
+                                    Text(
+                                      _exercise.visual!,
+                                      textAlign: TextAlign.center,
+                                      style: const TextStyle(fontSize: 64),
+                                    ),
+                                    const SizedBox(height: 8),
+                                  ],
                                   Text(
                                     _exercise.prompt,
                                     textAlign: TextAlign.center,
                                     style: CoolTheme.kid(
-                                      size: 44,
+                                      size: _exercise.kind == ExerciseKind.math ? 44 : 32,
                                       weight: FontWeight.w700,
                                     ),
                                   ),
@@ -309,16 +322,36 @@ class _ExercisePageState extends State<ExercisePage>
                             ),
                           ),
                           const SizedBox(height: 20),
-                          for (var i = 0; i < _exercise.choices.length; i++)
-                            Padding(
-                              padding: const EdgeInsets.only(bottom: 12),
-                              child: _ChoiceButton(
-                                label: _exercise.choices[i],
-                                state: _choiceState(i),
-                                locked: _locked,
-                                onPressed: () => _pick(i),
+                          if (_exercise.usesPictureChoices)
+                            Wrap(
+                              alignment: WrapAlignment.center,
+                              spacing: 12,
+                              runSpacing: 12,
+                              children: [
+                                for (var i = 0; i < _exercise.choices.length; i++)
+                                  SizedBox(
+                                    width: 148,
+                                    child: _ChoiceButton(
+                                      label: _exercise.choices[i],
+                                      picture: true,
+                                      state: _choiceState(i),
+                                      locked: _locked,
+                                      onPressed: () => _pick(i),
+                                    ),
+                                  ),
+                              ],
+                            )
+                          else
+                            for (var i = 0; i < _exercise.choices.length; i++)
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 12),
+                                child: _ChoiceButton(
+                                  label: _exercise.choices[i],
+                                  state: _choiceState(i),
+                                  locked: _locked,
+                                  onPressed: () => _pick(i),
+                                ),
                               ),
-                            ),
                         ],
                       ),
                     ),
@@ -402,18 +435,43 @@ class _FeedbackBanner extends StatelessWidget {
   }
 }
 
+class _ItemSpread extends StatelessWidget {
+  const _ItemSpread({required this.items});
+
+  final List<String> items;
+
+  @override
+  Widget build(BuildContext context) {
+    return Wrap(
+      alignment: WrapAlignment.center,
+      spacing: 10,
+      runSpacing: 10,
+      children: [
+        for (var i = 0; i < items.length; i++)
+          Text(
+            items[i],
+            key: ValueKey<String>('count-item-$i'),
+            style: const TextStyle(fontSize: 48),
+          ),
+      ],
+    );
+  }
+}
+
 class _ChoiceButton extends StatelessWidget {
   const _ChoiceButton({
     required this.label,
     required this.state,
     required this.locked,
     required this.onPressed,
+    this.picture = false,
   });
 
   final String label;
   final _ChoiceState state;
   final bool locked;
   final VoidCallback onPressed;
+  final bool picture;
 
   @override
   Widget build(BuildContext context) {
@@ -438,7 +496,8 @@ class _ChoiceButton extends StatelessWidget {
       label: label,
       color: color,
       foreground: fg,
-      icon: icon,
+      icon: picture ? null : icon,
+      labelSize: picture ? 40 : 22,
       borderColor: border,
       borderWidth: state == _ChoiceState.idle ? 0 : 4,
       onPressed: locked && state == _ChoiceState.idle ? null : onPressed,
