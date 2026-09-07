@@ -1,0 +1,170 @@
+{
+  "id": "addition",
+  "locale": "de",
+  "emoji": "➕",
+  "color": "#FF8A5B",
+  "title": "Addition",
+  "subtitle": "Plusrechnen",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Zahl und Variable",
+    "focusId": "MA.1.B",
+    "focusLabel": "Operieren und benennen",
+    "cycle": "Zyklus 1–2"
+  },
+  "levels": [
+    {
+      "id": "addition-l1",
+      "title": "Zahlenfreunde",
+      "subtitle": "Plus bis 10",
+      "lp21Tag": "MA.1.A · Zahlenraum 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "de-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Was ist eins plus eins?",
+          "choices": ["1", "2", "3"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l1-02",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Was ist zwei plus drei?",
+          "choices": ["4", "5", "6"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l1-03",
+          "prompt": "4 + 2 = ?",
+          "promptTts": "Was ist vier plus zwei?",
+          "choices": ["5", "6", "8"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l1-04",
+          "prompt": "5 + 3 = ?",
+          "promptTts": "Was ist fünf plus drei?",
+          "choices": ["7", "8", "9"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l1-05",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Was ist sechs plus vier?",
+          "choices": ["9", "10", "11"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l1-06",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Was ist sieben plus zwei?",
+          "choices": ["8", "9", "10"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "addition-l2",
+      "title": "Zwanzigerraum",
+      "subtitle": "Plus bis 20",
+      "lp21Tag": "MA.1.B · Zahlenraum 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-l2-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Was ist zehn plus vier?",
+          "choices": ["13", "14", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l2-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Was ist acht plus fünf?",
+          "choices": ["12", "13", "15"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l2-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Was ist sieben plus sieben?",
+          "choices": ["12", "14", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l2-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Was ist elf plus drei?",
+          "choices": ["13", "14", "15"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l2-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Was ist neun plus sechs?",
+          "choices": ["14", "15", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l2-06",
+          "prompt": "12 + 8 = ?",
+          "promptTts": "Was ist zwölf plus acht?",
+          "choices": ["18", "19", "20"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "addition-l3",
+      "title": "Zehnerübergang",
+      "subtitle": "Über die 10",
+      "lp21Tag": "MA.1.B · Zehnerübergang",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-l3-01",
+          "prompt": "9 + 2 = ?",
+          "promptTts": "Was ist neun plus zwei?",
+          "choices": ["10", "11", "12"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l3-02",
+          "prompt": "8 + 7 = ?",
+          "promptTts": "Was ist acht plus sieben?",
+          "choices": ["14", "15", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l3-03",
+          "prompt": "6 + 5 = ?",
+          "promptTts": "Was ist sechs plus fünf?",
+          "choices": ["10", "11", "12"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l3-04",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Was ist neun plus acht?",
+          "choices": ["16", "17", "18"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l3-05",
+          "prompt": "7 + 6 = ?",
+          "promptTts": "Was ist sieben plus sechs?",
+          "choices": ["12", "13", "14"],
+          "correctIndex": 1
+        },
+        {
+          "id": "de-l3-06",
+          "prompt": "5 + 8 = ?",
+          "promptTts": "Was ist fünf plus acht?",
+          "choices": ["12", "13", "14"],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}
