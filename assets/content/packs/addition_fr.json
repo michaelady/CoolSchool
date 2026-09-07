@@ -1,0 +1,170 @@
+{
+  "id": "addition",
+  "locale": "fr",
+  "emoji": "➕",
+  "color": "#FF8A5B",
+  "title": "Addition",
+  "subtitle": "Calculer plus",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Nombre et variable",
+    "focusId": "MA.1.B",
+    "focusLabel": "Opérer et nommer",
+    "cycle": "Cycle 1–2"
+  },
+  "levels": [
+    {
+      "id": "addition-l1",
+      "title": "Amis des nombres",
+      "subtitle": "Plus jusqu’à 10",
+      "lp21Tag": "MA.1.A · Espace 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Combien font un plus un ?",
+          "choices": ["1", "2", "3"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l1-02",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Combien font deux plus trois ?",
+          "choices": ["4", "5", "6"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l1-03",
+          "prompt": "4 + 2 = ?",
+          "promptTts": "Combien font quatre plus deux ?",
+          "choices": ["5", "6", "8"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l1-04",
+          "prompt": "5 + 3 = ?",
+          "promptTts": "Combien font cinq plus trois ?",
+          "choices": ["7", "8", "9"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l1-05",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Combien font six plus quatre ?",
+          "choices": ["9", "10", "11"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l1-06",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Combien font sept plus deux ?",
+          "choices": ["8", "9", "10"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "addition-l2",
+      "title": "Jusqu’à vingt",
+      "subtitle": "Plus jusqu’à 20",
+      "lp21Tag": "MA.1.B · Espace 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-l2-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Combien font dix plus quatre ?",
+          "choices": ["13", "14", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l2-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Combien font huit plus cinq ?",
+          "choices": ["12", "13", "15"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l2-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Combien font sept plus sept ?",
+          "choices": ["12", "14", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l2-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Combien font onze plus trois ?",
+          "choices": ["13", "14", "15"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l2-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Combien font neuf plus six ?",
+          "choices": ["14", "15", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l2-06",
+          "prompt": "12 + 8 = ?",
+          "promptTts": "Combien font douze plus huit ?",
+          "choices": ["18", "19", "20"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "addition-l3",
+      "title": "Passer la dizaine",
+      "subtitle": "Au-delà de 10",
+      "lp21Tag": "MA.1.B · Passage de 10",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-l3-01",
+          "prompt": "9 + 2 = ?",
+          "promptTts": "Combien font neuf plus deux ?",
+          "choices": ["10", "11", "12"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l3-02",
+          "prompt": "8 + 7 = ?",
+          "promptTts": "Combien font huit plus sept ?",
+          "choices": ["14", "15", "16"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l3-03",
+          "prompt": "6 + 5 = ?",
+          "promptTts": "Combien font six plus cinq ?",
+          "choices": ["10", "11", "12"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l3-04",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Combien font neuf plus huit ?",
+          "choices": ["16", "17", "18"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l3-05",
+          "prompt": "7 + 6 = ?",
+          "promptTts": "Combien font sept plus six ?",
+          "choices": ["12", "13", "14"],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-l3-06",
+          "prompt": "5 + 8 = ?",
+          "promptTts": "Combien font cinq plus huit ?",
+          "choices": ["12", "13", "14"],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

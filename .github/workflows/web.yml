@@ -1,0 +1,46 @@
+name: Test and deploy web
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos
+      - run: flutter test
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: test
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://michaelady.github.io/CoolSchool/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter build web --release --base-href /CoolSchool/
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build/web
+          branch: gh-pages
+          clean: true
