@@ -126,6 +126,12 @@ void main() {
     for (final code in ['de', 'fr', 'en', 'ro']) {
       expectChipOnScreen(tester, code);
     }
+    final de = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-de')));
+    final fr = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-fr')));
+    final en = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-en')));
+    final ro = tester.getRect(find.byKey(const ValueKey<String>('locale-chip-ro')));
+    expect(de.left < fr.left && fr.left < en.left && en.left < ro.left, isTrue);
+    expect(ro.left - en.right, lessThan(20), reason: 'RO must sit next to EN, not across the header');
     expect(find.text('Addition'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Kein Login'),
