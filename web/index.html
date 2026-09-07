@@ -57,10 +57,57 @@
       background: #E53935;
       border-color: #9B1B1B;
     }
+    /* Real DOM chips — CanvasKit Wrap dropped RO even at 1280×800. */
+    #coolschool-locales {
+      position: fixed;
+      top: 16px;
+      left: max(20px, calc(50% - 360px));
+      z-index: 2147483647;
+      display: flex;
+      gap: 8px;
+      pointer-events: auto;
+    }
+    #coolschool-locales button {
+      min-width: 48px;
+      min-height: 48px;
+      padding: 10px 14px;
+      border: 0;
+      border-radius: 20px;
+      font: 700 16px system-ui, sans-serif;
+      color: #2D3142;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(45, 49, 66, 0.12);
+      cursor: pointer;
+    }
+    #coolschool-locales button[data-selected="true"] {
+      background: #2D3142;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
   <div class="boot">CoolSchool…</div>
+  <div id="coolschool-locales" role="toolbar" aria-label="Language">
+    <button type="button" id="coolschool-locale-de" data-locale="de" data-selected="true">DE</button>
+    <button type="button" id="coolschool-locale-fr" data-locale="fr">FR</button>
+    <button type="button" id="coolschool-locale-en" data-locale="en">EN</button>
+    <button type="button" id="coolschool-locale-ro" data-locale="ro">RO</button>
+  </div>
+  <audio id="coolschool-sfx-transition" preload="auto" src="assets/assets/sounds/transition.wav"></audio>
+  <audio id="coolschool-sfx-next" preload="auto" src="assets/assets/sounds/next.wav"></audio>
+  <audio id="coolschool-sfx-correct" preload="auto" src="assets/assets/sounds/correct.wav"></audio>
+  <audio id="coolschool-sfx-wrong" preload="auto" src="assets/assets/sounds/wrong.wav"></audio>
+  <audio id="coolschool-sfx-levelup" preload="auto" src="assets/assets/sounds/levelup.wav"></audio>
+  <script>
+    // First pointerdown resumes audio so later Timer-based next.wav can play.
+    document.addEventListener('pointerdown', function () {
+      document.querySelectorAll('audio[id^="coolschool-sfx-"]').forEach(function (node) {
+        var a = node;
+        var p = a.play();
+        if (p && p.then) p.then(function () { a.pause(); a.currentTime = 0; }).catch(function () {});
+      });
+    }, { once: true });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -7,6 +8,7 @@ import '../l10n/strings.dart';
 import 'navigation.dart';
 import 'theme.dart';
 import 'topic_page.dart';
+import 'web_locale_bar.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/mute_button.dart';
 import 'widgets/sun_mascot.dart';
@@ -59,9 +61,16 @@ class _HomePageState extends State<HomePage> {
   }
 
   @override
+  void dispose() {
+    hideWebLocaleBar();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final scope = AppScope.of(context);
     final i18n = I18n(scope.settings.locale);
+    showWebLocaleBar(selected: i18n.lang, onSelect: _switchLocale);
     return SkyBackdrop(
       child: Scaffold(
         backgroundColor: Colors.transparent,
@@ -78,10 +87,15 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      _LanguageChipBar(
-                        selected: i18n.lang,
-                        onSelected: _switchLocale,
-                      ),
+                      // On web the four chips live in the real DOM
+                      // (#coolschool-locales) so CanvasKit cannot drop RO.
+                      if (kIsWeb)
+                        const SizedBox(width: 232, height: 48)
+                      else
+                        _LanguageChipBar(
+                          selected: i18n.lang,
+                          onSelected: _switchLocale,
+                        ),
                       const Spacer(),
                       const MuteButton(),
                     ],

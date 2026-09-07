@@ -2,12 +2,12 @@ import 'package:web/web.dart' as web;
 
 const webAnswerFeedbackId = 'coolschool-answer-feedback';
 
-/// Browser-owned banner so Chrome testers see Richtig/Schade in the DOM.
+/// Browser-owned banner so Chrome testers see Bravo / Presque in the DOM.
 ///
-/// Appended inside Flutter's view (or [document.body] as fallback) — not on
-/// [document.documentElement]. A child of `<html>` sits *behind* the
-/// full-screen CanvasKit glass pane, which is why Phase 2 testers saw no
-/// hold after the overlay host moved to documentElement.
+/// Always appended as the last child of [document.body] (not `<html>`).
+/// A child of `documentElement` paints *behind* Flutter's full-screen
+/// CanvasKit view. [showPopover] puts the banner in the browser top layer
+/// so the glass pane cannot cover it.
 void showWebAnswerFeedback({required bool correct, required String label}) {
   final existing = web.document.getElementById(webAnswerFeedbackId);
   final el = (existing ?? web.HTMLDivElement()) as web.HTMLElement;
@@ -16,22 +16,24 @@ void showWebAnswerFeedback({required bool correct, required String label}) {
   el.setAttribute('aria-live', 'assertive');
   el.setAttribute('data-correct', correct ? 'true' : 'false');
   el.setAttribute('data-testid', 'answer-feedback');
+  el.setAttribute('popover', 'manual');
   el.textContent = label;
   _applyHoldStyles(el);
-  final host = _overlayHost();
-  if (host != null && el.parentElement != host) {
-    host.append(el);
+  web.document.body?.append(el);
+  try {
+    el.showPopover();
+  } catch (_) {
+    // Already open, or the browser has no Popover API — body + z-index remain.
   }
 }
 
 void hideWebAnswerFeedback() {
-  web.document.getElementById(webAnswerFeedbackId)?.remove();
-}
-
-web.Element? _overlayHost() {
-  return web.document.querySelector('flutter-view') ??
-      web.document.querySelector('flt-glass-pane') ??
-      web.document.body;
+  final el = web.document.getElementById(webAnswerFeedbackId);
+  if (el == null) return;
+  try {
+    (el as web.HTMLElement).hidePopover();
+  } catch (_) {}
+  el.remove();
 }
 
 void _applyHoldStyles(web.HTMLElement el) {

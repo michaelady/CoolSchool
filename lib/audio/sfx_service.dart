@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import '../game/session_settings.dart';
+import 'web_sfx.dart';
 
 const sfxNames = ['correct', 'wrong', 'levelup', 'transition', 'next'];
 
@@ -68,6 +69,7 @@ class AssetSfx implements SfxService {
   }
 
   Future<void> _play(String name) async {
+    if (playHtmlSfx(name, muted: settings.muted)) return;
     if (settings.muted) return;
     try {
       // Do not await stop() first — that drops the Chrome user-gesture token

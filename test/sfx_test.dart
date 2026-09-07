@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:coolschool/audio/sfx_service.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -26,5 +28,16 @@ void main() {
       'http://localhost:8080/assets/assets/sounds/correct.wav',
     );
     expect(webSoundUrl('next', page: Uri.parse('https://example.test/app/?v=p2')), isNot(contains('?')));
+  });
+
+  test('index.html ships four locale buttons and whoosh audio tags', () {
+    final html = File('web/index.html').readAsStringSync();
+    for (final code in ['de', 'fr', 'en', 'ro']) {
+      expect(html, contains('id="coolschool-locale-$code"'));
+      expect(html, contains('>${code.toUpperCase()}</button>'));
+    }
+    expect(html, contains('coolschool-sfx-transition'));
+    expect(html, contains('assets/assets/sounds/transition.wav'));
+    expect(html, contains('coolschool-sfx-next'));
   });
 }
