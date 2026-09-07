@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
@@ -9,8 +10,22 @@ import '../game/scoring.dart';
 import '../l10n/strings.dart';
 import 'reward_page.dart';
 import 'theme.dart';
+import 'web_feedback_overlay.dart';
 import 'widgets/kid_chrome.dart';
 import 'widgets/mute_button.dart';
+
+/// Input / feedback lock for one exercise.
+///
+/// Kept as an explicit phase so the hold frame cannot be batched with the
+/// next-question [setState], and so widget tests can pump pending timers
+/// while [FeedbackPhase.locked] is still on screen.
+enum FeedbackPhase {
+  /// Waiting for a tap.
+  answering,
+
+  /// Answer chosen: input locked, banner + pill colors must paint and stay.
+  locked,
+}
 
 class ExercisePage extends StatefulWidget {
   const ExercisePage({
@@ -19,7 +34,7 @@ class ExercisePage extends StatefulWidget {
     required this.levelIndex,
   });
 
-  /// How long the chosen answer stays highlighted before the next prompt.
+  /// Real wall-clock time the Richtig/Schade banner stays visible.
   static const answerFeedbackHold = Duration(milliseconds: 1600);
 
   final ContentPack pack;
@@ -34,12 +49,21 @@ class _ExercisePageState extends State<ExercisePage>
   late final RunRecorder _run;
   late final AnimationController _shake;
   SpeechService? _speech;
+  Timer? _holdTimer;
   int _index = 0;
   int? _picked;
-  bool _locked = false;
+
+  /// Snapshot of correctness so the banner never reads the next exercise.
+  bool? _feedbackCorrect;
+  FeedbackPhase _phase = FeedbackPhase.answering;
+
+  /// True after Flutter has painted at least one [FeedbackPhase.locked] frame.
+  bool _feedbackPainted = false;
+  bool _holdElapsed = false;
 
   Level get _level => widget.pack.levels[widget.levelIndex];
   Exercise get _exercise => _level.exercises[_index];
+  bool get _locked => _phase == FeedbackPhase.locked;
 
   @override
   void initState() {
@@ -60,6 +84,8 @@ class _ExercisePageState extends State<ExercisePage>
 
   @override
   void dispose() {
+    _holdTimer?.cancel();
+    hideWebAnswerFeedback();
     _shake.dispose();
     _speech?.stop();
     super.dispose();
@@ -75,50 +101,97 @@ class _ExercisePageState extends State<ExercisePage>
     );
   }
 
-  Future<void> _pick(int choice) async {
-    if (_locked) return;
-    final scope = AppScope.of(context);
+  /// Synchronous on purpose: an `async` [onPressed] that later [setState]s the
+  /// next prompt can keep the pointer handler alive on Flutter web and skip
+  /// painting the hold frame entirely.
+  void _pick(int choice) {
+    if (_phase != FeedbackPhase.answering) return;
     final correct = _exercise.isCorrect(choice);
+    final i18n = I18n(AppScope.of(context).settings.locale);
+    final label = correct ? i18n.correct : i18n.wrong;
     setState(() {
+      _phase = FeedbackPhase.locked;
       _picked = choice;
-      _locked = true;
+      _feedbackCorrect = correct;
+      _feedbackPainted = false;
+      _holdElapsed = false;
     });
-    await scope.speech.stop();
+    // DOM write is synchronous so Chrome sees the banner in this tap turn.
+    showWebAnswerFeedback(correct: correct, label: label);
+    _run.mark(correct);
+
+    // Paint the locked frame first, then start wall-clock hold + SFX.
+    // Do not await I/O here — that is what raced the hold on web.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || _phase != FeedbackPhase.locked) return;
+      _feedbackPainted = true;
+      unawaited(_playAnswerCues(correct));
+      _holdTimer?.cancel();
+      _holdTimer = Timer(ExercisePage.answerFeedbackHold, () {
+        _holdElapsed = true;
+        _advanceAfterHold();
+      });
+    });
+  }
+
+  Future<void> _playAnswerCues(bool correct) async {
     if (!mounted) return;
-    // Fire SFX without awaiting playback so the green/red hold is reliable.
+    final scope = AppScope.of(context);
+    try {
+      await scope.speech.stop();
+    } catch (_) {}
+    if (!mounted) return;
     if (correct) {
       unawaited(scope.sfx.correct());
     } else {
       unawaited(scope.sfx.wrong());
       unawaited(_shake.forward(from: 0));
     }
-    _run.mark(correct);
-    await Future<void>.delayed(ExercisePage.answerFeedbackHold);
-    if (!mounted) return;
+  }
+
+  void _advanceAfterHold() {
+    if (!mounted || _phase != FeedbackPhase.locked) return;
+    // Never clear feedback in the same frame that first showed it.
+    if (!_feedbackPainted || !_holdElapsed) return;
+    hideWebAnswerFeedback();
+
     if (_run.isComplete) {
-      final score = _run.score;
-      await scope.progress.recordBest(_level.id, score.stars);
-      if (score.passed) {
-        unawaited(scope.sfx.levelUp());
-      }
-      if (!mounted) return;
-      await Navigator.of(context).pushReplacement(
-        MaterialPageRoute<void>(
-          builder: (_) => RewardPage(
-            pack: widget.pack,
-            levelIndex: widget.levelIndex,
-            score: score,
-          ),
-        ),
-      );
+      unawaited(_finishRun());
       return;
     }
+
+    _shake.stop();
+    _shake.reset();
     setState(() {
       _index += 1;
       _picked = null;
-      _locked = false;
+      _feedbackCorrect = null;
+      _phase = FeedbackPhase.answering;
+      _feedbackPainted = false;
+      _holdElapsed = false;
     });
-    await _speakCurrent();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) unawaited(_speakCurrent());
+    });
+  }
+
+  Future<void> _finishRun() async {
+    final scope = AppScope.of(context);
+    final score = _run.score;
+    await scope.progress.recordBest(_level.id, score.stars);
+    if (score.passed) {
+      unawaited(scope.sfx.levelUp());
+    }
+    if (!mounted) return;
+    await Navigator.of(context).pushReplacement(
+      MaterialPageRoute<void>(
+        builder: (_) => RewardPage(
+          pack: widget.pack,
+          levelIndex: widget.levelIndex,
+          score: score,
+        ),
+      ),
+    );
   }
 
   @override
@@ -126,6 +199,7 @@ class _ExercisePageState extends State<ExercisePage>
     final scope = AppScope.of(context);
     final i18n = I18n(scope.settings.locale);
     final progress = (_index + 1) / _level.exercises.length;
+    final showingFeedback = _phase == FeedbackPhase.locked && _picked != null;
     return ListenableBuilder(
       listenable: scope.settings,
       builder: (context, _) {
@@ -152,70 +226,102 @@ class _ExercisePageState extends State<ExercisePage>
             body: Center(
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 640),
-                child: ListView(
-                  padding: const EdgeInsets.fromLTRB(20, 8, 20, 28),
+                child: Column(
                   children: [
-                    Text(
-                      i18n.progress(_index + 1, _level.exercises.length),
-                      style: CoolTheme.kid(size: 16, color: CoolColors.inkSoft),
-                    ),
-                    const SizedBox(height: 8),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(12),
-                      child: LinearProgressIndicator(
-                        value: progress,
-                        minHeight: 12,
-                        backgroundColor: Colors.white,
-                        color: CoolColors.leaf,
-                      ),
-                    ),
-                    const SizedBox(height: 20),
-                    AnimatedBuilder(
-                      animation: _shake,
-                      builder: (context, child) {
-                        final t = _shake.value;
-                        final dx = (t == 0 || t == 1)
-                            ? 0.0
-                            : 10 * (1 - t) * (t < 0.5 ? 1 : -1);
-                        return Transform.translate(offset: Offset(dx, 0), child: child);
-                      },
-                      child: KidCard(
-                        child: Column(
-                          children: [
-                            Text(
-                              _exercise.prompt,
-                              textAlign: TextAlign.center,
-                              style: CoolTheme.kid(size: 44, weight: FontWeight.w700),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(20, 8, 20, 0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Text(
+                            i18n.progress(_index + 1, _level.exercises.length),
+                            style: CoolTheme.kid(size: 16, color: CoolColors.inkSoft),
+                          ),
+                          const SizedBox(height: 8),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: LinearProgressIndicator(
+                              value: progress,
+                              minHeight: 12,
+                              backgroundColor: Colors.white,
+                              color: CoolColors.leaf,
                             ),
-                            const SizedBox(height: 12),
-                            KidPillButton(
-                              label: i18n.speak,
-                              icon: Icons.record_voice_over_rounded,
-                              color: CoolColors.sky,
-                              onPressed: _speakCurrent,
-                            ),
-                          ],
-                        ),
+                          ),
+                          const SizedBox(height: 12),
+                          // Widget-tree banner for tests and native. Flutter web
+                          // also paints a real DOM banner (see web_feedback_overlay)
+                          // so CanvasKit cannot skip the hold text.
+                          AnimatedSwitcher(
+                            duration: const Duration(milliseconds: 120),
+                            switchInCurve: Curves.easeOut,
+                            child: showingFeedback && !kIsWeb
+                                ? _FeedbackBanner(
+                                    key: const ValueKey<String>('answer-feedback-banner'),
+                                    correct: _feedbackCorrect ?? false,
+                                    label: (_feedbackCorrect ?? false)
+                                        ? i18n.correct
+                                        : i18n.wrong,
+                                  )
+                                : const SizedBox(
+                                    key: ValueKey<String>('answer-feedback-empty'),
+                                    height: 0,
+                                  ),
+                          ),
+                        ],
                       ),
                     ),
-                    if (_picked != null) ...[
-                      const SizedBox(height: 16),
-                      _FeedbackBanner(
-                        correct: _exercise.isCorrect(_picked!),
-                        label: _exercise.isCorrect(_picked!) ? i18n.correct : i18n.wrong,
+                    Expanded(
+                      child: ListView(
+                        padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
+                        children: [
+                          AnimatedBuilder(
+                            animation: _shake,
+                            builder: (context, child) {
+                              final t = _shake.value;
+                              final dx = (t == 0 || t == 1)
+                                  ? 0.0
+                                  : 10 * (1 - t) * (t < 0.5 ? 1 : -1);
+                              return Transform.translate(
+                                offset: Offset(dx, 0),
+                                child: child,
+                              );
+                            },
+                            child: KidCard(
+                              child: Column(
+                                children: [
+                                  Text(
+                                    _exercise.prompt,
+                                    textAlign: TextAlign.center,
+                                    style: CoolTheme.kid(
+                                      size: 44,
+                                      weight: FontWeight.w700,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 12),
+                                  KidPillButton(
+                                    label: i18n.speak,
+                                    icon: Icons.record_voice_over_rounded,
+                                    color: CoolColors.sky,
+                                    onPressed: _locked ? null : _speakCurrent,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 20),
+                          for (var i = 0; i < _exercise.choices.length; i++)
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 12),
+                              child: _ChoiceButton(
+                                label: _exercise.choices[i],
+                                state: _choiceState(i),
+                                locked: _locked,
+                                onPressed: () => _pick(i),
+                              ),
+                            ),
+                        ],
                       ),
-                    ],
-                    const SizedBox(height: 20),
-                    for (var i = 0; i < _exercise.choices.length; i++)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 12),
-                        child: _ChoiceButton(
-                          label: _exercise.choices[i],
-                          state: _choiceState(i),
-                          locked: _locked,
-                          onPressed: () => _pick(i),
-                        ),
-                      ),
+                    ),
                   ],
                 ),
               ),
@@ -227,17 +333,21 @@ class _ExercisePageState extends State<ExercisePage>
   }
 
   _ChoiceState _choiceState(int index) {
-    if (_picked == null) return _ChoiceState.idle;
+    if (_phase != FeedbackPhase.locked || _picked == null) {
+      return _ChoiceState.idle;
+    }
     if (index == _exercise.correctIndex) return _ChoiceState.right;
     if (index == _picked) return _ChoiceState.wrong;
     return _ChoiceState.idle;
   }
 }
 
-enum _ChoiceState { idle, right, wrong }
-
 class _FeedbackBanner extends StatelessWidget {
-  const _FeedbackBanner({required this.correct, required this.label});
+  const _FeedbackBanner({
+    super.key,
+    required this.correct,
+    required this.label,
+  });
 
   final bool correct;
   final String label;
@@ -245,34 +355,43 @@ class _FeedbackBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final color = correct ? CoolColors.leaf : CoolColors.rose;
+    final edge = correct ? CoolColors.leafDeep : CoolColors.roseDeep;
     return Semantics(
       liveRegion: true,
       child: DecoratedBox(
         decoration: BoxDecoration(
           color: color,
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(
-            color: correct ? CoolColors.leafDeep : CoolColors.roseDeep,
-            width: 4,
-          ),
+          borderRadius: BorderRadius.circular(22),
+          border: Border.all(color: edge, width: 4),
+          boxShadow: [
+            BoxShadow(
+              color: color.withValues(alpha: 0.45),
+              blurRadius: 16,
+              offset: const Offset(0, 6),
+            ),
+          ],
         ),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Icon(
                 correct ? Icons.check_circle_rounded : Icons.cancel_rounded,
                 color: Colors.white,
-                size: 36,
+                size: 44,
               ),
-              const SizedBox(width: 10),
+              const SizedBox(width: 12),
               Flexible(
                 child: Text(
                   label,
                   key: const ValueKey<String>('answer-feedback'),
                   textAlign: TextAlign.center,
-                  style: CoolTheme.kid(size: 28, weight: FontWeight.w700, color: Colors.white),
+                  style: CoolTheme.kid(
+                    size: 36,
+                    weight: FontWeight.w700,
+                    color: Colors.white,
+                  ),
                 ),
               ),
             ],
@@ -326,3 +445,5 @@ class _ChoiceButton extends StatelessWidget {
     );
   }
 }
+
+enum _ChoiceState { idle, right, wrong }
