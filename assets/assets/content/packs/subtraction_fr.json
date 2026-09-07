@@ -1,0 +1,167 @@
+{
+  "id": "subtraction",
+  "locale": "fr",
+  "emoji": "➖",
+  "color": "#A78BFA",
+  "title": "Soustraction",
+  "subtitle": "Calculer moins",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Nombre et variable",
+    "focusId": "MA.1.B",
+    "focusLabel": "Opérer et nommer",
+    "cycle": "Cycle 1–2"
+  },
+  "levels": [
+    {
+      "id": "subtraction-l1",
+      "title": "Enlever",
+      "subtitle": "Moins jusqu’à 10",
+      "lp21Tag": "MA.1.A · Espace 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-sub-l1-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "Combien font cinq moins deux ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l1-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "Combien font six moins un ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l1-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Combien font huit moins trois ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l1-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "Combien font neuf moins quatre ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l1-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "Combien font sept moins cinq ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "fr-sub-l1-06",
+          "prompt": "4 − 2 = ?",
+          "promptTts": "Combien font quatre moins deux ?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "subtraction-l2",
+      "title": "Compter à rebours",
+      "subtitle": "Moins jusqu’à 20",
+      "lp21Tag": "MA.1.B · Espace 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-sub-l2-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "Combien font douze moins quatre ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l2-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "Combien font quinze moins six ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l2-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "Combien font onze moins trois ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l2-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "Combien font quatorze moins cinq ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l2-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "Combien font dix-huit moins neuf ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "fr-sub-l2-06",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "Combien font seize moins sept ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "addition",
+  "locale": "ro",
+  "emoji": "➕",
+  "color": "#FF8A5B",
+  "title": "Adunare",
+  "subtitle": "Adunăm numere",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Număr și variabilă",
+    "focusId": "MA.1.B",
+    "focusLabel": "Operare și denumire",
+    "cycle": "Ciclul 1–2"
+  },
+  "levels": [
+    {
+      "id": "addition-l1",
+      "title": "Prietenii numerelor",
+      "subtitle": "Plus până la 10",
+      "lp21Tag": "MA.1.A · Spațiul 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-add-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Cât fac unu plus unu?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l1-02",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Cât fac doi plus trei?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l1-03",
+          "prompt": "4 + 2 = ?",
+          "promptTts": "Cât fac patru plus doi?",
+          "choices": [
+            "5",
+            "6",
+            "8"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l1-04",
+          "prompt": "5 + 3 = ?",
+          "promptTts": "Cât fac cinci plus trei?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l1-05",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Cât fac șase plus patru?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l1-06",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Cât fac șapte plus doi?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "addition-l2",
+      "title": "Până la douăzeci",
+      "subtitle": "Plus până la 20",
+      "lp21Tag": "MA.1.B · Spațiul 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-add-l2-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Cât fac zece plus patru?",
+          "choices": [
+            "13",
+            "14",
+            "16"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l2-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Cât fac opt plus cinci?",
+          "choices": [
+            "12",
+            "13",
+            "15"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l2-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Cât fac șapte plus șapte?",
+          "choices": [
+            "12",
+            "14",
+            "16"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l2-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Cât fac unsprezece plus trei?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l2-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Cât fac nouă plus șase?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l2-06",
+          "prompt": "12 + 8 = ?",
+          "promptTts": "Cât fac doisprezece plus opt?",
+          "choices": [
+            "18",
+            "19",
+            "20"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "addition-l3",
+      "title": "Trecem de 10",
+      "subtitle": "Peste 10",
+      "lp21Tag": "MA.1.B · Trecerea zecii",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-add-l3-01",
+          "prompt": "9 + 2 = ?",
+          "promptTts": "Cât fac nouă plus doi?",
+          "choices": [
+            "10",
+            "11",
+            "12"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l3-02",
+          "prompt": "8 + 7 = ?",
+          "promptTts": "Cât fac opt plus șapte?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l3-03",
+          "prompt": "6 + 5 = ?",
+          "promptTts": "Cât fac șase plus cinci?",
+          "choices": [
+            "10",
+            "11",
+            "12"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l3-04",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Cât fac nouă plus opt?",
+          "choices": [
+            "16",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l3-05",
+          "prompt": "7 + 6 = ?",
+          "promptTts": "Cât fac șapte plus șase?",
+          "choices": [
+            "12",
+            "13",
+            "14"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "ro-add-l3-06",
+          "prompt": "5 + 8 = ?",
+          "promptTts": "Cât fac cinci plus opt?",
+          "choices": [
+            "12",
+            "13",
+            "14"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

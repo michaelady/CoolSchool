@@ -1,0 +1,167 @@
+{
+  "id": "subtraction",
+  "locale": "en",
+  "emoji": "➖",
+  "color": "#A78BFA",
+  "title": "Subtraction",
+  "subtitle": "Taking away",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Number and variables",
+    "focusId": "MA.1.B",
+    "focusLabel": "Operating and naming",
+    "cycle": "Cycle 1–2"
+  },
+  "levels": [
+    {
+      "id": "subtraction-l1",
+      "title": "Take away",
+      "subtitle": "Minus to 10",
+      "lp21Tag": "MA.1.A · Number range 10",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-sub-l1-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "What is five minus two?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l1-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "What is six minus one?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l1-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "What is eight minus three?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l1-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "What is nine minus four?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l1-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "What is seven minus five?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "en-sub-l1-06",
+          "prompt": "4 − 2 = ?",
+          "promptTts": "What is four minus two?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "subtraction-l2",
+      "title": "Count back",
+      "subtitle": "Minus to 20",
+      "lp21Tag": "MA.1.B · Number range 20",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-sub-l2-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "What is twelve minus four?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l2-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "What is fifteen minus six?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l2-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "What is eleven minus three?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l2-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "What is fourteen minus five?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l2-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "What is eighteen minus nine?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "en-sub-l2-06",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "What is sixteen minus seven?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

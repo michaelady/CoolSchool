@@ -1,0 +1,267 @@
+{
+  "id": "counting",
+  "locale": "en",
+  "emoji": "🔢",
+  "color": "#2FA84A",
+  "title": "Counting",
+  "subtitle": "How many?",
+  "lp21": {
+    "competenceId": "MA.1",
+    "label": "Number and variables",
+    "focusId": "MA.1.A",
+    "focusLabel": "Building numbers",
+    "cycle": "Cycle 1"
+  },
+  "levels": [
+    {
+      "id": "counting-l1",
+      "title": "Small groups",
+      "subtitle": "Count to 5",
+      "lp21Tag": "MA.1.A · Quantities",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-cnt-l1-01",
+          "prompt": "How many?",
+          "promptTts": "How many apples do you see?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "en-cnt-l1-02",
+          "prompt": "How many?",
+          "promptTts": "How many stars do you see?",
+          "choices": [
+            "1",
+            "2",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "en-cnt-l1-03",
+          "prompt": "How many?",
+          "promptTts": "How many flowers do you see?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "en-cnt-l1-04",
+          "prompt": "How many?",
+          "promptTts": "How many dots do you see?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "en-cnt-l1-05",
+          "prompt": "How many?",
+          "promptTts": "How many frogs do you see?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "kind": "counting",
+          "items": [
+            "🐸"
+          ]
+        },
+        {
+          "id": "en-cnt-l1-06",
+          "prompt": "How many?",
+          "promptTts": "How many fish do you see?",
+          "choices": [
+            "2",
+            "3",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐠",
+            "🐠",
+            "🐠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counting-l2",
+      "title": "More things",
+      "subtitle": "Count to 10",
+      "lp21Tag": "MA.1.A · Number range 10",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-cnt-l2-01",
+          "prompt": "How many?",
+          "promptTts": "How many apples do you see?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "en-cnt-l2-02",
+          "prompt": "How many?",
+          "promptTts": "How many stars do you see?",
+          "choices": [
+            "5",
+            "6",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "en-cnt-l2-03",
+          "prompt": "How many?",
+          "promptTts": "How many flowers do you see?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "en-cnt-l2-04",
+          "prompt": "How many?",
+          "promptTts": "How many dots do you see?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "en-cnt-l2-05",
+          "prompt": "How many?",
+          "promptTts": "How many frogs do you see?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 2,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸"
+          ]
+        },
+        {
+          "id": "en-cnt-l2-06",
+          "prompt": "How many?",
+          "promptTts": "How many fish do you see?",
+          "choices": [
+            "5",
+            "6",
+            "7"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐠",
+            "🐠",
+            "🐠",
+            "🐠",
+            "🐠",
+            "🐠"
+          ]
+        }
+      ]
+    }
+  ]
+}
