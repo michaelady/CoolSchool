@@ -148,7 +148,17 @@ void main() {
     );
     expect(find.text('Addition'), findsOneWidget);
     expect(find.text('Subtraktion'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Zählen'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Zählen'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Schulsprache'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Schulsprache'), findsOneWidget);
   });
 
@@ -192,6 +202,11 @@ void main() {
     await tester.tap(find.byTooltip('Zurück'));
     await tester.pumpAndSettle();
 
+    await tester.scrollUntilVisible(
+      find.text('Zählen'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.text('Zählen'));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Kleine Mengen'));
