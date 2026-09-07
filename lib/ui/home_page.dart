@@ -72,21 +72,15 @@ class _HomePageState extends State<HomePage> {
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
                 children: [
+                  // Equal-width chips in their own row so RO cannot wrap
+                  // under the mute button or get clipped by a tight Wrap.
                   Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Expanded(
-                        child: Wrap(
-                          spacing: 8,
-                          runSpacing: 8,
-                          children: [
-                            for (final code in AppLocales.codes)
-                              _LocaleChip(
-                                label: AppLocales.chips[code]!,
-                                selected: i18n.lang == code,
-                                onTap: () => _switchLocale(code),
-                              ),
-                          ],
+                        child: _LanguageChipBar(
+                          selected: i18n.lang,
+                          onSelected: _switchLocale,
                         ),
                       ),
                       const SizedBox(width: 8),
@@ -156,8 +150,38 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
+class _LanguageChipBar extends StatelessWidget {
+  const _LanguageChipBar({
+    required this.selected,
+    required this.onSelected,
+  });
+
+  final String selected;
+  final ValueChanged<String> onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        for (var i = 0; i < AppLocales.codes.length; i++) ...[
+          if (i > 0) const SizedBox(width: 8),
+          Expanded(
+            child: _LocaleChip(
+              key: ValueKey<String>('locale-chip-${AppLocales.codes[i]}'),
+              label: AppLocales.chips[AppLocales.codes[i]]!,
+              selected: selected == AppLocales.codes[i],
+              onTap: () => onSelected(AppLocales.codes[i]),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
 class _LocaleChip extends StatelessWidget {
   const _LocaleChip({
+    super.key,
     required this.label,
     required this.selected,
     required this.onTap,
@@ -169,20 +193,29 @@ class _LocaleChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      color: selected ? CoolColors.ink : Colors.white,
-      borderRadius: BorderRadius.circular(20),
-      child: InkWell(
+    return Semantics(
+      button: true,
+      selected: selected,
+      label: label,
+      child: Material(
+        color: selected ? CoolColors.ink : Colors.white,
         borderRadius: BorderRadius.circular(20),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-          child: Text(
-            label,
-            style: CoolTheme.kid(
-              size: 16,
-              weight: FontWeight.w700,
-              color: selected ? Colors.white : CoolColors.ink,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(20),
+          onTap: onTap,
+          child: SizedBox(
+            width: double.infinity,
+            height: 48,
+            child: Center(
+              child: Text(
+                label,
+                textAlign: TextAlign.center,
+                style: CoolTheme.kid(
+                  size: 16,
+                  weight: FontWeight.w700,
+                  color: selected ? Colors.white : CoolColors.ink,
+                ),
+              ),
             ),
           ),
         ),

@@ -106,13 +106,26 @@ Future<void> openFirstExercise(
 }
 
 void main() {
+  void expectChipOnScreen(WidgetTester tester, String code) {
+    final finder = find.byKey(ValueKey<String>('locale-chip-$code'));
+    expect(finder, findsOneWidget, reason: 'missing $code chip');
+    expect(find.text(code.toUpperCase()), findsOneWidget);
+    final rect = tester.getRect(finder);
+    final surface = tester.view.physicalSize / tester.view.devicePixelRatio;
+    expect(rect.width, greaterThan(24), reason: '$code chip too narrow');
+    expect(rect.height, greaterThan(24), reason: '$code chip too short');
+    expect(rect.left, greaterThanOrEqualTo(-0.5), reason: '$code clipped left');
+    expect(rect.top, greaterThanOrEqualTo(-0.5), reason: '$code clipped top');
+    expect(rect.right, lessThanOrEqualTo(surface.width + 0.5), reason: '$code clipped right');
+    expect(rect.bottom, lessThanOrEqualTo(surface.height + 0.5), reason: '$code clipped bottom');
+  }
+
   testWidgets('home shows four language chips and stays ad-free', (tester) async {
     await pumpApp(tester);
     expect(find.text('CoolSchool'), findsOneWidget);
-    expect(find.text('DE'), findsOneWidget);
-    expect(find.text('FR'), findsOneWidget);
-    expect(find.text('EN'), findsOneWidget);
-    expect(find.text('RO'), findsOneWidget);
+    for (final code in ['de', 'fr', 'en', 'ro']) {
+      expectChipOnScreen(tester, code);
+    }
     expect(find.text('Addition'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Kein Login'),
@@ -121,6 +134,16 @@ void main() {
     );
     expect(find.textContaining('Kein Login'), findsOneWidget);
     expect(find.textContaining('Werbung'), findsOneWidget);
+  });
+
+  testWidgets('RO chip stays on screen on a narrow phone width', (tester) async {
+    tester.view.physicalSize = const Size(390, 844);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+    await pumpApp(tester);
+    for (final code in ['de', 'fr', 'en', 'ro']) {
+      expectChipOnScreen(tester, code);
+    }
   });
 
   testWidgets('language chips switch EN and RO chrome strings', (tester) async {
@@ -261,6 +284,10 @@ void main() {
     await tester.pump();
     expect(find.text('Schade!'), findsOneWidget);
     expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
+    expect(
+      tester.getSize(find.byKey(const ValueKey<String>('answer-feedback-banner'))).height,
+      greaterThan(48),
+    );
     expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(find.text('2 + 1 = ?'), findsNothing);
     expect(sfx.events, ['transition', 'transition', 'wrong']);
@@ -304,12 +331,18 @@ void main() {
     await tester.tap(find.text('2'));
     await tester.pump();
     expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
+    expect(
+      tester.getSize(find.byKey(const ValueKey<String>('answer-feedback-banner'))).height,
+      greaterThan(48),
+    );
     expect(find.text('Schade!'), findsNothing);
     expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(find.text('2 + 1 = ?'), findsNothing);
 
     await tester.pump(const Duration(milliseconds: 1));
     expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
     expect(find.text('2 + 1 = ?'), findsNothing);
   });
 

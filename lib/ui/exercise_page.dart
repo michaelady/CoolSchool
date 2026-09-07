@@ -248,25 +248,22 @@ class _ExercisePageState extends State<ExercisePage>
                             ),
                           ),
                           const SizedBox(height: 12),
-                          // Widget-tree banner for tests and native. Flutter web
-                          // also paints a real DOM banner (see web_feedback_overlay)
-                          // so CanvasKit cannot skip the hold text.
-                          AnimatedSwitcher(
-                            duration: const Duration(milliseconds: 120),
-                            switchInCurve: Curves.easeOut,
-                            child: showingFeedback
-                                ? _FeedbackBanner(
-                                    key: const ValueKey<String>('answer-feedback-banner'),
-                                    correct: _feedbackCorrect ?? false,
-                                    label: (_feedbackCorrect ?? false)
-                                        ? i18n.correct
-                                        : i18n.wrong,
-                                  )
-                                : const SizedBox(
-                                    key: ValueKey<String>('answer-feedback-empty'),
-                                    height: 0,
-                                  ),
-                          ),
+                          // Paint immediately — no AnimatedSwitcher. A 120ms
+                          // fade stays at opacity 0 on CanvasKit, so testers
+                          // never saw Richtig/Schade even while the hold ran.
+                          if (showingFeedback)
+                            _FeedbackBanner(
+                              key: const ValueKey<String>('answer-feedback-banner'),
+                              correct: _feedbackCorrect ?? false,
+                              label: (_feedbackCorrect ?? false)
+                                  ? i18n.correct
+                                  : i18n.wrong,
+                            )
+                          else
+                            const SizedBox(
+                              key: ValueKey<String>('answer-feedback-empty'),
+                              height: 0,
+                            ),
                         ],
                       ),
                     ),

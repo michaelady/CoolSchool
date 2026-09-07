@@ -98,8 +98,8 @@ def main() -> None:
     write("correct.wav", chime([523.25, 659.25, 783.99, 1046.50], 0.13, 0.34, 0.03))
     write("wrong.wav", buzz(174.61, 0.48, 0.28))
     write("levelup.wav", chime([523.25, 783.99, 1046.50, 1318.51], 0.15, 0.30, 0.035))
-    write("transition.wav", whoosh(0.26, 0.22))
-    write("next.wav", wood_pop(392.00, 0.18, 0.30))
+    write("transition.wav", whoosh(0.40, 0.46))
+    write("next.wav", wood_pop(392.00, 0.24, 0.44))
 
 
 if __name__ == "__main__":

@@ -1,8 +1,24 @@
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 
 import '../game/session_settings.dart';
 
+const sfxNames = ['correct', 'wrong', 'levelup', 'transition', 'next'];
+
+/// Public so tests can lock the GitHub Pages / Flutter-web asset URL.
+String webSoundUrl(String name, {Uri? page}) {
+  final origin = page ?? Uri.base;
+  final dir = origin.replace(query: '', fragment: '');
+  final path = dir.path.endsWith('/') ? dir.path : '${dir.path}/';
+  // `flutter build web` copies pubspec assets to assets/<assetKey>, so
+  // `assets/sounds/foo.wav` is served as `assets/assets/sounds/foo.wav`.
+  return dir.replace(path: '${path}assets/assets/sounds/$name.wav').toString();
+}
+
 abstract class SfxService {
+  Future<void> preload() async {}
+
   Future<void> correct();
   Future<void> wrong();
   Future<void> levelUp();
@@ -12,6 +28,9 @@ abstract class SfxService {
 
 class NoopSfx implements SfxService {
   const NoopSfx();
+
+  @override
+  Future<void> preload() async {}
 
   @override
   Future<void> correct() async {}
@@ -35,29 +54,59 @@ class AssetSfx implements SfxService {
 
   final SessionSettings settings;
   final AudioPlayer _player;
+  final Map<String, Uint8List> _bytes = {};
 
-  Future<void> _play(String asset) async {
+  @override
+  Future<void> preload() async {
+    for (final name in sfxNames) {
+      try {
+        final data = await rootBundle.load('assets/sounds/$name.wav');
+        _bytes[name] = data.buffer.asUint8List();
+      } catch (error) {
+        debugPrint('CoolSchool SFX preload failed: $name $error');
+      }
+    }
+  }
+
+  Future<void> _play(String name) async {
     if (settings.muted) return;
     try {
-      await _player.stop();
-      await _player.play(AssetSource(asset));
-    } catch (_) {
-      // Autoplay / missing plugin on some web hosts must not skip UI feedback.
+      // Do not await stop() first — that drops the Chrome user-gesture token
+      // and the whoosh is then blocked by autoplay policy.
+      final bytes = _bytes[name];
+      if (bytes != null) {
+        await _player.play(BytesSource(bytes, mimeType: 'audio/wav'));
+        return;
+      }
+      if (kIsWeb) {
+        await _player.play(UrlSource(webSoundUrl(name), mimeType: 'audio/wav'));
+        return;
+      }
+      await _player.play(AssetSource('sounds/$name.wav'));
+    } catch (error) {
+      debugPrint('CoolSchool SFX play failed: $name $error');
+      if (kIsWeb) {
+        try {
+          await _player.play(UrlSource(webSoundUrl(name), mimeType: 'audio/wav'));
+        } catch (fallback) {
+          debugPrint('CoolSchool SFX url fallback failed: $name $fallback');
+        }
+      }
     }
   }
 
   @override
-  Future<void> correct() => _play('sounds/correct.wav');
+  Future<void> correct() => _play('correct');
 
   @override
-  Future<void> wrong() => _play('sounds/wrong.wav');
+  Future<void> wrong() => _play('wrong');
 
   @override
-  Future<void> levelUp() => _play('sounds/levelup.wav');
+  Future<void> levelUp() => _play('levelup');
 
   @override
-  Future<void> transition() => _play('sounds/transition.wav');
+  Future<void> transition() => _play('transition');
 
   @override
-  Future<void> next() => _play('sounds/next.wav');
+  Future<void> next() => _play('next');
 }
