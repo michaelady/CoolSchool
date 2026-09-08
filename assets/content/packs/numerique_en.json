@@ -1,0 +1,1345 @@
+{
+  "id": "numerique",
+  "locale": "en",
+  "emoji": "💻",
+  "color": "#38BDF8",
+  "title": "Digital education",
+  "subtitle": "Tools, safety, sequence",
+  "per": {
+    "competenceId": "EN 11",
+    "label": "Use",
+    "focusId": "EN 21",
+    "focusLabel": "Computational thinking",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "numerique-l1",
+      "title": "Level 1",
+      "subtitle": "Devices",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-num-l1-01",
+          "prompt": "Which device?",
+          "promptTts": "computer",
+          "choices": [
+            "computer",
+            "ball",
+            "banana"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "en-num-l1-02",
+          "prompt": "Which device?",
+          "promptTts": "tablet",
+          "choices": [
+            "tablet",
+            "pencil",
+            "shoe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📱"
+        },
+        {
+          "id": "en-num-l1-03",
+          "prompt": "Which device?",
+          "promptTts": "phone",
+          "choices": [
+            "phone",
+            "spoon",
+            "book"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📞"
+        },
+        {
+          "id": "en-num-l1-04",
+          "prompt": "Type: tablet",
+          "promptTts": "Type tablet",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tablet"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "📱"
+        },
+        {
+          "id": "en-num-l1-05",
+          "prompt": "Is a computer a machine?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l2",
+      "title": "Level 2",
+      "subtitle": "Mouse and keyboard",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l2-01",
+          "prompt": "What do we point with on a computer?",
+          "promptTts": "mouse",
+          "choices": [
+            "mouse",
+            "password",
+            "stranger"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖱️"
+        },
+        {
+          "id": "en-num-l2-02",
+          "prompt": "What do we type letters with?",
+          "promptTts": "keyboard",
+          "choices": [
+            "keyboard",
+            "toy",
+            "break"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⌨️"
+        },
+        {
+          "id": "en-num-l2-03",
+          "prompt": "Where do we see the picture?",
+          "promptTts": "screen",
+          "choices": [
+            "screen",
+            "mouse",
+            "folder"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖥️"
+        },
+        {
+          "id": "en-num-l2-04",
+          "prompt": "Type: mouse",
+          "promptTts": "Type mouse",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mouse"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🖱️"
+        },
+        {
+          "id": "en-num-l2-05",
+          "prompt": "Does a keyboard have keys?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l3",
+      "title": "Level 3",
+      "subtitle": "Click and type",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l3-01",
+          "prompt": "Pressing the mouse is often called…",
+          "promptTts": "click",
+          "choices": [
+            "click",
+            "sleep",
+            "cook"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l3-02",
+          "prompt": "Entering letters is called…",
+          "promptTts": "type",
+          "choices": [
+            "type",
+            "run",
+            "paint"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l3-03",
+          "prompt": "Type: click",
+          "promptTts": "Type click",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "click"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l3-04",
+          "prompt": "On a tablet do we tap with a finger?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l3-05",
+          "prompt": "Type the word: yes",
+          "promptTts": "Type yes",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "yes"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l4",
+      "title": "Level 4",
+      "subtitle": "Icons",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l4-01",
+          "prompt": "A small picture that opens a program?",
+          "promptTts": "icon",
+          "choices": [
+            "icon",
+            "soup",
+            "stone"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖼️"
+        },
+        {
+          "id": "en-num-l4-02",
+          "prompt": "Is 🗑️ often the trash?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l4-03",
+          "prompt": "Type: icon",
+          "promptTts": "Type icon",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "icon"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l4-04",
+          "prompt": "Can an icon mean a camera?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📷"
+        },
+        {
+          "id": "en-num-l4-05",
+          "prompt": "Are all icons the same?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l5",
+      "title": "Level 5",
+      "subtitle": "Folders",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l5-01",
+          "prompt": "Where do we keep files?",
+          "promptTts": "folder",
+          "choices": [
+            "folder",
+            "stranger",
+            "soup"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📁"
+        },
+        {
+          "id": "en-num-l5-02",
+          "prompt": "A single document is often a…",
+          "promptTts": "file",
+          "choices": [
+            "file",
+            "adult",
+            "break"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📄"
+        },
+        {
+          "id": "en-num-l5-03",
+          "prompt": "Type: folder",
+          "promptTts": "Type folder",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "folder"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "📁"
+        },
+        {
+          "id": "en-num-l5-04",
+          "prompt": "Can a folder hold many files?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l5-05",
+          "prompt": "Does every file belong in the trash?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l6",
+      "title": "Level 6",
+      "subtitle": "Password",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l6-01",
+          "prompt": "What locks an account?",
+          "promptTts": "password",
+          "choices": [
+            "password",
+            "toy",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔐"
+        },
+        {
+          "id": "en-num-l6-02",
+          "prompt": "Is a password a secret?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l6-03",
+          "prompt": "Type: password",
+          "promptTts": "Type password",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "password"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l6-04",
+          "prompt": "Is 1234 a great password?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l6-05",
+          "prompt": "Pick a long password with an adult?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l7",
+      "title": "Level 7",
+      "subtitle": "Keep secret",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l7-01",
+          "prompt": "May we tell the password to the whole class?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l7-02",
+          "prompt": "A password is…",
+          "promptTts": "secret",
+          "choices": [
+            "secret",
+            "toy",
+            "internet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l7-03",
+          "prompt": "Type: secret",
+          "promptTts": "Type secret",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "secret"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l7-04",
+          "prompt": "Can you tell a trusted adult if you need help?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l7-05",
+          "prompt": "Stick it on the screen?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l8",
+      "title": "Level 8",
+      "subtitle": "Ask an adult",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l8-01",
+          "prompt": "Who to ask if a window looks weird?",
+          "promptTts": "adult",
+          "choices": [
+            "adult",
+            "stranger",
+            "toy"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧑‍🏫"
+        },
+        {
+          "id": "en-num-l8-02",
+          "prompt": "Download without asking?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l8-03",
+          "prompt": "Type: adult",
+          "promptTts": "Type adult",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "adult"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l8-04",
+          "prompt": "Pop-up: an adult first?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l8-05",
+          "prompt": "Click you won a prize without asking?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l9",
+      "title": "Level 9",
+      "subtitle": "Kind messages",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l9-01",
+          "prompt": "How should messages be?",
+          "promptTts": "kind",
+          "choices": [
+            "kind",
+            "mean"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💬"
+        },
+        {
+          "id": "en-num-l9-02",
+          "prompt": "Send mean words?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l9-03",
+          "prompt": "Type: kind",
+          "promptTts": "Type kind",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "kind"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l9-04",
+          "prompt": "Please and thank you online too?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l9-05",
+          "prompt": "Forward someone else's photo without asking?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l10",
+      "title": "Level 10",
+      "subtitle": "Strangers online",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l10-01",
+          "prompt": "Someone unknown wants to meet?",
+          "promptTts": "ask an adult",
+          "choices": [
+            "go alone right away",
+            "ask an adult"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l10-02",
+          "prompt": "Is everyone online a friend?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l10-03",
+          "prompt": "Type: stranger",
+          "promptTts": "Type stranger",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "stranger"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l10-04",
+          "prompt": "Give address or school to a stranger?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l10-05",
+          "prompt": "An unknown person is often a…",
+          "promptTts": "stranger",
+          "choices": [
+            "stranger",
+            "adult",
+            "folder"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l11",
+      "title": "Level 11",
+      "subtitle": "Screen time",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l11-01",
+          "prompt": "Only screen for a long time: what to do?",
+          "promptTts": "break",
+          "choices": [
+            "break",
+            "password",
+            "stranger"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⏰"
+        },
+        {
+          "id": "en-num-l11-02",
+          "prompt": "Is an eye break useful?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l11-03",
+          "prompt": "Type: break",
+          "promptTts": "Type break",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "break"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l11-04",
+          "prompt": "Also play outside?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l11-05",
+          "prompt": "All night on the device?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l12",
+      "title": "Level 12",
+      "subtitle": "First, then",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l12-01",
+          "prompt": "Order: shoes, then outside. What comes first?",
+          "promptTts": "first",
+          "choices": [
+            "first",
+            "then"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l12-02",
+          "prompt": "First wash hands, ___ eat.",
+          "promptTts": "then",
+          "choices": [
+            "then",
+            "first"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l12-03",
+          "prompt": "Type: first",
+          "promptTts": "Type first",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "first"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l12-04",
+          "prompt": "Is a recipe a sequence?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l12-05",
+          "prompt": "Type: then",
+          "promptTts": "Type then",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "then"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l13",
+      "title": "Level 13",
+      "subtitle": "Robot left/right",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l13-01",
+          "prompt": "The robot should go ⬅️. Where?",
+          "promptTts": "left",
+          "choices": [
+            "left",
+            "right"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l13-02",
+          "prompt": "The robot should go ➡️. Where?",
+          "promptTts": "right",
+          "choices": [
+            "right",
+            "left"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l13-03",
+          "prompt": "Type: left",
+          "promptTts": "Type left",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "left"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l13-04",
+          "prompt": "Do clear steps help the robot?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤖"
+        },
+        {
+          "id": "en-num-l13-05",
+          "prompt": "Type: right",
+          "promptTts": "Type right",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "right"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l14",
+      "title": "Level 14",
+      "subtitle": "Three times",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l14-01",
+          "prompt": "Repeat three times: how often?",
+          "promptTts": "3",
+          "choices": [
+            "2",
+            "3",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l14-02",
+          "prompt": "Type the number 3",
+          "promptTts": "Type three",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l14-03",
+          "prompt": "Does a loop repeat something?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l14-04",
+          "prompt": "Clap 3 times: 1, 2, …?",
+          "promptTts": "3",
+          "choices": [
+            "3",
+            "1",
+            "8"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l14-05",
+          "prompt": "Never repeat, always only 1 step?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l15",
+      "title": "Level 15",
+      "subtitle": "Electricity",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l15-01",
+          "prompt": "What does a computer need?",
+          "promptTts": "electricity",
+          "choices": [
+            "electricity",
+            "toy",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔌"
+        },
+        {
+          "id": "en-num-l15-02",
+          "prompt": "Without power the screen often stays dark?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l15-03",
+          "prompt": "Type: electricity",
+          "promptTts": "Type electricity",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "electricity"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l15-04",
+          "prompt": "Empty battery: charge?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l15-05",
+          "prompt": "Put the device in water?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l16",
+      "title": "Level 16",
+      "subtitle": "Internet",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l16-01",
+          "prompt": "What is the network of pages called?",
+          "promptTts": "internet",
+          "choices": [
+            "internet",
+            "mouse",
+            "folder"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌐"
+        },
+        {
+          "id": "en-num-l16-02",
+          "prompt": "Is everything on the internet true?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l16-03",
+          "prompt": "Type: internet",
+          "promptTts": "Type internet",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "internet"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l16-04",
+          "prompt": "Can the internet be like a library?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l16-05",
+          "prompt": "Search with an adult?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l17",
+      "title": "Level 17",
+      "subtitle": "Ask for photos",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l17-01",
+          "prompt": "Before sharing someone's photo?",
+          "promptTts": "ask",
+          "choices": [
+            "ask",
+            "just send"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📷"
+        },
+        {
+          "id": "en-num-l17-02",
+          "prompt": "May we put every photo online?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l17-03",
+          "prompt": "Type: photo",
+          "promptTts": "Type photo",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "photo"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l17-04",
+          "prompt": "A child in a photo: ask parents?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l17-05",
+          "prompt": "Send your location to everyone?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l18",
+      "title": "Level 18",
+      "subtitle": "Stop if scared",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l18-01",
+          "prompt": "If you feel uneasy online?",
+          "promptTts": "stop",
+          "choices": [
+            "stop",
+            "stranger",
+            "toy"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛑"
+        },
+        {
+          "id": "en-num-l18-02",
+          "prompt": "Put the device down and get an adult?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l18-03",
+          "prompt": "Type: stop",
+          "promptTts": "Type stop",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "stop"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l18-04",
+          "prompt": "Keep it secret if someone is unkind?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l18-05",
+          "prompt": "Is it ok to say stop?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l19",
+      "title": "Level 19",
+      "subtitle": "Tool or toy",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l19-01",
+          "prompt": "A computer for work is more a…",
+          "promptTts": "tool",
+          "choices": [
+            "tool",
+            "toy"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "en-num-l19-02",
+          "prompt": "A game on the tablet is more a…",
+          "promptTts": "toy",
+          "choices": [
+            "toy",
+            "tool"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎮"
+        },
+        {
+          "id": "en-num-l19-03",
+          "prompt": "Type: tool",
+          "promptTts": "Type tool",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tool"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l19-04",
+          "prompt": "Can the same device be a tool and a toy?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l19-05",
+          "prompt": "Type: toy",
+          "promptTts": "Type toy",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "toy"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l20",
+      "title": "Level 20",
+      "subtitle": "Digital mix",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-num-l20-01",
+          "prompt": "Which device?",
+          "promptTts": "computer",
+          "choices": [
+            "computer",
+            "toy",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "en-num-l20-02",
+          "prompt": "Type: password",
+          "promptTts": "Type password",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "password"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l20-03",
+          "prompt": "Tell the class the password?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-num-l20-04",
+          "prompt": "Robot ⬅️ ?",
+          "promptTts": "left",
+          "choices": [
+            "left",
+            "right"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤖"
+        },
+        {
+          "id": "en-num-l20-05",
+          "prompt": "Type: stop",
+          "promptTts": "Type stop",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "stop"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    }
+  ]
+}

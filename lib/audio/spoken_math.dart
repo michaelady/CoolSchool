@@ -102,13 +102,96 @@ class SpokenMath {
 
   static String numberWord(int n, String locale) {
     final lang = AppLocales.normalize(locale);
-    final table = switch (lang) {
-      'fr' => _fr,
-      'en' => _en,
-      'ro' => _ro,
-      _ => _de,
+    if (n < 0 || n > 100) return n.toString();
+    return switch (lang) {
+      'fr' => _frWord(n),
+      'en' => _enWord(n),
+      'ro' => _roWord(n),
+      _ => _deWord(n),
     };
-    return table[n] ?? n.toString();
+  }
+
+  static String _deWord(int n) {
+    if (_de.containsKey(n)) return _de[n]!;
+    if (n == 100) return 'hundert';
+    const tens = {
+      2: 'zwanzig',
+      3: 'dreißig',
+      4: 'vierzig',
+      5: 'fünfzig',
+      6: 'sechzig',
+      7: 'siebzig',
+      8: 'achtzig',
+      9: 'neunzig',
+    };
+    final t = n ~/ 10;
+    final u = n % 10;
+    if (u == 0) return tens[t]!;
+    final unit = u == 1 ? 'ein' : _de[u]!;
+    return '${unit}und${tens[t]}';
+  }
+
+  static String _frWord(int n) {
+    if (_fr.containsKey(n)) return _fr[n]!;
+    if (n == 100) return 'cent';
+    if (n < 70) {
+      const tens = {
+        2: 'vingt',
+        3: 'trente',
+        4: 'quarante',
+        5: 'cinquante',
+        6: 'soixante',
+      };
+      final t = n ~/ 10;
+      final u = n % 10;
+      if (u == 0) return tens[t]!;
+      if (u == 1) return '${tens[t]}-et-un';
+      return '${tens[t]}-${_fr[u]}';
+    }
+    if (n < 80) {
+      if (n == 71) return 'soixante-et-onze';
+      return 'soixante-${_fr[n - 60]}';
+    }
+    if (n == 80) return 'quatre-vingts';
+    return 'quatre-vingt-${_fr[n - 80]}';
+  }
+
+  static String _enWord(int n) {
+    if (_en.containsKey(n)) return _en[n]!;
+    if (n == 100) return 'one hundred';
+    const tens = {
+      2: 'twenty',
+      3: 'thirty',
+      4: 'forty',
+      5: 'fifty',
+      6: 'sixty',
+      7: 'seventy',
+      8: 'eighty',
+      9: 'ninety',
+    };
+    final t = n ~/ 10;
+    final u = n % 10;
+    if (u == 0) return tens[t]!;
+    return '${tens[t]}-${_en[u]}';
+  }
+
+  static String _roWord(int n) {
+    if (_ro.containsKey(n)) return _ro[n]!;
+    if (n == 100) return 'o sută';
+    const tens = {
+      2: 'douăzeci',
+      3: 'treizeci',
+      4: 'patruzeci',
+      5: 'cincizeci',
+      6: 'șaizeci',
+      7: 'șaptezeci',
+      8: 'optzeci',
+      9: 'nouăzeci',
+    };
+    final t = n ~/ 10;
+    final u = n % 10;
+    if (u == 0) return tens[t]!;
+    return '${tens[t]} și ${_ro[u]}';
   }
 
   static bool looksLikeDigitSoup(String text) {
@@ -138,7 +221,7 @@ class SpokenMath {
       if (n == null) return match.group(0)!;
       return numberWord(n, lang);
     });
-    final plus = 'plus';
+    const plus = 'plus';
     final minus = switch (lang) {
       'fr' => 'moins',
       'ro' => 'scăzut',

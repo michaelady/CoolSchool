@@ -7,6 +7,7 @@ import 'tts_voices.dart';
 abstract class SpeechService {
   Future<void> speak(String text, {required String locale, required bool muted});
   Future<void> stop();
+  Future<TtsLocaleStatus> prepare(String locale);
 }
 
 class NoopSpeech implements SpeechService {
@@ -21,6 +22,17 @@ class NoopSpeech implements SpeechService {
 
   @override
   Future<void> stop() async {}
+
+  @override
+  Future<TtsLocaleStatus> prepare(String locale) async {
+    final lang = AppLocales.normalize(locale);
+    return TtsLocaleStatus(
+      locale: lang,
+      languageTag: AppLocales.speechTagsFor(lang).first,
+      matched: true,
+      voicesEnumerated: false,
+    );
+  }
 }
 
 class FlutterTtsSpeech implements SpeechService {
@@ -28,6 +40,7 @@ class FlutterTtsSpeech implements SpeechService {
 
   final FlutterTts _tts;
   bool _ready = false;
+  final Map<String, TtsLocaleStatus> _status = {};
 
   /// Slightly slower than the engine default so kids can follow.
   static const kidRate = 0.46;
@@ -41,6 +54,40 @@ class FlutterTtsSpeech implements SpeechService {
     await _tts.awaitSpeakCompletion(false);
     await _tts.setVolume(1);
     _ready = true;
+  }
+
+  @override
+  Future<TtsLocaleStatus> prepare(String locale) async {
+    final lang = AppLocales.normalize(locale);
+    final cached = _status[lang];
+    if (cached != null) return cached;
+    await _ensureReady();
+    final resolved = await _resolve(lang);
+    final status = TtsLocaleStatus(
+      locale: lang,
+      languageTag: resolved.languageTag,
+      voiceName: resolved.voice?.name,
+      matched: resolved.matchedVoice,
+      voicesEnumerated: resolved.voicesEnumerated,
+    );
+    _status[lang] = status;
+    return status;
+  }
+
+  Future<TtsResolveResult> _resolve(String lang) async {
+    var voices = const <TtsVoice>[];
+    var languages = const <String>[];
+    try {
+      voices = TtsVoicePicker.normalize(await _tts.getVoices);
+    } catch (_) {}
+    try {
+      languages = TtsVoicePicker.normalizeLanguages(await _tts.getLanguages);
+    } catch (_) {}
+    return TtsVoicePicker.resolve(
+      appLocale: lang,
+      voices: voices,
+      installedLanguages: languages,
+    );
   }
 
   @override
@@ -62,28 +109,53 @@ class FlutterTtsSpeech implements SpeechService {
 
   Future<void> _applyVoice(String locale) async {
     final lang = AppLocales.normalize(locale);
-    var selected = false;
+    TtsResolveResult resolved;
     try {
-      final voices = TtsVoicePicker.normalize(await _tts.getVoices);
-      final picked = TtsVoicePicker.pick(voices, lang);
-      if (picked != null) {
-        await _tts.setVoice(picked.toEngineMap());
-        selected = true;
-      }
+      resolved = await _resolve(lang);
     } catch (_) {
-      // Missing plugin / empty voice list — fall through to setLanguage.
+      resolved = TtsVoicePicker.resolve(
+        appLocale: lang,
+        voices: const [],
+        installedLanguages: const [],
+      );
     }
-    if (!selected) {
-      await _setLanguageFallback(lang);
+    _status[lang] = TtsLocaleStatus(
+      locale: lang,
+      languageTag: resolved.languageTag,
+      voiceName: resolved.voice?.name,
+      matched: resolved.matchedVoice,
+      voicesEnumerated: resolved.voicesEnumerated,
+    );
+
+    // Always pin the utterance language first so web SpeechSynthesis does not
+    // stay on the browser default (usually en-US).
+    await _setLanguageTags(lang, preferred: resolved.languageTag);
+
+    if (resolved.voice != null) {
+      try {
+        await _tts.setVoice(resolved.voice!.toEngineMap());
+      } catch (_) {}
+      // Some engines reset lang when a voice is applied — set it again.
+      await _setLanguageTags(lang, preferred: resolved.languageTag);
     }
   }
 
-  Future<void> _setLanguageFallback(String lang) async {
-    for (final tag in AppLocales.speechTagsFor(lang)) {
+  Future<void> _setLanguageTags(String lang, {required String preferred}) async {
+    final tags = <String>[
+      preferred,
+      ...AppLocales.speechTagsFor(lang),
+    ];
+    final seen = <String>{};
+    for (final tag in tags) {
+      final bcp = TtsVoicePicker.toBcp47(tag);
+      if (bcp.isEmpty || !seen.add(bcp.toLowerCase())) continue;
+      // Never apply an English tag for DE/FR/RO content.
+      if (lang != 'en' && bcp.toLowerCase().startsWith('en')) continue;
       try {
-        final result = await _tts.setLanguage(tag);
-        if (result == 1 || result == true || result == '1') return;
-        if (result == null) return;
+        final result = await _tts.setLanguage(bcp);
+        if (result == 1 || result == true || result == '1' || result == null) {
+          return;
+        }
       } catch (_) {
         continue;
       }

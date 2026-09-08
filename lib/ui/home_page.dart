@@ -114,6 +114,7 @@ class _HomePageState extends State<HomePage> {
                           for (var i = 0; i < _packs.length; i++) ...[
                             if (i > 0) const SizedBox(height: 16),
                             _TopicCard(
+                              key: ValueKey<String>('domain-${_packs[i].id}'),
                               emoji: _packs[i].emoji,
                               title: _packs[i].title,
                               subtitle: _packs[i].subtitle,
@@ -246,6 +247,7 @@ class _LocaleChip extends StatelessWidget {
 
 class _TopicCard extends StatelessWidget {
   const _TopicCard({
+    super.key,
     required this.emoji,
     required this.title,
     required this.subtitle,

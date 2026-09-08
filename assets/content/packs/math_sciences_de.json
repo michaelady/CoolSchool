@@ -1,0 +1,1480 @@
+{
+  "id": "math_sciences",
+  "locale": "de",
+  "emoji": "🔢",
+  "color": "#FF8A5B",
+  "title": "Mathematik & Natur",
+  "subtitle": "Rechnen und staunen",
+  "per": {
+    "competenceId": "MSN 16",
+    "label": "Zahlen & Natur",
+    "focusId": "MSN 17",
+    "focusLabel": "Operieren",
+    "cycle": "1H–8H · Zyklus 1–2"
+  },
+  "levels": [
+    {
+      "id": "math_sciences-l1",
+      "title": "Level 1",
+      "subtitle": "Zahlenfreunde",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "de-msn-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Was ist eins plus eins?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l1-02",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Äpfel siehst du?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "de-msn-l1-03",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Sterne siehst du?",
+          "choices": [
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐"
+          ]
+        },
+        {
+          "id": "de-msn-l1-04",
+          "prompt": "2 + 1 = ?",
+          "promptTts": "Was ist zwei plus eins?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l1-05",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Blumen siehst du?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l2",
+      "title": "Level 2",
+      "subtitle": "Kleine Mengen",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l2-01",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Äpfel siehst du?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "de-msn-l2-02",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Sterne siehst du?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "de-msn-l2-03",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Frösche siehst du?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸"
+          ]
+        },
+        {
+          "id": "de-msn-l2-04",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Punkte siehst du?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "de-msn-l2-05",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Was ist zwei plus zwei?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l3",
+      "title": "Level 3",
+      "subtitle": "Zähle bis 10",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l3-01",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Äpfel siehst du?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "de-msn-l3-02",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Sterne siehst du?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "de-msn-l3-03",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Blumen siehst du?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "de-msn-l3-04",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Punkte siehst du?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "6"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "de-msn-l3-05",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Frösche siehst du?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l4",
+      "title": "Level 4",
+      "subtitle": "Plus bis 5",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l4-01",
+          "prompt": "1 + 2 = ?",
+          "promptTts": "Was ist eins plus zwei?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l4-02",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Was ist zwei plus zwei?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l4-03",
+          "prompt": "3 + 1 = ?",
+          "promptTts": "Was ist drei plus eins?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l4-04",
+          "prompt": "4 + 1 = ?",
+          "promptTts": "Was ist vier plus eins?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l4-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Was ist zwei plus drei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l5",
+      "title": "Level 5",
+      "subtitle": "Plus bis 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l5-01",
+          "prompt": "4 + 3 = ?",
+          "promptTts": "Was ist vier plus drei?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l5-02",
+          "prompt": "5 + 2 = ?",
+          "promptTts": "Was ist fünf plus zwei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "7"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l5-03",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Was ist sechs plus vier?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l5-04",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Was ist sieben plus zwei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l5-05",
+          "prompt": "3 + 5 = ?",
+          "promptTts": "Was ist drei plus fünf?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l6",
+      "title": "Level 6",
+      "subtitle": "Minus bis 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l6-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "Was ist fünf minus zwei?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l6-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "Was ist sechs minus eins?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l6-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Was ist acht minus drei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l6-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "Was ist neun minus vier?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l6-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "Was ist sieben minus fünf?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l7",
+      "title": "Level 7",
+      "subtitle": "Plus bis 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l7-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Was ist zehn plus vier?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l7-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Was ist acht plus fünf?",
+          "choices": [
+            "12",
+            "13",
+            "14"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l7-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Was ist sieben plus sieben?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l7-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Was ist elf plus drei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "14"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l7-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Was ist neun plus sechs?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l8",
+      "title": "Level 8",
+      "subtitle": "Minus bis 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l8-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "Was ist zwölf minus vier?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l8-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "Was ist fünfzehn minus sechs?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l8-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "Was ist elf minus drei?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l8-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "Was ist vierzehn minus fünf?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l8-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "Was ist achtzehn minus neun?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l9",
+      "title": "Level 9",
+      "subtitle": "Verdoppeln",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l9-01",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Was ist zwei plus zwei?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l9-02",
+          "prompt": "4 + 4 = ?",
+          "promptTts": "Was ist vier plus vier?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l9-03",
+          "prompt": "5 + 5 = ?",
+          "promptTts": "Was ist fünf plus fünf?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l9-04",
+          "prompt": "6 + 6 = ?",
+          "promptTts": "Was ist sechs plus sechs?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "12"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l9-05",
+          "prompt": "8 + 8 = ?",
+          "promptTts": "Was ist acht plus acht?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "16"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l10",
+      "title": "Level 10",
+      "subtitle": "Zahlenraum 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l10-01",
+          "prompt": "20 + 10 = ?",
+          "promptTts": "Was ist zwanzig plus zehn?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l10-02",
+          "prompt": "30 + 5 = ?",
+          "promptTts": "Was ist dreißig plus fünf?",
+          "choices": [
+            "34",
+            "35",
+            "36"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l10-03",
+          "prompt": "40 + 4 = ?",
+          "promptTts": "Was ist vierzig plus vier?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "44"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l10-04",
+          "prompt": "20 − 5 = ?",
+          "promptTts": "Was ist zwanzig minus fünf?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l10-05",
+          "prompt": "25",
+          "promptTts": "Schreib fünfundzwanzig",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "25"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l11",
+      "title": "Level 11",
+      "subtitle": "Rechnen bis 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l11-01",
+          "prompt": "21 + 8 = ?",
+          "promptTts": "Was ist einundzwanzig plus acht?",
+          "choices": [
+            "28",
+            "29",
+            "30"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l11-02",
+          "prompt": "40 − 10 = ?",
+          "promptTts": "Was ist vierzig minus zehn?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l11-03",
+          "prompt": "15 + 15 = ?",
+          "promptTts": "Was ist fünfzehn plus fünfzehn?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "30"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l11-04",
+          "prompt": "33 − 3 = ?",
+          "promptTts": "Was ist dreiunddreißig minus drei?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l11-05",
+          "prompt": "12 + 18 = ?",
+          "promptTts": "Was ist zwölf plus achtzehn?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l12",
+      "title": "Level 12",
+      "subtitle": "Zahlenraum 100",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l12-01",
+          "prompt": "50 + 20 = ?",
+          "promptTts": "Was ist fünfzig plus zwanzig?",
+          "choices": [
+            "69",
+            "70",
+            "71"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l12-02",
+          "prompt": "40 + 40 = ?",
+          "promptTts": "Was ist vierzig plus vierzig?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l12-03",
+          "prompt": "100",
+          "promptTts": "Schreib hundert",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "100"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l12-04",
+          "prompt": "90 − 10 = ?",
+          "promptTts": "Was ist neunzig minus zehn?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l12-05",
+          "prompt": "60 + 7 = ?",
+          "promptTts": "Was ist sechzig plus sieben?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "67"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l13",
+      "title": "Level 13",
+      "subtitle": "Lebendig?",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l13-01",
+          "prompt": "Lebt das?",
+          "promptTts": "Lebt das?",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "de-msn-l13-02",
+          "prompt": "Lebt das?",
+          "promptTts": "Lebt das?",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🚗"
+        },
+        {
+          "id": "de-msn-l13-03",
+          "prompt": "Lebt das?",
+          "promptTts": "Lebt das?",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-msn-l13-04",
+          "prompt": "Lebt das?",
+          "promptTts": "Lebt das?",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🪨"
+        },
+        {
+          "id": "de-msn-l13-05",
+          "prompt": "Schreib ja oder nein: 🐱",
+          "promptTts": "Lebt das?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "ja"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🐱"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l14",
+      "title": "Level 14",
+      "subtitle": "Tiere und Pflanzen",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l14-01",
+          "prompt": "Pflanze oder Tier?",
+          "promptTts": "Pflanze oder Tier?",
+          "choices": [
+            "Pflanze",
+            "Tier"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "de-msn-l14-02",
+          "prompt": "Pflanze oder Tier?",
+          "promptTts": "Pflanze oder Tier?",
+          "choices": [
+            "Pflanze",
+            "Tier"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-msn-l14-03",
+          "prompt": "Pflanze oder Tier?",
+          "promptTts": "Pflanze oder Tier?",
+          "choices": [
+            "Pflanze",
+            "Tier"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐸"
+        },
+        {
+          "id": "de-msn-l14-04",
+          "prompt": "Pflanze oder Tier?",
+          "promptTts": "Pflanze oder Tier?",
+          "choices": [
+            "Pflanze",
+            "Tier"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌼"
+        },
+        {
+          "id": "de-msn-l14-05",
+          "prompt": "Schreib: Pflanze oder Tier — 🌼",
+          "promptTts": "Pflanze oder Tier?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Pflanze"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌼"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l15",
+      "title": "Level 15",
+      "subtitle": "Jahreszeiten",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l15-01",
+          "prompt": "Welche Jahreszeit?",
+          "promptTts": "Welche Jahreszeit?",
+          "choices": [
+            "Sommer",
+            "Winter",
+            "Frühling"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "de-msn-l15-02",
+          "prompt": "Welche Jahreszeit?",
+          "promptTts": "Welche Jahreszeit?",
+          "choices": [
+            "Winter",
+            "Frühling",
+            "Herbst"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "de-msn-l15-03",
+          "prompt": "Welche Jahreszeit?",
+          "promptTts": "Welche Jahreszeit?",
+          "choices": [
+            "Frühling",
+            "Herbst",
+            "Sommer"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "de-msn-l15-04",
+          "prompt": "Welche Jahreszeit?",
+          "promptTts": "Welche Jahreszeit?",
+          "choices": [
+            "Herbst",
+            "Sommer",
+            "Winter"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "de-msn-l15-05",
+          "prompt": "Schreib: Winter",
+          "promptTts": "Schreib Winter",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Winter"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "❄️"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l16",
+      "title": "Level 16",
+      "subtitle": "Sinne",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l16-01",
+          "prompt": "Welcher Sinn?",
+          "promptTts": "Welcher Sinn?",
+          "choices": [
+            "sehen",
+            "hören",
+            "riechen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👀"
+        },
+        {
+          "id": "de-msn-l16-02",
+          "prompt": "Welcher Sinn?",
+          "promptTts": "Welcher Sinn?",
+          "choices": [
+            "hören",
+            "riechen",
+            "schmecken"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👂"
+        },
+        {
+          "id": "de-msn-l16-03",
+          "prompt": "Welcher Sinn?",
+          "promptTts": "Welcher Sinn?",
+          "choices": [
+            "riechen",
+            "schmecken",
+            "sehen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👃"
+        },
+        {
+          "id": "de-msn-l16-04",
+          "prompt": "Welcher Sinn?",
+          "promptTts": "Welcher Sinn?",
+          "choices": [
+            "schmecken",
+            "sehen",
+            "hören"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👅"
+        },
+        {
+          "id": "de-msn-l16-05",
+          "prompt": "Schreib: sehen",
+          "promptTts": "Schreib sehen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "sehen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l17",
+      "title": "Level 17",
+      "subtitle": "Wasser",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l17-01",
+          "prompt": "Wasser, Eis oder Dampf?",
+          "promptTts": "Wasser, Eis oder Dampf?",
+          "choices": [
+            "Wasser",
+            "Eis",
+            "Dampf"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "de-msn-l17-02",
+          "prompt": "Wasser, Eis oder Dampf?",
+          "promptTts": "Wasser, Eis oder Dampf?",
+          "choices": [
+            "Wasser",
+            "Eis",
+            "Dampf"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🧊"
+        },
+        {
+          "id": "de-msn-l17-03",
+          "prompt": "Wasser, Eis oder Dampf?",
+          "promptTts": "Wasser, Eis oder Dampf?",
+          "choices": [
+            "Wasser",
+            "Eis",
+            "Dampf"
+          ],
+          "correctIndex": 2,
+          "kind": "quiz",
+          "visual": "♨️"
+        },
+        {
+          "id": "de-msn-l17-04",
+          "prompt": "Schreib: Wasser",
+          "promptTts": "Schreib Wasser",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Wasser"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "de-msn-l17-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Was ist zwei plus drei?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l18",
+      "title": "Level 18",
+      "subtitle": "Formen",
+      "perTag": "MSN 21 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l18-01",
+          "prompt": "Welche Form?",
+          "promptTts": "Welche Form?",
+          "choices": [
+            "Kreis",
+            "Quadrat",
+            "Dreieck"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "de-msn-l18-02",
+          "prompt": "Welche Form?",
+          "promptTts": "Welche Form?",
+          "choices": [
+            "Quadrat",
+            "Dreieck",
+            "Rechteck"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⬜"
+        },
+        {
+          "id": "de-msn-l18-03",
+          "prompt": "Welche Form?",
+          "promptTts": "Welche Form?",
+          "choices": [
+            "Dreieck",
+            "Rechteck",
+            "Kreis"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔺"
+        },
+        {
+          "id": "de-msn-l18-04",
+          "prompt": "Welche Form?",
+          "promptTts": "Welche Form?",
+          "choices": [
+            "Rechteck",
+            "Kreis",
+            "Quadrat"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "▬"
+        },
+        {
+          "id": "de-msn-l18-05",
+          "prompt": "Schreib: Kreis",
+          "promptTts": "Schreib Kreis",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Kreis"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⭕"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l19",
+      "title": "Level 19",
+      "subtitle": "Messen",
+      "perTag": "MSN 18 · mesures",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l19-01",
+          "prompt": "Was ist länger?",
+          "promptTts": "Was ist länger?",
+          "choices": [
+            "—",
+            "-"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-msn-l19-02",
+          "prompt": "Was ist schwerer?",
+          "promptTts": "Was ist schwerer, ein Stein oder eine Feder?",
+          "choices": [
+            "Stein",
+            "Feder"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-msn-l19-03",
+          "prompt": "10 + 10 = ?",
+          "promptTts": "Was ist zehn plus zehn?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "20"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l19-04",
+          "prompt": "Wie viele Zentimeter hat ein Dezimeter?",
+          "promptTts": "Ein Dezimeter hat zehn Zentimeter",
+          "choices": [
+            "10",
+            "100",
+            "1"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-msn-l19-05",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Was ist acht minus drei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l20",
+      "title": "Level 20",
+      "subtitle": "Mix Natur & Zahl",
+      "perTag": "MSN 16–23 · synthèse",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-msn-l20-01",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Was ist neun plus acht?",
+          "choices": [
+            "16",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l20-02",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "Was ist sechzehn minus sieben?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "de-msn-l20-03",
+          "prompt": "Lebt das?",
+          "promptTts": "Lebt das?",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐠"
+        },
+        {
+          "id": "de-msn-l20-04",
+          "prompt": "Schreib: Kreis",
+          "promptTts": "Schreib Kreis",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Kreis"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-msn-l20-05",
+          "prompt": "Wie viele?",
+          "promptTts": "Wie viele Sterne siehst du?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        }
+      ]
+    }
+  ]
+}

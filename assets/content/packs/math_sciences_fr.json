@@ -1,0 +1,1480 @@
+{
+  "id": "math_sciences",
+  "locale": "fr",
+  "emoji": "🔢",
+  "color": "#FF8A5B",
+  "title": "Maths et nature",
+  "subtitle": "Compter et découvrir",
+  "per": {
+    "competenceId": "MSN 16",
+    "label": "Nombres et nature",
+    "focusId": "MSN 17",
+    "focusLabel": "Opérations",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "math_sciences-l1",
+      "title": "Niveau 1",
+      "subtitle": "Amis des nombres",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-msn-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Combien font un plus un ?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l1-02",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de pommes vois-tu ?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "fr-msn-l1-03",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de étoiles vois-tu ?",
+          "choices": [
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐"
+          ]
+        },
+        {
+          "id": "fr-msn-l1-04",
+          "prompt": "2 + 1 = ?",
+          "promptTts": "Combien font deux plus un ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l1-05",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de fleurs vois-tu ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l2",
+      "title": "Niveau 2",
+      "subtitle": "Petites quantités",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l2-01",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de pommes vois-tu ?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "fr-msn-l2-02",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de étoiles vois-tu ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "fr-msn-l2-03",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de grenouilles vois-tu ?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸"
+          ]
+        },
+        {
+          "id": "fr-msn-l2-04",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de points vois-tu ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "fr-msn-l2-05",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Combien font deux plus deux ?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l3",
+      "title": "Niveau 3",
+      "subtitle": "Compter jusqu’à 10",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l3-01",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de pommes vois-tu ?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "fr-msn-l3-02",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de étoiles vois-tu ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "fr-msn-l3-03",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de fleurs vois-tu ?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "fr-msn-l3-04",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de points vois-tu ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "6"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "fr-msn-l3-05",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de grenouilles vois-tu ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l4",
+      "title": "Niveau 4",
+      "subtitle": "Plus jusqu’à 5",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l4-01",
+          "prompt": "1 + 2 = ?",
+          "promptTts": "Combien font un plus deux ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l4-02",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Combien font deux plus deux ?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l4-03",
+          "prompt": "3 + 1 = ?",
+          "promptTts": "Combien font trois plus un ?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l4-04",
+          "prompt": "4 + 1 = ?",
+          "promptTts": "Combien font quatre plus un ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l4-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Combien font deux plus trois ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l5",
+      "title": "Niveau 5",
+      "subtitle": "Plus jusqu’à 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l5-01",
+          "prompt": "4 + 3 = ?",
+          "promptTts": "Combien font quatre plus trois ?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l5-02",
+          "prompt": "5 + 2 = ?",
+          "promptTts": "Combien font cinq plus deux ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "7"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l5-03",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Combien font six plus quatre ?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l5-04",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Combien font sept plus deux ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l5-05",
+          "prompt": "3 + 5 = ?",
+          "promptTts": "Combien font trois plus cinq ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l6",
+      "title": "Niveau 6",
+      "subtitle": "Moins jusqu’à 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l6-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "Combien font cinq moins deux ?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l6-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "Combien font six moins un ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l6-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Combien font huit moins trois ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l6-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "Combien font neuf moins quatre ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l6-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "Combien font sept moins cinq ?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l7",
+      "title": "Niveau 7",
+      "subtitle": "Plus jusqu’à 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l7-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Combien font dix plus quatre ?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l7-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Combien font huit plus cinq ?",
+          "choices": [
+            "12",
+            "13",
+            "14"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l7-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Combien font sept plus sept ?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l7-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Combien font onze plus trois ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "14"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l7-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Combien font neuf plus six ?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l8",
+      "title": "Niveau 8",
+      "subtitle": "Moins jusqu’à 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l8-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "Combien font douze moins quatre ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l8-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "Combien font quinze moins six ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l8-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "Combien font onze moins trois ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l8-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "Combien font quatorze moins cinq ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l8-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "Combien font dix-huit moins neuf ?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l9",
+      "title": "Niveau 9",
+      "subtitle": "Doubles",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l9-01",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Combien font deux plus deux ?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l9-02",
+          "prompt": "4 + 4 = ?",
+          "promptTts": "Combien font quatre plus quatre ?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l9-03",
+          "prompt": "5 + 5 = ?",
+          "promptTts": "Combien font cinq plus cinq ?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l9-04",
+          "prompt": "6 + 6 = ?",
+          "promptTts": "Combien font six plus six ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "12"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l9-05",
+          "prompt": "8 + 8 = ?",
+          "promptTts": "Combien font huit plus huit ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "16"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l10",
+      "title": "Niveau 10",
+      "subtitle": "Jusqu’à 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l10-01",
+          "prompt": "20 + 10 = ?",
+          "promptTts": "Combien font vingt plus dix ?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l10-02",
+          "prompt": "30 + 5 = ?",
+          "promptTts": "Combien font trente plus cinq ?",
+          "choices": [
+            "34",
+            "35",
+            "36"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l10-03",
+          "prompt": "40 + 4 = ?",
+          "promptTts": "Combien font quarante plus quatre ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "44"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l10-04",
+          "prompt": "20 − 5 = ?",
+          "promptTts": "Combien font vingt moins cinq ?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l10-05",
+          "prompt": "25",
+          "promptTts": "Écris vingt-cinq",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "25"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l11",
+      "title": "Niveau 11",
+      "subtitle": "Calculer jusqu’à 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l11-01",
+          "prompt": "21 + 8 = ?",
+          "promptTts": "Combien font vingt-et-un plus huit ?",
+          "choices": [
+            "28",
+            "29",
+            "30"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l11-02",
+          "prompt": "40 − 10 = ?",
+          "promptTts": "Combien font quarante moins dix ?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l11-03",
+          "prompt": "15 + 15 = ?",
+          "promptTts": "Combien font quinze plus quinze ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "30"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l11-04",
+          "prompt": "33 − 3 = ?",
+          "promptTts": "Combien font trente-trois moins trois ?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l11-05",
+          "prompt": "12 + 18 = ?",
+          "promptTts": "Combien font douze plus dix-huit ?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l12",
+      "title": "Niveau 12",
+      "subtitle": "Jusqu’à 100",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l12-01",
+          "prompt": "50 + 20 = ?",
+          "promptTts": "Combien font cinquante plus vingt ?",
+          "choices": [
+            "69",
+            "70",
+            "71"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l12-02",
+          "prompt": "40 + 40 = ?",
+          "promptTts": "Combien font quarante plus quarante ?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l12-03",
+          "prompt": "100",
+          "promptTts": "Écris cent",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "100"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l12-04",
+          "prompt": "90 − 10 = ?",
+          "promptTts": "Combien font quatre-vingt-dix moins dix ?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l12-05",
+          "prompt": "60 + 7 = ?",
+          "promptTts": "Combien font soixante plus sept ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "67"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l13",
+      "title": "Niveau 13",
+      "subtitle": "Vivant ?",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l13-01",
+          "prompt": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ?",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "fr-msn-l13-02",
+          "prompt": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ?",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🚗"
+        },
+        {
+          "id": "fr-msn-l13-03",
+          "prompt": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ?",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "fr-msn-l13-04",
+          "prompt": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ?",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🪨"
+        },
+        {
+          "id": "fr-msn-l13-05",
+          "prompt": "Écris oui ou non : 🐱",
+          "promptTts": "Est-ce vivant ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "oui"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🐱"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l14",
+      "title": "Niveau 14",
+      "subtitle": "Animaux et plantes",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l14-01",
+          "prompt": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ?",
+          "choices": [
+            "plante",
+            "animal"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "fr-msn-l14-02",
+          "prompt": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ?",
+          "choices": [
+            "plante",
+            "animal"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "fr-msn-l14-03",
+          "prompt": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ?",
+          "choices": [
+            "plante",
+            "animal"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐸"
+        },
+        {
+          "id": "fr-msn-l14-04",
+          "prompt": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ?",
+          "choices": [
+            "plante",
+            "animal"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌼"
+        },
+        {
+          "id": "fr-msn-l14-05",
+          "prompt": "Écris : plante ou animal — 🌼",
+          "promptTts": "Plante ou animal ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "plante"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌼"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l15",
+      "title": "Niveau 15",
+      "subtitle": "Saisons",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l15-01",
+          "prompt": "Quelle saison ?",
+          "promptTts": "Quelle saison ?",
+          "choices": [
+            "été",
+            "hiver",
+            "printemps"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "fr-msn-l15-02",
+          "prompt": "Quelle saison ?",
+          "promptTts": "Quelle saison ?",
+          "choices": [
+            "hiver",
+            "printemps",
+            "automne"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "fr-msn-l15-03",
+          "prompt": "Quelle saison ?",
+          "promptTts": "Quelle saison ?",
+          "choices": [
+            "printemps",
+            "automne",
+            "été"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "fr-msn-l15-04",
+          "prompt": "Quelle saison ?",
+          "promptTts": "Quelle saison ?",
+          "choices": [
+            "automne",
+            "été",
+            "hiver"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "fr-msn-l15-05",
+          "prompt": "Écris : hiver",
+          "promptTts": "Écris hiver",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "hiver"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "❄️"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l16",
+      "title": "Niveau 16",
+      "subtitle": "Sens",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l16-01",
+          "prompt": "Quel sens ?",
+          "promptTts": "Quel sens ?",
+          "choices": [
+            "voir",
+            "entendre",
+            "sentir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👀"
+        },
+        {
+          "id": "fr-msn-l16-02",
+          "prompt": "Quel sens ?",
+          "promptTts": "Quel sens ?",
+          "choices": [
+            "entendre",
+            "sentir",
+            "goûter"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👂"
+        },
+        {
+          "id": "fr-msn-l16-03",
+          "prompt": "Quel sens ?",
+          "promptTts": "Quel sens ?",
+          "choices": [
+            "sentir",
+            "goûter",
+            "voir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👃"
+        },
+        {
+          "id": "fr-msn-l16-04",
+          "prompt": "Quel sens ?",
+          "promptTts": "Quel sens ?",
+          "choices": [
+            "goûter",
+            "voir",
+            "entendre"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👅"
+        },
+        {
+          "id": "fr-msn-l16-05",
+          "prompt": "Écris : voir",
+          "promptTts": "Écris voir",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "voir"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l17",
+      "title": "Niveau 17",
+      "subtitle": "Eau",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l17-01",
+          "prompt": "Eau, glace ou vapeur ?",
+          "promptTts": "Eau, glace ou vapeur ?",
+          "choices": [
+            "eau",
+            "glace",
+            "vapeur"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-msn-l17-02",
+          "prompt": "Eau, glace ou vapeur ?",
+          "promptTts": "Eau, glace ou vapeur ?",
+          "choices": [
+            "eau",
+            "glace",
+            "vapeur"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🧊"
+        },
+        {
+          "id": "fr-msn-l17-03",
+          "prompt": "Eau, glace ou vapeur ?",
+          "promptTts": "Eau, glace ou vapeur ?",
+          "choices": [
+            "eau",
+            "glace",
+            "vapeur"
+          ],
+          "correctIndex": 2,
+          "kind": "quiz",
+          "visual": "♨️"
+        },
+        {
+          "id": "fr-msn-l17-04",
+          "prompt": "Écris : eau",
+          "promptTts": "Écris eau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "eau"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-msn-l17-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Combien font deux plus trois ?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l18",
+      "title": "Niveau 18",
+      "subtitle": "Formes",
+      "perTag": "MSN 21 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l18-01",
+          "prompt": "Quelle forme ?",
+          "promptTts": "Quelle forme ?",
+          "choices": [
+            "cercle",
+            "carré",
+            "triangle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "fr-msn-l18-02",
+          "prompt": "Quelle forme ?",
+          "promptTts": "Quelle forme ?",
+          "choices": [
+            "carré",
+            "triangle",
+            "rectangle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⬜"
+        },
+        {
+          "id": "fr-msn-l18-03",
+          "prompt": "Quelle forme ?",
+          "promptTts": "Quelle forme ?",
+          "choices": [
+            "triangle",
+            "rectangle",
+            "cercle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔺"
+        },
+        {
+          "id": "fr-msn-l18-04",
+          "prompt": "Quelle forme ?",
+          "promptTts": "Quelle forme ?",
+          "choices": [
+            "rectangle",
+            "cercle",
+            "carré"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "▬"
+        },
+        {
+          "id": "fr-msn-l18-05",
+          "prompt": "Écris : cercle",
+          "promptTts": "Écris cercle",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cercle"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⭕"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l19",
+      "title": "Niveau 19",
+      "subtitle": "Mesurer",
+      "perTag": "MSN 18 · mesures",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l19-01",
+          "prompt": "Qui est plus long ?",
+          "promptTts": "Qui est plus long ?",
+          "choices": [
+            "—",
+            "-"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-msn-l19-02",
+          "prompt": "Qui est plus lourd ?",
+          "promptTts": "Qui est plus lourd, une pierre ou une plume ?",
+          "choices": [
+            "pierre",
+            "plume"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-msn-l19-03",
+          "prompt": "10 + 10 = ?",
+          "promptTts": "Combien font dix plus dix ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "20"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l19-04",
+          "prompt": "Combien de centimètres dans un décimètre ?",
+          "promptTts": "Un décimètre a dix centimètres",
+          "choices": [
+            "10",
+            "100",
+            "1"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-msn-l19-05",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Combien font huit moins trois ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l20",
+      "title": "Niveau 20",
+      "subtitle": "Mélange",
+      "perTag": "MSN 16–23 · synthèse",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-msn-l20-01",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Combien font neuf plus huit ?",
+          "choices": [
+            "16",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l20-02",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "Combien font seize moins sept ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "fr-msn-l20-03",
+          "prompt": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ?",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐠"
+        },
+        {
+          "id": "fr-msn-l20-04",
+          "prompt": "Écris : cercle",
+          "promptTts": "Écris cercle",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cercle"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-msn-l20-05",
+          "prompt": "Combien ?",
+          "promptTts": "Combien de étoiles vois-tu ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        }
+      ]
+    }
+  ]
+}

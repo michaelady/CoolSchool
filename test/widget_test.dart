@@ -13,7 +13,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'recording_sfx.dart';
 
-ContentPack samplePack([String file = 'addition_de.json']) {
+ContentPack samplePack([String file = 'math_sciences_de.json']) {
   return ContentPack.fromJsonString(
     File('assets/content/packs/$file').readAsStringSync(),
   );
@@ -35,7 +35,7 @@ ContentPack tinyPack({int exercises = 1, int levels = 1, String title = 'Additio
     for (var l = 0; l < levels; l++)
       '''
     {
-      "id": "addition-l${l + 1}",
+      "id": "math_sciences-l${l + 1}",
       "title": "${levels == 1 ? 'Mini' : 'Mini ${l + 1}'}",
       "subtitle": "Kurz",
       "lp21Tag": "MA.1.A",
@@ -45,13 +45,13 @@ ContentPack tinyPack({int exercises = 1, int levels = 1, String title = 'Additio
   ].join(',\n');
   return ContentPack.fromJsonString('''
 {
-  "id": "addition",
+  "id": "math_sciences",
   "locale": "de",
   "emoji": "+",
   "color": "#FF8A5B",
   "title": "$title",
   "subtitle": "Plus",
-  "lp21": {
+  "per": {
     "competenceId": "MA.1",
     "label": "Zahl und Variable",
     "focusId": "MA.1.B",
@@ -97,11 +97,10 @@ Future<void> pumpApp(
 Future<void> openFirstExercise(
   WidgetTester tester, {
   String topic = 'Addition',
-  String level = 'Mini',
 }) async {
   await tester.tap(find.text(topic));
   await tester.pumpAndSettle();
-  await tester.tap(find.text(level));
+  await tester.tap(find.byKey(const ValueKey<String>('level-1')));
   await tester.pumpAndSettle();
 }
 
@@ -142,7 +141,7 @@ void main() {
       expect(rect.bottom, lessThanOrEqualTo(sun.top + 0.5), reason: 'language chip is under the sun hero');
       expect(rect.overlaps(sun), isFalse, reason: 'language chip intersects the sun hero');
     }
-    expect(find.text('Addition'), findsOneWidget);
+    expect(find.text('Mathematik & Natur'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Kein Login'),
       200,
@@ -204,98 +203,129 @@ void main() {
     expect(find.textContaining('Fără reclame'), findsOneWidget);
   });
 
-  testWidgets('home lists subtraction, counting, and school words', (tester) async {
+  testWidgets('home lists all six PER domain cards', (tester) async {
     await pumpApp(
       tester,
       packs: [
-        samplePack('addition_de.json'),
-        samplePack('subtraction_de.json'),
-        samplePack('counting_de.json'),
-        samplePack('vocab_de.json'),
+        samplePack('langues_de.json'),
+        samplePack('math_sciences_de.json'),
+        samplePack('shs_de.json'),
+        samplePack('arts_de.json'),
+        samplePack('corps_de.json'),
+        samplePack('numerique_de.json'),
       ],
     );
-    expect(find.text('Addition'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('domain-langues')), findsOneWidget);
+    expect(find.text('Sprachen'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('Subtraktion'),
+      find.text('Mathematik & Natur'),
       200,
       scrollable: find.byType(Scrollable).first,
     );
-    expect(find.text('Subtraktion'), findsOneWidget);
+    expect(find.text('Mathematik & Natur'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('Zählen'),
+      find.text('Digitale Bildung'),
       200,
       scrollable: find.byType(Scrollable).first,
     );
-    expect(find.text('Zählen'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.text('Schulsprache'),
-      200,
-      scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.text('Schulsprache'), findsOneWidget);
+    expect(find.text('Mensch & Gesellschaft'), findsOneWidget);
+    expect(find.text('Künste'), findsOneWidget);
+    expect(find.text('Körper & Bewegung'), findsOneWidget);
+    expect(find.text('Digitale Bildung'), findsOneWidget);
   });
 
   testWidgets('home to topic to first exercise has a back path', (tester) async {
     await pumpApp(tester);
-    await tester.tap(find.text('Addition'));
+    await tester.tap(find.text('Mathematik & Natur'));
     await tester.pumpAndSettle();
-    expect(find.text('Zahlenfreunde'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('level-1')), findsOneWidget);
     expect(find.text('Wähle ein Level'), findsOneWidget);
 
-    await tester.tap(find.text('Zahlenfreunde'));
+    await tester.tap(find.byKey(const ValueKey<String>('level-1')));
     await tester.pumpAndSettle();
     expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(find.text('Vorlesen'), findsOneWidget);
 
     await tester.tap(find.byTooltip('Zurück'));
     await tester.pumpAndSettle();
-    expect(find.text('Zahlenfreunde'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('level-1')), findsOneWidget);
 
     await tester.tap(find.byTooltip('Zurück'));
     await tester.pumpAndSettle();
     expect(find.text('CoolSchool'), findsOneWidget);
   });
 
-  testWidgets('subtraction and counting are playable', (tester) async {
-    await pumpApp(
-      tester,
-      packs: [
-        samplePack('subtraction_de.json'),
-        samplePack('counting_de.json'),
-      ],
-    );
-
-    await tester.tap(find.text('Subtraktion'));
+  testWidgets('math domain still has addition and counting', (tester) async {
+    await pumpApp(tester, pack: samplePack('math_sciences_de.json'));
+    await tester.tap(find.text('Mathematik & Natur'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Wegnehmen'));
+    await tester.tap(find.byKey(const ValueKey<String>('level-1')));
     await tester.pumpAndSettle();
-    expect(find.text('5 − 2 = ?'), findsOneWidget);
-    await tester.tap(find.byTooltip('Zurück'));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byTooltip('Zurück'));
-    await tester.pumpAndSettle();
-
-    await tester.scrollUntilVisible(
-      find.text('Zählen'),
-      200,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.text('Zählen'));
-    await tester.pumpAndSettle();
-    await tester.tap(find.text('Kleine Mengen'));
+    expect(find.text('1 + 1 = ?'), findsOneWidget);
+    await tester.tap(find.text('2'));
+    await tester.pump();
+    expect(find.text('Richtig!'), findsOneWidget);
+    await tester.pump(ExercisePage.answerFeedbackHold);
     await tester.pumpAndSettle();
     expect(find.text('Wie viele?'), findsOneWidget);
     expect(find.byKey(const ValueKey<String>('count-item-0')), findsOneWidget);
   });
 
-  testWidgets('vocab listen-or-match game is playable', (tester) async {
-    await pumpApp(tester, pack: samplePack('vocab_de.json'));
-    await tester.tap(find.text('Schulsprache'));
+  testWidgets('langues picture match is playable', (tester) async {
+    await pumpApp(tester, pack: samplePack('langues_de.json'));
+    await tester.tap(find.text('Sprachen'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Wort und Bild'));
+    await tester.tap(find.byKey(const ValueKey<String>('level-1')));
     await tester.pumpAndSettle();
     expect(find.text('Buch'), findsOneWidget);
     expect(find.text('📚'), findsOneWidget);
+  });
+
+  testWidgets('typing an answer holds Richtig like a tap', (tester) async {
+    final typed = ContentPack.fromJsonString('''
+{
+  "id": "math_sciences",
+  "locale": "de",
+  "emoji": "+",
+  "color": "#FF8A5B",
+  "title": "Addition",
+  "subtitle": "Plus",
+  "per": {
+    "competenceId": "MSN 16",
+    "label": "Zahl",
+    "focusId": "MSN 17",
+    "focusLabel": "Operieren",
+    "cycle": "Zyklus 1"
+  },
+  "levels": [{
+    "id": "math_sciences-l1",
+    "title": "Mini",
+    "subtitle": "Kurz",
+    "perTag": "MSN 16",
+    "unlockAfterStars": 0,
+    "exercises": [{
+      "id": "t0",
+      "prompt": "1 + 1 = ?",
+      "promptTts": "eins plus eins",
+      "answerMode": "type",
+      "acceptedAnswers": ["2"],
+      "keyboard": "number",
+      "kind": "math"
+    }]
+  }]
+}
+''');
+    await pumpApp(tester, pack: typed);
+    await openFirstExercise(tester);
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsOneWidget);
+    await tester.enterText(find.byKey(const ValueKey<String>('type-answer')), '2');
+    await tester.tap(find.byKey(const ValueKey<String>('type-submit')));
+    await tester.pump();
+    expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
+    await tester.pump(ExercisePage.answerFeedbackHold);
+    await tester.pumpAndSettle();
+    expect(find.text('Super gemacht!'), findsWidgets);
   });
 
   testWidgets('answering a short run awards stars', (tester) async {
@@ -310,7 +340,7 @@ void main() {
     await tester.pump(ExercisePage.answerFeedbackHold);
     await tester.pumpAndSettle();
     expect(find.text('Super gemacht!'), findsWidgets);
-    expect(progress.starsFor('addition-l1'), 3);
+    expect(progress.starsFor('math_sciences-l1'), 3);
     expect(find.text('Home'), findsOneWidget);
   });
 

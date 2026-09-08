@@ -1,0 +1,1407 @@
+{
+  "id": "shs",
+  "locale": "ro",
+  "emoji": "🌍",
+  "color": "#A78BFA",
+  "title": "Științe umane",
+  "subtitle": "Loc, timp, împreună",
+  "per": {
+    "competenceId": "SHS 11",
+    "label": "Spațiu și timp",
+    "focusId": "SHS 31",
+    "focusLabel": "A trăi împreună",
+    "cycle": "1H–8H · ciclurile 1–2"
+  },
+  "levels": [
+    {
+      "id": "shs-l1",
+      "title": "Nivelul 1",
+      "subtitle": "Familie",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-shs-l1-01",
+          "prompt": "Cine e?",
+          "promptTts": "mama",
+          "choices": [
+            "mama",
+            "școală",
+            "bicicletă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩"
+        },
+        {
+          "id": "ro-shs-l1-02",
+          "prompt": "Cine e?",
+          "promptTts": "tata",
+          "choices": [
+            "tata",
+            "parc",
+            "tren"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👨"
+        },
+        {
+          "id": "ro-shs-l1-03",
+          "prompt": "Familie: cine lipsește?",
+          "promptTts": "eu",
+          "choices": [
+            "eu",
+            "Elveția",
+            "lac"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧒"
+        },
+        {
+          "id": "ro-shs-l1-04",
+          "prompt": "Scrie: mama",
+          "promptTts": "Scrie mama",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mama"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l1-05",
+          "prompt": "Face parte din familie?",
+          "promptTts": "Un câine poate fi familie",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐕"
+        }
+      ]
+    },
+    {
+      "id": "shs-l2",
+      "title": "Nivelul 2",
+      "subtitle": "Acasă",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l2-01",
+          "prompt": "Unde dormim?",
+          "promptTts": "în pat",
+          "choices": [
+            "casă",
+            "școală",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛏️"
+        },
+        {
+          "id": "ro-shs-l2-02",
+          "prompt": "Unde gătim?",
+          "promptTts": "în bucătărie",
+          "choices": [
+            "bucătărie",
+            "școală",
+            "parc"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍳"
+        },
+        {
+          "id": "ro-shs-l2-03",
+          "prompt": "Scrie: casă",
+          "promptTts": "Scrie casă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "casă"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏠"
+        },
+        {
+          "id": "ro-shs-l2-04",
+          "prompt": "Ușă sau fereastră?",
+          "promptTts": "fereastră",
+          "choices": [
+            "fereastră",
+            "ușă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪟"
+        },
+        {
+          "id": "ro-shs-l2-05",
+          "prompt": "Unde locuim?",
+          "promptTts": "casă",
+          "choices": [
+            "casă",
+            "tren",
+            "doctoriță"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏠"
+        }
+      ]
+    },
+    {
+      "id": "shs-l3",
+      "title": "Nivelul 3",
+      "subtitle": "Școală",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l3-01",
+          "prompt": "Unde e?",
+          "promptTts": "școală",
+          "choices": [
+            "școală",
+            "casă",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "ro-shs-l3-02",
+          "prompt": "Cine predă?",
+          "promptTts": "învățătoare",
+          "choices": [
+            "învățătoare",
+            "brutar",
+            "autobuz"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "ro-shs-l3-03",
+          "prompt": "Scrie: școală",
+          "promptTts": "Scrie școală",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "școală"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "ro-shs-l3-04",
+          "prompt": "Ce trebuie la școală?",
+          "promptTts": "creion",
+          "choices": [
+            "creion",
+            "bicicletă",
+            "zăpadă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✏️"
+        },
+        {
+          "id": "ro-shs-l3-05",
+          "prompt": "Pauză: unde ne jucăm?",
+          "promptTts": "parc",
+          "choices": [
+            "parc",
+            "brutar",
+            "tren"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛝"
+        }
+      ]
+    },
+    {
+      "id": "shs-l4",
+      "title": "Nivelul 4",
+      "subtitle": "Zile",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l4-01",
+          "prompt": "Ce zi începe adesea săptămâna de școală?",
+          "promptTts": "luni",
+          "choices": [
+            "luni",
+            "ieri",
+            "zăpadă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l4-02",
+          "prompt": "Azi sau ieri?",
+          "promptTts": "azi",
+          "choices": [
+            "azi",
+            "ieri"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l4-03",
+          "prompt": "Scrie: azi",
+          "promptTts": "Scrie azi",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "azi"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l4-04",
+          "prompt": "Ce a fost înainte?",
+          "promptTts": "ieri",
+          "choices": [
+            "ieri",
+            "azi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l4-05",
+          "prompt": "Câte zile are o săptămână?",
+          "promptTts": "O săptămână are șapte zile",
+          "choices": [
+            "5",
+            "7",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l5",
+      "title": "Nivelul 5",
+      "subtitle": "Anotimpuri",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l5-01",
+          "prompt": "Anotimp?",
+          "promptTts": "vară",
+          "choices": [
+            "vară",
+            "ploaie",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-shs-l5-02",
+          "prompt": "Anotimp?",
+          "promptTts": "iarnă",
+          "choices": [
+            "iarnă",
+            "ploaie",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "ro-shs-l5-03",
+          "prompt": "Anotimp?",
+          "promptTts": "primăvară",
+          "choices": [
+            "primăvară",
+            "ploaie",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "ro-shs-l5-04",
+          "prompt": "Anotimp?",
+          "promptTts": "toamnă",
+          "choices": [
+            "toamnă",
+            "ploaie",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "ro-shs-l5-05",
+          "prompt": "Scrie: vară",
+          "promptTts": "Scrie vară",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "vară"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l6",
+      "title": "Nivelul 6",
+      "subtitle": "Vreme",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l6-01",
+          "prompt": "Ce vreme?",
+          "promptTts": "ploaie",
+          "choices": [
+            "ploaie",
+            "brutar",
+            "casă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "ro-shs-l6-02",
+          "prompt": "Ce vreme?",
+          "promptTts": "soare",
+          "choices": [
+            "soare",
+            "zăpadă",
+            "autobuz"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-shs-l6-03",
+          "prompt": "Ce vreme?",
+          "promptTts": "zăpadă",
+          "choices": [
+            "zăpadă",
+            "ploaie",
+            "magazin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "ro-shs-l6-04",
+          "prompt": "Scrie: ploaie",
+          "promptTts": "Scrie ploaie",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "ploaie"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "ro-shs-l6-05",
+          "prompt": "Trebuie umbrelă?",
+          "promptTts": "ploaie",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l7",
+      "title": "Nivelul 7",
+      "subtitle": "Sat și oraș",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l7-01",
+          "prompt": "Multe case și autobuze?",
+          "promptTts": "oraș",
+          "choices": [
+            "oraș",
+            "sat"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏙️"
+        },
+        {
+          "id": "ro-shs-l7-02",
+          "prompt": "Puține case, câmpuri?",
+          "promptTts": "sat",
+          "choices": [
+            "sat",
+            "oraș"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏡"
+        },
+        {
+          "id": "ro-shs-l7-03",
+          "prompt": "Scrie: oraș",
+          "promptTts": "Scrie oraș",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "oraș"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l7-04",
+          "prompt": "Unde e?",
+          "promptTts": "magazin",
+          "choices": [
+            "magazin",
+            "munte",
+            "lac"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "ro-shs-l7-05",
+          "prompt": "Unde e?",
+          "promptTts": "parc",
+          "choices": [
+            "parc",
+            "brutar",
+            "tren"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "shs-l8",
+      "title": "Nivelul 8",
+      "subtitle": "Hartă",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l8-01",
+          "prompt": "Ce e pe hartă?",
+          "promptTts": "munte",
+          "choices": [
+            "munte",
+            "magazin",
+            "brutar"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⛰️"
+        },
+        {
+          "id": "ro-shs-l8-02",
+          "prompt": "Ce e pe hartă?",
+          "promptTts": "lac",
+          "choices": [
+            "lac",
+            "autobuz",
+            "școală"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏞️"
+        },
+        {
+          "id": "ro-shs-l8-03",
+          "prompt": "Ce curge?",
+          "promptTts": "râu",
+          "choices": [
+            "râu",
+            "casă",
+            "Care steag e Elveția?"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "〰️"
+        },
+        {
+          "id": "ro-shs-l8-04",
+          "prompt": "Scrie: lac",
+          "promptTts": "Scrie lac",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "lac"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l8-05",
+          "prompt": "Alpii sunt…",
+          "promptTts": "munte",
+          "choices": [
+            "munte",
+            "magazin",
+            "lapte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l9",
+      "title": "Nivelul 9",
+      "subtitle": "Elveția",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l9-01",
+          "prompt": "Care steag e Elveția?",
+          "promptTts": "Care steag e Elveția?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l9-02",
+          "prompt": "Țară?",
+          "promptTts": "Elveția",
+          "choices": [
+            "Elveția",
+            "Franța",
+            "brutar"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "ro-shs-l9-03",
+          "prompt": "Scrie: Elveția",
+          "promptTts": "Scrie Elveția",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Elveția"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "ro-shs-l9-04",
+          "prompt": "Capitală (simplu): Berna?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l9-05",
+          "prompt": "Sunt munți în Elveția?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l10",
+      "title": "Nivelul 10",
+      "subtitle": "Locuri",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l10-01",
+          "prompt": "Unde e?",
+          "promptTts": "școală",
+          "choices": [
+            "școală",
+            "lac",
+            "munte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "ro-shs-l10-02",
+          "prompt": "Unde e?",
+          "promptTts": "magazin",
+          "choices": [
+            "magazin",
+            "râu",
+            "tren"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "ro-shs-l10-03",
+          "prompt": "Unde e?",
+          "promptTts": "parc",
+          "choices": [
+            "parc",
+            "brutar",
+            "zăpadă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-shs-l10-04",
+          "prompt": "Scrie: parc",
+          "promptTts": "Scrie parc",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "parc"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-shs-l10-05",
+          "prompt": "Unde cumperi pâine?",
+          "promptTts": "magazin",
+          "choices": [
+            "magazin",
+            "lac",
+            "munte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l11",
+      "title": "Nivelul 11",
+      "subtitle": "Meserii",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l11-01",
+          "prompt": "Cine coace pâinea?",
+          "promptTts": "brutar",
+          "choices": [
+            "brutar",
+            "doctoriță",
+            "tren"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥖"
+        },
+        {
+          "id": "ro-shs-l11-02",
+          "prompt": "Cine ajută dacă ești bolnav?",
+          "promptTts": "doctoriță",
+          "choices": [
+            "doctoriță",
+            "brutar",
+            "autobuz"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🩺"
+        },
+        {
+          "id": "ro-shs-l11-03",
+          "prompt": "Cine predă?",
+          "promptTts": "învățătoare",
+          "choices": [
+            "învățătoare",
+            "bicicletă",
+            "zăpadă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "ro-shs-l11-04",
+          "prompt": "Scrie: brutar",
+          "promptTts": "Scrie brutar",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "brutar"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l11-05",
+          "prompt": "Învățătoarea ajută la școală?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l12",
+      "title": "Nivelul 12",
+      "subtitle": "Reguli",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l12-01",
+          "prompt": "Ce e prietenos?",
+          "promptTts": "împărțim",
+          "choices": [
+            "împărțim",
+            "lovim"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l12-02",
+          "prompt": "Ai voie să lovești?",
+          "promptTts": "nu",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l12-03",
+          "prompt": "Scrie: împărțim",
+          "promptTts": "Scrie împărțim",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "împărțim"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l12-04",
+          "prompt": "Aștepți rândul?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l12-05",
+          "prompt": "Ne ajutăm?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l13",
+      "title": "Nivelul 13",
+      "subtitle": "Apoi și acum",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l13-01",
+          "prompt": "Lumină odinioară?",
+          "promptTts": "lumânare",
+          "choices": [
+            "lumânare",
+            "lampă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🕯️"
+        },
+        {
+          "id": "ro-shs-l13-02",
+          "prompt": "Lumină azi?",
+          "promptTts": "lampă",
+          "choices": [
+            "lampă",
+            "lumânare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💡"
+        },
+        {
+          "id": "ro-shs-l13-03",
+          "prompt": "Scrie: ieri",
+          "promptTts": "Scrie ieri",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "ieri"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l13-04",
+          "prompt": "Cal sau mașină mai des în trecut?",
+          "promptTts": "cal",
+          "choices": [
+            "cal",
+            "mașină"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐴"
+        },
+        {
+          "id": "ro-shs-l13-05",
+          "prompt": "Azi des mașina?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚗"
+        }
+      ]
+    },
+    {
+      "id": "shs-l14",
+      "title": "Nivelul 14",
+      "subtitle": "Transport",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l14-01",
+          "prompt": "Ce vehicul?",
+          "promptTts": "bicicletă",
+          "choices": [
+            "bicicletă",
+            "lac",
+            "împărțim"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚲"
+        },
+        {
+          "id": "ro-shs-l14-02",
+          "prompt": "Ce vehicul?",
+          "promptTts": "autobuz",
+          "choices": [
+            "autobuz",
+            "brutar",
+            "zăpadă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "ro-shs-l14-03",
+          "prompt": "Ce vehicul?",
+          "promptTts": "tren",
+          "choices": [
+            "tren",
+            "parc",
+            "lapte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚆"
+        },
+        {
+          "id": "ro-shs-l14-04",
+          "prompt": "Scrie: autobuz",
+          "promptTts": "Scrie autobuz",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "autobuz"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "ro-shs-l14-05",
+          "prompt": "Cască pe bicicletă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l15",
+      "title": "Nivelul 15",
+      "subtitle": "Vecini",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l15-01",
+          "prompt": "Țară vecină?",
+          "promptTts": "Franța",
+          "choices": [
+            "Franța",
+            "brutar",
+            "parc"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇫🇷"
+        },
+        {
+          "id": "ro-shs-l15-02",
+          "prompt": "Germania e vecină cu Elveția?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇩🇪"
+        },
+        {
+          "id": "ro-shs-l15-03",
+          "prompt": "Scrie: Franța",
+          "promptTts": "Scrie Franța",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Franța"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l15-04",
+          "prompt": "Italia e vecină?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇮🇹"
+        },
+        {
+          "id": "ro-shs-l15-05",
+          "prompt": "A spune salut e frumos?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l16",
+      "title": "Nivelul 16",
+      "subtitle": "De la fermă",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l16-01",
+          "prompt": "Ce vine de la vacă?",
+          "promptTts": "lapte",
+          "choices": [
+            "lapte",
+            "autobuz",
+            "lampă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "ro-shs-l16-02",
+          "prompt": "Unde cresc merele?",
+          "promptTts": "copac",
+          "choices": [
+            "copac",
+            "tren",
+            "doctoriță"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "ro-shs-l16-03",
+          "prompt": "Scrie: lapte",
+          "promptTts": "Scrie lapte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "lapte"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "ro-shs-l16-04",
+          "prompt": "Legume de pe câmp?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥕"
+        },
+        {
+          "id": "ro-shs-l16-05",
+          "prompt": "Pâine de la brutar?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l17",
+      "title": "Nivelul 17",
+      "subtitle": "Protejăm natura",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l17-01",
+          "prompt": "Ce facem cu hârtia?",
+          "promptTts": "reciclăm",
+          "choices": [
+            "reciclăm",
+            "lovim"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "ro-shs-l17-02",
+          "prompt": "Gunoi în lac?",
+          "promptTts": "nu",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l17-03",
+          "prompt": "Scrie: reciclăm",
+          "promptTts": "Scrie reciclăm",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "reciclăm"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "ro-shs-l17-04",
+          "prompt": "Protejăm copacii?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-shs-l17-05",
+          "prompt": "Unde merge gunoiul?",
+          "promptTts": "gunoi",
+          "choices": [
+            "pubelă",
+            "lac",
+            "lapte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l18",
+      "title": "Nivelul 18",
+      "subtitle": "Ajutăm",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l18-01",
+          "prompt": "Ce e frumos?",
+          "promptTts": "ajutăm",
+          "choices": [
+            "ajutăm",
+            "lovim"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l18-02",
+          "prompt": "Ajuți pe cineva care cară?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l18-03",
+          "prompt": "Scrie: ajutăm",
+          "promptTts": "Scrie ajutăm",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "ajutăm"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l18-04",
+          "prompt": "Spui mulțumesc?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l18-05",
+          "prompt": "Împărțim la joc?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l19",
+      "title": "Nivelul 19",
+      "subtitle": "Comuna mea",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l19-01",
+          "prompt": "Comuna mea are o școală?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "ro-shs-l19-02",
+          "prompt": "E adesea o piață?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l19-03",
+          "prompt": "Scrie: comună",
+          "promptTts": "Scrie comună",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "comună"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l19-04",
+          "prompt": "Unde e?",
+          "promptTts": "parc",
+          "choices": [
+            "parc",
+            "Franța",
+            "lampă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-shs-l19-05",
+          "prompt": "Biblioteca împrumută cărți?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📚"
+        }
+      ]
+    },
+    {
+      "id": "shs-l20",
+      "title": "Nivelul 20",
+      "subtitle": "Împreună",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-shs-l20-01",
+          "prompt": "Care steag e Elveția?",
+          "promptTts": "Care steag e Elveția?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l20-02",
+          "prompt": "Scrie: împărțim",
+          "promptTts": "Scrie împărțim",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "împărțim"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l20-03",
+          "prompt": "Ce vreme?",
+          "promptTts": "ploaie",
+          "choices": [
+            "ploaie",
+            "brutar",
+            "lampă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "ro-shs-l20-04",
+          "prompt": "Ce e prietenos?",
+          "promptTts": "ajutăm",
+          "choices": [
+            "ajutăm",
+            "lovim"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-shs-l20-05",
+          "prompt": "Scrie: Elveția",
+          "promptTts": "Scrie Elveția",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Elveția"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        }
+      ]
+    }
+  ]
+}

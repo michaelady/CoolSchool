@@ -64,15 +64,24 @@ class TopicPage extends StatelessWidget {
                     const SizedBox(height: 20),
                     Text(i18n.pickLevel, style: CoolTheme.kid(size: 22, weight: FontWeight.w700)),
                     const SizedBox(height: 12),
-                    for (var i = 0; i < pack.levels.length; i++)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 14),
-                        child: _LevelCard(
-                          pack: pack,
-                          index: i,
-                          i18n: i18n,
-                        ),
+                    GridView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: pack.levels.length,
+                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 4,
+                        mainAxisSpacing: 12,
+                        crossAxisSpacing: 12,
+                        childAspectRatio: 0.82,
                       ),
+                      itemBuilder: (context, index) {
+                        return _LevelTile(
+                          pack: pack,
+                          index: index,
+                          i18n: i18n,
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
@@ -84,8 +93,8 @@ class TopicPage extends StatelessWidget {
   }
 }
 
-class _LevelCard extends StatelessWidget {
-  const _LevelCard({
+class _LevelTile extends StatelessWidget {
+  const _LevelTile({
     required this.pack,
     required this.index,
     required this.i18n,
@@ -106,6 +115,8 @@ class _LevelCard extends StatelessWidget {
     );
     final stars = scope.progress.starsFor(level.id);
     return KidCard(
+      key: ValueKey<String>('level-${index + 1}'),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
       color: unlocked ? CoolColors.card : const Color(0xFFE8E4F0),
       onTap: () {
         if (!unlocked) {
@@ -122,35 +133,18 @@ class _LevelCard extends StatelessWidget {
         }
         pushKidPage(context, ExercisePage(pack: pack, levelIndex: index));
       },
-      child: Row(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircleAvatar(
-            radius: 28,
-            backgroundColor: unlocked ? CoolColors.sky : Colors.white,
-            child: Text(
-              '${index + 1}',
-              style: CoolTheme.kid(size: 24, weight: FontWeight.w700),
-            ),
+          Text(
+            '${index + 1}',
+            style: CoolTheme.kid(size: 26, weight: FontWeight.w700),
           ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(level.title, style: CoolTheme.kid(size: 22, weight: FontWeight.w700)),
-                Text(level.subtitle, style: CoolTheme.kid(size: 15, color: CoolColors.inkSoft)),
-                const SizedBox(height: 4),
-                Text(level.lp21Tag, style: CoolTheme.kid(size: 12, color: CoolColors.inkSoft)),
-                const SizedBox(height: 6),
-                StarRow(filled: stars, size: 22),
-              ],
-            ),
-          ),
-          Icon(
-            unlocked ? Icons.play_arrow_rounded : Icons.lock_rounded,
-            size: 36,
-            color: CoolColors.ink,
-          ),
+          const SizedBox(height: 4),
+          if (unlocked)
+            StarRow(filled: stars, size: 12)
+          else
+            const Icon(Icons.lock_rounded, size: 18, color: CoolColors.inkSoft),
         ],
       ),
     );
