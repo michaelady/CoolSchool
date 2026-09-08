@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "de-langues-l1-type",
+          "prompt": "Schreib: Katze",
+          "promptTts": "Schreib Katze",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Katze"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "de-langues-pencil-02",
           "prompt": "Stift",
           "promptTts": "Stift",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "de-langues-l1-type",
-          "prompt": "Schreib: Katze",
-          "promptTts": "Schreib Katze",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "Katze"
-          ],
-          "keyboard": "text",
-          "kind": "vocab",
-          "visual": "🐱"
         }
       ]
     },

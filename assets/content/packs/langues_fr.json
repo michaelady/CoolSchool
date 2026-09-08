@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "fr-langues-l1-type",
+          "prompt": "Écris : chat",
+          "promptTts": "Écris chat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "fr-langues-pencil-02",
           "prompt": "crayon",
           "promptTts": "crayon",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "fr-langues-l1-type",
-          "prompt": "Écris : chat",
-          "promptTts": "Écris chat",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "chat"
-          ],
-          "keyboard": "text",
-          "kind": "vocab",
-          "visual": "🐱"
         }
       ]
     },

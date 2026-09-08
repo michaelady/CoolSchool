@@ -35,6 +35,22 @@
         {
           "id": "en-msn-l1-02",
           "prompt": "How many?",
+          "promptTts": "How many flowers do you see?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "en-msn-l1-03",
+          "prompt": "How many?",
           "promptTts": "How many apples do you see?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "en-msn-l1-03",
+          "id": "en-msn-l1-04",
           "prompt": "How many?",
           "promptTts": "How many stars do you see?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "en-msn-l1-04",
+          "id": "en-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "What is two plus one?",
           "choices": [
@@ -74,22 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "en-msn-l1-05",
-          "prompt": "How many?",
-          "promptTts": "How many flowers do you see?",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "3"
-          ],
-          "keyboard": "number",
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },

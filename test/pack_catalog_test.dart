@@ -42,14 +42,10 @@ void main() {
           }
         }
         expect(typed, greaterThan(0), reason: '$topic/$locale needs typing exercises');
-        final early = [
-          ...pack.levels[0].exercises,
-          ...pack.levels[1].exercises,
-        ];
         expect(
-          early.any((item) => item.isType),
+          pack.levels.first.exercises.any((item) => item.isType),
           isTrue,
-          reason: '$topic/$locale needs a type exercise in L1 or L2',
+          reason: '$topic/$locale L1 needs a type exercise (not only later locked levels)',
         );
       }
       expect(ids['fr'], ids['de']);
@@ -75,17 +71,21 @@ void main() {
     }
   });
 
-  test('langues packs keep picture vocab and typing', () {
-    final pack = loadPack('langues', 'fr');
-    expect(pack.levels.first.exercises.first.kind, ExerciseKind.vocab);
-    expect(pack.levels.first.exercises.first.usesPictureChoices, isTrue);
-    expect(
-      pack.levels.first.exercises.any((item) => item.isType),
-      isTrue,
-    );
-    expect(
-      pack.levels[1].exercises.first.isType,
-      isTrue,
-    );
+  test('langues packs keep picture vocab and typing on L1', () {
+    for (final locale in AppLocales.codes) {
+      final pack = loadPack('langues', locale);
+      expect(pack.levels.first.exercises.first.kind, ExerciseKind.vocab);
+      expect(pack.levels.first.exercises.first.usesPictureChoices, isTrue);
+      expect(pack.levels.first.exercises[1].isType, isTrue);
+    }
+  });
+
+  test('math packs type a count on L1 after the opener', () {
+    for (final locale in AppLocales.codes) {
+      final pack = loadPack('math_sciences', locale);
+      expect(pack.levels.first.exercises.first.isChoice, isTrue);
+      expect(pack.levels.first.exercises[1].isType, isTrue);
+      expect(pack.levels.first.exercises[1].kind, ExerciseKind.counting);
+    }
   });
 }

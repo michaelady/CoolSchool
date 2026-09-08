@@ -51,7 +51,7 @@ Android stays scaffolded for a later APK (`flutter build apk`).
 2. Pick a **domain** card (all six PER areas).
 3. Pick a difficulty **1–20**. **Levels 1–5 are always open** so kids can explore. After that, finishing a level (any score, even 0 stars) unlocks the next one. Stars stay a 1–3 badge; they do not gate access.
 4. Each prompt is read aloud. Tap **Vorlesen** / **Lire** / **Read aloud** / **Citește** to hear it again.
-5. **Tap** a choice **or type** a short answer (numbers, spellings). Every domain has a typed exercise in **level 1 or 2**. Typed answers are trimmed, case-insensitive, and accent-tolerant for French/Romanian when that is fair (`ecole` = `école`, `scoala` = `școală`).
+5. **Tap** a choice **or type** a short answer (numbers, spellings). Every domain has a typed exercise in **level 1** (Langues/Math: second item, right after the opener). Typed answers are trimmed, case-insensitive, and accent-tolerant for French/Romanian when that is fair (`ecole` = `école`, `scoala` = `școală`).
 6. The localized banner (**Richtig!** / **Bravo !** / **Right!** / **Corect!**, or **Schade!** / **Presque !** / **Almost!** / **Aproape!**) stays about 1.6s. Correct / wrong SFX play unless mute is on.
 7. A short **transition** whoosh plays between screens. A soft **next** pop plays after the hold when the next prompt appears. Level-complete uses the rising fanfare. Mute is sticky for the session.
 8. Finish the short set to earn 1–3 stars, then **Home**, retry, or (if unlocked) the next level.
@@ -145,5 +145,5 @@ flutter analyze --no-fatal-infos
 
 CI (`/.github/workflows/web.yml`) runs analyze + test on every PR, then deploys `main` to Pages.
 
-- Unit: star scoring, kid-friendly unlock (L1–5 free, then finish-previous), spoken math, TTS locale picker (never English for DE/FR/RO), typing validation, pack catalog (6 × 20, type in L1/L2)
-- Widget: language chips above the sun, six domain cards, L1–5 open, typed answers on unlocked L2, feedback hold, sticky mute, reward Home
+- Unit: star scoring, kid-friendly unlock (L1–5 free, then finish-previous), spoken math, TTS locale picker (never English for DE/FR/RO), typing validation, pack catalog (6 × 20, type in every L1)
+- Widget: language chips above the sun, six domain cards, L1–5 open, Langues/Math L1 TextField e2e, feedback hold, sticky mute, reward Home

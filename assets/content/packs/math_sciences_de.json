@@ -35,6 +35,22 @@
         {
           "id": "de-msn-l1-02",
           "prompt": "Wie viele?",
+          "promptTts": "Wie viele Blumen siehst du?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "de-msn-l1-03",
+          "prompt": "Wie viele?",
           "promptTts": "Wie viele Äpfel siehst du?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "de-msn-l1-03",
+          "id": "de-msn-l1-04",
           "prompt": "Wie viele?",
           "promptTts": "Wie viele Sterne siehst du?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "de-msn-l1-04",
+          "id": "de-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "Was ist zwei plus eins?",
           "choices": [
@@ -74,22 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "de-msn-l1-05",
-          "prompt": "Wie viele?",
-          "promptTts": "Wie viele Blumen siehst du?",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "3"
-          ],
-          "keyboard": "number",
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },

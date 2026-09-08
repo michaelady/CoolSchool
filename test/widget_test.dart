@@ -269,6 +269,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Wie viele?'), findsOneWidget);
     expect(find.byKey(const ValueKey<String>('count-item-0')), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsOneWidget);
   });
 
   testWidgets('langues picture match is playable', (tester) async {
@@ -279,6 +280,43 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Buch'), findsOneWidget);
     expect(find.text('📚'), findsOneWidget);
+  });
+
+  testWidgets('langues L1 shows a type field after the picture opener', (tester) async {
+    await pumpApp(tester, pack: samplePack('langues_de.json'));
+    await tester.tap(find.text('Sprachen'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('level-1')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsNothing);
+    await tester.tap(find.text('📚'));
+    await tester.pump();
+    await tester.pump(ExercisePage.answerFeedbackHold);
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('type-submit')), findsOneWidget);
+    await tester.enterText(find.byKey(const ValueKey<String>('type-answer')), 'Katze');
+    await tester.tap(find.byKey(const ValueKey<String>('type-submit')));
+    await tester.pump();
+    expect(find.text('Richtig!'), findsOneWidget);
+  });
+
+  testWidgets('math L1 type field accepts a typed count', (tester) async {
+    await pumpApp(tester, pack: samplePack('math_sciences_de.json'));
+    await tester.tap(find.text('Mathematik & Natur'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('level-1')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('2'));
+    await tester.pump();
+    await tester.pump(ExercisePage.answerFeedbackHold);
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsOneWidget);
+    await tester.enterText(find.byKey(const ValueKey<String>('type-answer')), '3');
+    await tester.tap(find.byKey(const ValueKey<String>('type-submit')));
+    await tester.pump();
+    expect(find.text('Richtig!'), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('answer-feedback-banner')), findsOneWidget);
   });
 
   testWidgets('first five difficulties are open without stars', (tester) async {

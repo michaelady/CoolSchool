@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "en-langues-l1-type",
+          "prompt": "Type: cat",
+          "promptTts": "Type cat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "en-langues-pencil-02",
           "prompt": "pencil",
           "promptTts": "pencil",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "en-langues-l1-type",
-          "prompt": "Type: cat",
-          "promptTts": "Type cat",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "cat"
-          ],
-          "keyboard": "text",
-          "kind": "vocab",
-          "visual": "🐱"
         }
       ]
     },

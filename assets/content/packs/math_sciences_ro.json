@@ -35,6 +35,22 @@
         {
           "id": "ro-msn-l1-02",
           "prompt": "Câte sunt?",
+          "promptTts": "Câte flori vezi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "ro-msn-l1-03",
+          "prompt": "Câte sunt?",
           "promptTts": "Câte mere vezi?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "ro-msn-l1-03",
+          "id": "ro-msn-l1-04",
           "prompt": "Câte sunt?",
           "promptTts": "Câte stele vezi?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "ro-msn-l1-04",
+          "id": "ro-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "Cât fac doi plus unu?",
           "choices": [
@@ -74,22 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "ro-msn-l1-05",
-          "prompt": "Câte sunt?",
-          "promptTts": "Câte flori vezi?",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "3"
-          ],
-          "keyboard": "number",
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },

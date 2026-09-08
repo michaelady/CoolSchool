@@ -35,6 +35,22 @@
         {
           "id": "fr-msn-l1-02",
           "prompt": "Combien ?",
+          "promptTts": "Combien de fleurs vois-tu ?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "fr-msn-l1-03",
+          "prompt": "Combien ?",
           "promptTts": "Combien de pommes vois-tu ?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "fr-msn-l1-03",
+          "id": "fr-msn-l1-04",
           "prompt": "Combien ?",
           "promptTts": "Combien de étoiles vois-tu ?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "fr-msn-l1-04",
+          "id": "fr-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "Combien font deux plus un ?",
           "choices": [
@@ -74,22 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "fr-msn-l1-05",
-          "prompt": "Combien ?",
-          "promptTts": "Combien de fleurs vois-tu ?",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "3"
-          ],
-          "keyboard": "number",
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },

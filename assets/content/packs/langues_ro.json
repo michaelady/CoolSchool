@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "ro-langues-l1-type",
+          "prompt": "Scrie: pisică",
+          "promptTts": "Scrie pisică",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pisică"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "ro-langues-pencil-02",
           "prompt": "creion",
           "promptTts": "creion",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "ro-langues-l1-type",
-          "prompt": "Scrie: pisică",
-          "promptTts": "Scrie pisică",
-          "answerMode": "type",
-          "acceptedAnswers": [
-            "pisică"
-          ],
-          "keyboard": "text",
-          "kind": "vocab",
-          "visual": "🐱"
         }
       ]
     },
