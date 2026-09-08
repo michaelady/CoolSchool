@@ -11,22 +11,37 @@ ContentPack loadPack(String topic, String locale) {
 }
 
 void main() {
-  test('every topic exists in DE FR EN RO with stable level ids', () {
+  test('catalog is 6 PER domains × 20 difficulties in DE FR EN RO', () {
+    expect(AssetPackRepository.topicIds, hasLength(6));
+    expect(AssetPackRepository.levelsPerDomain, 20);
     for (final topic in AssetPackRepository.topicIds) {
       final ids = <String, List<String>>{};
       for (final locale in AppLocales.codes) {
         final pack = loadPack(topic, locale);
         expect(pack.id, topic);
         expect(pack.locale, locale);
-        expect(pack.levels, isNotEmpty);
+        expect(pack.levels, hasLength(20));
+        expect(pack.lp21.competenceId, isNotEmpty);
         ids[locale] = pack.levels.map((level) => level.id).toList();
-        for (final level in pack.levels) {
+        var typed = 0;
+        for (var i = 0; i < pack.levels.length; i++) {
+          final level = pack.levels[i];
+          expect(level.id, '$topic-l${i + 1}');
+          expect(level.lp21Tag, isNotEmpty);
           expect(level.exercises, isNotEmpty);
+          expect(level.unlockAfterStars, i == 0 ? 0 : 1);
           for (final exercise in level.exercises) {
             expect(exercise.promptTts, isNotEmpty);
             expect(RegExp(r'\d\s*[+\-−]').hasMatch(exercise.promptTts), isFalse);
+            if (exercise.isType) {
+              typed += 1;
+              expect(exercise.acceptedAnswers, isNotEmpty);
+            } else {
+              expect(exercise.choices.length, greaterThanOrEqualTo(2));
+            }
           }
         }
+        expect(typed, greaterThan(0), reason: '$topic/$locale needs typing exercises');
       }
       expect(ids['fr'], ids['de']);
       expect(ids['en'], ids['de']);
@@ -34,25 +49,30 @@ void main() {
     }
   });
 
-  test('counting packs carry visible items', () {
-    final pack = loadPack('counting', 'de');
-    expect(pack.levels.first.exercises.first.kind, ExerciseKind.counting);
-    expect(pack.levels.first.exercises.first.items, isNotEmpty);
-  });
-
-  test('Romanian subtraction TTS uses scăzut, not English minus', () {
-    final pack = loadPack('subtraction', 'ro');
-    for (final level in pack.levels) {
-      for (final exercise in level.exercises) {
-        expect(exercise.promptTts, contains('scăzut'));
-        expect(exercise.promptTts.toLowerCase(), isNot(contains('minus')));
-      }
+  test('math packs fold counting and spoken subtraction', () {
+    final pack = loadPack('math_sciences', 'de');
+    expect(pack.levels.first.exercises.first.prompt, '1 + 1 = ?');
+    expect(
+      pack.levels.first.exercises.any((item) => item.kind == ExerciseKind.counting),
+      isTrue,
+    );
+    final ro = loadPack('math_sciences', 'ro');
+    final spokenMinus = ro.levels
+        .expand((level) => level.exercises)
+        .where((item) => item.promptTts.contains('scăzut'));
+    expect(spokenMinus, isNotEmpty);
+    for (final exercise in spokenMinus) {
+      expect(exercise.promptTts.toLowerCase(), isNot(contains('minus')));
     }
   });
 
-  test('vocab packs use picture choices', () {
-    final pack = loadPack('vocab', 'fr');
+  test('langues packs keep picture vocab and typing', () {
+    final pack = loadPack('langues', 'fr');
     expect(pack.levels.first.exercises.first.kind, ExerciseKind.vocab);
     expect(pack.levels.first.exercises.first.usesPictureChoices, isTrue);
+    expect(
+      pack.levels.any((level) => level.exercises.any((item) => item.isType)),
+      isTrue,
+    );
   });
 }

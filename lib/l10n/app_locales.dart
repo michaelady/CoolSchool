@@ -1,4 +1,4 @@
-/// App language codes and BCP-47 speech tags (Lehrplan 21 / kid TTS).
+/// App language codes and BCP-47 speech tags (PER / kid TTS).
 class AppLocales {
   const AppLocales._();
 

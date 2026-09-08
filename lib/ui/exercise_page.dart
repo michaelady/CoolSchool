@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../app_scope.dart';
 import '../audio/speech_service.dart';
+import '../audio/tts_voices.dart';
 import '../content/models.dart';
 import '../game/scoring.dart';
 import '../l10n/strings.dart';
@@ -47,10 +48,13 @@ class _ExercisePageState extends State<ExercisePage>
     with SingleTickerProviderStateMixin {
   late final RunRecorder _run;
   late final AnimationController _shake;
+  late final TextEditingController _typeController;
   SpeechService? _speech;
   Timer? _holdTimer;
   int _index = 0;
   int? _picked;
+  TtsLocaleStatus? _ttsStatus;
+  bool _hintDismissed = false;
 
   /// Snapshot of correctness so the banner never reads the next exercise.
   bool? _feedbackCorrect;
@@ -72,6 +76,7 @@ class _ExercisePageState extends State<ExercisePage>
       vsync: this,
       duration: const Duration(milliseconds: 420),
     );
+    _typeController = TextEditingController();
     WidgetsBinding.instance.addPostFrameCallback((_) => _speakCurrent());
   }
 
@@ -86,6 +91,7 @@ class _ExercisePageState extends State<ExercisePage>
     _holdTimer?.cancel();
     hideWebAnswerFeedback();
     _shake.dispose();
+    _typeController.dispose();
     _speech?.stop();
     super.dispose();
   }
@@ -93,6 +99,11 @@ class _ExercisePageState extends State<ExercisePage>
   Future<void> _speakCurrent() async {
     if (!mounted) return;
     final scope = AppScope.of(context);
+    try {
+      final status = await scope.speech.prepare(scope.settings.locale);
+      if (mounted) setState(() => _ttsStatus = status);
+    } catch (_) {}
+    if (!mounted) return;
     await scope.speech.speak(
       _exercise.promptTts,
       locale: scope.settings.locale,
@@ -105,12 +116,22 @@ class _ExercisePageState extends State<ExercisePage>
   /// painting the hold frame entirely.
   void _pick(int choice) {
     if (_phase != FeedbackPhase.answering) return;
-    final correct = _exercise.isCorrect(choice);
+    _lockFeedback(_exercise.isCorrect(choice), picked: choice);
+  }
+
+  void _submitTyped() {
+    if (_phase != FeedbackPhase.answering) return;
+    if (!_exercise.isType) return;
+    if (_typeController.text.trim().isEmpty) return;
+    _lockFeedback(_exercise.acceptsTyped(_typeController.text));
+  }
+
+  void _lockFeedback(bool correct, {int? picked}) {
     final i18n = I18n(AppScope.of(context).settings.locale);
     final label = correct ? i18n.correct : i18n.wrong;
     setState(() {
       _phase = FeedbackPhase.locked;
-      _picked = choice;
+      _picked = picked;
       _feedbackCorrect = correct;
       _feedbackPainted = false;
       _holdElapsed = false;
@@ -162,6 +183,7 @@ class _ExercisePageState extends State<ExercisePage>
     _shake.stop();
     _shake.reset();
     unawaited(AppScope.of(context).sfx.next());
+    _typeController.clear();
     setState(() {
       _index += 1;
       _picked = null;
@@ -199,7 +221,7 @@ class _ExercisePageState extends State<ExercisePage>
     final scope = AppScope.of(context);
     final i18n = I18n(scope.settings.locale);
     final progress = (_index + 1) / _level.exercises.length;
-    final showingFeedback = _phase == FeedbackPhase.locked && _picked != null;
+    final showingFeedback = _phase == FeedbackPhase.locked && _feedbackCorrect != null;
     return ListenableBuilder(
       listenable: scope.settings,
       builder: (context, _) {
@@ -251,6 +273,15 @@ class _ExercisePageState extends State<ExercisePage>
                           // Paint immediately — no AnimatedSwitcher. A 120ms
                           // fade stays at opacity 0 on CanvasKit, so testers
                           // never saw Richtig/Schade even while the hold ran.
+                          if (_ttsStatus?.shouldHint == true && !_hintDismissed)
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 10),
+                              child: _TtsHintBanner(
+                                message: i18n.ttsMissing,
+                                dismissLabel: i18n.dismissHint,
+                                onDismiss: () => setState(() => _hintDismissed = true),
+                              ),
+                            ),
                           if (showingFeedback)
                             _FeedbackBanner(
                               key: const ValueKey<String>('answer-feedback-banner'),
@@ -319,7 +350,16 @@ class _ExercisePageState extends State<ExercisePage>
                             ),
                           ),
                           const SizedBox(height: 20),
-                          if (_exercise.usesPictureChoices)
+                          if (_exercise.isType)
+                            _TypeAnswerField(
+                              controller: _typeController,
+                              i18n: i18n,
+                              keyboard: _exercise.keyboard,
+                              locked: _locked,
+                              correct: showingFeedback ? _feedbackCorrect : null,
+                              onSubmit: _submitTyped,
+                            )
+                          else if (_exercise.usesPictureChoices)
                             Wrap(
                               alignment: WrapAlignment.center,
                               spacing: 12,
@@ -503,3 +543,116 @@ class _ChoiceButton extends StatelessWidget {
 }
 
 enum _ChoiceState { idle, right, wrong }
+
+class _TypeAnswerField extends StatelessWidget {
+  const _TypeAnswerField({
+    required this.controller,
+    required this.i18n,
+    required this.keyboard,
+    required this.locked,
+    required this.correct,
+    required this.onSubmit,
+  });
+
+  final TextEditingController controller;
+  final I18n i18n;
+  final ExerciseKeyboard keyboard;
+  final bool locked;
+  final bool? correct;
+  final VoidCallback onSubmit;
+
+  @override
+  Widget build(BuildContext context) {
+    final border = switch (correct) {
+      true => CoolColors.leafDeep,
+      false => CoolColors.roseDeep,
+      null => CoolColors.ink.withValues(alpha: 0.18),
+    };
+    return Column(
+      children: [
+        TextField(
+          key: const ValueKey<String>('type-answer'),
+          controller: controller,
+          enabled: !locked,
+          autofocus: true,
+          autocorrect: false,
+          enableSuggestions: false,
+          textCapitalization: TextCapitalization.none,
+          keyboardType: keyboard == ExerciseKeyboard.number
+              ? TextInputType.number
+              : TextInputType.text,
+          textInputAction: TextInputAction.done,
+          onSubmitted: (_) => onSubmit(),
+          style: CoolTheme.kid(size: 28, weight: FontWeight.w700),
+          decoration: InputDecoration(
+            hintText: i18n.typeHint,
+            filled: true,
+            fillColor: Colors.white,
+            contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(22),
+              borderSide: BorderSide(color: border, width: 3),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(22),
+              borderSide: const BorderSide(color: CoolColors.sky, width: 3),
+            ),
+            disabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(22),
+              borderSide: BorderSide(color: border, width: 4),
+            ),
+          ),
+        ),
+        const SizedBox(height: 12),
+        KidPillButton(
+          key: const ValueKey<String>('type-submit'),
+          label: i18n.check,
+          icon: Icons.check_rounded,
+          color: CoolColors.leaf,
+          onPressed: locked ? null : onSubmit,
+        ),
+      ],
+    );
+  }
+}
+
+class _TtsHintBanner extends StatelessWidget {
+  const _TtsHintBanner({
+    required this.message,
+    required this.dismissLabel,
+    required this.onDismiss,
+  });
+
+  final String message;
+  final String dismissLabel;
+  final VoidCallback onDismiss;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: const Color(0xFFFFF3C4),
+      borderRadius: BorderRadius.circular(16),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(12, 8, 4, 8),
+        child: Row(
+          children: [
+            const Icon(Icons.record_voice_over_rounded, color: CoolColors.inkSoft),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                message,
+                key: const ValueKey<String>('tts-missing-hint'),
+                style: CoolTheme.kid(size: 13, color: CoolColors.inkSoft, weight: FontWeight.w500),
+              ),
+            ),
+            IconButton(
+              tooltip: dismissLabel,
+              onPressed: onDismiss,
+              icon: const Icon(Icons.close_rounded, size: 20),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

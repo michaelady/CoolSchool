@@ -144,6 +144,34 @@ class I18n {
         _ => 'Für Kinder bis 10 Jahre',
       };
 
+  String get typeHint => switch (lang) {
+        'fr' => 'Écris ici',
+        'en' => 'Type here',
+        'ro' => 'Scrie aici',
+        _ => 'Schreib hier',
+      };
+
+  String get check => switch (lang) {
+        'fr' => 'Vérifier',
+        'en' => 'Check',
+        'ro' => 'Verifică',
+        _ => 'Prüfen',
+      };
+
+  String get ttsMissing => switch (lang) {
+        'fr' => 'Voix française absente — le navigateur peut parler anglais. Installe une voix fr-CH / fr-FR.',
+        'en' => 'No English voice found — install an en-GB or en-US voice in the browser.',
+        'ro' => 'Voce română lipsă — browserul poate vorbi engleză. Instalează o voce ro-RO.',
+        _ => 'Deutsche Stimme fehlt — der Browser spricht evtl. Englisch. Stimme de-CH / de-DE installieren.',
+      };
+
+  String get dismissHint => switch (lang) {
+        'fr' => 'Cacher',
+        'en' => 'Hide',
+        'ro' => 'Ascunde',
+        _ => 'Ausblenden',
+      };
+
   String progress(int n, int total) => switch (lang) {
         'fr' => 'Exercice $n sur $total',
         'en' => 'Exercise $n of $total',

@@ -5,7 +5,7 @@ import 'package:coolschool/game/scoring.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 ContentPack loadPack(String locale) {
-  final file = File('assets/content/packs/addition_$locale.json');
+  final file = File('assets/content/packs/math_sciences_$locale.json');
   return ContentPack.fromJsonString(file.readAsStringSync());
 }
 
@@ -16,12 +16,13 @@ void main() {
     pack = loadPack('de');
   });
 
-  test('addition packs expose three levels in every language', () {
+  test('domain packs expose twenty levels in every language', () {
     for (final locale in ['de', 'fr', 'en', 'ro']) {
-      expect(loadPack(locale).levels, hasLength(3));
+      expect(loadPack(locale).levels, hasLength(20));
     }
     expect(pack.levels.first.unlockAfterStars, 0);
     expect(pack.levels[1].unlockAfterStars, 1);
+    expect(pack.levels.last.unlockAfterStars, 1);
   });
 
   test('first level is always unlocked', () {
@@ -54,7 +55,7 @@ void main() {
     );
   });
 
-  test('third level needs a star on the second', () {
+  test('later levels need a star on the previous level', () {
     expect(
       LevelUnlock.isUnlocked(
         levelIndex: 2,
@@ -79,7 +80,7 @@ void main() {
   test('out of range index is locked', () {
     expect(
       LevelUnlock.isUnlocked(
-        levelIndex: 9,
+        levelIndex: 99,
         levels: pack.levels,
         starsByLevelId: const {},
       ),
@@ -87,7 +88,7 @@ void main() {
     );
   });
 
-  test('DE FR EN RO addition packs share stable level ids', () {
+  test('DE FR EN RO math packs share stable level ids', () {
     final de = pack.levels.map((level) => level.id).toList();
     expect(loadPack('fr').levels.map((level) => level.id).toList(), de);
     expect(loadPack('en').levels.map((level) => level.id).toList(), de);

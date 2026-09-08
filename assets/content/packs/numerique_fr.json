@@ -1,0 +1,1345 @@
+{
+  "id": "numerique",
+  "locale": "fr",
+  "emoji": "💻",
+  "color": "#38BDF8",
+  "title": "Éducation numérique",
+  "subtitle": "Outils, sécurité, séquence",
+  "per": {
+    "competenceId": "EN 11",
+    "label": "Usages",
+    "focusId": "EN 21",
+    "focusLabel": "Pensée informatique",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "numerique-l1",
+      "title": "Niveau 1",
+      "subtitle": "Appareils",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-num-l1-01",
+          "prompt": "Quel appareil ?",
+          "promptTts": "ordinateur",
+          "choices": [
+            "ordinateur",
+            "ballon",
+            "banane"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "fr-num-l1-02",
+          "prompt": "Quel appareil ?",
+          "promptTts": "tablette",
+          "choices": [
+            "tablette",
+            "crayon",
+            "chaussure"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📱"
+        },
+        {
+          "id": "fr-num-l1-03",
+          "prompt": "Quel appareil ?",
+          "promptTts": "téléphone",
+          "choices": [
+            "téléphone",
+            "cuillère",
+            "livre"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📞"
+        },
+        {
+          "id": "fr-num-l1-04",
+          "prompt": "Écris : tablette",
+          "promptTts": "Écris tablette",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tablette"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "📱"
+        },
+        {
+          "id": "fr-num-l1-05",
+          "prompt": "Un ordinateur est-il une machine ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l2",
+      "title": "Niveau 2",
+      "subtitle": "Souris et clavier",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l2-01",
+          "prompt": "Avec quoi montre-t-on sur l’ordinateur ?",
+          "promptTts": "souris",
+          "choices": [
+            "souris",
+            "mot de passe",
+            "inconnu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖱️"
+        },
+        {
+          "id": "fr-num-l2-02",
+          "prompt": "Avec quoi écrit-on des lettres ?",
+          "promptTts": "clavier",
+          "choices": [
+            "clavier",
+            "jouet",
+            "pause"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⌨️"
+        },
+        {
+          "id": "fr-num-l2-03",
+          "prompt": "Où voit-on l’image ?",
+          "promptTts": "écran",
+          "choices": [
+            "écran",
+            "souris",
+            "dossier"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖥️"
+        },
+        {
+          "id": "fr-num-l2-04",
+          "prompt": "Écris : souris",
+          "promptTts": "Écris souris",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "souris"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🖱️"
+        },
+        {
+          "id": "fr-num-l2-05",
+          "prompt": "Un clavier a-t-il des touches ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l3",
+      "title": "Niveau 3",
+      "subtitle": "Cliquer et taper",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l3-01",
+          "prompt": "Appuyer sur la souris s’appelle souvent…",
+          "promptTts": "cliquer",
+          "choices": [
+            "cliquer",
+            "dormir",
+            "cuisiner"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l3-02",
+          "prompt": "Entrer des lettres s’appelle…",
+          "promptTts": "taper",
+          "choices": [
+            "taper",
+            "courir",
+            "peindre"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l3-03",
+          "prompt": "Écris : cliquer",
+          "promptTts": "Écris cliquer",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cliquer"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l3-04",
+          "prompt": "Sur une tablette on tape avec le doigt ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l3-05",
+          "prompt": "Écris le mot : oui",
+          "promptTts": "Écris oui",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "oui"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l4",
+      "title": "Niveau 4",
+      "subtitle": "Icônes",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l4-01",
+          "prompt": "Une petite image qui ouvre un programme ?",
+          "promptTts": "icône",
+          "choices": [
+            "icône",
+            "soupe",
+            "pierre"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖼️"
+        },
+        {
+          "id": "fr-num-l4-02",
+          "prompt": "🗑️ est souvent la corbeille ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l4-03",
+          "prompt": "Écris : icône",
+          "promptTts": "Écris icône",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "icône"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l4-04",
+          "prompt": "Une icône peut-elle être un appareil photo ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📷"
+        },
+        {
+          "id": "fr-num-l4-05",
+          "prompt": "Toutes les icônes sont-elles identiques ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l5",
+      "title": "Niveau 5",
+      "subtitle": "Dossiers",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l5-01",
+          "prompt": "Où range-t-on les fichiers ?",
+          "promptTts": "dossier",
+          "choices": [
+            "dossier",
+            "inconnu",
+            "soupe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📁"
+        },
+        {
+          "id": "fr-num-l5-02",
+          "prompt": "Un document est souvent un…",
+          "promptTts": "fichier",
+          "choices": [
+            "fichier",
+            "adulte",
+            "pause"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📄"
+        },
+        {
+          "id": "fr-num-l5-03",
+          "prompt": "Écris : dossier",
+          "promptTts": "Écris dossier",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dossier"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "📁"
+        },
+        {
+          "id": "fr-num-l5-04",
+          "prompt": "Un dossier peut-il contenir beaucoup de fichiers ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l5-05",
+          "prompt": "Chaque fichier va-t-il à la corbeille ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l6",
+      "title": "Niveau 6",
+      "subtitle": "Mot de passe",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l6-01",
+          "prompt": "Qu’est-ce qui ferme un compte ?",
+          "promptTts": "mot de passe",
+          "choices": [
+            "mot de passe",
+            "jouet",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔐"
+        },
+        {
+          "id": "fr-num-l6-02",
+          "prompt": "Un mot de passe est-il un secret ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l6-03",
+          "prompt": "Écris : mot de passe",
+          "promptTts": "Écris mot de passe",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mot de passe"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l6-04",
+          "prompt": "1234 est très sûr ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l6-05",
+          "prompt": "Choisir un long mot de passe avec un adulte ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l7",
+      "title": "Niveau 7",
+      "subtitle": "Garder secret",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l7-01",
+          "prompt": "Peut-on dire le mot de passe à toute la classe ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l7-02",
+          "prompt": "Le mot de passe est…",
+          "promptTts": "secret",
+          "choices": [
+            "secret",
+            "jouet",
+            "internet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l7-03",
+          "prompt": "Écris : secret",
+          "promptTts": "Écris secret",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "secret"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l7-04",
+          "prompt": "Peut-on le dire à un adulte de confiance si on a besoin d’aide ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l7-05",
+          "prompt": "Le coller sur l’écran ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l8",
+      "title": "Niveau 8",
+      "subtitle": "Un adulte",
+      "perTag": "EN 11 · usages",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l8-01",
+          "prompt": "Qui demander si une fenêtre est bizarre ?",
+          "promptTts": "adulte",
+          "choices": [
+            "adulte",
+            "inconnu",
+            "jouet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧑‍🏫"
+        },
+        {
+          "id": "fr-num-l8-02",
+          "prompt": "Télécharger sans demander ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l8-03",
+          "prompt": "Écris : adulte",
+          "promptTts": "Écris adulte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "adulte"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l8-04",
+          "prompt": "Pop-up : d’abord un adulte ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l8-05",
+          "prompt": "Cliquer « prix gagné » sans demander ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l9",
+      "title": "Niveau 9",
+      "subtitle": "Messages gentils",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l9-01",
+          "prompt": "Comment doivent être les messages ?",
+          "promptTts": "gentil",
+          "choices": [
+            "gentil",
+            "méchant"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💬"
+        },
+        {
+          "id": "fr-num-l9-02",
+          "prompt": "Envoyer des mots méchants ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l9-03",
+          "prompt": "Écris : gentil",
+          "promptTts": "Écris gentil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "gentil"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l9-04",
+          "prompt": "S’il te plaît et merci aussi en ligne ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l9-05",
+          "prompt": "Transférer la photo de quelqu’un sans demander ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l10",
+      "title": "Niveau 10",
+      "subtitle": "Inconnus en ligne",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l10-01",
+          "prompt": "Quelqu’un d’inconnu veut se rencontrer ?",
+          "promptTts": "demander à un adulte",
+          "choices": [
+            "y aller seul tout de suite",
+            "demander à un adulte"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l10-02",
+          "prompt": "Chaque personne en ligne est-elle une amie ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l10-03",
+          "prompt": "Écris : inconnu",
+          "promptTts": "Écris inconnu",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "inconnu"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l10-04",
+          "prompt": "Donner adresse ou école à un inconnu ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l10-05",
+          "prompt": "Une personne inconnue est souvent…",
+          "promptTts": "inconnu",
+          "choices": [
+            "inconnu",
+            "adulte",
+            "dossier"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l11",
+      "title": "Niveau 11",
+      "subtitle": "Temps d’écran",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l11-01",
+          "prompt": "Longtemps uniquement l’écran : que faire ?",
+          "promptTts": "pause",
+          "choices": [
+            "pause",
+            "mot de passe",
+            "inconnu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⏰"
+        },
+        {
+          "id": "fr-num-l11-02",
+          "prompt": "Une pause pour les yeux est utile ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l11-03",
+          "prompt": "Écris : pause",
+          "promptTts": "Écris pause",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pause"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l11-04",
+          "prompt": "Aussi jouer dehors ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l11-05",
+          "prompt": "Toute la nuit sur l’appareil ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l12",
+      "title": "Niveau 12",
+      "subtitle": "D’abord, ensuite",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l12-01",
+          "prompt": "Ordre : chaussures, puis dehors. Qu’est-ce qui vient d’abord ?",
+          "promptTts": "d’abord",
+          "choices": [
+            "d’abord",
+            "ensuite"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l12-02",
+          "prompt": "D’abord se laver les mains, ___ manger.",
+          "promptTts": "ensuite",
+          "choices": [
+            "ensuite",
+            "d’abord"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l12-03",
+          "prompt": "Écris : d’abord",
+          "promptTts": "Écris d’abord",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "d’abord"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l12-04",
+          "prompt": "Une recette est une séquence ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l12-05",
+          "prompt": "Écris : ensuite",
+          "promptTts": "Écris ensuite",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "ensuite"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l13",
+      "title": "Niveau 13",
+      "subtitle": "Robot gauche/droite",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l13-01",
+          "prompt": "Le robot doit aller ⬅️. Où ?",
+          "promptTts": "gauche",
+          "choices": [
+            "gauche",
+            "droite"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l13-02",
+          "prompt": "Le robot doit aller ➡️. Où ?",
+          "promptTts": "droite",
+          "choices": [
+            "droite",
+            "gauche"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l13-03",
+          "prompt": "Écris : gauche",
+          "promptTts": "Écris gauche",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "gauche"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l13-04",
+          "prompt": "Des pas clairs aident le robot ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤖"
+        },
+        {
+          "id": "fr-num-l13-05",
+          "prompt": "Écris : droite",
+          "promptTts": "Écris droite",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "droite"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l14",
+      "title": "Niveau 14",
+      "subtitle": "Trois fois",
+      "perTag": "EN 11 · sécurité",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l14-01",
+          "prompt": "Répète trois fois : combien ?",
+          "promptTts": "3",
+          "choices": [
+            "2",
+            "3",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l14-02",
+          "prompt": "Écris le nombre 3",
+          "promptTts": "Écris trois",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l14-03",
+          "prompt": "Une boucle répète-t-elle quelque chose ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l14-04",
+          "prompt": "Tape 3 fois : 1, 2, … ?",
+          "promptTts": "3",
+          "choices": [
+            "3",
+            "1",
+            "8"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l14-05",
+          "prompt": "Ne jamais répéter, toujours 1 pas ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l15",
+      "title": "Niveau 15",
+      "subtitle": "Électricité",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l15-01",
+          "prompt": "De quoi a besoin un ordinateur ?",
+          "promptTts": "électricité",
+          "choices": [
+            "électricité",
+            "jouet",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔌"
+        },
+        {
+          "id": "fr-num-l15-02",
+          "prompt": "Sans électricité l’écran reste souvent noir ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l15-03",
+          "prompt": "Écris : électricité",
+          "promptTts": "Écris électricité",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "électricité"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l15-04",
+          "prompt": "Batterie vide : charger ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l15-05",
+          "prompt": "Mettre l’appareil dans l’eau ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l16",
+      "title": "Niveau 16",
+      "subtitle": "Internet",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l16-01",
+          "prompt": "Comment s’appelle le réseau des pages ?",
+          "promptTts": "internet",
+          "choices": [
+            "internet",
+            "souris",
+            "dossier"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌐"
+        },
+        {
+          "id": "fr-num-l16-02",
+          "prompt": "Tout est-il vrai sur internet ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l16-03",
+          "prompt": "Écris : internet",
+          "promptTts": "Écris internet",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "internet"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l16-04",
+          "prompt": "Internet peut-il ressembler à une bibliothèque ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l16-05",
+          "prompt": "Chercher avec un adulte ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l17",
+      "title": "Niveau 17",
+      "subtitle": "Demander pour les photos",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l17-01",
+          "prompt": "Avant de partager la photo de quelqu’un ?",
+          "promptTts": "demander",
+          "choices": [
+            "demander",
+            "envoyer juste"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📷"
+        },
+        {
+          "id": "fr-num-l17-02",
+          "prompt": "Peut-on mettre chaque photo en ligne ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l17-03",
+          "prompt": "Écris : photo",
+          "promptTts": "Écris photo",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "photo"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l17-04",
+          "prompt": "Un enfant sur une photo : demander aux parents ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l17-05",
+          "prompt": "Envoyer sa position à tout le monde ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l18",
+      "title": "Niveau 18",
+      "subtitle": "Stop si peur",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l18-01",
+          "prompt": "Si on se sent mal en ligne ?",
+          "promptTts": "stop",
+          "choices": [
+            "stop",
+            "inconnu",
+            "jouet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛑"
+        },
+        {
+          "id": "fr-num-l18-02",
+          "prompt": "Poser l’appareil et chercher un adulte ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l18-03",
+          "prompt": "Écris : stop",
+          "promptTts": "Écris stop",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "stop"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l18-04",
+          "prompt": "Garder secret si quelqu’un est méchant ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l18-05",
+          "prompt": "A-t-on le droit de dire stop ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l19",
+      "title": "Niveau 19",
+      "subtitle": "Outil ou jeu",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l19-01",
+          "prompt": "Un ordinateur pour travailler est plutôt un…",
+          "promptTts": "outil",
+          "choices": [
+            "outil",
+            "jouet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "fr-num-l19-02",
+          "prompt": "Un jeu sur tablette est plutôt…",
+          "promptTts": "jouet",
+          "choices": [
+            "jouet",
+            "outil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎮"
+        },
+        {
+          "id": "fr-num-l19-03",
+          "prompt": "Écris : outil",
+          "promptTts": "Écris outil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "outil"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l19-04",
+          "prompt": "Le même appareil peut-il être outil et jeu ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l19-05",
+          "prompt": "Écris : jouet",
+          "promptTts": "Écris jouet",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "jouet"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "numerique-l20",
+      "title": "Niveau 20",
+      "subtitle": "Mélange",
+      "perTag": "EN 21 · MITIC / séquence",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-num-l20-01",
+          "prompt": "Quel appareil ?",
+          "promptTts": "ordinateur",
+          "choices": [
+            "ordinateur",
+            "jouet",
+            "photo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💻"
+        },
+        {
+          "id": "fr-num-l20-02",
+          "prompt": "Écris : mot de passe",
+          "promptTts": "Écris mot de passe",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mot de passe"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l20-03",
+          "prompt": "Dire le mot de passe à la classe ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-num-l20-04",
+          "prompt": "Robot ⬅️ ?",
+          "promptTts": "gauche",
+          "choices": [
+            "gauche",
+            "droite"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤖"
+        },
+        {
+          "id": "fr-num-l20-05",
+          "prompt": "Écris : stop",
+          "promptTts": "Écris stop",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "stop"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    }
+  ]
+}

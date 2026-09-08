@@ -1,0 +1,1353 @@
+{
+  "id": "corps",
+  "locale": "fr",
+  "emoji": "⚽",
+  "color": "#2FA84A",
+  "title": "Corps et mouvement",
+  "subtitle": "Bouger, santé, fair-play",
+  "per": {
+    "competenceId": "CM 11",
+    "label": "Se mouvoir",
+    "focusId": "CM 16",
+    "focusLabel": "Santé",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "corps-l1",
+      "title": "Niveau 1",
+      "subtitle": "Parties du corps",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-corps-l1-01",
+          "prompt": "Quelle partie du corps ?",
+          "promptTts": "tête",
+          "choices": [
+            "tête",
+            "main",
+            "pied"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🙂"
+        },
+        {
+          "id": "fr-corps-l1-02",
+          "prompt": "Quelle partie du corps ?",
+          "promptTts": "main",
+          "choices": [
+            "main",
+            "tête",
+            "pied"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "fr-corps-l1-03",
+          "prompt": "Quelle partie du corps ?",
+          "promptTts": "pied",
+          "choices": [
+            "pied",
+            "tête",
+            "main"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦶"
+        },
+        {
+          "id": "fr-corps-l1-04",
+          "prompt": "Écris : main",
+          "promptTts": "Écris main",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "main"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "fr-corps-l1-05",
+          "prompt": "Avons-nous deux mains ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l2",
+      "title": "Niveau 2",
+      "subtitle": "Plus de corps",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l2-01",
+          "prompt": "Avec quoi voyons-nous ?",
+          "promptTts": "œil",
+          "choices": [
+            "œil",
+            "oreille",
+            "pied"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👀"
+        },
+        {
+          "id": "fr-corps-l2-02",
+          "prompt": "Avec quoi entendons-nous ?",
+          "promptTts": "oreille",
+          "choices": [
+            "oreille",
+            "œil",
+            "main"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👂"
+        },
+        {
+          "id": "fr-corps-l2-03",
+          "prompt": "Écris : tête",
+          "promptTts": "Écris tête",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tête"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l2-04",
+          "prompt": "Le genou pour plier ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l2-05",
+          "prompt": "Le nez pour sentir ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👃"
+        }
+      ]
+    },
+    {
+      "id": "corps-l3",
+      "title": "Niveau 3",
+      "subtitle": "Mouvements",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l3-01",
+          "prompt": "Quel mouvement ?",
+          "promptTts": "courir",
+          "choices": [
+            "courir",
+            "s’asseoir",
+            "dormir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏃"
+        },
+        {
+          "id": "fr-corps-l3-02",
+          "prompt": "Quel mouvement ?",
+          "promptTts": "sauter",
+          "choices": [
+            "sauter",
+            "s’asseoir",
+            "laver"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤸"
+        },
+        {
+          "id": "fr-corps-l3-03",
+          "prompt": "Quel mouvement ?",
+          "promptTts": "s’asseoir",
+          "choices": [
+            "s’asseoir",
+            "courir",
+            "nager"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪑"
+        },
+        {
+          "id": "fr-corps-l3-04",
+          "prompt": "Écris : courir",
+          "promptTts": "Écris courir",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "courir"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l3-05",
+          "prompt": "S’étirer est un mouvement ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l4",
+      "title": "Niveau 4",
+      "subtitle": "Gauche et droite",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l4-01",
+          "prompt": "⬅️ c’est ?",
+          "promptTts": "gauche",
+          "choices": [
+            "gauche",
+            "droite"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l4-02",
+          "prompt": "➡️ c’est ?",
+          "promptTts": "droite",
+          "choices": [
+            "droite",
+            "gauche"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l4-03",
+          "prompt": "Écris : gauche",
+          "promptTts": "Écris gauche",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "gauche"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l4-04",
+          "prompt": "Deux mains : gauche et droite ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l4-05",
+          "prompt": "Écris : droite",
+          "promptTts": "Écris droite",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "droite"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l5",
+      "title": "Niveau 5",
+      "subtitle": "Sport",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l5-01",
+          "prompt": "Quel sport ?",
+          "promptTts": "football",
+          "choices": [
+            "football",
+            "dormir",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⚽"
+        },
+        {
+          "id": "fr-corps-l5-02",
+          "prompt": "Quel sport ?",
+          "promptTts": "nager",
+          "choices": [
+            "nager",
+            "s’asseoir",
+            "manteau"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏊"
+        },
+        {
+          "id": "fr-corps-l5-03",
+          "prompt": "Écris : football",
+          "promptTts": "Écris football",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "football"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⚽"
+        },
+        {
+          "id": "fr-corps-l5-04",
+          "prompt": "Le sport peut-il être amusant ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l5-05",
+          "prompt": "Faut-il de l’eau pour nager ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l6",
+      "title": "Niveau 6",
+      "subtitle": "Bien manger",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l6-01",
+          "prompt": "Meilleure idée de goûter ?",
+          "promptTts": "fruit",
+          "choices": [
+            "fruit",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "fr-corps-l6-02",
+          "prompt": "Que des sucreries chaque jour ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l6-03",
+          "prompt": "Écris : fruit",
+          "promptTts": "Écris fruit",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fruit"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "fr-corps-l6-04",
+          "prompt": "Les légumes sont souvent sains ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥕"
+        },
+        {
+          "id": "fr-corps-l6-05",
+          "prompt": "La pomme est un fruit ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l7",
+      "title": "Niveau 7",
+      "subtitle": "Boire de l’eau",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l7-01",
+          "prompt": "Que buvons-nous souvent ?",
+          "promptTts": "eau",
+          "choices": [
+            "eau",
+            "bonbon",
+            "manteau"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-corps-l7-02",
+          "prompt": "Boire après le sport ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l7-03",
+          "prompt": "Écris : eau",
+          "promptTts": "Écris eau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "eau"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-corps-l7-04",
+          "prompt": "L’eau aide-t-elle le corps ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l7-05",
+          "prompt": "Que du jus toute la journée ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l8",
+      "title": "Niveau 8",
+      "subtitle": "Dormir",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l8-01",
+          "prompt": "De quoi le corps a-t-il besoin la nuit ?",
+          "promptTts": "dormir",
+          "choices": [
+            "dormir",
+            "football",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😴"
+        },
+        {
+          "id": "fr-corps-l8-02",
+          "prompt": "Fatigué ? Une pause ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l8-03",
+          "prompt": "Écris : dormir",
+          "promptTts": "Écris dormir",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dormir"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l8-04",
+          "prompt": "Dormir aide à grandir ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l8-05",
+          "prompt": "Jouer toute la nuit ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l9",
+      "title": "Niveau 9",
+      "subtitle": "Se laver les mains",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l9-01",
+          "prompt": "Avant de manger ?",
+          "promptTts": "laver",
+          "choices": [
+            "laver",
+            "sauter",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧼"
+        },
+        {
+          "id": "fr-corps-l9-02",
+          "prompt": "Se laver les mains après les toilettes ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l9-03",
+          "prompt": "Écris : laver",
+          "promptTts": "Écris laver",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "laver"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🧼"
+        },
+        {
+          "id": "fr-corps-l9-04",
+          "prompt": "Le savon aide ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l9-05",
+          "prompt": "Mains sales sur la pomme ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l10",
+      "title": "Niveau 10",
+      "subtitle": "Brosser les dents",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l10-01",
+          "prompt": "Que brosse-t-on le matin ?",
+          "promptTts": "dents",
+          "choices": [
+            "dents",
+            "football",
+            "manteau"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦷"
+        },
+        {
+          "id": "fr-corps-l10-02",
+          "prompt": "Aussi le soir ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l10-03",
+          "prompt": "Écris : dents",
+          "promptTts": "Écris dents",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dents"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l10-04",
+          "prompt": "Utiliser une brosse à dents ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪥"
+        },
+        {
+          "id": "fr-corps-l10-05",
+          "prompt": "Que des sucreries et jamais brosser ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l11",
+      "title": "Niveau 11",
+      "subtitle": "Casque",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l11-01",
+          "prompt": "À vélo ?",
+          "promptTts": "casque",
+          "choices": [
+            "casque",
+            "bonbon",
+            "dormir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪖"
+        },
+        {
+          "id": "fr-corps-l11-02",
+          "prompt": "Le casque protège-t-il la tête ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l11-03",
+          "prompt": "Écris : casque",
+          "promptTts": "Écris casque",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "casque"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l11-04",
+          "prompt": "Rouler vite sans casque ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l11-05",
+          "prompt": "Ceinture en voiture ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l12",
+      "title": "Niveau 12",
+      "subtitle": "Dans l’eau",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l12-01",
+          "prompt": "Dans l’eau : avec qui ?",
+          "promptTts": "un adulte",
+          "choices": [
+            "seul très loin",
+            "un adulte"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l12-02",
+          "prompt": "Si on ne sait pas nager : eau profonde ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l12-03",
+          "prompt": "Écris : nager",
+          "promptTts": "Écris nager",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "nager"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l12-04",
+          "prompt": "Appeler à l’aide si quelqu’un ne revient pas ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l12-05",
+          "prompt": "Nager est un mouvement ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l13",
+      "title": "Niveau 13",
+      "subtitle": "Équipe",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l13-01",
+          "prompt": "Jouer ensemble ?",
+          "promptTts": "équipe",
+          "choices": [
+            "équipe",
+            "bonbon",
+            "manteau"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👥"
+        },
+        {
+          "id": "fr-corps-l13-02",
+          "prompt": "En équipe on partage le ballon ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l13-03",
+          "prompt": "Écris : équipe",
+          "promptTts": "Écris équipe",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "équipe"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l13-04",
+          "prompt": "Seulement moi, jamais de passe ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l13-05",
+          "prompt": "Applaudir les autres est gentil ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l14",
+      "title": "Niveau 14",
+      "subtitle": "Échauffement",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l14-01",
+          "prompt": "Avant le sport ?",
+          "promptTts": "s’étirer",
+          "choices": [
+            "s’étirer",
+            "bonbon",
+            "dormir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧘"
+        },
+        {
+          "id": "fr-corps-l14-02",
+          "prompt": "L’échauffement protège ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l14-03",
+          "prompt": "Écris : s’étirer",
+          "promptTts": "Écris s’étirer",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "s’étirer"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l14-04",
+          "prompt": "Partir froid et sprinter sans préparation ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l14-05",
+          "prompt": "Tourner les bras, c’est s’échauffer ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l15",
+      "title": "Niveau 15",
+      "subtitle": "Cœur",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l15-01",
+          "prompt": "Qu’est-ce qui bat plus vite après une course ?",
+          "promptTts": "cœur",
+          "choices": [
+            "cœur",
+            "casque",
+            "fruit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❤️"
+        },
+        {
+          "id": "fr-corps-l15-02",
+          "prompt": "Peut-on sentir le cœur ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l15-03",
+          "prompt": "Écris : cœur",
+          "promptTts": "Écris cœur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cœur"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l15-04",
+          "prompt": "Le pouls se calme à la pause ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l15-05",
+          "prompt": "Bouger peut fortifier le cœur ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l16",
+      "title": "Niveau 16",
+      "subtitle": "Pause",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l16-01",
+          "prompt": "Après un gros effort ?",
+          "promptTts": "pause",
+          "choices": [
+            "pause",
+            "bonbon",
+            "football"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😌"
+        },
+        {
+          "id": "fr-corps-l16-02",
+          "prompt": "Boire pendant la pause ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l16-03",
+          "prompt": "Écris : pause",
+          "promptTts": "Écris pause",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pause"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l16-04",
+          "prompt": "Toujours continuer sans stop ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l16-05",
+          "prompt": "La pause fait partie du sport ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l17",
+      "title": "Niveau 17",
+      "subtitle": "Fair-play",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l17-01",
+          "prompt": "Perdre et serrer la main ?",
+          "promptTts": "fair-play",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l17-02",
+          "prompt": "Tricher est fair-play ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l17-03",
+          "prompt": "Écris : fair-play",
+          "promptTts": "Écris fair-play",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fair-play"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l17-04",
+          "prompt": "Féliciter les autres ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l17-05",
+          "prompt": "Les règles sont pour tout le monde ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l18",
+      "title": "Niveau 18",
+      "subtitle": "Vêtements",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l18-01",
+          "prompt": "Dehors il fait froid : que mettre ?",
+          "promptTts": "manteau",
+          "choices": [
+            "manteau",
+            "nager",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧥"
+        },
+        {
+          "id": "fr-corps-l18-02",
+          "prompt": "Soleil : un chapeau utile ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧢"
+        },
+        {
+          "id": "fr-corps-l18-03",
+          "prompt": "Écris : manteau",
+          "promptTts": "Écris manteau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "manteau"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l18-04",
+          "prompt": "Pluie : veste ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l18-05",
+          "prompt": "Pieds nus longtemps dans la neige ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l19",
+      "title": "Niveau 19",
+      "subtitle": "Équilibre",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l19-01",
+          "prompt": "Tenir sur un pied exerce…",
+          "promptTts": "équilibre",
+          "choices": [
+            "équilibre",
+            "bonbon",
+            "dormir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦩"
+        },
+        {
+          "id": "fr-corps-l19-02",
+          "prompt": "Regarder aide-t-il à l’équilibre ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l19-03",
+          "prompt": "Écris : équilibre",
+          "promptTts": "Écris équilibre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "équilibre"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l19-04",
+          "prompt": "Un tapis moelleux pour s’exercer ?",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l19-05",
+          "prompt": "Sur un mur haut sans aide ?",
+          "promptTts": "non",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l20",
+      "title": "Niveau 20",
+      "subtitle": "Mélange",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-corps-l20-01",
+          "prompt": "Quelle partie du corps ?",
+          "promptTts": "main",
+          "choices": [
+            "main",
+            "manteau",
+            "bonbon"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "fr-corps-l20-02",
+          "prompt": "Écris : eau",
+          "promptTts": "Écris eau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "eau"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-corps-l20-03",
+          "prompt": "À vélo ?",
+          "promptTts": "casque",
+          "choices": [
+            "casque",
+            "bonbon",
+            "dormir"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l20-04",
+          "prompt": "Qu’est-ce qui est gentil au jeu ?",
+          "promptTts": "fair-play",
+          "choices": [
+            "oui",
+            "non"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-corps-l20-05",
+          "prompt": "Écris : sauter",
+          "promptTts": "Écris sauter",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "sauter"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    }
+  ]
+}

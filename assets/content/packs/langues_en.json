@@ -1,0 +1,1430 @@
+{
+  "id": "langues",
+  "locale": "en",
+  "emoji": "🗣️",
+  "color": "#4CC9F0",
+  "title": "Languages",
+  "subtitle": "Words, listen, write",
+  "per": {
+    "competenceId": "L1 11",
+    "label": "School language",
+    "focusId": "L1 21",
+    "focusLabel": "Writing & vocabulary",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "langues-l1",
+      "title": "Level 1",
+      "subtitle": "Words and pictures",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-langues-book-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-pencil-02",
+          "prompt": "pencil",
+          "promptTts": "pencil",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-school-03",
+          "prompt": "school",
+          "promptTts": "school",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-apple-04",
+          "prompt": "apple",
+          "promptTts": "apple",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-sun-05",
+          "prompt": "sun",
+          "promptTts": "sun",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-cat-06",
+          "prompt": "cat",
+          "promptTts": "cat",
+          "choices": [
+            "🐸",
+            "🐕",
+            "🐱"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l2",
+      "title": "Level 2",
+      "subtitle": "More words",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-dog-01",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "🐱",
+            "🐸"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-tree-02",
+          "prompt": "tree",
+          "promptTts": "tree",
+          "choices": [
+            "🏠",
+            "🌳",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-house-03",
+          "prompt": "house",
+          "promptTts": "house",
+          "choices": [
+            "🌳",
+            "🏫",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-bag-04",
+          "prompt": "bag",
+          "promptTts": "bag",
+          "choices": [
+            "🎒",
+            "📚",
+            "✏️"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-star-05",
+          "prompt": "star",
+          "promptTts": "star",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌼"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-flower-06",
+          "prompt": "flower",
+          "promptTts": "flower",
+          "choices": [
+            "🌳",
+            "🍎",
+            "🌸"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l3",
+      "title": "Level 3",
+      "subtitle": "Listen",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-book-01-l",
+          "prompt": "Listen and tap",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-pencil-02-l",
+          "prompt": "Listen and tap",
+          "promptTts": "pencil",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-school-03-l",
+          "prompt": "Listen and tap",
+          "promptTts": "school",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-apple-04-l",
+          "prompt": "Listen and tap",
+          "promptTts": "apple",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-sun-05-l",
+          "prompt": "Listen and tap",
+          "promptTts": "sun",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l4",
+      "title": "Level 4",
+      "subtitle": "First letters",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l4-01",
+          "prompt": "First letter of book",
+          "promptTts": "Type the first letter of book",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "b"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l4-02",
+          "prompt": "First letter of sun",
+          "promptTts": "Type the first letter of sun",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "s"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l4-03",
+          "prompt": "First letter of cat",
+          "promptTts": "Type the first letter of cat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l4-04",
+          "prompt": "First letter of dog",
+          "promptTts": "Type the first letter of dog",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "d"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l4-05",
+          "prompt": "First letter of tree",
+          "promptTts": "Type the first letter of tree",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "t"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l5",
+      "title": "Level 5",
+      "subtitle": "Type short words",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l5-01",
+          "prompt": "Type: cat",
+          "promptTts": "Type cat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "en-langues-l5-02",
+          "prompt": "Type: sun",
+          "promptTts": "Type sun",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "sun"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-langues-l5-03",
+          "prompt": "Type: dog",
+          "promptTts": "Type dog",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dog"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "en-langues-l5-04",
+          "prompt": "Type: book",
+          "promptTts": "Type book",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "book"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "en-langues-l5-05",
+          "prompt": "Type: tree",
+          "promptTts": "Type tree",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tree"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l6",
+      "title": "Level 6",
+      "subtitle": "Spell school words",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l6-01",
+          "prompt": "Type: school",
+          "promptTts": "Type school",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "school"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏫"
+        },
+        {
+          "id": "en-langues-l6-02",
+          "prompt": "Type: house",
+          "promptTts": "Type house",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "house"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "en-langues-l6-03",
+          "prompt": "Type: apple",
+          "promptTts": "Type apple",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apple"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "en-langues-l6-04",
+          "prompt": "Type: flower",
+          "promptTts": "Type flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "en-langues-l6-05",
+          "prompt": "Type: water",
+          "promptTts": "Type water",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "water"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        }
+      ]
+    },
+    {
+      "id": "langues-l7",
+      "title": "Level 7",
+      "subtitle": "With accents",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l7-01",
+          "prompt": "Type: school",
+          "promptTts": "Type school",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "school"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l7-02",
+          "prompt": "Type: apple",
+          "promptTts": "Type apple",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apple"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l7-03",
+          "prompt": "Type: flower",
+          "promptTts": "Type flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l7-04",
+          "prompt": "Type: house",
+          "promptTts": "Type house",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "house"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l7-05",
+          "prompt": "Type: water",
+          "promptTts": "Type water",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "water"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l8",
+      "title": "Level 8",
+      "subtitle": "Animals",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-cat-01",
+          "prompt": "cat",
+          "promptTts": "cat",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐦"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-dog-02",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐠"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-fish-03",
+          "prompt": "fish",
+          "promptTts": "fish",
+          "choices": [
+            "🐱",
+            "🐦",
+            "🐠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-bird-04",
+          "prompt": "bird",
+          "promptTts": "bird",
+          "choices": [
+            "🐦",
+            "🐠",
+            "🐕"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-apple-05",
+          "prompt": "apple",
+          "promptTts": "apple",
+          "choices": [
+            "🐱",
+            "🍎",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l9",
+      "title": "Level 9",
+      "subtitle": "Food",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l9-01",
+          "prompt": "Type: apple",
+          "promptTts": "Type apple",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apple"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "en-langues-l9-02",
+          "prompt": "Type: bread",
+          "promptTts": "Type bread",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "bread"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        },
+        {
+          "id": "en-langues-l9-03",
+          "prompt": "Type: water",
+          "promptTts": "Type water",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "water"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        },
+        {
+          "id": "en-langues-l9-04",
+          "prompt": "Type: fish",
+          "promptTts": "Type fish",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fish"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐠"
+        },
+        {
+          "id": "en-langues-l9-05",
+          "prompt": "Type: flower",
+          "promptTts": "Type flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        }
+      ]
+    },
+    {
+      "id": "langues-l10",
+      "title": "Level 10",
+      "subtitle": "Longer words",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l10-01",
+          "prompt": "Type: school",
+          "promptTts": "Type school",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "school"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l10-02",
+          "prompt": "Type: flower",
+          "promptTts": "Type flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l10-03",
+          "prompt": "Type: pencil",
+          "promptTts": "Type pencil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pencil"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l10-04",
+          "prompt": "Type: thanks",
+          "promptTts": "Type thanks",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "thanks"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l10-05",
+          "prompt": "Type: hello",
+          "promptTts": "Type hello",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "hello"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l11",
+      "title": "Level 11",
+      "subtitle": "Opposites",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l11-01",
+          "prompt": "Opposite of yes?",
+          "promptTts": "Opposite of yes?",
+          "choices": [
+            "no",
+            "yes",
+            "sun"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-langues-l11-02",
+          "prompt": "Opposite of red?",
+          "promptTts": "Opposite of red?",
+          "choices": [
+            "blue",
+            "red",
+            "sun"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-langues-l11-03",
+          "prompt": "Opposite of big?",
+          "promptTts": "Opposite of big?",
+          "choices": [
+            "small",
+            "big",
+            "sun"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-langues-l11-04",
+          "prompt": "Opposite of day?",
+          "promptTts": "Opposite of day?",
+          "choices": [
+            "night",
+            "day",
+            "sun"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-langues-l11-05",
+          "prompt": "Opposite of hot?",
+          "promptTts": "Opposite of hot?",
+          "choices": [
+            "cold",
+            "hot",
+            "sun"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "langues-l12",
+      "title": "Level 12",
+      "subtitle": "Phrases",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l12-01",
+          "prompt": "Listen",
+          "promptTts": "hello",
+          "choices": [
+            "hello",
+            "thanks",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l12-02",
+          "prompt": "Listen",
+          "promptTts": "thanks",
+          "choices": [
+            "thanks",
+            "hello",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l12-03",
+          "prompt": "Listen",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l12-04",
+          "prompt": "Listen",
+          "promptTts": "no",
+          "choices": [
+            "no",
+            "yes",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l12-05",
+          "prompt": "Listen",
+          "promptTts": "sun",
+          "choices": [
+            "sun",
+            "cat",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l13",
+      "title": "Level 13",
+      "subtitle": "L2 words 1",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l13-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l13-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l13-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l13-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l13-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l14",
+      "title": "Level 14",
+      "subtitle": "L2 words 2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l14-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l14-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l14-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l14-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l14-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l14-06",
+          "prompt": "Wasser",
+          "promptTts": "Wasser",
+          "choices": [
+            "💧",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l15",
+      "title": "Level 15",
+      "subtitle": "Type L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l15-01",
+          "prompt": "Type: Sonne",
+          "promptTts": "Type Sonne",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Sonne"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-langues-l15-02",
+          "prompt": "Type: Katze",
+          "promptTts": "Type Katze",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Katze"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "en-langues-l15-03",
+          "prompt": "Type: Haus",
+          "promptTts": "Type Haus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Haus"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "en-langues-l15-04",
+          "prompt": "Type: Apfel",
+          "promptTts": "Type Apfel",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Apfel"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "en-langues-l15-05",
+          "prompt": "Type: Baum",
+          "promptTts": "Type Baum",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Baum"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l16",
+      "title": "Level 16",
+      "subtitle": "Hear L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l16-01",
+          "prompt": "Listen and tap",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l16-02",
+          "prompt": "Listen and tap",
+          "promptTts": "Katze",
+          "choices": [
+            "⭐",
+            "🐱",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l16-03",
+          "prompt": "Listen and tap",
+          "promptTts": "Haus",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l16-04",
+          "prompt": "Listen and tap",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l16-05",
+          "prompt": "Listen and tap",
+          "promptTts": "Baum",
+          "choices": [
+            "⭐",
+            "🌳",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l17",
+      "title": "Level 17",
+      "subtitle": "L3 words 1",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l17-01",
+          "prompt": "livre",
+          "promptTts": "livre",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l17-02",
+          "prompt": "chien",
+          "promptTts": "chien",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l17-03",
+          "prompt": "fleur",
+          "promptTts": "fleur",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l17-04",
+          "prompt": "étoile",
+          "promptTts": "étoile",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l17-05",
+          "prompt": "pain",
+          "promptTts": "pain",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l18",
+      "title": "Level 18",
+      "subtitle": "L3 words 2",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l18-01",
+          "prompt": "livre",
+          "promptTts": "livre",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l18-02",
+          "prompt": "chien",
+          "promptTts": "chien",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l18-03",
+          "prompt": "fleur",
+          "promptTts": "fleur",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l18-04",
+          "prompt": "étoile",
+          "promptTts": "étoile",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l18-05",
+          "prompt": "pain",
+          "promptTts": "pain",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "en-langues-l18-06",
+          "prompt": "oiseau",
+          "promptTts": "oiseau",
+          "choices": [
+            "🐦",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l19",
+      "title": "Level 19",
+      "subtitle": "Type L3",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l19-01",
+          "prompt": "Type: livre",
+          "promptTts": "Type livre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "livre"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "en-langues-l19-02",
+          "prompt": "Type: chien",
+          "promptTts": "Type chien",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chien"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "en-langues-l19-03",
+          "prompt": "Type: fleur",
+          "promptTts": "Type fleur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fleur"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "en-langues-l19-04",
+          "prompt": "Type: étoile",
+          "promptTts": "Type étoile",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "étoile"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "⭐"
+        },
+        {
+          "id": "en-langues-l19-05",
+          "prompt": "Type: pain",
+          "promptTts": "Type pain",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pain"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "langues-l20",
+      "title": "Level 20",
+      "subtitle": "Language mix",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-langues-l20-01",
+          "prompt": "Type: book",
+          "promptTts": "Type book",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "book"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "en-langues-l20-02",
+          "prompt": "Type: cat",
+          "promptTts": "Type cat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "en-langues-l20-03",
+          "prompt": "Type: sun",
+          "promptTts": "Type sun",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "sun"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-langues-l20-04",
+          "prompt": "Type: house",
+          "promptTts": "Type house",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "house"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "en-langues-l20-05",
+          "prompt": "Type: tree",
+          "promptTts": "Type tree",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tree"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    }
+  ]
+}

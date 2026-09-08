@@ -36,6 +36,16 @@ void main() {
       expect(SpokenMath.numberWord(12, 'en'), 'twelve');
       expect(SpokenMath.numberWord(8, 'ro'), 'opt');
     });
+
+    test('composes 21-100 without leftover digits', () {
+      expect(SpokenMath.numberWord(21, 'de'), 'einundzwanzig');
+      expect(SpokenMath.numberWord(25, 'fr'), 'vingt-cinq');
+      expect(SpokenMath.numberWord(71, 'fr'), 'soixante-et-onze');
+      expect(SpokenMath.numberWord(80, 'fr'), 'quatre-vingts');
+      expect(SpokenMath.numberWord(42, 'en'), 'forty-two');
+      expect(SpokenMath.numberWord(21, 'ro'), 'douăzeci și unu');
+      expect(SpokenMath.prepare('21 + 8 = ?', 'de'), 'einundzwanzig plus acht');
+    });
   });
 
   group('TtsVoicePicker', () {
@@ -73,9 +83,50 @@ void main() {
     });
 
     test('speech tags are BCP-47 fallbacks', () {
+      expect(AppLocales.speechTagsFor('de'), ['de-CH', 'de-DE', 'de-AT', 'de']);
       expect(AppLocales.speechTagsFor('fr'), containsAll(['fr-CH', 'fr-FR']));
       expect(AppLocales.speechTagsFor('en-US'), containsAll(['en-GB', 'en-US']));
       expect(AppLocales.speechTagsFor('ro'), contains('ro-RO'));
+    });
+
+    test('resolve never picks an English voice for DE/FR/RO', () {
+      const englishOnly = [TtsVoice(name: 'Samantha', locale: 'en-US')];
+      for (final locale in ['de', 'fr', 'ro']) {
+        final resolved = TtsVoicePicker.resolve(
+          appLocale: locale,
+          voices: englishOnly,
+        );
+        expect(resolved.voice, isNull);
+        expect(resolved.matchedVoice, isFalse);
+        expect(resolved.shouldHint, isTrue);
+        expect(resolved.languageTag.toLowerCase().startsWith('en'), isFalse);
+        expect(resolved.languageTag, AppLocales.speechTagsFor(locale).first);
+      }
+    });
+
+    test('resolve prefers an installed matching voice locale as the tag', () {
+      final resolved = TtsVoicePicker.resolve(
+        appLocale: 'fr',
+        voices: const [
+          TtsVoice(name: 'Samantha', locale: 'en-US'),
+          TtsVoice(name: 'Google français', locale: 'fr_FR'),
+        ],
+      );
+      expect(resolved.matchedVoice, isTrue);
+      expect(resolved.voice?.name, 'Google français');
+      expect(TtsVoicePicker.toBcp47(resolved.languageTag), 'fr-FR');
+      expect(resolved.shouldHint, isFalse);
+    });
+
+    test('empty voice list does not show a missing-voice hint', () {
+      final resolved = TtsVoicePicker.resolve(
+        appLocale: 'de',
+        voices: const [],
+        installedLanguages: const ['de-CH'],
+      );
+      expect(resolved.voicesEnumerated, isFalse);
+      expect(resolved.shouldHint, isFalse);
+      expect(resolved.languageTag, 'de-CH');
     });
   });
 

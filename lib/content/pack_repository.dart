@@ -11,7 +11,18 @@ abstract class PackRepository {
 class AssetPackRepository implements PackRepository {
   const AssetPackRepository();
 
-  static const topicIds = ['addition', 'subtraction', 'counting', 'vocab'];
+  /// Phase 3 PER domains (cycles 1H–8H / 1–2).
+  static const topicIds = [
+    'langues',
+    'math_sciences',
+    'shs',
+    'arts',
+    'corps',
+    'numerique',
+  ];
+
+  static const domainCount = 6;
+  static const levelsPerDomain = 20;
 
   @override
   Future<List<ContentPack>> loadAll(String locale) async {

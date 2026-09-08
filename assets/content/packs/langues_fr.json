@@ -1,0 +1,1430 @@
+{
+  "id": "langues",
+  "locale": "fr",
+  "emoji": "🗣️",
+  "color": "#4CC9F0",
+  "title": "Langues",
+  "subtitle": "Mots, écouter, écrire",
+  "per": {
+    "competenceId": "L1 11",
+    "label": "Langue de scolarisation",
+    "focusId": "L1 21",
+    "focusLabel": "Écrire et vocabulaire",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "langues-l1",
+      "title": "Niveau 1",
+      "subtitle": "Mots et images",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "fr-langues-book-01",
+          "prompt": "livre",
+          "promptTts": "livre",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-pencil-02",
+          "prompt": "crayon",
+          "promptTts": "crayon",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-school-03",
+          "prompt": "école",
+          "promptTts": "école",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-apple-04",
+          "prompt": "pomme",
+          "promptTts": "pomme",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-sun-05",
+          "prompt": "soleil",
+          "promptTts": "soleil",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-cat-06",
+          "prompt": "chat",
+          "promptTts": "chat",
+          "choices": [
+            "🐸",
+            "🐕",
+            "🐱"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l2",
+      "title": "Niveau 2",
+      "subtitle": "Plus de mots",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-dog-01",
+          "prompt": "chien",
+          "promptTts": "chien",
+          "choices": [
+            "🐕",
+            "🐱",
+            "🐸"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-tree-02",
+          "prompt": "arbre",
+          "promptTts": "arbre",
+          "choices": [
+            "🏠",
+            "🌳",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-house-03",
+          "prompt": "maison",
+          "promptTts": "maison",
+          "choices": [
+            "🌳",
+            "🏫",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-bag-04",
+          "prompt": "sac",
+          "promptTts": "sac",
+          "choices": [
+            "🎒",
+            "📚",
+            "✏️"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-star-05",
+          "prompt": "étoile",
+          "promptTts": "étoile",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌼"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-flower-06",
+          "prompt": "fleur",
+          "promptTts": "fleur",
+          "choices": [
+            "🌳",
+            "🍎",
+            "🌸"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l3",
+      "title": "Niveau 3",
+      "subtitle": "Écoute",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-book-01-l",
+          "prompt": "Écoute et touche",
+          "promptTts": "livre",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-pencil-02-l",
+          "prompt": "Écoute et touche",
+          "promptTts": "crayon",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-school-03-l",
+          "prompt": "Écoute et touche",
+          "promptTts": "école",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-apple-04-l",
+          "prompt": "Écoute et touche",
+          "promptTts": "pomme",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-sun-05-l",
+          "prompt": "Écoute et touche",
+          "promptTts": "soleil",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l4",
+      "title": "Niveau 4",
+      "subtitle": "Premières lettres",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l4-01",
+          "prompt": "Première lettre de livre",
+          "promptTts": "Écris la première lettre de livre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "l"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l4-02",
+          "prompt": "Première lettre de soleil",
+          "promptTts": "Écris la première lettre de soleil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "s"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l4-03",
+          "prompt": "Première lettre de chat",
+          "promptTts": "Écris la première lettre de chat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l4-04",
+          "prompt": "Première lettre de chien",
+          "promptTts": "Écris la première lettre de chien",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l4-05",
+          "prompt": "Première lettre de arbre",
+          "promptTts": "Écris la première lettre de arbre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "a"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l5",
+      "title": "Niveau 5",
+      "subtitle": "Mots courts",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l5-01",
+          "prompt": "Écris : chat",
+          "promptTts": "Écris chat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "fr-langues-l5-02",
+          "prompt": "Écris : soleil",
+          "promptTts": "Écris soleil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "soleil"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "fr-langues-l5-03",
+          "prompt": "Écris : chien",
+          "promptTts": "Écris chien",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chien"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "fr-langues-l5-04",
+          "prompt": "Écris : livre",
+          "promptTts": "Écris livre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "livre"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "fr-langues-l5-05",
+          "prompt": "Écris : arbre",
+          "promptTts": "Écris arbre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "arbre"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l6",
+      "title": "Niveau 6",
+      "subtitle": "Écrire l’école",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l6-01",
+          "prompt": "Écris : école",
+          "promptTts": "Écris école",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "école"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏫"
+        },
+        {
+          "id": "fr-langues-l6-02",
+          "prompt": "Écris : maison",
+          "promptTts": "Écris maison",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "maison"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "fr-langues-l6-03",
+          "prompt": "Écris : pomme",
+          "promptTts": "Écris pomme",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pomme"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "fr-langues-l6-04",
+          "prompt": "Écris : fleur",
+          "promptTts": "Écris fleur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fleur"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "fr-langues-l6-05",
+          "prompt": "Écris : eau",
+          "promptTts": "Écris eau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "eau"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        }
+      ]
+    },
+    {
+      "id": "langues-l7",
+      "title": "Niveau 7",
+      "subtitle": "Avec accents",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l7-01",
+          "prompt": "Écris : école",
+          "promptTts": "Écris école",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "école"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l7-02",
+          "prompt": "Écris : étoile",
+          "promptTts": "Écris étoile",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "étoile"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l7-03",
+          "prompt": "Écris : fleur",
+          "promptTts": "Écris fleur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fleur"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l7-04",
+          "prompt": "Écris : où",
+          "promptTts": "Écris où",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "où"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l7-05",
+          "prompt": "Écris : été",
+          "promptTts": "Écris été",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "été"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l8",
+      "title": "Niveau 8",
+      "subtitle": "Animaux",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-cat-01",
+          "prompt": "chat",
+          "promptTts": "chat",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐦"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-dog-02",
+          "prompt": "chien",
+          "promptTts": "chien",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐠"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-fish-03",
+          "prompt": "poisson",
+          "promptTts": "poisson",
+          "choices": [
+            "🐱",
+            "🐦",
+            "🐠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-bird-04",
+          "prompt": "oiseau",
+          "promptTts": "oiseau",
+          "choices": [
+            "🐦",
+            "🐠",
+            "🐕"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-apple-05",
+          "prompt": "pomme",
+          "promptTts": "pomme",
+          "choices": [
+            "🐱",
+            "🍎",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l9",
+      "title": "Niveau 9",
+      "subtitle": "Nourriture",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l9-01",
+          "prompt": "Écris : pomme",
+          "promptTts": "Écris pomme",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pomme"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "fr-langues-l9-02",
+          "prompt": "Écris : pain",
+          "promptTts": "Écris pain",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pain"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        },
+        {
+          "id": "fr-langues-l9-03",
+          "prompt": "Écris : eau",
+          "promptTts": "Écris eau",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "eau"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        },
+        {
+          "id": "fr-langues-l9-04",
+          "prompt": "Écris : poisson",
+          "promptTts": "Écris poisson",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "poisson"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐠"
+        },
+        {
+          "id": "fr-langues-l9-05",
+          "prompt": "Écris : fleur",
+          "promptTts": "Écris fleur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fleur"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        }
+      ]
+    },
+    {
+      "id": "langues-l10",
+      "title": "Niveau 10",
+      "subtitle": "Mots plus longs",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l10-01",
+          "prompt": "Écris : école",
+          "promptTts": "Écris école",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "école"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l10-02",
+          "prompt": "Écris : fleur",
+          "promptTts": "Écris fleur",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fleur"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l10-03",
+          "prompt": "Écris : crayon",
+          "promptTts": "Écris crayon",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "crayon"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l10-04",
+          "prompt": "Écris : merci",
+          "promptTts": "Écris merci",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "merci"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l10-05",
+          "prompt": "Écris : bonjour",
+          "promptTts": "Écris bonjour",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "bonjour"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l11",
+      "title": "Niveau 11",
+      "subtitle": "Contraires",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l11-01",
+          "prompt": "Contraire de oui ?",
+          "promptTts": "Contraire de oui ?",
+          "choices": [
+            "non",
+            "oui",
+            "soleil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-langues-l11-02",
+          "prompt": "Contraire de rouge ?",
+          "promptTts": "Contraire de rouge ?",
+          "choices": [
+            "bleu",
+            "rouge",
+            "soleil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-langues-l11-03",
+          "prompt": "Contraire de grand ?",
+          "promptTts": "Contraire de grand ?",
+          "choices": [
+            "petit",
+            "grand",
+            "soleil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-langues-l11-04",
+          "prompt": "Contraire de jour ?",
+          "promptTts": "Contraire de jour ?",
+          "choices": [
+            "nuit",
+            "jour",
+            "soleil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "fr-langues-l11-05",
+          "prompt": "Contraire de chaud ?",
+          "promptTts": "Contraire de chaud ?",
+          "choices": [
+            "froid",
+            "chaud",
+            "soleil"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "langues-l12",
+      "title": "Niveau 12",
+      "subtitle": "Phrases",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l12-01",
+          "prompt": "Écoute",
+          "promptTts": "bonjour",
+          "choices": [
+            "bonjour",
+            "merci",
+            "rouge"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l12-02",
+          "prompt": "Écoute",
+          "promptTts": "merci",
+          "choices": [
+            "merci",
+            "bonjour",
+            "rouge"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l12-03",
+          "prompt": "Écoute",
+          "promptTts": "oui",
+          "choices": [
+            "oui",
+            "non",
+            "rouge"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l12-04",
+          "prompt": "Écoute",
+          "promptTts": "non",
+          "choices": [
+            "non",
+            "oui",
+            "rouge"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l12-05",
+          "prompt": "Écoute",
+          "promptTts": "soleil",
+          "choices": [
+            "soleil",
+            "chat",
+            "rouge"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l13",
+      "title": "Niveau 13",
+      "subtitle": "Mots L2 1",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l13-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l13-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l13-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l13-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l13-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l14",
+      "title": "Niveau 14",
+      "subtitle": "Mots L2 2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l14-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l14-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l14-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l14-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l14-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l14-06",
+          "prompt": "Wasser",
+          "promptTts": "Wasser",
+          "choices": [
+            "💧",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l15",
+      "title": "Niveau 15",
+      "subtitle": "Taper L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l15-01",
+          "prompt": "Écris : Sonne",
+          "promptTts": "Écris Sonne",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Sonne"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "fr-langues-l15-02",
+          "prompt": "Écris : Katze",
+          "promptTts": "Écris Katze",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Katze"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "fr-langues-l15-03",
+          "prompt": "Écris : Haus",
+          "promptTts": "Écris Haus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Haus"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "fr-langues-l15-04",
+          "prompt": "Écris : Apfel",
+          "promptTts": "Écris Apfel",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Apfel"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "fr-langues-l15-05",
+          "prompt": "Écris : Baum",
+          "promptTts": "Écris Baum",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Baum"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l16",
+      "title": "Niveau 16",
+      "subtitle": "Écouter L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l16-01",
+          "prompt": "Écoute et touche",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l16-02",
+          "prompt": "Écoute et touche",
+          "promptTts": "Katze",
+          "choices": [
+            "⭐",
+            "🐱",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l16-03",
+          "prompt": "Écoute et touche",
+          "promptTts": "Haus",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l16-04",
+          "prompt": "Écoute et touche",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l16-05",
+          "prompt": "Écoute et touche",
+          "promptTts": "Baum",
+          "choices": [
+            "⭐",
+            "🌳",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l17",
+      "title": "Niveau 17",
+      "subtitle": "Mots L3 1",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l17-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l17-02",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l17-03",
+          "prompt": "flower",
+          "promptTts": "flower",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l17-04",
+          "prompt": "star",
+          "promptTts": "star",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l17-05",
+          "prompt": "bread",
+          "promptTts": "bread",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l18",
+      "title": "Niveau 18",
+      "subtitle": "Mots L3 2",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l18-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l18-02",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l18-03",
+          "prompt": "flower",
+          "promptTts": "flower",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l18-04",
+          "prompt": "star",
+          "promptTts": "star",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l18-05",
+          "prompt": "bread",
+          "promptTts": "bread",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "fr-langues-l18-06",
+          "prompt": "bird",
+          "promptTts": "bird",
+          "choices": [
+            "🐦",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l19",
+      "title": "Niveau 19",
+      "subtitle": "Taper L3",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l19-01",
+          "prompt": "Écris : book",
+          "promptTts": "Écris book",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "book"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "fr-langues-l19-02",
+          "prompt": "Écris : dog",
+          "promptTts": "Écris dog",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dog"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "fr-langues-l19-03",
+          "prompt": "Écris : flower",
+          "promptTts": "Écris flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "fr-langues-l19-04",
+          "prompt": "Écris : star",
+          "promptTts": "Écris star",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "star"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "⭐"
+        },
+        {
+          "id": "fr-langues-l19-05",
+          "prompt": "Écris : bread",
+          "promptTts": "Écris bread",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "bread"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "langues-l20",
+      "title": "Niveau 20",
+      "subtitle": "Mélange",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "fr-langues-l20-01",
+          "prompt": "Écris : livre",
+          "promptTts": "Écris livre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "livre"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "fr-langues-l20-02",
+          "prompt": "Écris : chat",
+          "promptTts": "Écris chat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "fr-langues-l20-03",
+          "prompt": "Écris : soleil",
+          "promptTts": "Écris soleil",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "soleil"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "fr-langues-l20-04",
+          "prompt": "Écris : maison",
+          "promptTts": "Écris maison",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "maison"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "fr-langues-l20-05",
+          "prompt": "Écris : arbre",
+          "promptTts": "Écris arbre",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "arbre"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    }
+  ]
+}

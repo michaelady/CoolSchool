@@ -1,0 +1,1353 @@
+{
+  "id": "corps",
+  "locale": "de",
+  "emoji": "⚽",
+  "color": "#2FA84A",
+  "title": "Körper & Bewegung",
+  "subtitle": "Bewegen, Gesundheit, Fairplay",
+  "per": {
+    "competenceId": "CM 11",
+    "label": "Bewegen",
+    "focusId": "CM 16",
+    "focusLabel": "Gesundheit",
+    "cycle": "1H–8H · Zyklus 1–2"
+  },
+  "levels": [
+    {
+      "id": "corps-l1",
+      "title": "Level 1",
+      "subtitle": "Körperteile",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "de-corps-l1-01",
+          "prompt": "Welcher Körperteil?",
+          "promptTts": "Kopf",
+          "choices": [
+            "Kopf",
+            "Hand",
+            "Fuss"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🙂"
+        },
+        {
+          "id": "de-corps-l1-02",
+          "prompt": "Welcher Körperteil?",
+          "promptTts": "Hand",
+          "choices": [
+            "Hand",
+            "Kopf",
+            "Fuss"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "de-corps-l1-03",
+          "prompt": "Welcher Körperteil?",
+          "promptTts": "Fuss",
+          "choices": [
+            "Fuss",
+            "Kopf",
+            "Hand"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦶"
+        },
+        {
+          "id": "de-corps-l1-04",
+          "prompt": "Schreib: Hand",
+          "promptTts": "Schreib Hand",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Hand"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "de-corps-l1-05",
+          "prompt": "Haben wir zwei Hände?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l2",
+      "title": "Level 2",
+      "subtitle": "Mehr Körper",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l2-01",
+          "prompt": "Womit sehen wir?",
+          "promptTts": "Auge",
+          "choices": [
+            "Auge",
+            "Ohr",
+            "Fuss"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👀"
+        },
+        {
+          "id": "de-corps-l2-02",
+          "prompt": "Womit hören wir?",
+          "promptTts": "Ohr",
+          "choices": [
+            "Ohr",
+            "Auge",
+            "Hand"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👂"
+        },
+        {
+          "id": "de-corps-l2-03",
+          "prompt": "Schreib: Kopf",
+          "promptTts": "Schreib Kopf",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Kopf"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l2-04",
+          "prompt": "Knie zum Beugen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l2-05",
+          "prompt": "Nase zum Riechen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👃"
+        }
+      ]
+    },
+    {
+      "id": "corps-l3",
+      "title": "Level 3",
+      "subtitle": "Bewegungen",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l3-01",
+          "prompt": "Welche Bewegung?",
+          "promptTts": "rennen",
+          "choices": [
+            "rennen",
+            "sitzen",
+            "schlafen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏃"
+        },
+        {
+          "id": "de-corps-l3-02",
+          "prompt": "Welche Bewegung?",
+          "promptTts": "springen",
+          "choices": [
+            "springen",
+            "sitzen",
+            "waschen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤸"
+        },
+        {
+          "id": "de-corps-l3-03",
+          "prompt": "Welche Bewegung?",
+          "promptTts": "sitzen",
+          "choices": [
+            "sitzen",
+            "rennen",
+            "schwimmen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪑"
+        },
+        {
+          "id": "de-corps-l3-04",
+          "prompt": "Schreib: rennen",
+          "promptTts": "Schreib rennen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "rennen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l3-05",
+          "prompt": "Ist Dehnen eine Bewegung?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l4",
+      "title": "Level 4",
+      "subtitle": "Links und rechts",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l4-01",
+          "prompt": "⬅️ ist?",
+          "promptTts": "links",
+          "choices": [
+            "links",
+            "rechts"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l4-02",
+          "prompt": "➡️ ist?",
+          "promptTts": "rechts",
+          "choices": [
+            "rechts",
+            "links"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l4-03",
+          "prompt": "Schreib: links",
+          "promptTts": "Schreib links",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "links"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l4-04",
+          "prompt": "Zwei Hände: links und rechts?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l4-05",
+          "prompt": "Schreib: rechts",
+          "promptTts": "Schreib rechts",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "rechts"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l5",
+      "title": "Level 5",
+      "subtitle": "Sport",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l5-01",
+          "prompt": "Welcher Sport?",
+          "promptTts": "Fussball",
+          "choices": [
+            "Fussball",
+            "schlafen",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⚽"
+        },
+        {
+          "id": "de-corps-l5-02",
+          "prompt": "Welcher Sport?",
+          "promptTts": "schwimmen",
+          "choices": [
+            "schwimmen",
+            "sitzen",
+            "Mantel"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏊"
+        },
+        {
+          "id": "de-corps-l5-03",
+          "prompt": "Schreib: Fussball",
+          "promptTts": "Schreib Fussball",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Fussball"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⚽"
+        },
+        {
+          "id": "de-corps-l5-04",
+          "prompt": "Kann Sport Spass machen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l5-05",
+          "prompt": "Braucht man zum Schwimmen Wasser?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l6",
+      "title": "Level 6",
+      "subtitle": "Gesund essen",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l6-01",
+          "prompt": "Was ist die bessere Pause-Snack-Idee?",
+          "promptTts": "Frucht",
+          "choices": [
+            "Frucht",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "de-corps-l6-02",
+          "prompt": "Jeden Tag nur Süsses?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l6-03",
+          "prompt": "Schreib: Frucht",
+          "promptTts": "Schreib Frucht",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Frucht"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "de-corps-l6-04",
+          "prompt": "Gemüse ist oft gesund?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥕"
+        },
+        {
+          "id": "de-corps-l6-05",
+          "prompt": "Apfel ist eine Frucht?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l7",
+      "title": "Level 7",
+      "subtitle": "Wasser trinken",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l7-01",
+          "prompt": "Was trinken wir oft?",
+          "promptTts": "Wasser",
+          "choices": [
+            "Wasser",
+            "Süssigkeit",
+            "Mantel"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "de-corps-l7-02",
+          "prompt": "Nach dem Sport trinken?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l7-03",
+          "prompt": "Schreib: Wasser",
+          "promptTts": "Schreib Wasser",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Wasser"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "de-corps-l7-04",
+          "prompt": "Hilft Wasser dem Körper?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l7-05",
+          "prompt": "Nur Saft den ganzen Tag?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l8",
+      "title": "Level 8",
+      "subtitle": "Schlafen",
+      "perTag": "CM 11 · activités",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l8-01",
+          "prompt": "Was braucht der Körper in der Nacht?",
+          "promptTts": "schlafen",
+          "choices": [
+            "schlafen",
+            "Fussball",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😴"
+        },
+        {
+          "id": "de-corps-l8-02",
+          "prompt": "Müde? Lieber Pause?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l8-03",
+          "prompt": "Schreib: schlafen",
+          "promptTts": "Schreib schlafen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "schlafen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l8-04",
+          "prompt": "Schlafen hilft wachsen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l8-05",
+          "prompt": "Die ganze Nacht spielen?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l9",
+      "title": "Level 9",
+      "subtitle": "Hände waschen",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l9-01",
+          "prompt": "Vor dem Essen?",
+          "promptTts": "waschen",
+          "choices": [
+            "waschen",
+            "springen",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧼"
+        },
+        {
+          "id": "de-corps-l9-02",
+          "prompt": "Nach dem WC Hände waschen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l9-03",
+          "prompt": "Schreib: waschen",
+          "promptTts": "Schreib waschen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "waschen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🧼"
+        },
+        {
+          "id": "de-corps-l9-04",
+          "prompt": "Seife hilft?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l9-05",
+          "prompt": "Schmutzige Hände am Apfel?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l10",
+      "title": "Level 10",
+      "subtitle": "Zähne putzen",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l10-01",
+          "prompt": "Was putzen wir morgens?",
+          "promptTts": "Zähne",
+          "choices": [
+            "Zähne",
+            "Fussball",
+            "Mantel"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦷"
+        },
+        {
+          "id": "de-corps-l10-02",
+          "prompt": "Auch abends Zähne?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l10-03",
+          "prompt": "Schreib: Zähne",
+          "promptTts": "Schreib Zähne",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Zähne"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l10-04",
+          "prompt": "Zahnbürste benutzen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪥"
+        },
+        {
+          "id": "de-corps-l10-05",
+          "prompt": "Nur Süsses und nie putzen?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l11",
+      "title": "Level 11",
+      "subtitle": "Helm",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l11-01",
+          "prompt": "Auf dem Velo?",
+          "promptTts": "Helm",
+          "choices": [
+            "Helm",
+            "Süssigkeit",
+            "schlafen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪖"
+        },
+        {
+          "id": "de-corps-l11-02",
+          "prompt": "Schützt der Helm den Kopf?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l11-03",
+          "prompt": "Schreib: Helm",
+          "promptTts": "Schreib Helm",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Helm"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l11-04",
+          "prompt": "Ohne Helm rasen?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l11-05",
+          "prompt": "Gurt im Auto?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l12",
+      "title": "Level 12",
+      "subtitle": "Im Wasser",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l12-01",
+          "prompt": "Im Wasser: mit wem?",
+          "promptTts": "einer erwachsenen Person",
+          "choices": [
+            "allein weit draussen",
+            "einer erwachsenen Person"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l12-02",
+          "prompt": "Nicht schwimmen können: tiefes Wasser?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l12-03",
+          "prompt": "Schreib: schwimmen",
+          "promptTts": "Schreib schwimmen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "schwimmen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l12-04",
+          "prompt": "Hilfe rufen wenn jemand nicht auftaucht?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l12-05",
+          "prompt": "Schwimmen ist Bewegung?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l13",
+      "title": "Level 13",
+      "subtitle": "Team",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l13-01",
+          "prompt": "Zusammen spielen?",
+          "promptTts": "Team",
+          "choices": [
+            "Team",
+            "Süssigkeit",
+            "Mantel"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👥"
+        },
+        {
+          "id": "de-corps-l13-02",
+          "prompt": "Im Team teilen wir den Ball?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l13-03",
+          "prompt": "Schreib: Team",
+          "promptTts": "Schreib Team",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Team"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l13-04",
+          "prompt": "Nur ich, nie passen?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l13-05",
+          "prompt": "Klatschen für andere ist nett?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l14",
+      "title": "Level 14",
+      "subtitle": "Aufwärmen",
+      "perTag": "CM 16 · santé",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l14-01",
+          "prompt": "Vor dem Sport?",
+          "promptTts": "dehnen",
+          "choices": [
+            "dehnen",
+            "Süssigkeit",
+            "schlafen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧘"
+        },
+        {
+          "id": "de-corps-l14-02",
+          "prompt": "Aufwärmen schützt?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l14-03",
+          "prompt": "Schreib: dehnen",
+          "promptTts": "Schreib dehnen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dehnen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l14-04",
+          "prompt": "Kalt starten und sprinten ohne Vorbereitung?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l14-05",
+          "prompt": "Arme kreisen ist Aufwärmen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l15",
+      "title": "Level 15",
+      "subtitle": "Herz",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l15-01",
+          "prompt": "Was schlägt schneller nach dem Rennen?",
+          "promptTts": "Herz",
+          "choices": [
+            "Herz",
+            "Helm",
+            "Frucht"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❤️"
+        },
+        {
+          "id": "de-corps-l15-02",
+          "prompt": "Kann man das Herz in der Brust spüren?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l15-03",
+          "prompt": "Schreib: Herz",
+          "promptTts": "Schreib Herz",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Herz"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l15-04",
+          "prompt": "In der Pause wird der Puls ruhiger?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l15-05",
+          "prompt": "Bewegung kann das Herz stärken?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l16",
+      "title": "Level 16",
+      "subtitle": "Pause",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l16-01",
+          "prompt": "Nach starker Anstrengung?",
+          "promptTts": "Pause",
+          "choices": [
+            "Pause",
+            "Süssigkeit",
+            "Fussball"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😌"
+        },
+        {
+          "id": "de-corps-l16-02",
+          "prompt": "Trinken in der Pause?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l16-03",
+          "prompt": "Schreib: Pause",
+          "promptTts": "Schreib Pause",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Pause"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l16-04",
+          "prompt": "Immer weiter ohne Stopp?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l16-05",
+          "prompt": "Pause gehört zum Sport?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l17",
+      "title": "Level 17",
+      "subtitle": "Fairplay",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l17-01",
+          "prompt": "Verlieren und die Hand geben?",
+          "promptTts": "fair",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l17-02",
+          "prompt": "Schummeln ist fair?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l17-03",
+          "prompt": "Schreib: fair",
+          "promptTts": "Schreib fair",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "fair"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l17-04",
+          "prompt": "Anderen gratulieren?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l17-05",
+          "prompt": "Regeln gelten für alle?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l18",
+      "title": "Level 18",
+      "subtitle": "Kleidung",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l18-01",
+          "prompt": "Kalt draussen: was anziehen?",
+          "promptTts": "Mantel",
+          "choices": [
+            "Mantel",
+            "schwimmen",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧥"
+        },
+        {
+          "id": "de-corps-l18-02",
+          "prompt": "Sonne: Mütze oder Kapuze sinnvoll?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧢"
+        },
+        {
+          "id": "de-corps-l18-03",
+          "prompt": "Schreib: Mantel",
+          "promptTts": "Schreib Mantel",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Mantel"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l18-04",
+          "prompt": "Regen: Jacke?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l18-05",
+          "prompt": "Barfuss im Schnee lange?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l19",
+      "title": "Level 19",
+      "subtitle": "Balance",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l19-01",
+          "prompt": "Auf einem Bein stehen übt…",
+          "promptTts": "Balance",
+          "choices": [
+            "Balance",
+            "Süssigkeit",
+            "schlafen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🦩"
+        },
+        {
+          "id": "de-corps-l19-02",
+          "prompt": "Hilft Schauen beim Balancieren?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l19-03",
+          "prompt": "Schreib: Balance",
+          "promptTts": "Schreib Balance",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Balance"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l19-04",
+          "prompt": "Weiche Matte zum Üben ok?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l19-05",
+          "prompt": "Auf einer Mauer ohne Hilfe hoch oben?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "corps-l20",
+      "title": "Level 20",
+      "subtitle": "Bewegungs-Mix",
+      "perTag": "CM 12 · sécurité / fair-play",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-corps-l20-01",
+          "prompt": "Welcher Körperteil?",
+          "promptTts": "Hand",
+          "choices": [
+            "Hand",
+            "Mantel",
+            "Süssigkeit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✋"
+        },
+        {
+          "id": "de-corps-l20-02",
+          "prompt": "Schreib: Wasser",
+          "promptTts": "Schreib Wasser",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Wasser"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "de-corps-l20-03",
+          "prompt": "Auf dem Velo?",
+          "promptTts": "Helm",
+          "choices": [
+            "Helm",
+            "Süssigkeit",
+            "schlafen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l20-04",
+          "prompt": "Was ist freundlich im Spiel?",
+          "promptTts": "fair",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-corps-l20-05",
+          "prompt": "Schreib: springen",
+          "promptTts": "Schreib springen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "springen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    }
+  ]
+}
