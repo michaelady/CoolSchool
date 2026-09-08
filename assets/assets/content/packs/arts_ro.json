@@ -1,0 +1,1380 @@
+{
+  "id": "arts",
+  "locale": "ro",
+  "emoji": "🎨",
+  "color": "#F472B6",
+  "title": "Arte",
+  "subtitle": "Culori, forme, muzică",
+  "per": {
+    "competenceId": "A 11 AV",
+    "label": "Arte vizuale",
+    "focusId": "A 13 MU",
+    "focusLabel": "Muzică",
+    "cycle": "1H–8H · ciclurile 1–2"
+  },
+  "levels": [
+    {
+      "id": "arts-l1",
+      "title": "Nivelul 1",
+      "subtitle": "Culori",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-arts-l1-01",
+          "prompt": "Ce culoare?",
+          "promptTts": "roșu",
+          "choices": [
+            "roșu",
+            "albastru",
+            "galben"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "ro-arts-l1-02",
+          "prompt": "Ce culoare?",
+          "promptTts": "albastru",
+          "choices": [
+            "albastru",
+            "roșu",
+            "galben"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "ro-arts-l1-03",
+          "prompt": "Ce culoare?",
+          "promptTts": "galben",
+          "choices": [
+            "galben",
+            "roșu",
+            "albastru"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟨"
+        },
+        {
+          "id": "ro-arts-l1-04",
+          "prompt": "Scrie: roșu",
+          "promptTts": "Scrie roșu",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "roșu"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "ro-arts-l1-05",
+          "prompt": "Ce culoare?",
+          "promptTts": "roșu",
+          "choices": [
+            "roșu",
+            "albastru",
+            "verde"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍅"
+        }
+      ]
+    },
+    {
+      "id": "arts-l2",
+      "title": "Nivelul 2",
+      "subtitle": "Mai multe culori",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l2-01",
+          "prompt": "Ce culoare?",
+          "promptTts": "verde",
+          "choices": [
+            "verde",
+            "roșu",
+            "albastru"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟩"
+        },
+        {
+          "id": "ro-arts-l2-02",
+          "prompt": "Ce culoare?",
+          "promptTts": "portocaliu",
+          "choices": [
+            "portocaliu",
+            "albastru",
+            "violet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟧"
+        },
+        {
+          "id": "ro-arts-l2-03",
+          "prompt": "Ce culoare?",
+          "promptTts": "violet",
+          "choices": [
+            "violet",
+            "galben",
+            "verde"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟪"
+        },
+        {
+          "id": "ro-arts-l2-04",
+          "prompt": "Scrie: albastru",
+          "promptTts": "Scrie albastru",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "albastru"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "ro-arts-l2-05",
+          "prompt": "Ce culoare?",
+          "promptTts": "verde",
+          "choices": [
+            "verde",
+            "roșu",
+            "galben"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐸"
+        }
+      ]
+    },
+    {
+      "id": "arts-l3",
+      "title": "Nivelul 3",
+      "subtitle": "Forme",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l3-01",
+          "prompt": "Ce formă?",
+          "promptTts": "cerc",
+          "choices": [
+            "cerc",
+            "pătrat",
+            "triunghi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "ro-arts-l3-02",
+          "prompt": "Ce formă?",
+          "promptTts": "pătrat",
+          "choices": [
+            "pătrat",
+            "cerc",
+            "triunghi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⬜"
+        },
+        {
+          "id": "ro-arts-l3-03",
+          "prompt": "Ce formă?",
+          "promptTts": "triunghi",
+          "choices": [
+            "triunghi",
+            "cerc",
+            "pătrat"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔺"
+        },
+        {
+          "id": "ro-arts-l3-04",
+          "prompt": "Scrie: cerc",
+          "promptTts": "Scrie cerc",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cerc"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "ro-arts-l3-05",
+          "prompt": "Cercul are colțuri?",
+          "promptTts": "nu",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l4",
+      "title": "Nivelul 4",
+      "subtitle": "Amestecăm",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l4-01",
+          "prompt": "Roșu plus galben?",
+          "promptTts": "portocaliu",
+          "choices": [
+            "portocaliu",
+            "verde",
+            "violet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l4-02",
+          "prompt": "Albastru plus galben?",
+          "promptTts": "verde",
+          "choices": [
+            "verde",
+            "portocaliu",
+            "violet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l4-03",
+          "prompt": "Roșu plus albastru?",
+          "promptTts": "violet",
+          "choices": [
+            "violet",
+            "verde",
+            "portocaliu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l4-04",
+          "prompt": "Scrie: verde",
+          "promptTts": "Scrie verde",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "verde"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l4-05",
+          "prompt": "Putem amesteca culorile?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l5",
+      "title": "Nivelul 5",
+      "subtitle": "Unelte",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l5-01",
+          "prompt": "Cu ce pictăm?",
+          "promptTts": "pensulă",
+          "choices": [
+            "pensulă",
+            "tobe",
+            "pian"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖌️"
+        },
+        {
+          "id": "ro-arts-l5-02",
+          "prompt": "Cu ce desenăm?",
+          "promptTts": "creion",
+          "choices": [
+            "creion",
+            "flaut",
+            "tobe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖍️"
+        },
+        {
+          "id": "ro-arts-l5-03",
+          "prompt": "Scrie: pensulă",
+          "promptTts": "Scrie pensulă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pensulă"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🖌️"
+        },
+        {
+          "id": "ro-arts-l5-04",
+          "prompt": "Hârtie pentru pictură?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l5-05",
+          "prompt": "Foarfecele sunt unealtă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✂️"
+        }
+      ]
+    },
+    {
+      "id": "arts-l6",
+      "title": "Nivelul 6",
+      "subtitle": "Tare și încet",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l6-01",
+          "prompt": "Cum sună?",
+          "promptTts": "tare",
+          "choices": [
+            "tare",
+            "încet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📢"
+        },
+        {
+          "id": "ro-arts-l6-02",
+          "prompt": "Cum sună?",
+          "promptTts": "încet",
+          "choices": [
+            "încet",
+            "tare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤫"
+        },
+        {
+          "id": "ro-arts-l6-03",
+          "prompt": "Scrie: tare",
+          "promptTts": "Scrie tare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tare"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l6-04",
+          "prompt": "Șoapta e…",
+          "promptTts": "încet",
+          "choices": [
+            "încet",
+            "tare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l6-05",
+          "prompt": "Toba e adesea…",
+          "promptTts": "tare",
+          "choices": [
+            "tare",
+            "încet"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥁"
+        }
+      ]
+    },
+    {
+      "id": "arts-l7",
+      "title": "Nivelul 7",
+      "subtitle": "Instrumente",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l7-01",
+          "prompt": "Ce instrument?",
+          "promptTts": "tobe",
+          "choices": [
+            "tobe",
+            "pensulă",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥁"
+        },
+        {
+          "id": "ro-arts-l7-02",
+          "prompt": "Ce instrument?",
+          "promptTts": "pian",
+          "choices": [
+            "pian",
+            "pensulă",
+            "galben"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎹"
+        },
+        {
+          "id": "ro-arts-l7-03",
+          "prompt": "Ce instrument?",
+          "promptTts": "flaut",
+          "choices": [
+            "flaut",
+            "pătrat",
+            "portocaliu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎶"
+        },
+        {
+          "id": "ro-arts-l7-04",
+          "prompt": "Scrie: pian",
+          "promptTts": "Scrie pian",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pian"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🎹"
+        },
+        {
+          "id": "ro-arts-l7-05",
+          "prompt": "Putem dansa pe muzică?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l8",
+      "title": "Nivelul 8",
+      "subtitle": "Înalt și jos",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l8-01",
+          "prompt": "Sunet înalt sau jos?",
+          "promptTts": "înalt",
+          "choices": [
+            "înalt",
+            "jos"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐦"
+        },
+        {
+          "id": "ro-arts-l8-02",
+          "prompt": "Sunet înalt sau jos?",
+          "promptTts": "jos",
+          "choices": [
+            "jos",
+            "înalt"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐘"
+        },
+        {
+          "id": "ro-arts-l8-03",
+          "prompt": "Scrie: înalt",
+          "promptTts": "Scrie înalt",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "înalt"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l8-04",
+          "prompt": "Pasărea e adesea…",
+          "promptTts": "înalt",
+          "choices": [
+            "înalt",
+            "jos"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l8-05",
+          "prompt": "O tobă mare e adesea…",
+          "promptTts": "jos",
+          "choices": [
+            "jos",
+            "înalt"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l9",
+      "title": "Nivelul 9",
+      "subtitle": "Modele",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l9-01",
+          "prompt": "Ce urmează? 🟥🟦🟥 ?",
+          "promptTts": "🟦",
+          "choices": [
+            "🟦",
+            "🟨",
+            "⬜"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l9-02",
+          "prompt": "Model: ⭐🌙⭐ ?",
+          "promptTts": "🌙",
+          "choices": [
+            "🌙",
+            "🍎",
+            "🟦"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l9-03",
+          "prompt": "Câte 🟥 în 🟥🟦🟥?",
+          "promptTts": "Scrie numărul",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "2"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l9-04",
+          "prompt": "Un model se repetă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l9-05",
+          "prompt": "Urmează dacă 🔺🔺⬜🔺🔺?",
+          "promptTts": "⬜",
+          "choices": [
+            "⬜",
+            "🟦",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l10",
+      "title": "Nivelul 10",
+      "subtitle": "Emocii",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l10-01",
+          "prompt": "Ce emoție?",
+          "promptTts": "vesel",
+          "choices": [
+            "vesel",
+            "trist"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😊"
+        },
+        {
+          "id": "ro-arts-l10-02",
+          "prompt": "Ce emoție?",
+          "promptTts": "trist",
+          "choices": [
+            "trist",
+            "vesel"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😢"
+        },
+        {
+          "id": "ro-arts-l10-03",
+          "prompt": "Scrie: vesel",
+          "promptTts": "Scrie vesel",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "vesel"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l10-04",
+          "prompt": "Soarele pare adesea…",
+          "promptTts": "vesel",
+          "choices": [
+            "vesel",
+            "trist"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-arts-l10-05",
+          "prompt": "Arta poate fi tristă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l11",
+      "title": "Nivelul 11",
+      "subtitle": "Pictez, cânt, construiesc",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l11-01",
+          "prompt": "Ce facem cu vopseaua?",
+          "promptTts": "pictez",
+          "choices": [
+            "pictez",
+            "cânt",
+            "construiesc"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎨"
+        },
+        {
+          "id": "ro-arts-l11-02",
+          "prompt": "Ce facem cu vocea?",
+          "promptTts": "cânt",
+          "choices": [
+            "cânt",
+            "pictez",
+            "construiesc"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎤"
+        },
+        {
+          "id": "ro-arts-l11-03",
+          "prompt": "Ce facem cu cuburile?",
+          "promptTts": "construiesc",
+          "choices": [
+            "construiesc",
+            "cânt",
+            "pictez"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧱"
+        },
+        {
+          "id": "ro-arts-l11-04",
+          "prompt": "Scrie: cânt",
+          "promptTts": "Scrie cânt",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cânt"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l11-05",
+          "prompt": "Cântatul e artă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l12",
+      "title": "Nivelul 12",
+      "subtitle": "Ritm",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l12-01",
+          "prompt": "Aplauze: 1-2-3, câte?",
+          "promptTts": "3",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l12-02",
+          "prompt": "Câte bătăi: ♪♪♪♪ ?",
+          "promptTts": "Scrie patru",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "4"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l12-03",
+          "prompt": "Aplaudatul regulat e ritm?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l12-04",
+          "prompt": "Putem bate din picior pe un cântec?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l12-05",
+          "prompt": "Scrie: tobe",
+          "promptTts": "Scrie tobe",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "tobe"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🥁"
+        }
+      ]
+    },
+    {
+      "id": "arts-l13",
+      "title": "Nivelul 13",
+      "subtitle": "Culori calde",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l13-01",
+          "prompt": "Roșu e culoare caldă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "ro-arts-l13-02",
+          "prompt": "Albastru e mai degrabă rece?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "ro-arts-l13-03",
+          "prompt": "Scrie: cald",
+          "promptTts": "Scrie cald",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cald"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l13-04",
+          "prompt": "Galben: cald?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟨"
+        },
+        {
+          "id": "ro-arts-l13-05",
+          "prompt": "Albastrul de gheață pare…",
+          "promptTts": "rece",
+          "choices": [
+            "rece",
+            "cald"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l14",
+      "title": "Nivelul 14",
+      "subtitle": "Textură",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l14-01",
+          "prompt": "Ce e aspru?",
+          "promptTts": "scoarță",
+          "choices": [
+            "scoarță",
+            "mătase"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪵"
+        },
+        {
+          "id": "ro-arts-l14-02",
+          "prompt": "Ce e moale?",
+          "promptTts": "lână",
+          "choices": [
+            "lână",
+            "piatră"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧶"
+        },
+        {
+          "id": "ro-arts-l14-03",
+          "prompt": "Scrie: moale",
+          "promptTts": "Scrie moale",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "moale"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l14-04",
+          "prompt": "Arta poate avea texturi?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l14-05",
+          "prompt": "Șmirghelul e aspru?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l15",
+      "title": "Nivelul 15",
+      "subtitle": "Dans sau imagine",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l15-01",
+          "prompt": "Mișcare pe muzică?",
+          "promptTts": "dans",
+          "choices": [
+            "dans",
+            "imagine"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💃"
+        },
+        {
+          "id": "ro-arts-l15-02",
+          "prompt": "Ceva de privit?",
+          "promptTts": "imagine",
+          "choices": [
+            "imagine",
+            "dans"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖼️"
+        },
+        {
+          "id": "ro-arts-l15-03",
+          "prompt": "Scrie: dans",
+          "promptTts": "Scrie dans",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dans"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l15-04",
+          "prompt": "Dansul e artă?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l15-05",
+          "prompt": "Un tablou e pe perete?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l16",
+      "title": "Nivelul 16",
+      "subtitle": "Continuă modelul",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l16-01",
+          "prompt": "⬛⬜⬛ ?",
+          "promptTts": "⬜",
+          "choices": [
+            "⬜",
+            "🟥",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l16-02",
+          "prompt": "ABAB, ce e B dacă A=⭐?",
+          "promptTts": "🌙",
+          "choices": [
+            "🌙",
+            "⭐",
+            "🍎"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l16-03",
+          "prompt": "Câte ⬛ în ⬛⬜⬛⬜",
+          "promptTts": "Scrie numărul",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "2"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l16-04",
+          "prompt": "Modelele pot fi culori?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l16-05",
+          "prompt": "🔴🟢🔴 ?",
+          "promptTts": "🟢",
+          "choices": [
+            "🟢",
+            "🔵",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l17",
+      "title": "Nivelul 17",
+      "subtitle": "Do re mi",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l17-01",
+          "prompt": "Prima notă adesea?",
+          "promptTts": "do",
+          "choices": [
+            "do",
+            "fa",
+            "si"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l17-02",
+          "prompt": "Do, re, …?",
+          "promptTts": "mi",
+          "choices": [
+            "mi",
+            "sol",
+            "tare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l17-03",
+          "prompt": "Scrie: do",
+          "promptTts": "Scrie do",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "do"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l17-04",
+          "prompt": "Notele ajută să cântăm?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l17-05",
+          "prompt": "Re vine după do?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l18",
+      "title": "Nivelul 18",
+      "subtitle": "Zi sau noapte",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l18-01",
+          "prompt": "Noapte înstelată: zi sau noapte?",
+          "promptTts": "noapte",
+          "choices": [
+            "noapte",
+            "zi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌌"
+        },
+        {
+          "id": "ro-arts-l18-02",
+          "prompt": "Floarea-soarelui: zi sau noapte?",
+          "promptTts": "zi",
+          "choices": [
+            "zi",
+            "noapte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌻"
+        },
+        {
+          "id": "ro-arts-l18-03",
+          "prompt": "Scrie: noapte",
+          "promptTts": "Scrie noapte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "noapte"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l18-04",
+          "prompt": "O imagine spune o poveste?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l18-05",
+          "prompt": "Luna ține mai mult de noapte?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌙"
+        }
+      ]
+    },
+    {
+      "id": "arts-l19",
+      "title": "Nivelul 19",
+      "subtitle": "Decorăm",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l19-01",
+          "prompt": "Decorăm o felicitare?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💌"
+        },
+        {
+          "id": "ro-arts-l19-02",
+          "prompt": "Cu ce lipim?",
+          "promptTts": "lipici",
+          "choices": [
+            "lipici",
+            "tobe",
+            "noapte"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l19-03",
+          "prompt": "Scrie: imagine",
+          "promptTts": "Scrie imagine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "imagine"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l19-04",
+          "prompt": "Decupajul e creare?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✂️"
+        },
+        {
+          "id": "ro-arts-l19-05",
+          "prompt": "Putem alege culorile?",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l20",
+      "title": "Nivelul 20",
+      "subtitle": "Amestec arte",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-arts-l20-01",
+          "prompt": "Ce culoare?",
+          "promptTts": "roșu",
+          "choices": [
+            "roșu",
+            "albastru",
+            "verde"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "ro-arts-l20-02",
+          "prompt": "Scrie: pian",
+          "promptTts": "Scrie pian",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pian"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l20-03",
+          "prompt": "Ce formă?",
+          "promptTts": "cerc",
+          "choices": [
+            "cerc",
+            "pătrat",
+            "triunghi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "ro-arts-l20-04",
+          "prompt": "Tare sau încet pentru un cântec de leagăn?",
+          "promptTts": "încet",
+          "choices": [
+            "încet",
+            "tare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-arts-l20-05",
+          "prompt": "Scrie: galben",
+          "promptTts": "Scrie galben",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "galben"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟨"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "id": "arts",
+  "locale": "en",
+  "emoji": "🎨",
+  "color": "#F472B6",
+  "title": "Arts",
+  "subtitle": "Colors, shapes, music",
+  "per": {
+    "competenceId": "A 11 AV",
+    "label": "Visual arts",
+    "focusId": "A 13 MU",
+    "focusLabel": "Music",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "arts-l1",
+      "title": "Level 1",
+      "subtitle": "Colors",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-arts-l1-01",
+          "prompt": "Which color?",
+          "promptTts": "red",
+          "choices": [
+            "red",
+            "blue",
+            "yellow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "en-arts-l1-02",
+          "prompt": "Which color?",
+          "promptTts": "blue",
+          "choices": [
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "en-arts-l1-03",
+          "prompt": "Which color?",
+          "promptTts": "yellow",
+          "choices": [
+            "yellow",
+            "red",
+            "blue"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟨"
+        },
+        {
+          "id": "en-arts-l1-04",
+          "prompt": "Type: red",
+          "promptTts": "Type red",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "red"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "en-arts-l1-05",
+          "prompt": "Which color?",
+          "promptTts": "red",
+          "choices": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍅"
+        }
+      ]
+    },
+    {
+      "id": "arts-l2",
+      "title": "Level 2",
+      "subtitle": "More colors",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l2-01",
+          "prompt": "Which color?",
+          "promptTts": "green",
+          "choices": [
+            "green",
+            "red",
+            "blue"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟩"
+        },
+        {
+          "id": "en-arts-l2-02",
+          "prompt": "Which color?",
+          "promptTts": "orange",
+          "choices": [
+            "orange",
+            "blue",
+            "purple"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟧"
+        },
+        {
+          "id": "en-arts-l2-03",
+          "prompt": "Which color?",
+          "promptTts": "purple",
+          "choices": [
+            "purple",
+            "yellow",
+            "green"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟪"
+        },
+        {
+          "id": "en-arts-l2-04",
+          "prompt": "Type: blue",
+          "promptTts": "Type blue",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "blue"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "en-arts-l2-05",
+          "prompt": "Which color?",
+          "promptTts": "green",
+          "choices": [
+            "green",
+            "red",
+            "yellow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐸"
+        }
+      ]
+    },
+    {
+      "id": "arts-l3",
+      "title": "Level 3",
+      "subtitle": "Shapes",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l3-01",
+          "prompt": "Which shape?",
+          "promptTts": "circle",
+          "choices": [
+            "circle",
+            "square",
+            "triangle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "en-arts-l3-02",
+          "prompt": "Which shape?",
+          "promptTts": "square",
+          "choices": [
+            "square",
+            "circle",
+            "triangle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⬜"
+        },
+        {
+          "id": "en-arts-l3-03",
+          "prompt": "Which shape?",
+          "promptTts": "triangle",
+          "choices": [
+            "triangle",
+            "circle",
+            "square"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔺"
+        },
+        {
+          "id": "en-arts-l3-04",
+          "prompt": "Type: circle",
+          "promptTts": "Type circle",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "circle"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "en-arts-l3-05",
+          "prompt": "Does a circle have corners?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l4",
+      "title": "Level 4",
+      "subtitle": "Mixing",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l4-01",
+          "prompt": "Red plus yellow?",
+          "promptTts": "orange",
+          "choices": [
+            "orange",
+            "green",
+            "purple"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l4-02",
+          "prompt": "Blue plus yellow?",
+          "promptTts": "green",
+          "choices": [
+            "green",
+            "orange",
+            "purple"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l4-03",
+          "prompt": "Red plus blue?",
+          "promptTts": "purple",
+          "choices": [
+            "purple",
+            "green",
+            "orange"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l4-04",
+          "prompt": "Type: green",
+          "promptTts": "Type green",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "green"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l4-05",
+          "prompt": "Can we mix colors?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l5",
+      "title": "Level 5",
+      "subtitle": "Tools",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l5-01",
+          "prompt": "What do we paint with?",
+          "promptTts": "brush",
+          "choices": [
+            "brush",
+            "drum",
+            "piano"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖌️"
+        },
+        {
+          "id": "en-arts-l5-02",
+          "prompt": "What do we draw with?",
+          "promptTts": "crayon",
+          "choices": [
+            "crayon",
+            "flute",
+            "drum"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖍️"
+        },
+        {
+          "id": "en-arts-l5-03",
+          "prompt": "Type: brush",
+          "promptTts": "Type brush",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "brush"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🖌️"
+        },
+        {
+          "id": "en-arts-l5-04",
+          "prompt": "Paper for painting?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l5-05",
+          "prompt": "Are scissors a tool?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✂️"
+        }
+      ]
+    },
+    {
+      "id": "arts-l6",
+      "title": "Level 6",
+      "subtitle": "Loud and soft",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l6-01",
+          "prompt": "How does it sound?",
+          "promptTts": "loud",
+          "choices": [
+            "loud",
+            "soft"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📢"
+        },
+        {
+          "id": "en-arts-l6-02",
+          "prompt": "How does it sound?",
+          "promptTts": "soft",
+          "choices": [
+            "soft",
+            "loud"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🤫"
+        },
+        {
+          "id": "en-arts-l6-03",
+          "prompt": "Type: loud",
+          "promptTts": "Type loud",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "loud"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l6-04",
+          "prompt": "Whispering is…",
+          "promptTts": "soft",
+          "choices": [
+            "soft",
+            "loud"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l6-05",
+          "prompt": "A drum is often…",
+          "promptTts": "loud",
+          "choices": [
+            "loud",
+            "soft"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥁"
+        }
+      ]
+    },
+    {
+      "id": "arts-l7",
+      "title": "Level 7",
+      "subtitle": "Instruments",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l7-01",
+          "prompt": "Which instrument?",
+          "promptTts": "drum",
+          "choices": [
+            "drum",
+            "brush",
+            "red"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥁"
+        },
+        {
+          "id": "en-arts-l7-02",
+          "prompt": "Which instrument?",
+          "promptTts": "piano",
+          "choices": [
+            "piano",
+            "brush",
+            "yellow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎹"
+        },
+        {
+          "id": "en-arts-l7-03",
+          "prompt": "Which instrument?",
+          "promptTts": "flute",
+          "choices": [
+            "flute",
+            "square",
+            "orange"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎶"
+        },
+        {
+          "id": "en-arts-l7-04",
+          "prompt": "Type: piano",
+          "promptTts": "Type piano",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "piano"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🎹"
+        },
+        {
+          "id": "en-arts-l7-05",
+          "prompt": "Can we dance to music?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l8",
+      "title": "Level 8",
+      "subtitle": "High and low",
+      "perTag": "A 11 AV · arts visuels",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l8-01",
+          "prompt": "High or low sound?",
+          "promptTts": "high",
+          "choices": [
+            "high",
+            "low"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐦"
+        },
+        {
+          "id": "en-arts-l8-02",
+          "prompt": "High or low sound?",
+          "promptTts": "low",
+          "choices": [
+            "low",
+            "high"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐘"
+        },
+        {
+          "id": "en-arts-l8-03",
+          "prompt": "Type: high",
+          "promptTts": "Type high",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "high"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l8-04",
+          "prompt": "A bird is often…",
+          "promptTts": "high",
+          "choices": [
+            "high",
+            "low"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l8-05",
+          "prompt": "A big drum is often…",
+          "promptTts": "low",
+          "choices": [
+            "low",
+            "high"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l9",
+      "title": "Level 9",
+      "subtitle": "Patterns",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l9-01",
+          "prompt": "What is next? 🟥🟦🟥 ?",
+          "promptTts": "🟦",
+          "choices": [
+            "🟦",
+            "🟨",
+            "⬜"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l9-02",
+          "prompt": "Pattern: ⭐🌙⭐ ?",
+          "promptTts": "🌙",
+          "choices": [
+            "🌙",
+            "🍎",
+            "🟦"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l9-03",
+          "prompt": "How many 🟥 in 🟥🟦🟥?",
+          "promptTts": "Type the number",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "2"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l9-04",
+          "prompt": "Does a pattern repeat?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l9-05",
+          "prompt": "Next if 🔺🔺⬜🔺🔺?",
+          "promptTts": "⬜",
+          "choices": [
+            "⬜",
+            "🟦",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l10",
+      "title": "Level 10",
+      "subtitle": "Feelings in art",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l10-01",
+          "prompt": "What feeling?",
+          "promptTts": "happy",
+          "choices": [
+            "happy",
+            "sad"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😊"
+        },
+        {
+          "id": "en-arts-l10-02",
+          "prompt": "What feeling?",
+          "promptTts": "sad",
+          "choices": [
+            "sad",
+            "happy"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "😢"
+        },
+        {
+          "id": "en-arts-l10-03",
+          "prompt": "Type: happy",
+          "promptTts": "Type happy",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "happy"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l10-04",
+          "prompt": "The sun often feels…",
+          "promptTts": "happy",
+          "choices": [
+            "happy",
+            "sad"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-arts-l10-05",
+          "prompt": "Can art be sad?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l11",
+      "title": "Level 11",
+      "subtitle": "Paint, sing, build",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l11-01",
+          "prompt": "What do we do with paint?",
+          "promptTts": "paint",
+          "choices": [
+            "paint",
+            "sing",
+            "build"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎨"
+        },
+        {
+          "id": "en-arts-l11-02",
+          "prompt": "What do we do with the voice?",
+          "promptTts": "sing",
+          "choices": [
+            "sing",
+            "paint",
+            "build"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🎤"
+        },
+        {
+          "id": "en-arts-l11-03",
+          "prompt": "What do we do with blocks?",
+          "promptTts": "build",
+          "choices": [
+            "build",
+            "sing",
+            "paint"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧱"
+        },
+        {
+          "id": "en-arts-l11-04",
+          "prompt": "Type: sing",
+          "promptTts": "Type sing",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "sing"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l11-05",
+          "prompt": "Is singing part of the arts?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l12",
+      "title": "Level 12",
+      "subtitle": "Rhythm",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l12-01",
+          "prompt": "Claps: 1-2-3, how many?",
+          "promptTts": "3",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l12-02",
+          "prompt": "How many beats: ♪♪♪♪ ?",
+          "promptTts": "Type four",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "4"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l12-03",
+          "prompt": "Clapping evenly is rhythm?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l12-04",
+          "prompt": "Can we stamp to a song?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l12-05",
+          "prompt": "Type: drum",
+          "promptTts": "Type drum",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "drum"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🥁"
+        }
+      ]
+    },
+    {
+      "id": "arts-l13",
+      "title": "Level 13",
+      "subtitle": "Warm colors",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l13-01",
+          "prompt": "Is red a warm color?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "en-arts-l13-02",
+          "prompt": "Is blue rather cold?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟦"
+        },
+        {
+          "id": "en-arts-l13-03",
+          "prompt": "Type: warm",
+          "promptTts": "Type warm",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "warm"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l13-04",
+          "prompt": "Yellow: warm?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟨"
+        },
+        {
+          "id": "en-arts-l13-05",
+          "prompt": "Icy blue feels…",
+          "promptTts": "cold",
+          "choices": [
+            "cold",
+            "warm"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l14",
+      "title": "Level 14",
+      "subtitle": "Texture",
+      "perTag": "A 13 MU · musique",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l14-01",
+          "prompt": "What feels rough?",
+          "promptTts": "bark",
+          "choices": [
+            "bark",
+            "silk"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪵"
+        },
+        {
+          "id": "en-arts-l14-02",
+          "prompt": "What feels soft?",
+          "promptTts": "wool",
+          "choices": [
+            "wool",
+            "stone"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧶"
+        },
+        {
+          "id": "en-arts-l14-03",
+          "prompt": "Type: soft",
+          "promptTts": "Type soft",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "soft"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l14-04",
+          "prompt": "Can art have textures?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l14-05",
+          "prompt": "Is sandpaper rough?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l15",
+      "title": "Level 15",
+      "subtitle": "Dance or picture",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l15-01",
+          "prompt": "Movement to music?",
+          "promptTts": "dance",
+          "choices": [
+            "dance",
+            "picture"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💃"
+        },
+        {
+          "id": "en-arts-l15-02",
+          "prompt": "Something to look at?",
+          "promptTts": "picture",
+          "choices": [
+            "picture",
+            "dance"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🖼️"
+        },
+        {
+          "id": "en-arts-l15-03",
+          "prompt": "Type: dance",
+          "promptTts": "Type dance",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dance"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l15-04",
+          "prompt": "Is dance part of the arts?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l15-05",
+          "prompt": "Is a picture on the wall?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l16",
+      "title": "Level 16",
+      "subtitle": "Continue the pattern",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l16-01",
+          "prompt": "⬛⬜⬛ ?",
+          "promptTts": "⬜",
+          "choices": [
+            "⬜",
+            "🟥",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l16-02",
+          "prompt": "ABAB, what is B if A=⭐?",
+          "promptTts": "🌙",
+          "choices": [
+            "🌙",
+            "⭐",
+            "🍎"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l16-03",
+          "prompt": "Count of ⬛ in ⬛⬜⬛⬜",
+          "promptTts": "Type the number",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "2"
+          ],
+          "keyboard": "number",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l16-04",
+          "prompt": "Can patterns be colors?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l16-05",
+          "prompt": "🔴🟢🔴 ?",
+          "promptTts": "🟢",
+          "choices": [
+            "🟢",
+            "🔵",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l17",
+      "title": "Level 17",
+      "subtitle": "Do re mi",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l17-01",
+          "prompt": "First note often?",
+          "promptTts": "do",
+          "choices": [
+            "do",
+            "fa",
+            "si"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l17-02",
+          "prompt": "Do, re, …?",
+          "promptTts": "mi",
+          "choices": [
+            "mi",
+            "sol",
+            "loud"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l17-03",
+          "prompt": "Type: do",
+          "promptTts": "Type do",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "do"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l17-04",
+          "prompt": "Do notes help us sing?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l17-05",
+          "prompt": "Does re come after do?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l18",
+      "title": "Level 18",
+      "subtitle": "Day or night",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l18-01",
+          "prompt": "Starry night: day or night?",
+          "promptTts": "night",
+          "choices": [
+            "night",
+            "day"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌌"
+        },
+        {
+          "id": "en-arts-l18-02",
+          "prompt": "Sunflowers: day or night?",
+          "promptTts": "day",
+          "choices": [
+            "day",
+            "night"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌻"
+        },
+        {
+          "id": "en-arts-l18-03",
+          "prompt": "Type: night",
+          "promptTts": "Type night",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "night"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l18-04",
+          "prompt": "Can a picture tell a story?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l18-05",
+          "prompt": "Does the moon belong more to night?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌙"
+        }
+      ]
+    },
+    {
+      "id": "arts-l19",
+      "title": "Level 19",
+      "subtitle": "Decorate",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l19-01",
+          "prompt": "Do we decorate a card?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💌"
+        },
+        {
+          "id": "en-arts-l19-02",
+          "prompt": "What do we glue with?",
+          "promptTts": "glue",
+          "choices": [
+            "glue",
+            "drum",
+            "night"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l19-03",
+          "prompt": "Type: picture",
+          "promptTts": "Type picture",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "picture"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l19-04",
+          "prompt": "Is cutting paper creating?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✂️"
+        },
+        {
+          "id": "en-arts-l19-05",
+          "prompt": "May we choose colors?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "arts-l20",
+      "title": "Level 20",
+      "subtitle": "Arts mix",
+      "perTag": "A 12 AM · activités créatrices",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-arts-l20-01",
+          "prompt": "Which color?",
+          "promptTts": "red",
+          "choices": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🟥"
+        },
+        {
+          "id": "en-arts-l20-02",
+          "prompt": "Type: piano",
+          "promptTts": "Type piano",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "piano"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l20-03",
+          "prompt": "Which shape?",
+          "promptTts": "circle",
+          "choices": [
+            "circle",
+            "square",
+            "triangle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "en-arts-l20-04",
+          "prompt": "Loud or soft for a lullaby?",
+          "promptTts": "soft",
+          "choices": [
+            "soft",
+            "loud"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-arts-l20-05",
+          "prompt": "Type: yellow",
+          "promptTts": "Type yellow",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "yellow"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🟨"
+        }
+      ]
+    }
+  ]
+}

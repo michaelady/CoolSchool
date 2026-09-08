@@ -1,0 +1,1407 @@
+{
+  "id": "shs",
+  "locale": "de",
+  "emoji": "🌍",
+  "color": "#A78BFA",
+  "title": "Mensch & Gesellschaft",
+  "subtitle": "Ort, Zeit, zusammen leben",
+  "per": {
+    "competenceId": "SHS 11",
+    "label": "Raum & Zeit",
+    "focusId": "SHS 31",
+    "focusLabel": "Zusammenleben",
+    "cycle": "1H–8H · Zyklus 1–2"
+  },
+  "levels": [
+    {
+      "id": "shs-l1",
+      "title": "Level 1",
+      "subtitle": "Familie",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "de-shs-l1-01",
+          "prompt": "Wer ist das?",
+          "promptTts": "Mama",
+          "choices": [
+            "Mama",
+            "Schule",
+            "Velo"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩"
+        },
+        {
+          "id": "de-shs-l1-02",
+          "prompt": "Wer ist das?",
+          "promptTts": "Papa",
+          "choices": [
+            "Papa",
+            "Park",
+            "Zug"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👨"
+        },
+        {
+          "id": "de-shs-l1-03",
+          "prompt": "Familie: wer fehlt?",
+          "promptTts": "ich",
+          "choices": [
+            "ich",
+            "Schweiz",
+            "See"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧒"
+        },
+        {
+          "id": "de-shs-l1-04",
+          "prompt": "Schreib: Mama",
+          "promptTts": "Schreib Mama",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Mama"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l1-05",
+          "prompt": "Gehört das zur Familie?",
+          "promptTts": "Hund kann zur Familie gehören",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐕"
+        }
+      ]
+    },
+    {
+      "id": "shs-l2",
+      "title": "Level 2",
+      "subtitle": "Zuhause",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l2-01",
+          "prompt": "Wo schläft man?",
+          "promptTts": "im Bett",
+          "choices": [
+            "Haus",
+            "Schule",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛏️"
+        },
+        {
+          "id": "de-shs-l2-02",
+          "prompt": "Wo kocht man?",
+          "promptTts": "in der Küche",
+          "choices": [
+            "Küche",
+            "Schule",
+            "Park"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍳"
+        },
+        {
+          "id": "de-shs-l2-03",
+          "prompt": "Schreib: Haus",
+          "promptTts": "Schreib Haus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Haus"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏠"
+        },
+        {
+          "id": "de-shs-l2-04",
+          "prompt": "Tür oder Fenster?",
+          "promptTts": "Fenster",
+          "choices": [
+            "Fenster",
+            "Tür"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪟"
+        },
+        {
+          "id": "de-shs-l2-05",
+          "prompt": "Wo wohnen wir?",
+          "promptTts": "Haus",
+          "choices": [
+            "Haus",
+            "Zug",
+            "Ärztin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏠"
+        }
+      ]
+    },
+    {
+      "id": "shs-l3",
+      "title": "Level 3",
+      "subtitle": "Schule",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l3-01",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Schule",
+          "choices": [
+            "Schule",
+            "Haus",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "de-shs-l3-02",
+          "prompt": "Wer unterrichtet?",
+          "promptTts": "Lehrerin",
+          "choices": [
+            "Lehrerin",
+            "Bäcker",
+            "Bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "de-shs-l3-03",
+          "prompt": "Schreib: Schule",
+          "promptTts": "Schreib Schule",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Schule"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "de-shs-l3-04",
+          "prompt": "Was braucht man in der Schule?",
+          "promptTts": "Stift",
+          "choices": [
+            "Stift",
+            "Velo",
+            "Schnee"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✏️"
+        },
+        {
+          "id": "de-shs-l3-05",
+          "prompt": "Pause: wo spielen?",
+          "promptTts": "Park",
+          "choices": [
+            "Park",
+            "Bäcker",
+            "Zug"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛝"
+        }
+      ]
+    },
+    {
+      "id": "shs-l4",
+      "title": "Level 4",
+      "subtitle": "Tage",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l4-01",
+          "prompt": "Welcher Tag kommt zuerst in der Woche (DE/CH Schule oft Montag)?",
+          "promptTts": "Montag",
+          "choices": [
+            "Montag",
+            "gestern",
+            "Schnee"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l4-02",
+          "prompt": "Heute oder gestern?",
+          "promptTts": "heute",
+          "choices": [
+            "heute",
+            "gestern"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l4-03",
+          "prompt": "Schreib: heute",
+          "promptTts": "Schreib heute",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "heute"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l4-04",
+          "prompt": "Was war vorher?",
+          "promptTts": "gestern",
+          "choices": [
+            "gestern",
+            "heute"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l4-05",
+          "prompt": "Wie viele Tage hat eine Woche?",
+          "promptTts": "Eine Woche hat sieben Tage",
+          "choices": [
+            "5",
+            "7",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l5",
+      "title": "Level 5",
+      "subtitle": "Jahreszeiten",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l5-01",
+          "prompt": "Jahreszeit?",
+          "promptTts": "Sommer",
+          "choices": [
+            "Sommer",
+            "Regen",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "de-shs-l5-02",
+          "prompt": "Jahreszeit?",
+          "promptTts": "Winter",
+          "choices": [
+            "Winter",
+            "Regen",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "de-shs-l5-03",
+          "prompt": "Jahreszeit?",
+          "promptTts": "Frühling",
+          "choices": [
+            "Frühling",
+            "Regen",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "de-shs-l5-04",
+          "prompt": "Jahreszeit?",
+          "promptTts": "Herbst",
+          "choices": [
+            "Herbst",
+            "Regen",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "de-shs-l5-05",
+          "prompt": "Schreib: Sommer",
+          "promptTts": "Schreib Sommer",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Sommer"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l6",
+      "title": "Level 6",
+      "subtitle": "Wetter",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l6-01",
+          "prompt": "Welches Wetter?",
+          "promptTts": "Regen",
+          "choices": [
+            "Regen",
+            "Bäcker",
+            "Haus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "de-shs-l6-02",
+          "prompt": "Welches Wetter?",
+          "promptTts": "Sonne",
+          "choices": [
+            "Sonne",
+            "Schnee",
+            "Bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "de-shs-l6-03",
+          "prompt": "Welches Wetter?",
+          "promptTts": "Schnee",
+          "choices": [
+            "Schnee",
+            "Regen",
+            "Laden"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "de-shs-l6-04",
+          "prompt": "Schreib: Regen",
+          "promptTts": "Schreib Regen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Regen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "de-shs-l6-05",
+          "prompt": "Braucht man einen Schirm?",
+          "promptTts": "Regen",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l7",
+      "title": "Level 7",
+      "subtitle": "Dorf und Stadt",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l7-01",
+          "prompt": "Viele Häuser und Busse?",
+          "promptTts": "Stadt",
+          "choices": [
+            "Stadt",
+            "Dorf"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏙️"
+        },
+        {
+          "id": "de-shs-l7-02",
+          "prompt": "Wenig Häuser, Felder?",
+          "promptTts": "Dorf",
+          "choices": [
+            "Dorf",
+            "Stadt"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏡"
+        },
+        {
+          "id": "de-shs-l7-03",
+          "prompt": "Schreib: Stadt",
+          "promptTts": "Schreib Stadt",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Stadt"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l7-04",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Laden",
+          "choices": [
+            "Laden",
+            "Berg",
+            "See"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "de-shs-l7-05",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Park",
+          "choices": [
+            "Park",
+            "Bäcker",
+            "Zug"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "shs-l8",
+      "title": "Level 8",
+      "subtitle": "Karte",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l8-01",
+          "prompt": "Was ist das auf der Karte?",
+          "promptTts": "Berg",
+          "choices": [
+            "Berg",
+            "Laden",
+            "Bäcker"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⛰️"
+        },
+        {
+          "id": "de-shs-l8-02",
+          "prompt": "Was ist das auf der Karte?",
+          "promptTts": "See",
+          "choices": [
+            "See",
+            "Bus",
+            "Schule"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏞️"
+        },
+        {
+          "id": "de-shs-l8-03",
+          "prompt": "Was fliesst?",
+          "promptTts": "Fluss",
+          "choices": [
+            "Fluss",
+            "Haus",
+            "Welche Flagge ist die Schweiz?"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "〰️"
+        },
+        {
+          "id": "de-shs-l8-04",
+          "prompt": "Schreib: See",
+          "promptTts": "Schreib See",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "See"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l8-05",
+          "prompt": "Alpen sind…",
+          "promptTts": "Berg",
+          "choices": [
+            "Berg",
+            "Laden",
+            "Milch"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l9",
+      "title": "Level 9",
+      "subtitle": "Schweiz",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l9-01",
+          "prompt": "Welche Flagge ist die Schweiz?",
+          "promptTts": "Welche Flagge ist die Schweiz?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l9-02",
+          "prompt": "Land?",
+          "promptTts": "Schweiz",
+          "choices": [
+            "Schweiz",
+            "Frankreich",
+            "Bäcker"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "de-shs-l9-03",
+          "prompt": "Schreib: Schweiz",
+          "promptTts": "Schreib Schweiz",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Schweiz"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "de-shs-l9-04",
+          "prompt": "Hauptstadt (einfach): Bern?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l9-05",
+          "prompt": "Gibt es Berge in der Schweiz?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l10",
+      "title": "Level 10",
+      "subtitle": "Orte",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l10-01",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Schule",
+          "choices": [
+            "Schule",
+            "See",
+            "Berg"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "de-shs-l10-02",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Laden",
+          "choices": [
+            "Laden",
+            "Fluss",
+            "Zug"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "de-shs-l10-03",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Park",
+          "choices": [
+            "Park",
+            "Bäcker",
+            "Schnee"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-shs-l10-04",
+          "prompt": "Schreib: Park",
+          "promptTts": "Schreib Park",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Park"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-shs-l10-05",
+          "prompt": "Wo kauft man Brot?",
+          "promptTts": "Laden",
+          "choices": [
+            "Laden",
+            "See",
+            "Berg"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l11",
+      "title": "Level 11",
+      "subtitle": "Berufe",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l11-01",
+          "prompt": "Wer backt Brot?",
+          "promptTts": "Bäcker",
+          "choices": [
+            "Bäcker",
+            "Ärztin",
+            "Zug"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥖"
+        },
+        {
+          "id": "de-shs-l11-02",
+          "prompt": "Wer hilft wenn man krank ist?",
+          "promptTts": "Ärztin",
+          "choices": [
+            "Ärztin",
+            "Bäcker",
+            "Bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🩺"
+        },
+        {
+          "id": "de-shs-l11-03",
+          "prompt": "Wer unterrichtet?",
+          "promptTts": "Lehrerin",
+          "choices": [
+            "Lehrerin",
+            "Velo",
+            "Schnee"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "de-shs-l11-04",
+          "prompt": "Schreib: Bäcker",
+          "promptTts": "Schreib Bäcker",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Bäcker"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l11-05",
+          "prompt": "Hilft die Lehrerin in der Schule?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l12",
+      "title": "Level 12",
+      "subtitle": "Regeln",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l12-01",
+          "prompt": "Was ist freundlich?",
+          "promptTts": "teilen",
+          "choices": [
+            "teilen",
+            "schlagen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l12-02",
+          "prompt": "Darf man schlagen?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l12-03",
+          "prompt": "Schreib: teilen",
+          "promptTts": "Schreib teilen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "teilen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l12-04",
+          "prompt": "Warten bis man dran ist?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l12-05",
+          "prompt": "Helfen wir einander?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l13",
+      "title": "Level 13",
+      "subtitle": "Früher und heute",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l13-01",
+          "prompt": "Früher Licht?",
+          "promptTts": "Kerze",
+          "choices": [
+            "Kerze",
+            "Lampe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🕯️"
+        },
+        {
+          "id": "de-shs-l13-02",
+          "prompt": "Heute Licht?",
+          "promptTts": "Lampe",
+          "choices": [
+            "Lampe",
+            "Kerze"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💡"
+        },
+        {
+          "id": "de-shs-l13-03",
+          "prompt": "Schreib: gestern",
+          "promptTts": "Schreib gestern",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "gestern"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l13-04",
+          "prompt": "Pferd oder Auto früher zum Fahren oft?",
+          "promptTts": "Pferd",
+          "choices": [
+            "Pferd",
+            "Auto"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐴"
+        },
+        {
+          "id": "de-shs-l13-05",
+          "prompt": "Heute oft Auto?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚗"
+        }
+      ]
+    },
+    {
+      "id": "shs-l14",
+      "title": "Level 14",
+      "subtitle": "Verkehr",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l14-01",
+          "prompt": "Welches Fahrzeug?",
+          "promptTts": "Velo",
+          "choices": [
+            "Velo",
+            "See",
+            "teilen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚲"
+        },
+        {
+          "id": "de-shs-l14-02",
+          "prompt": "Welches Fahrzeug?",
+          "promptTts": "Bus",
+          "choices": [
+            "Bus",
+            "Bäcker",
+            "Schnee"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "de-shs-l14-03",
+          "prompt": "Welches Fahrzeug?",
+          "promptTts": "Zug",
+          "choices": [
+            "Zug",
+            "Park",
+            "Milch"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚆"
+        },
+        {
+          "id": "de-shs-l14-04",
+          "prompt": "Schreib: Bus",
+          "promptTts": "Schreib Bus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Bus"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "de-shs-l14-05",
+          "prompt": "Helm auf dem Velo?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l15",
+      "title": "Level 15",
+      "subtitle": "Nachbarn",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l15-01",
+          "prompt": "Nachbarland?",
+          "promptTts": "Frankreich",
+          "choices": [
+            "Frankreich",
+            "Bäcker",
+            "Park"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇫🇷"
+        },
+        {
+          "id": "de-shs-l15-02",
+          "prompt": "Ist Deutschland ein Nachbar der Schweiz?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇩🇪"
+        },
+        {
+          "id": "de-shs-l15-03",
+          "prompt": "Schreib: Frankreich",
+          "promptTts": "Schreib Frankreich",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Frankreich"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l15-04",
+          "prompt": "Italien Nachbar?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇮🇹"
+        },
+        {
+          "id": "de-shs-l15-05",
+          "prompt": "Hallo sagen ist freundlich?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l16",
+      "title": "Level 16",
+      "subtitle": "Vom Hof",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l16-01",
+          "prompt": "Was kommt von der Kuh?",
+          "promptTts": "Milch",
+          "choices": [
+            "Milch",
+            "Bus",
+            "Lampe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "de-shs-l16-02",
+          "prompt": "Wo wachsen Äpfel?",
+          "promptTts": "Baum",
+          "choices": [
+            "Baum",
+            "Zug",
+            "Ärztin"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "de-shs-l16-03",
+          "prompt": "Schreib: Milch",
+          "promptTts": "Schreib Milch",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Milch"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "de-shs-l16-04",
+          "prompt": "Gemüse vom Feld?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥕"
+        },
+        {
+          "id": "de-shs-l16-05",
+          "prompt": "Brot vom Bäcker?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l17",
+      "title": "Level 17",
+      "subtitle": "Natur schützen",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l17-01",
+          "prompt": "Was tun mit Papier?",
+          "promptTts": "recyclen",
+          "choices": [
+            "recyclen",
+            "schlagen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "de-shs-l17-02",
+          "prompt": "Müll in den See?",
+          "promptTts": "nein",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l17-03",
+          "prompt": "Schreib: recyclen",
+          "promptTts": "Schreib recyclen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "recyclen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "de-shs-l17-04",
+          "prompt": "Bäume schützen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-shs-l17-05",
+          "prompt": "Wohin mit Abfall?",
+          "promptTts": "Abfall",
+          "choices": [
+            "Tonne",
+            "See",
+            "Milch"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l18",
+      "title": "Level 18",
+      "subtitle": "Helfen",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l18-01",
+          "prompt": "Was ist nett?",
+          "promptTts": "helfen",
+          "choices": [
+            "helfen",
+            "schlagen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l18-02",
+          "prompt": "Einer Person helfen die etwas trägt?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l18-03",
+          "prompt": "Schreib: helfen",
+          "promptTts": "Schreib helfen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "helfen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l18-04",
+          "prompt": "Danke sagen?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l18-05",
+          "prompt": "Teilen im Spiel?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l19",
+      "title": "Level 19",
+      "subtitle": "Meine Gemeinde",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l19-01",
+          "prompt": "Meine Gemeinde hat eine Schule?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "de-shs-l19-02",
+          "prompt": "Gibt es oft einen Brunnen oder Platz?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l19-03",
+          "prompt": "Schreib: Gemeinde",
+          "promptTts": "Schreib Gemeinde",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Gemeinde"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l19-04",
+          "prompt": "Wohin gehöre ich?",
+          "promptTts": "Park",
+          "choices": [
+            "Park",
+            "Frankreich",
+            "Lampe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "de-shs-l19-05",
+          "prompt": "Bibliothek leiht Bücher?",
+          "promptTts": "ja",
+          "choices": [
+            "ja",
+            "nein"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📚"
+        }
+      ]
+    },
+    {
+      "id": "shs-l20",
+      "title": "Level 20",
+      "subtitle": "Zusammen leben",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "de-shs-l20-01",
+          "prompt": "Welche Flagge ist die Schweiz?",
+          "promptTts": "Welche Flagge ist die Schweiz?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l20-02",
+          "prompt": "Schreib: teilen",
+          "promptTts": "Schreib teilen",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "teilen"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l20-03",
+          "prompt": "Welches Wetter?",
+          "promptTts": "Regen",
+          "choices": [
+            "Regen",
+            "Bäcker",
+            "Lampe"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "de-shs-l20-04",
+          "prompt": "Was ist freundlich?",
+          "promptTts": "helfen",
+          "choices": [
+            "helfen",
+            "schlagen"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "de-shs-l20-05",
+          "prompt": "Schreib: Schweiz",
+          "promptTts": "Schreib Schweiz",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Schweiz"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        }
+      ]
+    }
+  ]
+}

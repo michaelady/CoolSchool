@@ -1,0 +1,1430 @@
+{
+  "id": "langues",
+  "locale": "ro",
+  "emoji": "🗣️",
+  "color": "#4CC9F0",
+  "title": "Limbi",
+  "subtitle": "Cuvinte, ascult, scriu",
+  "per": {
+    "competenceId": "L1 11",
+    "label": "Limba școlii",
+    "focusId": "L1 21",
+    "focusLabel": "Scriere și vocabular",
+    "cycle": "1H–8H · ciclurile 1–2"
+  },
+  "levels": [
+    {
+      "id": "langues-l1",
+      "title": "Nivelul 1",
+      "subtitle": "Cuvinte și imagini",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-langues-book-01",
+          "prompt": "carte",
+          "promptTts": "carte",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-pencil-02",
+          "prompt": "creion",
+          "promptTts": "creion",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-school-03",
+          "prompt": "școală",
+          "promptTts": "școală",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-apple-04",
+          "prompt": "măr",
+          "promptTts": "măr",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-sun-05",
+          "prompt": "soare",
+          "promptTts": "soare",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-cat-06",
+          "prompt": "pisică",
+          "promptTts": "pisică",
+          "choices": [
+            "🐸",
+            "🐕",
+            "🐱"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l2",
+      "title": "Nivelul 2",
+      "subtitle": "Mai multe cuvinte",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-dog-01",
+          "prompt": "câine",
+          "promptTts": "câine",
+          "choices": [
+            "🐕",
+            "🐱",
+            "🐸"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-tree-02",
+          "prompt": "copac",
+          "promptTts": "copac",
+          "choices": [
+            "🏠",
+            "🌳",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-house-03",
+          "prompt": "casă",
+          "promptTts": "casă",
+          "choices": [
+            "🌳",
+            "🏫",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-bag-04",
+          "prompt": "ghiozdan",
+          "promptTts": "ghiozdan",
+          "choices": [
+            "🎒",
+            "📚",
+            "✏️"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-star-05",
+          "prompt": "stea",
+          "promptTts": "stea",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌼"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-flower-06",
+          "prompt": "floare",
+          "promptTts": "floare",
+          "choices": [
+            "🌳",
+            "🍎",
+            "🌸"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l3",
+      "title": "Nivelul 3",
+      "subtitle": "Ascultă",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-book-01-l",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "carte",
+          "choices": [
+            "📚",
+            "✏️",
+            "🏫"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-pencil-02-l",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "creion",
+          "choices": [
+            "📚",
+            "✏️",
+            "🍎"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-school-03-l",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "școală",
+          "choices": [
+            "🌳",
+            "🏠",
+            "🏫"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-apple-04-l",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "măr",
+          "choices": [
+            "🍎",
+            "🌸",
+            "⭐"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-sun-05-l",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "soare",
+          "choices": [
+            "⭐",
+            "☀️",
+            "🌸"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l4",
+      "title": "Nivelul 4",
+      "subtitle": "Primele litere",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l4-01",
+          "prompt": "Prima literă din carte",
+          "promptTts": "Scrie prima literă din carte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l4-02",
+          "prompt": "Prima literă din soare",
+          "promptTts": "Scrie prima literă din soare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "s"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l4-03",
+          "prompt": "Prima literă din pisică",
+          "promptTts": "Scrie prima literă din pisică",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "p"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l4-04",
+          "prompt": "Prima literă din câine",
+          "promptTts": "Scrie prima literă din câine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l4-05",
+          "prompt": "Prima literă din copac",
+          "promptTts": "Scrie prima literă din copac",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "c"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l5",
+      "title": "Nivelul 5",
+      "subtitle": "Cuvinte scurte",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l5-01",
+          "prompt": "Scrie: pisică",
+          "promptTts": "Scrie pisică",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pisică"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "ro-langues-l5-02",
+          "prompt": "Scrie: soare",
+          "promptTts": "Scrie soare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "soare"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-langues-l5-03",
+          "prompt": "Scrie: câine",
+          "promptTts": "Scrie câine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "câine"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "ro-langues-l5-04",
+          "prompt": "Scrie: carte",
+          "promptTts": "Scrie carte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "carte"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "ro-langues-l5-05",
+          "prompt": "Scrie: copac",
+          "promptTts": "Scrie copac",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "copac"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l6",
+      "title": "Nivelul 6",
+      "subtitle": "Scriem școala",
+      "perTag": "L1 11 · oral / vocabulaire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l6-01",
+          "prompt": "Scrie: școală",
+          "promptTts": "Scrie școală",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "școală"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏫"
+        },
+        {
+          "id": "ro-langues-l6-02",
+          "prompt": "Scrie: casă",
+          "promptTts": "Scrie casă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "casă"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "ro-langues-l6-03",
+          "prompt": "Scrie: măr",
+          "promptTts": "Scrie măr",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "măr"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "ro-langues-l6-04",
+          "prompt": "Scrie: floare",
+          "promptTts": "Scrie floare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "floare"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "ro-langues-l6-05",
+          "prompt": "Scrie: apă",
+          "promptTts": "Scrie apă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apă"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        }
+      ]
+    },
+    {
+      "id": "langues-l7",
+      "title": "Nivelul 7",
+      "subtitle": "Cu accente",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l7-01",
+          "prompt": "Scrie: școală",
+          "promptTts": "Scrie școală",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "școală"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l7-02",
+          "prompt": "Scrie: câine",
+          "promptTts": "Scrie câine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "câine"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l7-03",
+          "prompt": "Scrie: măr",
+          "promptTts": "Scrie măr",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "măr"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l7-04",
+          "prompt": "Scrie: apă",
+          "promptTts": "Scrie apă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apă"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l7-05",
+          "prompt": "Scrie: pâine",
+          "promptTts": "Scrie pâine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pâine"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l8",
+      "title": "Nivelul 8",
+      "subtitle": "Animale",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-cat-01",
+          "prompt": "pisică",
+          "promptTts": "pisică",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐦"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-dog-02",
+          "prompt": "câine",
+          "promptTts": "câine",
+          "choices": [
+            "🐱",
+            "🐕",
+            "🐠"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-fish-03",
+          "prompt": "pește",
+          "promptTts": "pește",
+          "choices": [
+            "🐱",
+            "🐦",
+            "🐠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-bird-04",
+          "prompt": "pasăre",
+          "promptTts": "pasăre",
+          "choices": [
+            "🐦",
+            "🐠",
+            "🐕"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-apple-05",
+          "prompt": "măr",
+          "promptTts": "măr",
+          "choices": [
+            "🐱",
+            "🍎",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l9",
+      "title": "Nivelul 9",
+      "subtitle": "Mâncare",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l9-01",
+          "prompt": "Scrie: măr",
+          "promptTts": "Scrie măr",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "măr"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "ro-langues-l9-02",
+          "prompt": "Scrie: pâine",
+          "promptTts": "Scrie pâine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pâine"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        },
+        {
+          "id": "ro-langues-l9-03",
+          "prompt": "Scrie: apă",
+          "promptTts": "Scrie apă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apă"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "💧"
+        },
+        {
+          "id": "ro-langues-l9-04",
+          "prompt": "Scrie: pește",
+          "promptTts": "Scrie pește",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pește"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐠"
+        },
+        {
+          "id": "ro-langues-l9-05",
+          "prompt": "Scrie: floare",
+          "promptTts": "Scrie floare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "floare"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        }
+      ]
+    },
+    {
+      "id": "langues-l10",
+      "title": "Nivelul 10",
+      "subtitle": "Cuvinte mai lungi",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l10-01",
+          "prompt": "Scrie: școală",
+          "promptTts": "Scrie școală",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "școală"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l10-02",
+          "prompt": "Scrie: floare",
+          "promptTts": "Scrie floare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "floare"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l10-03",
+          "prompt": "Scrie: creion",
+          "promptTts": "Scrie creion",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "creion"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l10-04",
+          "prompt": "Scrie: mulțumesc",
+          "promptTts": "Scrie mulțumesc",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mulțumesc"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l10-05",
+          "prompt": "Scrie: salut",
+          "promptTts": "Scrie salut",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "salut"
+          ],
+          "keyboard": "text",
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l11",
+      "title": "Nivelul 11",
+      "subtitle": "Contrare",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l11-01",
+          "prompt": "Contrarul lui da?",
+          "promptTts": "Contrarul lui da?",
+          "choices": [
+            "nu",
+            "da",
+            "soare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-langues-l11-02",
+          "prompt": "Contrarul lui roșu?",
+          "promptTts": "Contrarul lui roșu?",
+          "choices": [
+            "albastru",
+            "roșu",
+            "soare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-langues-l11-03",
+          "prompt": "Contrarul lui mare?",
+          "promptTts": "Contrarul lui mare?",
+          "choices": [
+            "mic",
+            "mare",
+            "soare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-langues-l11-04",
+          "prompt": "Contrarul lui zi?",
+          "promptTts": "Contrarul lui zi?",
+          "choices": [
+            "noapte",
+            "zi",
+            "soare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-langues-l11-05",
+          "prompt": "Contrarul lui cald?",
+          "promptTts": "Contrarul lui cald?",
+          "choices": [
+            "rece",
+            "cald",
+            "soare"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "langues-l12",
+      "title": "Nivelul 12",
+      "subtitle": "Propoziții",
+      "perTag": "L1 21 · écrire",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l12-01",
+          "prompt": "Ascultă",
+          "promptTts": "salut",
+          "choices": [
+            "salut",
+            "mulțumesc",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l12-02",
+          "prompt": "Ascultă",
+          "promptTts": "mulțumesc",
+          "choices": [
+            "mulțumesc",
+            "salut",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l12-03",
+          "prompt": "Ascultă",
+          "promptTts": "da",
+          "choices": [
+            "da",
+            "nu",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l12-04",
+          "prompt": "Ascultă",
+          "promptTts": "nu",
+          "choices": [
+            "nu",
+            "da",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l12-05",
+          "prompt": "Ascultă",
+          "promptTts": "soare",
+          "choices": [
+            "soare",
+            "pisică",
+            "roșu"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l13",
+      "title": "Nivelul 13",
+      "subtitle": "Cuvinte L2 1",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l13-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l13-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l13-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l13-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l13-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l14",
+      "title": "Nivelul 14",
+      "subtitle": "Cuvinte L2 2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l14-01",
+          "prompt": "Sonne",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l14-02",
+          "prompt": "Katze",
+          "promptTts": "Katze",
+          "choices": [
+            "🐱",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l14-03",
+          "prompt": "Haus",
+          "promptTts": "Haus",
+          "choices": [
+            "🏠",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l14-04",
+          "prompt": "Apfel",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l14-05",
+          "prompt": "Baum",
+          "promptTts": "Baum",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l14-06",
+          "prompt": "Wasser",
+          "promptTts": "Wasser",
+          "choices": [
+            "💧",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l15",
+      "title": "Nivelul 15",
+      "subtitle": "Scriem L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l15-01",
+          "prompt": "Scrie: Sonne",
+          "promptTts": "Scrie Sonne",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Sonne"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-langues-l15-02",
+          "prompt": "Scrie: Katze",
+          "promptTts": "Scrie Katze",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Katze"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "ro-langues-l15-03",
+          "prompt": "Scrie: Haus",
+          "promptTts": "Scrie Haus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Haus"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "ro-langues-l15-04",
+          "prompt": "Scrie: Apfel",
+          "promptTts": "Scrie Apfel",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Apfel"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍎"
+        },
+        {
+          "id": "ro-langues-l15-05",
+          "prompt": "Scrie: Baum",
+          "promptTts": "Scrie Baum",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Baum"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "langues-l16",
+      "title": "Nivelul 16",
+      "subtitle": "Ascultăm L2",
+      "perTag": "L2 11 · allemand / L2",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l16-01",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "Sonne",
+          "choices": [
+            "☀️",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l16-02",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "Katze",
+          "choices": [
+            "⭐",
+            "🐱",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l16-03",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "Haus",
+          "choices": [
+            "🌳",
+            "⭐",
+            "🏠"
+          ],
+          "correctIndex": 2,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l16-04",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "Apfel",
+          "choices": [
+            "🍎",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l16-05",
+          "prompt": "Ascultă și atinge",
+          "promptTts": "Baum",
+          "choices": [
+            "⭐",
+            "🌳",
+            "🌳"
+          ],
+          "correctIndex": 1,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l17",
+      "title": "Nivelul 17",
+      "subtitle": "Cuvinte L3 1",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l17-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l17-02",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l17-03",
+          "prompt": "flower",
+          "promptTts": "flower",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l17-04",
+          "prompt": "star",
+          "promptTts": "star",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l17-05",
+          "prompt": "bread",
+          "promptTts": "bread",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l18",
+      "title": "Nivelul 18",
+      "subtitle": "Cuvinte L3 2",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l18-01",
+          "prompt": "book",
+          "promptTts": "book",
+          "choices": [
+            "📚",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l18-02",
+          "prompt": "dog",
+          "promptTts": "dog",
+          "choices": [
+            "🐕",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l18-03",
+          "prompt": "flower",
+          "promptTts": "flower",
+          "choices": [
+            "🌸",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l18-04",
+          "prompt": "star",
+          "promptTts": "star",
+          "choices": [
+            "⭐",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l18-05",
+          "prompt": "bread",
+          "promptTts": "bread",
+          "choices": [
+            "🍞",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        },
+        {
+          "id": "ro-langues-l18-06",
+          "prompt": "bird",
+          "promptTts": "bird",
+          "choices": [
+            "🐦",
+            "⭐",
+            "🌳"
+          ],
+          "correctIndex": 0,
+          "kind": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "langues-l19",
+      "title": "Nivelul 19",
+      "subtitle": "Scriem L3",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l19-01",
+          "prompt": "Scrie: book",
+          "promptTts": "Scrie book",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "book"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "ro-langues-l19-02",
+          "prompt": "Scrie: dog",
+          "promptTts": "Scrie dog",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dog"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
+        },
+        {
+          "id": "ro-langues-l19-03",
+          "prompt": "Scrie: flower",
+          "promptTts": "Scrie flower",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "flower"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌸"
+        },
+        {
+          "id": "ro-langues-l19-04",
+          "prompt": "Scrie: star",
+          "promptTts": "Scrie star",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "star"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "⭐"
+        },
+        {
+          "id": "ro-langues-l19-05",
+          "prompt": "Scrie: bread",
+          "promptTts": "Scrie bread",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "bread"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "langues-l20",
+      "title": "Nivelul 20",
+      "subtitle": "Amestec",
+      "perTag": "L3 11 · anglais / L3",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-langues-l20-01",
+          "prompt": "Scrie: carte",
+          "promptTts": "Scrie carte",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "carte"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "📚"
+        },
+        {
+          "id": "ro-langues-l20-02",
+          "prompt": "Scrie: pisică",
+          "promptTts": "Scrie pisică",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pisică"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
+          "id": "ro-langues-l20-03",
+          "prompt": "Scrie: soare",
+          "promptTts": "Scrie soare",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "soare"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-langues-l20-04",
+          "prompt": "Scrie: casă",
+          "promptTts": "Scrie casă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "casă"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🏠"
+        },
+        {
+          "id": "ro-langues-l20-05",
+          "prompt": "Scrie: copac",
+          "promptTts": "Scrie copac",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "copac"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🌳"
+        }
+      ]
+    }
+  ]
+}

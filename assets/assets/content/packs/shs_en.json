@@ -1,0 +1,1407 @@
+{
+  "id": "shs",
+  "locale": "en",
+  "emoji": "🌍",
+  "color": "#A78BFA",
+  "title": "Human & social",
+  "subtitle": "Place, time, living together",
+  "per": {
+    "competenceId": "SHS 11",
+    "label": "Space & time",
+    "focusId": "SHS 31",
+    "focusLabel": "Living together",
+    "cycle": "1H–8H · cycles 1–2"
+  },
+  "levels": [
+    {
+      "id": "shs-l1",
+      "title": "Level 1",
+      "subtitle": "Family",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "en-shs-l1-01",
+          "prompt": "Who is this?",
+          "promptTts": "mum",
+          "choices": [
+            "mum",
+            "school",
+            "bike"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩"
+        },
+        {
+          "id": "en-shs-l1-02",
+          "prompt": "Who is this?",
+          "promptTts": "dad",
+          "choices": [
+            "dad",
+            "park",
+            "train"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👨"
+        },
+        {
+          "id": "en-shs-l1-03",
+          "prompt": "Family: who is missing?",
+          "promptTts": "me",
+          "choices": [
+            "me",
+            "Switzerland",
+            "lake"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🧒"
+        },
+        {
+          "id": "en-shs-l1-04",
+          "prompt": "Type: mum",
+          "promptTts": "Type mum",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "mum"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l1-05",
+          "prompt": "Is this family?",
+          "promptTts": "A dog can be family",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐕"
+        }
+      ]
+    },
+    {
+      "id": "shs-l2",
+      "title": "Level 2",
+      "subtitle": "At home",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l2-01",
+          "prompt": "Where do we sleep?",
+          "promptTts": "in bed",
+          "choices": [
+            "house",
+            "school",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛏️"
+        },
+        {
+          "id": "en-shs-l2-02",
+          "prompt": "Where do we cook?",
+          "promptTts": "in the kitchen",
+          "choices": [
+            "kitchen",
+            "school",
+            "park"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍳"
+        },
+        {
+          "id": "en-shs-l2-03",
+          "prompt": "Type: house",
+          "promptTts": "Type house",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "house"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏠"
+        },
+        {
+          "id": "en-shs-l2-04",
+          "prompt": "Door or window?",
+          "promptTts": "window",
+          "choices": [
+            "window",
+            "door"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🪟"
+        },
+        {
+          "id": "en-shs-l2-05",
+          "prompt": "Where do we live?",
+          "promptTts": "house",
+          "choices": [
+            "house",
+            "train",
+            "doctor"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏠"
+        }
+      ]
+    },
+    {
+      "id": "shs-l3",
+      "title": "Level 3",
+      "subtitle": "School",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l3-01",
+          "prompt": "Where is this?",
+          "promptTts": "school",
+          "choices": [
+            "school",
+            "house",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "en-shs-l3-02",
+          "prompt": "Who teaches?",
+          "promptTts": "teacher",
+          "choices": [
+            "teacher",
+            "baker",
+            "bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "en-shs-l3-03",
+          "prompt": "Type: school",
+          "promptTts": "Type school",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "school"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "en-shs-l3-04",
+          "prompt": "What do you need at school?",
+          "promptTts": "pencil",
+          "choices": [
+            "pencil",
+            "bike",
+            "snow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "✏️"
+        },
+        {
+          "id": "en-shs-l3-05",
+          "prompt": "Break: where to play?",
+          "promptTts": "park",
+          "choices": [
+            "park",
+            "baker",
+            "train"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🛝"
+        }
+      ]
+    },
+    {
+      "id": "shs-l4",
+      "title": "Level 4",
+      "subtitle": "Days",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l4-01",
+          "prompt": "Which day often starts the school week?",
+          "promptTts": "Monday",
+          "choices": [
+            "Monday",
+            "yesterday",
+            "snow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l4-02",
+          "prompt": "Today or yesterday?",
+          "promptTts": "today",
+          "choices": [
+            "today",
+            "yesterday"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l4-03",
+          "prompt": "Type: today",
+          "promptTts": "Type today",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "today"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l4-04",
+          "prompt": "What was before?",
+          "promptTts": "yesterday",
+          "choices": [
+            "yesterday",
+            "today"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l4-05",
+          "prompt": "How many days in a week?",
+          "promptTts": "A week has seven days",
+          "choices": [
+            "5",
+            "7",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l5",
+      "title": "Level 5",
+      "subtitle": "Seasons",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l5-01",
+          "prompt": "Season?",
+          "promptTts": "summer",
+          "choices": [
+            "summer",
+            "rain",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-shs-l5-02",
+          "prompt": "Season?",
+          "promptTts": "winter",
+          "choices": [
+            "winter",
+            "rain",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "en-shs-l5-03",
+          "prompt": "Season?",
+          "promptTts": "spring",
+          "choices": [
+            "spring",
+            "rain",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "en-shs-l5-04",
+          "prompt": "Season?",
+          "promptTts": "autumn",
+          "choices": [
+            "autumn",
+            "rain",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "en-shs-l5-05",
+          "prompt": "Type: summer",
+          "promptTts": "Type summer",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "summer"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l6",
+      "title": "Level 6",
+      "subtitle": "Weather",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l6-01",
+          "prompt": "What weather?",
+          "promptTts": "rain",
+          "choices": [
+            "rain",
+            "baker",
+            "house"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "en-shs-l6-02",
+          "prompt": "What weather?",
+          "promptTts": "sun",
+          "choices": [
+            "sun",
+            "snow",
+            "bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "en-shs-l6-03",
+          "prompt": "What weather?",
+          "promptTts": "snow",
+          "choices": [
+            "snow",
+            "rain",
+            "shop"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "en-shs-l6-04",
+          "prompt": "Type: rain",
+          "promptTts": "Type rain",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "rain"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "en-shs-l6-05",
+          "prompt": "Need an umbrella?",
+          "promptTts": "rain",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l7",
+      "title": "Level 7",
+      "subtitle": "Village and city",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l7-01",
+          "prompt": "Many houses and buses?",
+          "promptTts": "city",
+          "choices": [
+            "city",
+            "village"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏙️"
+        },
+        {
+          "id": "en-shs-l7-02",
+          "prompt": "Few houses, fields?",
+          "promptTts": "village",
+          "choices": [
+            "village",
+            "city"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏡"
+        },
+        {
+          "id": "en-shs-l7-03",
+          "prompt": "Type: city",
+          "promptTts": "Type city",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "city"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l7-04",
+          "prompt": "Where is this?",
+          "promptTts": "shop",
+          "choices": [
+            "shop",
+            "mountain",
+            "lake"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "en-shs-l7-05",
+          "prompt": "Where is this?",
+          "promptTts": "park",
+          "choices": [
+            "park",
+            "baker",
+            "train"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        }
+      ]
+    },
+    {
+      "id": "shs-l8",
+      "title": "Level 8",
+      "subtitle": "Map",
+      "perTag": "SHS 11 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l8-01",
+          "prompt": "What is this on the map?",
+          "promptTts": "mountain",
+          "choices": [
+            "mountain",
+            "shop",
+            "baker"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⛰️"
+        },
+        {
+          "id": "en-shs-l8-02",
+          "prompt": "What is this on the map?",
+          "promptTts": "lake",
+          "choices": [
+            "lake",
+            "bus",
+            "school"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏞️"
+        },
+        {
+          "id": "en-shs-l8-03",
+          "prompt": "What flows?",
+          "promptTts": "river",
+          "choices": [
+            "river",
+            "house",
+            "Which flag is Switzerland?"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "〰️"
+        },
+        {
+          "id": "en-shs-l8-04",
+          "prompt": "Type: lake",
+          "promptTts": "Type lake",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "lake"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l8-05",
+          "prompt": "The Alps are…",
+          "promptTts": "mountain",
+          "choices": [
+            "mountain",
+            "shop",
+            "milk"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l9",
+      "title": "Level 9",
+      "subtitle": "Switzerland",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l9-01",
+          "prompt": "Which flag is Switzerland?",
+          "promptTts": "Which flag is Switzerland?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l9-02",
+          "prompt": "Country?",
+          "promptTts": "Switzerland",
+          "choices": [
+            "Switzerland",
+            "France",
+            "baker"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "en-shs-l9-03",
+          "prompt": "Type: Switzerland",
+          "promptTts": "Type Switzerland",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Switzerland"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        },
+        {
+          "id": "en-shs-l9-04",
+          "prompt": "Capital (simple): Bern?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l9-05",
+          "prompt": "Are there mountains in Switzerland?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "shs-l10",
+      "title": "Level 10",
+      "subtitle": "Places",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l10-01",
+          "prompt": "Where is this?",
+          "promptTts": "school",
+          "choices": [
+            "school",
+            "lake",
+            "mountain"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "en-shs-l10-02",
+          "prompt": "Where is this?",
+          "promptTts": "shop",
+          "choices": [
+            "shop",
+            "river",
+            "train"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏪"
+        },
+        {
+          "id": "en-shs-l10-03",
+          "prompt": "Where is this?",
+          "promptTts": "park",
+          "choices": [
+            "park",
+            "baker",
+            "snow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "en-shs-l10-04",
+          "prompt": "Type: park",
+          "promptTts": "Type park",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "park"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "en-shs-l10-05",
+          "prompt": "Where do you buy bread?",
+          "promptTts": "shop",
+          "choices": [
+            "shop",
+            "lake",
+            "mountain"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l11",
+      "title": "Level 11",
+      "subtitle": "Jobs",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l11-01",
+          "prompt": "Who bakes bread?",
+          "promptTts": "baker",
+          "choices": [
+            "baker",
+            "doctor",
+            "train"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥖"
+        },
+        {
+          "id": "en-shs-l11-02",
+          "prompt": "Who helps when you are ill?",
+          "promptTts": "doctor",
+          "choices": [
+            "doctor",
+            "baker",
+            "bus"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🩺"
+        },
+        {
+          "id": "en-shs-l11-03",
+          "prompt": "Who teaches?",
+          "promptTts": "teacher",
+          "choices": [
+            "teacher",
+            "bike",
+            "snow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👩‍🏫"
+        },
+        {
+          "id": "en-shs-l11-04",
+          "prompt": "Type: baker",
+          "promptTts": "Type baker",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "baker"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l11-05",
+          "prompt": "Does the teacher help at school?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l12",
+      "title": "Level 12",
+      "subtitle": "Rules",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l12-01",
+          "prompt": "What is kind?",
+          "promptTts": "share",
+          "choices": [
+            "share",
+            "hit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l12-02",
+          "prompt": "Is hitting allowed?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l12-03",
+          "prompt": "Type: share",
+          "promptTts": "Type share",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "share"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l12-04",
+          "prompt": "Wait your turn?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l12-05",
+          "prompt": "Do we help each other?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l13",
+      "title": "Level 13",
+      "subtitle": "Then and now",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l13-01",
+          "prompt": "Light in the past?",
+          "promptTts": "candle",
+          "choices": [
+            "candle",
+            "lamp"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🕯️"
+        },
+        {
+          "id": "en-shs-l13-02",
+          "prompt": "Light today?",
+          "promptTts": "lamp",
+          "choices": [
+            "lamp",
+            "candle"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💡"
+        },
+        {
+          "id": "en-shs-l13-03",
+          "prompt": "Type: yesterday",
+          "promptTts": "Type yesterday",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "yesterday"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l13-04",
+          "prompt": "Horse or car more often in the past?",
+          "promptTts": "horse",
+          "choices": [
+            "horse",
+            "car"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐴"
+        },
+        {
+          "id": "en-shs-l13-05",
+          "prompt": "Today often a car?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚗"
+        }
+      ]
+    },
+    {
+      "id": "shs-l14",
+      "title": "Level 14",
+      "subtitle": "Transport",
+      "perTag": "SHS 21 · temps",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l14-01",
+          "prompt": "Which vehicle?",
+          "promptTts": "bike",
+          "choices": [
+            "bike",
+            "lake",
+            "share"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚲"
+        },
+        {
+          "id": "en-shs-l14-02",
+          "prompt": "Which vehicle?",
+          "promptTts": "bus",
+          "choices": [
+            "bus",
+            "baker",
+            "snow"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "en-shs-l14-03",
+          "prompt": "Which vehicle?",
+          "promptTts": "train",
+          "choices": [
+            "train",
+            "park",
+            "milk"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🚆"
+        },
+        {
+          "id": "en-shs-l14-04",
+          "prompt": "Type: bus",
+          "promptTts": "Type bus",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "bus"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🚌"
+        },
+        {
+          "id": "en-shs-l14-05",
+          "prompt": "Helmet on a bike?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l15",
+      "title": "Level 15",
+      "subtitle": "Neighbors",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l15-01",
+          "prompt": "Neighboring country?",
+          "promptTts": "France",
+          "choices": [
+            "France",
+            "baker",
+            "park"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇫🇷"
+        },
+        {
+          "id": "en-shs-l15-02",
+          "prompt": "Is Germany a neighbor of Switzerland?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇩🇪"
+        },
+        {
+          "id": "en-shs-l15-03",
+          "prompt": "Type: France",
+          "promptTts": "Type France",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "France"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l15-04",
+          "prompt": "Italy a neighbor?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🇮🇹"
+        },
+        {
+          "id": "en-shs-l15-05",
+          "prompt": "Saying hello is kind?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l16",
+      "title": "Level 16",
+      "subtitle": "From the farm",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l16-01",
+          "prompt": "What comes from the cow?",
+          "promptTts": "milk",
+          "choices": [
+            "milk",
+            "bus",
+            "lamp"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "en-shs-l16-02",
+          "prompt": "Where do apples grow?",
+          "promptTts": "tree",
+          "choices": [
+            "tree",
+            "train",
+            "doctor"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍎"
+        },
+        {
+          "id": "en-shs-l16-03",
+          "prompt": "Type: milk",
+          "promptTts": "Type milk",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "milk"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🥛"
+        },
+        {
+          "id": "en-shs-l16-04",
+          "prompt": "Vegetables from the field?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🥕"
+        },
+        {
+          "id": "en-shs-l16-05",
+          "prompt": "Bread from the baker?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍞"
+        }
+      ]
+    },
+    {
+      "id": "shs-l17",
+      "title": "Level 17",
+      "subtitle": "Protect nature",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l17-01",
+          "prompt": "What to do with paper?",
+          "promptTts": "recycle",
+          "choices": [
+            "recycle",
+            "hit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "en-shs-l17-02",
+          "prompt": "Trash in the lake?",
+          "promptTts": "no",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l17-03",
+          "prompt": "Type: recycle",
+          "promptTts": "Type recycle",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "recycle"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "♻️"
+        },
+        {
+          "id": "en-shs-l17-04",
+          "prompt": "Protect trees?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "en-shs-l17-05",
+          "prompt": "Where does rubbish go?",
+          "promptTts": "rubbish",
+          "choices": [
+            "bin",
+            "lake",
+            "milk"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l18",
+      "title": "Level 18",
+      "subtitle": "Helping",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l18-01",
+          "prompt": "What is nice?",
+          "promptTts": "help",
+          "choices": [
+            "help",
+            "hit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l18-02",
+          "prompt": "Help someone carrying something?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l18-03",
+          "prompt": "Type: help",
+          "promptTts": "Type help",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "help"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l18-04",
+          "prompt": "Say thank you?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l18-05",
+          "prompt": "Share in a game?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "shs-l19",
+      "title": "Level 19",
+      "subtitle": "My town",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l19-01",
+          "prompt": "My town has a school?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🏫"
+        },
+        {
+          "id": "en-shs-l19-02",
+          "prompt": "Is there often a square?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l19-03",
+          "prompt": "Type: town",
+          "promptTts": "Type town",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "town"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l19-04",
+          "prompt": "Where is this?",
+          "promptTts": "park",
+          "choices": [
+            "park",
+            "France",
+            "lamp"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "en-shs-l19-05",
+          "prompt": "The library lends books?",
+          "promptTts": "yes",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "📚"
+        }
+      ]
+    },
+    {
+      "id": "shs-l20",
+      "title": "Level 20",
+      "subtitle": "Living together",
+      "perTag": "SHS 31 · vivre ensemble",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "en-shs-l20-01",
+          "prompt": "Which flag is Switzerland?",
+          "promptTts": "Which flag is Switzerland?",
+          "choices": [
+            "🇨🇭",
+            "🇫🇷",
+            "🇩🇪"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l20-02",
+          "prompt": "Type: share",
+          "promptTts": "Type share",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "share"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l20-03",
+          "prompt": "What weather?",
+          "promptTts": "rain",
+          "choices": [
+            "rain",
+            "baker",
+            "lamp"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌧️"
+        },
+        {
+          "id": "en-shs-l20-04",
+          "prompt": "What is kind?",
+          "promptTts": "help",
+          "choices": [
+            "help",
+            "hit"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "en-shs-l20-05",
+          "prompt": "Type: Switzerland",
+          "promptTts": "Type Switzerland",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Switzerland"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🇨🇭"
+        }
+      ]
+    }
+  ]
+}

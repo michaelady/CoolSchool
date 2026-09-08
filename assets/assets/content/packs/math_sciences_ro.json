@@ -1,0 +1,1480 @@
+{
+  "id": "math_sciences",
+  "locale": "ro",
+  "emoji": "🔢",
+  "color": "#FF8A5B",
+  "title": "Mate și natură",
+  "subtitle": "Numărăm și descoperim",
+  "per": {
+    "competenceId": "MSN 16",
+    "label": "Numere și natură",
+    "focusId": "MSN 17",
+    "focusLabel": "Operații",
+    "cycle": "1H–8H · ciclurile 1–2"
+  },
+  "levels": [
+    {
+      "id": "math_sciences-l1",
+      "title": "Nivelul 1",
+      "subtitle": "Prietenii numerelor",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 0,
+      "exercises": [
+        {
+          "id": "ro-msn-l1-01",
+          "prompt": "1 + 1 = ?",
+          "promptTts": "Cât fac unu plus unu?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l1-02",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte mere vezi?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "ro-msn-l1-03",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte stele vezi?",
+          "choices": [
+            "0",
+            "1",
+            "2"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐"
+          ]
+        },
+        {
+          "id": "ro-msn-l1-04",
+          "prompt": "2 + 1 = ?",
+          "promptTts": "Cât fac doi plus unu?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l1-05",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte flori vezi?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l2",
+      "title": "Nivelul 2",
+      "subtitle": "Grupuri mici",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l2-01",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte mere vezi?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "ro-msn-l2-02",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte stele vezi?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "ro-msn-l2-03",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte broaște vezi?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸"
+          ]
+        },
+        {
+          "id": "ro-msn-l2-04",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte puncte vezi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "ro-msn-l2-05",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Cât fac doi plus doi?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l3",
+      "title": "Nivelul 3",
+      "subtitle": "Numără până la 10",
+      "perTag": "MSN 16 · nombres",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l3-01",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte mere vezi?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        {
+          "id": "ro-msn-l3-02",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte stele vezi?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        },
+        {
+          "id": "ro-msn-l3-03",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte flori vezi?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "ro-msn-l3-04",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte puncte vezi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "6"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵",
+            "🔵"
+          ]
+        },
+        {
+          "id": "ro-msn-l3-05",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte broaște vezi?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "counting",
+          "items": [
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸",
+            "🐸"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l4",
+      "title": "Nivelul 4",
+      "subtitle": "Plus până la 5",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l4-01",
+          "prompt": "1 + 2 = ?",
+          "promptTts": "Cât fac unu plus doi?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l4-02",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Cât fac doi plus doi?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l4-03",
+          "prompt": "3 + 1 = ?",
+          "promptTts": "Cât fac trei plus unu?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l4-04",
+          "prompt": "4 + 1 = ?",
+          "promptTts": "Cât fac patru plus unu?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l4-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Cât fac doi plus trei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l5",
+      "title": "Nivelul 5",
+      "subtitle": "Plus până la 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l5-01",
+          "prompt": "4 + 3 = ?",
+          "promptTts": "Cât fac patru plus trei?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l5-02",
+          "prompt": "5 + 2 = ?",
+          "promptTts": "Cât fac cinci plus doi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "7"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l5-03",
+          "prompt": "6 + 4 = ?",
+          "promptTts": "Cât fac șase plus patru?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l5-04",
+          "prompt": "7 + 2 = ?",
+          "promptTts": "Cât fac șapte plus doi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l5-05",
+          "prompt": "3 + 5 = ?",
+          "promptTts": "Cât fac trei plus cinci?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l6",
+      "title": "Nivelul 6",
+      "subtitle": "Minus până la 10",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l6-01",
+          "prompt": "5 − 2 = ?",
+          "promptTts": "Cât fac cinci scăzut doi?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l6-02",
+          "prompt": "6 − 1 = ?",
+          "promptTts": "Cât fac șase scăzut unu?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l6-03",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Cât fac opt scăzut trei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l6-04",
+          "prompt": "9 − 4 = ?",
+          "promptTts": "Cât fac nouă scăzut patru?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l6-05",
+          "prompt": "7 − 5 = ?",
+          "promptTts": "Cât fac șapte scăzut cinci?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l7",
+      "title": "Nivelul 7",
+      "subtitle": "Plus până la 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l7-01",
+          "prompt": "10 + 4 = ?",
+          "promptTts": "Cât fac zece plus patru?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l7-02",
+          "prompt": "8 + 5 = ?",
+          "promptTts": "Cât fac opt plus cinci?",
+          "choices": [
+            "12",
+            "13",
+            "14"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l7-03",
+          "prompt": "7 + 7 = ?",
+          "promptTts": "Cât fac șapte plus șapte?",
+          "choices": [
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l7-04",
+          "prompt": "11 + 3 = ?",
+          "promptTts": "Cât fac unsprezece plus trei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "14"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l7-05",
+          "prompt": "9 + 6 = ?",
+          "promptTts": "Cât fac nouă plus șase?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l8",
+      "title": "Nivelul 8",
+      "subtitle": "Minus până la 20",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l8-01",
+          "prompt": "12 − 4 = ?",
+          "promptTts": "Cât fac doisprezece scăzut patru?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l8-02",
+          "prompt": "15 − 6 = ?",
+          "promptTts": "Cât fac cincisprezece scăzut șase?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l8-03",
+          "prompt": "11 − 3 = ?",
+          "promptTts": "Cât fac unsprezece scăzut trei?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l8-04",
+          "prompt": "14 − 5 = ?",
+          "promptTts": "Cât fac paisprezece scăzut cinci?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l8-05",
+          "prompt": "18 − 9 = ?",
+          "promptTts": "Cât fac optsprezece scăzut nouă?",
+          "choices": [
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l9",
+      "title": "Nivelul 9",
+      "subtitle": "Duble",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l9-01",
+          "prompt": "2 + 2 = ?",
+          "promptTts": "Cât fac doi plus doi?",
+          "choices": [
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l9-02",
+          "prompt": "4 + 4 = ?",
+          "promptTts": "Cât fac patru plus patru?",
+          "choices": [
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l9-03",
+          "prompt": "5 + 5 = ?",
+          "promptTts": "Cât fac cinci plus cinci?",
+          "choices": [
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l9-04",
+          "prompt": "6 + 6 = ?",
+          "promptTts": "Cât fac șase plus șase?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "12"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l9-05",
+          "prompt": "8 + 8 = ?",
+          "promptTts": "Cât fac opt plus opt?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "16"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l10",
+      "title": "Nivelul 10",
+      "subtitle": "Până la 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l10-01",
+          "prompt": "20 + 10 = ?",
+          "promptTts": "Cât fac douăzeci plus zece?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l10-02",
+          "prompt": "30 + 5 = ?",
+          "promptTts": "Cât fac treizeci plus cinci?",
+          "choices": [
+            "34",
+            "35",
+            "36"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l10-03",
+          "prompt": "40 + 4 = ?",
+          "promptTts": "Cât fac patruzeci plus patru?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "44"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l10-04",
+          "prompt": "20 − 5 = ?",
+          "promptTts": "Cât fac douăzeci scăzut cinci?",
+          "choices": [
+            "14",
+            "15",
+            "16"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l10-05",
+          "prompt": "25",
+          "promptTts": "Scrie douăzeci și cinci",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "25"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l11",
+      "title": "Nivelul 11",
+      "subtitle": "Calcul până la 50",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l11-01",
+          "prompt": "21 + 8 = ?",
+          "promptTts": "Cât fac douăzeci și unu plus opt?",
+          "choices": [
+            "28",
+            "29",
+            "30"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l11-02",
+          "prompt": "40 − 10 = ?",
+          "promptTts": "Cât fac patruzeci scăzut zece?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l11-03",
+          "prompt": "15 + 15 = ?",
+          "promptTts": "Cât fac cincisprezece plus cincisprezece?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "30"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l11-04",
+          "prompt": "33 − 3 = ?",
+          "promptTts": "Cât fac treizeci și trei scăzut trei?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l11-05",
+          "prompt": "12 + 18 = ?",
+          "promptTts": "Cât fac doisprezece plus optsprezece?",
+          "choices": [
+            "29",
+            "30",
+            "31"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l12",
+      "title": "Nivelul 12",
+      "subtitle": "Până la 100",
+      "perTag": "MSN 17 · opérations",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l12-01",
+          "prompt": "50 + 20 = ?",
+          "promptTts": "Cât fac cincizeci plus douăzeci?",
+          "choices": [
+            "69",
+            "70",
+            "71"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l12-02",
+          "prompt": "40 + 40 = ?",
+          "promptTts": "Cât fac patruzeci plus patruzeci?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l12-03",
+          "prompt": "100",
+          "promptTts": "Scrie o sută",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "100"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l12-04",
+          "prompt": "90 − 10 = ?",
+          "promptTts": "Cât fac nouăzeci scăzut zece?",
+          "choices": [
+            "79",
+            "80",
+            "81"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l12-05",
+          "prompt": "60 + 7 = ?",
+          "promptTts": "Cât fac șaizeci plus șapte?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "67"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l13",
+      "title": "Nivelul 13",
+      "subtitle": "Viu?",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l13-01",
+          "prompt": "Este viu?",
+          "promptTts": "Este viu?",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "ro-msn-l13-02",
+          "prompt": "Este viu?",
+          "promptTts": "Este viu?",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🚗"
+        },
+        {
+          "id": "ro-msn-l13-03",
+          "prompt": "Este viu?",
+          "promptTts": "Este viu?",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-msn-l13-04",
+          "prompt": "Este viu?",
+          "promptTts": "Este viu?",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🪨"
+        },
+        {
+          "id": "ro-msn-l13-05",
+          "prompt": "Scrie da sau nu: 🐱",
+          "promptTts": "Este viu?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "da"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🐱"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l14",
+      "title": "Nivelul 14",
+      "subtitle": "Animale și plante",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l14-01",
+          "prompt": "Plantă sau animal?",
+          "promptTts": "Plantă sau animal?",
+          "choices": [
+            "plantă",
+            "animal"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐱"
+        },
+        {
+          "id": "ro-msn-l14-02",
+          "prompt": "Plantă sau animal?",
+          "promptTts": "Plantă sau animal?",
+          "choices": [
+            "plantă",
+            "animal"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌳"
+        },
+        {
+          "id": "ro-msn-l14-03",
+          "prompt": "Plantă sau animal?",
+          "promptTts": "Plantă sau animal?",
+          "choices": [
+            "plantă",
+            "animal"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🐸"
+        },
+        {
+          "id": "ro-msn-l14-04",
+          "prompt": "Plantă sau animal?",
+          "promptTts": "Plantă sau animal?",
+          "choices": [
+            "plantă",
+            "animal"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌼"
+        },
+        {
+          "id": "ro-msn-l14-05",
+          "prompt": "Scrie: plantă sau animal — 🌼",
+          "promptTts": "Plantă sau animal?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "plantă"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "🌼"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l15",
+      "title": "Nivelul 15",
+      "subtitle": "Anotimpuri",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l15-01",
+          "prompt": "Ce anotimp?",
+          "promptTts": "Ce anotimp?",
+          "choices": [
+            "vară",
+            "iarnă",
+            "primăvară"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "☀️"
+        },
+        {
+          "id": "ro-msn-l15-02",
+          "prompt": "Ce anotimp?",
+          "promptTts": "Ce anotimp?",
+          "choices": [
+            "iarnă",
+            "primăvară",
+            "toamnă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "❄️"
+        },
+        {
+          "id": "ro-msn-l15-03",
+          "prompt": "Ce anotimp?",
+          "promptTts": "Ce anotimp?",
+          "choices": [
+            "primăvară",
+            "toamnă",
+            "vară"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🌸"
+        },
+        {
+          "id": "ro-msn-l15-04",
+          "prompt": "Ce anotimp?",
+          "promptTts": "Ce anotimp?",
+          "choices": [
+            "toamnă",
+            "vară",
+            "iarnă"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🍂"
+        },
+        {
+          "id": "ro-msn-l15-05",
+          "prompt": "Scrie: iarnă",
+          "promptTts": "Scrie iarnă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "iarnă"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "❄️"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l16",
+      "title": "Nivelul 16",
+      "subtitle": "Simțuri",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l16-01",
+          "prompt": "Ce simț?",
+          "promptTts": "Ce simț?",
+          "choices": [
+            "văd",
+            "aud",
+            "miros"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👀"
+        },
+        {
+          "id": "ro-msn-l16-02",
+          "prompt": "Ce simț?",
+          "promptTts": "Ce simț?",
+          "choices": [
+            "aud",
+            "miros",
+            "gust"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👂"
+        },
+        {
+          "id": "ro-msn-l16-03",
+          "prompt": "Ce simț?",
+          "promptTts": "Ce simț?",
+          "choices": [
+            "miros",
+            "gust",
+            "văd"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👃"
+        },
+        {
+          "id": "ro-msn-l16-04",
+          "prompt": "Ce simț?",
+          "promptTts": "Ce simț?",
+          "choices": [
+            "gust",
+            "văd",
+            "aud"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "👅"
+        },
+        {
+          "id": "ro-msn-l16-05",
+          "prompt": "Scrie: văd",
+          "promptTts": "Scrie văd",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "văd"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l17",
+      "title": "Nivelul 17",
+      "subtitle": "Apă",
+      "perTag": "MSN 22 · sciences de la nature",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l17-01",
+          "prompt": "Apă, gheață sau abur?",
+          "promptTts": "Apă, gheață sau abur?",
+          "choices": [
+            "apă",
+            "gheață",
+            "abur"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "ro-msn-l17-02",
+          "prompt": "Apă, gheață sau abur?",
+          "promptTts": "Apă, gheață sau abur?",
+          "choices": [
+            "apă",
+            "gheață",
+            "abur"
+          ],
+          "correctIndex": 1,
+          "kind": "quiz",
+          "visual": "🧊"
+        },
+        {
+          "id": "ro-msn-l17-03",
+          "prompt": "Apă, gheață sau abur?",
+          "promptTts": "Apă, gheață sau abur?",
+          "choices": [
+            "apă",
+            "gheață",
+            "abur"
+          ],
+          "correctIndex": 2,
+          "kind": "quiz",
+          "visual": "♨️"
+        },
+        {
+          "id": "ro-msn-l17-04",
+          "prompt": "Scrie: apă",
+          "promptTts": "Scrie apă",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "apă"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "💧"
+        },
+        {
+          "id": "ro-msn-l17-05",
+          "prompt": "2 + 3 = ?",
+          "promptTts": "Cât fac doi plus trei?",
+          "choices": [
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l18",
+      "title": "Nivelul 18",
+      "subtitle": "Forme",
+      "perTag": "MSN 21 · espace",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l18-01",
+          "prompt": "Ce formă?",
+          "promptTts": "Ce formă?",
+          "choices": [
+            "cerc",
+            "pătrat",
+            "triunghi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⭕"
+        },
+        {
+          "id": "ro-msn-l18-02",
+          "prompt": "Ce formă?",
+          "promptTts": "Ce formă?",
+          "choices": [
+            "pătrat",
+            "triunghi",
+            "dreptunghi"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "⬜"
+        },
+        {
+          "id": "ro-msn-l18-03",
+          "prompt": "Ce formă?",
+          "promptTts": "Ce formă?",
+          "choices": [
+            "triunghi",
+            "dreptunghi",
+            "cerc"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🔺"
+        },
+        {
+          "id": "ro-msn-l18-04",
+          "prompt": "Ce formă?",
+          "promptTts": "Ce formă?",
+          "choices": [
+            "dreptunghi",
+            "cerc",
+            "pătrat"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "▬"
+        },
+        {
+          "id": "ro-msn-l18-05",
+          "prompt": "Scrie: cerc",
+          "promptTts": "Scrie cerc",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cerc"
+          ],
+          "keyboard": "text",
+          "kind": "quiz",
+          "visual": "⭕"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l19",
+      "title": "Nivelul 19",
+      "subtitle": "Măsurăm",
+      "perTag": "MSN 18 · mesures",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l19-01",
+          "prompt": "Ce e mai lung?",
+          "promptTts": "Ce e mai lung?",
+          "choices": [
+            "—",
+            "-"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-msn-l19-02",
+          "prompt": "Ce e mai greu?",
+          "promptTts": "Ce e mai greu, o piatră sau o pană?",
+          "choices": [
+            "piatră",
+            "pană"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-msn-l19-03",
+          "prompt": "10 + 10 = ?",
+          "promptTts": "Cât fac zece plus zece?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "20"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l19-04",
+          "prompt": "Câți centimetri are un decimetru?",
+          "promptTts": "Un decimetru are zece centimetri",
+          "choices": [
+            "10",
+            "100",
+            "1"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-msn-l19-05",
+          "prompt": "8 − 3 = ?",
+          "promptTts": "Cât fac opt scăzut trei?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        }
+      ]
+    },
+    {
+      "id": "math_sciences-l20",
+      "title": "Nivelul 20",
+      "subtitle": "Recapitulare",
+      "perTag": "MSN 16–23 · synthèse",
+      "unlockAfterStars": 1,
+      "exercises": [
+        {
+          "id": "ro-msn-l20-01",
+          "prompt": "9 + 8 = ?",
+          "promptTts": "Cât fac nouă plus opt?",
+          "choices": [
+            "16",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1,
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l20-02",
+          "prompt": "16 − 7 = ?",
+          "promptTts": "Cât fac șaisprezece scăzut șapte?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "keyboard": "number",
+          "kind": "math"
+        },
+        {
+          "id": "ro-msn-l20-03",
+          "prompt": "Este viu?",
+          "promptTts": "Este viu?",
+          "choices": [
+            "da",
+            "nu"
+          ],
+          "correctIndex": 0,
+          "kind": "quiz",
+          "visual": "🐠"
+        },
+        {
+          "id": "ro-msn-l20-04",
+          "prompt": "Scrie: cerc",
+          "promptTts": "Scrie cerc",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cerc"
+          ],
+          "keyboard": "text",
+          "kind": "quiz"
+        },
+        {
+          "id": "ro-msn-l20-05",
+          "prompt": "Câte sunt?",
+          "promptTts": "Câte stele vezi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐",
+            "⭐"
+          ]
+        }
+      ]
+    }
+  ]
+}
