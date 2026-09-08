@@ -89,7 +89,7 @@
       "title": "Level 2",
       "subtitle": "Mouse and keyboard",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-num-l2-01",
@@ -160,7 +160,7 @@
       "title": "Level 3",
       "subtitle": "Click and type",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-num-l3-01",
@@ -226,7 +226,7 @@
       "title": "Level 4",
       "subtitle": "Icons",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-num-l4-01",
@@ -293,7 +293,7 @@
       "title": "Level 5",
       "subtitle": "Folders",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-num-l5-01",

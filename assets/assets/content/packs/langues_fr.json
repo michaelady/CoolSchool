@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "fr-langues-l1-type",
+          "prompt": "Écris : chat",
+          "promptTts": "Écris chat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "fr-langues-pencil-02",
           "prompt": "crayon",
           "promptTts": "crayon",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "fr-langues-cat-06",
-          "prompt": "chat",
-          "promptTts": "chat",
-          "choices": [
-            "🐸",
-            "🐕",
-            "🐱"
-          ],
-          "correctIndex": 2,
-          "kind": "vocab"
         }
       ]
     },
@@ -99,19 +99,19 @@
       "title": "Niveau 2",
       "subtitle": "Plus de mots",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
-          "id": "fr-langues-dog-01",
-          "prompt": "chien",
-          "promptTts": "chien",
-          "choices": [
-            "🐕",
-            "🐱",
-            "🐸"
+          "id": "fr-langues-l2-type",
+          "prompt": "Écris : chien",
+          "promptTts": "Écris chien",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "chien"
           ],
-          "correctIndex": 0,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
         },
         {
           "id": "fr-langues-tree-02",
@@ -180,7 +180,7 @@
       "title": "Niveau 3",
       "subtitle": "Écoute",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-langues-book-01-l",
@@ -249,7 +249,7 @@
       "title": "Niveau 4",
       "subtitle": "Premières lettres",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-langues-l4-01",
@@ -313,7 +313,7 @@
       "title": "Niveau 5",
       "subtitle": "Mots courts",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-langues-l5-01",

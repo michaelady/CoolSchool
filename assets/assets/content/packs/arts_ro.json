@@ -91,7 +91,7 @@
       "title": "Nivelul 2",
       "subtitle": "Mai multe culori",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-arts-l2-01",
@@ -164,7 +164,7 @@
       "title": "Nivelul 3",
       "subtitle": "Forme",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-arts-l3-01",
@@ -235,7 +235,7 @@
       "title": "Nivelul 4",
       "subtitle": "Amestecăm",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-arts-l4-01",
@@ -302,7 +302,7 @@
       "title": "Nivelul 5",
       "subtitle": "Unelte",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-arts-l5-01",

@@ -35,6 +35,22 @@
         {
           "id": "ro-msn-l1-02",
           "prompt": "Câte sunt?",
+          "promptTts": "Câte flori vezi?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "ro-msn-l1-03",
+          "prompt": "Câte sunt?",
           "promptTts": "Câte mere vezi?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "ro-msn-l1-03",
+          "id": "ro-msn-l1-04",
           "prompt": "Câte sunt?",
           "promptTts": "Câte stele vezi?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "ro-msn-l1-04",
+          "id": "ro-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "Cât fac doi plus unu?",
           "choices": [
@@ -74,23 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "ro-msn-l1-05",
-          "prompt": "Câte sunt?",
-          "promptTts": "Câte flori vezi?",
-          "choices": [
-            "2",
-            "3",
-            "4"
-          ],
-          "correctIndex": 1,
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },
@@ -99,7 +98,7 @@
       "title": "Nivelul 2",
       "subtitle": "Grupuri mici",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l2-01",
@@ -189,7 +188,7 @@
       "title": "Nivelul 3",
       "subtitle": "Numără până la 10",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l3-01",
@@ -307,7 +306,7 @@
       "title": "Nivelul 4",
       "subtitle": "Plus până la 5",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l4-01",
@@ -375,7 +374,7 @@
       "title": "Nivelul 5",
       "subtitle": "Plus până la 10",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l5-01",

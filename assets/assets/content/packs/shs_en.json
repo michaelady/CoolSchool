@@ -89,7 +89,7 @@
       "title": "Level 2",
       "subtitle": "At home",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-shs-l2-01",
@@ -161,7 +161,7 @@
       "title": "Level 3",
       "subtitle": "School",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-shs-l3-01",
@@ -234,7 +234,7 @@
       "title": "Level 4",
       "subtitle": "Days",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-shs-l4-01",
@@ -300,7 +300,7 @@
       "title": "Level 5",
       "subtitle": "Seasons",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-shs-l5-01",
