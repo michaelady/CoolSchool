@@ -502,6 +502,10 @@ def pack_shell(domain: str, lang: str, levels: list[dict]) -> dict:
     }
 
 
+# First this many difficulties are always playable (see LevelUnlock in Dart).
+FREE_EXPLORE = 5
+
+
 def finish_levels(domain: str, lang: str, built: dict[int, list[dict]]) -> list[dict]:
     levels = []
     for n in range(1, 21):
@@ -512,7 +516,8 @@ def finish_levels(domain: str, lang: str, built: dict[int, list[dict]]) -> list[
                 LEVEL_TITLE(lang, n),
                 skill(domain, lang, n),
                 per_tag(domain, n),
-                0 if n == 1 else 1,
+                # Metadata only: Dart unlocks L1–5 freely, then finish-previous.
+                0 if n <= FREE_EXPLORE else 1,
                 items,
             )
         )
@@ -602,11 +607,33 @@ def langues_exercises(lang: str) -> dict[int, list[dict]]:
     built: dict[int, list[dict]] = {}
 
     # 1–2 picture match (school language). Level 1 starts with book for tests.
+    # Second item of L1 is typed so the keyboard is on the first unlocked level,
+    # one picture-tap after the opener — not buried at the end or in L4+.
     for n, chunk in ((1, SCHOOL_WORDS[:6]), (2, SCHOOL_WORDS[6:12])):
         items = []
         for i, (key, emoji, distractors) in enumerate(chunk, start=1):
             items.append(_picture_row(lang, key, emoji, distractors, i, listen=False))
         built[n] = items
+
+    cat_key, cat_emoji, _ = SCHOOL_WORDS[5]
+    cat_word = lex[cat_key]
+    type_l1 = typed(
+        f"{lang}-langues-l1-type",
+        *write_word(lang, cat_word),
+        [cat_word],
+        kind="vocab",
+        visual=cat_emoji,
+    )
+    built[1] = [built[1][0], type_l1, *built[1][1:5]]
+    dog_key, dog_emoji, _ = SCHOOL_WORDS[6]
+    dog_word = lex[dog_key]
+    built[2][0] = typed(
+        f"{lang}-langues-l2-type",
+        *write_word(lang, dog_word),
+        [dog_word],
+        kind="vocab",
+        visual=dog_emoji,
+    )
 
     # 3 listen
     built[3] = [
@@ -778,10 +805,10 @@ def math_exercises(lang: str) -> dict[int, list[dict]]:
     built: dict[int, list[dict]] = {
         1: [
             add_ex(lang, f"{e}-l1-01", 1, 1),
-            count_ex(lang, f"{e}-l1-02", "🍎", 2, "apple"),
-            count_ex(lang, f"{e}-l1-03", "⭐", 1, "star"),
-            add_ex(lang, f"{e}-l1-04", 2, 1),
-            count_ex(lang, f"{e}-l1-05", "🌼", 3, "flower"),
+            count_ex(lang, f"{e}-l1-02", "🌼", 3, "flower", "type"),
+            count_ex(lang, f"{e}-l1-03", "🍎", 2, "apple"),
+            count_ex(lang, f"{e}-l1-04", "⭐", 1, "star"),
+            add_ex(lang, f"{e}-l1-05", 2, 1),
         ],
         2: [
             count_ex(lang, f"{e}-l2-01", "🍎", 4, "apple"),
@@ -2210,6 +2237,8 @@ def build_pack(domain: str, lang: str) -> dict:
         for item in items:
             if "promptTts" not in item or not item["promptTts"]:
                 raise SystemExit(f"{domain}/{lang} level {n} missing promptTts")
+    if not any(item.get("answerMode") == "type" for item in built[1]):
+        raise SystemExit(f"{domain}/{lang} needs a type exercise in L1")
     return pack_shell(domain, lang, finish_levels(domain, lang, built))
 
 

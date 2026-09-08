@@ -89,7 +89,7 @@
       "title": "Niveau 2",
       "subtitle": "Plus de corps",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-corps-l2-01",
@@ -158,7 +158,7 @@
       "title": "Niveau 3",
       "subtitle": "Mouvements",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-corps-l3-01",
@@ -228,7 +228,7 @@
       "title": "Niveau 4",
       "subtitle": "Gauche et droite",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-corps-l4-01",
@@ -292,7 +292,7 @@
       "title": "Niveau 5",
       "subtitle": "Sport",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-corps-l5-01",

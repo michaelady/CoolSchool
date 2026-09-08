@@ -89,7 +89,7 @@
       "title": "Level 2",
       "subtitle": "Maus und Tastatur",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-num-l2-01",
@@ -160,7 +160,7 @@
       "title": "Level 3",
       "subtitle": "Klicken und tippen",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-num-l3-01",
@@ -226,7 +226,7 @@
       "title": "Level 4",
       "subtitle": "Bilder-Zeichen",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-num-l4-01",
@@ -293,7 +293,7 @@
       "title": "Level 5",
       "subtitle": "Ordner",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-num-l5-01",

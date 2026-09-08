@@ -91,7 +91,7 @@
       "title": "Level 2",
       "subtitle": "More colors",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-arts-l2-01",
@@ -164,7 +164,7 @@
       "title": "Level 3",
       "subtitle": "Shapes",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-arts-l3-01",
@@ -235,7 +235,7 @@
       "title": "Level 4",
       "subtitle": "Mixing",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-arts-l4-01",
@@ -302,7 +302,7 @@
       "title": "Level 5",
       "subtitle": "Tools",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-arts-l5-01",

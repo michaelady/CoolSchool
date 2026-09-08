@@ -24,29 +24,42 @@ class RunScore {
 class LevelUnlock {
   const LevelUnlock._();
 
-  /// First level is always open. Later levels need enough stars on the
-  /// immediately previous level.
+  /// First this many difficulties are always open so kids (ages ≤ 10) and QA
+  /// can explore without grinding stars. Matches one easy cycle-1 band.
+  static const int freeExploreCount = 5;
+
+  /// Kid-friendly unlock (stars are a badge, not a gate):
+  ///
+  /// * Levels 1–[freeExploreCount] are always playable.
+  /// * Level N (N > 5) opens after the previous level has been **finished**
+  ///   at least once, even with 0 stars.
+  ///
+  /// Recorded stars still count as finished (older progress without a
+  /// completion flag). JSON `unlockAfterStars` is catalog metadata only.
   static bool isUnlocked({
     required int levelIndex,
     required List<Level> levels,
     required Map<String, int> starsByLevelId,
+    Iterable<String> completedLevelIds = const [],
   }) {
     if (levelIndex < 0 || levelIndex >= levels.length) return false;
-    if (levelIndex == 0) return true;
+    if (levelIndex < freeExploreCount) return true;
     final previous = levels[levelIndex - 1];
-    final needed = levels[levelIndex].unlockAfterStars;
-    return (starsByLevelId[previous.id] ?? 0) >= needed;
+    if (completedLevelIds.contains(previous.id)) return true;
+    return (starsByLevelId[previous.id] ?? 0) > 0;
   }
 
   static int firstLockedIndex({
     required List<Level> levels,
     required Map<String, int> starsByLevelId,
+    Iterable<String> completedLevelIds = const [],
   }) {
     for (var i = 0; i < levels.length; i++) {
       if (!isUnlocked(
         levelIndex: i,
         levels: levels,
         starsByLevelId: starsByLevelId,
+        completedLevelIds: completedLevelIds,
       )) {
         return i;
       }

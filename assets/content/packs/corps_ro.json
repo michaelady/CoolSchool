@@ -89,7 +89,7 @@
       "title": "Nivelul 2",
       "subtitle": "Mai mult corp",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-corps-l2-01",
@@ -158,7 +158,7 @@
       "title": "Nivelul 3",
       "subtitle": "Mișcări",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-corps-l3-01",
@@ -228,7 +228,7 @@
       "title": "Nivelul 4",
       "subtitle": "Stânga și dreapta",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-corps-l4-01",
@@ -292,7 +292,7 @@
       "title": "Nivelul 5",
       "subtitle": "Sport",
       "perTag": "CM 11 · activités",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-corps-l5-01",

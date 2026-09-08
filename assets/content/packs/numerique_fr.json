@@ -89,7 +89,7 @@
       "title": "Niveau 2",
       "subtitle": "Souris et clavier",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-num-l2-01",
@@ -160,7 +160,7 @@
       "title": "Niveau 3",
       "subtitle": "Cliquer et taper",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-num-l3-01",
@@ -226,7 +226,7 @@
       "title": "Niveau 4",
       "subtitle": "Icônes",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-num-l4-01",
@@ -293,7 +293,7 @@
       "title": "Niveau 5",
       "subtitle": "Dossiers",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-num-l5-01",

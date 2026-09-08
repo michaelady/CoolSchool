@@ -33,10 +33,8 @@ class RewardPage extends StatelessWidget {
         LevelUnlock.isUnlocked(
           levelIndex: levelIndex + 1,
           levels: pack.levels,
-          starsByLevelId: {
-            ...scope.progress.starsByLevelId,
-            pack.levels[levelIndex].id: score.stars,
-          },
+          starsByLevelId: scope.progress.starsByLevelId,
+          completedLevelIds: scope.progress.completedLevelIds,
         );
     return SkyBackdrop(
       child: Scaffold(

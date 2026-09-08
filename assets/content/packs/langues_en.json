@@ -33,6 +33,18 @@
           "kind": "vocab"
         },
         {
+          "id": "en-langues-l1-type",
+          "prompt": "Type: cat",
+          "promptTts": "Type cat",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "cat"
+          ],
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
+        },
+        {
           "id": "en-langues-pencil-02",
           "prompt": "pencil",
           "promptTts": "pencil",
@@ -79,18 +91,6 @@
           ],
           "correctIndex": 1,
           "kind": "vocab"
-        },
-        {
-          "id": "en-langues-cat-06",
-          "prompt": "cat",
-          "promptTts": "cat",
-          "choices": [
-            "🐸",
-            "🐕",
-            "🐱"
-          ],
-          "correctIndex": 2,
-          "kind": "vocab"
         }
       ]
     },
@@ -99,19 +99,19 @@
       "title": "Level 2",
       "subtitle": "More words",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
-          "id": "en-langues-dog-01",
-          "prompt": "dog",
-          "promptTts": "dog",
-          "choices": [
-            "🐕",
-            "🐱",
-            "🐸"
+          "id": "en-langues-l2-type",
+          "prompt": "Type: dog",
+          "promptTts": "Type dog",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "dog"
           ],
-          "correctIndex": 0,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
         },
         {
           "id": "en-langues-tree-02",
@@ -180,7 +180,7 @@
       "title": "Level 3",
       "subtitle": "Listen",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-langues-book-01-l",
@@ -249,7 +249,7 @@
       "title": "Level 4",
       "subtitle": "First letters",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-langues-l4-01",
@@ -313,7 +313,7 @@
       "title": "Level 5",
       "subtitle": "Type short words",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-langues-l5-01",

@@ -35,6 +35,22 @@
         {
           "id": "de-msn-l1-02",
           "prompt": "Wie viele?",
+          "promptTts": "Wie viele Blumen siehst du?",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "keyboard": "number",
+          "kind": "counting",
+          "items": [
+            "🌼",
+            "🌼",
+            "🌼"
+          ]
+        },
+        {
+          "id": "de-msn-l1-03",
+          "prompt": "Wie viele?",
           "promptTts": "Wie viele Äpfel siehst du?",
           "choices": [
             "1",
@@ -49,7 +65,7 @@
           ]
         },
         {
-          "id": "de-msn-l1-03",
+          "id": "de-msn-l1-04",
           "prompt": "Wie viele?",
           "promptTts": "Wie viele Sterne siehst du?",
           "choices": [
@@ -64,7 +80,7 @@
           ]
         },
         {
-          "id": "de-msn-l1-04",
+          "id": "de-msn-l1-05",
           "prompt": "2 + 1 = ?",
           "promptTts": "Was ist zwei plus eins?",
           "choices": [
@@ -74,23 +90,6 @@
           ],
           "correctIndex": 1,
           "kind": "math"
-        },
-        {
-          "id": "de-msn-l1-05",
-          "prompt": "Wie viele?",
-          "promptTts": "Wie viele Blumen siehst du?",
-          "choices": [
-            "2",
-            "3",
-            "4"
-          ],
-          "correctIndex": 1,
-          "kind": "counting",
-          "items": [
-            "🌼",
-            "🌼",
-            "🌼"
-          ]
         }
       ]
     },
@@ -99,7 +98,7 @@
       "title": "Level 2",
       "subtitle": "Kleine Mengen",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-msn-l2-01",
@@ -189,7 +188,7 @@
       "title": "Level 3",
       "subtitle": "Zähle bis 10",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-msn-l3-01",
@@ -307,7 +306,7 @@
       "title": "Level 4",
       "subtitle": "Plus bis 5",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-msn-l4-01",
@@ -375,7 +374,7 @@
       "title": "Level 5",
       "subtitle": "Plus bis 10",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-msn-l5-01",
