@@ -81,16 +81,16 @@
           "kind": "vocab"
         },
         {
-          "id": "ro-langues-cat-06",
-          "prompt": "pisică",
-          "promptTts": "pisică",
-          "choices": [
-            "🐸",
-            "🐕",
-            "🐱"
+          "id": "ro-langues-l1-type",
+          "prompt": "Scrie: pisică",
+          "promptTts": "Scrie pisică",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "pisică"
           ],
-          "correctIndex": 2,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
         }
       ]
     },
@@ -99,19 +99,19 @@
       "title": "Nivelul 2",
       "subtitle": "Mai multe cuvinte",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
-          "id": "ro-langues-dog-01",
-          "prompt": "câine",
-          "promptTts": "câine",
-          "choices": [
-            "🐕",
-            "🐱",
-            "🐸"
+          "id": "ro-langues-l2-type",
+          "prompt": "Scrie: câine",
+          "promptTts": "Scrie câine",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "câine"
           ],
-          "correctIndex": 0,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
         },
         {
           "id": "ro-langues-tree-02",
@@ -180,7 +180,7 @@
       "title": "Nivelul 3",
       "subtitle": "Ascultă",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-langues-book-01-l",
@@ -249,7 +249,7 @@
       "title": "Nivelul 4",
       "subtitle": "Primele litere",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-langues-l4-01",
@@ -313,7 +313,7 @@
       "title": "Nivelul 5",
       "subtitle": "Cuvinte scurte",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-langues-l5-01",

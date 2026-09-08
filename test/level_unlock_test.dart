@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:coolschool/content/models.dart';
+import 'package:coolschool/game/progress_store.dart';
 import 'package:coolschool/game/scoring.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -21,25 +22,29 @@ void main() {
       expect(loadPack(locale).levels, hasLength(20));
     }
     expect(pack.levels.first.unlockAfterStars, 0);
-    expect(pack.levels[1].unlockAfterStars, 1);
+    expect(pack.levels[4].unlockAfterStars, 0);
+    expect(pack.levels[5].unlockAfterStars, 1);
     expect(pack.levels.last.unlockAfterStars, 1);
   });
 
-  test('first level is always unlocked', () {
-    expect(
-      LevelUnlock.isUnlocked(
-        levelIndex: 0,
-        levels: pack.levels,
-        starsByLevelId: const {},
-      ),
-      isTrue,
-    );
+  test('first five levels are always unlocked', () {
+    for (var i = 0; i < LevelUnlock.freeExploreCount; i++) {
+      expect(
+        LevelUnlock.isUnlocked(
+          levelIndex: i,
+          levels: pack.levels,
+          starsByLevelId: const {},
+        ),
+        isTrue,
+        reason: 'level ${i + 1} should be free to explore',
+      );
+    }
   });
 
-  test('second level stays locked until the first has a star', () {
+  test('level 6 stays locked until level 5 is finished', () {
     expect(
       LevelUnlock.isUnlocked(
-        levelIndex: 1,
+        levelIndex: 5,
         levels: pack.levels,
         starsByLevelId: const {},
       ),
@@ -47,31 +52,57 @@ void main() {
     );
     expect(
       LevelUnlock.isUnlocked(
-        levelIndex: 1,
+        levelIndex: 5,
         levels: pack.levels,
-        starsByLevelId: {pack.levels.first.id: 1},
+        starsByLevelId: const {},
+        completedLevelIds: {pack.levels[4].id},
       ),
       isTrue,
     );
   });
 
-  test('later levels need a star on the previous level', () {
+  test('finishing with zero stars still unlocks the next level', () {
     expect(
       LevelUnlock.isUnlocked(
-        levelIndex: 2,
+        levelIndex: 5,
         levels: pack.levels,
-        starsByLevelId: {pack.levels.first.id: 3},
+        starsByLevelId: {pack.levels[4].id: 0},
+        completedLevelIds: {pack.levels[4].id},
       ),
-      isFalse,
+      isTrue,
+    );
+  });
+
+  test('recorded stars still count as finished for older progress', () {
+    expect(
+      LevelUnlock.isUnlocked(
+        levelIndex: 6,
+        levels: pack.levels,
+        starsByLevelId: {pack.levels[5].id: 1},
+      ),
+      isTrue,
     );
     expect(
       LevelUnlock.isUnlocked(
-        levelIndex: 2,
+        levelIndex: 6,
         levels: pack.levels,
-        starsByLevelId: {
-          pack.levels.first.id: 3,
-          pack.levels[1].id: 1,
-        },
+        starsByLevelId: {pack.levels[4].id: 3},
+      ),
+      isFalse,
+    );
+  });
+
+  test('a zero-star run is stored as completed', () async {
+    final progress = ProgressStore(persist: false);
+    await progress.recordBest(pack.levels[4].id, 0);
+    expect(progress.starsFor(pack.levels[4].id), 0);
+    expect(progress.hasCompleted(pack.levels[4].id), isTrue);
+    expect(
+      LevelUnlock.isUnlocked(
+        levelIndex: 5,
+        levels: pack.levels,
+        starsByLevelId: progress.starsByLevelId,
+        completedLevelIds: progress.completedLevelIds,
       ),
       isTrue,
     );

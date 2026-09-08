@@ -29,7 +29,7 @@ void main() {
           expect(level.id, '$topic-l${i + 1}');
           expect(level.lp21Tag, isNotEmpty);
           expect(level.exercises, isNotEmpty);
-          expect(level.unlockAfterStars, i == 0 ? 0 : 1);
+          expect(level.unlockAfterStars, i < 5 ? 0 : 1);
           for (final exercise in level.exercises) {
             expect(exercise.promptTts, isNotEmpty);
             expect(RegExp(r'\d\s*[+\-−]').hasMatch(exercise.promptTts), isFalse);
@@ -42,6 +42,15 @@ void main() {
           }
         }
         expect(typed, greaterThan(0), reason: '$topic/$locale needs typing exercises');
+        final early = [
+          ...pack.levels[0].exercises,
+          ...pack.levels[1].exercises,
+        ];
+        expect(
+          early.any((item) => item.isType),
+          isTrue,
+          reason: '$topic/$locale needs a type exercise in L1 or L2',
+        );
       }
       expect(ids['fr'], ids['de']);
       expect(ids['en'], ids['de']);
@@ -71,7 +80,11 @@ void main() {
     expect(pack.levels.first.exercises.first.kind, ExerciseKind.vocab);
     expect(pack.levels.first.exercises.first.usesPictureChoices, isTrue);
     expect(
-      pack.levels.any((level) => level.exercises.any((item) => item.isType)),
+      pack.levels.first.exercises.any((item) => item.isType),
+      isTrue,
+    );
+    expect(
+      pack.levels[1].exercises.first.isType,
       isTrue,
     );
   });

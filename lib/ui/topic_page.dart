@@ -112,6 +112,7 @@ class _LevelTile extends StatelessWidget {
       levelIndex: index,
       levels: pack.levels,
       starsByLevelId: scope.progress.starsByLevelId,
+      completedLevelIds: scope.progress.completedLevelIds,
     );
     final stars = scope.progress.starsFor(level.id);
     return KidCard(

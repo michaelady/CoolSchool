@@ -81,16 +81,16 @@
           "kind": "vocab"
         },
         {
-          "id": "de-langues-cat-06",
-          "prompt": "Katze",
-          "promptTts": "Katze",
-          "choices": [
-            "🐸",
-            "🐕",
-            "🐱"
+          "id": "de-langues-l1-type",
+          "prompt": "Schreib: Katze",
+          "promptTts": "Schreib Katze",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Katze"
           ],
-          "correctIndex": 2,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐱"
         }
       ]
     },
@@ -99,19 +99,19 @@
       "title": "Level 2",
       "subtitle": "Mehr Wörter",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
-          "id": "de-langues-dog-01",
-          "prompt": "Hund",
-          "promptTts": "Hund",
-          "choices": [
-            "🐕",
-            "🐱",
-            "🐸"
+          "id": "de-langues-l2-type",
+          "prompt": "Schreib: Hund",
+          "promptTts": "Schreib Hund",
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "Hund"
           ],
-          "correctIndex": 0,
-          "kind": "vocab"
+          "keyboard": "text",
+          "kind": "vocab",
+          "visual": "🐕"
         },
         {
           "id": "de-langues-tree-02",
@@ -180,7 +180,7 @@
       "title": "Level 3",
       "subtitle": "Hör zu",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-langues-book-01-l",
@@ -249,7 +249,7 @@
       "title": "Level 4",
       "subtitle": "Erste Buchstaben",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-langues-l4-01",
@@ -313,7 +313,7 @@
       "title": "Level 5",
       "subtitle": "Kurze Wörter tippen",
       "perTag": "L1 11 · oral / vocabulaire",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "de-langues-l5-01",

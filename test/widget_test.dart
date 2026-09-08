@@ -281,6 +281,71 @@ void main() {
     expect(find.text('📚'), findsOneWidget);
   });
 
+  testWidgets('first five difficulties are open without stars', (tester) async {
+    await pumpApp(tester, pack: tinyPack(levels: 6));
+    await tester.tap(find.text('Addition'));
+    await tester.pumpAndSettle();
+    for (var i = 1; i <= 5; i++) {
+      expect(
+        find.descendant(
+          of: find.byKey(ValueKey<String>('level-$i')),
+          matching: find.byIcon(Icons.lock_rounded),
+        ),
+        findsNothing,
+        reason: 'level $i should be open for exploration',
+      );
+    }
+    expect(
+      find.descendant(
+        of: find.byKey(const ValueKey<String>('level-6')),
+        matching: find.byIcon(Icons.lock_rounded),
+      ),
+      findsOneWidget,
+    );
+    await tester.tap(find.byKey(const ValueKey<String>('level-5')));
+    await tester.pumpAndSettle();
+    expect(find.text('1 + 1 = ?'), findsOneWidget);
+  });
+
+  testWidgets('langues level 2 shows a type field without grinding locks', (tester) async {
+    await pumpApp(tester, pack: samplePack('langues_de.json'));
+    await tester.tap(find.text('Sprachen'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('level-2')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey<String>('type-answer')), findsOneWidget);
+    expect(find.byKey(const ValueKey<String>('type-submit')), findsOneWidget);
+  });
+
+  testWidgets('finishing level 5 with zero stars unlocks level 6', (tester) async {
+    final pack = tinyPack(levels: 6);
+    final progress = ProgressStore(persist: false);
+    await pumpApp(tester, pack: pack, progress: progress);
+    await tester.tap(find.text('Addition'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('level-5')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('1'));
+    await tester.pump();
+    await tester.pump(ExercisePage.answerFeedbackHold);
+    await tester.pumpAndSettle();
+    expect(progress.hasCompleted('math_sciences-l5'), isTrue);
+    expect(progress.starsFor('math_sciences-l5'), 0);
+    expect(find.text('Nächstes Level'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey<String>('reward-home')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Addition'));
+    await tester.pumpAndSettle();
+    expect(
+      find.descendant(
+        of: find.byKey(const ValueKey<String>('level-6')),
+        matching: find.byIcon(Icons.lock_rounded),
+      ),
+      findsNothing,
+    );
+  });
+
   testWidgets('typing an answer holds Richtig like a tap', (tester) async {
     final typed = ContentPack.fromJsonString('''
 {

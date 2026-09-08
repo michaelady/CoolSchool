@@ -182,6 +182,9 @@ class Level {
   final String title;
   final String subtitle;
   final String lp21Tag;
+
+  /// Catalog hint only. Playable unlock lives in `LevelUnlock` (L1–5 free,
+  /// then finish-the-previous). Kept so older packs still parse.
   final int unlockAfterStars;
   final List<Exercise> exercises;
 

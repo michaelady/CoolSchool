@@ -79,12 +79,11 @@
           "id": "en-msn-l1-05",
           "prompt": "How many?",
           "promptTts": "How many flowers do you see?",
-          "choices": [
-            "2",
-            "3",
-            "4"
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
           ],
-          "correctIndex": 1,
+          "keyboard": "number",
           "kind": "counting",
           "items": [
             "🌼",
@@ -99,7 +98,7 @@
       "title": "Level 2",
       "subtitle": "Small groups",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-msn-l2-01",
@@ -189,7 +188,7 @@
       "title": "Level 3",
       "subtitle": "Count to 10",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-msn-l3-01",
@@ -307,7 +306,7 @@
       "title": "Level 4",
       "subtitle": "Plus to 5",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-msn-l4-01",
@@ -375,7 +374,7 @@
       "title": "Level 5",
       "subtitle": "Plus to 10",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "en-msn-l5-01",

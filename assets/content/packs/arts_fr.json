@@ -91,7 +91,7 @@
       "title": "Niveau 2",
       "subtitle": "Plus de couleurs",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-arts-l2-01",
@@ -164,7 +164,7 @@
       "title": "Niveau 3",
       "subtitle": "Formes",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-arts-l3-01",
@@ -235,7 +235,7 @@
       "title": "Niveau 4",
       "subtitle": "Mélanger",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-arts-l4-01",
@@ -302,7 +302,7 @@
       "title": "Niveau 5",
       "subtitle": "Outils",
       "perTag": "A 11 AV · arts visuels",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-arts-l5-01",

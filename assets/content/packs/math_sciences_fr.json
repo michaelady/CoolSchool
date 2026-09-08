@@ -79,12 +79,11 @@
           "id": "fr-msn-l1-05",
           "prompt": "Combien ?",
           "promptTts": "Combien de fleurs vois-tu ?",
-          "choices": [
-            "2",
-            "3",
-            "4"
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
           ],
-          "correctIndex": 1,
+          "keyboard": "number",
           "kind": "counting",
           "items": [
             "🌼",
@@ -99,7 +98,7 @@
       "title": "Niveau 2",
       "subtitle": "Petites quantités",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-msn-l2-01",
@@ -189,7 +188,7 @@
       "title": "Niveau 3",
       "subtitle": "Compter jusqu’à 10",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-msn-l3-01",
@@ -307,7 +306,7 @@
       "title": "Niveau 4",
       "subtitle": "Plus jusqu’à 5",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-msn-l4-01",
@@ -375,7 +374,7 @@
       "title": "Niveau 5",
       "subtitle": "Plus jusqu’à 10",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "fr-msn-l5-01",

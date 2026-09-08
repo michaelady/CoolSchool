@@ -79,12 +79,11 @@
           "id": "ro-msn-l1-05",
           "prompt": "Câte sunt?",
           "promptTts": "Câte flori vezi?",
-          "choices": [
-            "2",
-            "3",
-            "4"
+          "answerMode": "type",
+          "acceptedAnswers": [
+            "3"
           ],
-          "correctIndex": 1,
+          "keyboard": "number",
           "kind": "counting",
           "items": [
             "🌼",
@@ -99,7 +98,7 @@
       "title": "Nivelul 2",
       "subtitle": "Grupuri mici",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l2-01",
@@ -189,7 +188,7 @@
       "title": "Nivelul 3",
       "subtitle": "Numără până la 10",
       "perTag": "MSN 16 · nombres",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l3-01",
@@ -307,7 +306,7 @@
       "title": "Nivelul 4",
       "subtitle": "Plus până la 5",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l4-01",
@@ -375,7 +374,7 @@
       "title": "Nivelul 5",
       "subtitle": "Plus până la 10",
       "perTag": "MSN 17 · opérations",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-msn-l5-01",

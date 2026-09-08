@@ -89,7 +89,7 @@
       "title": "Nivelul 2",
       "subtitle": "Acasă",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-shs-l2-01",
@@ -161,7 +161,7 @@
       "title": "Nivelul 3",
       "subtitle": "Școală",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-shs-l3-01",
@@ -234,7 +234,7 @@
       "title": "Nivelul 4",
       "subtitle": "Zile",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-shs-l4-01",
@@ -300,7 +300,7 @@
       "title": "Nivelul 5",
       "subtitle": "Anotimpuri",
       "perTag": "SHS 11 · espace",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-shs-l5-01",

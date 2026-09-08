@@ -89,7 +89,7 @@
       "title": "Nivelul 2",
       "subtitle": "Mouse și tastatură",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-num-l2-01",
@@ -160,7 +160,7 @@
       "title": "Nivelul 3",
       "subtitle": "Click și scriu",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-num-l3-01",
@@ -226,7 +226,7 @@
       "title": "Nivelul 4",
       "subtitle": "Iconițe",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-num-l4-01",
@@ -293,7 +293,7 @@
       "title": "Nivelul 5",
       "subtitle": "Dosare",
       "perTag": "EN 11 · usages",
-      "unlockAfterStars": 1,
+      "unlockAfterStars": 0,
       "exercises": [
         {
           "id": "ro-num-l5-01",

@@ -49,14 +49,25 @@ Android stays scaffolded for a later APK (`flutter build apk`).
 
 1. Home language chips: **DE / FR / EN / RO** (always visible above the sun).
 2. Pick a **domain** card (all six PER areas).
-3. Pick a difficulty **1–20**. Level 1 is open; later levels unlock after at least one star on the previous level.
+3. Pick a difficulty **1–20**. **Levels 1–5 are always open** so kids can explore. After that, finishing a level (any score, even 0 stars) unlocks the next one. Stars stay a 1–3 badge; they do not gate access.
 4. Each prompt is read aloud. Tap **Vorlesen** / **Lire** / **Read aloud** / **Citește** to hear it again.
-5. **Tap** a choice **or type** a short answer (numbers, spellings). Typed answers are trimmed, case-insensitive, and accent-tolerant for French/Romanian when that is fair (`ecole` = `école`, `scoala` = `școală`).
+5. **Tap** a choice **or type** a short answer (numbers, spellings). Every domain has a typed exercise in **level 1 or 2**. Typed answers are trimmed, case-insensitive, and accent-tolerant for French/Romanian when that is fair (`ecole` = `école`, `scoala` = `școală`).
 6. The localized banner (**Richtig!** / **Bravo !** / **Right!** / **Corect!**, or **Schade!** / **Presque !** / **Almost!** / **Aproape!**) stays about 1.6s. Correct / wrong SFX play unless mute is on.
 7. A short **transition** whoosh plays between screens. A soft **next** pop plays after the hold when the next prompt appears. Level-complete uses the rising fanfare. Mute is sticky for the session.
 8. Finish the short set to earn 1–3 stars, then **Home**, retry, or (if unlocked) the next level.
 
 Progress is stored on the device (`shared_preferences`). Level ids are stable across languages (`langues-l1`, `math_sciences-l7`, …).
+
+### Level unlock (kid-friendly)
+
+Stars are a quality badge, not a gate. The playable rule lives in `LevelUnlock` (`lib/game/scoring.dart`):
+
+| Band | Rule |
+| --- | --- |
+| **1–5** | Always unlocked on every domain (first cycle-1 band, for exploration and QA). |
+| **6–20** | Unlocks when the **previous** level has been finished at least once, **including 0 stars**. |
+
+JSON `unlockAfterStars` is catalog metadata only. Completing level 5 (any score) opens 6, completing 6 opens 7, and so on. Older installs that only stored stars still count a starred level as finished.
 
 Phase 1–2 addition, subtraction, counting, and school-language vocab now live inside **Mathématiques et sciences de la nature** and **Langues**.
 
@@ -134,5 +145,5 @@ flutter analyze --no-fatal-infos
 
 CI (`/.github/workflows/web.yml`) runs analyze + test on every PR, then deploys `main` to Pages.
 
-- Unit: star scoring, level unlock, spoken math, TTS locale picker (never English for DE/FR/RO), typing validation, pack catalog (6 × 20)
-- Widget: language chips above the sun, six domain cards, feedback hold, typed answers, sticky mute, reward Home
+- Unit: star scoring, kid-friendly unlock (L1–5 free, then finish-previous), spoken math, TTS locale picker (never English for DE/FR/RO), typing validation, pack catalog (6 × 20, type in L1/L2)
+- Widget: language chips above the sun, six domain cards, L1–5 open, typed answers on unlocked L2, feedback hold, sticky mute, reward Home

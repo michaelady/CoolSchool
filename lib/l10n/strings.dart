@@ -54,10 +54,10 @@ class I18n {
       };
 
   String get lockedHint => switch (lang) {
-        'fr' => 'Gagne d’abord une étoile au niveau d’avant.',
-        'en' => 'Earn a star on the previous level first.',
-        'ro' => 'Câștigă mai întâi o stea la nivelul anterior.',
-        _ => 'Schaffe zuerst einen Stern im Level davor.',
+        'fr' => 'Termine d’abord le niveau précédent. Les niveaux 1 à 5 sont toujours ouverts.',
+        'en' => 'Finish the previous level first. Levels 1–5 are always open.',
+        'ro' => 'Termină mai întâi nivelul anterior. Nivelurile 1–5 sunt mereu deschise.',
+        _ => 'Spiele zuerst das Level davor zu Ende. Level 1–5 sind immer offen.',
       };
 
   String get speak => switch (lang) {
