@@ -1,5 +1,14 @@
 import '../l10n/app_locales.dart';
 
+/// How an utterance will be rendered.
+enum TtsEngineKind {
+  /// Matching OS / browser voice for this language (flutter_tts).
+  system,
+
+  /// Shipped per-language eSpeak pack (web; Android-ready via same ids).
+  bundled,
+}
+
 class TtsVoice {
   const TtsVoice({required this.name, required this.locale});
 
@@ -173,6 +182,9 @@ class TtsLocaleStatus {
     required this.locale,
     required this.languageTag,
     this.voiceName,
+    this.packId,
+    this.engine,
+    this.packAvailable = false,
     required this.matched,
     required this.voicesEnumerated,
   });
@@ -180,8 +192,13 @@ class TtsLocaleStatus {
   final String locale;
   final String languageTag;
   final String? voiceName;
+  final String? packId;
+  final TtsEngineKind? engine;
+  final bool packAvailable;
   final bool matched;
   final bool voicesEnumerated;
 
-  bool get shouldHint => voicesEnumerated && !matched;
+  /// Missing-voice hint: only when voices were listed, none match, and no
+  /// shipped language pack can speak this locale (Android without a pack).
+  bool get shouldHint => voicesEnumerated && !matched && !packAvailable;
 }

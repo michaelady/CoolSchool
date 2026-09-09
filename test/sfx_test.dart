@@ -37,4 +37,21 @@ void main() {
     expect(html, contains('coolschool-sfx-next'));
     expect(html, isNot(contains('coolschool-locale-ro')));
   });
+
+  test('index.html ships the bundled TTS engine and per-language packs', () {
+    final html = File('web/index.html').readAsStringSync();
+    expect(html, contains('tts/mespeak.js'));
+    expect(html, contains('tts/coolschool_tts.js'));
+    expect(html, contains('id="coolschool-tts"'));
+    expect(File('web/tts/mespeak.js').existsSync(), isTrue);
+    expect(File('web/tts/mespeak-core.js').existsSync(), isTrue);
+    expect(File('web/tts/coolschool_tts.js').existsSync(), isTrue);
+    for (final name in ['de', 'fr', 'ro']) {
+      final json = File('web/tts/voices/$name.json').readAsStringSync();
+      expect(json, contains('"voice_id":"$name"'));
+      expect(json, isNot(contains('"voice_id":"en')));
+    }
+    final en = File('web/tts/voices/en/en.json').readAsStringSync();
+    expect(en, contains('"voice_id":"en/en"'));
+  });
 }
