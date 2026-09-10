@@ -77,16 +77,17 @@ class TtsPackCatalog {
     return packs[AppLocales.normalize(locale)]!;
   }
 
-  /// `?tts=pack` forces the bundled synthesizer (useful when Chrome also
-  /// has a native fr/de/ro voice and you want to hear the shipped pack).
-  static bool forceBundled({Uri? page}) {
+  /// `?tts=system` opts into a matching OS/browser voice. Default is the
+  /// shipped eSpeak pack for every UI language.
+  static bool preferNative({Uri? page}) {
     final uri = page ?? Uri.base;
-    return uri.queryParameters['tts'] == 'pack';
+    return uri.queryParameters['tts'] == 'system';
   }
 }
 
-/// Locale → pack + engine. System English is never used for DE / FR / RO
-/// when a native voice or the shipped pack exists.
+/// Locale → pack + engine. Shipped packs are the default whenever they are
+/// available. System English is never used for DE / FR / RO when a native
+/// voice or the shipped pack exists.
 class TtsPackPicker {
   const TtsPackPicker._();
 
@@ -95,7 +96,7 @@ class TtsPackPicker {
     required List<TtsVoice> voices,
     List<String> installedLanguages = const [],
     bool bundledAvailable = true,
-    bool forceBundled = false,
+    bool preferNative = false,
   }) {
     final lang = AppLocales.normalize(appLocale);
     final pack = TtsPackCatalog.forLocale(lang);
@@ -112,14 +113,16 @@ class TtsPackPicker {
       installedLanguages: installedLanguages,
     );
 
-    final useBundled = bundledAvailable &&
-        (forceBundled || !system.matchedVoice);
+    final useBundled =
+        bundledAvailable && !(preferNative && system.matchedVoice);
 
     return TtsPackResolveResult(
       pack: pack,
       engine: useBundled ? TtsEngineKind.bundled : TtsEngineKind.system,
       systemVoice: system.voice,
-      languageTag: system.matchedVoice ? system.languageTag : pack.languageTag,
+      languageTag: useBundled
+          ? pack.languageTag
+          : (system.matchedVoice ? system.languageTag : pack.languageTag),
       matchedVoice: system.matchedVoice,
       packAvailable: bundledAvailable,
       voicesEnumerated: system.voicesEnumerated,

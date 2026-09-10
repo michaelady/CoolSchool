@@ -97,7 +97,7 @@ class FlutterTtsSpeech implements SpeechService {
       voices: voices,
       installedLanguages: languages,
       bundledAvailable: _bundled.isAvailable,
-      forceBundled: kIsWeb && TtsPackCatalog.forceBundled(),
+      preferNative: kIsWeb && TtsPackCatalog.preferNative(),
     );
   }
 
@@ -137,7 +137,7 @@ class FlutterTtsSpeech implements SpeechService {
         voices: const [],
         installedLanguages: const [],
         bundledAvailable: _bundled.isAvailable,
-        forceBundled: kIsWeb && TtsPackCatalog.forceBundled(),
+        preferNative: kIsWeb && TtsPackCatalog.preferNative(),
       );
     }
     _status[resolved.pack.locale] = _statusFrom(resolved.pack.locale, resolved);

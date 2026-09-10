@@ -103,17 +103,17 @@ The synthesizer is **meSpeak / eSpeak** (`web/tts/mespeak.js` + `mespeak-core.js
 
 Selection (`TtsPackPicker` in `lib/audio/tts_packs.dart`):
 
-1. Always bind the utterance to the pack for the active chip. **DE / FR / RO never receive the English pack** and never receive an `en-*` system voice.
-2. If the browser/OS lists a **matching** native voice (e.g. Google français), that voice is used (better quality).
-3. If it does not — the usual English-only Chrome case — the **shipped pack** speaks through `#coolschool-tts` (same HTML audio unlock as the whoosh).
+1. **Default:** speak with the shipped pack for the active chip (`coolschool-de` / `fr` / `en` / `ro`) through `#coolschool-tts` (same HTML audio unlock as the whoosh). No query flag is required.
+2. Always bind the utterance to that pack. **DE / FR / RO never receive the English pack** and never receive an `en-*` system voice.
+3. Optional opt-in: `?tts=system` uses a **matching** native browser/OS voice when one exists (e.g. Google français). If none matches, the shipped pack is still used.
 4. Math is still rewritten by `SpokenMath` (`deux plus trois`, `cinci scăzut doi`), never digit soup (`2 + 3`).
-5. Android keeps the same pack ids and picker. When a system language pack is installed, `flutter_tts` uses it; when it is not, the in-app hint still appears (the JS engine is web-only). A future native eSpeak plugin can load the same voice files.
+5. Android keeps the same pack ids and picker. The JS engine is web-only, so Android uses `flutter_tts` when a system language pack is installed; otherwise the in-app hint still appears. A future native eSpeak plugin can load the same voice files.
 
 A missing-voice hint is shown only when voices were enumerated, none match, **and** no bundled pack engine is available. On Flutter web the four packs are always available, so English-only Chrome no longer shows that hint for FR/DE/RO.
 
 ### How to verify on web
 
-On `https://michaelady.github.io/CoolSchool/` or `flutter run -d chrome` (add `?tts=pack` to **force** the shipped packs even if the browser has Google français):
+On `https://michaelady.github.io/CoolSchool/` or `flutter run -d chrome` (no query flag — shipped packs are the default):
 
 1. Open **DevTools → Console**.
 2. Optional — list browser voices (they may be English-only; that is the case this feature is for):
@@ -130,11 +130,11 @@ CoolSchoolTts.lastUtterance
 // { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", … }
 ```
 
-5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en` (or a native `en-*` voice if `?tts=pack` is off and Chrome has one). FR must **not** have used `en/en`.
+5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en`. FR must **not** have used `en/en`.
 6. Repeat **DE** (*« Was ist eins plus eins? »* / `coolschool-de`) and **RO** (*« Cât fac unu plus unu? »* / `coolschool-ro`).
 7. Mute still silences TTS and SFX for the rest of the session.
 
-If `lastUtterance` is `null`, a matching **system** voice was used instead of the pack. Append `?tts=pack` and tap **Lire** again to hear the shipped French/German/Romanian packages next to English.
+To try a matching Chrome/OS voice instead, append `?tts=system`. If `CoolSchoolTts.lastUtterance` is then `null`, SpeechSynthesis handled that utterance. Remove the flag (or open the site with no query) to hear the dedicated packs again.
 
 ## Content and architecture
 
