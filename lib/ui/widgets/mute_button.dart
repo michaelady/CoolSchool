@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../app_scope.dart';
@@ -21,7 +23,12 @@ class MuteButton extends StatelessWidget {
           icon: muted ? Icons.volume_off_rounded : Icons.volume_up_rounded,
           tooltip: muted ? i18n.unmute : i18n.mute,
           selected: muted,
-          onPressed: scope.settings.toggleMute,
+          onPressed: () {
+            scope.settings.toggleMute();
+            if (scope.settings.muted) {
+              unawaited(scope.speech.stop());
+            }
+          },
         );
       },
     );

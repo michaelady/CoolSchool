@@ -122,7 +122,11 @@ class FlutterTtsSpeech implements SpeechService {
     required String locale,
     required bool muted,
   }) async {
-    if (muted || text.trim().isEmpty) return;
+    if (text.trim().isEmpty) return;
+    if (muted) {
+      await stop();
+      return;
+    }
     await _ensureReady();
     await stop();
     final spoken = SpokenMath.prepare(text, locale);

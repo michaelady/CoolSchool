@@ -117,6 +117,7 @@ Playback (`web/tts/coolschool_tts.js`) keeps those packs as the default and smoo
 - One WAV per prompt (not per word). A generation token drops stale worker callbacks so a second **Lire** / **Vorlesen** cannot overlap the first.
 - No Klatt `f2` echo/breath variant, `wordgap` 0, amplitude 88 (not clipped at 100).
 - Short cosine fade in/out on the PCM, Blob URL into `#coolschool-tts`, and a volume fade on stop. Do **not** `pause` + clear `src` + `load()` (that pop).
+- Always **await/catch** `#coolschool-tts.play()`. `pause()` or a new `src` while `play()` is pending rejects with `AbortError`; that rejection is handled so mute, a second **Lire**, and stop do not throw or pop.
 - First-pointer unlock plays the audio tags **muted** so the empty TTS element does not click.
 
 ### How to verify on web

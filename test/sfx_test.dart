@@ -72,6 +72,10 @@ void main() {
     expect(js, contains('smoothWavBytes'));
     expect(js, contains('speakGeneration'));
     expect(js, contains('createObjectURL'));
+    expect(js, contains('pendingPlay'));
+    expect(js, contains('isAbortError'));
+    expect(js, contains('catchPlay'));
+    expect(js, contains('guardPendingPlay'));
     expect(js, isNot(contains('utf16: true')));
     expect(js, isNot(contains("variant: 'f2'")));
     expect(js, isNot(contains("variant: \"f2\"")));
@@ -81,6 +85,11 @@ void main() {
 
   test('smoothWavBytes fades PCM edges so a square jump does not click', () async {
     final result = await Process.run('node', ['test/tts_wav_smooth_test.js']);
+    expect(result.exitCode, 0, reason: '${result.stdout}\n${result.stderr}');
+  });
+
+  test('play() AbortError from pause/stop/second Lire is caught', () async {
+    final result = await Process.run('node', ['test/tts_play_race_test.js']);
     expect(result.exitCode, 0, reason: '${result.stdout}\n${result.stderr}');
   });
 }
