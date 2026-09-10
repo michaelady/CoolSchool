@@ -1,7 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 import '../l10n/app_locales.dart';
+import 'bundled_tts.dart';
 import 'spoken_math.dart';
+import 'tts_packs.dart';
 import 'tts_voices.dart';
 
 abstract class SpeechService {
@@ -26,9 +29,13 @@ class NoopSpeech implements SpeechService {
   @override
   Future<TtsLocaleStatus> prepare(String locale) async {
     final lang = AppLocales.normalize(locale);
+    final pack = TtsPackCatalog.forLocale(lang);
     return TtsLocaleStatus(
       locale: lang,
-      languageTag: AppLocales.speechTagsFor(lang).first,
+      languageTag: pack.languageTag,
+      packId: pack.id,
+      engine: TtsEngineKind.bundled,
+      packAvailable: true,
       matched: true,
       voicesEnumerated: false,
     );
@@ -36,9 +43,12 @@ class NoopSpeech implements SpeechService {
 }
 
 class FlutterTtsSpeech implements SpeechService {
-  FlutterTtsSpeech({FlutterTts? engine}) : _tts = engine ?? FlutterTts();
+  FlutterTtsSpeech({FlutterTts? engine, BundledTts? bundled})
+      : _tts = engine ?? FlutterTts(),
+        _bundled = bundled ?? BundledTts.instance;
 
   final FlutterTts _tts;
+  final BundledTts _bundled;
   bool _ready = false;
   final Map<String, TtsLocaleStatus> _status = {};
 
@@ -63,18 +73,17 @@ class FlutterTtsSpeech implements SpeechService {
     if (cached != null) return cached;
     await _ensureReady();
     final resolved = await _resolve(lang);
-    final status = TtsLocaleStatus(
-      locale: lang,
-      languageTag: resolved.languageTag,
-      voiceName: resolved.voice?.name,
-      matched: resolved.matchedVoice,
-      voicesEnumerated: resolved.voicesEnumerated,
-    );
+    if (resolved.usesBundled) {
+      try {
+        await _bundled.loadPack(resolved.pack);
+      } catch (_) {}
+    }
+    final status = _statusFrom(lang, resolved);
     _status[lang] = status;
     return status;
   }
 
-  Future<TtsResolveResult> _resolve(String lang) async {
+  Future<TtsPackResolveResult> _resolve(String lang) async {
     var voices = const <TtsVoice>[];
     var languages = const <String>[];
     try {
@@ -83,10 +92,27 @@ class FlutterTtsSpeech implements SpeechService {
     try {
       languages = TtsVoicePicker.normalizeLanguages(await _tts.getLanguages);
     } catch (_) {}
-    return TtsVoicePicker.resolve(
+    return TtsPackPicker.resolve(
       appLocale: lang,
       voices: voices,
       installedLanguages: languages,
+      bundledAvailable: _bundled.isAvailable,
+      preferNative: kIsWeb && TtsPackCatalog.preferNative(),
+    );
+  }
+
+  TtsLocaleStatus _statusFrom(String lang, TtsPackResolveResult resolved) {
+    return TtsLocaleStatus(
+      locale: lang,
+      languageTag: resolved.languageTag,
+      voiceName: resolved.usesBundled
+          ? resolved.pack.voiceId
+          : resolved.systemVoice?.name,
+      packId: resolved.pack.id,
+      engine: resolved.engine,
+      packAvailable: resolved.packAvailable,
+      matched: resolved.matchedVoice || resolved.packAvailable,
+      voicesEnumerated: resolved.voicesEnumerated,
     );
   }
 
@@ -98,44 +124,56 @@ class FlutterTtsSpeech implements SpeechService {
   }) async {
     if (muted || text.trim().isEmpty) return;
     await _ensureReady();
-    await _tts.stop();
+    await stop();
     final spoken = SpokenMath.prepare(text, locale);
     if (spoken.isEmpty) return;
-    await _applyVoice(locale);
+
+    TtsPackResolveResult resolved;
+    try {
+      resolved = await _resolve(AppLocales.normalize(locale));
+    } catch (_) {
+      resolved = TtsPackPicker.resolve(
+        appLocale: locale,
+        voices: const [],
+        installedLanguages: const [],
+        bundledAvailable: _bundled.isAvailable,
+        preferNative: kIsWeb && TtsPackCatalog.preferNative(),
+      );
+    }
+    _status[resolved.pack.locale] = _statusFrom(resolved.pack.locale, resolved);
+
+    if (resolved.usesBundled) {
+      try {
+        await _bundled.speak(spoken, resolved.pack);
+        return;
+      } catch (error) {
+        debugPrint('CoolSchool bundled TTS failed: $error');
+        // Fall through only when a *matching* system voice exists.
+        // Never hand DE/FR/RO to an English browser voice.
+        if (resolved.systemVoice == null) return;
+      }
+    }
+
+    await _speakSystem(spoken, resolved);
+  }
+
+  Future<void> _speakSystem(String spoken, TtsPackResolveResult resolved) async {
+    await _applyVoice(resolved);
     await _tts.setSpeechRate(kidRate);
-    await _tts.setPitch(pitchFor(locale));
+    await _tts.setPitch(pitchFor(resolved.pack.locale));
     await _tts.speak(spoken);
   }
 
-  Future<void> _applyVoice(String locale) async {
-    final lang = AppLocales.normalize(locale);
-    TtsResolveResult resolved;
-    try {
-      resolved = await _resolve(lang);
-    } catch (_) {
-      resolved = TtsVoicePicker.resolve(
-        appLocale: lang,
-        voices: const [],
-        installedLanguages: const [],
-      );
-    }
-    _status[lang] = TtsLocaleStatus(
-      locale: lang,
-      languageTag: resolved.languageTag,
-      voiceName: resolved.voice?.name,
-      matched: resolved.matchedVoice,
-      voicesEnumerated: resolved.voicesEnumerated,
-    );
-
+  Future<void> _applyVoice(TtsPackResolveResult resolved) async {
+    final lang = resolved.pack.locale;
     // Always pin the utterance language first so web SpeechSynthesis does not
     // stay on the browser default (usually en-US).
     await _setLanguageTags(lang, preferred: resolved.languageTag);
 
-    if (resolved.voice != null) {
+    if (resolved.systemVoice != null) {
       try {
-        await _tts.setVoice(resolved.voice!.toEngineMap());
+        await _tts.setVoice(resolved.systemVoice!.toEngineMap());
       } catch (_) {}
-      // Some engines reset lang when a voice is applied — set it again.
       await _setLanguageTags(lang, preferred: resolved.languageTag);
     }
   }
@@ -163,5 +201,8 @@ class FlutterTtsSpeech implements SpeechService {
   }
 
   @override
-  Future<void> stop() => _tts.stop();
+  Future<void> stop() async {
+    await _bundled.stop();
+    await _tts.stop();
+  }
 }

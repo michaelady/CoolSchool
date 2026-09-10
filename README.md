@@ -88,38 +88,53 @@ Difficulty **1** is easiest (cycle 1 / early 1H–4H). **20** is still age ≤ 1
 
 Former Lehrplan 21 labels (MA.1, D.1, …) are replaced by these PER ids. The JSON field is `per`; loaders still accept a legacy `lp21` block.
 
-## Verify TTS locales on web
+## Pronunciation packs (DE / FR / EN / RO)
 
-Chrome Speech Synthesis quality depends on **installed language voices**. CoolSchool never leaves DE/FR/RO prompts on the browser default English voice on purpose:
+BCP-47 on `flutter_tts` / Web Speech is **not enough** when Chrome only has English voices — the engine then reads French or German with English phonemes. CoolSchool therefore ships a **dedicated language package** for each UI chip:
 
-1. `flutter_tts.setLanguage` is always called with a real BCP-47 tag **before** (and again after) `setVoice`.
-2. Installed voices are scored; an English voice is **never** selected for DE, FR, or RO.
-3. Math is rewritten by `SpokenMath` into words (`deux plus trois`, `cinci scăzut doi`), never digit soup (`2 + 3`).
-4. Rate stays slightly under the engine default (`0.46`) so kids can follow.
-5. If the browser lists voices and none match, a small **non-blocking hint** appears on the exercise screen (dismiss with ×). An empty voice list (Chrome before `voiceschanged`) does **not** show that hint.
+| Chip | Pack id | Voice file | Phoneme language |
+| --- | --- | --- | --- |
+| DE | `coolschool-de` | `web/tts/voices/de.json` | German (`de`, tag `de-CH`) |
+| FR | `coolschool-fr` | `web/tts/voices/fr.json` | French (`fr`, tag `fr-CH`) |
+| EN | `coolschool-en` | `web/tts/voices/en/en.json` | English (`en/en`, tag `en-GB`) |
+| RO | `coolschool-ro` | `web/tts/voices/ro.json` | Romanian (`ro`, tag `ro-RO`) |
 
-| Chip | Tried first | Then |
-| --- | --- | --- |
-| DE | `de-CH` | `de-DE`, `de-AT`, `de` |
-| FR | `fr-CH` | `fr-FR`, `fr-CA`, `fr` |
-| EN | `en-GB` | `en-US`, `en` |
-| RO | `ro-RO` | `ro` |
+The synthesizer is **meSpeak / eSpeak** (`web/tts/mespeak.js` + `mespeak-core.js`, GPL-3 — see `web/tts/NOTICE`). Each JSON pack is that language’s dictionary and voice, not an English voice with a `lang` attribute.
 
-On `https://michaelady.github.io/CoolSchool/` or `flutter run -d chrome`:
+Selection (`TtsPackPicker` in `lib/audio/tts_packs.dart`):
+
+1. **Default:** speak with the shipped pack for the active chip (`coolschool-de` / `fr` / `en` / `ro`) through `#coolschool-tts` (same HTML audio unlock as the whoosh). No query flag is required.
+2. Always bind the utterance to that pack. **DE / FR / RO never receive the English pack** and never receive an `en-*` system voice.
+3. Optional opt-in: `?tts=system` uses a **matching** native browser/OS voice when one exists (e.g. Google français). If none matches, the shipped pack is still used.
+4. Math is still rewritten by `SpokenMath` (`deux plus trois`, `cinci scăzut doi`), never digit soup (`2 + 3`).
+5. Android keeps the same pack ids and picker. The JS engine is web-only, so Android uses `flutter_tts` when a system language pack is installed; otherwise the in-app hint still appears. A future native eSpeak plugin can load the same voice files.
+
+A missing-voice hint is shown only when voices were enumerated, none match, **and** no bundled pack engine is available. On Flutter web the four packs are always available, so English-only Chrome no longer shows that hint for FR/DE/RO.
+
+### How to verify on web
+
+On `https://michaelady.github.io/CoolSchool/` or `flutter run -d chrome` (no query flag — shipped packs are the default):
 
 1. Open **DevTools → Console**.
-2. List voices:
+2. Optional — list browser voices (they may be English-only; that is the case this feature is for):
 
 ```js
 speechSynthesis.getVoices().map(v => `${v.lang} — ${v.name}`).sort()
 ```
 
-3. Confirm you have at least one `fr-*` voice (Chrome usually ships **Google français** / `fr-FR`). Without any French voice, the engine may still fall back to English — that is exactly when the in-app hint should appear. Installing a French voice (Chrome language settings / OS speech pack) fixes pronunciation.
-4. Home → **FR** → **Maths et nature** → level 1. Tap **Lire**. You should hear *« Combien font un plus un ? »*, not *« 1 + 1 »* and not English phonemes for French words.
-5. Repeat with **DE** (*« Was ist eins plus eins? »*), **EN** (*« What is one plus one? »*), **RO** (*« Cât fac cinci scăzut doi? »* on later minus items).
-6. Optional: `speechSynthesis.speaking` is `true` while a prompt plays. Mute still silences TTS and SFX for the rest of the session.
+3. Home → **FR** → **Maths et nature** → level 1. Tap **Lire**.
+4. You should hear French phonemes (*« Combien font un plus un ? »*), not English reading French spelling. In the console:
 
-To confirm the utterance language in DevTools while a prompt plays, Chrome’s SpeechSynthesis does not always log `lang`; the reliable check is a matching `fr-*` / `de-*` / `ro-*` voice in `getVoices()` plus the spoken result.
+```js
+CoolSchoolTts.lastUtterance
+// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", … }
+```
+
+5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en`. FR must **not** have used `en/en`.
+6. Repeat **DE** (*« Was ist eins plus eins? »* / `coolschool-de`) and **RO** (*« Cât fac unu plus unu? »* / `coolschool-ro`).
+7. Mute still silences TTS and SFX for the rest of the session.
+
+To try a matching Chrome/OS voice instead, append `?tts=system`. If `CoolSchoolTts.lastUtterance` is then `null`, SpeechSynthesis handled that utterance. Remove the flag (or open the site with no query) to hear the dedicated packs again.
 
 ## Content and architecture
 
@@ -129,7 +144,8 @@ JSON packs live under `assets/content/packs/{domain}_{de,fr,en,ro}.json` and sta
 lib/
   content/     models + typing check + JSON loader
   game/        scoring, level unlock, local progress
-  audio/       TTS (BCP-47 + spoken math) + SFX
+  audio/       TTS language packs (eSpeak per locale) + spoken math + SFX
+  web/tts/     meSpeak engine + de/fr/en/ro voice JSON
   l10n/        DE / FR / EN / RO strings
   ui/          home → domain → 1–20 picker → exercise → reward
 ```
@@ -145,5 +161,5 @@ flutter analyze --no-fatal-infos
 
 CI (`/.github/workflows/web.yml`) runs analyze + test on every PR, then deploys `main` to Pages.
 
-- Unit: star scoring, kid-friendly unlock (L1–5 free, then finish-previous), spoken math, TTS locale picker (never English for DE/FR/RO), typing validation, pack catalog (6 × 20, type in every L1)
+- Unit: star scoring, kid-friendly unlock (L1–5 free, then finish-previous), spoken math, TTS locale→pack picker (never an English voice/pack for DE/FR/RO when a native pack exists), typing validation, pack catalog (6 × 20, type in every L1)
 - Widget: language chips above the sun, six domain cards, L1–5 open, Langues/Math L1 TextField e2e, feedback hold, sticky mute, reward Home

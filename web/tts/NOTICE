@@ -1,0 +1,15 @@
+CoolSchool ships dedicated eSpeak language packs so DE / FR / EN / RO
+prompts are pronounced with that language’s phoneme rules, even when the
+browser only has English SpeechSynthesis voices.
+
+Vendored engine (web/tts/mespeak.js, mespeak-core.js) and voice JSON
+(web/tts/voices/{de,fr,ro}.json, voices/en/en.json):
+
+  meSpeak.js (Modular eSpeak) — Norbert Landsteiner / mass:werk
+  https://www.masswerk.at/mespeak
+  based on speak.js (https://github.com/kripken/speak.js)
+  and eSpeak (https://espeak.sourceforge.net / eSpeak NG)
+
+These files are licensed under the GNU General Public License v3.
+See COPYING in this directory. The rest of CoolSchool is unchanged;
+this folder is the GPL TTS engine plus four language voice packages.
