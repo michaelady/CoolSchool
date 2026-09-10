@@ -323,6 +323,19 @@ void main() {
       expect(FlutterTtsSpeech.pitchFor('fr'), 1.0);
       expect(FlutterTtsSpeech.pitchFor('de'), greaterThan(1.0));
     });
+
+    test('bundled packs stay the default engine for DE/FR/RO and English', () {
+      for (final locale in AppLocales.codes) {
+        final resolved = TtsPackPicker.resolve(
+          appLocale: locale,
+          voices: const [TtsVoice(name: 'Samantha', locale: 'en-US')],
+          bundledAvailable: true,
+        );
+        expect(resolved.usesBundled, isTrue, reason: locale);
+        expect(resolved.engine, TtsEngineKind.bundled);
+        expect(resolved.pack.id, 'coolschool-$locale');
+      }
+    });
   });
 
   group('localized feedback hold strings', () {

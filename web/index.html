@@ -71,11 +71,22 @@
   <script src="tts/coolschool_tts.js"></script>
   <script>
     // First pointerdown resumes audio so later Timer-based next.wav / TTS can play.
+    // Mute during unlock so the empty TTS element and SFX tags do not click/pop.
     document.addEventListener('pointerdown', function () {
       document.querySelectorAll('audio[id^="coolschool-sfx-"], #coolschool-tts').forEach(function (node) {
         var a = node;
+        var wasMuted = a.muted;
+        a.muted = true;
         var p = a.play();
-        if (p && p.then) p.then(function () { a.pause(); a.currentTime = 0; }).catch(function () {});
+        if (p && p.then) {
+          p.then(function () {
+            a.pause();
+            a.currentTime = 0;
+            a.muted = wasMuted;
+          }).catch(function () { a.muted = wasMuted; });
+        } else {
+          a.muted = wasMuted;
+        }
       });
     }, { once: true });
   </script>
