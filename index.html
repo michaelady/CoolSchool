@@ -66,10 +66,13 @@
   <audio id="coolschool-sfx-correct" preload="auto" src="assets/assets/sounds/correct.wav"></audio>
   <audio id="coolschool-sfx-wrong" preload="auto" src="assets/assets/sounds/wrong.wav"></audio>
   <audio id="coolschool-sfx-levelup" preload="auto" src="assets/assets/sounds/levelup.wav"></audio>
+  <audio id="coolschool-tts" preload="auto"></audio>
+  <script src="tts/mespeak.js"></script>
+  <script src="tts/coolschool_tts.js"></script>
   <script>
-    // First pointerdown resumes audio so later Timer-based next.wav can play.
+    // First pointerdown resumes audio so later Timer-based next.wav / TTS can play.
     document.addEventListener('pointerdown', function () {
-      document.querySelectorAll('audio[id^="coolschool-sfx-"]').forEach(function (node) {
+      document.querySelectorAll('audio[id^="coolschool-sfx-"], #coolschool-tts').forEach(function (node) {
         var a = node;
         var p = a.play();
         if (p && p.then) p.then(function () { a.pause(); a.currentTime = 0; }).catch(function () {});
