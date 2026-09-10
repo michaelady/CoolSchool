@@ -54,4 +54,32 @@ void main() {
     final en = File('web/tts/voices/en/en.json').readAsStringSync();
     expect(en, contains('"voice_id":"en/en"'));
   });
+
+  test('index.html unlocks audio muted so the empty TTS tag does not click', () {
+    final html = File('web/index.html').readAsStringSync();
+    expect(html, contains('a.muted = true'));
+    expect(html, contains('#coolschool-tts'));
+  });
+
+  test('bundled TTS JS keeps packs default and smooths DE/FR/RO playback', () {
+    final js = File('web/tts/coolschool_tts.js').readAsStringSync();
+    expect(js, contains("id: 'coolschool-de'"));
+    expect(js, contains("id: 'coolschool-fr'"));
+    expect(js, contains("id: 'coolschool-en'"));
+    expect(js, contains("id: 'coolschool-ro'"));
+    expect(js, contains('utf16: true'));
+    expect(js, contains('wordgap: 0'));
+    expect(js, contains('smoothWavBytes'));
+    expect(js, contains('speakGeneration'));
+    expect(js, contains('createObjectURL'));
+    expect(js, isNot(contains("variant: 'f2'")));
+    expect(js, isNot(contains("variant: \"f2\"")));
+    expect(js, isNot(contains("removeAttribute('src')")));
+    expect(js, contains('amplitude: 88'));
+  });
+
+  test('smoothWavBytes fades PCM edges so a square jump does not click', () async {
+    final result = await Process.run('node', ['test/tts_wav_smooth_test.js']);
+    expect(result.exitCode, 0, reason: '${result.stdout}\n${result.stderr}');
+  });
 }

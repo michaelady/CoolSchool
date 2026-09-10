@@ -111,6 +111,14 @@ Selection (`TtsPackPicker` in `lib/audio/tts_packs.dart`):
 
 A missing-voice hint is shown only when voices were enumerated, none match, **and** no bundled pack engine is available. On Flutter web the four packs are always available, so English-only Chrome no longer shows that hint for FR/DE/RO.
 
+Playback (`web/tts/coolschool_tts.js`) keeps those packs as the default and smooths DE/FR/RO (English ASCII was already fine):
+
+- eSpeak reads **UTF-8** (`utf16: true` → `-b 4`). The engine default is 8-bit, which garbles `é` / `ä` / `â` into clicks.
+- One WAV per prompt (not per word). A generation token drops stale worker callbacks so a second **Lire** / **Vorlesen** cannot overlap the first.
+- No Klatt `f2` echo/breath variant, `wordgap` 0, amplitude 88 (not clipped at 100).
+- Short cosine fade in/out on the PCM, Blob URL into `#coolschool-tts`, and a volume fade on stop. Do **not** `pause` + clear `src` + `load()` (that pop).
+- First-pointer unlock plays the audio tags **muted** so the empty TTS element does not click.
+
 ### How to verify on web
 
 On `https://michaelady.github.io/CoolSchool/` or `flutter run -d chrome` (no query flag — shipped packs are the default):
@@ -123,16 +131,17 @@ speechSynthesis.getVoices().map(v => `${v.lang} — ${v.name}`).sort()
 ```
 
 3. Home → **FR** → **Maths et nature** → level 1. Tap **Lire**.
-4. You should hear French phonemes (*« Combien font un plus un ? »*), not English reading French spelling. In the console:
+4. You should hear French phonemes (*« Combien font un plus un ? »*) **without** clicks, pops, or the voice cutting out mid-sentence. In the console:
 
 ```js
 CoolSchoolTts.lastUtterance
-// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", … }
+// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", encoding: "utf-8", wordgap: 0, … }
+CoolSchoolTts.speakSettings('fr').utf16  // true → UTF-8
 ```
 
 5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en`. FR must **not** have used `en/en`.
-6. Repeat **DE** (*« Was ist eins plus eins? »* / `coolschool-de`) and **RO** (*« Cât fac unu plus unu? »* / `coolschool-ro`).
-7. Mute still silences TTS and SFX for the rest of the session.
+6. Repeat **DE** → **Vorlesen** (*« Was ist eins plus eins? »* / `coolschool-de`, try *Äpfel*) and **RO** (*« Cât fac unu plus unu? »* / `coolschool-ro`). Accents must stay smooth.
+7. Mute still silences TTS and SFX for the rest of the session. Chips, feedback hold, whoosh, domains, and typing are unchanged.
 
 To try a matching Chrome/OS voice instead, append `?tts=system`. If `CoolSchoolTts.lastUtterance` is then `null`, SpeechSynthesis handled that utterance. Remove the flag (or open the site with no query) to hear the dedicated packs again.
 
