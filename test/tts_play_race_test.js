@@ -225,19 +225,56 @@ Promise.resolve()
     });
   })
   .then(function () {
-    return new Promise(function (resolve) {
-      setTimeout(resolve, 20);
+    // Tester: DE Vorlesen twice quickly — second utterance must still play.
+    const playsBefore = audio.playCalls;
+    tts.speak('Was ist eins plus eins?', 'de');
+    tts.speak('Was ist zwei plus zwei?', 'de');
+    return new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        try {
+          assert(audio.playCalls > playsBefore, 'second DE Vorlesen must call play()');
+          assert(audio.paused === false, 'second DE Vorlesen should be playing');
+          assert(tts.lastUtterance && tts.lastUtterance.locale === 'de', 'DE pack stay default');
+          assert(tts.lastUtterance.packId === 'coolschool-de', 'bundled DE pack id');
+          assert(String(tts.lastUtterance.text).indexOf('zwei') !== -1, 'second DE utterance wins');
+          assert(tts.speakSettings('de').utf16 === false, 'utf16 stays off');
+          assert(unhandled.length === 0, 'AbortError after double DE: ' + unhandled.map(String).join(' | '));
+          resolve();
+        } catch (err) {
+          reject(err);
+        }
+      }, 40);
+    });
+  })
+  .then(function () {
+    // Tester: FR Lire after DE interrupt — speech still plays, no AbortError.
+    const playsBefore = audio.playCalls;
+    tts.speak('Combien font un plus un ?', 'fr');
+    return new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        try {
+          assert(audio.playCalls > playsBefore, 'FR Lire must call play()');
+          assert(audio.paused === false, 'FR Lire should be playing');
+          assert(tts.lastUtterance && tts.lastUtterance.locale === 'fr', 'FR locale');
+          assert(tts.lastUtterance.packId === 'coolschool-fr', 'bundled FR pack id');
+          assert(tts.speakSettings('fr').utf16 === false, 'FR utf16 stays off');
+          assert(unhandled.length === 0, 'AbortError after FR Lire: ' + unhandled.map(String).join(' | '));
+          audio.resolvePlay();
+          audio.end();
+          resolve();
+        } catch (err) {
+          reject(err);
+        }
+      }, 40);
     });
   })
   .then(function () {
     assert(unhandled.length === 0, 'unhandled AbortError: ' + unhandled.map(String).join(' | '));
-    assert(tts.lastUtterance && tts.lastUtterance.locale === 'de', 'DE pack stay default');
-    assert(tts.lastUtterance.packId === 'coolschool-de', 'bundled DE pack id');
-    assert(tts.speakSettings('de').utf16 === false, 'utf16 stays off');
     console.log('ok: play/pause AbortError races handled', {
       playCalls: audio.playCalls,
       pauseCalls: audio.pauseCalls,
-      generation: tts.speakGeneration
+      generation: tts.speakGeneration,
+      lastPack: tts.lastUtterance && tts.lastUtterance.packId
     });
     process.exit(0);
   })
