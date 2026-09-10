@@ -67,11 +67,12 @@ void main() {
     expect(js, contains("id: 'coolschool-fr'"));
     expect(js, contains("id: 'coolschool-en'"));
     expect(js, contains("id: 'coolschool-ro'"));
-    expect(js, contains('utf16: true'));
+    expect(js, contains('utf16: false'));
     expect(js, contains('wordgap: 0'));
     expect(js, contains('smoothWavBytes'));
     expect(js, contains('speakGeneration'));
     expect(js, contains('createObjectURL'));
+    expect(js, isNot(contains('utf16: true')));
     expect(js, isNot(contains("variant: 'f2'")));
     expect(js, isNot(contains("variant: \"f2\"")));
     expect(js, isNot(contains("removeAttribute('src')")));

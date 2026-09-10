@@ -6,14 +6,15 @@
  * so Chrome autoplay policy matches the rest of the app.
  *
  * Playback quality (DE/FR/RO clicks and mid-utterance glitches):
- * - eSpeak input is UTF-8 (`utf16: true` → `-b 4`). Default `-b 1` (8-bit)
- *   garbles é/ä/â and produces clicks; English ASCII was unaffected.
+ * - Do **not** enable meSpeak's utf16 flag. This eSpeak build's `-b 4` is
+ *   16-bit Unicode, which inserts a pause between letters (~8× longer WAV).
+ *   Default `-b 1` auto-detects UTF-8 for é/ä/â.
  * - No Klatt `f2` variant: that preset adds echo + breath on male language
  *   voices and stacks with `-p`, which sounds like pops and interruptions.
  * - wordgap 0: a 10 ms hard silence between words clicked at each boundary.
  * - One synthesis per utterance (never per word). Stale worker callbacks
  *   are ignored so a second Lire cannot overlap the first WAV.
- * - PCM fade in/out + Blob playback instead of pause/removeAttribute/load.
+ * - PCM fade in/out + Blob playback instead of pause+empty load (that pop).
  */
 (function (global) {
   'use strict';
@@ -47,8 +48,9 @@
       pitch: locale === 'fr' ? 50 : 52,
       speed: 155,
       wordgap: 0,
-      // meSpeak maps utf16:true to eSpeak `-b 4` (UTF-8), not UTF-16.
-      utf16: true,
+      // This eSpeak's `-b 4` is UTF-16 and pauses between letters. Stay on
+      // default `-b 1` (8-bit / UTF-8 auto) so DE/FR/RO stay ~2s, not ~14s.
+      utf16: false,
       // `mime` is the proven export path (data:audio/x-wav;base64,…).
       rawdata: 'mime'
     };
@@ -405,7 +407,7 @@
         languageTag: pack.languageTag,
         engine: 'bundled-espeak',
         text: String(text),
-        encoding: 'utf-8',
+        encoding: 'espeak-auto',
         wordgap: 0
       };
       if (!bytes.length) return;

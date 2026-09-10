@@ -111,9 +111,9 @@ Selection (`TtsPackPicker` in `lib/audio/tts_packs.dart`):
 
 A missing-voice hint is shown only when voices were enumerated, none match, **and** no bundled pack engine is available. On Flutter web the four packs are always available, so English-only Chrome no longer shows that hint for FR/DE/RO.
 
-Playback (`web/tts/coolschool_tts.js`) keeps those packs as the default and smooths DE/FR/RO (English ASCII was already fine):
+Playback (`web/tts/coolschool_tts.js`) keeps those packs as the default and smooths DE/FR/RO (and EN) playback:
 
-- eSpeak reads **UTF-8** (`utf16: true` → `-b 4`). The engine default is 8-bit, which garbles `é` / `ä` / `â` into clicks.
+- **Do not enable meSpeak's utf16 flag.** In this eSpeak build, that sets `-b 4` (16-bit Unicode) and inserts a pause between letters — the WAV becomes ~8× longer with silent gaps mid-sentence. Default `-b 1` auto-detects UTF-8 for `é` / `ä` / `â`.
 - One WAV per prompt (not per word). A generation token drops stale worker callbacks so a second **Lire** / **Vorlesen** cannot overlap the first.
 - No Klatt `f2` echo/breath variant, `wordgap` 0, amplitude 88 (not clipped at 100).
 - Short cosine fade in/out on the PCM, Blob URL into `#coolschool-tts`, and a volume fade on stop. Do **not** `pause` + clear `src` + `load()` (that pop).
@@ -135,8 +135,9 @@ speechSynthesis.getVoices().map(v => `${v.lang} — ${v.name}`).sort()
 
 ```js
 CoolSchoolTts.lastUtterance
-// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", encoding: "utf-8", wordgap: 0, … }
-CoolSchoolTts.speakSettings('fr').utf16  // true → UTF-8
+// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", encoding: "espeak-auto", wordgap: 0, … }
+CoolSchoolTts.speakSettings('fr').utf16  // false — `-b 4` would pause between letters
+CoolSchoolTts.speakSettings('fr').wordgap  // 0
 ```
 
 5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en`. FR must **not** have used `en/en`.

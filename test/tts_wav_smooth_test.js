@@ -78,7 +78,7 @@ for (const locale of ['de', 'fr', 'en', 'ro']) {
   const pack = tts.packs[locale];
   assert(pack && pack.id === 'coolschool-' + locale, 'pack id ' + locale);
   const s = tts.speakSettings(locale);
-  assert(s.utf16 === true, locale + ' must request UTF-8');
+  assert(s.utf16 === false, locale + ' must not use eSpeak -b 4 / utf16');
   assert(s.wordgap === 0, locale + ' must not insert hard word gaps');
   assert(s.variant === undefined, locale + ' must not use Klatt f2 echo');
   assert(s.amplitude < 100, locale + ' amplitude must not clip at 100');
