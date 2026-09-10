@@ -8,7 +8,7 @@ external CoolSchoolTtsJs? get _engine;
 extension type CoolSchoolTtsJs(JSObject _) implements JSObject {
   external JSPromise<JSAny?> loadPack(String locale);
   external JSPromise<JSAny?> speak(String text, String locale);
-  external void stop();
+  external JSPromise<JSAny?> stop();
 }
 
 /// Web: meSpeak + one voice JSON pack per UI language (`web/tts/`).
@@ -34,10 +34,29 @@ class BundledTts {
     if (engine == null) {
       throw StateError('CoolSchoolTts is not loaded');
     }
-    await engine.speak(text, pack.locale).toDart;
+    try {
+      await engine.speak(text, pack.locale).toDart;
+    } catch (error) {
+      // AbortError from an interrupted play() is handled in JS; anything
+      // that still surfaces here must not become an unhandled rejection.
+      if (_isAbortError(error)) return;
+      rethrow;
+    }
   }
 
   Future<void> stop() async {
-    _engine?.stop();
+    final engine = _engine;
+    if (engine == null) return;
+    try {
+      await engine.stop().toDart;
+    } catch (error) {
+      if (_isAbortError(error)) return;
+    }
   }
+}
+
+bool _isAbortError(Object error) {
+  final text = error.toString();
+  return text.contains('AbortError') ||
+      text.contains('play() request was interrupted');
 }

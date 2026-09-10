@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:coolschool/app.dart';
 import 'package:coolschool/audio/sfx_service.dart';
 import 'package:coolschool/audio/speech_service.dart';
+import 'package:coolschool/audio/tts_voices.dart';
 import 'package:coolschool/content/models.dart';
 import 'package:coolschool/content/pack_repository.dart';
 import 'package:coolschool/game/progress_store.dart';
@@ -12,6 +13,37 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'recording_sfx.dart';
+
+class RecordingSpeech implements SpeechService {
+  final List<String> events = [];
+
+  @override
+  Future<void> speak(
+    String text, {
+    required String locale,
+    required bool muted,
+  }) async {
+    events.add(muted ? 'muted:speak' : 'speak');
+  }
+
+  @override
+  Future<void> stop() async {
+    events.add('stop');
+  }
+
+  @override
+  Future<TtsLocaleStatus> prepare(String locale) async {
+    return const TtsLocaleStatus(
+      locale: 'de',
+      languageTag: 'de-CH',
+      packId: 'coolschool-de',
+      engine: TtsEngineKind.bundled,
+      packAvailable: true,
+      matched: true,
+      voicesEnumerated: false,
+    );
+  }
+}
 
 ContentPack samplePack([String file = 'math_sciences_de.json']) {
   return ContentPack.fromJsonString(
@@ -69,13 +101,14 @@ Widget app({
   ProgressStore? progress,
   SessionSettings? settings,
   SfxService? sfx,
+  SpeechService? speech,
 }) {
   final content = packs ?? [pack ?? samplePack()];
   return CoolSchoolApp(
     settings: settings ?? SessionSettings(),
     progress: progress ?? ProgressStore(persist: false),
     packs: MemoryPackRepository.all(content),
-    speech: const NoopSpeech(),
+    speech: speech ?? const NoopSpeech(),
     sfx: sfx ?? const NoopSfx(),
   );
 }
@@ -87,9 +120,17 @@ Future<void> pumpApp(
   ProgressStore? progress,
   SessionSettings? settings,
   SfxService? sfx,
+  SpeechService? speech,
 }) async {
   await tester.pumpWidget(
-    app(pack: pack, packs: packs, progress: progress, settings: settings, sfx: sfx),
+    app(
+      pack: pack,
+      packs: packs,
+      progress: progress,
+      settings: settings,
+      sfx: sfx,
+      speech: speech,
+    ),
   );
   await tester.pumpAndSettle();
 }
@@ -580,6 +621,21 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('1 + 1 = ?'), findsOneWidget);
     expect(settings.muted, isTrue);
+    expect(find.byIcon(Icons.volume_off_rounded), findsOneWidget);
+  });
+
+  testWidgets('mute stops in-flight TTS so Vorlesen does not keep playing', (tester) async {
+    final settings = SessionSettings();
+    final speech = RecordingSpeech();
+    await pumpApp(tester, pack: tinyPack(), settings: settings, speech: speech);
+    await openFirstExercise(tester);
+    expect(speech.events, contains('speak'));
+
+    await tester.tap(find.byKey(const ValueKey<String>('mute-button')));
+    await tester.pump();
+    expect(settings.muted, isTrue);
+    expect(speech.events, contains('stop'));
+    expect(find.text('Vorlesen'), findsOneWidget);
     expect(find.byIcon(Icons.volume_off_rounded), findsOneWidget);
   });
 }
