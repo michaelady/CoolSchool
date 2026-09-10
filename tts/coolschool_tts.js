@@ -15,6 +15,9 @@
  * - One synthesis per utterance (never per word). Stale worker callbacks
  *   are ignored so a second Lire cannot overlap the first WAV.
  * - PCM fade in/out + Blob playback instead of pause+empty load (that pop).
+ * - Always await/catch HTMLMediaElement.play(). pause() / src changes while
+ *   play() is pending reject with AbortError; handle that so mute, a second
+ *   Lire, and stop never throw or pop.
  */
 (function (global) {
   'use strict';
@@ -35,6 +38,9 @@
   var speakGeneration = 0;
   var objectUrl = null;
   var fadeTimer = null;
+  var fadeEpoch = 0;
+  /** In-flight HTMLMediaElement.play() promise; must be caught before pause. */
+  var pendingPlay = null;
 
   function audioEl() {
     return global.document && global.document.getElementById('coolschool-tts');
@@ -112,7 +118,50 @@
     return loading[locale];
   }
 
+  function isAbortError(err) {
+    if (!err) return false;
+    var name = err.name || '';
+    var msg = String(err.message || err);
+    return (
+      name === 'AbortError' ||
+      /interrupted by a call to (pause|load)/i.test(msg) ||
+      /The play\(\) request was interrupted/i.test(msg)
+    );
+  }
+
+  function catchPlay(promise) {
+    if (!promise || typeof promise.then !== 'function') return Promise.resolve();
+    return promise.then(
+      function () {},
+      function (err) {
+        if (isAbortError(err)) return;
+        throw err;
+      }
+    );
+  }
+
+  /**
+   * Attach a rejection handler *before* pause/src so Chrome does not log
+   * "Uncaught (in promise) AbortError: The play() request was interrupted".
+   */
+  function guardPendingPlay() {
+    if (!pendingPlay || typeof pendingPlay.then !== 'function') {
+      pendingPlay = null;
+      return Promise.resolve();
+    }
+    var tracked = pendingPlay;
+    return catchPlay(tracked).then(
+      function () {
+        if (pendingPlay === tracked) pendingPlay = null;
+      },
+      function () {
+        if (pendingPlay === tracked) pendingPlay = null;
+      }
+    );
+  }
+
   function cancelFade() {
+    fadeEpoch += 1;
     if (fadeTimer) {
       clearInterval(fadeTimer);
       fadeTimer = null;
@@ -127,24 +176,33 @@
   }
 
   function pauseNode(node) {
-    if (!node) return;
     cancelFade();
+    // Catch first — pause() while play() is pending is the AbortError race.
+    guardPendingPlay();
+    if (!node) return;
     try { node.pause(); } catch (_) {}
     try { node.volume = 1; } catch (_) {}
   }
 
   function fadeOutThenPause(node, ms) {
-    if (!node) return;
+    if (!node) {
+      guardPendingPlay();
+      return;
+    }
     cancelFade();
     var from;
     try { from = node.paused ? 0 : node.volume; } catch (_) { from = 1; }
+    // play() not started yet: paused is still true — do not fade, just
+    // guard+pause so a pending play() rejects into catchPlay, not the console.
     if (!from || node.paused) {
       pauseNode(node);
       return;
     }
     var steps = Math.max(3, Math.round(ms / 16));
     var i = 0;
+    var epoch = fadeEpoch;
     fadeTimer = setInterval(function () {
+      if (epoch !== fadeEpoch) return;
       i += 1;
       var t = i / steps;
       try { node.volume = Math.max(0, from * (1 - t)); } catch (_) {}
@@ -163,6 +221,7 @@
       var el = audioEl();
       if (el && el.paused) revokeUrl();
     }, 80);
+    return catchPlay(pendingPlay);
   }
 
   function readFourCC(bytes, offset) {
@@ -295,6 +354,8 @@
     if (!node) return Promise.reject(new Error('CoolSchoolTts: #coolschool-tts missing'));
     if (generation !== speakGeneration) return Promise.resolve();
 
+    // Catch the previous play() before pause/src — both abort a pending play().
+    guardPendingPlay();
     cancelFade();
     pauseNode(node);
     revokeUrl();
@@ -303,6 +364,14 @@
     objectUrl = global.URL.createObjectURL(blob);
 
     return new Promise(function (resolve, reject) {
+      var settled = false;
+      function finish(err) {
+        if (settled) return;
+        settled = true;
+        cleanup();
+        if (err) reject(err);
+        else resolve();
+      }
       function cleanup() {
         node.onended = null;
         node.onerror = null;
@@ -311,42 +380,59 @@
         return generation !== speakGeneration;
       }
       node.onended = function () {
-        cleanup();
         if (!stale()) revokeUrl();
-        resolve();
+        finish();
       };
       node.onerror = function () {
-        cleanup();
         if (stale()) {
-          resolve();
+          finish();
           return;
         }
-        reject(new Error('CoolSchoolTts: audio element failed'));
+        finish(new Error('CoolSchoolTts: audio element failed'));
       };
       try {
         node.volume = 1;
         node.src = objectUrl;
       } catch (err) {
-        cleanup();
-        reject(err);
+        finish(err);
         return;
       }
-      var played = node.play();
-      if (played && played.then) {
-        played.then(function () {
+      if (stale()) {
+        pauseNode(node);
+        finish();
+        return;
+      }
+      var played;
+      try {
+        played = node.play();
+      } catch (err) {
+        if (stale() || isAbortError(err)) {
+          finish();
+          return;
+        }
+        finish(err);
+        return;
+      }
+      pendingPlay = played && typeof played.then === 'function' ? played : null;
+      if (!pendingPlay) return;
+      var tracked = pendingPlay;
+      tracked.then(
+        function () {
+          if (pendingPlay === tracked) pendingPlay = null;
           if (stale()) {
             pauseNode(node);
-            resolve();
+            finish();
           }
-        }).catch(function (err) {
-          cleanup();
-          if (stale()) {
-            resolve();
+        },
+        function (err) {
+          if (pendingPlay === tracked) pendingPlay = null;
+          if (stale() || isAbortError(err)) {
+            finish();
             return;
           }
-          reject(err || new Error('CoolSchoolTts: play blocked'));
-        });
-      }
+          finish(err || new Error('CoolSchoolTts: play blocked'));
+        }
+      );
     });
   }
 
@@ -398,21 +484,26 @@
     var myGen = (speakGeneration += 1);
     fadeOutThenPause(audioEl(), 24);
 
-    return synthesize(String(text), locale).then(function (bytes) {
-      if (myGen !== speakGeneration) return;
-      lastUtterance = {
-        locale: locale,
-        packId: pack.id,
-        voiceId: pack.voice,
-        languageTag: pack.languageTag,
-        engine: 'bundled-espeak',
-        text: String(text),
-        encoding: 'espeak-auto',
-        wordgap: 0
-      };
-      if (!bytes.length) return;
-      return playWavBytes(bytes, myGen);
-    });
+    return synthesize(String(text), locale)
+      .then(function (bytes) {
+        if (myGen !== speakGeneration) return;
+        lastUtterance = {
+          locale: locale,
+          packId: pack.id,
+          voiceId: pack.voice,
+          languageTag: pack.languageTag,
+          engine: 'bundled-espeak',
+          text: String(text),
+          encoding: 'espeak-auto',
+          wordgap: 0
+        };
+        if (!bytes.length) return;
+        return playWavBytes(bytes, myGen);
+      })
+      .then(function () {}, function (err) {
+        if (myGen !== speakGeneration || isAbortError(err)) return;
+        throw err;
+      });
   }
 
   global.CoolSchoolTts = {
@@ -423,7 +514,11 @@
     synthesize: synthesize,
     smoothWavBytes: smoothWavBytes,
     speakSettings: speakSettings,
+    isAbortError: isAbortError,
+    catchPlay: catchPlay,
+    playWavBytes: playWavBytes,
     get lastUtterance() { return lastUtterance; },
-    get speakGeneration() { return speakGeneration; }
+    get speakGeneration() { return speakGeneration; },
+    get pendingPlay() { return pendingPlay; }
   };
 })(typeof window !== 'undefined' ? window : globalThis);
