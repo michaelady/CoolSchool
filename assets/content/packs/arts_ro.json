@@ -23,7 +23,7 @@
         {
           "id": "ro-arts-l1-01",
           "prompt": "Ce culoare?",
-          "promptTts": "roșu",
+          "promptTts": "Ce culoare? Ascultă: roșu.",
           "choices": [
             "roșu",
             "albastru",
@@ -36,7 +36,7 @@
         {
           "id": "ro-arts-l1-02",
           "prompt": "Ce culoare?",
-          "promptTts": "albastru",
+          "promptTts": "Ce culoare? Ascultă: albastru.",
           "choices": [
             "albastru",
             "roșu",
@@ -49,7 +49,7 @@
         {
           "id": "ro-arts-l1-03",
           "prompt": "Ce culoare?",
-          "promptTts": "galben",
+          "promptTts": "Ce culoare? Ascultă: galben.",
           "choices": [
             "galben",
             "roșu",
@@ -62,7 +62,7 @@
         {
           "id": "ro-arts-l1-04",
           "prompt": "Scrie: roșu",
-          "promptTts": "Scrie roșu",
+          "promptTts": "Te rog, scrie cuvântul roșu.",
           "answerMode": "type",
           "acceptedAnswers": [
             "roșu"
@@ -74,7 +74,7 @@
         {
           "id": "ro-arts-l1-05",
           "prompt": "Ce culoare?",
-          "promptTts": "roșu",
+          "promptTts": "Ce culoare? Ascultă: roșu.",
           "choices": [
             "roșu",
             "albastru",
@@ -96,7 +96,7 @@
         {
           "id": "ro-arts-l2-01",
           "prompt": "Ce culoare?",
-          "promptTts": "verde",
+          "promptTts": "Ce culoare? Ascultă: verde.",
           "choices": [
             "verde",
             "roșu",
@@ -109,7 +109,7 @@
         {
           "id": "ro-arts-l2-02",
           "prompt": "Ce culoare?",
-          "promptTts": "portocaliu",
+          "promptTts": "Ce culoare? Ascultă: portocaliu.",
           "choices": [
             "portocaliu",
             "albastru",
@@ -122,7 +122,7 @@
         {
           "id": "ro-arts-l2-03",
           "prompt": "Ce culoare?",
-          "promptTts": "violet",
+          "promptTts": "Ce culoare? Ascultă: violet.",
           "choices": [
             "violet",
             "galben",
@@ -135,7 +135,7 @@
         {
           "id": "ro-arts-l2-04",
           "prompt": "Scrie: albastru",
-          "promptTts": "Scrie albastru",
+          "promptTts": "Te rog, scrie cuvântul albastru.",
           "answerMode": "type",
           "acceptedAnswers": [
             "albastru"
@@ -147,7 +147,7 @@
         {
           "id": "ro-arts-l2-05",
           "prompt": "Ce culoare?",
-          "promptTts": "verde",
+          "promptTts": "Ce culoare? Ascultă: verde.",
           "choices": [
             "verde",
             "roșu",
@@ -169,7 +169,7 @@
         {
           "id": "ro-arts-l3-01",
           "prompt": "Ce formă?",
-          "promptTts": "cerc",
+          "promptTts": "Ce formă? Ascultă: cerc.",
           "choices": [
             "cerc",
             "pătrat",
@@ -182,7 +182,7 @@
         {
           "id": "ro-arts-l3-02",
           "prompt": "Ce formă?",
-          "promptTts": "pătrat",
+          "promptTts": "Ce formă? Ascultă: pătrat.",
           "choices": [
             "pătrat",
             "cerc",
@@ -195,7 +195,7 @@
         {
           "id": "ro-arts-l3-03",
           "prompt": "Ce formă?",
-          "promptTts": "triunghi",
+          "promptTts": "Ce formă? Ascultă: triunghi.",
           "choices": [
             "triunghi",
             "cerc",
@@ -208,7 +208,7 @@
         {
           "id": "ro-arts-l3-04",
           "prompt": "Scrie: cerc",
-          "promptTts": "Scrie cerc",
+          "promptTts": "Te rog, scrie cuvântul cerc.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cerc"
@@ -220,7 +220,7 @@
         {
           "id": "ro-arts-l3-05",
           "prompt": "Cercul are colțuri?",
-          "promptTts": "nu",
+          "promptTts": "Cercul are colțuri? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -240,7 +240,7 @@
         {
           "id": "ro-arts-l4-01",
           "prompt": "Roșu plus galben?",
-          "promptTts": "portocaliu",
+          "promptTts": "Roșu plus galben? Ascultă: portocaliu.",
           "choices": [
             "portocaliu",
             "verde",
@@ -252,7 +252,7 @@
         {
           "id": "ro-arts-l4-02",
           "prompt": "Albastru plus galben?",
-          "promptTts": "verde",
+          "promptTts": "Albastru plus galben? Ascultă: verde.",
           "choices": [
             "verde",
             "portocaliu",
@@ -264,7 +264,7 @@
         {
           "id": "ro-arts-l4-03",
           "prompt": "Roșu plus albastru?",
-          "promptTts": "violet",
+          "promptTts": "Roșu plus albastru? Ascultă: violet.",
           "choices": [
             "violet",
             "verde",
@@ -276,7 +276,7 @@
         {
           "id": "ro-arts-l4-04",
           "prompt": "Scrie: verde",
-          "promptTts": "Scrie verde",
+          "promptTts": "Te rog, scrie cuvântul verde.",
           "answerMode": "type",
           "acceptedAnswers": [
             "verde"
@@ -287,7 +287,7 @@
         {
           "id": "ro-arts-l4-05",
           "prompt": "Putem amesteca culorile?",
-          "promptTts": "da",
+          "promptTts": "Putem amesteca culorile? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -307,7 +307,7 @@
         {
           "id": "ro-arts-l5-01",
           "prompt": "Cu ce pictăm?",
-          "promptTts": "pensulă",
+          "promptTts": "Cu ce pictăm? Ascultă: pensulă.",
           "choices": [
             "pensulă",
             "tobe",
@@ -320,7 +320,7 @@
         {
           "id": "ro-arts-l5-02",
           "prompt": "Cu ce desenăm?",
-          "promptTts": "creion",
+          "promptTts": "Cu ce desenăm? Ascultă: creion.",
           "choices": [
             "creion",
             "flaut",
@@ -333,7 +333,7 @@
         {
           "id": "ro-arts-l5-03",
           "prompt": "Scrie: pensulă",
-          "promptTts": "Scrie pensulă",
+          "promptTts": "Te rog, scrie cuvântul pensulă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pensulă"
@@ -345,7 +345,7 @@
         {
           "id": "ro-arts-l5-04",
           "prompt": "Hârtie pentru pictură?",
-          "promptTts": "da",
+          "promptTts": "Hârtie pentru pictură? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -356,7 +356,7 @@
         {
           "id": "ro-arts-l5-05",
           "prompt": "Foarfecele sunt unealtă?",
-          "promptTts": "da",
+          "promptTts": "Foarfecele sunt unealtă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -377,7 +377,7 @@
         {
           "id": "ro-arts-l6-01",
           "prompt": "Cum sună?",
-          "promptTts": "tare",
+          "promptTts": "Cum sună? Ascultă: tare.",
           "choices": [
             "tare",
             "încet"
@@ -389,7 +389,7 @@
         {
           "id": "ro-arts-l6-02",
           "prompt": "Cum sună?",
-          "promptTts": "încet",
+          "promptTts": "Cum sună? Ascultă: încet.",
           "choices": [
             "încet",
             "tare"
@@ -401,7 +401,7 @@
         {
           "id": "ro-arts-l6-03",
           "prompt": "Scrie: tare",
-          "promptTts": "Scrie tare",
+          "promptTts": "Te rog, scrie cuvântul tare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tare"
@@ -412,7 +412,7 @@
         {
           "id": "ro-arts-l6-04",
           "prompt": "Șoapta e…",
-          "promptTts": "încet",
+          "promptTts": "Șoapta e… Ascultă, cuvântul este încet.",
           "choices": [
             "încet",
             "tare"
@@ -423,7 +423,7 @@
         {
           "id": "ro-arts-l6-05",
           "prompt": "Toba e adesea…",
-          "promptTts": "tare",
+          "promptTts": "Toba e adesea… Ascultă, cuvântul este tare.",
           "choices": [
             "tare",
             "încet"
@@ -444,7 +444,7 @@
         {
           "id": "ro-arts-l7-01",
           "prompt": "Ce instrument?",
-          "promptTts": "tobe",
+          "promptTts": "Ce instrument? Ascultă: tobe.",
           "choices": [
             "tobe",
             "pensulă",
@@ -457,7 +457,7 @@
         {
           "id": "ro-arts-l7-02",
           "prompt": "Ce instrument?",
-          "promptTts": "pian",
+          "promptTts": "Ce instrument? Ascultă: pian.",
           "choices": [
             "pian",
             "pensulă",
@@ -470,7 +470,7 @@
         {
           "id": "ro-arts-l7-03",
           "prompt": "Ce instrument?",
-          "promptTts": "flaut",
+          "promptTts": "Ce instrument? Ascultă: flaut.",
           "choices": [
             "flaut",
             "pătrat",
@@ -483,7 +483,7 @@
         {
           "id": "ro-arts-l7-04",
           "prompt": "Scrie: pian",
-          "promptTts": "Scrie pian",
+          "promptTts": "Te rog, scrie cuvântul pian.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pian"
@@ -495,7 +495,7 @@
         {
           "id": "ro-arts-l7-05",
           "prompt": "Putem dansa pe muzică?",
-          "promptTts": "da",
+          "promptTts": "Putem dansa pe muzică? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -515,7 +515,7 @@
         {
           "id": "ro-arts-l8-01",
           "prompt": "Sunet înalt sau jos?",
-          "promptTts": "înalt",
+          "promptTts": "Sunet înalt sau jos? Ascultă: înalt.",
           "choices": [
             "înalt",
             "jos"
@@ -527,7 +527,7 @@
         {
           "id": "ro-arts-l8-02",
           "prompt": "Sunet înalt sau jos?",
-          "promptTts": "jos",
+          "promptTts": "Sunet înalt sau jos? Ascultă: jos.",
           "choices": [
             "jos",
             "înalt"
@@ -539,7 +539,7 @@
         {
           "id": "ro-arts-l8-03",
           "prompt": "Scrie: înalt",
-          "promptTts": "Scrie înalt",
+          "promptTts": "Te rog, scrie cuvântul înalt.",
           "answerMode": "type",
           "acceptedAnswers": [
             "înalt"
@@ -550,7 +550,7 @@
         {
           "id": "ro-arts-l8-04",
           "prompt": "Pasărea e adesea…",
-          "promptTts": "înalt",
+          "promptTts": "Pasărea e adesea… Ascultă, cuvântul este înalt.",
           "choices": [
             "înalt",
             "jos"
@@ -561,7 +561,7 @@
         {
           "id": "ro-arts-l8-05",
           "prompt": "O tobă mare e adesea…",
-          "promptTts": "jos",
+          "promptTts": "O tobă mare e adesea… Ascultă, cuvântul este jos.",
           "choices": [
             "jos",
             "înalt"
@@ -581,7 +581,7 @@
         {
           "id": "ro-arts-l9-01",
           "prompt": "Ce urmează? 🟥🟦🟥 ?",
-          "promptTts": "🟦",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "🟦",
             "🟨",
@@ -593,7 +593,7 @@
         {
           "id": "ro-arts-l9-02",
           "prompt": "Model: ⭐🌙⭐ ?",
-          "promptTts": "🌙",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "🌙",
             "🍎",
@@ -605,7 +605,7 @@
         {
           "id": "ro-arts-l9-03",
           "prompt": "Câte 🟥 în 🟥🟦🟥?",
-          "promptTts": "Scrie numărul",
+          "promptTts": "Te rog, scrie numărul.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -616,7 +616,7 @@
         {
           "id": "ro-arts-l9-04",
           "prompt": "Un model se repetă?",
-          "promptTts": "da",
+          "promptTts": "Un model se repetă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -627,7 +627,7 @@
         {
           "id": "ro-arts-l9-05",
           "prompt": "Urmează dacă 🔺🔺⬜🔺🔺?",
-          "promptTts": "⬜",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "⬜",
             "🟦",
@@ -648,7 +648,7 @@
         {
           "id": "ro-arts-l10-01",
           "prompt": "Ce emoție?",
-          "promptTts": "vesel",
+          "promptTts": "Ce emoție? Ascultă: vesel.",
           "choices": [
             "vesel",
             "trist"
@@ -660,7 +660,7 @@
         {
           "id": "ro-arts-l10-02",
           "prompt": "Ce emoție?",
-          "promptTts": "trist",
+          "promptTts": "Ce emoție? Ascultă: trist.",
           "choices": [
             "trist",
             "vesel"
@@ -672,7 +672,7 @@
         {
           "id": "ro-arts-l10-03",
           "prompt": "Scrie: vesel",
-          "promptTts": "Scrie vesel",
+          "promptTts": "Te rog, scrie cuvântul vesel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "vesel"
@@ -683,7 +683,7 @@
         {
           "id": "ro-arts-l10-04",
           "prompt": "Soarele pare adesea…",
-          "promptTts": "vesel",
+          "promptTts": "Soarele pare adesea… Ascultă, cuvântul este vesel.",
           "choices": [
             "vesel",
             "trist"
@@ -695,7 +695,7 @@
         {
           "id": "ro-arts-l10-05",
           "prompt": "Arta poate fi tristă?",
-          "promptTts": "da",
+          "promptTts": "Arta poate fi tristă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -715,7 +715,7 @@
         {
           "id": "ro-arts-l11-01",
           "prompt": "Ce facem cu vopseaua?",
-          "promptTts": "pictez",
+          "promptTts": "Ce facem cu vopseaua? Ascultă: pictez.",
           "choices": [
             "pictez",
             "cânt",
@@ -728,7 +728,7 @@
         {
           "id": "ro-arts-l11-02",
           "prompt": "Ce facem cu vocea?",
-          "promptTts": "cânt",
+          "promptTts": "Ce facem cu vocea? Ascultă: cânt.",
           "choices": [
             "cânt",
             "pictez",
@@ -741,7 +741,7 @@
         {
           "id": "ro-arts-l11-03",
           "prompt": "Ce facem cu cuburile?",
-          "promptTts": "construiesc",
+          "promptTts": "Ce facem cu cuburile? Ascultă: construiesc.",
           "choices": [
             "construiesc",
             "cânt",
@@ -754,7 +754,7 @@
         {
           "id": "ro-arts-l11-04",
           "prompt": "Scrie: cânt",
-          "promptTts": "Scrie cânt",
+          "promptTts": "Te rog, scrie cuvântul cânt.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cânt"
@@ -765,7 +765,7 @@
         {
           "id": "ro-arts-l11-05",
           "prompt": "Cântatul e artă?",
-          "promptTts": "da",
+          "promptTts": "Cântatul e artă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -785,7 +785,7 @@
         {
           "id": "ro-arts-l12-01",
           "prompt": "Aplauze: 1-2-3, câte?",
-          "promptTts": "3",
+          "promptTts": "Câte aplauze auzi? Sunt trei.",
           "choices": [
             "2",
             "3",
@@ -797,7 +797,7 @@
         {
           "id": "ro-arts-l12-02",
           "prompt": "Câte bătăi: ♪♪♪♪ ?",
-          "promptTts": "Scrie patru",
+          "promptTts": "Te rog, scrie numărul patru.",
           "answerMode": "type",
           "acceptedAnswers": [
             "4"
@@ -808,7 +808,7 @@
         {
           "id": "ro-arts-l12-03",
           "prompt": "Aplaudatul regulat e ritm?",
-          "promptTts": "da",
+          "promptTts": "Aplaudatul regulat e ritm? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -819,7 +819,7 @@
         {
           "id": "ro-arts-l12-04",
           "prompt": "Putem bate din picior pe un cântec?",
-          "promptTts": "da",
+          "promptTts": "Putem bate din picior pe un cântec? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -830,7 +830,7 @@
         {
           "id": "ro-arts-l12-05",
           "prompt": "Scrie: tobe",
-          "promptTts": "Scrie tobe",
+          "promptTts": "Te rog, scrie cuvântul tobe.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tobe"
@@ -851,7 +851,7 @@
         {
           "id": "ro-arts-l13-01",
           "prompt": "Roșu e culoare caldă?",
-          "promptTts": "da",
+          "promptTts": "Roșu e culoare caldă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -863,7 +863,7 @@
         {
           "id": "ro-arts-l13-02",
           "prompt": "Albastru e mai degrabă rece?",
-          "promptTts": "da",
+          "promptTts": "Albastru e mai degrabă rece? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -875,7 +875,7 @@
         {
           "id": "ro-arts-l13-03",
           "prompt": "Scrie: cald",
-          "promptTts": "Scrie cald",
+          "promptTts": "Te rog, scrie cuvântul cald.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cald"
@@ -886,7 +886,7 @@
         {
           "id": "ro-arts-l13-04",
           "prompt": "Galben: cald?",
-          "promptTts": "da",
+          "promptTts": "Galben: cald? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -898,7 +898,7 @@
         {
           "id": "ro-arts-l13-05",
           "prompt": "Albastrul de gheață pare…",
-          "promptTts": "rece",
+          "promptTts": "Albastrul de gheață pare… Ascultă, cuvântul este rece.",
           "choices": [
             "rece",
             "cald"
@@ -918,7 +918,7 @@
         {
           "id": "ro-arts-l14-01",
           "prompt": "Ce e aspru?",
-          "promptTts": "scoarță",
+          "promptTts": "Ce e aspru? Ascultă: scoarță.",
           "choices": [
             "scoarță",
             "mătase"
@@ -930,7 +930,7 @@
         {
           "id": "ro-arts-l14-02",
           "prompt": "Ce e moale?",
-          "promptTts": "lână",
+          "promptTts": "Ce e moale? Ascultă: lână.",
           "choices": [
             "lână",
             "piatră"
@@ -942,7 +942,7 @@
         {
           "id": "ro-arts-l14-03",
           "prompt": "Scrie: moale",
-          "promptTts": "Scrie moale",
+          "promptTts": "Te rog, scrie cuvântul moale.",
           "answerMode": "type",
           "acceptedAnswers": [
             "moale"
@@ -953,7 +953,7 @@
         {
           "id": "ro-arts-l14-04",
           "prompt": "Arta poate avea texturi?",
-          "promptTts": "da",
+          "promptTts": "Arta poate avea texturi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -964,7 +964,7 @@
         {
           "id": "ro-arts-l14-05",
           "prompt": "Șmirghelul e aspru?",
-          "promptTts": "da",
+          "promptTts": "Șmirghelul e aspru? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -984,7 +984,7 @@
         {
           "id": "ro-arts-l15-01",
           "prompt": "Mișcare pe muzică?",
-          "promptTts": "dans",
+          "promptTts": "Mișcare pe muzică? Ascultă: dans.",
           "choices": [
             "dans",
             "imagine"
@@ -996,7 +996,7 @@
         {
           "id": "ro-arts-l15-02",
           "prompt": "Ceva de privit?",
-          "promptTts": "imagine",
+          "promptTts": "Ceva de privit? Ascultă: imagine.",
           "choices": [
             "imagine",
             "dans"
@@ -1008,7 +1008,7 @@
         {
           "id": "ro-arts-l15-03",
           "prompt": "Scrie: dans",
-          "promptTts": "Scrie dans",
+          "promptTts": "Te rog, scrie cuvântul dans.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dans"
@@ -1019,7 +1019,7 @@
         {
           "id": "ro-arts-l15-04",
           "prompt": "Dansul e artă?",
-          "promptTts": "da",
+          "promptTts": "Dansul e artă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1030,7 +1030,7 @@
         {
           "id": "ro-arts-l15-05",
           "prompt": "Un tablou e pe perete?",
-          "promptTts": "da",
+          "promptTts": "Un tablou e pe perete? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1050,7 +1050,7 @@
         {
           "id": "ro-arts-l16-01",
           "prompt": "⬛⬜⬛ ?",
-          "promptTts": "⬜",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "⬜",
             "🟥",
@@ -1062,7 +1062,7 @@
         {
           "id": "ro-arts-l16-02",
           "prompt": "ABAB, ce e B dacă A=⭐?",
-          "promptTts": "🌙",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "🌙",
             "⭐",
@@ -1074,7 +1074,7 @@
         {
           "id": "ro-arts-l16-03",
           "prompt": "Câte ⬛ în ⬛⬜⬛⬜",
-          "promptTts": "Scrie numărul",
+          "promptTts": "Te rog, scrie numărul.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -1085,7 +1085,7 @@
         {
           "id": "ro-arts-l16-04",
           "prompt": "Modelele pot fi culori?",
-          "promptTts": "da",
+          "promptTts": "Modelele pot fi culori? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1096,7 +1096,7 @@
         {
           "id": "ro-arts-l16-05",
           "prompt": "🔴🟢🔴 ?",
-          "promptTts": "🟢",
+          "promptTts": "Ce urmează în model? Alege imaginea potrivită.",
           "choices": [
             "🟢",
             "🔵",
@@ -1117,7 +1117,7 @@
         {
           "id": "ro-arts-l17-01",
           "prompt": "Prima notă adesea?",
-          "promptTts": "do",
+          "promptTts": "Prima notă adesea? Ascultă: do.",
           "choices": [
             "do",
             "fa",
@@ -1129,7 +1129,7 @@
         {
           "id": "ro-arts-l17-02",
           "prompt": "Do, re, …?",
-          "promptTts": "mi",
+          "promptTts": "Do, re, …? Ascultă: mi.",
           "choices": [
             "mi",
             "sol",
@@ -1141,7 +1141,7 @@
         {
           "id": "ro-arts-l17-03",
           "prompt": "Scrie: do",
-          "promptTts": "Scrie do",
+          "promptTts": "Te rog, scrie cuvântul do.",
           "answerMode": "type",
           "acceptedAnswers": [
             "do"
@@ -1152,7 +1152,7 @@
         {
           "id": "ro-arts-l17-04",
           "prompt": "Notele ajută să cântăm?",
-          "promptTts": "da",
+          "promptTts": "Notele ajută să cântăm? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1163,7 +1163,7 @@
         {
           "id": "ro-arts-l17-05",
           "prompt": "Re vine după do?",
-          "promptTts": "da",
+          "promptTts": "Re vine după do? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1183,7 +1183,7 @@
         {
           "id": "ro-arts-l18-01",
           "prompt": "Noapte înstelată: zi sau noapte?",
-          "promptTts": "noapte",
+          "promptTts": "Noapte înstelată: zi sau noapte? Ascultă: noapte.",
           "choices": [
             "noapte",
             "zi"
@@ -1195,7 +1195,7 @@
         {
           "id": "ro-arts-l18-02",
           "prompt": "Floarea-soarelui: zi sau noapte?",
-          "promptTts": "zi",
+          "promptTts": "Floarea-soarelui: zi sau noapte? Ascultă: zi.",
           "choices": [
             "zi",
             "noapte"
@@ -1207,7 +1207,7 @@
         {
           "id": "ro-arts-l18-03",
           "prompt": "Scrie: noapte",
-          "promptTts": "Scrie noapte",
+          "promptTts": "Te rog, scrie cuvântul noapte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "noapte"
@@ -1218,7 +1218,7 @@
         {
           "id": "ro-arts-l18-04",
           "prompt": "O imagine spune o poveste?",
-          "promptTts": "da",
+          "promptTts": "O imagine spune o poveste? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1229,7 +1229,7 @@
         {
           "id": "ro-arts-l18-05",
           "prompt": "Luna ține mai mult de noapte?",
-          "promptTts": "da",
+          "promptTts": "Luna ține mai mult de noapte? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1250,7 +1250,7 @@
         {
           "id": "ro-arts-l19-01",
           "prompt": "Decorăm o felicitare?",
-          "promptTts": "da",
+          "promptTts": "Decorăm o felicitare? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1262,7 +1262,7 @@
         {
           "id": "ro-arts-l19-02",
           "prompt": "Cu ce lipim?",
-          "promptTts": "lipici",
+          "promptTts": "Cu ce lipim? Ascultă: lipici.",
           "choices": [
             "lipici",
             "tobe",
@@ -1274,7 +1274,7 @@
         {
           "id": "ro-arts-l19-03",
           "prompt": "Scrie: imagine",
-          "promptTts": "Scrie imagine",
+          "promptTts": "Te rog, scrie cuvântul imagine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "imagine"
@@ -1285,7 +1285,7 @@
         {
           "id": "ro-arts-l19-04",
           "prompt": "Decupajul e creare?",
-          "promptTts": "da",
+          "promptTts": "Decupajul e creare? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1297,7 +1297,7 @@
         {
           "id": "ro-arts-l19-05",
           "prompt": "Putem alege culorile?",
-          "promptTts": "da",
+          "promptTts": "Putem alege culorile? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1317,7 +1317,7 @@
         {
           "id": "ro-arts-l20-01",
           "prompt": "Ce culoare?",
-          "promptTts": "roșu",
+          "promptTts": "Ce culoare? Ascultă: roșu.",
           "choices": [
             "roșu",
             "albastru",
@@ -1330,7 +1330,7 @@
         {
           "id": "ro-arts-l20-02",
           "prompt": "Scrie: pian",
-          "promptTts": "Scrie pian",
+          "promptTts": "Te rog, scrie cuvântul pian.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pian"
@@ -1341,7 +1341,7 @@
         {
           "id": "ro-arts-l20-03",
           "prompt": "Ce formă?",
-          "promptTts": "cerc",
+          "promptTts": "Ce formă? Ascultă: cerc.",
           "choices": [
             "cerc",
             "pătrat",
@@ -1354,7 +1354,7 @@
         {
           "id": "ro-arts-l20-04",
           "prompt": "Tare sau încet pentru un cântec de leagăn?",
-          "promptTts": "încet",
+          "promptTts": "Tare sau încet pentru un cântec de leagăn? Ascultă: încet.",
           "choices": [
             "încet",
             "tare"
@@ -1365,7 +1365,7 @@
         {
           "id": "ro-arts-l20-05",
           "prompt": "Scrie: galben",
-          "promptTts": "Scrie galben",
+          "promptTts": "Te rog, scrie cuvântul galben.",
           "answerMode": "type",
           "acceptedAnswers": [
             "galben"

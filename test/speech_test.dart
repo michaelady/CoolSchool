@@ -16,12 +16,30 @@ void main() {
     });
 
     test('rewrites digit soup into spoken words', () {
-      expect(SpokenMath.prepare('2 + 3 = ?', 'fr'), 'deux plus trois');
-      expect(SpokenMath.prepare('2 + 3 = ?', 'de'), 'zwei plus drei');
-      expect(SpokenMath.prepare('5 - 2 = ?', 'en'), 'five minus two');
-      expect(SpokenMath.prepare('5 − 2 = ?', 'de'), 'fünf minus zwei');
-      expect(SpokenMath.prepare('5 − 2 = ?', 'fr'), 'cinq moins deux');
-      expect(SpokenMath.prepare('5 − 2 = ?', 'ro'), 'cinci scăzut doi');
+      expect(
+        SpokenMath.prepare('2 + 3 = ?', 'fr'),
+        'Combien font deux plus trois ? Choisis le bon nombre.',
+      );
+      expect(
+        SpokenMath.prepare('2 + 3 = ?', 'de'),
+        'Was ist zwei plus drei? Wähle die richtige Zahl.',
+      );
+      expect(
+        SpokenMath.prepare('5 - 2 = ?', 'en'),
+        'What is five minus two? Choose the right number.',
+      );
+      expect(
+        SpokenMath.prepare('5 − 2 = ?', 'de'),
+        'Was ist fünf minus zwei? Wähle die richtige Zahl.',
+      );
+      expect(
+        SpokenMath.prepare('5 − 2 = ?', 'fr'),
+        'Combien font cinq moins deux ? Choisis le bon nombre.',
+      );
+      expect(
+        SpokenMath.prepare('5 − 2 = ?', 'ro'),
+        'Cât fac cinci scăzut doi? Alege numărul potrivit.',
+      );
     });
 
     test('rewrites leftover digits inside a sentence', () {
@@ -45,7 +63,10 @@ void main() {
       expect(SpokenMath.numberWord(80, 'fr'), 'quatre-vingts');
       expect(SpokenMath.numberWord(42, 'en'), 'forty-two');
       expect(SpokenMath.numberWord(21, 'ro'), 'douăzeci și unu');
-      expect(SpokenMath.prepare('21 + 8 = ?', 'de'), 'einundzwanzig plus acht');
+      expect(
+        SpokenMath.prepare('21 + 8 = ?', 'de'),
+        'Was ist einundzwanzig plus acht? Wähle die richtige Zahl.',
+      );
     });
   });
 
@@ -322,6 +343,17 @@ void main() {
       expect(FlutterTtsSpeech.kidRate, lessThan(0.5));
       expect(FlutterTtsSpeech.pitchFor('fr'), 1.0);
       expect(FlutterTtsSpeech.pitchFor('de'), greaterThan(1.0));
+    });
+
+    test('bare leftover math becomes a kid question, not two words', () {
+      expect(
+        SpokenMath.prepare('deux plus trois', 'fr'),
+        'Combien font deux plus trois ? Choisis le bon nombre.',
+      );
+      expect(
+        SpokenMath.prepare('Cât fac unu plus unu?', 'ro'),
+        'Cât fac unu plus unu?',
+      );
     });
 
     test('bundled packs stay the default engine for DE/FR/RO and English', () {

@@ -23,7 +23,7 @@
         {
           "id": "en-corps-l1-01",
           "prompt": "Which body part?",
-          "promptTts": "head",
+          "promptTts": "Which body part? Listen: head.",
           "choices": [
             "head",
             "hand",
@@ -36,7 +36,7 @@
         {
           "id": "en-corps-l1-02",
           "prompt": "Which body part?",
-          "promptTts": "hand",
+          "promptTts": "Which body part? Listen: hand.",
           "choices": [
             "hand",
             "head",
@@ -49,7 +49,7 @@
         {
           "id": "en-corps-l1-03",
           "prompt": "Which body part?",
-          "promptTts": "foot",
+          "promptTts": "Which body part? Listen: foot.",
           "choices": [
             "foot",
             "head",
@@ -62,7 +62,7 @@
         {
           "id": "en-corps-l1-04",
           "prompt": "Type: hand",
-          "promptTts": "Type hand",
+          "promptTts": "Please type the word hand.",
           "answerMode": "type",
           "acceptedAnswers": [
             "hand"
@@ -74,7 +74,7 @@
         {
           "id": "en-corps-l1-05",
           "prompt": "Do we have two hands?",
-          "promptTts": "yes",
+          "promptTts": "Do we have two hands? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -94,7 +94,7 @@
         {
           "id": "en-corps-l2-01",
           "prompt": "What do we see with?",
-          "promptTts": "eye",
+          "promptTts": "What do we see with? Listen: eye.",
           "choices": [
             "eye",
             "ear",
@@ -107,7 +107,7 @@
         {
           "id": "en-corps-l2-02",
           "prompt": "What do we hear with?",
-          "promptTts": "ear",
+          "promptTts": "What do we hear with? Listen: ear.",
           "choices": [
             "ear",
             "eye",
@@ -120,7 +120,7 @@
         {
           "id": "en-corps-l2-03",
           "prompt": "Type: head",
-          "promptTts": "Type head",
+          "promptTts": "Please type the word head.",
           "answerMode": "type",
           "acceptedAnswers": [
             "head"
@@ -131,7 +131,7 @@
         {
           "id": "en-corps-l2-04",
           "prompt": "Knee for bending?",
-          "promptTts": "yes",
+          "promptTts": "Knee for bending? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -142,7 +142,7 @@
         {
           "id": "en-corps-l2-05",
           "prompt": "Nose for smelling?",
-          "promptTts": "yes",
+          "promptTts": "Nose for smelling? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -163,7 +163,7 @@
         {
           "id": "en-corps-l3-01",
           "prompt": "Which movement?",
-          "promptTts": "run",
+          "promptTts": "Which movement? Listen: run.",
           "choices": [
             "run",
             "sit",
@@ -176,7 +176,7 @@
         {
           "id": "en-corps-l3-02",
           "prompt": "Which movement?",
-          "promptTts": "jump",
+          "promptTts": "Which movement? Listen: jump.",
           "choices": [
             "jump",
             "sit",
@@ -189,7 +189,7 @@
         {
           "id": "en-corps-l3-03",
           "prompt": "Which movement?",
-          "promptTts": "sit",
+          "promptTts": "Which movement? Listen: sit.",
           "choices": [
             "sit",
             "run",
@@ -202,7 +202,7 @@
         {
           "id": "en-corps-l3-04",
           "prompt": "Type: run",
-          "promptTts": "Type run",
+          "promptTts": "Please type the word run.",
           "answerMode": "type",
           "acceptedAnswers": [
             "run"
@@ -213,7 +213,7 @@
         {
           "id": "en-corps-l3-05",
           "prompt": "Is stretching a movement?",
-          "promptTts": "yes",
+          "promptTts": "Is stretching a movement? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -233,7 +233,7 @@
         {
           "id": "en-corps-l4-01",
           "prompt": "⬅️ is?",
-          "promptTts": "left",
+          "promptTts": "left is? Listen: left.",
           "choices": [
             "left",
             "right"
@@ -244,7 +244,7 @@
         {
           "id": "en-corps-l4-02",
           "prompt": "➡️ is?",
-          "promptTts": "right",
+          "promptTts": "right is? Listen: right.",
           "choices": [
             "right",
             "left"
@@ -255,7 +255,7 @@
         {
           "id": "en-corps-l4-03",
           "prompt": "Type: left",
-          "promptTts": "Type left",
+          "promptTts": "Please type the word left.",
           "answerMode": "type",
           "acceptedAnswers": [
             "left"
@@ -266,7 +266,7 @@
         {
           "id": "en-corps-l4-04",
           "prompt": "Two hands: left and right?",
-          "promptTts": "yes",
+          "promptTts": "Two hands: left and right? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -277,7 +277,7 @@
         {
           "id": "en-corps-l4-05",
           "prompt": "Type: right",
-          "promptTts": "Type right",
+          "promptTts": "Please type the word right.",
           "answerMode": "type",
           "acceptedAnswers": [
             "right"
@@ -297,7 +297,7 @@
         {
           "id": "en-corps-l5-01",
           "prompt": "Which sport?",
-          "promptTts": "football",
+          "promptTts": "Which sport? Listen: football.",
           "choices": [
             "football",
             "sleep",
@@ -310,7 +310,7 @@
         {
           "id": "en-corps-l5-02",
           "prompt": "Which sport?",
-          "promptTts": "swim",
+          "promptTts": "Which sport? Listen: swim.",
           "choices": [
             "swim",
             "sit",
@@ -323,7 +323,7 @@
         {
           "id": "en-corps-l5-03",
           "prompt": "Type: football",
-          "promptTts": "Type football",
+          "promptTts": "Please type the word football.",
           "answerMode": "type",
           "acceptedAnswers": [
             "football"
@@ -335,7 +335,7 @@
         {
           "id": "en-corps-l5-04",
           "prompt": "Can sport be fun?",
-          "promptTts": "yes",
+          "promptTts": "Can sport be fun? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -346,7 +346,7 @@
         {
           "id": "en-corps-l5-05",
           "prompt": "Do you need water to swim?",
-          "promptTts": "yes",
+          "promptTts": "Do you need water to swim? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -366,7 +366,7 @@
         {
           "id": "en-corps-l6-01",
           "prompt": "Better snack idea?",
-          "promptTts": "fruit",
+          "promptTts": "Better snack idea? Listen: fruit.",
           "choices": [
             "fruit",
             "sweet"
@@ -378,7 +378,7 @@
         {
           "id": "en-corps-l6-02",
           "prompt": "Only sweets every day?",
-          "promptTts": "no",
+          "promptTts": "Only sweets every day? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -389,7 +389,7 @@
         {
           "id": "en-corps-l6-03",
           "prompt": "Type: fruit",
-          "promptTts": "Type fruit",
+          "promptTts": "Please type the word fruit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fruit"
@@ -401,7 +401,7 @@
         {
           "id": "en-corps-l6-04",
           "prompt": "Are vegetables often healthy?",
-          "promptTts": "yes",
+          "promptTts": "Are vegetables often healthy? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -413,7 +413,7 @@
         {
           "id": "en-corps-l6-05",
           "prompt": "Is an apple a fruit?",
-          "promptTts": "yes",
+          "promptTts": "Is an apple a fruit? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -433,7 +433,7 @@
         {
           "id": "en-corps-l7-01",
           "prompt": "What do we often drink?",
-          "promptTts": "water",
+          "promptTts": "What do we often drink? Listen: water.",
           "choices": [
             "water",
             "sweet",
@@ -446,7 +446,7 @@
         {
           "id": "en-corps-l7-02",
           "prompt": "Drink after sport?",
-          "promptTts": "yes",
+          "promptTts": "Drink after sport? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -457,7 +457,7 @@
         {
           "id": "en-corps-l7-03",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -469,7 +469,7 @@
         {
           "id": "en-corps-l7-04",
           "prompt": "Does water help the body?",
-          "promptTts": "yes",
+          "promptTts": "Does water help the body? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -480,7 +480,7 @@
         {
           "id": "en-corps-l7-05",
           "prompt": "Only juice all day?",
-          "promptTts": "no",
+          "promptTts": "Only juice all day? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -500,7 +500,7 @@
         {
           "id": "en-corps-l8-01",
           "prompt": "What does the body need at night?",
-          "promptTts": "sleep",
+          "promptTts": "What does the body need at night? Listen: sleep.",
           "choices": [
             "sleep",
             "football",
@@ -513,7 +513,7 @@
         {
           "id": "en-corps-l8-02",
           "prompt": "Tired? Better rest?",
-          "promptTts": "yes",
+          "promptTts": "Tired? Better rest? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -524,7 +524,7 @@
         {
           "id": "en-corps-l8-03",
           "prompt": "Type: sleep",
-          "promptTts": "Type sleep",
+          "promptTts": "Please type the word sleep.",
           "answerMode": "type",
           "acceptedAnswers": [
             "sleep"
@@ -535,7 +535,7 @@
         {
           "id": "en-corps-l8-04",
           "prompt": "Does sleep help us grow?",
-          "promptTts": "yes",
+          "promptTts": "Does sleep help us grow? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -546,7 +546,7 @@
         {
           "id": "en-corps-l8-05",
           "prompt": "Play all night?",
-          "promptTts": "no",
+          "promptTts": "Play all night? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -566,7 +566,7 @@
         {
           "id": "en-corps-l9-01",
           "prompt": "Before eating?",
-          "promptTts": "wash",
+          "promptTts": "Before eating? Listen: wash.",
           "choices": [
             "wash",
             "jump",
@@ -579,7 +579,7 @@
         {
           "id": "en-corps-l9-02",
           "prompt": "Wash hands after the toilet?",
-          "promptTts": "yes",
+          "promptTts": "Wash hands after the toilet? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -590,7 +590,7 @@
         {
           "id": "en-corps-l9-03",
           "prompt": "Type: wash",
-          "promptTts": "Type wash",
+          "promptTts": "Please type the word wash.",
           "answerMode": "type",
           "acceptedAnswers": [
             "wash"
@@ -602,7 +602,7 @@
         {
           "id": "en-corps-l9-04",
           "prompt": "Does soap help?",
-          "promptTts": "yes",
+          "promptTts": "Does soap help? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -613,7 +613,7 @@
         {
           "id": "en-corps-l9-05",
           "prompt": "Dirty hands on the apple?",
-          "promptTts": "no",
+          "promptTts": "Dirty hands on the apple? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -633,7 +633,7 @@
         {
           "id": "en-corps-l10-01",
           "prompt": "What do we brush in the morning?",
-          "promptTts": "teeth",
+          "promptTts": "What do we brush in the morning? Listen: teeth.",
           "choices": [
             "teeth",
             "football",
@@ -646,7 +646,7 @@
         {
           "id": "en-corps-l10-02",
           "prompt": "Teeth in the evening too?",
-          "promptTts": "yes",
+          "promptTts": "Teeth in the evening too? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -657,7 +657,7 @@
         {
           "id": "en-corps-l10-03",
           "prompt": "Type: teeth",
-          "promptTts": "Type teeth",
+          "promptTts": "Please type the word teeth.",
           "answerMode": "type",
           "acceptedAnswers": [
             "teeth"
@@ -668,7 +668,7 @@
         {
           "id": "en-corps-l10-04",
           "prompt": "Use a toothbrush?",
-          "promptTts": "yes",
+          "promptTts": "Use a toothbrush? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -680,7 +680,7 @@
         {
           "id": "en-corps-l10-05",
           "prompt": "Only sweets and never brush?",
-          "promptTts": "no",
+          "promptTts": "Only sweets and never brush? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -700,7 +700,7 @@
         {
           "id": "en-corps-l11-01",
           "prompt": "On a bike?",
-          "promptTts": "helmet",
+          "promptTts": "On a bike? Listen: helmet.",
           "choices": [
             "helmet",
             "sweet",
@@ -713,7 +713,7 @@
         {
           "id": "en-corps-l11-02",
           "prompt": "Does a helmet protect the head?",
-          "promptTts": "yes",
+          "promptTts": "Does a helmet protect the head? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -724,7 +724,7 @@
         {
           "id": "en-corps-l11-03",
           "prompt": "Type: helmet",
-          "promptTts": "Type helmet",
+          "promptTts": "Please type the word helmet.",
           "answerMode": "type",
           "acceptedAnswers": [
             "helmet"
@@ -735,7 +735,7 @@
         {
           "id": "en-corps-l11-04",
           "prompt": "Race without a helmet?",
-          "promptTts": "no",
+          "promptTts": "Race without a helmet? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -746,7 +746,7 @@
         {
           "id": "en-corps-l11-05",
           "prompt": "Seatbelt in the car?",
-          "promptTts": "yes",
+          "promptTts": "Seatbelt in the car? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -766,7 +766,7 @@
         {
           "id": "en-corps-l12-01",
           "prompt": "In the water: with whom?",
-          "promptTts": "an adult",
+          "promptTts": "In the water: with whom? Listen: an adult.",
           "choices": [
             "alone far out",
             "an adult"
@@ -777,7 +777,7 @@
         {
           "id": "en-corps-l12-02",
           "prompt": "If you cannot swim: deep water?",
-          "promptTts": "no",
+          "promptTts": "If you cannot swim: deep water? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -788,7 +788,7 @@
         {
           "id": "en-corps-l12-03",
           "prompt": "Type: swim",
-          "promptTts": "Type swim",
+          "promptTts": "Please type the word swim.",
           "answerMode": "type",
           "acceptedAnswers": [
             "swim"
@@ -799,7 +799,7 @@
         {
           "id": "en-corps-l12-04",
           "prompt": "Call for help if someone does not come up?",
-          "promptTts": "yes",
+          "promptTts": "Call for help if someone does not come up? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -810,7 +810,7 @@
         {
           "id": "en-corps-l12-05",
           "prompt": "Is swimming movement?",
-          "promptTts": "yes",
+          "promptTts": "Is swimming movement? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -830,7 +830,7 @@
         {
           "id": "en-corps-l13-01",
           "prompt": "Play together?",
-          "promptTts": "team",
+          "promptTts": "Play together? Listen: team.",
           "choices": [
             "team",
             "sweet",
@@ -843,7 +843,7 @@
         {
           "id": "en-corps-l13-02",
           "prompt": "On a team we share the ball?",
-          "promptTts": "yes",
+          "promptTts": "On a team we share the ball? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -854,7 +854,7 @@
         {
           "id": "en-corps-l13-03",
           "prompt": "Type: team",
-          "promptTts": "Type team",
+          "promptTts": "Please type the word team.",
           "answerMode": "type",
           "acceptedAnswers": [
             "team"
@@ -865,7 +865,7 @@
         {
           "id": "en-corps-l13-04",
           "prompt": "Only me, never pass?",
-          "promptTts": "no",
+          "promptTts": "Only me, never pass? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -876,7 +876,7 @@
         {
           "id": "en-corps-l13-05",
           "prompt": "Clapping for others is kind?",
-          "promptTts": "yes",
+          "promptTts": "Clapping for others is kind? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -896,7 +896,7 @@
         {
           "id": "en-corps-l14-01",
           "prompt": "Before sport?",
-          "promptTts": "stretch",
+          "promptTts": "Before sport? Listen: stretch.",
           "choices": [
             "stretch",
             "sweet",
@@ -909,7 +909,7 @@
         {
           "id": "en-corps-l14-02",
           "prompt": "Does a warm-up protect?",
-          "promptTts": "yes",
+          "promptTts": "Does a warm-up protect? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -920,7 +920,7 @@
         {
           "id": "en-corps-l14-03",
           "prompt": "Type: stretch",
-          "promptTts": "Type stretch",
+          "promptTts": "Please type the word stretch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stretch"
@@ -931,7 +931,7 @@
         {
           "id": "en-corps-l14-04",
           "prompt": "Start cold and sprint with no prep?",
-          "promptTts": "no",
+          "promptTts": "Start cold and sprint with no prep? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -942,7 +942,7 @@
         {
           "id": "en-corps-l14-05",
           "prompt": "Arm circles are a warm-up?",
-          "promptTts": "yes",
+          "promptTts": "Arm circles are a warm-up? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -962,7 +962,7 @@
         {
           "id": "en-corps-l15-01",
           "prompt": "What beats faster after a run?",
-          "promptTts": "heart",
+          "promptTts": "What beats faster after a run? Listen: heart.",
           "choices": [
             "heart",
             "helmet",
@@ -975,7 +975,7 @@
         {
           "id": "en-corps-l15-02",
           "prompt": "Can you feel the heart in the chest?",
-          "promptTts": "yes",
+          "promptTts": "Can you feel the heart in the chest? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -986,7 +986,7 @@
         {
           "id": "en-corps-l15-03",
           "prompt": "Type: heart",
-          "promptTts": "Type heart",
+          "promptTts": "Please type the word heart.",
           "answerMode": "type",
           "acceptedAnswers": [
             "heart"
@@ -997,7 +997,7 @@
         {
           "id": "en-corps-l15-04",
           "prompt": "Does the pulse calm during rest?",
-          "promptTts": "yes",
+          "promptTts": "Does the pulse calm during rest? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1008,7 +1008,7 @@
         {
           "id": "en-corps-l15-05",
           "prompt": "Can movement strengthen the heart?",
-          "promptTts": "yes",
+          "promptTts": "Can movement strengthen the heart? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1028,7 +1028,7 @@
         {
           "id": "en-corps-l16-01",
           "prompt": "After hard effort?",
-          "promptTts": "rest",
+          "promptTts": "After hard effort? Listen: rest.",
           "choices": [
             "rest",
             "sweet",
@@ -1041,7 +1041,7 @@
         {
           "id": "en-corps-l16-02",
           "prompt": "Drink during the break?",
-          "promptTts": "yes",
+          "promptTts": "Drink during the break? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1052,7 +1052,7 @@
         {
           "id": "en-corps-l16-03",
           "prompt": "Type: rest",
-          "promptTts": "Type rest",
+          "promptTts": "Please type the word rest.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rest"
@@ -1063,7 +1063,7 @@
         {
           "id": "en-corps-l16-04",
           "prompt": "Always continue with no stop?",
-          "promptTts": "no",
+          "promptTts": "Always continue with no stop? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1074,7 +1074,7 @@
         {
           "id": "en-corps-l16-05",
           "prompt": "Is rest part of sport?",
-          "promptTts": "yes",
+          "promptTts": "Is rest part of sport? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1094,7 +1094,7 @@
         {
           "id": "en-corps-l17-01",
           "prompt": "Lose and shake hands?",
-          "promptTts": "fair",
+          "promptTts": "Lose and shake hands? Listen: fair.",
           "choices": [
             "yes",
             "no"
@@ -1105,7 +1105,7 @@
         {
           "id": "en-corps-l17-02",
           "prompt": "Is cheating fair?",
-          "promptTts": "no",
+          "promptTts": "Is cheating fair? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1116,7 +1116,7 @@
         {
           "id": "en-corps-l17-03",
           "prompt": "Type: fair",
-          "promptTts": "Type fair",
+          "promptTts": "Please type the word fair.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fair"
@@ -1127,7 +1127,7 @@
         {
           "id": "en-corps-l17-04",
           "prompt": "Congratulate others?",
-          "promptTts": "yes",
+          "promptTts": "Congratulate others? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1138,7 +1138,7 @@
         {
           "id": "en-corps-l17-05",
           "prompt": "Do rules apply to everyone?",
-          "promptTts": "yes",
+          "promptTts": "Do rules apply to everyone? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1158,7 +1158,7 @@
         {
           "id": "en-corps-l18-01",
           "prompt": "Cold outside: what to wear?",
-          "promptTts": "coat",
+          "promptTts": "Cold outside: what to wear? Listen: coat.",
           "choices": [
             "coat",
             "swim",
@@ -1171,7 +1171,7 @@
         {
           "id": "en-corps-l18-02",
           "prompt": "Sun: is a hat useful?",
-          "promptTts": "yes",
+          "promptTts": "Sun: is a hat useful? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1183,7 +1183,7 @@
         {
           "id": "en-corps-l18-03",
           "prompt": "Type: coat",
-          "promptTts": "Type coat",
+          "promptTts": "Please type the word coat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "coat"
@@ -1194,7 +1194,7 @@
         {
           "id": "en-corps-l18-04",
           "prompt": "Rain: jacket?",
-          "promptTts": "yes",
+          "promptTts": "Rain: jacket? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1205,7 +1205,7 @@
         {
           "id": "en-corps-l18-05",
           "prompt": "Barefoot in the snow for long?",
-          "promptTts": "no",
+          "promptTts": "Barefoot in the snow for long? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1225,7 +1225,7 @@
         {
           "id": "en-corps-l19-01",
           "prompt": "Standing on one foot practices…",
-          "promptTts": "balance",
+          "promptTts": "Standing on one foot practices… Listen, the word is balance.",
           "choices": [
             "balance",
             "sweet",
@@ -1238,7 +1238,7 @@
         {
           "id": "en-corps-l19-02",
           "prompt": "Does looking help with balance?",
-          "promptTts": "yes",
+          "promptTts": "Does looking help with balance? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1249,7 +1249,7 @@
         {
           "id": "en-corps-l19-03",
           "prompt": "Type: balance",
-          "promptTts": "Type balance",
+          "promptTts": "Please type the word balance.",
           "answerMode": "type",
           "acceptedAnswers": [
             "balance"
@@ -1260,7 +1260,7 @@
         {
           "id": "en-corps-l19-04",
           "prompt": "A soft mat for practice is ok?",
-          "promptTts": "yes",
+          "promptTts": "A soft mat for practice is ok? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1271,7 +1271,7 @@
         {
           "id": "en-corps-l19-05",
           "prompt": "On a high wall with no help?",
-          "promptTts": "no",
+          "promptTts": "On a high wall with no help? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1291,7 +1291,7 @@
         {
           "id": "en-corps-l20-01",
           "prompt": "Which body part?",
-          "promptTts": "hand",
+          "promptTts": "Which body part? Listen: hand.",
           "choices": [
             "hand",
             "coat",
@@ -1304,7 +1304,7 @@
         {
           "id": "en-corps-l20-02",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -1316,7 +1316,7 @@
         {
           "id": "en-corps-l20-03",
           "prompt": "On a bike?",
-          "promptTts": "helmet",
+          "promptTts": "On a bike? Listen: helmet.",
           "choices": [
             "helmet",
             "sweet",
@@ -1328,7 +1328,7 @@
         {
           "id": "en-corps-l20-04",
           "prompt": "What is kind in a game?",
-          "promptTts": "fair",
+          "promptTts": "What is kind in a game? Listen: fair.",
           "choices": [
             "yes",
             "no"
@@ -1339,7 +1339,7 @@
         {
           "id": "en-corps-l20-05",
           "prompt": "Type: jump",
-          "promptTts": "Type jump",
+          "promptTts": "Please type the word jump.",
           "answerMode": "type",
           "acceptedAnswers": [
             "jump"

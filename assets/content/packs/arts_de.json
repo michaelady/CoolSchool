@@ -23,7 +23,7 @@
         {
           "id": "de-arts-l1-01",
           "prompt": "Welche Farbe?",
-          "promptTts": "rot",
+          "promptTts": "Welche Farbe? Hör zu: rot.",
           "choices": [
             "rot",
             "blau",
@@ -36,7 +36,7 @@
         {
           "id": "de-arts-l1-02",
           "prompt": "Welche Farbe?",
-          "promptTts": "blau",
+          "promptTts": "Welche Farbe? Hör zu: blau.",
           "choices": [
             "blau",
             "rot",
@@ -49,7 +49,7 @@
         {
           "id": "de-arts-l1-03",
           "prompt": "Welche Farbe?",
-          "promptTts": "gelb",
+          "promptTts": "Welche Farbe? Hör zu: gelb.",
           "choices": [
             "gelb",
             "rot",
@@ -62,7 +62,7 @@
         {
           "id": "de-arts-l1-04",
           "prompt": "Schreib: rot",
-          "promptTts": "Schreib rot",
+          "promptTts": "Schreib bitte das Wort rot.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rot"
@@ -74,7 +74,7 @@
         {
           "id": "de-arts-l1-05",
           "prompt": "Welche Farbe?",
-          "promptTts": "rot",
+          "promptTts": "Welche Farbe? Hör zu: rot.",
           "choices": [
             "rot",
             "blau",
@@ -96,7 +96,7 @@
         {
           "id": "de-arts-l2-01",
           "prompt": "Welche Farbe?",
-          "promptTts": "grün",
+          "promptTts": "Welche Farbe? Hör zu: grün.",
           "choices": [
             "grün",
             "rot",
@@ -109,7 +109,7 @@
         {
           "id": "de-arts-l2-02",
           "prompt": "Welche Farbe?",
-          "promptTts": "orange",
+          "promptTts": "Welche Farbe? Hör zu: orange.",
           "choices": [
             "orange",
             "blau",
@@ -122,7 +122,7 @@
         {
           "id": "de-arts-l2-03",
           "prompt": "Welche Farbe?",
-          "promptTts": "violett",
+          "promptTts": "Welche Farbe? Hör zu: violett.",
           "choices": [
             "violett",
             "gelb",
@@ -135,7 +135,7 @@
         {
           "id": "de-arts-l2-04",
           "prompt": "Schreib: blau",
-          "promptTts": "Schreib blau",
+          "promptTts": "Schreib bitte das Wort blau.",
           "answerMode": "type",
           "acceptedAnswers": [
             "blau"
@@ -147,7 +147,7 @@
         {
           "id": "de-arts-l2-05",
           "prompt": "Welche Farbe?",
-          "promptTts": "grün",
+          "promptTts": "Welche Farbe? Hör zu: grün.",
           "choices": [
             "grün",
             "rot",
@@ -169,7 +169,7 @@
         {
           "id": "de-arts-l3-01",
           "prompt": "Welche Form?",
-          "promptTts": "Kreis",
+          "promptTts": "Welche Form? Hör zu: Kreis.",
           "choices": [
             "Kreis",
             "Quadrat",
@@ -182,7 +182,7 @@
         {
           "id": "de-arts-l3-02",
           "prompt": "Welche Form?",
-          "promptTts": "Quadrat",
+          "promptTts": "Welche Form? Hör zu: Quadrat.",
           "choices": [
             "Quadrat",
             "Kreis",
@@ -195,7 +195,7 @@
         {
           "id": "de-arts-l3-03",
           "prompt": "Welche Form?",
-          "promptTts": "Dreieck",
+          "promptTts": "Welche Form? Hör zu: Dreieck.",
           "choices": [
             "Dreieck",
             "Kreis",
@@ -208,7 +208,7 @@
         {
           "id": "de-arts-l3-04",
           "prompt": "Schreib: Kreis",
-          "promptTts": "Schreib Kreis",
+          "promptTts": "Schreib bitte das Wort Kreis.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Kreis"
@@ -220,7 +220,7 @@
         {
           "id": "de-arts-l3-05",
           "prompt": "Hat ein Kreis Ecken?",
-          "promptTts": "nein",
+          "promptTts": "Hat ein Kreis Ecken? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -240,7 +240,7 @@
         {
           "id": "de-arts-l4-01",
           "prompt": "Rot plus Gelb?",
-          "promptTts": "orange",
+          "promptTts": "Rot plus Gelb? Hör zu: orange.",
           "choices": [
             "orange",
             "grün",
@@ -252,7 +252,7 @@
         {
           "id": "de-arts-l4-02",
           "prompt": "Blau plus Gelb?",
-          "promptTts": "grün",
+          "promptTts": "Blau plus Gelb? Hör zu: grün.",
           "choices": [
             "grün",
             "orange",
@@ -264,7 +264,7 @@
         {
           "id": "de-arts-l4-03",
           "prompt": "Rot plus Blau?",
-          "promptTts": "violett",
+          "promptTts": "Rot plus Blau? Hör zu: violett.",
           "choices": [
             "violett",
             "grün",
@@ -276,7 +276,7 @@
         {
           "id": "de-arts-l4-04",
           "prompt": "Schreib: grün",
-          "promptTts": "Schreib grün",
+          "promptTts": "Schreib bitte das Wort grün.",
           "answerMode": "type",
           "acceptedAnswers": [
             "grün"
@@ -287,7 +287,7 @@
         {
           "id": "de-arts-l4-05",
           "prompt": "Kann man Farben mischen?",
-          "promptTts": "ja",
+          "promptTts": "Kann man Farben mischen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -307,7 +307,7 @@
         {
           "id": "de-arts-l5-01",
           "prompt": "Womit malen?",
-          "promptTts": "Pinsel",
+          "promptTts": "Womit malen? Hör zu: Pinsel.",
           "choices": [
             "Pinsel",
             "Trommel",
@@ -320,7 +320,7 @@
         {
           "id": "de-arts-l5-02",
           "prompt": "Womit zeichnen?",
-          "promptTts": "Stift",
+          "promptTts": "Womit zeichnen? Hör zu: Stift.",
           "choices": [
             "Stift",
             "Flöte",
@@ -333,7 +333,7 @@
         {
           "id": "de-arts-l5-03",
           "prompt": "Schreib: Pinsel",
-          "promptTts": "Schreib Pinsel",
+          "promptTts": "Schreib bitte das Wort Pinsel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Pinsel"
@@ -345,7 +345,7 @@
         {
           "id": "de-arts-l5-04",
           "prompt": "Papier zum Malen?",
-          "promptTts": "ja",
+          "promptTts": "Papier zum Malen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -356,7 +356,7 @@
         {
           "id": "de-arts-l5-05",
           "prompt": "Ist eine Schere ein Werkzeug?",
-          "promptTts": "ja",
+          "promptTts": "Ist eine Schere ein Werkzeug? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -377,7 +377,7 @@
         {
           "id": "de-arts-l6-01",
           "prompt": "Wie klingt das?",
-          "promptTts": "laut",
+          "promptTts": "Wie klingt das? Hör zu: laut.",
           "choices": [
             "laut",
             "leise"
@@ -389,7 +389,7 @@
         {
           "id": "de-arts-l6-02",
           "prompt": "Wie klingt das?",
-          "promptTts": "leise",
+          "promptTts": "Wie klingt das? Hör zu: leise.",
           "choices": [
             "leise",
             "laut"
@@ -401,7 +401,7 @@
         {
           "id": "de-arts-l6-03",
           "prompt": "Schreib: laut",
-          "promptTts": "Schreib laut",
+          "promptTts": "Schreib bitte das Wort laut.",
           "answerMode": "type",
           "acceptedAnswers": [
             "laut"
@@ -412,7 +412,7 @@
         {
           "id": "de-arts-l6-04",
           "prompt": "Flüstern ist…",
-          "promptTts": "leise",
+          "promptTts": "Flüstern ist… Hör zu, das Wort ist leise.",
           "choices": [
             "leise",
             "laut"
@@ -423,7 +423,7 @@
         {
           "id": "de-arts-l6-05",
           "prompt": "Trommel oft…",
-          "promptTts": "laut",
+          "promptTts": "Trommel oft… Hör zu, das Wort ist laut.",
           "choices": [
             "laut",
             "leise"
@@ -444,7 +444,7 @@
         {
           "id": "de-arts-l7-01",
           "prompt": "Welches Instrument?",
-          "promptTts": "Trommel",
+          "promptTts": "Welches Instrument? Hör zu: Trommel.",
           "choices": [
             "Trommel",
             "Pinsel",
@@ -457,7 +457,7 @@
         {
           "id": "de-arts-l7-02",
           "prompt": "Welches Instrument?",
-          "promptTts": "Klavier",
+          "promptTts": "Welches Instrument? Hör zu: Klavier.",
           "choices": [
             "Klavier",
             "Pinsel",
@@ -470,7 +470,7 @@
         {
           "id": "de-arts-l7-03",
           "prompt": "Welches Instrument?",
-          "promptTts": "Flöte",
+          "promptTts": "Welches Instrument? Hör zu: Flöte.",
           "choices": [
             "Flöte",
             "Quadrat",
@@ -483,7 +483,7 @@
         {
           "id": "de-arts-l7-04",
           "prompt": "Schreib: Klavier",
-          "promptTts": "Schreib Klavier",
+          "promptTts": "Schreib bitte das Wort Klavier.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Klavier"
@@ -495,7 +495,7 @@
         {
           "id": "de-arts-l7-05",
           "prompt": "Kann man zur Musik tanzen?",
-          "promptTts": "ja",
+          "promptTts": "Kann man zur Musik tanzen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -515,7 +515,7 @@
         {
           "id": "de-arts-l8-01",
           "prompt": "Hoher Ton oder tiefer?",
-          "promptTts": "hoch",
+          "promptTts": "Hoher Ton oder tiefer? Hör zu: hoch.",
           "choices": [
             "hoch",
             "tief"
@@ -527,7 +527,7 @@
         {
           "id": "de-arts-l8-02",
           "prompt": "Hoher Ton oder tiefer?",
-          "promptTts": "tief",
+          "promptTts": "Hoher Ton oder tiefer? Hör zu: tief.",
           "choices": [
             "tief",
             "hoch"
@@ -539,7 +539,7 @@
         {
           "id": "de-arts-l8-03",
           "prompt": "Schreib: hoch",
-          "promptTts": "Schreib hoch",
+          "promptTts": "Schreib bitte das Wort hoch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "hoch"
@@ -550,7 +550,7 @@
         {
           "id": "de-arts-l8-04",
           "prompt": "Piep der Vogel oft…",
-          "promptTts": "hoch",
+          "promptTts": "Piep der Vogel oft… Hör zu, das Wort ist hoch.",
           "choices": [
             "hoch",
             "tief"
@@ -561,7 +561,7 @@
         {
           "id": "de-arts-l8-05",
           "prompt": "Grosse Trommel oft…",
-          "promptTts": "tief",
+          "promptTts": "Grosse Trommel oft… Hör zu, das Wort ist tief.",
           "choices": [
             "tief",
             "hoch"
@@ -581,7 +581,7 @@
         {
           "id": "de-arts-l9-01",
           "prompt": "Was kommt als Nächstes? 🟥🟦🟥 ?",
-          "promptTts": "🟦",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "🟦",
             "🟨",
@@ -593,7 +593,7 @@
         {
           "id": "de-arts-l9-02",
           "prompt": "Muster: ⭐🌙⭐ ?",
-          "promptTts": "🌙",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "🌙",
             "🍎",
@@ -605,7 +605,7 @@
         {
           "id": "de-arts-l9-03",
           "prompt": "Wie oft 🟥 in 🟥🟦🟥?",
-          "promptTts": "Schreib die Zahl",
+          "promptTts": "Schreib bitte die Zahl.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -616,7 +616,7 @@
         {
           "id": "de-arts-l9-04",
           "prompt": "Wiederholt sich ein Muster?",
-          "promptTts": "ja",
+          "promptTts": "Wiederholt sich ein Muster? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -627,7 +627,7 @@
         {
           "id": "de-arts-l9-05",
           "prompt": "🔺🔺⬜ als Nächstes wenn 🔺🔺⬜🔺🔺?",
-          "promptTts": "⬜",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "⬜",
             "🟦",
@@ -648,7 +648,7 @@
         {
           "id": "de-arts-l10-01",
           "prompt": "Wie fühlt sich das Bild an?",
-          "promptTts": "froh",
+          "promptTts": "Wie fühlt sich das Bild an? Hör zu: froh.",
           "choices": [
             "froh",
             "traurig"
@@ -660,7 +660,7 @@
         {
           "id": "de-arts-l10-02",
           "prompt": "Wie fühlt sich das Bild an?",
-          "promptTts": "traurig",
+          "promptTts": "Wie fühlt sich das Bild an? Hör zu: traurig.",
           "choices": [
             "traurig",
             "froh"
@@ -672,7 +672,7 @@
         {
           "id": "de-arts-l10-03",
           "prompt": "Schreib: froh",
-          "promptTts": "Schreib froh",
+          "promptTts": "Schreib bitte das Wort froh.",
           "answerMode": "type",
           "acceptedAnswers": [
             "froh"
@@ -683,7 +683,7 @@
         {
           "id": "de-arts-l10-04",
           "prompt": "Sonne wirkt oft…",
-          "promptTts": "froh",
+          "promptTts": "Sonne wirkt oft… Hör zu, das Wort ist froh.",
           "choices": [
             "froh",
             "traurig"
@@ -695,7 +695,7 @@
         {
           "id": "de-arts-l10-05",
           "prompt": "Darf Kunst traurig sein?",
-          "promptTts": "ja",
+          "promptTts": "Darf Kunst traurig sein? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -715,7 +715,7 @@
         {
           "id": "de-arts-l11-01",
           "prompt": "Was tun wir mit Farbe?",
-          "promptTts": "malen",
+          "promptTts": "Was tun wir mit Farbe? Hör zu: malen.",
           "choices": [
             "malen",
             "singen",
@@ -728,7 +728,7 @@
         {
           "id": "de-arts-l11-02",
           "prompt": "Was tun wir mit der Stimme?",
-          "promptTts": "singen",
+          "promptTts": "Was tun wir mit der Stimme? Hör zu: singen.",
           "choices": [
             "singen",
             "malen",
@@ -741,7 +741,7 @@
         {
           "id": "de-arts-l11-03",
           "prompt": "Was tun wir mit Klötzen?",
-          "promptTts": "bauen",
+          "promptTts": "Was tun wir mit Klötzen? Hör zu: bauen.",
           "choices": [
             "bauen",
             "singen",
@@ -754,7 +754,7 @@
         {
           "id": "de-arts-l11-04",
           "prompt": "Schreib: singen",
-          "promptTts": "Schreib singen",
+          "promptTts": "Schreib bitte das Wort singen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "singen"
@@ -765,7 +765,7 @@
         {
           "id": "de-arts-l11-05",
           "prompt": "Gehört Singen zur Kunst?",
-          "promptTts": "ja",
+          "promptTts": "Gehört Singen zur Kunst? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -785,7 +785,7 @@
         {
           "id": "de-arts-l12-01",
           "prompt": "Klatsch: 1-2-3, wie viele?",
-          "promptTts": "3",
+          "promptTts": "Wie viele Klatscher hörst du? Es sind drei.",
           "choices": [
             "2",
             "3",
@@ -797,7 +797,7 @@
         {
           "id": "de-arts-l12-02",
           "prompt": "Wie viele Schläge: ♪♪♪♪ ?",
-          "promptTts": "Schreib vier",
+          "promptTts": "Schreib bitte die Zahl vier.",
           "answerMode": "type",
           "acceptedAnswers": [
             "4"
@@ -808,7 +808,7 @@
         {
           "id": "de-arts-l12-03",
           "prompt": "Gleichmässig klatschen ist Rhythmus?",
-          "promptTts": "ja",
+          "promptTts": "Gleichmässig klatschen ist Rhythmus? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -819,7 +819,7 @@
         {
           "id": "de-arts-l12-04",
           "prompt": "Kann man auf ein Lied stampfen?",
-          "promptTts": "ja",
+          "promptTts": "Kann man auf ein Lied stampfen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -830,7 +830,7 @@
         {
           "id": "de-arts-l12-05",
           "prompt": "Schreib: Trommel",
-          "promptTts": "Schreib Trommel",
+          "promptTts": "Schreib bitte das Wort Trommel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Trommel"
@@ -851,7 +851,7 @@
         {
           "id": "de-arts-l13-01",
           "prompt": "Ist Rot eine warme Farbe?",
-          "promptTts": "ja",
+          "promptTts": "Ist Rot eine warme Farbe? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -863,7 +863,7 @@
         {
           "id": "de-arts-l13-02",
           "prompt": "Ist Blau eher kalt?",
-          "promptTts": "ja",
+          "promptTts": "Ist Blau eher kalt? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -875,7 +875,7 @@
         {
           "id": "de-arts-l13-03",
           "prompt": "Schreib: warm",
-          "promptTts": "Schreib warm",
+          "promptTts": "Schreib bitte das Wort warm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "warm"
@@ -886,7 +886,7 @@
         {
           "id": "de-arts-l13-04",
           "prompt": "Gelb: warm?",
-          "promptTts": "ja",
+          "promptTts": "Gelb: warm? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -898,7 +898,7 @@
         {
           "id": "de-arts-l13-05",
           "prompt": "Eisblau wirkt…",
-          "promptTts": "kalt",
+          "promptTts": "Eisblau wirkt… Hör zu, das Wort ist kalt.",
           "choices": [
             "kalt",
             "warm"
@@ -918,7 +918,7 @@
         {
           "id": "de-arts-l14-01",
           "prompt": "Was fühlt sich rau an?",
-          "promptTts": "Rinde",
+          "promptTts": "Was fühlt sich rau an? Hör zu: Rinde.",
           "choices": [
             "Rinde",
             "Seide"
@@ -930,7 +930,7 @@
         {
           "id": "de-arts-l14-02",
           "prompt": "Was fühlt sich weich an?",
-          "promptTts": "Wolle",
+          "promptTts": "Was fühlt sich weich an? Hör zu: Wolle.",
           "choices": [
             "Wolle",
             "Stein"
@@ -942,7 +942,7 @@
         {
           "id": "de-arts-l14-03",
           "prompt": "Schreib: weich",
-          "promptTts": "Schreib weich",
+          "promptTts": "Schreib bitte das Wort weich.",
           "answerMode": "type",
           "acceptedAnswers": [
             "weich"
@@ -953,7 +953,7 @@
         {
           "id": "de-arts-l14-04",
           "prompt": "Kann Kunst verschiedene Texturen haben?",
-          "promptTts": "ja",
+          "promptTts": "Kann Kunst verschiedene Texturen haben? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -964,7 +964,7 @@
         {
           "id": "de-arts-l14-05",
           "prompt": "Sandpapier ist rau?",
-          "promptTts": "ja",
+          "promptTts": "Sandpapier ist rau? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -984,7 +984,7 @@
         {
           "id": "de-arts-l15-01",
           "prompt": "Bewegung zur Musik?",
-          "promptTts": "Tanz",
+          "promptTts": "Bewegung zur Musik? Hör zu: Tanz.",
           "choices": [
             "Tanz",
             "Bild"
@@ -996,7 +996,7 @@
         {
           "id": "de-arts-l15-02",
           "prompt": "Etwas zum Anschauen?",
-          "promptTts": "Bild",
+          "promptTts": "Etwas zum Anschauen? Hör zu: Bild.",
           "choices": [
             "Bild",
             "Tanz"
@@ -1008,7 +1008,7 @@
         {
           "id": "de-arts-l15-03",
           "prompt": "Schreib: Tanz",
-          "promptTts": "Schreib Tanz",
+          "promptTts": "Schreib bitte das Wort Tanz.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Tanz"
@@ -1019,7 +1019,7 @@
         {
           "id": "de-arts-l15-04",
           "prompt": "Gehört Tanz zu den Künsten?",
-          "promptTts": "ja",
+          "promptTts": "Gehört Tanz zu den Künsten? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1030,7 +1030,7 @@
         {
           "id": "de-arts-l15-05",
           "prompt": "Ein Bild hängt an der Wand?",
-          "promptTts": "ja",
+          "promptTts": "Ein Bild hängt an der Wand? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1050,7 +1050,7 @@
         {
           "id": "de-arts-l16-01",
           "prompt": "⬛⬜⬛ ?",
-          "promptTts": "⬜",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "⬜",
             "🟥",
@@ -1062,7 +1062,7 @@
         {
           "id": "de-arts-l16-02",
           "prompt": "ABAB, was ist B wenn A=⭐?",
-          "promptTts": "🌙",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "🌙",
             "⭐",
@@ -1074,7 +1074,7 @@
         {
           "id": "de-arts-l16-03",
           "prompt": "Anzahl ⬛ in ⬛⬜⬛⬜",
-          "promptTts": "Schreib die Zahl",
+          "promptTts": "Schreib bitte die Zahl.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -1085,7 +1085,7 @@
         {
           "id": "de-arts-l16-04",
           "prompt": "Muster können Farben sein?",
-          "promptTts": "ja",
+          "promptTts": "Muster können Farben sein? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1096,7 +1096,7 @@
         {
           "id": "de-arts-l16-05",
           "prompt": "🔴🟢🔴 ?",
-          "promptTts": "🟢",
+          "promptTts": "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
           "choices": [
             "🟢",
             "🔵",
@@ -1117,7 +1117,7 @@
         {
           "id": "de-arts-l17-01",
           "prompt": "Erste Note oft?",
-          "promptTts": "do",
+          "promptTts": "Erste Note oft? Hör zu: do.",
           "choices": [
             "do",
             "fa",
@@ -1129,7 +1129,7 @@
         {
           "id": "de-arts-l17-02",
           "prompt": "Do, re, …?",
-          "promptTts": "mi",
+          "promptTts": "Do, re, …? Hör zu: mi.",
           "choices": [
             "mi",
             "sol",
@@ -1141,7 +1141,7 @@
         {
           "id": "de-arts-l17-03",
           "prompt": "Schreib: do",
-          "promptTts": "Schreib do",
+          "promptTts": "Schreib bitte das Wort do.",
           "answerMode": "type",
           "acceptedAnswers": [
             "do"
@@ -1152,7 +1152,7 @@
         {
           "id": "de-arts-l17-04",
           "prompt": "Noten helfen zu singen?",
-          "promptTts": "ja",
+          "promptTts": "Noten helfen zu singen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1163,7 +1163,7 @@
         {
           "id": "de-arts-l17-05",
           "prompt": "Re kommt nach do?",
-          "promptTts": "ja",
+          "promptTts": "Re kommt nach do? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1183,7 +1183,7 @@
         {
           "id": "de-arts-l18-01",
           "prompt": "Sternennacht: Tag oder Nacht?",
-          "promptTts": "Nacht",
+          "promptTts": "Sternennacht: Tag oder Nacht? Hör zu: Nacht.",
           "choices": [
             "Nacht",
             "Tag"
@@ -1195,7 +1195,7 @@
         {
           "id": "de-arts-l18-02",
           "prompt": "Sonnenblumen: Tag oder Nacht?",
-          "promptTts": "Tag",
+          "promptTts": "Sonnenblumen: Tag oder Nacht? Hör zu: Tag.",
           "choices": [
             "Tag",
             "Nacht"
@@ -1207,7 +1207,7 @@
         {
           "id": "de-arts-l18-03",
           "prompt": "Schreib: Nacht",
-          "promptTts": "Schreib Nacht",
+          "promptTts": "Schreib bitte das Wort Nacht.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Nacht"
@@ -1218,7 +1218,7 @@
         {
           "id": "de-arts-l18-04",
           "prompt": "Kann ein Bild eine Geschichte erzählen?",
-          "promptTts": "ja",
+          "promptTts": "Kann ein Bild eine Geschichte erzählen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1229,7 +1229,7 @@
         {
           "id": "de-arts-l18-05",
           "prompt": "Mond gehört eher zur Nacht?",
-          "promptTts": "ja",
+          "promptTts": "Mond gehört eher zur Nacht? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1250,7 +1250,7 @@
         {
           "id": "de-arts-l19-01",
           "prompt": "Schmücken wir eine Karte?",
-          "promptTts": "ja",
+          "promptTts": "Schmücken wir eine Karte? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1262,7 +1262,7 @@
         {
           "id": "de-arts-l19-02",
           "prompt": "Mit was kleben?",
-          "promptTts": "Leim",
+          "promptTts": "Mit was kleben? Hör zu: Leim.",
           "choices": [
             "Leim",
             "Trommel",
@@ -1274,7 +1274,7 @@
         {
           "id": "de-arts-l19-03",
           "prompt": "Schreib: Bild",
-          "promptTts": "Schreib Bild",
+          "promptTts": "Schreib bitte das Wort Bild.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Bild"
@@ -1285,7 +1285,7 @@
         {
           "id": "de-arts-l19-04",
           "prompt": "Scherenschnitt ist Gestalten?",
-          "promptTts": "ja",
+          "promptTts": "Scherenschnitt ist Gestalten? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1297,7 +1297,7 @@
         {
           "id": "de-arts-l19-05",
           "prompt": "Dürfen wir Farben wählen?",
-          "promptTts": "ja",
+          "promptTts": "Dürfen wir Farben wählen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1317,7 +1317,7 @@
         {
           "id": "de-arts-l20-01",
           "prompt": "Welche Farbe?",
-          "promptTts": "rot",
+          "promptTts": "Welche Farbe? Hör zu: rot.",
           "choices": [
             "rot",
             "blau",
@@ -1330,7 +1330,7 @@
         {
           "id": "de-arts-l20-02",
           "prompt": "Schreib: Klavier",
-          "promptTts": "Schreib Klavier",
+          "promptTts": "Schreib bitte das Wort Klavier.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Klavier"
@@ -1341,7 +1341,7 @@
         {
           "id": "de-arts-l20-03",
           "prompt": "Welche Form?",
-          "promptTts": "Kreis",
+          "promptTts": "Welche Form? Hör zu: Kreis.",
           "choices": [
             "Kreis",
             "Quadrat",
@@ -1354,7 +1354,7 @@
         {
           "id": "de-arts-l20-04",
           "prompt": "Laut oder leise für eine Wiege?",
-          "promptTts": "leise",
+          "promptTts": "Laut oder leise für eine Wiege? Hör zu: leise.",
           "choices": [
             "leise",
             "laut"
@@ -1365,7 +1365,7 @@
         {
           "id": "de-arts-l20-05",
           "prompt": "Schreib: gelb",
-          "promptTts": "Schreib gelb",
+          "promptTts": "Schreib bitte das Wort gelb.",
           "answerMode": "type",
           "acceptedAnswers": [
             "gelb"

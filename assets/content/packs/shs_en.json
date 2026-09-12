@@ -23,7 +23,7 @@
         {
           "id": "en-shs-l1-01",
           "prompt": "Who is this?",
-          "promptTts": "mum",
+          "promptTts": "Who is this? Listen: mum.",
           "choices": [
             "mum",
             "school",
@@ -36,7 +36,7 @@
         {
           "id": "en-shs-l1-02",
           "prompt": "Who is this?",
-          "promptTts": "dad",
+          "promptTts": "Who is this? Listen: dad.",
           "choices": [
             "dad",
             "park",
@@ -49,7 +49,7 @@
         {
           "id": "en-shs-l1-03",
           "prompt": "Family: who is missing?",
-          "promptTts": "me",
+          "promptTts": "Family: who is missing? Listen: me.",
           "choices": [
             "me",
             "Switzerland",
@@ -62,7 +62,7 @@
         {
           "id": "en-shs-l1-04",
           "prompt": "Type: mum",
-          "promptTts": "Type mum",
+          "promptTts": "Please type the word mum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mum"
@@ -94,7 +94,7 @@
         {
           "id": "en-shs-l2-01",
           "prompt": "Where do we sleep?",
-          "promptTts": "in bed",
+          "promptTts": "Where do we sleep? Listen: in bed.",
           "choices": [
             "house",
             "school",
@@ -107,7 +107,7 @@
         {
           "id": "en-shs-l2-02",
           "prompt": "Where do we cook?",
-          "promptTts": "in the kitchen",
+          "promptTts": "Where do we cook? Listen: in the kitchen.",
           "choices": [
             "kitchen",
             "school",
@@ -120,7 +120,7 @@
         {
           "id": "en-shs-l2-03",
           "prompt": "Type: house",
-          "promptTts": "Type house",
+          "promptTts": "Please type the word house.",
           "answerMode": "type",
           "acceptedAnswers": [
             "house"
@@ -132,7 +132,7 @@
         {
           "id": "en-shs-l2-04",
           "prompt": "Door or window?",
-          "promptTts": "window",
+          "promptTts": "Door or window? Listen: window.",
           "choices": [
             "window",
             "door"
@@ -144,7 +144,7 @@
         {
           "id": "en-shs-l2-05",
           "prompt": "Where do we live?",
-          "promptTts": "house",
+          "promptTts": "Where do we live? Listen: house.",
           "choices": [
             "house",
             "train",
@@ -166,7 +166,7 @@
         {
           "id": "en-shs-l3-01",
           "prompt": "Where is this?",
-          "promptTts": "school",
+          "promptTts": "Where is this? Listen: school.",
           "choices": [
             "school",
             "house",
@@ -179,7 +179,7 @@
         {
           "id": "en-shs-l3-02",
           "prompt": "Who teaches?",
-          "promptTts": "teacher",
+          "promptTts": "Who teaches? Listen: teacher.",
           "choices": [
             "teacher",
             "baker",
@@ -192,7 +192,7 @@
         {
           "id": "en-shs-l3-03",
           "prompt": "Type: school",
-          "promptTts": "Type school",
+          "promptTts": "Please type the word school.",
           "answerMode": "type",
           "acceptedAnswers": [
             "school"
@@ -204,7 +204,7 @@
         {
           "id": "en-shs-l3-04",
           "prompt": "What do you need at school?",
-          "promptTts": "pencil",
+          "promptTts": "What do you need at school? Listen: pencil.",
           "choices": [
             "pencil",
             "bike",
@@ -217,7 +217,7 @@
         {
           "id": "en-shs-l3-05",
           "prompt": "Break: where to play?",
-          "promptTts": "park",
+          "promptTts": "Break: where to play? Listen: park.",
           "choices": [
             "park",
             "baker",
@@ -239,7 +239,7 @@
         {
           "id": "en-shs-l4-01",
           "prompt": "Which day often starts the school week?",
-          "promptTts": "Monday",
+          "promptTts": "Which day often starts the school week? Listen: Monday.",
           "choices": [
             "Monday",
             "yesterday",
@@ -251,7 +251,7 @@
         {
           "id": "en-shs-l4-02",
           "prompt": "Today or yesterday?",
-          "promptTts": "today",
+          "promptTts": "Today or yesterday? Listen: today.",
           "choices": [
             "today",
             "yesterday"
@@ -262,7 +262,7 @@
         {
           "id": "en-shs-l4-03",
           "prompt": "Type: today",
-          "promptTts": "Type today",
+          "promptTts": "Please type the word today.",
           "answerMode": "type",
           "acceptedAnswers": [
             "today"
@@ -273,7 +273,7 @@
         {
           "id": "en-shs-l4-04",
           "prompt": "What was before?",
-          "promptTts": "yesterday",
+          "promptTts": "What was before? Listen: yesterday.",
           "choices": [
             "yesterday",
             "today"
@@ -305,7 +305,7 @@
         {
           "id": "en-shs-l5-01",
           "prompt": "Season?",
-          "promptTts": "summer",
+          "promptTts": "Season? Listen: Season? Listen: summer.",
           "choices": [
             "summer",
             "rain",
@@ -318,7 +318,7 @@
         {
           "id": "en-shs-l5-02",
           "prompt": "Season?",
-          "promptTts": "winter",
+          "promptTts": "Season? Listen: Season? Listen: winter.",
           "choices": [
             "winter",
             "rain",
@@ -331,7 +331,7 @@
         {
           "id": "en-shs-l5-03",
           "prompt": "Season?",
-          "promptTts": "spring",
+          "promptTts": "Season? Listen: Season? Listen: spring.",
           "choices": [
             "spring",
             "rain",
@@ -344,7 +344,7 @@
         {
           "id": "en-shs-l5-04",
           "prompt": "Season?",
-          "promptTts": "autumn",
+          "promptTts": "Season? Listen: Season? Listen: autumn.",
           "choices": [
             "autumn",
             "rain",
@@ -357,7 +357,7 @@
         {
           "id": "en-shs-l5-05",
           "prompt": "Type: summer",
-          "promptTts": "Type summer",
+          "promptTts": "Please type the word summer.",
           "answerMode": "type",
           "acceptedAnswers": [
             "summer"
@@ -377,7 +377,7 @@
         {
           "id": "en-shs-l6-01",
           "prompt": "What weather?",
-          "promptTts": "rain",
+          "promptTts": "What weather? Listen: rain.",
           "choices": [
             "rain",
             "baker",
@@ -390,7 +390,7 @@
         {
           "id": "en-shs-l6-02",
           "prompt": "What weather?",
-          "promptTts": "sun",
+          "promptTts": "What weather? Listen: sun.",
           "choices": [
             "sun",
             "snow",
@@ -403,7 +403,7 @@
         {
           "id": "en-shs-l6-03",
           "prompt": "What weather?",
-          "promptTts": "snow",
+          "promptTts": "What weather? Listen: snow.",
           "choices": [
             "snow",
             "rain",
@@ -416,7 +416,7 @@
         {
           "id": "en-shs-l6-04",
           "prompt": "Type: rain",
-          "promptTts": "Type rain",
+          "promptTts": "Please type the word rain.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rain"
@@ -428,7 +428,7 @@
         {
           "id": "en-shs-l6-05",
           "prompt": "Need an umbrella?",
-          "promptTts": "rain",
+          "promptTts": "Need an umbrella? Listen: rain.",
           "choices": [
             "yes",
             "no"
@@ -449,7 +449,7 @@
         {
           "id": "en-shs-l7-01",
           "prompt": "Many houses and buses?",
-          "promptTts": "city",
+          "promptTts": "Many houses and buses? Listen: city.",
           "choices": [
             "city",
             "village"
@@ -461,7 +461,7 @@
         {
           "id": "en-shs-l7-02",
           "prompt": "Few houses, fields?",
-          "promptTts": "village",
+          "promptTts": "Few houses, fields? Listen: village.",
           "choices": [
             "village",
             "city"
@@ -473,7 +473,7 @@
         {
           "id": "en-shs-l7-03",
           "prompt": "Type: city",
-          "promptTts": "Type city",
+          "promptTts": "Please type the word city.",
           "answerMode": "type",
           "acceptedAnswers": [
             "city"
@@ -484,7 +484,7 @@
         {
           "id": "en-shs-l7-04",
           "prompt": "Where is this?",
-          "promptTts": "shop",
+          "promptTts": "Where is this? Listen: shop.",
           "choices": [
             "shop",
             "mountain",
@@ -497,7 +497,7 @@
         {
           "id": "en-shs-l7-05",
           "prompt": "Where is this?",
-          "promptTts": "park",
+          "promptTts": "Where is this? Listen: park.",
           "choices": [
             "park",
             "baker",
@@ -519,7 +519,7 @@
         {
           "id": "en-shs-l8-01",
           "prompt": "What is this on the map?",
-          "promptTts": "mountain",
+          "promptTts": "What is this on the map? Listen: mountain.",
           "choices": [
             "mountain",
             "shop",
@@ -532,7 +532,7 @@
         {
           "id": "en-shs-l8-02",
           "prompt": "What is this on the map?",
-          "promptTts": "lake",
+          "promptTts": "What is this on the map? Listen: lake.",
           "choices": [
             "lake",
             "bus",
@@ -545,7 +545,7 @@
         {
           "id": "en-shs-l8-03",
           "prompt": "What flows?",
-          "promptTts": "river",
+          "promptTts": "What flows? Listen: river.",
           "choices": [
             "river",
             "house",
@@ -558,7 +558,7 @@
         {
           "id": "en-shs-l8-04",
           "prompt": "Type: lake",
-          "promptTts": "Type lake",
+          "promptTts": "Please type the word lake.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lake"
@@ -569,7 +569,7 @@
         {
           "id": "en-shs-l8-05",
           "prompt": "The Alps are…",
-          "promptTts": "mountain",
+          "promptTts": "The Alps are… Listen, the word is mountain.",
           "choices": [
             "mountain",
             "shop",
@@ -603,7 +603,7 @@
         {
           "id": "en-shs-l9-02",
           "prompt": "Country?",
-          "promptTts": "Switzerland",
+          "promptTts": "Country? Listen: Country? Listen: Switzerland.",
           "choices": [
             "Switzerland",
             "France",
@@ -616,7 +616,7 @@
         {
           "id": "en-shs-l9-03",
           "prompt": "Type: Switzerland",
-          "promptTts": "Type Switzerland",
+          "promptTts": "Please type the word Switzerland.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Switzerland"
@@ -628,7 +628,7 @@
         {
           "id": "en-shs-l9-04",
           "prompt": "Capital (simple): Bern?",
-          "promptTts": "yes",
+          "promptTts": "Capital (simple): Bern? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -639,7 +639,7 @@
         {
           "id": "en-shs-l9-05",
           "prompt": "Are there mountains in Switzerland?",
-          "promptTts": "yes",
+          "promptTts": "Are there mountains in Switzerland? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -660,7 +660,7 @@
         {
           "id": "en-shs-l10-01",
           "prompt": "Where is this?",
-          "promptTts": "school",
+          "promptTts": "Where is this? Listen: school.",
           "choices": [
             "school",
             "lake",
@@ -673,7 +673,7 @@
         {
           "id": "en-shs-l10-02",
           "prompt": "Where is this?",
-          "promptTts": "shop",
+          "promptTts": "Where is this? Listen: shop.",
           "choices": [
             "shop",
             "river",
@@ -686,7 +686,7 @@
         {
           "id": "en-shs-l10-03",
           "prompt": "Where is this?",
-          "promptTts": "park",
+          "promptTts": "Where is this? Listen: park.",
           "choices": [
             "park",
             "baker",
@@ -699,7 +699,7 @@
         {
           "id": "en-shs-l10-04",
           "prompt": "Type: park",
-          "promptTts": "Type park",
+          "promptTts": "Please type the word park.",
           "answerMode": "type",
           "acceptedAnswers": [
             "park"
@@ -711,7 +711,7 @@
         {
           "id": "en-shs-l10-05",
           "prompt": "Where do you buy bread?",
-          "promptTts": "shop",
+          "promptTts": "Where do you buy bread? Listen: shop.",
           "choices": [
             "shop",
             "lake",
@@ -733,7 +733,7 @@
         {
           "id": "en-shs-l11-01",
           "prompt": "Who bakes bread?",
-          "promptTts": "baker",
+          "promptTts": "Who bakes bread? Listen: baker.",
           "choices": [
             "baker",
             "doctor",
@@ -746,7 +746,7 @@
         {
           "id": "en-shs-l11-02",
           "prompt": "Who helps when you are ill?",
-          "promptTts": "doctor",
+          "promptTts": "Who helps when you are ill? Listen: doctor.",
           "choices": [
             "doctor",
             "baker",
@@ -759,7 +759,7 @@
         {
           "id": "en-shs-l11-03",
           "prompt": "Who teaches?",
-          "promptTts": "teacher",
+          "promptTts": "Who teaches? Listen: teacher.",
           "choices": [
             "teacher",
             "bike",
@@ -772,7 +772,7 @@
         {
           "id": "en-shs-l11-04",
           "prompt": "Type: baker",
-          "promptTts": "Type baker",
+          "promptTts": "Please type the word baker.",
           "answerMode": "type",
           "acceptedAnswers": [
             "baker"
@@ -783,7 +783,7 @@
         {
           "id": "en-shs-l11-05",
           "prompt": "Does the teacher help at school?",
-          "promptTts": "yes",
+          "promptTts": "Does the teacher help at school? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -803,7 +803,7 @@
         {
           "id": "en-shs-l12-01",
           "prompt": "What is kind?",
-          "promptTts": "share",
+          "promptTts": "What is kind? Listen: share.",
           "choices": [
             "share",
             "hit"
@@ -814,7 +814,7 @@
         {
           "id": "en-shs-l12-02",
           "prompt": "Is hitting allowed?",
-          "promptTts": "no",
+          "promptTts": "Is hitting allowed? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -825,7 +825,7 @@
         {
           "id": "en-shs-l12-03",
           "prompt": "Type: share",
-          "promptTts": "Type share",
+          "promptTts": "Please type the word share.",
           "answerMode": "type",
           "acceptedAnswers": [
             "share"
@@ -836,7 +836,7 @@
         {
           "id": "en-shs-l12-04",
           "prompt": "Wait your turn?",
-          "promptTts": "yes",
+          "promptTts": "Wait your turn? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -847,7 +847,7 @@
         {
           "id": "en-shs-l12-05",
           "prompt": "Do we help each other?",
-          "promptTts": "yes",
+          "promptTts": "Do we help each other? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -867,7 +867,7 @@
         {
           "id": "en-shs-l13-01",
           "prompt": "Light in the past?",
-          "promptTts": "candle",
+          "promptTts": "Light in the past? Listen: candle.",
           "choices": [
             "candle",
             "lamp"
@@ -879,7 +879,7 @@
         {
           "id": "en-shs-l13-02",
           "prompt": "Light today?",
-          "promptTts": "lamp",
+          "promptTts": "Light today? Listen: lamp.",
           "choices": [
             "lamp",
             "candle"
@@ -891,7 +891,7 @@
         {
           "id": "en-shs-l13-03",
           "prompt": "Type: yesterday",
-          "promptTts": "Type yesterday",
+          "promptTts": "Please type the word yesterday.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yesterday"
@@ -902,7 +902,7 @@
         {
           "id": "en-shs-l13-04",
           "prompt": "Horse or car more often in the past?",
-          "promptTts": "horse",
+          "promptTts": "Horse or car more often in the past? Listen: horse.",
           "choices": [
             "horse",
             "car"
@@ -914,7 +914,7 @@
         {
           "id": "en-shs-l13-05",
           "prompt": "Today often a car?",
-          "promptTts": "yes",
+          "promptTts": "Today often a car? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -935,7 +935,7 @@
         {
           "id": "en-shs-l14-01",
           "prompt": "Which vehicle?",
-          "promptTts": "bike",
+          "promptTts": "Which vehicle? Listen: bike.",
           "choices": [
             "bike",
             "lake",
@@ -948,7 +948,7 @@
         {
           "id": "en-shs-l14-02",
           "prompt": "Which vehicle?",
-          "promptTts": "bus",
+          "promptTts": "Which vehicle? Listen: bus.",
           "choices": [
             "bus",
             "baker",
@@ -961,7 +961,7 @@
         {
           "id": "en-shs-l14-03",
           "prompt": "Which vehicle?",
-          "promptTts": "train",
+          "promptTts": "Which vehicle? Listen: train.",
           "choices": [
             "train",
             "park",
@@ -974,7 +974,7 @@
         {
           "id": "en-shs-l14-04",
           "prompt": "Type: bus",
-          "promptTts": "Type bus",
+          "promptTts": "Please type the word bus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bus"
@@ -986,7 +986,7 @@
         {
           "id": "en-shs-l14-05",
           "prompt": "Helmet on a bike?",
-          "promptTts": "yes",
+          "promptTts": "Helmet on a bike? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1006,7 +1006,7 @@
         {
           "id": "en-shs-l15-01",
           "prompt": "Neighboring country?",
-          "promptTts": "France",
+          "promptTts": "Neighboring country? Listen: France.",
           "choices": [
             "France",
             "baker",
@@ -1019,7 +1019,7 @@
         {
           "id": "en-shs-l15-02",
           "prompt": "Is Germany a neighbor of Switzerland?",
-          "promptTts": "yes",
+          "promptTts": "Is Germany a neighbor of Switzerland? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1031,7 +1031,7 @@
         {
           "id": "en-shs-l15-03",
           "prompt": "Type: France",
-          "promptTts": "Type France",
+          "promptTts": "Please type the word France.",
           "answerMode": "type",
           "acceptedAnswers": [
             "France"
@@ -1042,7 +1042,7 @@
         {
           "id": "en-shs-l15-04",
           "prompt": "Italy a neighbor?",
-          "promptTts": "yes",
+          "promptTts": "Italy a neighbor? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1054,7 +1054,7 @@
         {
           "id": "en-shs-l15-05",
           "prompt": "Saying hello is kind?",
-          "promptTts": "yes",
+          "promptTts": "Saying hello is kind? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1074,7 +1074,7 @@
         {
           "id": "en-shs-l16-01",
           "prompt": "What comes from the cow?",
-          "promptTts": "milk",
+          "promptTts": "What comes from the cow? Listen: milk.",
           "choices": [
             "milk",
             "bus",
@@ -1087,7 +1087,7 @@
         {
           "id": "en-shs-l16-02",
           "prompt": "Where do apples grow?",
-          "promptTts": "tree",
+          "promptTts": "Where do apples grow? Listen: tree.",
           "choices": [
             "tree",
             "train",
@@ -1100,7 +1100,7 @@
         {
           "id": "en-shs-l16-03",
           "prompt": "Type: milk",
-          "promptTts": "Type milk",
+          "promptTts": "Please type the word milk.",
           "answerMode": "type",
           "acceptedAnswers": [
             "milk"
@@ -1112,7 +1112,7 @@
         {
           "id": "en-shs-l16-04",
           "prompt": "Vegetables from the field?",
-          "promptTts": "yes",
+          "promptTts": "Vegetables from the field? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1124,7 +1124,7 @@
         {
           "id": "en-shs-l16-05",
           "prompt": "Bread from the baker?",
-          "promptTts": "yes",
+          "promptTts": "Bread from the baker? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1145,7 +1145,7 @@
         {
           "id": "en-shs-l17-01",
           "prompt": "What to do with paper?",
-          "promptTts": "recycle",
+          "promptTts": "What to do with paper? Listen: recycle.",
           "choices": [
             "recycle",
             "hit"
@@ -1157,7 +1157,7 @@
         {
           "id": "en-shs-l17-02",
           "prompt": "Trash in the lake?",
-          "promptTts": "no",
+          "promptTts": "Trash in the lake? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1168,7 +1168,7 @@
         {
           "id": "en-shs-l17-03",
           "prompt": "Type: recycle",
-          "promptTts": "Type recycle",
+          "promptTts": "Please type the word recycle.",
           "answerMode": "type",
           "acceptedAnswers": [
             "recycle"
@@ -1180,7 +1180,7 @@
         {
           "id": "en-shs-l17-04",
           "prompt": "Protect trees?",
-          "promptTts": "yes",
+          "promptTts": "Protect trees? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1192,7 +1192,7 @@
         {
           "id": "en-shs-l17-05",
           "prompt": "Where does rubbish go?",
-          "promptTts": "rubbish",
+          "promptTts": "Where does rubbish go? Listen: rubbish.",
           "choices": [
             "bin",
             "lake",
@@ -1213,7 +1213,7 @@
         {
           "id": "en-shs-l18-01",
           "prompt": "What is nice?",
-          "promptTts": "help",
+          "promptTts": "What is nice? Listen: help.",
           "choices": [
             "help",
             "hit"
@@ -1224,7 +1224,7 @@
         {
           "id": "en-shs-l18-02",
           "prompt": "Help someone carrying something?",
-          "promptTts": "yes",
+          "promptTts": "Help someone carrying something? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1235,7 +1235,7 @@
         {
           "id": "en-shs-l18-03",
           "prompt": "Type: help",
-          "promptTts": "Type help",
+          "promptTts": "Please type the word help.",
           "answerMode": "type",
           "acceptedAnswers": [
             "help"
@@ -1246,7 +1246,7 @@
         {
           "id": "en-shs-l18-04",
           "prompt": "Say thank you?",
-          "promptTts": "yes",
+          "promptTts": "Say thank you? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1257,7 +1257,7 @@
         {
           "id": "en-shs-l18-05",
           "prompt": "Share in a game?",
-          "promptTts": "yes",
+          "promptTts": "Share in a game? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1277,7 +1277,7 @@
         {
           "id": "en-shs-l19-01",
           "prompt": "My town has a school?",
-          "promptTts": "yes",
+          "promptTts": "My town has a school? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1289,7 +1289,7 @@
         {
           "id": "en-shs-l19-02",
           "prompt": "Is there often a square?",
-          "promptTts": "yes",
+          "promptTts": "Is there often a square? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1300,7 +1300,7 @@
         {
           "id": "en-shs-l19-03",
           "prompt": "Type: town",
-          "promptTts": "Type town",
+          "promptTts": "Please type the word town.",
           "answerMode": "type",
           "acceptedAnswers": [
             "town"
@@ -1311,7 +1311,7 @@
         {
           "id": "en-shs-l19-04",
           "prompt": "Where is this?",
-          "promptTts": "park",
+          "promptTts": "Where is this? Listen: park.",
           "choices": [
             "park",
             "France",
@@ -1324,7 +1324,7 @@
         {
           "id": "en-shs-l19-05",
           "prompt": "The library lends books?",
-          "promptTts": "yes",
+          "promptTts": "The library lends books? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1357,7 +1357,7 @@
         {
           "id": "en-shs-l20-02",
           "prompt": "Type: share",
-          "promptTts": "Type share",
+          "promptTts": "Please type the word share.",
           "answerMode": "type",
           "acceptedAnswers": [
             "share"
@@ -1368,7 +1368,7 @@
         {
           "id": "en-shs-l20-03",
           "prompt": "What weather?",
-          "promptTts": "rain",
+          "promptTts": "What weather? Listen: rain.",
           "choices": [
             "rain",
             "baker",
@@ -1381,7 +1381,7 @@
         {
           "id": "en-shs-l20-04",
           "prompt": "What is kind?",
-          "promptTts": "help",
+          "promptTts": "What is kind? Listen: help.",
           "choices": [
             "help",
             "hit"
@@ -1392,7 +1392,7 @@
         {
           "id": "en-shs-l20-05",
           "prompt": "Type: Switzerland",
-          "promptTts": "Type Switzerland",
+          "promptTts": "Please type the word Switzerland.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Switzerland"

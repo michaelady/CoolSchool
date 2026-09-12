@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "assets" / "content" / "packs"
@@ -144,10 +145,10 @@ def nword(lang: str, n: int) -> str:
 def add_tts(lang: str, a: int, b: int) -> str:
     left, right = nword(lang, a), nword(lang, b)
     return {
-        "de": f"Was ist {left} plus {right}?",
-        "fr": f"Combien font {left} plus {right} ?",
-        "en": f"What is {left} plus {right}?",
-        "ro": f"Cât fac {left} plus {right}?",
+        "de": f"Was ist {left} plus {right}? Wähle die richtige Zahl.",
+        "fr": f"Combien font {left} plus {right} ? Choisis le bon nombre.",
+        "en": f"What is {left} plus {right}? Choose the right number.",
+        "ro": f"Cât fac {left} plus {right}? Alege numărul potrivit.",
     }[lang]
 
 
@@ -155,10 +156,10 @@ def sub_tts(lang: str, a: int, b: int) -> str:
     left, right = nword(lang, a), nword(lang, b)
     minus = {"de": "minus", "fr": "moins", "en": "minus", "ro": "scăzut"}[lang]
     return {
-        "de": f"Was ist {left} {minus} {right}?",
-        "fr": f"Combien font {left} {minus} {right} ?",
-        "en": f"What is {left} {minus} {right}?",
-        "ro": f"Cât fac {left} {minus} {right}?",
+        "de": f"Was ist {left} {minus} {right}? Wähle die richtige Zahl.",
+        "fr": f"Combien font {left} {minus} {right} ? Choisis le bon nombre.",
+        "en": f"What is {left} {minus} {right}? Choose the right number.",
+        "ro": f"Cât fac {left} {minus} {right}? Alege numărul potrivit.",
     }[lang]
 
 
@@ -174,25 +175,300 @@ def how_many(lang: str) -> str:
 
 
 def count_tts(lang: str, noun: str) -> str:
+    if lang == "fr":
+        de = "d'" if noun[:1].lower() in "aeiouéèêëàâäîïôöùûüh" else "de "
+        return f"Combien {de}{noun} vois-tu ? Compte-les bien."
     return {
-        "de": f"Wie viele {noun} siehst du?",
-        "fr": f"Combien de {noun} vois-tu ?",
-        "en": f"How many {noun} do you see?",
-        "ro": f"Câte {noun} vezi?",
+        "de": f"Wie viele {noun} siehst du? Zähle sie in Ruhe.",
+        "en": f"How many {noun} do you see? Count them carefully.",
+        "ro": f"Câte {noun} vezi? Numără-le cu grijă.",
     }[lang]
 
 
 def write_word(lang: str, word: str) -> tuple[str, str]:
     prompt = t(lang, f"Schreib: {word}", f"Écris : {word}", f"Type: {word}", f"Scrie: {word}")
-    tts = t(lang, f"Schreib {word}", f"Écris {word}", f"Type {word}", f"Scrie {word}")
+    tts = t(
+        lang,
+        f"Schreib bitte das Wort {word}.",
+        f"Écris le mot {word}, s’il te plaît.",
+        f"Please type the word {word}.",
+        f"Te rog, scrie cuvântul {word}.",
+    )
     return prompt, tts
+
+
+def type_number_tts(lang: str, number_words: str | None = None) -> str:
+    extra = " ".join(str(number_words or "").split()).strip().rstrip(".!?")
+    if extra:
+        return t(
+            lang,
+            f"Schreib bitte die Zahl {extra}.",
+            f"Écris le nombre {extra}, s’il te plaît.",
+            f"Please type the number {extra}.",
+            f"Te rog, scrie numărul {extra}.",
+        )
+    return t(
+        lang,
+        "Schreib bitte die Zahl.",
+        "Écris le nombre, s’il te plaît.",
+        "Please type the number.",
+        "Te rog, scrie numărul.",
+    )
 
 
 def type_number_prompt(lang: str) -> tuple[str, str]:
     return (
         t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
-        t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
+        type_number_tts(lang),
     )
+
+
+def listen_word(lang: str, word: str) -> str:
+    spoken = strip_spoken_symbols(replace_arrows(lang, word)).rstrip(".!?").strip()
+    if not spoken:
+        return pattern_tts(lang)
+    if _TYPE_HEAD.match(spoken):
+        return polish_type_line(lang, spoken, spoken)
+    return t(
+        lang,
+        f"Hör gut zu, das Wort ist {spoken}.",
+        f"Écoute bien ce mot : {spoken}.",
+        f"Listen carefully to this word: {spoken}.",
+        f"Ascultă bine acest cuvânt: {spoken}.",
+    )
+
+
+def spoken_word_count(text: str) -> int:
+    return len([w for w in re.findall(r"[^\W_]+", text, flags=re.UNICODE) if w])
+
+
+YES_NO = {
+    "ja", "nein", "oui", "non", "yes", "no", "da", "nu",
+}
+
+# Pictographs / dingbats / arrows that eSpeak would try to name.
+_SYMBOL_RE = re.compile(
+    "["
+    "\U0001F000-\U0001FFFF"
+    "\U00002700-\U000027BF"
+    "\U00002600-\U000026FF"
+    "\U00002B00-\U00002BFF"
+    "\U000025A0-\U000025FF"
+    "\U00002300-\U000023FF"
+    "\U00002190-\U000021FF"
+    "\U0000266A-\U0000266F"
+    "\U0000FE00-\U0000FE0F"
+    "\U0000200D"
+    "]+",
+)
+
+_TYPE_HEAD = re.compile(r"^(schreib(?:e)?|écris|ecris|type|scrie)\b", re.I)
+_NUMBER_HINT = re.compile(r"\b(zahl|nombre|number|num[aă]rul)\b", re.I)
+_TYPE_TARGET = re.compile(
+    r"^(?P<verb>schreib(?:e)?|écris|ecris|type|scrie)\b"
+    r"(?:\s+(?:bitte|please|te rog))?"
+    r"(?:\s+(?:das wort|le mot|the word|cuv[aâ]ntul|die zahl|le nombre|the number|num[aă]rul))?"
+    r"(?:\s*[:：])?"
+    r"\s*(?P<rest>.*?)$",
+    re.I | re.S,
+)
+_POLITE_ONLY = re.compile(
+    r"^(?:,?\s*)?(?:s[’']il te pla[îi]t|please|bitte|te rog)\.?$",
+    re.I,
+)
+_LISTEN_HEAD = ("hör", "écoute", "listen", "ascult")
+_ARROW_WORDS = {
+    "⬅\ufe0f": {"de": "links", "fr": "à gauche", "en": "left", "ro": "la stânga"},
+    "➡\ufe0f": {"de": "rechts", "fr": "à droite", "en": "right", "ro": "la dreapta"},
+    "⬅": {"de": "links", "fr": "à gauche", "en": "left", "ro": "la stânga"},
+    "➡": {"de": "rechts", "fr": "à droite", "en": "right", "ro": "la dreapta"},
+}
+
+
+def replace_arrows(lang: str, text: str) -> str:
+    out = str(text)
+    for glyph, words in _ARROW_WORDS.items():
+        out = out.replace(glyph, f" {words[lang]} ")
+    return out
+
+
+def strip_spoken_symbols(text: str) -> str:
+    cleaned = _SYMBOL_RE.sub(" ", str(text))
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    cleaned = re.sub(r"([?!.])(?:\s*[?!.])+", r"\1", cleaned)
+    cleaned = re.sub(r"\s+([,.;:])", r"\1", cleaned)
+    cleaned = re.sub(r"\s*[:;,\-—/]+\s*$", "", cleaned)
+    return cleaned.strip(" \t-—:")
+
+
+def pattern_tts(lang: str) -> str:
+    return t(
+        lang,
+        "Was kommt als Nächstes im Muster? Wähle das richtige Bild.",
+        "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
+        "What comes next in the pattern? Choose the right picture.",
+        "Ce urmează în model? Alege imaginea potrivită.",
+    )
+
+
+def expand_quiz_question(lang: str, question: str) -> str:
+    q = strip_spoken_symbols(replace_arrows(lang, question)).rstrip(".!").strip()
+    if not q:
+        return pattern_tts(lang)
+    if not q.endswith("?"):
+        q = f"{q} ?" if lang == "fr" else f"{q}?"
+    return t(
+        lang,
+        f"{q} Wähle die richtige Antwort.",
+        f"{q} Choisis la bonne réponse.",
+        f"{q} Choose the right answer.",
+        f"{q} Alege răspunsul potrivit.",
+    )
+
+
+def _type_rest(text: str) -> str:
+    match = _TYPE_TARGET.match(text.strip())
+    if not match:
+        return ""
+    rest = " ".join(match.group("rest").split()).strip().rstrip(".!?")
+    if not rest or _POLITE_ONLY.match(rest):
+        return ""
+    rest = re.sub(
+        r"(?:,?\s*)(?:s[’']il te pla[îi]t|please|bitte|te rog)\.?$",
+        "",
+        rest,
+        flags=re.I,
+    ).strip(" ,")
+    return rest
+
+
+def polish_type_line(lang: str, prompt: str, tts: str) -> str:
+    source = tts or prompt
+    rest = _type_rest(source) or _type_rest(prompt)
+    numberish = bool(_NUMBER_HINT.search(source) or _NUMBER_HINT.search(prompt) or re.search(r"\d", prompt))
+    if numberish:
+        return type_number_tts(lang, rest or None)
+    if rest:
+        return write_word(lang, rest)[1]
+    return write_word(lang, source.split()[-1])[1] if source.split() else type_number_tts(lang)
+
+
+def looks_like_visual_pattern(prompt: str, tts: str) -> bool:
+    if spoken_word_count(strip_spoken_symbols(tts)) == 0 and _SYMBOL_RE.search(str(tts)):
+        return True
+    if spoken_word_count(strip_spoken_symbols(tts)) == 0 and _SYMBOL_RE.search(str(prompt)):
+        return True
+    return False
+
+
+def has_spoken_symbols(text: str) -> bool:
+    return bool(_SYMBOL_RE.search(str(text)))
+
+
+def has_type_listen_wrap(text: str) -> bool:
+    return bool(
+        re.search(
+            r"(écoute bien ce mot|hör gut zu, das wort ist|"
+            r"ascultă bine acest cuvânt|listen carefully to this word)"
+            r".{0,8}(schreib|écris|ecris|type|scrie)",
+            str(text),
+            flags=re.I,
+        )
+    )
+
+
+def has_english_leakage(lang: str, text: str) -> bool:
+    if lang == "en":
+        return False
+    low = str(text).lower()
+    return (
+        "listen to this word" in low
+        or "listen carefully" in low
+        or "type the number" in low
+        or "type the word" in low
+    )
+
+
+def enrich_spoken(lang: str, prompt: str, tts: str) -> str:
+    """Turn short Lire/Vorlesen cues into a kid sentence, without emoji or type-wraps."""
+    raw_tts = " ".join(str(tts).split()).strip()
+    raw_prompt = " ".join(str(prompt).split()).strip()
+    if looks_like_visual_pattern(raw_prompt, raw_tts):
+        return pattern_tts(lang)
+
+    cleaned = strip_spoken_symbols(replace_arrows(lang, raw_tts)).strip()
+    prompt_s = strip_spoken_symbols(replace_arrows(lang, raw_prompt)).strip()
+    if not cleaned:
+        cleaned = prompt_s
+    if not cleaned:
+        return pattern_tts(lang)
+
+    if _TYPE_HEAD.match(cleaned) or _TYPE_HEAD.match(prompt_s):
+        if spoken_word_count(cleaned) >= 4 and _TYPE_HEAD.match(cleaned) and (
+            "bitte" in cleaned.lower()
+            or "please" in cleaned.lower()
+            or "plaît" in cleaned.lower()
+            or "plait" in cleaned.lower()
+            or "te rog" in cleaned.lower()
+        ):
+            return cleaned
+        return polish_type_line(lang, prompt_s, cleaned)
+
+    if spoken_word_count(cleaned) >= 4:
+        return cleaned
+
+    bare = cleaned.rstrip(".!?").strip().lower()
+    if bare in YES_NO:
+        return t(
+            lang,
+            f"{prompt_s} Tippe ja oder nein.",
+            f"{prompt_s} Touche oui ou non.",
+            f"{prompt_s} Tap yes or no.",
+            f"{prompt_s} Atinge da sau nu.",
+        )
+
+    word = cleaned.rstrip(".!?")
+    prompt_bare = prompt_s.rstrip(".!?").strip().lower()
+    word_bare = word.strip().lower()
+    listen_prompt = any(prompt_s.lower().startswith(h) for h in _LISTEN_HEAD)
+    if listen_prompt:
+        return listen_word(lang, word)
+    if prompt_bare == word_bare:
+        if "?" in prompt_s or "?" in cleaned:
+            return expand_quiz_question(lang, prompt_s or cleaned)
+        return listen_word(lang, word)
+
+    if prompt_s and spoken_word_count(cleaned) <= 4:
+        if re.search(r"\d\s*[+\-−]", prompt_s):
+            return expand_quiz_question(lang, prompt_s)
+        if "?" in prompt_s:
+            return t(
+                lang,
+                f"{prompt_s} Hör zu: {word}.",
+                f"{prompt_s} Écoute : {word}.",
+                f"{prompt_s} Listen: {word}.",
+                f"{prompt_s} Ascultă: {word}.",
+            )
+        if prompt_s.endswith(("…", "...")):
+            return t(
+                lang,
+                f"{prompt_s} Hör zu, das Wort ist {word}.",
+                f"{prompt_s} Écoute, le mot est {word}.",
+                f"{prompt_s} Listen, the word is {word}.",
+                f"{prompt_s} Ascultă, cuvântul este {word}.",
+            )
+        return t(
+            lang,
+            f"{prompt_s}. Hör zu, das Wort ist {word}.",
+            f"{prompt_s}. Écoute, le mot est {word}.",
+            f"{prompt_s}. Listen, the word is {word}.",
+            f"{prompt_s}. Ascultă, cuvântul este {word}.",
+        )
+    if spoken_word_count(cleaned) < 4:
+        if "?" in cleaned:
+            return expand_quiz_question(lang, cleaned)
+        return listen_word(lang, cleaned.rstrip(".!?"))
+    return cleaned
 
 
 # ---------------------------------------------------------------------------
@@ -842,7 +1118,7 @@ def math_exercises(lang: str) -> dict[int, list[dict]]:
             add_ex(lang, f"{e}-l10-02", 30, 5),
             add_ex(lang, f"{e}-l10-03", 40, 4, "type"),
             sub_ex(lang, f"{e}-l10-04", 20, 5),
-            typed(f"{e}-l10-05", "25", t(lang, "Schreib fünfundzwanzig", "Écris vingt-cinq", "Type twenty-five", "Scrie douăzeci și cinci"),
+            typed(f"{e}-l10-05", "25", type_number_tts(lang, t(lang, "fünfundzwanzig", "vingt-cinq", "twenty-five", "douăzeci și cinci")),
                   ["25"], keyboard="number", kind="math"),
         ],
         11: [
@@ -855,7 +1131,7 @@ def math_exercises(lang: str) -> dict[int, list[dict]]:
         12: [
             add_ex(lang, f"{e}-l12-01", 50, 20),
             add_ex(lang, f"{e}-l12-02", 40, 40),
-            typed(f"{e}-l12-03", "100", t(lang, "Schreib hundert", "Écris cent", "Type one hundred", "Scrie o sută"),
+            typed(f"{e}-l12-03", "100", type_number_tts(lang, t(lang, "hundert", "cent", "one hundred", "o sută")),
                   ["100"], keyboard="number", kind="math"),
             sub_ex(lang, f"{e}-l12-04", 90, 10),
             add_ex(lang, f"{e}-l12-05", 60, 7, "type"),
@@ -1386,7 +1662,7 @@ def arts_exercises(lang: str) -> dict[int, list[dict]]:
             quiz_choice(lang, f"{e}-l9-02", t(lang, "Muster: ⭐🌙⭐ ?", "Motif : ⭐🌙⭐ ?", "Pattern: ⭐🌙⭐ ?", "Model: ⭐🌙⭐ ?"),
                         "🌙", ["🌙", "🍎", "🟦"], 0),
             typed(f"{e}-l9-03", t(lang, "Wie oft 🟥 in 🟥🟦🟥?", "Combien de 🟥 dans 🟥🟦🟥 ?", "How many 🟥 in 🟥🟦🟥?", "Câte 🟥 în 🟥🟦🟥?"),
-                  t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
+                  type_number_tts(lang),
                   ["2"], keyboard="number", kind="quiz"),
             quiz_choice(lang, f"{e}-l9-04", t(lang, "Wiederholt sich ein Muster?", "Un motif se répète-t-il ?", "Does a pattern repeat?", "Un model se repetă?"),
                         yes, [yes, no], 0),
@@ -1417,9 +1693,13 @@ def arts_exercises(lang: str) -> dict[int, list[dict]]:
         ],
         12: [
             quiz_choice(lang, f"{e}-l12-01", t(lang, "Klatsch: 1-2-3, wie viele?", "Claps : 1-2-3, combien ?", "Claps: 1-2-3, how many?", "Aplauze: 1-2-3, câte?"),
-                        "3", ["2", "3", "4"], 1),
+                        t(lang, "Wie viele Klatscher hörst du? Es sind drei.",
+                          "Combien de claps entends-tu ? Il y en a trois.",
+                          "How many claps do you hear? There are three.",
+                          "Câte aplauze auzi? Sunt trei."), ["2", "3", "4"], 1),
             typed(f"{e}-l12-02", t(lang, "Wie viele Schläge: ♪♪♪♪ ?", "Combien de temps : ♪♪♪♪ ?", "How many beats: ♪♪♪♪ ?", "Câte bătăi: ♪♪♪♪ ?"),
-                  t(lang, "Schreib vier", "Écris quatre", "Type four", "Scrie patru"), ["4"], keyboard="number", kind="quiz"),
+                  type_number_tts(lang, t(lang, "vier", "quatre", "four", "patru")),
+                  ["4"], keyboard="number", kind="quiz"),
             quiz_choice(lang, f"{e}-l12-03", t(lang, "Gleichmässig klatschen ist Rhythmus?", "Frapper régulièrement, c’est le rythme ?",
                                              "Clapping evenly is rhythm?", "Aplaudatul regulat e ritm?"),
                         yes, [yes, no], 0),
@@ -1472,7 +1752,7 @@ def arts_exercises(lang: str) -> dict[int, list[dict]]:
             quiz_choice(lang, f"{e}-l16-02", t(lang, "ABAB, was ist B wenn A=⭐?", "ABAB, B si A=⭐ ?", "ABAB, what is B if A=⭐?", "ABAB, ce e B dacă A=⭐?"),
                         "🌙", ["🌙", "⭐", "🍎"] if True else [], 0),
             typed(f"{e}-l16-03", t(lang, "Anzahl ⬛ in ⬛⬜⬛⬜", "Nombre de ⬛ dans ⬛⬜⬛⬜", "Count of ⬛ in ⬛⬜⬛⬜", "Câte ⬛ în ⬛⬜⬛⬜"),
-                  t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
+                  type_number_tts(lang),
                   ["2"], keyboard="number", kind="quiz"),
             quiz_choice(lang, f"{e}-l16-04", t(lang, "Muster können Farben sein?", "Les motifs peuvent être des couleurs ?",
                                              "Can patterns be colors?", "Modelele pot fi culori?"),
@@ -1485,8 +1765,7 @@ def arts_exercises(lang: str) -> dict[int, list[dict]]:
                         do_note, [do_note, "fa", "si"], 0),
             quiz_choice(lang, f"{e}-l17-02", t(lang, "Do, re, …?", "Do, ré, … ?", "Do, re, …?", "Do, re, …?"),
                         "mi", ["mi", "sol", loud], 0),
-            typed(f"{e}-l17-03", t(lang, "Schreib: do", "Écris : do", "Type: do", "Scrie: do"),
-                  t(lang, "Schreib do", "Écris do", "Type do", "Scrie do"), [do_note], kind="quiz"),
+            typed(f"{e}-l17-03", *write_word(lang, do_note), [do_note], kind="quiz"),
             quiz_choice(lang, f"{e}-l17-04", t(lang, "Noten helfen zu singen?", "Les notes aident à chanter ?", "Do notes help us sing?", "Notele ajută să cântăm?"),
                         yes, [yes, no], 0),
             quiz_choice(lang, f"{e}-l17-05", t(lang, "Re kommt nach do?", "Ré vient après do ?", "Does re come after do?", "Re vine după do?"),
@@ -1883,7 +2162,7 @@ def numerique_exercises(lang: str) -> dict[int, list[dict]]:
                                              "On a tablet do we tap with a finger?", "Pe tabletă atingem cu degetul?"),
                         yes, [yes, no], 0),
             typed(f"{e}-l3-05", t(lang, "Schreib das Wort: ja", "Écris le mot : oui", "Type the word: yes", "Scrie cuvântul: da"),
-                  t(lang, "Schreib ja", "Écris oui", "Type yes", "Scrie da"), [yes], kind="quiz"),
+                  write_word(lang, yes)[1], [yes], kind="quiz"),
         ],
         4: [
             quiz_choice(lang, f"{e}-l4-01", t(lang, "Ein kleines Bild das ein Programm startet?", "Une petite image qui ouvre un programme ?",
@@ -2072,7 +2351,7 @@ def numerique_exercises(lang: str) -> dict[int, list[dict]]:
                                              "Repetă de trei ori: de câte ori?"),
                         three, ["2", "3", "5"], 1),
             typed(f"{e}-l14-02", t(lang, "Schreib die Zahl 3", "Écris le nombre 3", "Type the number 3", "Scrie numărul 3"),
-                  t(lang, "Schreib drei", "Écris trois", "Type three", "Scrie trei"),
+                  type_number_tts(lang, t(lang, "drei", "trois", "three", "trei")),
                   ["3"], keyboard="number", kind="quiz"),
             quiz_choice(lang, f"{e}-l14-03", t(lang, "Eine Schleife wiederholt etwas?",
                                              "Une boucle répète-t-elle quelque chose ?",
@@ -2237,6 +2516,19 @@ def build_pack(domain: str, lang: str) -> dict:
         for item in items:
             if "promptTts" not in item or not item["promptTts"]:
                 raise SystemExit(f"{domain}/{lang} level {n} missing promptTts")
+            item["promptTts"] = enrich_spoken(lang, item.get("prompt", ""), item["promptTts"])
+            item["promptTts"] = strip_spoken_symbols(item["promptTts"]).strip()
+            if spoken_word_count(item["promptTts"]) < 4:
+                item["promptTts"] = enrich_spoken(lang, item.get("prompt", ""), item["promptTts"])
+            spoken = item["promptTts"]
+            if spoken_word_count(spoken) < 4:
+                raise SystemExit(f"{domain}/{lang} level {n} TTS too short: {spoken!r}")
+            if has_spoken_symbols(spoken):
+                raise SystemExit(f"{domain}/{lang} level {n} TTS has emoji: {spoken!r}")
+            if has_type_listen_wrap(spoken):
+                raise SystemExit(f"{domain}/{lang} level {n} TTS wraps a type line: {spoken!r}")
+            if has_english_leakage(lang, spoken):
+                raise SystemExit(f"{domain}/{lang} level {n} English leakage: {spoken!r}")
     if not any(item.get("answerMode") == "type" for item in built[1]):
         raise SystemExit(f"{domain}/{lang} needs a type exercise in L1")
     return pack_shell(domain, lang, finish_levels(domain, lang, built))

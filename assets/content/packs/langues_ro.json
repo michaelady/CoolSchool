@@ -23,7 +23,7 @@
         {
           "id": "ro-langues-book-01",
           "prompt": "carte",
-          "promptTts": "carte",
+          "promptTts": "Ascultă bine acest cuvânt: carte.",
           "choices": [
             "📚",
             "✏️",
@@ -35,7 +35,7 @@
         {
           "id": "ro-langues-l1-type",
           "prompt": "Scrie: pisică",
-          "promptTts": "Scrie pisică",
+          "promptTts": "Te rog, scrie cuvântul pisică.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pisică"
@@ -47,7 +47,7 @@
         {
           "id": "ro-langues-pencil-02",
           "prompt": "creion",
-          "promptTts": "creion",
+          "promptTts": "Ascultă bine acest cuvânt: creion.",
           "choices": [
             "📚",
             "✏️",
@@ -59,7 +59,7 @@
         {
           "id": "ro-langues-school-03",
           "prompt": "școală",
-          "promptTts": "școală",
+          "promptTts": "Ascultă bine acest cuvânt: școală.",
           "choices": [
             "🌳",
             "🏠",
@@ -71,7 +71,7 @@
         {
           "id": "ro-langues-apple-04",
           "prompt": "măr",
-          "promptTts": "măr",
+          "promptTts": "Ascultă bine acest cuvânt: măr.",
           "choices": [
             "🍎",
             "🌸",
@@ -83,7 +83,7 @@
         {
           "id": "ro-langues-sun-05",
           "prompt": "soare",
-          "promptTts": "soare",
+          "promptTts": "Ascultă bine acest cuvânt: soare.",
           "choices": [
             "⭐",
             "☀️",
@@ -104,7 +104,7 @@
         {
           "id": "ro-langues-l2-type",
           "prompt": "Scrie: câine",
-          "promptTts": "Scrie câine",
+          "promptTts": "Te rog, scrie cuvântul câine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "câine"
@@ -116,7 +116,7 @@
         {
           "id": "ro-langues-tree-02",
           "prompt": "copac",
-          "promptTts": "copac",
+          "promptTts": "Ascultă bine acest cuvânt: copac.",
           "choices": [
             "🏠",
             "🌳",
@@ -128,7 +128,7 @@
         {
           "id": "ro-langues-house-03",
           "prompt": "casă",
-          "promptTts": "casă",
+          "promptTts": "Ascultă bine acest cuvânt: casă.",
           "choices": [
             "🌳",
             "🏫",
@@ -140,7 +140,7 @@
         {
           "id": "ro-langues-bag-04",
           "prompt": "ghiozdan",
-          "promptTts": "ghiozdan",
+          "promptTts": "Ascultă bine acest cuvânt: ghiozdan.",
           "choices": [
             "🎒",
             "📚",
@@ -152,7 +152,7 @@
         {
           "id": "ro-langues-star-05",
           "prompt": "stea",
-          "promptTts": "stea",
+          "promptTts": "Ascultă bine acest cuvânt: stea.",
           "choices": [
             "☀️",
             "⭐",
@@ -164,7 +164,7 @@
         {
           "id": "ro-langues-flower-06",
           "prompt": "floare",
-          "promptTts": "floare",
+          "promptTts": "Ascultă bine acest cuvânt: floare.",
           "choices": [
             "🌳",
             "🍎",
@@ -185,7 +185,7 @@
         {
           "id": "ro-langues-book-01-l",
           "prompt": "Ascultă și atinge",
-          "promptTts": "carte",
+          "promptTts": "Ascultă bine acest cuvânt: carte.",
           "choices": [
             "📚",
             "✏️",
@@ -197,7 +197,7 @@
         {
           "id": "ro-langues-pencil-02-l",
           "prompt": "Ascultă și atinge",
-          "promptTts": "creion",
+          "promptTts": "Ascultă bine acest cuvânt: creion.",
           "choices": [
             "📚",
             "✏️",
@@ -209,7 +209,7 @@
         {
           "id": "ro-langues-school-03-l",
           "prompt": "Ascultă și atinge",
-          "promptTts": "școală",
+          "promptTts": "Ascultă bine acest cuvânt: școală.",
           "choices": [
             "🌳",
             "🏠",
@@ -221,7 +221,7 @@
         {
           "id": "ro-langues-apple-04-l",
           "prompt": "Ascultă și atinge",
-          "promptTts": "măr",
+          "promptTts": "Ascultă bine acest cuvânt: măr.",
           "choices": [
             "🍎",
             "🌸",
@@ -233,7 +233,7 @@
         {
           "id": "ro-langues-sun-05-l",
           "prompt": "Ascultă și atinge",
-          "promptTts": "soare",
+          "promptTts": "Ascultă bine acest cuvânt: soare.",
           "choices": [
             "⭐",
             "☀️",
@@ -254,7 +254,7 @@
         {
           "id": "ro-langues-l4-01",
           "prompt": "Prima literă din carte",
-          "promptTts": "Scrie prima literă din carte",
+          "promptTts": "Te rog, scrie cuvântul prima literă din carte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -265,7 +265,7 @@
         {
           "id": "ro-langues-l4-02",
           "prompt": "Prima literă din soare",
-          "promptTts": "Scrie prima literă din soare",
+          "promptTts": "Te rog, scrie cuvântul prima literă din soare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "s"
@@ -276,7 +276,7 @@
         {
           "id": "ro-langues-l4-03",
           "prompt": "Prima literă din pisică",
-          "promptTts": "Scrie prima literă din pisică",
+          "promptTts": "Te rog, scrie cuvântul prima literă din pisică.",
           "answerMode": "type",
           "acceptedAnswers": [
             "p"
@@ -287,7 +287,7 @@
         {
           "id": "ro-langues-l4-04",
           "prompt": "Prima literă din câine",
-          "promptTts": "Scrie prima literă din câine",
+          "promptTts": "Te rog, scrie cuvântul prima literă din câine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -298,7 +298,7 @@
         {
           "id": "ro-langues-l4-05",
           "prompt": "Prima literă din copac",
-          "promptTts": "Scrie prima literă din copac",
+          "promptTts": "Te rog, scrie cuvântul prima literă din copac.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -318,7 +318,7 @@
         {
           "id": "ro-langues-l5-01",
           "prompt": "Scrie: pisică",
-          "promptTts": "Scrie pisică",
+          "promptTts": "Te rog, scrie cuvântul pisică.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pisică"
@@ -330,7 +330,7 @@
         {
           "id": "ro-langues-l5-02",
           "prompt": "Scrie: soare",
-          "promptTts": "Scrie soare",
+          "promptTts": "Te rog, scrie cuvântul soare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soare"
@@ -342,7 +342,7 @@
         {
           "id": "ro-langues-l5-03",
           "prompt": "Scrie: câine",
-          "promptTts": "Scrie câine",
+          "promptTts": "Te rog, scrie cuvântul câine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "câine"
@@ -354,7 +354,7 @@
         {
           "id": "ro-langues-l5-04",
           "prompt": "Scrie: carte",
-          "promptTts": "Scrie carte",
+          "promptTts": "Te rog, scrie cuvântul carte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "carte"
@@ -366,7 +366,7 @@
         {
           "id": "ro-langues-l5-05",
           "prompt": "Scrie: copac",
-          "promptTts": "Scrie copac",
+          "promptTts": "Te rog, scrie cuvântul copac.",
           "answerMode": "type",
           "acceptedAnswers": [
             "copac"
@@ -387,7 +387,7 @@
         {
           "id": "ro-langues-l6-01",
           "prompt": "Scrie: școală",
-          "promptTts": "Scrie școală",
+          "promptTts": "Te rog, scrie cuvântul școală.",
           "answerMode": "type",
           "acceptedAnswers": [
             "școală"
@@ -399,7 +399,7 @@
         {
           "id": "ro-langues-l6-02",
           "prompt": "Scrie: casă",
-          "promptTts": "Scrie casă",
+          "promptTts": "Te rog, scrie cuvântul casă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "casă"
@@ -411,7 +411,7 @@
         {
           "id": "ro-langues-l6-03",
           "prompt": "Scrie: măr",
-          "promptTts": "Scrie măr",
+          "promptTts": "Te rog, scrie cuvântul măr.",
           "answerMode": "type",
           "acceptedAnswers": [
             "măr"
@@ -423,7 +423,7 @@
         {
           "id": "ro-langues-l6-04",
           "prompt": "Scrie: floare",
-          "promptTts": "Scrie floare",
+          "promptTts": "Te rog, scrie cuvântul floare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "floare"
@@ -435,7 +435,7 @@
         {
           "id": "ro-langues-l6-05",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -456,7 +456,7 @@
         {
           "id": "ro-langues-l7-01",
           "prompt": "Scrie: școală",
-          "promptTts": "Scrie școală",
+          "promptTts": "Te rog, scrie cuvântul școală.",
           "answerMode": "type",
           "acceptedAnswers": [
             "școală"
@@ -467,7 +467,7 @@
         {
           "id": "ro-langues-l7-02",
           "prompt": "Scrie: câine",
-          "promptTts": "Scrie câine",
+          "promptTts": "Te rog, scrie cuvântul câine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "câine"
@@ -478,7 +478,7 @@
         {
           "id": "ro-langues-l7-03",
           "prompt": "Scrie: măr",
-          "promptTts": "Scrie măr",
+          "promptTts": "Te rog, scrie cuvântul măr.",
           "answerMode": "type",
           "acceptedAnswers": [
             "măr"
@@ -489,7 +489,7 @@
         {
           "id": "ro-langues-l7-04",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -500,7 +500,7 @@
         {
           "id": "ro-langues-l7-05",
           "prompt": "Scrie: pâine",
-          "promptTts": "Scrie pâine",
+          "promptTts": "Te rog, scrie cuvântul pâine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pâine"
@@ -520,7 +520,7 @@
         {
           "id": "ro-langues-cat-01",
           "prompt": "pisică",
-          "promptTts": "pisică",
+          "promptTts": "Ascultă bine acest cuvânt: pisică.",
           "choices": [
             "🐱",
             "🐕",
@@ -532,7 +532,7 @@
         {
           "id": "ro-langues-dog-02",
           "prompt": "câine",
-          "promptTts": "câine",
+          "promptTts": "Ascultă bine acest cuvânt: câine.",
           "choices": [
             "🐱",
             "🐕",
@@ -544,7 +544,7 @@
         {
           "id": "ro-langues-fish-03",
           "prompt": "pește",
-          "promptTts": "pește",
+          "promptTts": "Ascultă bine acest cuvânt: pește.",
           "choices": [
             "🐱",
             "🐦",
@@ -556,7 +556,7 @@
         {
           "id": "ro-langues-bird-04",
           "prompt": "pasăre",
-          "promptTts": "pasăre",
+          "promptTts": "Ascultă bine acest cuvânt: pasăre.",
           "choices": [
             "🐦",
             "🐠",
@@ -568,7 +568,7 @@
         {
           "id": "ro-langues-apple-05",
           "prompt": "măr",
-          "promptTts": "măr",
+          "promptTts": "Ascultă bine acest cuvânt: măr.",
           "choices": [
             "🐱",
             "🍎",
@@ -589,7 +589,7 @@
         {
           "id": "ro-langues-l9-01",
           "prompt": "Scrie: măr",
-          "promptTts": "Scrie măr",
+          "promptTts": "Te rog, scrie cuvântul măr.",
           "answerMode": "type",
           "acceptedAnswers": [
             "măr"
@@ -601,7 +601,7 @@
         {
           "id": "ro-langues-l9-02",
           "prompt": "Scrie: pâine",
-          "promptTts": "Scrie pâine",
+          "promptTts": "Te rog, scrie cuvântul pâine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pâine"
@@ -613,7 +613,7 @@
         {
           "id": "ro-langues-l9-03",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -625,7 +625,7 @@
         {
           "id": "ro-langues-l9-04",
           "prompt": "Scrie: pește",
-          "promptTts": "Scrie pește",
+          "promptTts": "Te rog, scrie cuvântul pește.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pește"
@@ -637,7 +637,7 @@
         {
           "id": "ro-langues-l9-05",
           "prompt": "Scrie: floare",
-          "promptTts": "Scrie floare",
+          "promptTts": "Te rog, scrie cuvântul floare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "floare"
@@ -658,7 +658,7 @@
         {
           "id": "ro-langues-l10-01",
           "prompt": "Scrie: școală",
-          "promptTts": "Scrie școală",
+          "promptTts": "Te rog, scrie cuvântul școală.",
           "answerMode": "type",
           "acceptedAnswers": [
             "școală"
@@ -669,7 +669,7 @@
         {
           "id": "ro-langues-l10-02",
           "prompt": "Scrie: floare",
-          "promptTts": "Scrie floare",
+          "promptTts": "Te rog, scrie cuvântul floare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "floare"
@@ -680,7 +680,7 @@
         {
           "id": "ro-langues-l10-03",
           "prompt": "Scrie: creion",
-          "promptTts": "Scrie creion",
+          "promptTts": "Te rog, scrie cuvântul creion.",
           "answerMode": "type",
           "acceptedAnswers": [
             "creion"
@@ -691,7 +691,7 @@
         {
           "id": "ro-langues-l10-04",
           "prompt": "Scrie: mulțumesc",
-          "promptTts": "Scrie mulțumesc",
+          "promptTts": "Te rog, scrie cuvântul mulțumesc.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mulțumesc"
@@ -702,7 +702,7 @@
         {
           "id": "ro-langues-l10-05",
           "prompt": "Scrie: salut",
-          "promptTts": "Scrie salut",
+          "promptTts": "Te rog, scrie cuvântul salut.",
           "answerMode": "type",
           "acceptedAnswers": [
             "salut"
@@ -722,7 +722,7 @@
         {
           "id": "ro-langues-l11-01",
           "prompt": "Contrarul lui da?",
-          "promptTts": "Contrarul lui da?",
+          "promptTts": "Contrarul lui da? Alege răspunsul potrivit.",
           "choices": [
             "nu",
             "da",
@@ -734,7 +734,7 @@
         {
           "id": "ro-langues-l11-02",
           "prompt": "Contrarul lui roșu?",
-          "promptTts": "Contrarul lui roșu?",
+          "promptTts": "Contrarul lui roșu? Alege răspunsul potrivit.",
           "choices": [
             "albastru",
             "roșu",
@@ -746,7 +746,7 @@
         {
           "id": "ro-langues-l11-03",
           "prompt": "Contrarul lui mare?",
-          "promptTts": "Contrarul lui mare?",
+          "promptTts": "Contrarul lui mare? Alege răspunsul potrivit.",
           "choices": [
             "mic",
             "mare",
@@ -758,7 +758,7 @@
         {
           "id": "ro-langues-l11-04",
           "prompt": "Contrarul lui zi?",
-          "promptTts": "Contrarul lui zi?",
+          "promptTts": "Contrarul lui zi? Alege răspunsul potrivit.",
           "choices": [
             "noapte",
             "zi",
@@ -770,7 +770,7 @@
         {
           "id": "ro-langues-l11-05",
           "prompt": "Contrarul lui cald?",
-          "promptTts": "Contrarul lui cald?",
+          "promptTts": "Contrarul lui cald? Alege răspunsul potrivit.",
           "choices": [
             "rece",
             "cald",
@@ -791,7 +791,7 @@
         {
           "id": "ro-langues-l12-01",
           "prompt": "Ascultă",
-          "promptTts": "salut",
+          "promptTts": "Ascultă bine acest cuvânt: salut.",
           "choices": [
             "salut",
             "mulțumesc",
@@ -803,7 +803,7 @@
         {
           "id": "ro-langues-l12-02",
           "prompt": "Ascultă",
-          "promptTts": "mulțumesc",
+          "promptTts": "Ascultă bine acest cuvânt: mulțumesc.",
           "choices": [
             "mulțumesc",
             "salut",
@@ -815,7 +815,7 @@
         {
           "id": "ro-langues-l12-03",
           "prompt": "Ascultă",
-          "promptTts": "da",
+          "promptTts": "Ascultă Atinge da sau nu.",
           "choices": [
             "da",
             "nu",
@@ -827,7 +827,7 @@
         {
           "id": "ro-langues-l12-04",
           "prompt": "Ascultă",
-          "promptTts": "nu",
+          "promptTts": "Ascultă Atinge da sau nu.",
           "choices": [
             "nu",
             "da",
@@ -839,7 +839,7 @@
         {
           "id": "ro-langues-l12-05",
           "prompt": "Ascultă",
-          "promptTts": "soare",
+          "promptTts": "Ascultă bine acest cuvânt: soare.",
           "choices": [
             "soare",
             "pisică",
@@ -860,7 +860,7 @@
         {
           "id": "ro-langues-l13-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Ascultă bine acest cuvânt: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -872,7 +872,7 @@
         {
           "id": "ro-langues-l13-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Ascultă bine acest cuvânt: Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -884,7 +884,7 @@
         {
           "id": "ro-langues-l13-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Ascultă bine acest cuvânt: Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -896,7 +896,7 @@
         {
           "id": "ro-langues-l13-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Ascultă bine acest cuvânt: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -908,7 +908,7 @@
         {
           "id": "ro-langues-l13-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Ascultă bine acest cuvânt: Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -929,7 +929,7 @@
         {
           "id": "ro-langues-l14-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Ascultă bine acest cuvânt: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -941,7 +941,7 @@
         {
           "id": "ro-langues-l14-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Ascultă bine acest cuvânt: Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -953,7 +953,7 @@
         {
           "id": "ro-langues-l14-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Ascultă bine acest cuvânt: Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -965,7 +965,7 @@
         {
           "id": "ro-langues-l14-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Ascultă bine acest cuvânt: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -977,7 +977,7 @@
         {
           "id": "ro-langues-l14-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Ascultă bine acest cuvânt: Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -989,7 +989,7 @@
         {
           "id": "ro-langues-l14-06",
           "prompt": "Wasser",
-          "promptTts": "Wasser",
+          "promptTts": "Ascultă bine acest cuvânt: Wasser.",
           "choices": [
             "💧",
             "⭐",
@@ -1010,7 +1010,7 @@
         {
           "id": "ro-langues-l15-01",
           "prompt": "Scrie: Sonne",
-          "promptTts": "Scrie Sonne",
+          "promptTts": "Te rog, scrie cuvântul Sonne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sonne"
@@ -1022,7 +1022,7 @@
         {
           "id": "ro-langues-l15-02",
           "prompt": "Scrie: Katze",
-          "promptTts": "Scrie Katze",
+          "promptTts": "Te rog, scrie cuvântul Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -1034,7 +1034,7 @@
         {
           "id": "ro-langues-l15-03",
           "prompt": "Scrie: Haus",
-          "promptTts": "Scrie Haus",
+          "promptTts": "Te rog, scrie cuvântul Haus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -1046,7 +1046,7 @@
         {
           "id": "ro-langues-l15-04",
           "prompt": "Scrie: Apfel",
-          "promptTts": "Scrie Apfel",
+          "promptTts": "Te rog, scrie cuvântul Apfel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Apfel"
@@ -1058,7 +1058,7 @@
         {
           "id": "ro-langues-l15-05",
           "prompt": "Scrie: Baum",
-          "promptTts": "Scrie Baum",
+          "promptTts": "Te rog, scrie cuvântul Baum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Baum"
@@ -1079,7 +1079,7 @@
         {
           "id": "ro-langues-l16-01",
           "prompt": "Ascultă și atinge",
-          "promptTts": "Sonne",
+          "promptTts": "Ascultă bine acest cuvânt: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -1091,7 +1091,7 @@
         {
           "id": "ro-langues-l16-02",
           "prompt": "Ascultă și atinge",
-          "promptTts": "Katze",
+          "promptTts": "Ascultă bine acest cuvânt: Katze.",
           "choices": [
             "⭐",
             "🐱",
@@ -1103,7 +1103,7 @@
         {
           "id": "ro-langues-l16-03",
           "prompt": "Ascultă și atinge",
-          "promptTts": "Haus",
+          "promptTts": "Ascultă bine acest cuvânt: Haus.",
           "choices": [
             "🌳",
             "⭐",
@@ -1115,7 +1115,7 @@
         {
           "id": "ro-langues-l16-04",
           "prompt": "Ascultă și atinge",
-          "promptTts": "Apfel",
+          "promptTts": "Ascultă bine acest cuvânt: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -1127,7 +1127,7 @@
         {
           "id": "ro-langues-l16-05",
           "prompt": "Ascultă și atinge",
-          "promptTts": "Baum",
+          "promptTts": "Ascultă bine acest cuvânt: Baum.",
           "choices": [
             "⭐",
             "🌳",
@@ -1148,7 +1148,7 @@
         {
           "id": "ro-langues-l17-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Ascultă bine acest cuvânt: book.",
           "choices": [
             "📚",
             "⭐",
@@ -1160,7 +1160,7 @@
         {
           "id": "ro-langues-l17-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Ascultă bine acest cuvânt: dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1172,7 +1172,7 @@
         {
           "id": "ro-langues-l17-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Ascultă bine acest cuvânt: flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1184,7 +1184,7 @@
         {
           "id": "ro-langues-l17-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Ascultă bine acest cuvânt: star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1196,7 +1196,7 @@
         {
           "id": "ro-langues-l17-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Ascultă bine acest cuvânt: bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1217,7 +1217,7 @@
         {
           "id": "ro-langues-l18-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Ascultă bine acest cuvânt: book.",
           "choices": [
             "📚",
             "⭐",
@@ -1229,7 +1229,7 @@
         {
           "id": "ro-langues-l18-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Ascultă bine acest cuvânt: dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1241,7 +1241,7 @@
         {
           "id": "ro-langues-l18-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Ascultă bine acest cuvânt: flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1253,7 +1253,7 @@
         {
           "id": "ro-langues-l18-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Ascultă bine acest cuvânt: star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1265,7 +1265,7 @@
         {
           "id": "ro-langues-l18-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Ascultă bine acest cuvânt: bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1277,7 +1277,7 @@
         {
           "id": "ro-langues-l18-06",
           "prompt": "bird",
-          "promptTts": "bird",
+          "promptTts": "Ascultă bine acest cuvânt: bird.",
           "choices": [
             "🐦",
             "⭐",
@@ -1298,7 +1298,7 @@
         {
           "id": "ro-langues-l19-01",
           "prompt": "Scrie: book",
-          "promptTts": "Scrie book",
+          "promptTts": "Te rog, scrie cuvântul book.",
           "answerMode": "type",
           "acceptedAnswers": [
             "book"
@@ -1310,7 +1310,7 @@
         {
           "id": "ro-langues-l19-02",
           "prompt": "Scrie: dog",
-          "promptTts": "Scrie dog",
+          "promptTts": "Te rog, scrie cuvântul dog.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dog"
@@ -1322,7 +1322,7 @@
         {
           "id": "ro-langues-l19-03",
           "prompt": "Scrie: flower",
-          "promptTts": "Scrie flower",
+          "promptTts": "Te rog, scrie cuvântul flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -1334,7 +1334,7 @@
         {
           "id": "ro-langues-l19-04",
           "prompt": "Scrie: star",
-          "promptTts": "Scrie star",
+          "promptTts": "Te rog, scrie cuvântul star.",
           "answerMode": "type",
           "acceptedAnswers": [
             "star"
@@ -1346,7 +1346,7 @@
         {
           "id": "ro-langues-l19-05",
           "prompt": "Scrie: bread",
-          "promptTts": "Scrie bread",
+          "promptTts": "Te rog, scrie cuvântul bread.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bread"
@@ -1367,7 +1367,7 @@
         {
           "id": "ro-langues-l20-01",
           "prompt": "Scrie: carte",
-          "promptTts": "Scrie carte",
+          "promptTts": "Te rog, scrie cuvântul carte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "carte"
@@ -1379,7 +1379,7 @@
         {
           "id": "ro-langues-l20-02",
           "prompt": "Scrie: pisică",
-          "promptTts": "Scrie pisică",
+          "promptTts": "Te rog, scrie cuvântul pisică.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pisică"
@@ -1391,7 +1391,7 @@
         {
           "id": "ro-langues-l20-03",
           "prompt": "Scrie: soare",
-          "promptTts": "Scrie soare",
+          "promptTts": "Te rog, scrie cuvântul soare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soare"
@@ -1403,7 +1403,7 @@
         {
           "id": "ro-langues-l20-04",
           "prompt": "Scrie: casă",
-          "promptTts": "Scrie casă",
+          "promptTts": "Te rog, scrie cuvântul casă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "casă"
@@ -1415,7 +1415,7 @@
         {
           "id": "ro-langues-l20-05",
           "prompt": "Scrie: copac",
-          "promptTts": "Scrie copac",
+          "promptTts": "Te rog, scrie cuvântul copac.",
           "answerMode": "type",
           "acceptedAnswers": [
             "copac"

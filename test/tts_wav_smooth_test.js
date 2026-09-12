@@ -85,7 +85,23 @@ for (const locale of ['de', 'fr', 'en', 'ro']) {
   if (locale !== 'en') {
     assert(String(pack.voice).indexOf('en') !== 0, locale + ' must not use English voice');
   }
+  if (locale === 'fr' || locale === 'ro') {
+    assert(s.speed <= 135, locale + ' pack should speak slower than EN');
+    assert(s.speed >= 120, locale + ' pack should not crawl');
+    assert(s.pitch >= 54 && s.pitch <= 60, locale + ' kid pitch should stay moderate');
+  } else {
+    assert(s.speed >= 140, locale + ' EN/DE stay nearer the previous pace');
+  }
 }
+
+assert(
+  tts.prepareUtterance('Combien font un plus un', 'fr').indexOf('?') !== -1,
+  'FR questions get a closing ? so eSpeak uses the question tune'
+);
+assert(
+  tts.prepareUtterance('Cât fac unu plus unu', 'ro').indexOf('?') !== -1,
+  'RO questions get a closing ?'
+);
 
 console.log('ok: fade-in', first, 'fade-out', last, 'peak', peak);
 process.exit(0);

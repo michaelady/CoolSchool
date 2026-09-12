@@ -101,6 +101,8 @@ BCP-47 on `flutter_tts` / Web Speech is **not enough** when Chrome only has Engl
 
 The synthesizer is **meSpeak / eSpeak** (`web/tts/mespeak.js` + `mespeak-core.js`, GPL-3 — see `web/tts/NOTICE`). Each JSON pack is that language’s dictionary and voice, not an English voice with a `lang` attribute.
 
+FR and RO still use those shipped dictionaries (so English-only Chrome keeps real French / Romanian phonemes). The **voice profile** in `fr.json` / `ro.json` is a milder female formant setting (pitch range + formants, **no** Klatt `f2`, **no** echo/breath). Playback is a bit slower (`speed` 128) so vowels and Romanian `ă` / `â` / `ș` have time. DE is only slightly slower; EN is unchanged. Native Chrome/OS voices stay opt-in via `?tts=system`.
+
 Selection (`TtsPackPicker` in `lib/audio/tts_packs.dart`):
 
 1. **Default:** speak with the shipped pack for the active chip (`coolschool-de` / `fr` / `en` / `ro`) through `#coolschool-tts` (same HTML audio unlock as the whoosh). No query flag is required.
@@ -115,7 +117,8 @@ Playback (`web/tts/coolschool_tts.js`) keeps those packs as the default and smoo
 
 - **Do not enable meSpeak's utf16 flag.** In this eSpeak build, that sets `-b 4` (16-bit Unicode) and inserts a pause between letters — the WAV becomes ~8× longer with silent gaps mid-sentence. Default `-b 1` auto-detects UTF-8 for `é` / `ä` / `â`.
 - One WAV per prompt (not per word). A generation token drops stale worker callbacks so a second **Lire** / **Vorlesen** cannot overlap the first.
-- No Klatt `f2` echo/breath variant, `wordgap` 0, amplitude 88 (not clipped at 100).
+- No Klatt `f2` echo/breath variant, `wordgap` 0, amplitude 88 (not clipped at 100). FR/RO use the female formant profile inside the voice JSON instead.
+- FR/RO `speed` 128 (EN 155, DE 145) and a moderate kid `pitch` (56 / 55). Do **not** stack a Klatt `variant`.
 - Short cosine fade in/out on the PCM, Blob URL into `#coolschool-tts`, and a volume fade on stop. Do **not** `pause` + clear `src` + `load()` (that pop).
 - Always **await/catch** `#coolschool-tts.play()`. `pause()` or a new `src` while `play()` is pending rejects with `AbortError`; that rejection is handled so mute, a second **Lire**, and stop do not throw or pop.
 - First-pointer unlock plays the audio tags **muted** so the empty TTS element does not click.
@@ -132,18 +135,22 @@ speechSynthesis.getVoices().map(v => `${v.lang} — ${v.name}`).sort()
 ```
 
 3. Home → **FR** → **Maths et nature** → level 1. Tap **Lire**.
-4. You should hear French phonemes (*« Combien font un plus un ? »*) **without** clicks, pops, or the voice cutting out mid-sentence. In the console:
+4. You should hear French phonemes in a **fuller sentence** (*« Combien font un plus un ? Choisis le bon nombre. »*), a bit slower than English, **without** clicks, pops, or the voice cutting out mid-sentence. In the console:
 
 ```js
 CoolSchoolTts.lastUtterance
-// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak", encoding: "espeak-auto", wordgap: 0, … }
+// { locale: "fr", packId: "coolschool-fr", voiceId: "fr", engine: "bundled-espeak",
+//   encoding: "espeak-auto", wordgap: 0, speed: 128, voiceProfile: "kid-female", … }
 CoolSchoolTts.speakSettings('fr').utf16  // false — `-b 4` would pause between letters
 CoolSchoolTts.speakSettings('fr').wordgap  // 0
+CoolSchoolTts.speakSettings('fr').speed   // 128
+CoolSchoolTts.speakSettings('fr').variant // undefined — no Klatt f2
 ```
 
-5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en`. FR must **not** have used `en/en`.
-6. Repeat **DE** → **Vorlesen** (*« Was ist eins plus eins? »* / `coolschool-de`, try *Äpfel*) and **RO** (*« Cât fac unu plus unu? »* / `coolschool-ro`). Accents must stay smooth.
-7. Mute still silences TTS and SFX for the rest of the session. Chips, feedback hold, whoosh, domains, and typing are unchanged.
+5. Home → **EN** → same level → **Read aloud**. `lastUtterance.packId` must be `coolschool-en` and `speed` 155. FR must **not** have used `en/en`.
+6. Repeat **DE** → **Vorlesen** (*« Was ist eins plus eins? Wähle die richtige Zahl. »* / `coolschool-de`, try *Äpfel*).
+7. Home → **RO** → **Citește** on the same Maths level 1 opener (*« Cât fac unu plus unu? Alege numărul potrivit. »* / `coolschool-ro`, `speed` 128, `voiceProfile` `"kid-female"`). Accents (`ă` / `â` / `ș`) must stay smooth. A SHS level-1 **Citește** should say a short sentence (*« Cine e? Ascultă: mama. »*), not the single word *mama*.
+8. Mute still silences TTS and SFX for the rest of the session. Chips, feedback hold, whoosh, domains, and typing are unchanged. Feedback banners stay visual + SFX (they are not spoken).
 
 To try a matching Chrome/OS voice instead, append `?tts=system`. If `CoolSchoolTts.lastUtterance` is then `null`, SpeechSynthesis handled that utterance. Remove the flag (or open the site with no query) to hear the dedicated packs again.
 
