@@ -211,7 +211,7 @@
         {
           "id": "ro-num-l3-05",
           "prompt": "Scrie cuvântul: da",
-          "promptTts": "Scrie cuvântul: da. Ascultă, cuvântul este Scrie da.",
+          "promptTts": "Ascultă bine acest cuvânt: Scrie da.",
           "answerMode": "type",
           "acceptedAnswers": [
             "da"
@@ -901,7 +901,7 @@
         {
           "id": "ro-num-l14-02",
           "prompt": "Scrie numărul 3",
-          "promptTts": "Scrie numărul 3. Ascultă, cuvântul este Scrie trei.",
+          "promptTts": "Ascultă bine acest cuvânt: Scrie trei.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"

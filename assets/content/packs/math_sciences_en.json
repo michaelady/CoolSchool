@@ -764,7 +764,7 @@
         {
           "id": "en-msn-l10-05",
           "prompt": "25",
-          "promptTts": "25. Listen, the word is Type twenty-five.",
+          "promptTts": "Listen carefully to this word: Type twenty-five.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "en-msn-l12-03",
           "prompt": "100",
-          "promptTts": "100. Listen, the word is Type one hundred.",
+          "promptTts": "Listen carefully to this word: Type one hundred.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -1202,7 +1202,7 @@
         {
           "id": "en-msn-l17-01",
           "prompt": "Water, ice or steam?",
-          "promptTts": "Listen carefully to this word: Water, ice or steam.",
+          "promptTts": "Water, ice or steam?",
           "choices": [
             "water",
             "ice",
@@ -1215,7 +1215,7 @@
         {
           "id": "en-msn-l17-02",
           "prompt": "Water, ice or steam?",
-          "promptTts": "Listen carefully to this word: Water, ice or steam.",
+          "promptTts": "Water, ice or steam?",
           "choices": [
             "water",
             "ice",
@@ -1228,7 +1228,7 @@
         {
           "id": "en-msn-l17-03",
           "prompt": "Water, ice or steam?",
-          "promptTts": "Listen carefully to this word: Water, ice or steam.",
+          "promptTts": "Water, ice or steam?",
           "choices": [
             "water",
             "ice",

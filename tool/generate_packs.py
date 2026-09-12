@@ -234,8 +234,11 @@ def enrich_spoken(lang: str, prompt: str, tts: str) -> str:
     cleaned = " ".join(str(tts).split()).strip()
     if not cleaned:
         return cleaned
-    if spoken_word_count(cleaned) >= 5:
+    if spoken_word_count(cleaned) >= 4:
         return cleaned
+    type_hints = ("schreib", "écris", "ecris", "type ", "type the", "scrie")
+    if any(cleaned.lower().startswith(h) for h in type_hints):
+        return cleaned if spoken_word_count(cleaned) >= 3 else listen_word(lang, cleaned)
     prompt_s = " ".join(str(prompt).split()).strip()
     bare = cleaned.rstrip(".!?").strip().lower()
     if bare in YES_NO:
@@ -253,6 +256,9 @@ def enrich_spoken(lang: str, prompt: str, tts: str) -> str:
     if any(prompt_s.lower().startswith(h) for h in listen_hints) or prompt_bare == word_bare:
         return listen_word(lang, word)
     if prompt_s and spoken_word_count(cleaned) <= 4:
+        # Keep digit soup off TTS (e.g. "1-2-3" on a clap prompt).
+        if re.search(r"\d\s*[+\-−]", prompt_s):
+            return listen_word(lang, word)
         if prompt_s.endswith(("…", "...")):
             return t(
                 lang,
@@ -1503,9 +1509,13 @@ def arts_exercises(lang: str) -> dict[int, list[dict]]:
         ],
         12: [
             quiz_choice(lang, f"{e}-l12-01", t(lang, "Klatsch: 1-2-3, wie viele?", "Claps : 1-2-3, combien ?", "Claps: 1-2-3, how many?", "Aplauze: 1-2-3, câte?"),
-                        "3", ["2", "3", "4"], 1),
+                        t(lang, "Wie viele Klatscher hörst du? Es sind drei.",
+                          "Combien de claps entends-tu ? Il y en a trois.",
+                          "How many claps do you hear? There are three.",
+                          "Câte aplauze auzi? Sunt trei."), ["2", "3", "4"], 1),
             typed(f"{e}-l12-02", t(lang, "Wie viele Schläge: ♪♪♪♪ ?", "Combien de temps : ♪♪♪♪ ?", "How many beats: ♪♪♪♪ ?", "Câte bătăi: ♪♪♪♪ ?"),
-                  t(lang, "Schreib vier", "Écris quatre", "Type four", "Scrie patru"), ["4"], keyboard="number", kind="quiz"),
+                  t(lang, "Schreib die Zahl vier.", "Écris le nombre quatre.", "Type the number four.", "Scrie numărul patru."),
+                  ["4"], keyboard="number", kind="quiz"),
             quiz_choice(lang, f"{e}-l12-03", t(lang, "Gleichmässig klatschen ist Rhythmus?", "Frapper régulièrement, c’est le rythme ?",
                                              "Clapping evenly is rhythm?", "Aplaudatul regulat e ritm?"),
                         yes, [yes, no], 0),

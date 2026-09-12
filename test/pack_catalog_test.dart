@@ -65,7 +65,7 @@ void main() {
             expect(
               words,
               greaterThanOrEqualTo(4),
-              reason: '${pack.id}/${locale} ${exercise.id} → ${exercise.promptTts}',
+              reason: '${pack.id}/$locale ${exercise.id} → ${exercise.promptTts}',
             );
           }
         }

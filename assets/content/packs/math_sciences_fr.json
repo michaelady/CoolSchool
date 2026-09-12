@@ -764,7 +764,7 @@
         {
           "id": "fr-msn-l10-05",
           "prompt": "25",
-          "promptTts": "25. Écoute, le mot est Écris vingt-cinq.",
+          "promptTts": "Écoute bien ce mot : Écris vingt-cinq.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "fr-msn-l12-03",
           "prompt": "100",
-          "promptTts": "100. Écoute, le mot est Écris cent.",
+          "promptTts": "Écoute bien ce mot : Écris cent.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -1202,7 +1202,7 @@
         {
           "id": "fr-msn-l17-01",
           "prompt": "Eau, glace ou vapeur ?",
-          "promptTts": "Écoute bien ce mot : Eau, glace ou vapeur .",
+          "promptTts": "Eau, glace ou vapeur ?",
           "choices": [
             "eau",
             "glace",
@@ -1215,7 +1215,7 @@
         {
           "id": "fr-msn-l17-02",
           "prompt": "Eau, glace ou vapeur ?",
-          "promptTts": "Écoute bien ce mot : Eau, glace ou vapeur .",
+          "promptTts": "Eau, glace ou vapeur ?",
           "choices": [
             "eau",
             "glace",
@@ -1228,7 +1228,7 @@
         {
           "id": "fr-msn-l17-03",
           "prompt": "Eau, glace ou vapeur ?",
-          "promptTts": "Écoute bien ce mot : Eau, glace ou vapeur .",
+          "promptTts": "Eau, glace ou vapeur ?",
           "choices": [
             "eau",
             "glace",
@@ -1347,7 +1347,7 @@
         {
           "id": "fr-msn-l19-01",
           "prompt": "Qui est plus long ?",
-          "promptTts": "Écoute bien ce mot : Qui est plus long .",
+          "promptTts": "Qui est plus long ?",
           "choices": [
             "—",
             "-"

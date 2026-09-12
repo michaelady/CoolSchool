@@ -211,7 +211,7 @@
         {
           "id": "de-num-l3-05",
           "prompt": "Schreib das Wort: ja",
-          "promptTts": "Schreib das Wort: ja. Hör zu, das Wort ist Schreib ja.",
+          "promptTts": "Hör gut zu, das Wort ist Schreib ja.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ja"
@@ -629,7 +629,7 @@
         {
           "id": "de-num-l10-01",
           "prompt": "Jemand Unbekanntes will sich treffen?",
-          "promptTts": "Jemand Unbekanntes will sich treffen? Hör zu: eine erwachsene Person fragen.",
+          "promptTts": "eine erwachsene Person fragen",
           "choices": [
             "sofort allein gehen",
             "eine erwachsene Person fragen"
@@ -901,7 +901,7 @@
         {
           "id": "de-num-l14-02",
           "prompt": "Schreib die Zahl 3",
-          "promptTts": "Schreib die Zahl 3. Hör zu, das Wort ist Schreib drei.",
+          "promptTts": "Hör gut zu, das Wort ist Schreib drei.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"

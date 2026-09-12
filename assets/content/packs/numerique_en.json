@@ -211,7 +211,7 @@
         {
           "id": "en-num-l3-05",
           "prompt": "Type the word: yes",
-          "promptTts": "Type the word: yes. Listen, the word is Type yes.",
+          "promptTts": "Listen carefully to this word: Type yes.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yes"
@@ -901,7 +901,7 @@
         {
           "id": "en-num-l14-02",
           "prompt": "Type the number 3",
-          "promptTts": "Type the number 3. Listen, the word is Type three.",
+          "promptTts": "Listen carefully to this word: Type three.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"

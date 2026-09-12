@@ -764,7 +764,7 @@
         {
           "id": "ro-msn-l10-05",
           "prompt": "25",
-          "promptTts": "25. Ascultă, cuvântul este Scrie douăzeci și cinci.",
+          "promptTts": "Scrie douăzeci și cinci",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "ro-msn-l12-03",
           "prompt": "100",
-          "promptTts": "100. Ascultă, cuvântul este Scrie o sută.",
+          "promptTts": "Ascultă bine acest cuvânt: Scrie o sută.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -1202,7 +1202,7 @@
         {
           "id": "ro-msn-l17-01",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
+          "promptTts": "Apă, gheață sau abur?",
           "choices": [
             "apă",
             "gheață",
@@ -1215,7 +1215,7 @@
         {
           "id": "ro-msn-l17-02",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
+          "promptTts": "Apă, gheață sau abur?",
           "choices": [
             "apă",
             "gheață",
@@ -1228,7 +1228,7 @@
         {
           "id": "ro-msn-l17-03",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
+          "promptTts": "Apă, gheață sau abur?",
           "choices": [
             "apă",
             "gheață",
@@ -1347,7 +1347,7 @@
         {
           "id": "ro-msn-l19-01",
           "prompt": "Ce e mai lung?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce e mai lung.",
+          "promptTts": "Ce e mai lung?",
           "choices": [
             "—",
             "-"

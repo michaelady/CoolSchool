@@ -591,7 +591,7 @@
         {
           "id": "ro-shs-l9-01",
           "prompt": "Care steag e Elveția?",
-          "promptTts": "Ascultă bine acest cuvânt: Care steag e Elveția.",
+          "promptTts": "Care steag e Elveția?",
           "choices": [
             "🇨🇭",
             "🇫🇷",
@@ -1345,7 +1345,7 @@
         {
           "id": "ro-shs-l20-01",
           "prompt": "Care steag e Elveția?",
-          "promptTts": "Ascultă bine acest cuvânt: Care steag e Elveția.",
+          "promptTts": "Care steag e Elveția?",
           "choices": [
             "🇨🇭",
             "🇫🇷",

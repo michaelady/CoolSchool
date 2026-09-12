@@ -764,7 +764,7 @@
         {
           "id": "de-msn-l10-05",
           "prompt": "25",
-          "promptTts": "25. Hör zu, das Wort ist Schreib fünfundzwanzig.",
+          "promptTts": "Hör gut zu, das Wort ist Schreib fünfundzwanzig.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "de-msn-l12-03",
           "prompt": "100",
-          "promptTts": "100. Hör zu, das Wort ist Schreib hundert.",
+          "promptTts": "Hör gut zu, das Wort ist Schreib hundert.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -1202,7 +1202,7 @@
         {
           "id": "de-msn-l17-01",
           "prompt": "Wasser, Eis oder Dampf?",
-          "promptTts": "Hör gut zu, das Wort ist Wasser, Eis oder Dampf.",
+          "promptTts": "Wasser, Eis oder Dampf?",
           "choices": [
             "Wasser",
             "Eis",
@@ -1215,7 +1215,7 @@
         {
           "id": "de-msn-l17-02",
           "prompt": "Wasser, Eis oder Dampf?",
-          "promptTts": "Hör gut zu, das Wort ist Wasser, Eis oder Dampf.",
+          "promptTts": "Wasser, Eis oder Dampf?",
           "choices": [
             "Wasser",
             "Eis",
@@ -1228,7 +1228,7 @@
         {
           "id": "de-msn-l17-03",
           "prompt": "Wasser, Eis oder Dampf?",
-          "promptTts": "Hör gut zu, das Wort ist Wasser, Eis oder Dampf.",
+          "promptTts": "Wasser, Eis oder Dampf?",
           "choices": [
             "Wasser",
             "Eis",

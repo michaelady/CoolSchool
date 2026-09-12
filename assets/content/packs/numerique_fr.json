@@ -211,7 +211,7 @@
         {
           "id": "fr-num-l3-05",
           "prompt": "Écris le mot : oui",
-          "promptTts": "Écris le mot : oui. Écoute, le mot est Écris oui.",
+          "promptTts": "Écoute bien ce mot : Écris oui.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oui"
@@ -629,7 +629,7 @@
         {
           "id": "fr-num-l10-01",
           "prompt": "Quelqu’un d’inconnu veut se rencontrer ?",
-          "promptTts": "Quelqu’un d’inconnu veut se rencontrer ? Écoute : demander à un adulte.",
+          "promptTts": "demander à un adulte",
           "choices": [
             "y aller seul tout de suite",
             "demander à un adulte"
@@ -901,7 +901,7 @@
         {
           "id": "fr-num-l14-02",
           "prompt": "Écris le nombre 3",
-          "promptTts": "Écris le nombre 3. Écoute, le mot est Écris trois.",
+          "promptTts": "Écoute bien ce mot : Écris trois.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
