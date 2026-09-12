@@ -9,8 +9,10 @@
  * - Do **not** enable meSpeak's utf16 flag. This eSpeak build's `-b 4` is
  *   16-bit Unicode, which inserts a pause between letters (~8× longer WAV).
  *   Default `-b 1` auto-detects UTF-8 for é/ä/â.
- * - No Klatt `f2` variant: that preset adds echo + breath on male language
- *   voices and stacks with `-p`, which sounds like pops and interruptions.
+ * - No Klatt `f2` / echo / breath variants: those presets add pops on
+ *   language voices. FR/RO ship a milder female formant profile in the
+ *   voice JSON instead (pitch range + formants, flutter 0).
+ * - FR/RO speak a bit slower than EN so phonemes land (less machine-gun).
  * - wordgap 0: a 10 ms hard silence between words clicked at each boundary.
  * - One synthesis per utterance (never per word). Stale worker callbacks
  *   are ignored so a second Lire cannot overlap the first WAV.
@@ -47,12 +49,17 @@
   }
 
   function speakSettings(locale) {
+    var frRo = locale === 'fr' || locale === 'ro';
     return {
       voice: PACKS[locale] && PACKS[locale].voice,
       // Below 100 so Klatt peaks do not clip into clicks.
       amplitude: 88,
-      pitch: locale === 'fr' ? 50 : 52,
-      speed: 155,
+      // Kid-friendly: a little higher than the male default, still calm.
+      // FR/RO use the female formant profile in the voice JSON; `-p` stays
+      // moderate so it does not stack into squeak or pops.
+      pitch: locale === 'fr' ? 56 : locale === 'ro' ? 55 : locale === 'de' ? 54 : 52,
+      // FR/RO slower so vowels and ă/â/ș have time. DE a touch slower.
+      speed: frRo ? 128 : locale === 'de' ? 145 : 155,
       wordgap: 0,
       // This eSpeak's `-b 4` is UTF-16 and pauses between letters. Stay on
       // default `-b 1` (8-bit / UTF-8 auto) so DE/FR/RO stay ~2s, not ~14s.
@@ -60,6 +67,26 @@
       // `mime` is the proven export path (data:audio/x-wav;base64,…).
       rawdata: 'mime'
     };
+  }
+
+  /**
+   * Light punctuation so eSpeak can pick statement vs question tunes.
+   * Does not rewrite words (SpokenMath / pack promptTts already do that).
+   */
+  function prepareUtterance(text, locale) {
+    var s = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!s) return s;
+    if (!/[.?!…]$/.test(s)) {
+      if (
+        /\?/.test(s) ||
+        /^(Combien|Qui|Où|Quel|Quelle|Quels|Quelles|Cât|Câte|Cine|Unde|Ce |Was |Wie |Wer |Wo |What |Who |Where |How )/i.test(s)
+      ) {
+        s += locale === 'fr' ? ' ?' : '?';
+      } else {
+        s += '.';
+      }
+    }
+    return s;
   }
 
   function loadPack(locale) {
@@ -442,6 +469,7 @@
     if (!text || !String(text).trim()) {
       return Promise.resolve(new Uint8Array(0));
     }
+    var spoken = prepareUtterance(text, locale);
     var settings = speakSettings(locale);
     settings.voice = pack.voice;
     return loadPack(locale).then(function () {
@@ -452,7 +480,7 @@
           settled = true;
           reject(new Error('CoolSchoolTts: synthesize timeout'));
         }, 8000);
-        var id = global.meSpeak.speak(String(text), settings, function (success, _id, stream) {
+        var id = global.meSpeak.speak(spoken, settings, function (success, _id, stream) {
           if (settled) return;
           settled = true;
           global.clearTimeout(timer);
@@ -481,21 +509,26 @@
     if (!pack) return Promise.reject(new Error('CoolSchoolTts: no pack for ' + locale));
     if (!text || !String(text).trim()) return Promise.resolve();
 
+    var spoken = prepareUtterance(text, locale);
     var myGen = (speakGeneration += 1);
     fadeOutThenPause(audioEl(), 24);
 
-    return synthesize(String(text), locale)
+    return synthesize(spoken, locale)
       .then(function (bytes) {
         if (myGen !== speakGeneration) return;
+        var settings = speakSettings(locale);
         lastUtterance = {
           locale: locale,
           packId: pack.id,
           voiceId: pack.voice,
           languageTag: pack.languageTag,
           engine: 'bundled-espeak',
-          text: String(text),
+          text: spoken,
           encoding: 'espeak-auto',
-          wordgap: 0
+          wordgap: 0,
+          speed: settings.speed,
+          pitch: settings.pitch,
+          voiceProfile: locale === 'fr' || locale === 'ro' ? 'kid-female' : 'default'
         };
         if (!bytes.length) return;
         return playWavBytes(bytes, myGen);
@@ -514,6 +547,7 @@
     synthesize: synthesize,
     smoothWavBytes: smoothWavBytes,
     speakSettings: speakSettings,
+    prepareUtterance: prepareUtterance,
     isAbortError: isAbortError,
     catchPlay: catchPlay,
     playWavBytes: playWavBytes,

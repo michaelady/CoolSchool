@@ -23,7 +23,7 @@
         {
           "id": "ro-corps-l1-01",
           "prompt": "Ce parte a corpului?",
-          "promptTts": "cap",
+          "promptTts": "Ce parte a corpului? Ascultă: cap.",
           "choices": [
             "cap",
             "mână",
@@ -36,7 +36,7 @@
         {
           "id": "ro-corps-l1-02",
           "prompt": "Ce parte a corpului?",
-          "promptTts": "mână",
+          "promptTts": "Ce parte a corpului? Ascultă: mână.",
           "choices": [
             "mână",
             "cap",
@@ -49,7 +49,7 @@
         {
           "id": "ro-corps-l1-03",
           "prompt": "Ce parte a corpului?",
-          "promptTts": "picior",
+          "promptTts": "Ce parte a corpului? Ascultă: picior.",
           "choices": [
             "picior",
             "cap",
@@ -62,7 +62,7 @@
         {
           "id": "ro-corps-l1-04",
           "prompt": "Scrie: mână",
-          "promptTts": "Scrie mână",
+          "promptTts": "Te rog, scrie cuvântul mână.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mână"
@@ -74,7 +74,7 @@
         {
           "id": "ro-corps-l1-05",
           "prompt": "Avem două mâini?",
-          "promptTts": "da",
+          "promptTts": "Avem două mâini? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -94,7 +94,7 @@
         {
           "id": "ro-corps-l2-01",
           "prompt": "Cu ce vedem?",
-          "promptTts": "ochi",
+          "promptTts": "Cu ce vedem? Ascultă: ochi.",
           "choices": [
             "ochi",
             "ureche",
@@ -107,7 +107,7 @@
         {
           "id": "ro-corps-l2-02",
           "prompt": "Cu ce auzim?",
-          "promptTts": "ureche",
+          "promptTts": "Cu ce auzim? Ascultă: ureche.",
           "choices": [
             "ureche",
             "ochi",
@@ -120,7 +120,7 @@
         {
           "id": "ro-corps-l2-03",
           "prompt": "Scrie: cap",
-          "promptTts": "Scrie cap",
+          "promptTts": "Te rog, scrie cuvântul cap.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cap"
@@ -131,7 +131,7 @@
         {
           "id": "ro-corps-l2-04",
           "prompt": "Genunchiul pentru a îndoi?",
-          "promptTts": "da",
+          "promptTts": "Genunchiul pentru a îndoi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -142,7 +142,7 @@
         {
           "id": "ro-corps-l2-05",
           "prompt": "Nasul pentru miros?",
-          "promptTts": "da",
+          "promptTts": "Nasul pentru miros? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -163,7 +163,7 @@
         {
           "id": "ro-corps-l3-01",
           "prompt": "Ce mișcare?",
-          "promptTts": "alerg",
+          "promptTts": "Ce mișcare? Ascultă: alerg.",
           "choices": [
             "alerg",
             "stau",
@@ -176,7 +176,7 @@
         {
           "id": "ro-corps-l3-02",
           "prompt": "Ce mișcare?",
-          "promptTts": "sar",
+          "promptTts": "Ce mișcare? Ascultă: sar.",
           "choices": [
             "sar",
             "stau",
@@ -189,7 +189,7 @@
         {
           "id": "ro-corps-l3-03",
           "prompt": "Ce mișcare?",
-          "promptTts": "stau",
+          "promptTts": "Ce mișcare? Ascultă: stau.",
           "choices": [
             "stau",
             "alerg",
@@ -202,7 +202,7 @@
         {
           "id": "ro-corps-l3-04",
           "prompt": "Scrie: alerg",
-          "promptTts": "Scrie alerg",
+          "promptTts": "Te rog, scrie cuvântul alerg.",
           "answerMode": "type",
           "acceptedAnswers": [
             "alerg"
@@ -213,7 +213,7 @@
         {
           "id": "ro-corps-l3-05",
           "prompt": "Întinderea e mișcare?",
-          "promptTts": "da",
+          "promptTts": "Întinderea e mișcare? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -233,7 +233,7 @@
         {
           "id": "ro-corps-l4-01",
           "prompt": "⬅️ e?",
-          "promptTts": "stânga",
+          "promptTts": "Ascultă bine acest cuvânt: ⬅️ e? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"
@@ -244,7 +244,7 @@
         {
           "id": "ro-corps-l4-02",
           "prompt": "➡️ e?",
-          "promptTts": "dreapta",
+          "promptTts": "Ascultă bine acest cuvânt: ➡️ e? Ascultă: dreapta.",
           "choices": [
             "dreapta",
             "stânga"
@@ -255,7 +255,7 @@
         {
           "id": "ro-corps-l4-03",
           "prompt": "Scrie: stânga",
-          "promptTts": "Scrie stânga",
+          "promptTts": "Te rog, scrie cuvântul stânga.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stânga"
@@ -266,7 +266,7 @@
         {
           "id": "ro-corps-l4-04",
           "prompt": "Două mâini: stânga și dreapta?",
-          "promptTts": "da",
+          "promptTts": "Două mâini: stânga și dreapta? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -277,7 +277,7 @@
         {
           "id": "ro-corps-l4-05",
           "prompt": "Scrie: dreapta",
-          "promptTts": "Scrie dreapta",
+          "promptTts": "Te rog, scrie cuvântul dreapta.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dreapta"
@@ -297,7 +297,7 @@
         {
           "id": "ro-corps-l5-01",
           "prompt": "Ce sport?",
-          "promptTts": "fotbal",
+          "promptTts": "Ce sport? Ascultă: fotbal.",
           "choices": [
             "fotbal",
             "dorm",
@@ -310,7 +310,7 @@
         {
           "id": "ro-corps-l5-02",
           "prompt": "Ce sport?",
-          "promptTts": "înot",
+          "promptTts": "Ce sport? Ascultă: înot.",
           "choices": [
             "înot",
             "stau",
@@ -323,7 +323,7 @@
         {
           "id": "ro-corps-l5-03",
           "prompt": "Scrie: fotbal",
-          "promptTts": "Scrie fotbal",
+          "promptTts": "Te rog, scrie cuvântul fotbal.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fotbal"
@@ -335,7 +335,7 @@
         {
           "id": "ro-corps-l5-04",
           "prompt": "Sportul poate fi distractiv?",
-          "promptTts": "da",
+          "promptTts": "Sportul poate fi distractiv? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -346,7 +346,7 @@
         {
           "id": "ro-corps-l5-05",
           "prompt": "Trebuie apă ca să înoți?",
-          "promptTts": "da",
+          "promptTts": "Trebuie apă ca să înoți? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -366,7 +366,7 @@
         {
           "id": "ro-corps-l6-01",
           "prompt": "Idee mai bună de gustare?",
-          "promptTts": "fruct",
+          "promptTts": "Idee mai bună de gustare? Ascultă: fruct.",
           "choices": [
             "fruct",
             "dulce"
@@ -378,7 +378,7 @@
         {
           "id": "ro-corps-l6-02",
           "prompt": "Numai dulciuri zilnic?",
-          "promptTts": "nu",
+          "promptTts": "Numai dulciuri zilnic? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -389,7 +389,7 @@
         {
           "id": "ro-corps-l6-03",
           "prompt": "Scrie: fruct",
-          "promptTts": "Scrie fruct",
+          "promptTts": "Te rog, scrie cuvântul fruct.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fruct"
@@ -401,7 +401,7 @@
         {
           "id": "ro-corps-l6-04",
           "prompt": "Legumele sunt adesea sănătoase?",
-          "promptTts": "da",
+          "promptTts": "Legumele sunt adesea sănătoase? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -413,7 +413,7 @@
         {
           "id": "ro-corps-l6-05",
           "prompt": "Mărul e un fruct?",
-          "promptTts": "da",
+          "promptTts": "Mărul e un fruct? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -433,7 +433,7 @@
         {
           "id": "ro-corps-l7-01",
           "prompt": "Ce bem adesea?",
-          "promptTts": "apă",
+          "promptTts": "Ce bem adesea? Ascultă: apă.",
           "choices": [
             "apă",
             "dulce",
@@ -446,7 +446,7 @@
         {
           "id": "ro-corps-l7-02",
           "prompt": "Bem după sport?",
-          "promptTts": "da",
+          "promptTts": "Bem după sport? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -457,7 +457,7 @@
         {
           "id": "ro-corps-l7-03",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -469,7 +469,7 @@
         {
           "id": "ro-corps-l7-04",
           "prompt": "Apa ajută corpul?",
-          "promptTts": "da",
+          "promptTts": "Apa ajută corpul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -480,7 +480,7 @@
         {
           "id": "ro-corps-l7-05",
           "prompt": "Numai suc toată ziua?",
-          "promptTts": "nu",
+          "promptTts": "Numai suc toată ziua? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -500,7 +500,7 @@
         {
           "id": "ro-corps-l8-01",
           "prompt": "De ce are nevoie corpul noaptea?",
-          "promptTts": "dorm",
+          "promptTts": "De ce are nevoie corpul noaptea? Ascultă: dorm.",
           "choices": [
             "dorm",
             "fotbal",
@@ -513,7 +513,7 @@
         {
           "id": "ro-corps-l8-02",
           "prompt": "Obosit? Mai bine pauză?",
-          "promptTts": "da",
+          "promptTts": "Obosit? Mai bine pauză? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -524,7 +524,7 @@
         {
           "id": "ro-corps-l8-03",
           "prompt": "Scrie: dorm",
-          "promptTts": "Scrie dorm",
+          "promptTts": "Te rog, scrie cuvântul dorm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dorm"
@@ -535,7 +535,7 @@
         {
           "id": "ro-corps-l8-04",
           "prompt": "Somnul ajută să creștem?",
-          "promptTts": "da",
+          "promptTts": "Somnul ajută să creștem? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -546,7 +546,7 @@
         {
           "id": "ro-corps-l8-05",
           "prompt": "Ne jucăm toată noaptea?",
-          "promptTts": "nu",
+          "promptTts": "Ne jucăm toată noaptea? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -566,7 +566,7 @@
         {
           "id": "ro-corps-l9-01",
           "prompt": "Înainte de masă?",
-          "promptTts": "spăl",
+          "promptTts": "Înainte de masă? Ascultă: spăl.",
           "choices": [
             "spăl",
             "sar",
@@ -579,7 +579,7 @@
         {
           "id": "ro-corps-l9-02",
           "prompt": "Speli mâinile după toaletă?",
-          "promptTts": "da",
+          "promptTts": "Speli mâinile după toaletă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -590,7 +590,7 @@
         {
           "id": "ro-corps-l9-03",
           "prompt": "Scrie: spăl",
-          "promptTts": "Scrie spăl",
+          "promptTts": "Te rog, scrie cuvântul spăl.",
           "answerMode": "type",
           "acceptedAnswers": [
             "spăl"
@@ -602,7 +602,7 @@
         {
           "id": "ro-corps-l9-04",
           "prompt": "Săpunul ajută?",
-          "promptTts": "da",
+          "promptTts": "Săpunul ajută? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -613,7 +613,7 @@
         {
           "id": "ro-corps-l9-05",
           "prompt": "Mâini murdare pe măr?",
-          "promptTts": "nu",
+          "promptTts": "Mâini murdare pe măr? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -633,7 +633,7 @@
         {
           "id": "ro-corps-l10-01",
           "prompt": "Ce periem dimineața?",
-          "promptTts": "dinți",
+          "promptTts": "Ce periem dimineața? Ascultă: dinți.",
           "choices": [
             "dinți",
             "fotbal",
@@ -646,7 +646,7 @@
         {
           "id": "ro-corps-l10-02",
           "prompt": "Și seara dinții?",
-          "promptTts": "da",
+          "promptTts": "Și seara dinții? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -657,7 +657,7 @@
         {
           "id": "ro-corps-l10-03",
           "prompt": "Scrie: dinți",
-          "promptTts": "Scrie dinți",
+          "promptTts": "Te rog, scrie cuvântul dinți.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dinți"
@@ -668,7 +668,7 @@
         {
           "id": "ro-corps-l10-04",
           "prompt": "Folosim periuța?",
-          "promptTts": "da",
+          "promptTts": "Folosim periuța? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -680,7 +680,7 @@
         {
           "id": "ro-corps-l10-05",
           "prompt": "Numai dulciuri și niciodată periaj?",
-          "promptTts": "nu",
+          "promptTts": "Numai dulciuri și niciodată periaj? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -700,7 +700,7 @@
         {
           "id": "ro-corps-l11-01",
           "prompt": "Pe bicicletă?",
-          "promptTts": "cască",
+          "promptTts": "Pe bicicletă? Ascultă: cască.",
           "choices": [
             "cască",
             "dulce",
@@ -713,7 +713,7 @@
         {
           "id": "ro-corps-l11-02",
           "prompt": "Casca protejează capul?",
-          "promptTts": "da",
+          "promptTts": "Casca protejează capul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -724,7 +724,7 @@
         {
           "id": "ro-corps-l11-03",
           "prompt": "Scrie: cască",
-          "promptTts": "Scrie cască",
+          "promptTts": "Te rog, scrie cuvântul cască.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cască"
@@ -735,7 +735,7 @@
         {
           "id": "ro-corps-l11-04",
           "prompt": "Fugi fără cască?",
-          "promptTts": "nu",
+          "promptTts": "Fugi fără cască? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -746,7 +746,7 @@
         {
           "id": "ro-corps-l11-05",
           "prompt": "Centura în mașină?",
-          "promptTts": "da",
+          "promptTts": "Centura în mașină? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -766,7 +766,7 @@
         {
           "id": "ro-corps-l12-01",
           "prompt": "În apă: cu cine?",
-          "promptTts": "un adult",
+          "promptTts": "În apă: cu cine? Ascultă: un adult.",
           "choices": [
             "singur departe",
             "un adult"
@@ -777,7 +777,7 @@
         {
           "id": "ro-corps-l12-02",
           "prompt": "Dacă nu știi să înoți: apă adâncă?",
-          "promptTts": "nu",
+          "promptTts": "Dacă nu știi să înoți: apă adâncă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -788,7 +788,7 @@
         {
           "id": "ro-corps-l12-03",
           "prompt": "Scrie: înot",
-          "promptTts": "Scrie înot",
+          "promptTts": "Te rog, scrie cuvântul înot.",
           "answerMode": "type",
           "acceptedAnswers": [
             "înot"
@@ -799,7 +799,7 @@
         {
           "id": "ro-corps-l12-04",
           "prompt": "Strigi după ajutor dacă cineva nu iese?",
-          "promptTts": "da",
+          "promptTts": "Strigi după ajutor dacă cineva nu iese? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -810,7 +810,7 @@
         {
           "id": "ro-corps-l12-05",
           "prompt": "Înotul e mișcare?",
-          "promptTts": "da",
+          "promptTts": "Înotul e mișcare? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -830,7 +830,7 @@
         {
           "id": "ro-corps-l13-01",
           "prompt": "Ne jucăm împreună?",
-          "promptTts": "echipă",
+          "promptTts": "Ne jucăm împreună? Ascultă: echipă.",
           "choices": [
             "echipă",
             "dulce",
@@ -843,7 +843,7 @@
         {
           "id": "ro-corps-l13-02",
           "prompt": "În echipă împărțim mingea?",
-          "promptTts": "da",
+          "promptTts": "În echipă împărțim mingea? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -854,7 +854,7 @@
         {
           "id": "ro-corps-l13-03",
           "prompt": "Scrie: echipă",
-          "promptTts": "Scrie echipă",
+          "promptTts": "Te rog, scrie cuvântul echipă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "echipă"
@@ -865,7 +865,7 @@
         {
           "id": "ro-corps-l13-04",
           "prompt": "Numai eu, niciodată pasă?",
-          "promptTts": "nu",
+          "promptTts": "Numai eu, niciodată pasă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -876,7 +876,7 @@
         {
           "id": "ro-corps-l13-05",
           "prompt": "Aplaudăm pe alții e frumos?",
-          "promptTts": "da",
+          "promptTts": "Aplaudăm pe alții e frumos? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -896,7 +896,7 @@
         {
           "id": "ro-corps-l14-01",
           "prompt": "Înainte de sport?",
-          "promptTts": "întind",
+          "promptTts": "Înainte de sport? Ascultă: întind.",
           "choices": [
             "întind",
             "dulce",
@@ -909,7 +909,7 @@
         {
           "id": "ro-corps-l14-02",
           "prompt": "Încălzirea protejează?",
-          "promptTts": "da",
+          "promptTts": "Încălzirea protejează? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -920,7 +920,7 @@
         {
           "id": "ro-corps-l14-03",
           "prompt": "Scrie: întind",
-          "promptTts": "Scrie întind",
+          "promptTts": "Te rog, scrie cuvântul întind.",
           "answerMode": "type",
           "acceptedAnswers": [
             "întind"
@@ -931,7 +931,7 @@
         {
           "id": "ro-corps-l14-04",
           "prompt": "Pornim reci și sprintăm fără pregătire?",
-          "promptTts": "nu",
+          "promptTts": "Pornim reci și sprintăm fără pregătire? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -942,7 +942,7 @@
         {
           "id": "ro-corps-l14-05",
           "prompt": "Rotirea brațelor e încălzire?",
-          "promptTts": "da",
+          "promptTts": "Rotirea brațelor e încălzire? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -962,7 +962,7 @@
         {
           "id": "ro-corps-l15-01",
           "prompt": "Ce bate mai iute după alergare?",
-          "promptTts": "inimă",
+          "promptTts": "Ce bate mai iute după alergare? Ascultă: inimă.",
           "choices": [
             "inimă",
             "cască",
@@ -975,7 +975,7 @@
         {
           "id": "ro-corps-l15-02",
           "prompt": "Poți simți inima în piept?",
-          "promptTts": "da",
+          "promptTts": "Poți simți inima în piept? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -986,7 +986,7 @@
         {
           "id": "ro-corps-l15-03",
           "prompt": "Scrie: inimă",
-          "promptTts": "Scrie inimă",
+          "promptTts": "Te rog, scrie cuvântul inimă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "inimă"
@@ -997,7 +997,7 @@
         {
           "id": "ro-corps-l15-04",
           "prompt": "Pulsul se calmează la pauză?",
-          "promptTts": "da",
+          "promptTts": "Pulsul se calmează la pauză? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1008,7 +1008,7 @@
         {
           "id": "ro-corps-l15-05",
           "prompt": "Mișcarea poate întări inima?",
-          "promptTts": "da",
+          "promptTts": "Mișcarea poate întări inima? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1028,7 +1028,7 @@
         {
           "id": "ro-corps-l16-01",
           "prompt": "După efort mare?",
-          "promptTts": "pauză",
+          "promptTts": "După efort mare? Ascultă: pauză.",
           "choices": [
             "pauză",
             "dulce",
@@ -1041,7 +1041,7 @@
         {
           "id": "ro-corps-l16-02",
           "prompt": "Bem în pauză?",
-          "promptTts": "da",
+          "promptTts": "Bem în pauză? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1052,7 +1052,7 @@
         {
           "id": "ro-corps-l16-03",
           "prompt": "Scrie: pauză",
-          "promptTts": "Scrie pauză",
+          "promptTts": "Te rog, scrie cuvântul pauză.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pauză"
@@ -1063,7 +1063,7 @@
         {
           "id": "ro-corps-l16-04",
           "prompt": "Tot înainte fără stop?",
-          "promptTts": "nu",
+          "promptTts": "Tot înainte fără stop? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1074,7 +1074,7 @@
         {
           "id": "ro-corps-l16-05",
           "prompt": "Pauza e parte din sport?",
-          "promptTts": "da",
+          "promptTts": "Pauza e parte din sport? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1094,7 +1094,7 @@
         {
           "id": "ro-corps-l17-01",
           "prompt": "Pierzi și dai mâna?",
-          "promptTts": "fair",
+          "promptTts": "Pierzi și dai mâna? Ascultă: fair.",
           "choices": [
             "da",
             "nu"
@@ -1105,7 +1105,7 @@
         {
           "id": "ro-corps-l17-02",
           "prompt": "Trișatul e fair?",
-          "promptTts": "nu",
+          "promptTts": "Trișatul e fair? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1116,7 +1116,7 @@
         {
           "id": "ro-corps-l17-03",
           "prompt": "Scrie: fair",
-          "promptTts": "Scrie fair",
+          "promptTts": "Te rog, scrie cuvântul fair.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fair"
@@ -1127,7 +1127,7 @@
         {
           "id": "ro-corps-l17-04",
           "prompt": "Felicităm pe alții?",
-          "promptTts": "da",
+          "promptTts": "Felicităm pe alții? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1138,7 +1138,7 @@
         {
           "id": "ro-corps-l17-05",
           "prompt": "Regulile sunt pentru toți?",
-          "promptTts": "da",
+          "promptTts": "Regulile sunt pentru toți? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1158,7 +1158,7 @@
         {
           "id": "ro-corps-l18-01",
           "prompt": "Afară e frig: ce îmbraci?",
-          "promptTts": "palton",
+          "promptTts": "Afară e frig: ce îmbraci? Ascultă: palton.",
           "choices": [
             "palton",
             "înot",
@@ -1171,7 +1171,7 @@
         {
           "id": "ro-corps-l18-02",
           "prompt": "Soare: e utilă o pălărie?",
-          "promptTts": "da",
+          "promptTts": "Soare: e utilă o pălărie? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1183,7 +1183,7 @@
         {
           "id": "ro-corps-l18-03",
           "prompt": "Scrie: palton",
-          "promptTts": "Scrie palton",
+          "promptTts": "Te rog, scrie cuvântul palton.",
           "answerMode": "type",
           "acceptedAnswers": [
             "palton"
@@ -1194,7 +1194,7 @@
         {
           "id": "ro-corps-l18-04",
           "prompt": "Ploaie: geacă?",
-          "promptTts": "da",
+          "promptTts": "Ploaie: geacă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1205,7 +1205,7 @@
         {
           "id": "ro-corps-l18-05",
           "prompt": "Desculț în zăpadă mult timp?",
-          "promptTts": "nu",
+          "promptTts": "Desculț în zăpadă mult timp? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1225,7 +1225,7 @@
         {
           "id": "ro-corps-l19-01",
           "prompt": "Statul pe un picior exersează…",
-          "promptTts": "echilibru",
+          "promptTts": "Statul pe un picior exersează… Ascultă, cuvântul este echilibru.",
           "choices": [
             "echilibru",
             "dulce",
@@ -1238,7 +1238,7 @@
         {
           "id": "ro-corps-l19-02",
           "prompt": "Privitul ajută echilibrul?",
-          "promptTts": "da",
+          "promptTts": "Privitul ajută echilibrul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1249,7 +1249,7 @@
         {
           "id": "ro-corps-l19-03",
           "prompt": "Scrie: echilibru",
-          "promptTts": "Scrie echilibru",
+          "promptTts": "Te rog, scrie cuvântul echilibru.",
           "answerMode": "type",
           "acceptedAnswers": [
             "echilibru"
@@ -1260,7 +1260,7 @@
         {
           "id": "ro-corps-l19-04",
           "prompt": "Saltea moale pentru exercițiu e ok?",
-          "promptTts": "da",
+          "promptTts": "Saltea moale pentru exercițiu e ok? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1271,7 +1271,7 @@
         {
           "id": "ro-corps-l19-05",
           "prompt": "Pe un zid înalt fără ajutor?",
-          "promptTts": "nu",
+          "promptTts": "Pe un zid înalt fără ajutor? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1291,7 +1291,7 @@
         {
           "id": "ro-corps-l20-01",
           "prompt": "Ce parte a corpului?",
-          "promptTts": "mână",
+          "promptTts": "Ce parte a corpului? Ascultă: mână.",
           "choices": [
             "mână",
             "palton",
@@ -1304,7 +1304,7 @@
         {
           "id": "ro-corps-l20-02",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -1316,7 +1316,7 @@
         {
           "id": "ro-corps-l20-03",
           "prompt": "Pe bicicletă?",
-          "promptTts": "cască",
+          "promptTts": "Pe bicicletă? Ascultă: cască.",
           "choices": [
             "cască",
             "dulce",
@@ -1328,7 +1328,7 @@
         {
           "id": "ro-corps-l20-04",
           "prompt": "Ce e frumos la joc?",
-          "promptTts": "fair",
+          "promptTts": "Ce e frumos la joc? Ascultă: fair.",
           "choices": [
             "da",
             "nu"
@@ -1339,7 +1339,7 @@
         {
           "id": "ro-corps-l20-05",
           "prompt": "Scrie: sar",
-          "promptTts": "Scrie sar",
+          "promptTts": "Te rog, scrie cuvântul sar.",
           "answerMode": "type",
           "acceptedAnswers": [
             "sar"

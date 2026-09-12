@@ -23,7 +23,7 @@
         {
           "id": "de-langues-book-01",
           "prompt": "Buch",
-          "promptTts": "Buch",
+          "promptTts": "Hör gut zu, das Wort ist Buch.",
           "choices": [
             "📚",
             "✏️",
@@ -35,7 +35,7 @@
         {
           "id": "de-langues-l1-type",
           "prompt": "Schreib: Katze",
-          "promptTts": "Schreib Katze",
+          "promptTts": "Schreib bitte das Wort Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -47,7 +47,7 @@
         {
           "id": "de-langues-pencil-02",
           "prompt": "Stift",
-          "promptTts": "Stift",
+          "promptTts": "Hör gut zu, das Wort ist Stift.",
           "choices": [
             "📚",
             "✏️",
@@ -59,7 +59,7 @@
         {
           "id": "de-langues-school-03",
           "prompt": "Schule",
-          "promptTts": "Schule",
+          "promptTts": "Hör gut zu, das Wort ist Schule.",
           "choices": [
             "🌳",
             "🏠",
@@ -71,7 +71,7 @@
         {
           "id": "de-langues-apple-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Hör gut zu, das Wort ist Apfel.",
           "choices": [
             "🍎",
             "🌸",
@@ -83,7 +83,7 @@
         {
           "id": "de-langues-sun-05",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Hör gut zu, das Wort ist Sonne.",
           "choices": [
             "⭐",
             "☀️",
@@ -104,7 +104,7 @@
         {
           "id": "de-langues-l2-type",
           "prompt": "Schreib: Hund",
-          "promptTts": "Schreib Hund",
+          "promptTts": "Schreib bitte das Wort Hund.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Hund"
@@ -116,7 +116,7 @@
         {
           "id": "de-langues-tree-02",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Hör gut zu, das Wort ist Baum.",
           "choices": [
             "🏠",
             "🌳",
@@ -128,7 +128,7 @@
         {
           "id": "de-langues-house-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Hör gut zu, das Wort ist Haus.",
           "choices": [
             "🌳",
             "🏫",
@@ -140,7 +140,7 @@
         {
           "id": "de-langues-bag-04",
           "prompt": "Tasche",
-          "promptTts": "Tasche",
+          "promptTts": "Hör gut zu, das Wort ist Tasche.",
           "choices": [
             "🎒",
             "📚",
@@ -152,7 +152,7 @@
         {
           "id": "de-langues-star-05",
           "prompt": "Stern",
-          "promptTts": "Stern",
+          "promptTts": "Hör gut zu, das Wort ist Stern.",
           "choices": [
             "☀️",
             "⭐",
@@ -164,7 +164,7 @@
         {
           "id": "de-langues-flower-06",
           "prompt": "Blume",
-          "promptTts": "Blume",
+          "promptTts": "Hör gut zu, das Wort ist Blume.",
           "choices": [
             "🌳",
             "🍎",
@@ -185,7 +185,7 @@
         {
           "id": "de-langues-book-01-l",
           "prompt": "Hör zu und tippe",
-          "promptTts": "Buch",
+          "promptTts": "Hör gut zu, das Wort ist Buch.",
           "choices": [
             "📚",
             "✏️",
@@ -197,7 +197,7 @@
         {
           "id": "de-langues-pencil-02-l",
           "prompt": "Hör zu und tippe",
-          "promptTts": "Stift",
+          "promptTts": "Hör gut zu, das Wort ist Stift.",
           "choices": [
             "📚",
             "✏️",
@@ -209,7 +209,7 @@
         {
           "id": "de-langues-school-03-l",
           "prompt": "Hör zu und tippe",
-          "promptTts": "Schule",
+          "promptTts": "Hör gut zu, das Wort ist Schule.",
           "choices": [
             "🌳",
             "🏠",
@@ -221,7 +221,7 @@
         {
           "id": "de-langues-apple-04-l",
           "prompt": "Hör zu und tippe",
-          "promptTts": "Apfel",
+          "promptTts": "Hör gut zu, das Wort ist Apfel.",
           "choices": [
             "🍎",
             "🌸",
@@ -233,7 +233,7 @@
         {
           "id": "de-langues-sun-05-l",
           "prompt": "Hör zu und tippe",
-          "promptTts": "Sonne",
+          "promptTts": "Hör gut zu, das Wort ist Sonne.",
           "choices": [
             "⭐",
             "☀️",
@@ -318,7 +318,7 @@
         {
           "id": "de-langues-l5-01",
           "prompt": "Schreib: Katze",
-          "promptTts": "Schreib Katze",
+          "promptTts": "Schreib bitte das Wort Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -330,7 +330,7 @@
         {
           "id": "de-langues-l5-02",
           "prompt": "Schreib: Sonne",
-          "promptTts": "Schreib Sonne",
+          "promptTts": "Schreib bitte das Wort Sonne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sonne"
@@ -342,7 +342,7 @@
         {
           "id": "de-langues-l5-03",
           "prompt": "Schreib: Hund",
-          "promptTts": "Schreib Hund",
+          "promptTts": "Schreib bitte das Wort Hund.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Hund"
@@ -354,7 +354,7 @@
         {
           "id": "de-langues-l5-04",
           "prompt": "Schreib: Buch",
-          "promptTts": "Schreib Buch",
+          "promptTts": "Schreib bitte das Wort Buch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Buch"
@@ -366,7 +366,7 @@
         {
           "id": "de-langues-l5-05",
           "prompt": "Schreib: Baum",
-          "promptTts": "Schreib Baum",
+          "promptTts": "Schreib bitte das Wort Baum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Baum"
@@ -387,7 +387,7 @@
         {
           "id": "de-langues-l6-01",
           "prompt": "Schreib: Schule",
-          "promptTts": "Schreib Schule",
+          "promptTts": "Schreib bitte das Wort Schule.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schule"
@@ -399,7 +399,7 @@
         {
           "id": "de-langues-l6-02",
           "prompt": "Schreib: Haus",
-          "promptTts": "Schreib Haus",
+          "promptTts": "Schreib bitte das Wort Haus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -411,7 +411,7 @@
         {
           "id": "de-langues-l6-03",
           "prompt": "Schreib: Apfel",
-          "promptTts": "Schreib Apfel",
+          "promptTts": "Schreib bitte das Wort Apfel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Apfel"
@@ -423,7 +423,7 @@
         {
           "id": "de-langues-l6-04",
           "prompt": "Schreib: Blume",
-          "promptTts": "Schreib Blume",
+          "promptTts": "Schreib bitte das Wort Blume.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Blume"
@@ -435,7 +435,7 @@
         {
           "id": "de-langues-l6-05",
           "prompt": "Schreib: Wasser",
-          "promptTts": "Schreib Wasser",
+          "promptTts": "Schreib bitte das Wort Wasser.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Wasser"
@@ -456,7 +456,7 @@
         {
           "id": "de-langues-l7-01",
           "prompt": "Schreib: ä",
-          "promptTts": "Schreib ä",
+          "promptTts": "Schreib bitte das Wort ä.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ä"
@@ -467,7 +467,7 @@
         {
           "id": "de-langues-l7-02",
           "prompt": "Schreib: ö",
-          "promptTts": "Schreib ö",
+          "promptTts": "Schreib bitte das Wort ö.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ö"
@@ -478,7 +478,7 @@
         {
           "id": "de-langues-l7-03",
           "prompt": "Schreib: ü",
-          "promptTts": "Schreib ü",
+          "promptTts": "Schreib bitte das Wort ü.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ü"
@@ -489,7 +489,7 @@
         {
           "id": "de-langues-l7-04",
           "prompt": "Schreib: Schule",
-          "promptTts": "Schreib Schule",
+          "promptTts": "Schreib bitte das Wort Schule.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schule"
@@ -500,7 +500,7 @@
         {
           "id": "de-langues-l7-05",
           "prompt": "Schreib: Äpfel",
-          "promptTts": "Schreib Äpfel",
+          "promptTts": "Schreib bitte das Wort Äpfel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Äpfel"
@@ -520,7 +520,7 @@
         {
           "id": "de-langues-cat-01",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Hör gut zu, das Wort ist Katze.",
           "choices": [
             "🐱",
             "🐕",
@@ -532,7 +532,7 @@
         {
           "id": "de-langues-dog-02",
           "prompt": "Hund",
-          "promptTts": "Hund",
+          "promptTts": "Hör gut zu, das Wort ist Hund.",
           "choices": [
             "🐱",
             "🐕",
@@ -544,7 +544,7 @@
         {
           "id": "de-langues-fish-03",
           "prompt": "Fisch",
-          "promptTts": "Fisch",
+          "promptTts": "Hör gut zu, das Wort ist Fisch.",
           "choices": [
             "🐱",
             "🐦",
@@ -556,7 +556,7 @@
         {
           "id": "de-langues-bird-04",
           "prompt": "Vogel",
-          "promptTts": "Vogel",
+          "promptTts": "Hör gut zu, das Wort ist Vogel.",
           "choices": [
             "🐦",
             "🐠",
@@ -568,7 +568,7 @@
         {
           "id": "de-langues-apple-05",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Hör gut zu, das Wort ist Apfel.",
           "choices": [
             "🐱",
             "🍎",
@@ -589,7 +589,7 @@
         {
           "id": "de-langues-l9-01",
           "prompt": "Schreib: Apfel",
-          "promptTts": "Schreib Apfel",
+          "promptTts": "Schreib bitte das Wort Apfel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Apfel"
@@ -601,7 +601,7 @@
         {
           "id": "de-langues-l9-02",
           "prompt": "Schreib: Brot",
-          "promptTts": "Schreib Brot",
+          "promptTts": "Schreib bitte das Wort Brot.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Brot"
@@ -613,7 +613,7 @@
         {
           "id": "de-langues-l9-03",
           "prompt": "Schreib: Wasser",
-          "promptTts": "Schreib Wasser",
+          "promptTts": "Schreib bitte das Wort Wasser.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Wasser"
@@ -625,7 +625,7 @@
         {
           "id": "de-langues-l9-04",
           "prompt": "Schreib: Fisch",
-          "promptTts": "Schreib Fisch",
+          "promptTts": "Schreib bitte das Wort Fisch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Fisch"
@@ -637,7 +637,7 @@
         {
           "id": "de-langues-l9-05",
           "prompt": "Schreib: Blume",
-          "promptTts": "Schreib Blume",
+          "promptTts": "Schreib bitte das Wort Blume.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Blume"
@@ -658,7 +658,7 @@
         {
           "id": "de-langues-l10-01",
           "prompt": "Schreib: Schule",
-          "promptTts": "Schreib Schule",
+          "promptTts": "Schreib bitte das Wort Schule.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schule"
@@ -669,7 +669,7 @@
         {
           "id": "de-langues-l10-02",
           "prompt": "Schreib: Blume",
-          "promptTts": "Schreib Blume",
+          "promptTts": "Schreib bitte das Wort Blume.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Blume"
@@ -680,7 +680,7 @@
         {
           "id": "de-langues-l10-03",
           "prompt": "Schreib: Stift",
-          "promptTts": "Schreib Stift",
+          "promptTts": "Schreib bitte das Wort Stift.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Stift"
@@ -691,7 +691,7 @@
         {
           "id": "de-langues-l10-04",
           "prompt": "Schreib: Danke",
-          "promptTts": "Schreib Danke",
+          "promptTts": "Schreib bitte das Wort Danke.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Danke"
@@ -702,7 +702,7 @@
         {
           "id": "de-langues-l10-05",
           "prompt": "Schreib: Hallo",
-          "promptTts": "Schreib Hallo",
+          "promptTts": "Schreib bitte das Wort Hallo.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Hallo"
@@ -722,7 +722,7 @@
         {
           "id": "de-langues-l11-01",
           "prompt": "Gegenteil von ja?",
-          "promptTts": "Gegenteil von ja?",
+          "promptTts": "Hör gut zu, das Wort ist Gegenteil von ja.",
           "choices": [
             "nein",
             "ja",
@@ -734,7 +734,7 @@
         {
           "id": "de-langues-l11-02",
           "prompt": "Gegenteil von rot?",
-          "promptTts": "Gegenteil von rot?",
+          "promptTts": "Hör gut zu, das Wort ist Gegenteil von rot.",
           "choices": [
             "blau",
             "rot",
@@ -746,7 +746,7 @@
         {
           "id": "de-langues-l11-03",
           "prompt": "Gegenteil von gross?",
-          "promptTts": "Gegenteil von gross?",
+          "promptTts": "Hör gut zu, das Wort ist Gegenteil von gross.",
           "choices": [
             "klein",
             "gross",
@@ -758,7 +758,7 @@
         {
           "id": "de-langues-l11-04",
           "prompt": "Gegenteil von tag?",
-          "promptTts": "Gegenteil von tag?",
+          "promptTts": "Hör gut zu, das Wort ist Gegenteil von tag.",
           "choices": [
             "nacht",
             "tag",
@@ -770,7 +770,7 @@
         {
           "id": "de-langues-l11-05",
           "prompt": "Gegenteil von heiss?",
-          "promptTts": "Gegenteil von heiss?",
+          "promptTts": "Hör gut zu, das Wort ist Gegenteil von heiss.",
           "choices": [
             "kalt",
             "heiss",
@@ -791,7 +791,7 @@
         {
           "id": "de-langues-l12-01",
           "prompt": "Hör zu",
-          "promptTts": "Hallo",
+          "promptTts": "Hör gut zu, das Wort ist Hallo.",
           "choices": [
             "Hallo",
             "Danke",
@@ -803,7 +803,7 @@
         {
           "id": "de-langues-l12-02",
           "prompt": "Hör zu",
-          "promptTts": "Danke",
+          "promptTts": "Hör gut zu, das Wort ist Danke.",
           "choices": [
             "Danke",
             "Hallo",
@@ -815,7 +815,7 @@
         {
           "id": "de-langues-l12-03",
           "prompt": "Hör zu",
-          "promptTts": "ja",
+          "promptTts": "Hör zu Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein",
@@ -827,7 +827,7 @@
         {
           "id": "de-langues-l12-04",
           "prompt": "Hör zu",
-          "promptTts": "nein",
+          "promptTts": "Hör zu Tippe ja oder nein.",
           "choices": [
             "nein",
             "ja",
@@ -839,7 +839,7 @@
         {
           "id": "de-langues-l12-05",
           "prompt": "Hör zu",
-          "promptTts": "Sonne",
+          "promptTts": "Hör gut zu, das Wort ist Sonne.",
           "choices": [
             "Sonne",
             "Katze",
@@ -860,7 +860,7 @@
         {
           "id": "de-langues-l13-01",
           "prompt": "soleil",
-          "promptTts": "soleil",
+          "promptTts": "Hör gut zu, das Wort ist soleil.",
           "choices": [
             "☀️",
             "⭐",
@@ -872,7 +872,7 @@
         {
           "id": "de-langues-l13-02",
           "prompt": "chat",
-          "promptTts": "chat",
+          "promptTts": "Hör gut zu, das Wort ist chat.",
           "choices": [
             "🐱",
             "⭐",
@@ -884,7 +884,7 @@
         {
           "id": "de-langues-l13-03",
           "prompt": "maison",
-          "promptTts": "maison",
+          "promptTts": "Hör gut zu, das Wort ist maison.",
           "choices": [
             "🏠",
             "⭐",
@@ -896,7 +896,7 @@
         {
           "id": "de-langues-l13-04",
           "prompt": "pomme",
-          "promptTts": "pomme",
+          "promptTts": "Hör gut zu, das Wort ist pomme.",
           "choices": [
             "🍎",
             "⭐",
@@ -908,7 +908,7 @@
         {
           "id": "de-langues-l13-05",
           "prompt": "arbre",
-          "promptTts": "arbre",
+          "promptTts": "Hör gut zu, das Wort ist arbre.",
           "choices": [
             "🌳",
             "⭐",
@@ -929,7 +929,7 @@
         {
           "id": "de-langues-l14-01",
           "prompt": "soleil",
-          "promptTts": "soleil",
+          "promptTts": "Hör gut zu, das Wort ist soleil.",
           "choices": [
             "☀️",
             "⭐",
@@ -941,7 +941,7 @@
         {
           "id": "de-langues-l14-02",
           "prompt": "chat",
-          "promptTts": "chat",
+          "promptTts": "Hör gut zu, das Wort ist chat.",
           "choices": [
             "🐱",
             "⭐",
@@ -953,7 +953,7 @@
         {
           "id": "de-langues-l14-03",
           "prompt": "maison",
-          "promptTts": "maison",
+          "promptTts": "Hör gut zu, das Wort ist maison.",
           "choices": [
             "🏠",
             "⭐",
@@ -965,7 +965,7 @@
         {
           "id": "de-langues-l14-04",
           "prompt": "pomme",
-          "promptTts": "pomme",
+          "promptTts": "Hör gut zu, das Wort ist pomme.",
           "choices": [
             "🍎",
             "⭐",
@@ -977,7 +977,7 @@
         {
           "id": "de-langues-l14-05",
           "prompt": "arbre",
-          "promptTts": "arbre",
+          "promptTts": "Hör gut zu, das Wort ist arbre.",
           "choices": [
             "🌳",
             "⭐",
@@ -989,7 +989,7 @@
         {
           "id": "de-langues-l14-06",
           "prompt": "eau",
-          "promptTts": "eau",
+          "promptTts": "Hör gut zu, das Wort ist eau.",
           "choices": [
             "💧",
             "⭐",
@@ -1010,7 +1010,7 @@
         {
           "id": "de-langues-l15-01",
           "prompt": "Schreib: soleil",
-          "promptTts": "Schreib soleil",
+          "promptTts": "Schreib bitte das Wort soleil.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soleil"
@@ -1022,7 +1022,7 @@
         {
           "id": "de-langues-l15-02",
           "prompt": "Schreib: chat",
-          "promptTts": "Schreib chat",
+          "promptTts": "Schreib bitte das Wort chat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chat"
@@ -1034,7 +1034,7 @@
         {
           "id": "de-langues-l15-03",
           "prompt": "Schreib: maison",
-          "promptTts": "Schreib maison",
+          "promptTts": "Schreib bitte das Wort maison.",
           "answerMode": "type",
           "acceptedAnswers": [
             "maison"
@@ -1046,7 +1046,7 @@
         {
           "id": "de-langues-l15-04",
           "prompt": "Schreib: pomme",
-          "promptTts": "Schreib pomme",
+          "promptTts": "Schreib bitte das Wort pomme.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pomme"
@@ -1058,7 +1058,7 @@
         {
           "id": "de-langues-l15-05",
           "prompt": "Schreib: arbre",
-          "promptTts": "Schreib arbre",
+          "promptTts": "Schreib bitte das Wort arbre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "arbre"
@@ -1079,7 +1079,7 @@
         {
           "id": "de-langues-l16-01",
           "prompt": "Hör zu und tippe",
-          "promptTts": "soleil",
+          "promptTts": "Hör gut zu, das Wort ist soleil.",
           "choices": [
             "☀️",
             "⭐",
@@ -1091,7 +1091,7 @@
         {
           "id": "de-langues-l16-02",
           "prompt": "Hör zu und tippe",
-          "promptTts": "chat",
+          "promptTts": "Hör gut zu, das Wort ist chat.",
           "choices": [
             "⭐",
             "🐱",
@@ -1103,7 +1103,7 @@
         {
           "id": "de-langues-l16-03",
           "prompt": "Hör zu und tippe",
-          "promptTts": "maison",
+          "promptTts": "Hör gut zu, das Wort ist maison.",
           "choices": [
             "🌳",
             "⭐",
@@ -1115,7 +1115,7 @@
         {
           "id": "de-langues-l16-04",
           "prompt": "Hör zu und tippe",
-          "promptTts": "pomme",
+          "promptTts": "Hör gut zu, das Wort ist pomme.",
           "choices": [
             "🍎",
             "⭐",
@@ -1127,7 +1127,7 @@
         {
           "id": "de-langues-l16-05",
           "prompt": "Hör zu und tippe",
-          "promptTts": "arbre",
+          "promptTts": "Hör gut zu, das Wort ist arbre.",
           "choices": [
             "⭐",
             "🌳",
@@ -1148,7 +1148,7 @@
         {
           "id": "de-langues-l17-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Hör gut zu, das Wort ist book.",
           "choices": [
             "📚",
             "⭐",
@@ -1160,7 +1160,7 @@
         {
           "id": "de-langues-l17-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Hör gut zu, das Wort ist dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1172,7 +1172,7 @@
         {
           "id": "de-langues-l17-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Hör gut zu, das Wort ist flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1184,7 +1184,7 @@
         {
           "id": "de-langues-l17-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Hör gut zu, das Wort ist star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1196,7 +1196,7 @@
         {
           "id": "de-langues-l17-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Hör gut zu, das Wort ist bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1217,7 +1217,7 @@
         {
           "id": "de-langues-l18-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Hör gut zu, das Wort ist book.",
           "choices": [
             "📚",
             "⭐",
@@ -1229,7 +1229,7 @@
         {
           "id": "de-langues-l18-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Hör gut zu, das Wort ist dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1241,7 +1241,7 @@
         {
           "id": "de-langues-l18-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Hör gut zu, das Wort ist flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1253,7 +1253,7 @@
         {
           "id": "de-langues-l18-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Hör gut zu, das Wort ist star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1265,7 +1265,7 @@
         {
           "id": "de-langues-l18-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Hör gut zu, das Wort ist bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1277,7 +1277,7 @@
         {
           "id": "de-langues-l18-06",
           "prompt": "bird",
-          "promptTts": "bird",
+          "promptTts": "Hör gut zu, das Wort ist bird.",
           "choices": [
             "🐦",
             "⭐",
@@ -1298,7 +1298,7 @@
         {
           "id": "de-langues-l19-01",
           "prompt": "Schreib: book",
-          "promptTts": "Schreib book",
+          "promptTts": "Schreib bitte das Wort book.",
           "answerMode": "type",
           "acceptedAnswers": [
             "book"
@@ -1310,7 +1310,7 @@
         {
           "id": "de-langues-l19-02",
           "prompt": "Schreib: dog",
-          "promptTts": "Schreib dog",
+          "promptTts": "Schreib bitte das Wort dog.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dog"
@@ -1322,7 +1322,7 @@
         {
           "id": "de-langues-l19-03",
           "prompt": "Schreib: flower",
-          "promptTts": "Schreib flower",
+          "promptTts": "Schreib bitte das Wort flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -1334,7 +1334,7 @@
         {
           "id": "de-langues-l19-04",
           "prompt": "Schreib: star",
-          "promptTts": "Schreib star",
+          "promptTts": "Schreib bitte das Wort star.",
           "answerMode": "type",
           "acceptedAnswers": [
             "star"
@@ -1346,7 +1346,7 @@
         {
           "id": "de-langues-l19-05",
           "prompt": "Schreib: bread",
-          "promptTts": "Schreib bread",
+          "promptTts": "Schreib bitte das Wort bread.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bread"
@@ -1367,7 +1367,7 @@
         {
           "id": "de-langues-l20-01",
           "prompt": "Schreib: Buch",
-          "promptTts": "Schreib Buch",
+          "promptTts": "Schreib bitte das Wort Buch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Buch"
@@ -1379,7 +1379,7 @@
         {
           "id": "de-langues-l20-02",
           "prompt": "Schreib: Katze",
-          "promptTts": "Schreib Katze",
+          "promptTts": "Schreib bitte das Wort Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -1391,7 +1391,7 @@
         {
           "id": "de-langues-l20-03",
           "prompt": "Schreib: Sonne",
-          "promptTts": "Schreib Sonne",
+          "promptTts": "Schreib bitte das Wort Sonne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sonne"
@@ -1403,7 +1403,7 @@
         {
           "id": "de-langues-l20-04",
           "prompt": "Schreib: Haus",
-          "promptTts": "Schreib Haus",
+          "promptTts": "Schreib bitte das Wort Haus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -1415,7 +1415,7 @@
         {
           "id": "de-langues-l20-05",
           "prompt": "Schreib: Baum",
-          "promptTts": "Schreib Baum",
+          "promptTts": "Schreib bitte das Wort Baum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Baum"

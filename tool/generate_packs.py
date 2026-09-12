@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "assets" / "content" / "packs"
@@ -144,10 +145,10 @@ def nword(lang: str, n: int) -> str:
 def add_tts(lang: str, a: int, b: int) -> str:
     left, right = nword(lang, a), nword(lang, b)
     return {
-        "de": f"Was ist {left} plus {right}?",
-        "fr": f"Combien font {left} plus {right} ?",
-        "en": f"What is {left} plus {right}?",
-        "ro": f"Cât fac {left} plus {right}?",
+        "de": f"Was ist {left} plus {right}? Wähle die richtige Zahl.",
+        "fr": f"Combien font {left} plus {right} ? Choisis le bon nombre.",
+        "en": f"What is {left} plus {right}? Choose the right number.",
+        "ro": f"Cât fac {left} plus {right}? Alege numărul potrivit.",
     }[lang]
 
 
@@ -155,10 +156,10 @@ def sub_tts(lang: str, a: int, b: int) -> str:
     left, right = nword(lang, a), nword(lang, b)
     minus = {"de": "minus", "fr": "moins", "en": "minus", "ro": "scăzut"}[lang]
     return {
-        "de": f"Was ist {left} {minus} {right}?",
-        "fr": f"Combien font {left} {minus} {right} ?",
-        "en": f"What is {left} {minus} {right}?",
-        "ro": f"Cât fac {left} {minus} {right}?",
+        "de": f"Was ist {left} {minus} {right}? Wähle die richtige Zahl.",
+        "fr": f"Combien font {left} {minus} {right} ? Choisis le bon nombre.",
+        "en": f"What is {left} {minus} {right}? Choose the right number.",
+        "ro": f"Cât fac {left} {minus} {right}? Alege numărul potrivit.",
     }[lang]
 
 
@@ -174,25 +175,110 @@ def how_many(lang: str) -> str:
 
 
 def count_tts(lang: str, noun: str) -> str:
+    if lang == "fr":
+        de = "d'" if noun[:1].lower() in "aeiouéèêëàâäîïôöùûüh" else "de "
+        return f"Combien {de}{noun} vois-tu ? Compte-les bien."
     return {
-        "de": f"Wie viele {noun} siehst du?",
-        "fr": f"Combien de {noun} vois-tu ?",
-        "en": f"How many {noun} do you see?",
-        "ro": f"Câte {noun} vezi?",
+        "de": f"Wie viele {noun} siehst du? Zähle sie in Ruhe.",
+        "en": f"How many {noun} do you see? Count them carefully.",
+        "ro": f"Câte {noun} vezi? Numără-le cu grijă.",
     }[lang]
 
 
 def write_word(lang: str, word: str) -> tuple[str, str]:
     prompt = t(lang, f"Schreib: {word}", f"Écris : {word}", f"Type: {word}", f"Scrie: {word}")
-    tts = t(lang, f"Schreib {word}", f"Écris {word}", f"Type {word}", f"Scrie {word}")
+    tts = t(
+        lang,
+        f"Schreib bitte das Wort {word}.",
+        f"Écris le mot {word}, s’il te plaît.",
+        f"Please type the word {word}.",
+        f"Te rog, scrie cuvântul {word}.",
+    )
     return prompt, tts
 
 
 def type_number_prompt(lang: str) -> tuple[str, str]:
     return (
         t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
-        t(lang, "Schreib die Zahl", "Écris le nombre", "Type the number", "Scrie numărul"),
+        t(
+            lang,
+            "Schreib bitte die Zahl, die du meinst.",
+            "Écris le nombre que tu choisis.",
+            "Type the number you choose.",
+            "Scrie numărul pe care îl alegi.",
+        ),
     )
+
+
+def listen_word(lang: str, word: str) -> str:
+    return t(
+        lang,
+        f"Hör gut zu, das Wort ist {word}.",
+        f"Écoute bien ce mot : {word}.",
+        f"Listen carefully to this word: {word}.",
+        f"Ascultă bine acest cuvânt: {word}.",
+    )
+
+
+def spoken_word_count(text: str) -> int:
+    return len([w for w in re.findall(r"[^\W_]+", text, flags=re.UNICODE) if w])
+
+
+YES_NO = {
+    "ja", "nein", "oui", "non", "yes", "no", "da", "nu",
+}
+
+
+def enrich_spoken(lang: str, prompt: str, tts: str) -> str:
+    """Turn one-word Lire/Vorlesen cues into a short kid sentence."""
+    cleaned = " ".join(str(tts).split()).strip()
+    if not cleaned:
+        return cleaned
+    if spoken_word_count(cleaned) >= 5:
+        return cleaned
+    prompt_s = " ".join(str(prompt).split()).strip()
+    bare = cleaned.rstrip(".!?").strip().lower()
+    if bare in YES_NO:
+        return t(
+            lang,
+            f"{prompt_s} Tippe ja oder nein.",
+            f"{prompt_s} Touche oui ou non.",
+            f"{prompt_s} Tap yes or no.",
+            f"{prompt_s} Atinge da sau nu.",
+        )
+    word = cleaned.rstrip(".!?")
+    prompt_bare = prompt_s.rstrip(".!?").strip().lower()
+    word_bare = word.strip().lower()
+    listen_hints = ("hör", "écoute", "listen", "ascult")
+    if any(prompt_s.lower().startswith(h) for h in listen_hints) or prompt_bare == word_bare:
+        return listen_word(lang, word)
+    if prompt_s and spoken_word_count(cleaned) <= 4:
+        if prompt_s.endswith(("…", "...")):
+            return t(
+                lang,
+                f"{prompt_s} Hör zu, das Wort ist {word}.",
+                f"{prompt_s} Écoute, le mot est {word}.",
+                f"{prompt_s} Listen, the word is {word}.",
+                f"{prompt_s} Ascultă, cuvântul este {word}.",
+            )
+        if "?" in prompt_s:
+            return t(
+                lang,
+                f"{prompt_s} Hör zu: {word}.",
+                f"{prompt_s} Écoute : {word}.",
+                f"{prompt_s} Listen: {word}.",
+                f"{prompt_s} Ascultă: {word}.",
+            )
+        return t(
+            lang,
+            f"{prompt_s}. Hör zu, das Wort ist {word}.",
+            f"{prompt_s}. Écoute, le mot est {word}.",
+            f"{prompt_s}. Listen, the word is {word}.",
+            f"{prompt_s}. Ascultă, cuvântul este {word}.",
+        )
+    if spoken_word_count(cleaned) < 4:
+        return listen_word(lang, cleaned.rstrip(".!?"))
+    return cleaned
 
 
 # ---------------------------------------------------------------------------
@@ -2237,6 +2323,13 @@ def build_pack(domain: str, lang: str) -> dict:
         for item in items:
             if "promptTts" not in item or not item["promptTts"]:
                 raise SystemExit(f"{domain}/{lang} level {n} missing promptTts")
+            item["promptTts"] = enrich_spoken(lang, item.get("prompt", ""), item["promptTts"])
+            if spoken_word_count(item["promptTts"]) < 4:
+                item["promptTts"] = listen_word(lang, item["promptTts"].rstrip(".!?"))
+            if spoken_word_count(item["promptTts"]) < 4:
+                raise SystemExit(
+                    f"{domain}/{lang} level {n} TTS too short: {item['promptTts']!r}"
+                )
     if not any(item.get("answerMode") == "type" for item in built[1]):
         raise SystemExit(f"{domain}/{lang} needs a type exercise in L1")
     return pack_shell(domain, lang, finish_levels(domain, lang, built))

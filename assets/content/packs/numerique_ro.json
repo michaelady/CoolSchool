@@ -23,7 +23,7 @@
         {
           "id": "ro-num-l1-01",
           "prompt": "Ce aparat?",
-          "promptTts": "computer",
+          "promptTts": "Ce aparat? Ascultă: computer.",
           "choices": [
             "computer",
             "minge",
@@ -36,7 +36,7 @@
         {
           "id": "ro-num-l1-02",
           "prompt": "Ce aparat?",
-          "promptTts": "tabletă",
+          "promptTts": "Ce aparat? Ascultă: tabletă.",
           "choices": [
             "tabletă",
             "creion",
@@ -49,7 +49,7 @@
         {
           "id": "ro-num-l1-03",
           "prompt": "Ce aparat?",
-          "promptTts": "telefon",
+          "promptTts": "Ce aparat? Ascultă: telefon.",
           "choices": [
             "telefon",
             "lingură",
@@ -62,7 +62,7 @@
         {
           "id": "ro-num-l1-04",
           "prompt": "Scrie: tabletă",
-          "promptTts": "Scrie tabletă",
+          "promptTts": "Te rog, scrie cuvântul tabletă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tabletă"
@@ -74,7 +74,7 @@
         {
           "id": "ro-num-l1-05",
           "prompt": "Computerul e o mașină?",
-          "promptTts": "da",
+          "promptTts": "Computerul e o mașină? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -94,7 +94,7 @@
         {
           "id": "ro-num-l2-01",
           "prompt": "Cu ce arătăm pe computer?",
-          "promptTts": "mouse",
+          "promptTts": "Cu ce arătăm pe computer? Ascultă: mouse.",
           "choices": [
             "mouse",
             "parolă",
@@ -107,7 +107,7 @@
         {
           "id": "ro-num-l2-02",
           "prompt": "Cu ce scriem litere?",
-          "promptTts": "tastatură",
+          "promptTts": "Cu ce scriem litere? Ascultă: tastatură.",
           "choices": [
             "tastatură",
             "jucărie",
@@ -120,7 +120,7 @@
         {
           "id": "ro-num-l2-03",
           "prompt": "Unde vedem imaginea?",
-          "promptTts": "ecran",
+          "promptTts": "Unde vedem imaginea? Ascultă: ecran.",
           "choices": [
             "ecran",
             "mouse",
@@ -133,7 +133,7 @@
         {
           "id": "ro-num-l2-04",
           "prompt": "Scrie: mouse",
-          "promptTts": "Scrie mouse",
+          "promptTts": "Te rog, scrie cuvântul mouse.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mouse"
@@ -145,7 +145,7 @@
         {
           "id": "ro-num-l2-05",
           "prompt": "Tastatura are taste?",
-          "promptTts": "da",
+          "promptTts": "Tastatura are taste? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -165,7 +165,7 @@
         {
           "id": "ro-num-l3-01",
           "prompt": "Apăsarea mouse-ului se cheamă adesea…",
-          "promptTts": "click",
+          "promptTts": "Apăsarea mouse-ului se cheamă adesea… Ascultă, cuvântul este click.",
           "choices": [
             "click",
             "dorm",
@@ -177,7 +177,7 @@
         {
           "id": "ro-num-l3-02",
           "prompt": "A introduce litere se cheamă…",
-          "promptTts": "scriu",
+          "promptTts": "A introduce litere se cheamă… Ascultă, cuvântul este scriu.",
           "choices": [
             "scriu",
             "alerg",
@@ -189,7 +189,7 @@
         {
           "id": "ro-num-l3-03",
           "prompt": "Scrie: click",
-          "promptTts": "Scrie click",
+          "promptTts": "Te rog, scrie cuvântul click.",
           "answerMode": "type",
           "acceptedAnswers": [
             "click"
@@ -200,7 +200,7 @@
         {
           "id": "ro-num-l3-04",
           "prompt": "Pe tabletă atingem cu degetul?",
-          "promptTts": "da",
+          "promptTts": "Pe tabletă atingem cu degetul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -211,7 +211,7 @@
         {
           "id": "ro-num-l3-05",
           "prompt": "Scrie cuvântul: da",
-          "promptTts": "Scrie da",
+          "promptTts": "Scrie cuvântul: da. Ascultă, cuvântul este Scrie da.",
           "answerMode": "type",
           "acceptedAnswers": [
             "da"
@@ -231,7 +231,7 @@
         {
           "id": "ro-num-l4-01",
           "prompt": "O imagine mică care deschide un program?",
-          "promptTts": "iconiță",
+          "promptTts": "O imagine mică care deschide un program? Ascultă: iconiță.",
           "choices": [
             "iconiță",
             "supă",
@@ -244,7 +244,7 @@
         {
           "id": "ro-num-l4-02",
           "prompt": "🗑️ e adesea coșul?",
-          "promptTts": "da",
+          "promptTts": "🗑️ e adesea coșul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -255,7 +255,7 @@
         {
           "id": "ro-num-l4-03",
           "prompt": "Scrie: iconiță",
-          "promptTts": "Scrie iconiță",
+          "promptTts": "Te rog, scrie cuvântul iconiță.",
           "answerMode": "type",
           "acceptedAnswers": [
             "iconiță"
@@ -266,7 +266,7 @@
         {
           "id": "ro-num-l4-04",
           "prompt": "O iconiță poate însemna o cameră?",
-          "promptTts": "da",
+          "promptTts": "O iconiță poate însemna o cameră? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -278,7 +278,7 @@
         {
           "id": "ro-num-l4-05",
           "prompt": "Toate iconițele sunt la fel?",
-          "promptTts": "nu",
+          "promptTts": "Toate iconițele sunt la fel? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -298,7 +298,7 @@
         {
           "id": "ro-num-l5-01",
           "prompt": "Unde ținem fișierele?",
-          "promptTts": "dosar",
+          "promptTts": "Unde ținem fișierele? Ascultă: dosar.",
           "choices": [
             "dosar",
             "străin",
@@ -311,7 +311,7 @@
         {
           "id": "ro-num-l5-02",
           "prompt": "Un document e adesea un…",
-          "promptTts": "fișier",
+          "promptTts": "Un document e adesea un… Ascultă, cuvântul este fișier.",
           "choices": [
             "fișier",
             "adult",
@@ -324,7 +324,7 @@
         {
           "id": "ro-num-l5-03",
           "prompt": "Scrie: dosar",
-          "promptTts": "Scrie dosar",
+          "promptTts": "Te rog, scrie cuvântul dosar.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dosar"
@@ -336,7 +336,7 @@
         {
           "id": "ro-num-l5-04",
           "prompt": "Un dosar poate ține multe fișiere?",
-          "promptTts": "da",
+          "promptTts": "Un dosar poate ține multe fișiere? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -347,7 +347,7 @@
         {
           "id": "ro-num-l5-05",
           "prompt": "Fiecare fișier merge la gunoi?",
-          "promptTts": "nu",
+          "promptTts": "Fiecare fișier merge la gunoi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -367,7 +367,7 @@
         {
           "id": "ro-num-l6-01",
           "prompt": "Ce închide un cont?",
-          "promptTts": "parolă",
+          "promptTts": "Ce închide un cont? Ascultă: parolă.",
           "choices": [
             "parolă",
             "jucărie",
@@ -380,7 +380,7 @@
         {
           "id": "ro-num-l6-02",
           "prompt": "Parola e un secret?",
-          "promptTts": "da",
+          "promptTts": "Parola e un secret? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -391,7 +391,7 @@
         {
           "id": "ro-num-l6-03",
           "prompt": "Scrie: parolă",
-          "promptTts": "Scrie parolă",
+          "promptTts": "Te rog, scrie cuvântul parolă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "parolă"
@@ -402,7 +402,7 @@
         {
           "id": "ro-num-l6-04",
           "prompt": "1234 e o parolă grozavă?",
-          "promptTts": "nu",
+          "promptTts": "1234 e o parolă grozavă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -413,7 +413,7 @@
         {
           "id": "ro-num-l6-05",
           "prompt": "Alegi o parolă lungă cu un adult?",
-          "promptTts": "da",
+          "promptTts": "Alegi o parolă lungă cu un adult? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -433,7 +433,7 @@
         {
           "id": "ro-num-l7-01",
           "prompt": "Spunem parola întregii clase?",
-          "promptTts": "nu",
+          "promptTts": "Spunem parola întregii clase? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -444,7 +444,7 @@
         {
           "id": "ro-num-l7-02",
           "prompt": "Parola e…",
-          "promptTts": "secret",
+          "promptTts": "Parola e… Ascultă, cuvântul este secret.",
           "choices": [
             "secret",
             "jucărie",
@@ -456,7 +456,7 @@
         {
           "id": "ro-num-l7-03",
           "prompt": "Scrie: secret",
-          "promptTts": "Scrie secret",
+          "promptTts": "Te rog, scrie cuvântul secret.",
           "answerMode": "type",
           "acceptedAnswers": [
             "secret"
@@ -467,7 +467,7 @@
         {
           "id": "ro-num-l7-04",
           "prompt": "Poți spune unui adult de încredere dacă ai nevoie de ajutor?",
-          "promptTts": "da",
+          "promptTts": "Poți spune unui adult de încredere dacă ai nevoie de ajutor? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -478,7 +478,7 @@
         {
           "id": "ro-num-l7-05",
           "prompt": "Îl lipim pe ecran?",
-          "promptTts": "nu",
+          "promptTts": "Îl lipim pe ecran? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -498,7 +498,7 @@
         {
           "id": "ro-num-l8-01",
           "prompt": "Pe cine întrebi dacă o fereastră e ciudată?",
-          "promptTts": "adult",
+          "promptTts": "Pe cine întrebi dacă o fereastră e ciudată? Ascultă: adult.",
           "choices": [
             "adult",
             "străin",
@@ -511,7 +511,7 @@
         {
           "id": "ro-num-l8-02",
           "prompt": "Descarci fără să întrebi?",
-          "promptTts": "nu",
+          "promptTts": "Descarci fără să întrebi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -522,7 +522,7 @@
         {
           "id": "ro-num-l8-03",
           "prompt": "Scrie: adult",
-          "promptTts": "Scrie adult",
+          "promptTts": "Te rog, scrie cuvântul adult.",
           "answerMode": "type",
           "acceptedAnswers": [
             "adult"
@@ -533,7 +533,7 @@
         {
           "id": "ro-num-l8-04",
           "prompt": "Pop-up: mai întâi un adult?",
-          "promptTts": "da",
+          "promptTts": "Pop-up: mai întâi un adult? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -544,7 +544,7 @@
         {
           "id": "ro-num-l8-05",
           "prompt": "Click ai câștigat un premiu fără să întrebi?",
-          "promptTts": "nu",
+          "promptTts": "Click ai câștigat un premiu fără să întrebi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -564,7 +564,7 @@
         {
           "id": "ro-num-l9-01",
           "prompt": "Cum trebuie să fie mesajele?",
-          "promptTts": "drăguț",
+          "promptTts": "Cum trebuie să fie mesajele? Ascultă: drăguț.",
           "choices": [
             "drăguț",
             "rău"
@@ -576,7 +576,7 @@
         {
           "id": "ro-num-l9-02",
           "prompt": "Trimitem cuvinte urâte?",
-          "promptTts": "nu",
+          "promptTts": "Trimitem cuvinte urâte? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -587,7 +587,7 @@
         {
           "id": "ro-num-l9-03",
           "prompt": "Scrie: drăguț",
-          "promptTts": "Scrie drăguț",
+          "promptTts": "Te rog, scrie cuvântul drăguț.",
           "answerMode": "type",
           "acceptedAnswers": [
             "drăguț"
@@ -598,7 +598,7 @@
         {
           "id": "ro-num-l9-04",
           "prompt": "Te rog și mulțumesc și online?",
-          "promptTts": "da",
+          "promptTts": "Te rog și mulțumesc și online? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -609,7 +609,7 @@
         {
           "id": "ro-num-l9-05",
           "prompt": "Trimiți mai departe poza altcuiva fără să întrebi?",
-          "promptTts": "nu",
+          "promptTts": "Trimiți mai departe poza altcuiva fără să întrebi? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -629,7 +629,7 @@
         {
           "id": "ro-num-l10-01",
           "prompt": "Cineva necunoscut vrea să vă întâlniți?",
-          "promptTts": "întreabă un adult",
+          "promptTts": "Cineva necunoscut vrea să vă întâlniți? Ascultă: întreabă un adult.",
           "choices": [
             "mergi singur imediat",
             "întreabă un adult"
@@ -640,7 +640,7 @@
         {
           "id": "ro-num-l10-02",
           "prompt": "Oricine online e prieten?",
-          "promptTts": "nu",
+          "promptTts": "Oricine online e prieten? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -651,7 +651,7 @@
         {
           "id": "ro-num-l10-03",
           "prompt": "Scrie: străin",
-          "promptTts": "Scrie străin",
+          "promptTts": "Te rog, scrie cuvântul străin.",
           "answerMode": "type",
           "acceptedAnswers": [
             "străin"
@@ -662,7 +662,7 @@
         {
           "id": "ro-num-l10-04",
           "prompt": "Dai adresa sau școala unui străin?",
-          "promptTts": "nu",
+          "promptTts": "Dai adresa sau școala unui străin? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -673,7 +673,7 @@
         {
           "id": "ro-num-l10-05",
           "prompt": "O persoană necunoscută e adesea…",
-          "promptTts": "străin",
+          "promptTts": "O persoană necunoscută e adesea… Ascultă, cuvântul este străin.",
           "choices": [
             "străin",
             "adult",
@@ -694,7 +694,7 @@
         {
           "id": "ro-num-l11-01",
           "prompt": "Mult timp numai ecran: ce faci?",
-          "promptTts": "pauză",
+          "promptTts": "Mult timp numai ecran: ce faci? Ascultă: pauză.",
           "choices": [
             "pauză",
             "parolă",
@@ -707,7 +707,7 @@
         {
           "id": "ro-num-l11-02",
           "prompt": "O pauză pentru ochi e utilă?",
-          "promptTts": "da",
+          "promptTts": "O pauză pentru ochi e utilă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -718,7 +718,7 @@
         {
           "id": "ro-num-l11-03",
           "prompt": "Scrie: pauză",
-          "promptTts": "Scrie pauză",
+          "promptTts": "Te rog, scrie cuvântul pauză.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pauză"
@@ -729,7 +729,7 @@
         {
           "id": "ro-num-l11-04",
           "prompt": "Ne jucăm și afară?",
-          "promptTts": "da",
+          "promptTts": "Ne jucăm și afară? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -740,7 +740,7 @@
         {
           "id": "ro-num-l11-05",
           "prompt": "Toată noaptea pe aparat?",
-          "promptTts": "nu",
+          "promptTts": "Toată noaptea pe aparat? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -760,7 +760,7 @@
         {
           "id": "ro-num-l12-01",
           "prompt": "Ordine: pantofi, apoi afară. Ce vine mai întâi?",
-          "promptTts": "mai întâi",
+          "promptTts": "Ordine: pantofi, apoi afară. Ce vine mai întâi? Ascultă: mai întâi.",
           "choices": [
             "mai întâi",
             "apoi"
@@ -771,7 +771,7 @@
         {
           "id": "ro-num-l12-02",
           "prompt": "Mai întâi speli mâinile, ___ mănânci.",
-          "promptTts": "apoi",
+          "promptTts": "Mai întâi speli mâinile, ___ mănânci.. Ascultă, cuvântul este apoi.",
           "choices": [
             "apoi",
             "mai întâi"
@@ -782,7 +782,7 @@
         {
           "id": "ro-num-l12-03",
           "prompt": "Scrie: mai întâi",
-          "promptTts": "Scrie mai întâi",
+          "promptTts": "Te rog, scrie cuvântul mai întâi.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mai întâi"
@@ -793,7 +793,7 @@
         {
           "id": "ro-num-l12-04",
           "prompt": "O rețetă e o secvență?",
-          "promptTts": "da",
+          "promptTts": "O rețetă e o secvență? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -804,7 +804,7 @@
         {
           "id": "ro-num-l12-05",
           "prompt": "Scrie: apoi",
-          "promptTts": "Scrie apoi",
+          "promptTts": "Te rog, scrie cuvântul apoi.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apoi"
@@ -824,7 +824,7 @@
         {
           "id": "ro-num-l13-01",
           "prompt": "Robotul trebuie ⬅️. Încotro?",
-          "promptTts": "stânga",
+          "promptTts": "Robotul trebuie ⬅️. Încotro? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"
@@ -835,7 +835,7 @@
         {
           "id": "ro-num-l13-02",
           "prompt": "Robotul trebuie ➡️. Încotro?",
-          "promptTts": "dreapta",
+          "promptTts": "Robotul trebuie ➡️. Încotro? Ascultă: dreapta.",
           "choices": [
             "dreapta",
             "stânga"
@@ -846,7 +846,7 @@
         {
           "id": "ro-num-l13-03",
           "prompt": "Scrie: stânga",
-          "promptTts": "Scrie stânga",
+          "promptTts": "Te rog, scrie cuvântul stânga.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stânga"
@@ -857,7 +857,7 @@
         {
           "id": "ro-num-l13-04",
           "prompt": "Pașii clari ajută robotul?",
-          "promptTts": "da",
+          "promptTts": "Pașii clari ajută robotul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -869,7 +869,7 @@
         {
           "id": "ro-num-l13-05",
           "prompt": "Scrie: dreapta",
-          "promptTts": "Scrie dreapta",
+          "promptTts": "Te rog, scrie cuvântul dreapta.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dreapta"
@@ -889,7 +889,7 @@
         {
           "id": "ro-num-l14-01",
           "prompt": "Repetă de trei ori: de câte ori?",
-          "promptTts": "3",
+          "promptTts": "Repetă de trei ori: de câte ori? Ascultă: 3.",
           "choices": [
             "2",
             "3",
@@ -901,7 +901,7 @@
         {
           "id": "ro-num-l14-02",
           "prompt": "Scrie numărul 3",
-          "promptTts": "Scrie trei",
+          "promptTts": "Scrie numărul 3. Ascultă, cuvântul este Scrie trei.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -912,7 +912,7 @@
         {
           "id": "ro-num-l14-03",
           "prompt": "O buclă repetă ceva?",
-          "promptTts": "da",
+          "promptTts": "O buclă repetă ceva? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -923,7 +923,7 @@
         {
           "id": "ro-num-l14-04",
           "prompt": "Aplaudă de 3 ori: 1, 2, …?",
-          "promptTts": "3",
+          "promptTts": "Aplaudă de 3 ori: 1, 2, …? Ascultă: 3.",
           "choices": [
             "3",
             "1",
@@ -935,7 +935,7 @@
         {
           "id": "ro-num-l14-05",
           "prompt": "Niciodată nu repeți, mereu 1 pas?",
-          "promptTts": "nu",
+          "promptTts": "Niciodată nu repeți, mereu 1 pas? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -955,7 +955,7 @@
         {
           "id": "ro-num-l15-01",
           "prompt": "De ce are nevoie un computer?",
-          "promptTts": "curent",
+          "promptTts": "De ce are nevoie un computer? Ascultă: curent.",
           "choices": [
             "curent",
             "jucărie",
@@ -968,7 +968,7 @@
         {
           "id": "ro-num-l15-02",
           "prompt": "Fără curent ecranul rămâne adesea negru?",
-          "promptTts": "da",
+          "promptTts": "Fără curent ecranul rămâne adesea negru? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -979,7 +979,7 @@
         {
           "id": "ro-num-l15-03",
           "prompt": "Scrie: curent",
-          "promptTts": "Scrie curent",
+          "promptTts": "Te rog, scrie cuvântul curent.",
           "answerMode": "type",
           "acceptedAnswers": [
             "curent"
@@ -990,7 +990,7 @@
         {
           "id": "ro-num-l15-04",
           "prompt": "Baterie goală: încărcăm?",
-          "promptTts": "da",
+          "promptTts": "Baterie goală: încărcăm? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1001,7 +1001,7 @@
         {
           "id": "ro-num-l15-05",
           "prompt": "Pui aparatul în apă?",
-          "promptTts": "nu",
+          "promptTts": "Pui aparatul în apă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1021,7 +1021,7 @@
         {
           "id": "ro-num-l16-01",
           "prompt": "Cum se numește rețeaua de pagini?",
-          "promptTts": "internet",
+          "promptTts": "Cum se numește rețeaua de pagini? Ascultă: internet.",
           "choices": [
             "internet",
             "mouse",
@@ -1034,7 +1034,7 @@
         {
           "id": "ro-num-l16-02",
           "prompt": "Totul pe internet e adevărat?",
-          "promptTts": "nu",
+          "promptTts": "Totul pe internet e adevărat? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1045,7 +1045,7 @@
         {
           "id": "ro-num-l16-03",
           "prompt": "Scrie: internet",
-          "promptTts": "Scrie internet",
+          "promptTts": "Te rog, scrie cuvântul internet.",
           "answerMode": "type",
           "acceptedAnswers": [
             "internet"
@@ -1056,7 +1056,7 @@
         {
           "id": "ro-num-l16-04",
           "prompt": "Internetul poate fi ca o bibliotecă?",
-          "promptTts": "da",
+          "promptTts": "Internetul poate fi ca o bibliotecă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1067,7 +1067,7 @@
         {
           "id": "ro-num-l16-05",
           "prompt": "Căutăm cu un adult?",
-          "promptTts": "da",
+          "promptTts": "Căutăm cu un adult? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1087,7 +1087,7 @@
         {
           "id": "ro-num-l17-01",
           "prompt": "Înainte de a trimite poza cuiva?",
-          "promptTts": "întreabă",
+          "promptTts": "Înainte de a trimite poza cuiva? Ascultă: întreabă.",
           "choices": [
             "întreabă",
             "trimiți pur și simplu"
@@ -1099,7 +1099,7 @@
         {
           "id": "ro-num-l17-02",
           "prompt": "Putem pune orice poză online?",
-          "promptTts": "nu",
+          "promptTts": "Putem pune orice poză online? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1110,7 +1110,7 @@
         {
           "id": "ro-num-l17-03",
           "prompt": "Scrie: poză",
-          "promptTts": "Scrie poză",
+          "promptTts": "Te rog, scrie cuvântul poză.",
           "answerMode": "type",
           "acceptedAnswers": [
             "poză"
@@ -1121,7 +1121,7 @@
         {
           "id": "ro-num-l17-04",
           "prompt": "Un copil într-o poză: întrebi părinții?",
-          "promptTts": "da",
+          "promptTts": "Un copil într-o poză: întrebi părinții? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1132,7 +1132,7 @@
         {
           "id": "ro-num-l17-05",
           "prompt": "Trimiți locația la toată lumea?",
-          "promptTts": "nu",
+          "promptTts": "Trimiți locația la toată lumea? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1152,7 +1152,7 @@
         {
           "id": "ro-num-l18-01",
           "prompt": "Dacă te simți ciudat online?",
-          "promptTts": "stop",
+          "promptTts": "Dacă te simți ciudat online? Ascultă: stop.",
           "choices": [
             "stop",
             "străin",
@@ -1165,7 +1165,7 @@
         {
           "id": "ro-num-l18-02",
           "prompt": "Lași aparatul și iei un adult?",
-          "promptTts": "da",
+          "promptTts": "Lași aparatul și iei un adult? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1176,7 +1176,7 @@
         {
           "id": "ro-num-l18-03",
           "prompt": "Scrie: stop",
-          "promptTts": "Scrie stop",
+          "promptTts": "Te rog, scrie cuvântul stop.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stop"
@@ -1187,7 +1187,7 @@
         {
           "id": "ro-num-l18-04",
           "prompt": "Păstrezi secret dacă cineva e urât?",
-          "promptTts": "nu",
+          "promptTts": "Păstrezi secret dacă cineva e urât? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1198,7 +1198,7 @@
         {
           "id": "ro-num-l18-05",
           "prompt": "Ai voie să spui stop?",
-          "promptTts": "da",
+          "promptTts": "Ai voie să spui stop? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1218,7 +1218,7 @@
         {
           "id": "ro-num-l19-01",
           "prompt": "Un computer pentru muncă e mai degrabă o…",
-          "promptTts": "unealtă",
+          "promptTts": "Un computer pentru muncă e mai degrabă o… Ascultă, cuvântul este unealtă.",
           "choices": [
             "unealtă",
             "jucărie"
@@ -1230,7 +1230,7 @@
         {
           "id": "ro-num-l19-02",
           "prompt": "Un joc pe tabletă e mai degrabă o…",
-          "promptTts": "jucărie",
+          "promptTts": "Un joc pe tabletă e mai degrabă o… Ascultă, cuvântul este jucărie.",
           "choices": [
             "jucărie",
             "unealtă"
@@ -1242,7 +1242,7 @@
         {
           "id": "ro-num-l19-03",
           "prompt": "Scrie: unealtă",
-          "promptTts": "Scrie unealtă",
+          "promptTts": "Te rog, scrie cuvântul unealtă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "unealtă"
@@ -1253,7 +1253,7 @@
         {
           "id": "ro-num-l19-04",
           "prompt": "Același aparat poate fi unealtă și joc?",
-          "promptTts": "da",
+          "promptTts": "Același aparat poate fi unealtă și joc? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1264,7 +1264,7 @@
         {
           "id": "ro-num-l19-05",
           "prompt": "Scrie: jucărie",
-          "promptTts": "Scrie jucărie",
+          "promptTts": "Te rog, scrie cuvântul jucărie.",
           "answerMode": "type",
           "acceptedAnswers": [
             "jucărie"
@@ -1284,7 +1284,7 @@
         {
           "id": "ro-num-l20-01",
           "prompt": "Ce aparat?",
-          "promptTts": "computer",
+          "promptTts": "Ce aparat? Ascultă: computer.",
           "choices": [
             "computer",
             "jucărie",
@@ -1297,7 +1297,7 @@
         {
           "id": "ro-num-l20-02",
           "prompt": "Scrie: parolă",
-          "promptTts": "Scrie parolă",
+          "promptTts": "Te rog, scrie cuvântul parolă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "parolă"
@@ -1308,7 +1308,7 @@
         {
           "id": "ro-num-l20-03",
           "prompt": "Spui parolei clasei?",
-          "promptTts": "nu",
+          "promptTts": "Spui parolei clasei? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1319,7 +1319,7 @@
         {
           "id": "ro-num-l20-04",
           "prompt": "Robot ⬅️ ?",
-          "promptTts": "stânga",
+          "promptTts": "Ascultă bine acest cuvânt: Robot ⬅️ ? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"
@@ -1331,7 +1331,7 @@
         {
           "id": "ro-num-l20-05",
           "prompt": "Scrie: stop",
-          "promptTts": "Scrie stop",
+          "promptTts": "Te rog, scrie cuvântul stop.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stop"

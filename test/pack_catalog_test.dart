@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:coolschool/content/models.dart';
@@ -54,6 +55,36 @@ void main() {
     }
   });
 
+  test('spoken prompts are full kid sentences, not one-word cues', () {
+    for (final topic in AssetPackRepository.topicIds) {
+      for (final locale in AppLocales.codes) {
+        final pack = loadPack(topic, locale);
+        for (final level in pack.levels) {
+          for (final exercise in level.exercises) {
+            final words = exercise.promptTts.trim().split(RegExp(r'\s+')).length;
+            expect(
+              words,
+              greaterThanOrEqualTo(4),
+              reason: '${pack.id}/${locale} ${exercise.id} → ${exercise.promptTts}',
+            );
+          }
+        }
+      }
+    }
+    final frMath = loadPack('math_sciences', 'fr').levels.first.exercises.first;
+    expect(frMath.promptTts, contains('Combien font'));
+    expect(frMath.promptTts, contains('Choisis'));
+    final roMath = loadPack('math_sciences', 'ro').levels.first.exercises.first;
+    expect(roMath.promptTts, contains('Cât fac'));
+    expect(roMath.promptTts, contains('Alege'));
+    final frType = loadPack('langues', 'fr').levels.first.exercises[1];
+    expect(frType.isType, isTrue);
+    expect(frType.promptTts.toLowerCase(), contains('mot'));
+    final roType = loadPack('shs', 'ro').levels.first.exercises
+        .firstWhere((item) => item.isType);
+    expect(roType.promptTts.toLowerCase(), contains('cuvântul'));
+  });
+
   test('math packs fold counting and spoken subtraction', () {
     final pack = loadPack('math_sciences', 'de');
     expect(pack.levels.first.exercises.first.prompt, '1 + 1 = ?');
@@ -86,6 +117,20 @@ void main() {
       expect(pack.levels.first.exercises.first.isChoice, isTrue);
       expect(pack.levels.first.exercises[1].isType, isTrue);
       expect(pack.levels.first.exercises[1].kind, ExerciseKind.counting);
+    }
+  });
+
+  test('FR and RO voice JSON keep language dicts with a female formant profile', () {
+    for (final locale in ['fr', 'ro']) {
+      final raw = jsonDecode(File('web/tts/voices/$locale.json').readAsStringSync()) as Map;
+      expect(raw['voice_id'], locale);
+      expect((raw['dict'] as String).length, greaterThan(1000));
+      final voice = utf8.decode(base64.decode(raw['voice'] as String));
+      expect(voice, contains('gender female'));
+      expect(voice, contains('language $locale'));
+      expect(voice.toLowerCase(), isNot(contains('echo')));
+      expect(voice.toLowerCase(), isNot(contains('breath')));
+      expect(voice.toLowerCase(), isNot(contains('klatt')));
     }
   });
 }

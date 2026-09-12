@@ -23,7 +23,7 @@
         {
           "id": "ro-msn-l1-01",
           "prompt": "1 + 1 = ?",
-          "promptTts": "Cât fac unu plus unu?",
+          "promptTts": "Cât fac unu plus unu? Alege numărul potrivit.",
           "choices": [
             "1",
             "2",
@@ -35,7 +35,7 @@
         {
           "id": "ro-msn-l1-02",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte flori vezi?",
+          "promptTts": "Câte flori vezi? Numără-le cu grijă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -51,7 +51,7 @@
         {
           "id": "ro-msn-l1-03",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte mere vezi?",
+          "promptTts": "Câte mere vezi? Numără-le cu grijă.",
           "choices": [
             "1",
             "2",
@@ -67,7 +67,7 @@
         {
           "id": "ro-msn-l1-04",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte stele vezi?",
+          "promptTts": "Câte stele vezi? Numără-le cu grijă.",
           "choices": [
             "0",
             "1",
@@ -82,7 +82,7 @@
         {
           "id": "ro-msn-l1-05",
           "prompt": "2 + 1 = ?",
-          "promptTts": "Cât fac doi plus unu?",
+          "promptTts": "Cât fac doi plus unu? Alege numărul potrivit.",
           "choices": [
             "2",
             "3",
@@ -103,7 +103,7 @@
         {
           "id": "ro-msn-l2-01",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte mere vezi?",
+          "promptTts": "Câte mere vezi? Numără-le cu grijă.",
           "choices": [
             "3",
             "4",
@@ -121,7 +121,7 @@
         {
           "id": "ro-msn-l2-02",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte stele vezi?",
+          "promptTts": "Câte stele vezi? Numără-le cu grijă.",
           "choices": [
             "4",
             "5",
@@ -140,7 +140,7 @@
         {
           "id": "ro-msn-l2-03",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte broaște vezi?",
+          "promptTts": "Câte broaște vezi? Numără-le cu grijă.",
           "choices": [
             "1",
             "2",
@@ -156,7 +156,7 @@
         {
           "id": "ro-msn-l2-04",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte puncte vezi?",
+          "promptTts": "Câte puncte vezi? Numără-le cu grijă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -172,7 +172,7 @@
         {
           "id": "ro-msn-l2-05",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Cât fac doi plus doi?",
+          "promptTts": "Cât fac doi plus doi? Alege numărul potrivit.",
           "choices": [
             "3",
             "4",
@@ -193,7 +193,7 @@
         {
           "id": "ro-msn-l3-01",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte mere vezi?",
+          "promptTts": "Câte mere vezi? Numără-le cu grijă.",
           "choices": [
             "6",
             "7",
@@ -214,7 +214,7 @@
         {
           "id": "ro-msn-l3-02",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte stele vezi?",
+          "promptTts": "Câte stele vezi? Numără-le cu grijă.",
           "choices": [
             "7",
             "8",
@@ -236,7 +236,7 @@
         {
           "id": "ro-msn-l3-03",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte flori vezi?",
+          "promptTts": "Câte flori vezi? Numără-le cu grijă.",
           "choices": [
             "9",
             "10",
@@ -260,7 +260,7 @@
         {
           "id": "ro-msn-l3-04",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte puncte vezi?",
+          "promptTts": "Câte puncte vezi? Numără-le cu grijă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "6"
@@ -279,7 +279,7 @@
         {
           "id": "ro-msn-l3-05",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte broaște vezi?",
+          "promptTts": "Câte broaște vezi? Numără-le cu grijă.",
           "choices": [
             "8",
             "9",
@@ -311,7 +311,7 @@
         {
           "id": "ro-msn-l4-01",
           "prompt": "1 + 2 = ?",
-          "promptTts": "Cât fac unu plus doi?",
+          "promptTts": "Cât fac unu plus doi? Alege numărul potrivit.",
           "choices": [
             "2",
             "3",
@@ -323,7 +323,7 @@
         {
           "id": "ro-msn-l4-02",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Cât fac doi plus doi?",
+          "promptTts": "Cât fac doi plus doi? Alege numărul potrivit.",
           "choices": [
             "3",
             "4",
@@ -335,7 +335,7 @@
         {
           "id": "ro-msn-l4-03",
           "prompt": "3 + 1 = ?",
-          "promptTts": "Cât fac trei plus unu?",
+          "promptTts": "Cât fac trei plus unu? Alege numărul potrivit.",
           "choices": [
             "3",
             "4",
@@ -347,7 +347,7 @@
         {
           "id": "ro-msn-l4-04",
           "prompt": "4 + 1 = ?",
-          "promptTts": "Cât fac patru plus unu?",
+          "promptTts": "Cât fac patru plus unu? Alege numărul potrivit.",
           "choices": [
             "4",
             "5",
@@ -359,7 +359,7 @@
         {
           "id": "ro-msn-l4-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "Cât fac doi plus trei?",
+          "promptTts": "Cât fac doi plus trei? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -379,7 +379,7 @@
         {
           "id": "ro-msn-l5-01",
           "prompt": "4 + 3 = ?",
-          "promptTts": "Cât fac patru plus trei?",
+          "promptTts": "Cât fac patru plus trei? Alege numărul potrivit.",
           "choices": [
             "6",
             "7",
@@ -391,7 +391,7 @@
         {
           "id": "ro-msn-l5-02",
           "prompt": "5 + 2 = ?",
-          "promptTts": "Cât fac cinci plus doi?",
+          "promptTts": "Cât fac cinci plus doi? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "7"
@@ -402,7 +402,7 @@
         {
           "id": "ro-msn-l5-03",
           "prompt": "6 + 4 = ?",
-          "promptTts": "Cât fac șase plus patru?",
+          "promptTts": "Cât fac șase plus patru? Alege numărul potrivit.",
           "choices": [
             "9",
             "10",
@@ -414,7 +414,7 @@
         {
           "id": "ro-msn-l5-04",
           "prompt": "7 + 2 = ?",
-          "promptTts": "Cât fac șapte plus doi?",
+          "promptTts": "Cât fac șapte plus doi? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -425,7 +425,7 @@
         {
           "id": "ro-msn-l5-05",
           "prompt": "3 + 5 = ?",
-          "promptTts": "Cât fac trei plus cinci?",
+          "promptTts": "Cât fac trei plus cinci? Alege numărul potrivit.",
           "choices": [
             "7",
             "8",
@@ -446,7 +446,7 @@
         {
           "id": "ro-msn-l6-01",
           "prompt": "5 − 2 = ?",
-          "promptTts": "Cât fac cinci scăzut doi?",
+          "promptTts": "Cât fac cinci scăzut doi? Alege numărul potrivit.",
           "choices": [
             "2",
             "3",
@@ -458,7 +458,7 @@
         {
           "id": "ro-msn-l6-02",
           "prompt": "6 − 1 = ?",
-          "promptTts": "Cât fac șase scăzut unu?",
+          "promptTts": "Cât fac șase scăzut unu? Alege numărul potrivit.",
           "choices": [
             "4",
             "5",
@@ -470,7 +470,7 @@
         {
           "id": "ro-msn-l6-03",
           "prompt": "8 − 3 = ?",
-          "promptTts": "Cât fac opt scăzut trei?",
+          "promptTts": "Cât fac opt scăzut trei? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -481,7 +481,7 @@
         {
           "id": "ro-msn-l6-04",
           "prompt": "9 − 4 = ?",
-          "promptTts": "Cât fac nouă scăzut patru?",
+          "promptTts": "Cât fac nouă scăzut patru? Alege numărul potrivit.",
           "choices": [
             "4",
             "5",
@@ -493,7 +493,7 @@
         {
           "id": "ro-msn-l6-05",
           "prompt": "7 − 5 = ?",
-          "promptTts": "Cât fac șapte scăzut cinci?",
+          "promptTts": "Cât fac șapte scăzut cinci? Alege numărul potrivit.",
           "choices": [
             "1",
             "2",
@@ -514,7 +514,7 @@
         {
           "id": "ro-msn-l7-01",
           "prompt": "10 + 4 = ?",
-          "promptTts": "Cât fac zece plus patru?",
+          "promptTts": "Cât fac zece plus patru? Alege numărul potrivit.",
           "choices": [
             "13",
             "14",
@@ -526,7 +526,7 @@
         {
           "id": "ro-msn-l7-02",
           "prompt": "8 + 5 = ?",
-          "promptTts": "Cât fac opt plus cinci?",
+          "promptTts": "Cât fac opt plus cinci? Alege numărul potrivit.",
           "choices": [
             "12",
             "13",
@@ -538,7 +538,7 @@
         {
           "id": "ro-msn-l7-03",
           "prompt": "7 + 7 = ?",
-          "promptTts": "Cât fac șapte plus șapte?",
+          "promptTts": "Cât fac șapte plus șapte? Alege numărul potrivit.",
           "choices": [
             "13",
             "14",
@@ -550,7 +550,7 @@
         {
           "id": "ro-msn-l7-04",
           "prompt": "11 + 3 = ?",
-          "promptTts": "Cât fac unsprezece plus trei?",
+          "promptTts": "Cât fac unsprezece plus trei? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "14"
@@ -561,7 +561,7 @@
         {
           "id": "ro-msn-l7-05",
           "prompt": "9 + 6 = ?",
-          "promptTts": "Cât fac nouă plus șase?",
+          "promptTts": "Cât fac nouă plus șase? Alege numărul potrivit.",
           "choices": [
             "14",
             "15",
@@ -582,7 +582,7 @@
         {
           "id": "ro-msn-l8-01",
           "prompt": "12 − 4 = ?",
-          "promptTts": "Cât fac doisprezece scăzut patru?",
+          "promptTts": "Cât fac doisprezece scăzut patru? Alege numărul potrivit.",
           "choices": [
             "7",
             "8",
@@ -594,7 +594,7 @@
         {
           "id": "ro-msn-l8-02",
           "prompt": "15 − 6 = ?",
-          "promptTts": "Cât fac cincisprezece scăzut șase?",
+          "promptTts": "Cât fac cincisprezece scăzut șase? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -605,7 +605,7 @@
         {
           "id": "ro-msn-l8-03",
           "prompt": "11 − 3 = ?",
-          "promptTts": "Cât fac unsprezece scăzut trei?",
+          "promptTts": "Cât fac unsprezece scăzut trei? Alege numărul potrivit.",
           "choices": [
             "7",
             "8",
@@ -617,7 +617,7 @@
         {
           "id": "ro-msn-l8-04",
           "prompt": "14 − 5 = ?",
-          "promptTts": "Cât fac paisprezece scăzut cinci?",
+          "promptTts": "Cât fac paisprezece scăzut cinci? Alege numărul potrivit.",
           "choices": [
             "8",
             "9",
@@ -629,7 +629,7 @@
         {
           "id": "ro-msn-l8-05",
           "prompt": "18 − 9 = ?",
-          "promptTts": "Cât fac optsprezece scăzut nouă?",
+          "promptTts": "Cât fac optsprezece scăzut nouă? Alege numărul potrivit.",
           "choices": [
             "8",
             "9",
@@ -650,7 +650,7 @@
         {
           "id": "ro-msn-l9-01",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Cât fac doi plus doi?",
+          "promptTts": "Cât fac doi plus doi? Alege numărul potrivit.",
           "choices": [
             "3",
             "4",
@@ -662,7 +662,7 @@
         {
           "id": "ro-msn-l9-02",
           "prompt": "4 + 4 = ?",
-          "promptTts": "Cât fac patru plus patru?",
+          "promptTts": "Cât fac patru plus patru? Alege numărul potrivit.",
           "choices": [
             "7",
             "8",
@@ -674,7 +674,7 @@
         {
           "id": "ro-msn-l9-03",
           "prompt": "5 + 5 = ?",
-          "promptTts": "Cât fac cinci plus cinci?",
+          "promptTts": "Cât fac cinci plus cinci? Alege numărul potrivit.",
           "choices": [
             "9",
             "10",
@@ -686,7 +686,7 @@
         {
           "id": "ro-msn-l9-04",
           "prompt": "6 + 6 = ?",
-          "promptTts": "Cât fac șase plus șase?",
+          "promptTts": "Cât fac șase plus șase? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "12"
@@ -697,7 +697,7 @@
         {
           "id": "ro-msn-l9-05",
           "prompt": "8 + 8 = ?",
-          "promptTts": "Cât fac opt plus opt?",
+          "promptTts": "Cât fac opt plus opt? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "16"
@@ -717,7 +717,7 @@
         {
           "id": "ro-msn-l10-01",
           "prompt": "20 + 10 = ?",
-          "promptTts": "Cât fac douăzeci plus zece?",
+          "promptTts": "Cât fac douăzeci plus zece? Alege numărul potrivit.",
           "choices": [
             "29",
             "30",
@@ -729,7 +729,7 @@
         {
           "id": "ro-msn-l10-02",
           "prompt": "30 + 5 = ?",
-          "promptTts": "Cât fac treizeci plus cinci?",
+          "promptTts": "Cât fac treizeci plus cinci? Alege numărul potrivit.",
           "choices": [
             "34",
             "35",
@@ -741,7 +741,7 @@
         {
           "id": "ro-msn-l10-03",
           "prompt": "40 + 4 = ?",
-          "promptTts": "Cât fac patruzeci plus patru?",
+          "promptTts": "Cât fac patruzeci plus patru? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "44"
@@ -752,7 +752,7 @@
         {
           "id": "ro-msn-l10-04",
           "prompt": "20 − 5 = ?",
-          "promptTts": "Cât fac douăzeci scăzut cinci?",
+          "promptTts": "Cât fac douăzeci scăzut cinci? Alege numărul potrivit.",
           "choices": [
             "14",
             "15",
@@ -764,7 +764,7 @@
         {
           "id": "ro-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Scrie douăzeci și cinci",
+          "promptTts": "25. Ascultă, cuvântul este Scrie douăzeci și cinci.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -784,7 +784,7 @@
         {
           "id": "ro-msn-l11-01",
           "prompt": "21 + 8 = ?",
-          "promptTts": "Cât fac douăzeci și unu plus opt?",
+          "promptTts": "Cât fac douăzeci și unu plus opt? Alege numărul potrivit.",
           "choices": [
             "28",
             "29",
@@ -796,7 +796,7 @@
         {
           "id": "ro-msn-l11-02",
           "prompt": "40 − 10 = ?",
-          "promptTts": "Cât fac patruzeci scăzut zece?",
+          "promptTts": "Cât fac patruzeci scăzut zece? Alege numărul potrivit.",
           "choices": [
             "29",
             "30",
@@ -808,7 +808,7 @@
         {
           "id": "ro-msn-l11-03",
           "prompt": "15 + 15 = ?",
-          "promptTts": "Cât fac cincisprezece plus cincisprezece?",
+          "promptTts": "Cât fac cincisprezece plus cincisprezece? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "30"
@@ -819,7 +819,7 @@
         {
           "id": "ro-msn-l11-04",
           "prompt": "33 − 3 = ?",
-          "promptTts": "Cât fac treizeci și trei scăzut trei?",
+          "promptTts": "Cât fac treizeci și trei scăzut trei? Alege numărul potrivit.",
           "choices": [
             "29",
             "30",
@@ -831,7 +831,7 @@
         {
           "id": "ro-msn-l11-05",
           "prompt": "12 + 18 = ?",
-          "promptTts": "Cât fac doisprezece plus optsprezece?",
+          "promptTts": "Cât fac doisprezece plus optsprezece? Alege numărul potrivit.",
           "choices": [
             "29",
             "30",
@@ -852,7 +852,7 @@
         {
           "id": "ro-msn-l12-01",
           "prompt": "50 + 20 = ?",
-          "promptTts": "Cât fac cincizeci plus douăzeci?",
+          "promptTts": "Cât fac cincizeci plus douăzeci? Alege numărul potrivit.",
           "choices": [
             "69",
             "70",
@@ -864,7 +864,7 @@
         {
           "id": "ro-msn-l12-02",
           "prompt": "40 + 40 = ?",
-          "promptTts": "Cât fac patruzeci plus patruzeci?",
+          "promptTts": "Cât fac patruzeci plus patruzeci? Alege numărul potrivit.",
           "choices": [
             "79",
             "80",
@@ -876,7 +876,7 @@
         {
           "id": "ro-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Scrie o sută",
+          "promptTts": "100. Ascultă, cuvântul este Scrie o sută.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -887,7 +887,7 @@
         {
           "id": "ro-msn-l12-04",
           "prompt": "90 − 10 = ?",
-          "promptTts": "Cât fac nouăzeci scăzut zece?",
+          "promptTts": "Cât fac nouăzeci scăzut zece? Alege numărul potrivit.",
           "choices": [
             "79",
             "80",
@@ -899,7 +899,7 @@
         {
           "id": "ro-msn-l12-05",
           "prompt": "60 + 7 = ?",
-          "promptTts": "Cât fac șaizeci plus șapte?",
+          "promptTts": "Cât fac șaizeci plus șapte? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "67"
@@ -919,7 +919,7 @@
         {
           "id": "ro-msn-l13-01",
           "prompt": "Este viu?",
-          "promptTts": "Este viu?",
+          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
           "choices": [
             "da",
             "nu"
@@ -931,7 +931,7 @@
         {
           "id": "ro-msn-l13-02",
           "prompt": "Este viu?",
-          "promptTts": "Este viu?",
+          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
           "choices": [
             "da",
             "nu"
@@ -943,7 +943,7 @@
         {
           "id": "ro-msn-l13-03",
           "prompt": "Este viu?",
-          "promptTts": "Este viu?",
+          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
           "choices": [
             "da",
             "nu"
@@ -955,7 +955,7 @@
         {
           "id": "ro-msn-l13-04",
           "prompt": "Este viu?",
-          "promptTts": "Este viu?",
+          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
           "choices": [
             "da",
             "nu"
@@ -967,7 +967,7 @@
         {
           "id": "ro-msn-l13-05",
           "prompt": "Scrie da sau nu: 🐱",
-          "promptTts": "Este viu?",
+          "promptTts": "Scrie da sau nu: 🐱. Ascultă, cuvântul este Este viu.",
           "answerMode": "type",
           "acceptedAnswers": [
             "da"
@@ -988,7 +988,7 @@
         {
           "id": "ro-msn-l14-01",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Plantă sau animal?",
+          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
           "choices": [
             "plantă",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "ro-msn-l14-02",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Plantă sau animal?",
+          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
           "choices": [
             "plantă",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "ro-msn-l14-03",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Plantă sau animal?",
+          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
           "choices": [
             "plantă",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "ro-msn-l14-04",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Plantă sau animal?",
+          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
           "choices": [
             "plantă",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "ro-msn-l14-05",
           "prompt": "Scrie: plantă sau animal — 🌼",
-          "promptTts": "Plantă sau animal?",
+          "promptTts": "Scrie: plantă sau animal — 🌼. Ascultă, cuvântul este Plantă sau animal.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plantă"
@@ -1057,7 +1057,7 @@
         {
           "id": "ro-msn-l15-01",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ce anotimp?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
           "choices": [
             "vară",
             "iarnă",
@@ -1070,7 +1070,7 @@
         {
           "id": "ro-msn-l15-02",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ce anotimp?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
           "choices": [
             "iarnă",
             "primăvară",
@@ -1083,7 +1083,7 @@
         {
           "id": "ro-msn-l15-03",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ce anotimp?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
           "choices": [
             "primăvară",
             "toamnă",
@@ -1096,7 +1096,7 @@
         {
           "id": "ro-msn-l15-04",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ce anotimp?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
           "choices": [
             "toamnă",
             "vară",
@@ -1109,7 +1109,7 @@
         {
           "id": "ro-msn-l15-05",
           "prompt": "Scrie: iarnă",
-          "promptTts": "Scrie iarnă",
+          "promptTts": "Te rog, scrie cuvântul iarnă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "iarnă"
@@ -1130,7 +1130,7 @@
         {
           "id": "ro-msn-l16-01",
           "prompt": "Ce simț?",
-          "promptTts": "Ce simț?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
           "choices": [
             "văd",
             "aud",
@@ -1143,7 +1143,7 @@
         {
           "id": "ro-msn-l16-02",
           "prompt": "Ce simț?",
-          "promptTts": "Ce simț?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
           "choices": [
             "aud",
             "miros",
@@ -1156,7 +1156,7 @@
         {
           "id": "ro-msn-l16-03",
           "prompt": "Ce simț?",
-          "promptTts": "Ce simț?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
           "choices": [
             "miros",
             "gust",
@@ -1169,7 +1169,7 @@
         {
           "id": "ro-msn-l16-04",
           "prompt": "Ce simț?",
-          "promptTts": "Ce simț?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
           "choices": [
             "gust",
             "văd",
@@ -1182,7 +1182,7 @@
         {
           "id": "ro-msn-l16-05",
           "prompt": "Scrie: văd",
-          "promptTts": "Scrie văd",
+          "promptTts": "Te rog, scrie cuvântul văd.",
           "answerMode": "type",
           "acceptedAnswers": [
             "văd"
@@ -1202,7 +1202,7 @@
         {
           "id": "ro-msn-l17-01",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Apă, gheață sau abur?",
+          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
           "choices": [
             "apă",
             "gheață",
@@ -1215,7 +1215,7 @@
         {
           "id": "ro-msn-l17-02",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Apă, gheață sau abur?",
+          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
           "choices": [
             "apă",
             "gheață",
@@ -1228,7 +1228,7 @@
         {
           "id": "ro-msn-l17-03",
           "prompt": "Apă, gheață sau abur?",
-          "promptTts": "Apă, gheață sau abur?",
+          "promptTts": "Ascultă bine acest cuvânt: Apă, gheață sau abur.",
           "choices": [
             "apă",
             "gheață",
@@ -1241,7 +1241,7 @@
         {
           "id": "ro-msn-l17-04",
           "prompt": "Scrie: apă",
-          "promptTts": "Scrie apă",
+          "promptTts": "Te rog, scrie cuvântul apă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apă"
@@ -1253,7 +1253,7 @@
         {
           "id": "ro-msn-l17-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "Cât fac doi plus trei?",
+          "promptTts": "Cât fac doi plus trei? Alege numărul potrivit.",
           "choices": [
             "4",
             "5",
@@ -1274,7 +1274,7 @@
         {
           "id": "ro-msn-l18-01",
           "prompt": "Ce formă?",
-          "promptTts": "Ce formă?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
           "choices": [
             "cerc",
             "pătrat",
@@ -1287,7 +1287,7 @@
         {
           "id": "ro-msn-l18-02",
           "prompt": "Ce formă?",
-          "promptTts": "Ce formă?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
           "choices": [
             "pătrat",
             "triunghi",
@@ -1300,7 +1300,7 @@
         {
           "id": "ro-msn-l18-03",
           "prompt": "Ce formă?",
-          "promptTts": "Ce formă?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
           "choices": [
             "triunghi",
             "dreptunghi",
@@ -1313,7 +1313,7 @@
         {
           "id": "ro-msn-l18-04",
           "prompt": "Ce formă?",
-          "promptTts": "Ce formă?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
           "choices": [
             "dreptunghi",
             "cerc",
@@ -1326,7 +1326,7 @@
         {
           "id": "ro-msn-l18-05",
           "prompt": "Scrie: cerc",
-          "promptTts": "Scrie cerc",
+          "promptTts": "Te rog, scrie cuvântul cerc.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cerc"
@@ -1347,7 +1347,7 @@
         {
           "id": "ro-msn-l19-01",
           "prompt": "Ce e mai lung?",
-          "promptTts": "Ce e mai lung?",
+          "promptTts": "Ascultă bine acest cuvânt: Ce e mai lung.",
           "choices": [
             "—",
             "-"
@@ -1369,7 +1369,7 @@
         {
           "id": "ro-msn-l19-03",
           "prompt": "10 + 10 = ?",
-          "promptTts": "Cât fac zece plus zece?",
+          "promptTts": "Cât fac zece plus zece? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "20"
@@ -1392,7 +1392,7 @@
         {
           "id": "ro-msn-l19-05",
           "prompt": "8 − 3 = ?",
-          "promptTts": "Cât fac opt scăzut trei?",
+          "promptTts": "Cât fac opt scăzut trei? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -1412,7 +1412,7 @@
         {
           "id": "ro-msn-l20-01",
           "prompt": "9 + 8 = ?",
-          "promptTts": "Cât fac nouă plus opt?",
+          "promptTts": "Cât fac nouă plus opt? Alege numărul potrivit.",
           "choices": [
             "16",
             "17",
@@ -1424,7 +1424,7 @@
         {
           "id": "ro-msn-l20-02",
           "prompt": "16 − 7 = ?",
-          "promptTts": "Cât fac șaisprezece scăzut șapte?",
+          "promptTts": "Cât fac șaisprezece scăzut șapte? Alege numărul potrivit.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -1435,7 +1435,7 @@
         {
           "id": "ro-msn-l20-03",
           "prompt": "Este viu?",
-          "promptTts": "Este viu?",
+          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
           "choices": [
             "da",
             "nu"
@@ -1447,7 +1447,7 @@
         {
           "id": "ro-msn-l20-04",
           "prompt": "Scrie: cerc",
-          "promptTts": "Scrie cerc",
+          "promptTts": "Te rog, scrie cuvântul cerc.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cerc"
@@ -1458,7 +1458,7 @@
         {
           "id": "ro-msn-l20-05",
           "prompt": "Câte sunt?",
-          "promptTts": "Câte stele vezi?",
+          "promptTts": "Câte stele vezi? Numără-le cu grijă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"

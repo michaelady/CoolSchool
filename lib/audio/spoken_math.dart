@@ -201,13 +201,48 @@ class SpokenMath {
 
   /// Prefer packed [promptTts] when it is already natural language.
   /// Rewrite leftover digits and operators so French is never "2 + 3".
+  /// Bare "deux plus trois" becomes a short kid question.
   static String prepare(String text, String locale) {
+    final lang = AppLocales.normalize(locale);
     final trimmed = text.trim();
     if (trimmed.isEmpty) return trimmed;
     if (!RegExp(r'\d').hasMatch(trimmed) && !_hasBareOperator(trimmed)) {
+      return _asSpokenMathPrompt(trimmed, lang);
+    }
+    return _asSpokenMathPrompt(_rewrite(trimmed, lang), lang);
+  }
+
+  static bool _alreadyAsked(String text) {
+    final lower = text.toLowerCase();
+    return lower.contains('?') ||
+        lower.startsWith('combien') ||
+        lower.startsWith('was ist') ||
+        lower.startsWith('what is') ||
+        lower.startsWith('cât fac') ||
+        lower.startsWith('cat fac') ||
+        lower.startsWith('wie viel') ||
+        lower.startsWith('how many');
+  }
+
+  static bool _looksLikeBareMath(String text) {
+    return RegExp(
+      r'\b(plus|moins|minus|scăzut|scazut|mal|fois|times|ori)\b',
+      caseSensitive: false,
+    ).hasMatch(text);
+  }
+
+  /// Wrap leftover "zwei plus drei" so Lire is a full prompt, not two words.
+  static String _asSpokenMathPrompt(String text, String lang) {
+    final trimmed = text.trim();
+    if (trimmed.isEmpty || _alreadyAsked(trimmed) || !_looksLikeBareMath(trimmed)) {
       return trimmed;
     }
-    return _rewrite(trimmed, AppLocales.normalize(locale));
+    return switch (lang) {
+      'fr' => 'Combien font $trimmed ? Choisis le bon nombre.',
+      'en' => 'What is $trimmed? Choose the right number.',
+      'ro' => 'Cât fac $trimmed? Alege numărul potrivit.',
+      _ => 'Was ist $trimmed? Wähle die richtige Zahl.',
+    };
   }
 
   static bool _hasBareOperator(String text) {

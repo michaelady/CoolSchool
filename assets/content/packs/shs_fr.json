@@ -23,7 +23,7 @@
         {
           "id": "fr-shs-l1-01",
           "prompt": "Qui est-ce ?",
-          "promptTts": "maman",
+          "promptTts": "Qui est-ce ? Écoute : maman.",
           "choices": [
             "maman",
             "école",
@@ -36,7 +36,7 @@
         {
           "id": "fr-shs-l1-02",
           "prompt": "Qui est-ce ?",
-          "promptTts": "papa",
+          "promptTts": "Qui est-ce ? Écoute : papa.",
           "choices": [
             "papa",
             "parc",
@@ -49,7 +49,7 @@
         {
           "id": "fr-shs-l1-03",
           "prompt": "Famille : qui manque ?",
-          "promptTts": "moi",
+          "promptTts": "Famille : qui manque ? Écoute : moi.",
           "choices": [
             "moi",
             "Suisse",
@@ -62,7 +62,7 @@
         {
           "id": "fr-shs-l1-04",
           "prompt": "Écris : maman",
-          "promptTts": "Écris maman",
+          "promptTts": "Écris le mot maman, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "maman"
@@ -94,7 +94,7 @@
         {
           "id": "fr-shs-l2-01",
           "prompt": "Où dort-on ?",
-          "promptTts": "dans le lit",
+          "promptTts": "Où dort-on ? Écoute : dans le lit.",
           "choices": [
             "maison",
             "école",
@@ -107,7 +107,7 @@
         {
           "id": "fr-shs-l2-02",
           "prompt": "Où cuisine-t-on ?",
-          "promptTts": "dans la cuisine",
+          "promptTts": "Où cuisine-t-on ? Écoute : dans la cuisine.",
           "choices": [
             "cuisine",
             "école",
@@ -120,7 +120,7 @@
         {
           "id": "fr-shs-l2-03",
           "prompt": "Écris : maison",
-          "promptTts": "Écris maison",
+          "promptTts": "Écris le mot maison, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "maison"
@@ -132,7 +132,7 @@
         {
           "id": "fr-shs-l2-04",
           "prompt": "Porte ou fenêtre ?",
-          "promptTts": "fenêtre",
+          "promptTts": "Porte ou fenêtre ? Écoute : fenêtre.",
           "choices": [
             "fenêtre",
             "porte"
@@ -144,7 +144,7 @@
         {
           "id": "fr-shs-l2-05",
           "prompt": "Où habitons-nous ?",
-          "promptTts": "maison",
+          "promptTts": "Où habitons-nous ? Écoute : maison.",
           "choices": [
             "maison",
             "train",
@@ -166,7 +166,7 @@
         {
           "id": "fr-shs-l3-01",
           "prompt": "Où est-ce ?",
-          "promptTts": "école",
+          "promptTts": "Où est-ce ? Écoute : école.",
           "choices": [
             "école",
             "maison",
@@ -179,7 +179,7 @@
         {
           "id": "fr-shs-l3-02",
           "prompt": "Qui enseigne ?",
-          "promptTts": "enseignante",
+          "promptTts": "Qui enseigne ? Écoute : enseignante.",
           "choices": [
             "enseignante",
             "boulanger",
@@ -192,7 +192,7 @@
         {
           "id": "fr-shs-l3-03",
           "prompt": "Écris : école",
-          "promptTts": "Écris école",
+          "promptTts": "Écris le mot école, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "école"
@@ -204,7 +204,7 @@
         {
           "id": "fr-shs-l3-04",
           "prompt": "De quoi a-t-on besoin à l’école ?",
-          "promptTts": "crayon",
+          "promptTts": "De quoi a-t-on besoin à l’école ? Écoute : crayon.",
           "choices": [
             "crayon",
             "vélo",
@@ -217,7 +217,7 @@
         {
           "id": "fr-shs-l3-05",
           "prompt": "Récré : où jouer ?",
-          "promptTts": "parc",
+          "promptTts": "Récré : où jouer ? Écoute : parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -239,7 +239,7 @@
         {
           "id": "fr-shs-l4-01",
           "prompt": "Quel jour commence souvent la semaine d’école ?",
-          "promptTts": "lundi",
+          "promptTts": "Quel jour commence souvent la semaine d’école ? Écoute : lundi.",
           "choices": [
             "lundi",
             "hier",
@@ -251,7 +251,7 @@
         {
           "id": "fr-shs-l4-02",
           "prompt": "Aujourd’hui ou hier ?",
-          "promptTts": "aujourd’hui",
+          "promptTts": "Aujourd’hui ou hier ? Écoute : aujourd’hui.",
           "choices": [
             "aujourd’hui",
             "hier"
@@ -262,7 +262,7 @@
         {
           "id": "fr-shs-l4-03",
           "prompt": "Écris : aujourd’hui",
-          "promptTts": "Écris aujourd’hui",
+          "promptTts": "Écris le mot aujourd’hui, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "aujourd’hui"
@@ -273,7 +273,7 @@
         {
           "id": "fr-shs-l4-04",
           "prompt": "Qu’est-ce qui était avant ?",
-          "promptTts": "hier",
+          "promptTts": "Qu’est-ce qui était avant ? Écoute : hier.",
           "choices": [
             "hier",
             "aujourd’hui"
@@ -305,7 +305,7 @@
         {
           "id": "fr-shs-l5-01",
           "prompt": "Saison ?",
-          "promptTts": "été",
+          "promptTts": "Écoute bien ce mot : Saison ? Écoute : été.",
           "choices": [
             "été",
             "pluie",
@@ -318,7 +318,7 @@
         {
           "id": "fr-shs-l5-02",
           "prompt": "Saison ?",
-          "promptTts": "hiver",
+          "promptTts": "Écoute bien ce mot : Saison ? Écoute : hiver.",
           "choices": [
             "hiver",
             "pluie",
@@ -331,7 +331,7 @@
         {
           "id": "fr-shs-l5-03",
           "prompt": "Saison ?",
-          "promptTts": "printemps",
+          "promptTts": "Écoute bien ce mot : Saison ? Écoute : printemps.",
           "choices": [
             "printemps",
             "pluie",
@@ -344,7 +344,7 @@
         {
           "id": "fr-shs-l5-04",
           "prompt": "Saison ?",
-          "promptTts": "automne",
+          "promptTts": "Écoute bien ce mot : Saison ? Écoute : automne.",
           "choices": [
             "automne",
             "pluie",
@@ -357,7 +357,7 @@
         {
           "id": "fr-shs-l5-05",
           "prompt": "Écris : été",
-          "promptTts": "Écris été",
+          "promptTts": "Écris le mot été, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "été"
@@ -377,7 +377,7 @@
         {
           "id": "fr-shs-l6-01",
           "prompt": "Quel temps ?",
-          "promptTts": "pluie",
+          "promptTts": "Quel temps ? Écoute : pluie.",
           "choices": [
             "pluie",
             "boulanger",
@@ -390,7 +390,7 @@
         {
           "id": "fr-shs-l6-02",
           "prompt": "Quel temps ?",
-          "promptTts": "soleil",
+          "promptTts": "Quel temps ? Écoute : soleil.",
           "choices": [
             "soleil",
             "neige",
@@ -403,7 +403,7 @@
         {
           "id": "fr-shs-l6-03",
           "prompt": "Quel temps ?",
-          "promptTts": "neige",
+          "promptTts": "Quel temps ? Écoute : neige.",
           "choices": [
             "neige",
             "pluie",
@@ -416,7 +416,7 @@
         {
           "id": "fr-shs-l6-04",
           "prompt": "Écris : pluie",
-          "promptTts": "Écris pluie",
+          "promptTts": "Écris le mot pluie, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pluie"
@@ -428,7 +428,7 @@
         {
           "id": "fr-shs-l6-05",
           "prompt": "Faut-il un parapluie ?",
-          "promptTts": "pluie",
+          "promptTts": "Faut-il un parapluie ? Écoute : pluie.",
           "choices": [
             "oui",
             "non"
@@ -449,7 +449,7 @@
         {
           "id": "fr-shs-l7-01",
           "prompt": "Beaucoup de maisons et de bus ?",
-          "promptTts": "ville",
+          "promptTts": "Beaucoup de maisons et de bus ? Écoute : ville.",
           "choices": [
             "ville",
             "village"
@@ -461,7 +461,7 @@
         {
           "id": "fr-shs-l7-02",
           "prompt": "Peu de maisons, des champs ?",
-          "promptTts": "village",
+          "promptTts": "Peu de maisons, des champs ? Écoute : village.",
           "choices": [
             "village",
             "ville"
@@ -473,7 +473,7 @@
         {
           "id": "fr-shs-l7-03",
           "prompt": "Écris : ville",
-          "promptTts": "Écris ville",
+          "promptTts": "Écris le mot ville, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ville"
@@ -484,7 +484,7 @@
         {
           "id": "fr-shs-l7-04",
           "prompt": "Où est-ce ?",
-          "promptTts": "magasin",
+          "promptTts": "Où est-ce ? Écoute : magasin.",
           "choices": [
             "magasin",
             "montagne",
@@ -497,7 +497,7 @@
         {
           "id": "fr-shs-l7-05",
           "prompt": "Où est-ce ?",
-          "promptTts": "parc",
+          "promptTts": "Où est-ce ? Écoute : parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -519,7 +519,7 @@
         {
           "id": "fr-shs-l8-01",
           "prompt": "Qu’est-ce que c’est sur la carte ?",
-          "promptTts": "montagne",
+          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute : montagne.",
           "choices": [
             "montagne",
             "magasin",
@@ -532,7 +532,7 @@
         {
           "id": "fr-shs-l8-02",
           "prompt": "Qu’est-ce que c’est sur la carte ?",
-          "promptTts": "lac",
+          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute : lac.",
           "choices": [
             "lac",
             "bus",
@@ -545,7 +545,7 @@
         {
           "id": "fr-shs-l8-03",
           "prompt": "Qu’est-ce qui coule ?",
-          "promptTts": "rivière",
+          "promptTts": "Qu’est-ce qui coule ? Écoute : rivière.",
           "choices": [
             "rivière",
             "maison",
@@ -558,7 +558,7 @@
         {
           "id": "fr-shs-l8-04",
           "prompt": "Écris : lac",
-          "promptTts": "Écris lac",
+          "promptTts": "Écris le mot lac, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lac"
@@ -569,7 +569,7 @@
         {
           "id": "fr-shs-l8-05",
           "prompt": "Les Alpes sont…",
-          "promptTts": "montagne",
+          "promptTts": "Les Alpes sont… Écoute, le mot est montagne.",
           "choices": [
             "montagne",
             "magasin",
@@ -603,7 +603,7 @@
         {
           "id": "fr-shs-l9-02",
           "prompt": "Pays ?",
-          "promptTts": "Suisse",
+          "promptTts": "Écoute bien ce mot : Pays ? Écoute : Suisse.",
           "choices": [
             "Suisse",
             "France",
@@ -616,7 +616,7 @@
         {
           "id": "fr-shs-l9-03",
           "prompt": "Écris : Suisse",
-          "promptTts": "Écris Suisse",
+          "promptTts": "Écris le mot Suisse, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Suisse"
@@ -628,7 +628,7 @@
         {
           "id": "fr-shs-l9-04",
           "prompt": "Capitale (simple) : Berne ?",
-          "promptTts": "oui",
+          "promptTts": "Capitale (simple) : Berne ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -639,7 +639,7 @@
         {
           "id": "fr-shs-l9-05",
           "prompt": "Y a-t-il des montagnes en Suisse ?",
-          "promptTts": "oui",
+          "promptTts": "Y a-t-il des montagnes en Suisse ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -660,7 +660,7 @@
         {
           "id": "fr-shs-l10-01",
           "prompt": "Où est-ce ?",
-          "promptTts": "école",
+          "promptTts": "Où est-ce ? Écoute : école.",
           "choices": [
             "école",
             "lac",
@@ -673,7 +673,7 @@
         {
           "id": "fr-shs-l10-02",
           "prompt": "Où est-ce ?",
-          "promptTts": "magasin",
+          "promptTts": "Où est-ce ? Écoute : magasin.",
           "choices": [
             "magasin",
             "rivière",
@@ -686,7 +686,7 @@
         {
           "id": "fr-shs-l10-03",
           "prompt": "Où est-ce ?",
-          "promptTts": "parc",
+          "promptTts": "Où est-ce ? Écoute : parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -699,7 +699,7 @@
         {
           "id": "fr-shs-l10-04",
           "prompt": "Écris : parc",
-          "promptTts": "Écris parc",
+          "promptTts": "Écris le mot parc, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "parc"
@@ -711,7 +711,7 @@
         {
           "id": "fr-shs-l10-05",
           "prompt": "Où achète-t-on du pain ?",
-          "promptTts": "magasin",
+          "promptTts": "Où achète-t-on du pain ? Écoute : magasin.",
           "choices": [
             "magasin",
             "lac",
@@ -733,7 +733,7 @@
         {
           "id": "fr-shs-l11-01",
           "prompt": "Qui fait le pain ?",
-          "promptTts": "boulanger",
+          "promptTts": "Qui fait le pain ? Écoute : boulanger.",
           "choices": [
             "boulanger",
             "docteure",
@@ -746,7 +746,7 @@
         {
           "id": "fr-shs-l11-02",
           "prompt": "Qui aide si on est malade ?",
-          "promptTts": "docteure",
+          "promptTts": "Qui aide si on est malade ? Écoute : docteure.",
           "choices": [
             "docteure",
             "boulanger",
@@ -759,7 +759,7 @@
         {
           "id": "fr-shs-l11-03",
           "prompt": "Qui enseigne ?",
-          "promptTts": "enseignante",
+          "promptTts": "Qui enseigne ? Écoute : enseignante.",
           "choices": [
             "enseignante",
             "vélo",
@@ -772,7 +772,7 @@
         {
           "id": "fr-shs-l11-04",
           "prompt": "Écris : boulanger",
-          "promptTts": "Écris boulanger",
+          "promptTts": "Écris le mot boulanger, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "boulanger"
@@ -783,7 +783,7 @@
         {
           "id": "fr-shs-l11-05",
           "prompt": "L’enseignante aide-t-elle à l’école ?",
-          "promptTts": "oui",
+          "promptTts": "L’enseignante aide-t-elle à l’école ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -803,7 +803,7 @@
         {
           "id": "fr-shs-l12-01",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "partager",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute : partager.",
           "choices": [
             "partager",
             "frapper"
@@ -814,7 +814,7 @@
         {
           "id": "fr-shs-l12-02",
           "prompt": "A-t-on le droit de frapper ?",
-          "promptTts": "non",
+          "promptTts": "A-t-on le droit de frapper ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -825,7 +825,7 @@
         {
           "id": "fr-shs-l12-03",
           "prompt": "Écris : partager",
-          "promptTts": "Écris partager",
+          "promptTts": "Écris le mot partager, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "partager"
@@ -836,7 +836,7 @@
         {
           "id": "fr-shs-l12-04",
           "prompt": "Attendre son tour ?",
-          "promptTts": "oui",
+          "promptTts": "Attendre son tour ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -847,7 +847,7 @@
         {
           "id": "fr-shs-l12-05",
           "prompt": "Est-ce qu’on s’entraide ?",
-          "promptTts": "oui",
+          "promptTts": "Est-ce qu’on s’entraide ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -867,7 +867,7 @@
         {
           "id": "fr-shs-l13-01",
           "prompt": "Lumière autrefois ?",
-          "promptTts": "bougie",
+          "promptTts": "Lumière autrefois ? Écoute : bougie.",
           "choices": [
             "bougie",
             "lampe"
@@ -879,7 +879,7 @@
         {
           "id": "fr-shs-l13-02",
           "prompt": "Lumière aujourd’hui ?",
-          "promptTts": "lampe",
+          "promptTts": "Lumière aujourd’hui ? Écoute : lampe.",
           "choices": [
             "lampe",
             "bougie"
@@ -891,7 +891,7 @@
         {
           "id": "fr-shs-l13-03",
           "prompt": "Écris : hier",
-          "promptTts": "Écris hier",
+          "promptTts": "Écris le mot hier, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "hier"
@@ -902,7 +902,7 @@
         {
           "id": "fr-shs-l13-04",
           "prompt": "Cheval ou voiture autrefois ?",
-          "promptTts": "cheval",
+          "promptTts": "Cheval ou voiture autrefois ? Écoute : cheval.",
           "choices": [
             "cheval",
             "voiture"
@@ -914,7 +914,7 @@
         {
           "id": "fr-shs-l13-05",
           "prompt": "Aujourd’hui souvent la voiture ?",
-          "promptTts": "oui",
+          "promptTts": "Aujourd’hui souvent la voiture ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -935,7 +935,7 @@
         {
           "id": "fr-shs-l14-01",
           "prompt": "Quel véhicule ?",
-          "promptTts": "vélo",
+          "promptTts": "Quel véhicule ? Écoute : vélo.",
           "choices": [
             "vélo",
             "lac",
@@ -948,7 +948,7 @@
         {
           "id": "fr-shs-l14-02",
           "prompt": "Quel véhicule ?",
-          "promptTts": "bus",
+          "promptTts": "Quel véhicule ? Écoute : bus.",
           "choices": [
             "bus",
             "boulanger",
@@ -961,7 +961,7 @@
         {
           "id": "fr-shs-l14-03",
           "prompt": "Quel véhicule ?",
-          "promptTts": "train",
+          "promptTts": "Quel véhicule ? Écoute : train.",
           "choices": [
             "train",
             "parc",
@@ -974,7 +974,7 @@
         {
           "id": "fr-shs-l14-04",
           "prompt": "Écris : bus",
-          "promptTts": "Écris bus",
+          "promptTts": "Écris le mot bus, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bus"
@@ -986,7 +986,7 @@
         {
           "id": "fr-shs-l14-05",
           "prompt": "Casque à vélo ?",
-          "promptTts": "oui",
+          "promptTts": "Casque à vélo ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1006,7 +1006,7 @@
         {
           "id": "fr-shs-l15-01",
           "prompt": "Pays voisin ?",
-          "promptTts": "France",
+          "promptTts": "Pays voisin ? Écoute : France.",
           "choices": [
             "France",
             "boulanger",
@@ -1019,7 +1019,7 @@
         {
           "id": "fr-shs-l15-02",
           "prompt": "L’Allemagne est-elle voisine de la Suisse ?",
-          "promptTts": "oui",
+          "promptTts": "L’Allemagne est-elle voisine de la Suisse ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1031,7 +1031,7 @@
         {
           "id": "fr-shs-l15-03",
           "prompt": "Écris : France",
-          "promptTts": "Écris France",
+          "promptTts": "Écris le mot France, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "France"
@@ -1042,7 +1042,7 @@
         {
           "id": "fr-shs-l15-04",
           "prompt": "L’Italie est voisine ?",
-          "promptTts": "oui",
+          "promptTts": "L’Italie est voisine ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1054,7 +1054,7 @@
         {
           "id": "fr-shs-l15-05",
           "prompt": "Dire bonjour est gentil ?",
-          "promptTts": "oui",
+          "promptTts": "Dire bonjour est gentil ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1074,7 +1074,7 @@
         {
           "id": "fr-shs-l16-01",
           "prompt": "Qu’est-ce qui vient de la vache ?",
-          "promptTts": "lait",
+          "promptTts": "Qu’est-ce qui vient de la vache ? Écoute : lait.",
           "choices": [
             "lait",
             "bus",
@@ -1087,7 +1087,7 @@
         {
           "id": "fr-shs-l16-02",
           "prompt": "Où poussent les pommes ?",
-          "promptTts": "arbre",
+          "promptTts": "Où poussent les pommes ? Écoute : arbre.",
           "choices": [
             "arbre",
             "train",
@@ -1100,7 +1100,7 @@
         {
           "id": "fr-shs-l16-03",
           "prompt": "Écris : lait",
-          "promptTts": "Écris lait",
+          "promptTts": "Écris le mot lait, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lait"
@@ -1112,7 +1112,7 @@
         {
           "id": "fr-shs-l16-04",
           "prompt": "Légumes du champ ?",
-          "promptTts": "oui",
+          "promptTts": "Légumes du champ ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1124,7 +1124,7 @@
         {
           "id": "fr-shs-l16-05",
           "prompt": "Pain du boulanger ?",
-          "promptTts": "oui",
+          "promptTts": "Pain du boulanger ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1145,7 +1145,7 @@
         {
           "id": "fr-shs-l17-01",
           "prompt": "Que faire du papier ?",
-          "promptTts": "recycler",
+          "promptTts": "Que faire du papier ? Écoute : recycler.",
           "choices": [
             "recycler",
             "frapper"
@@ -1157,7 +1157,7 @@
         {
           "id": "fr-shs-l17-02",
           "prompt": "Déchets dans le lac ?",
-          "promptTts": "non",
+          "promptTts": "Déchets dans le lac ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1168,7 +1168,7 @@
         {
           "id": "fr-shs-l17-03",
           "prompt": "Écris : recycler",
-          "promptTts": "Écris recycler",
+          "promptTts": "Écris le mot recycler, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "recycler"
@@ -1180,7 +1180,7 @@
         {
           "id": "fr-shs-l17-04",
           "prompt": "Protéger les arbres ?",
-          "promptTts": "oui",
+          "promptTts": "Protéger les arbres ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1192,7 +1192,7 @@
         {
           "id": "fr-shs-l17-05",
           "prompt": "Où mettre les déchets ?",
-          "promptTts": "déchets",
+          "promptTts": "Où mettre les déchets ? Écoute : déchets.",
           "choices": [
             "poubelle",
             "lac",
@@ -1213,7 +1213,7 @@
         {
           "id": "fr-shs-l18-01",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "aider",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute : aider.",
           "choices": [
             "aider",
             "frapper"
@@ -1224,7 +1224,7 @@
         {
           "id": "fr-shs-l18-02",
           "prompt": "Aider quelqu’un qui porte ?",
-          "promptTts": "oui",
+          "promptTts": "Aider quelqu’un qui porte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1235,7 +1235,7 @@
         {
           "id": "fr-shs-l18-03",
           "prompt": "Écris : aider",
-          "promptTts": "Écris aider",
+          "promptTts": "Écris le mot aider, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "aider"
@@ -1246,7 +1246,7 @@
         {
           "id": "fr-shs-l18-04",
           "prompt": "Dire merci ?",
-          "promptTts": "oui",
+          "promptTts": "Dire merci ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1257,7 +1257,7 @@
         {
           "id": "fr-shs-l18-05",
           "prompt": "Partager au jeu ?",
-          "promptTts": "oui",
+          "promptTts": "Partager au jeu ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1277,7 +1277,7 @@
         {
           "id": "fr-shs-l19-01",
           "prompt": "Ma commune a une école ?",
-          "promptTts": "oui",
+          "promptTts": "Ma commune a une école ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1289,7 +1289,7 @@
         {
           "id": "fr-shs-l19-02",
           "prompt": "Y a-t-il souvent une place ?",
-          "promptTts": "oui",
+          "promptTts": "Y a-t-il souvent une place ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1300,7 +1300,7 @@
         {
           "id": "fr-shs-l19-03",
           "prompt": "Écris : commune",
-          "promptTts": "Écris commune",
+          "promptTts": "Écris le mot commune, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "commune"
@@ -1311,7 +1311,7 @@
         {
           "id": "fr-shs-l19-04",
           "prompt": "Où est-ce ?",
-          "promptTts": "parc",
+          "promptTts": "Où est-ce ? Écoute : parc.",
           "choices": [
             "parc",
             "France",
@@ -1324,7 +1324,7 @@
         {
           "id": "fr-shs-l19-05",
           "prompt": "La bibliothèque prête des livres ?",
-          "promptTts": "oui",
+          "promptTts": "La bibliothèque prête des livres ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1357,7 +1357,7 @@
         {
           "id": "fr-shs-l20-02",
           "prompt": "Écris : partager",
-          "promptTts": "Écris partager",
+          "promptTts": "Écris le mot partager, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "partager"
@@ -1368,7 +1368,7 @@
         {
           "id": "fr-shs-l20-03",
           "prompt": "Quel temps ?",
-          "promptTts": "pluie",
+          "promptTts": "Quel temps ? Écoute : pluie.",
           "choices": [
             "pluie",
             "boulanger",
@@ -1381,7 +1381,7 @@
         {
           "id": "fr-shs-l20-04",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "aider",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute : aider.",
           "choices": [
             "aider",
             "frapper"
@@ -1392,7 +1392,7 @@
         {
           "id": "fr-shs-l20-05",
           "prompt": "Écris : Suisse",
-          "promptTts": "Écris Suisse",
+          "promptTts": "Écris le mot Suisse, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Suisse"

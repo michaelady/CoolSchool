@@ -23,7 +23,7 @@
         {
           "id": "de-num-l1-01",
           "prompt": "Welches Gerät?",
-          "promptTts": "Computer",
+          "promptTts": "Welches Gerät? Hör zu: Computer.",
           "choices": [
             "Computer",
             "Ball",
@@ -36,7 +36,7 @@
         {
           "id": "de-num-l1-02",
           "prompt": "Welches Gerät?",
-          "promptTts": "Tablet",
+          "promptTts": "Welches Gerät? Hör zu: Tablet.",
           "choices": [
             "Tablet",
             "Stift",
@@ -49,7 +49,7 @@
         {
           "id": "de-num-l1-03",
           "prompt": "Welches Gerät?",
-          "promptTts": "Handy",
+          "promptTts": "Welches Gerät? Hör zu: Handy.",
           "choices": [
             "Handy",
             "Löffel",
@@ -62,7 +62,7 @@
         {
           "id": "de-num-l1-04",
           "prompt": "Schreib: Tablet",
-          "promptTts": "Schreib Tablet",
+          "promptTts": "Schreib bitte das Wort Tablet.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Tablet"
@@ -74,7 +74,7 @@
         {
           "id": "de-num-l1-05",
           "prompt": "Ist ein Computer eine Maschine?",
-          "promptTts": "ja",
+          "promptTts": "Ist ein Computer eine Maschine? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -94,7 +94,7 @@
         {
           "id": "de-num-l2-01",
           "prompt": "Womit zeigt man auf dem Computer?",
-          "promptTts": "Maus",
+          "promptTts": "Womit zeigt man auf dem Computer? Hör zu: Maus.",
           "choices": [
             "Maus",
             "Passwort",
@@ -107,7 +107,7 @@
         {
           "id": "de-num-l2-02",
           "prompt": "Womit schreibt man Buchstaben?",
-          "promptTts": "Tastatur",
+          "promptTts": "Womit schreibt man Buchstaben? Hör zu: Tastatur.",
           "choices": [
             "Tastatur",
             "Spielzeug",
@@ -120,7 +120,7 @@
         {
           "id": "de-num-l2-03",
           "prompt": "Wo sieht man das Bild?",
-          "promptTts": "Bildschirm",
+          "promptTts": "Wo sieht man das Bild? Hör zu: Bildschirm.",
           "choices": [
             "Bildschirm",
             "Maus",
@@ -133,7 +133,7 @@
         {
           "id": "de-num-l2-04",
           "prompt": "Schreib: Maus",
-          "promptTts": "Schreib Maus",
+          "promptTts": "Schreib bitte das Wort Maus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Maus"
@@ -145,7 +145,7 @@
         {
           "id": "de-num-l2-05",
           "prompt": "Hat eine Tastatur Tasten?",
-          "promptTts": "ja",
+          "promptTts": "Hat eine Tastatur Tasten? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -165,7 +165,7 @@
         {
           "id": "de-num-l3-01",
           "prompt": "Maus-Taste drücken heisst oft…",
-          "promptTts": "klicken",
+          "promptTts": "Maus-Taste drücken heisst oft… Hör zu, das Wort ist klicken.",
           "choices": [
             "klicken",
             "schlafen",
@@ -177,7 +177,7 @@
         {
           "id": "de-num-l3-02",
           "prompt": "Buchstaben eingeben heisst…",
-          "promptTts": "tippen",
+          "promptTts": "Buchstaben eingeben heisst… Hör zu, das Wort ist tippen.",
           "choices": [
             "tippen",
             "rennen",
@@ -189,7 +189,7 @@
         {
           "id": "de-num-l3-03",
           "prompt": "Schreib: klicken",
-          "promptTts": "Schreib klicken",
+          "promptTts": "Schreib bitte das Wort klicken.",
           "answerMode": "type",
           "acceptedAnswers": [
             "klicken"
@@ -200,7 +200,7 @@
         {
           "id": "de-num-l3-04",
           "prompt": "Auf einem Tablet tippt man mit dem Finger?",
-          "promptTts": "ja",
+          "promptTts": "Auf einem Tablet tippt man mit dem Finger? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -211,7 +211,7 @@
         {
           "id": "de-num-l3-05",
           "prompt": "Schreib das Wort: ja",
-          "promptTts": "Schreib ja",
+          "promptTts": "Schreib das Wort: ja. Hör zu, das Wort ist Schreib ja.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ja"
@@ -231,7 +231,7 @@
         {
           "id": "de-num-l4-01",
           "prompt": "Ein kleines Bild das ein Programm startet?",
-          "promptTts": "Symbol",
+          "promptTts": "Ein kleines Bild das ein Programm startet? Hör zu: Symbol.",
           "choices": [
             "Symbol",
             "Suppe",
@@ -244,7 +244,7 @@
         {
           "id": "de-num-l4-02",
           "prompt": "Ist 🗑️ oft der Papierkorb?",
-          "promptTts": "ja",
+          "promptTts": "Ist 🗑️ oft der Papierkorb? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -255,7 +255,7 @@
         {
           "id": "de-num-l4-03",
           "prompt": "Schreib: Symbol",
-          "promptTts": "Schreib Symbol",
+          "promptTts": "Schreib bitte das Wort Symbol.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Symbol"
@@ -266,7 +266,7 @@
         {
           "id": "de-num-l4-04",
           "prompt": "Kann ein Symbol eine Kamera bedeuten?",
-          "promptTts": "ja",
+          "promptTts": "Kann ein Symbol eine Kamera bedeuten? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -278,7 +278,7 @@
         {
           "id": "de-num-l4-05",
           "prompt": "Sind alle Symbole gleich?",
-          "promptTts": "nein",
+          "promptTts": "Sind alle Symbole gleich? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -298,7 +298,7 @@
         {
           "id": "de-num-l5-01",
           "prompt": "Wo sammeln wir Dateien?",
-          "promptTts": "Ordner",
+          "promptTts": "Wo sammeln wir Dateien? Hör zu: Ordner.",
           "choices": [
             "Ordner",
             "fremd",
@@ -311,7 +311,7 @@
         {
           "id": "de-num-l5-02",
           "prompt": "Ein einzelnes Dokument ist oft eine…",
-          "promptTts": "Datei",
+          "promptTts": "Ein einzelnes Dokument ist oft eine… Hör zu, das Wort ist Datei.",
           "choices": [
             "Datei",
             "Erwachsene",
@@ -324,7 +324,7 @@
         {
           "id": "de-num-l5-03",
           "prompt": "Schreib: Ordner",
-          "promptTts": "Schreib Ordner",
+          "promptTts": "Schreib bitte das Wort Ordner.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Ordner"
@@ -336,7 +336,7 @@
         {
           "id": "de-num-l5-04",
           "prompt": "Kann ein Ordner viele Dateien halten?",
-          "promptTts": "ja",
+          "promptTts": "Kann ein Ordner viele Dateien halten? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -347,7 +347,7 @@
         {
           "id": "de-num-l5-05",
           "prompt": "Gehört jede Datei in den Papierkorb?",
-          "promptTts": "nein",
+          "promptTts": "Gehört jede Datei in den Papierkorb? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -367,7 +367,7 @@
         {
           "id": "de-num-l6-01",
           "prompt": "Was hält ein Konto zu?",
-          "promptTts": "Passwort",
+          "promptTts": "Was hält ein Konto zu? Hör zu: Passwort.",
           "choices": [
             "Passwort",
             "Spielzeug",
@@ -380,7 +380,7 @@
         {
           "id": "de-num-l6-02",
           "prompt": "Ist ein Passwort ein Geheimnis?",
-          "promptTts": "ja",
+          "promptTts": "Ist ein Passwort ein Geheimnis? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -391,7 +391,7 @@
         {
           "id": "de-num-l6-03",
           "prompt": "Schreib: Passwort",
-          "promptTts": "Schreib Passwort",
+          "promptTts": "Schreib bitte das Wort Passwort.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Passwort"
@@ -402,7 +402,7 @@
         {
           "id": "de-num-l6-04",
           "prompt": "Kurzes Passwort wie 1234 ist super sicher?",
-          "promptTts": "nein",
+          "promptTts": "Kurzes Passwort wie 1234 ist super sicher? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -413,7 +413,7 @@
         {
           "id": "de-num-l6-05",
           "prompt": "Ein langes Passwort mit einem Erwachsenen wählen?",
-          "promptTts": "ja",
+          "promptTts": "Ein langes Passwort mit einem Erwachsenen wählen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -433,7 +433,7 @@
         {
           "id": "de-num-l7-01",
           "prompt": "Darf man das Passwort der ganzen Klasse sagen?",
-          "promptTts": "nein",
+          "promptTts": "Darf man das Passwort der ganzen Klasse sagen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -444,7 +444,7 @@
         {
           "id": "de-num-l7-02",
           "prompt": "Passwort ist…",
-          "promptTts": "geheim",
+          "promptTts": "Passwort ist… Hör zu, das Wort ist geheim.",
           "choices": [
             "geheim",
             "Spielzeug",
@@ -456,7 +456,7 @@
         {
           "id": "de-num-l7-03",
           "prompt": "Schreib: geheim",
-          "promptTts": "Schreib geheim",
+          "promptTts": "Schreib bitte das Wort geheim.",
           "answerMode": "type",
           "acceptedAnswers": [
             "geheim"
@@ -467,7 +467,7 @@
         {
           "id": "de-num-l7-04",
           "prompt": "Einer vertrauten erwachsenen Person darf man es sagen wenn man Hilfe braucht?",
-          "promptTts": "ja",
+          "promptTts": "Einer vertrauten erwachsenen Person darf man es sagen wenn man Hilfe braucht? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -478,7 +478,7 @@
         {
           "id": "de-num-l7-05",
           "prompt": "Auf einen Zettel an den Bildschirm kleben?",
-          "promptTts": "nein",
+          "promptTts": "Auf einen Zettel an den Bildschirm kleben? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -498,7 +498,7 @@
         {
           "id": "de-num-l8-01",
           "prompt": "Wen fragen bei einem komischen Fenster?",
-          "promptTts": "Erwachsene",
+          "promptTts": "Wen fragen bei einem komischen Fenster? Hör zu: Erwachsene.",
           "choices": [
             "Erwachsene",
             "fremd",
@@ -511,7 +511,7 @@
         {
           "id": "de-num-l8-02",
           "prompt": "Etwas herunterladen ohne zu fragen?",
-          "promptTts": "nein",
+          "promptTts": "Etwas herunterladen ohne zu fragen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -522,7 +522,7 @@
         {
           "id": "de-num-l8-03",
           "prompt": "Schreib: Erwachsene",
-          "promptTts": "Schreib Erwachsene",
+          "promptTts": "Schreib bitte das Wort Erwachsene.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Erwachsene"
@@ -533,7 +533,7 @@
         {
           "id": "de-num-l8-04",
           "prompt": "Pop-up: zuerst eine erwachsene Person?",
-          "promptTts": "ja",
+          "promptTts": "Pop-up: zuerst eine erwachsene Person? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -544,7 +544,7 @@
         {
           "id": "de-num-l8-05",
           "prompt": "Ein Preis gewonnen klicken ohne zu fragen?",
-          "promptTts": "nein",
+          "promptTts": "Ein Preis gewonnen klicken ohne zu fragen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -564,7 +564,7 @@
         {
           "id": "de-num-l9-01",
           "prompt": "Wie sollen Nachrichten sein?",
-          "promptTts": "lieb",
+          "promptTts": "Wie sollen Nachrichten sein? Hör zu: lieb.",
           "choices": [
             "lieb",
             "gemein"
@@ -576,7 +576,7 @@
         {
           "id": "de-num-l9-02",
           "prompt": "Gemeine Wörter schicken?",
-          "promptTts": "nein",
+          "promptTts": "Gemeine Wörter schicken? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -587,7 +587,7 @@
         {
           "id": "de-num-l9-03",
           "prompt": "Schreib: lieb",
-          "promptTts": "Schreib lieb",
+          "promptTts": "Schreib bitte das Wort lieb.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lieb"
@@ -598,7 +598,7 @@
         {
           "id": "de-num-l9-04",
           "prompt": "Bitte und Danke auch online?",
-          "promptTts": "ja",
+          "promptTts": "Bitte und Danke auch online? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -609,7 +609,7 @@
         {
           "id": "de-num-l9-05",
           "prompt": "Ein Foto von jemand anders weiterleiten ohne zu fragen?",
-          "promptTts": "nein",
+          "promptTts": "Ein Foto von jemand anders weiterleiten ohne zu fragen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -629,7 +629,7 @@
         {
           "id": "de-num-l10-01",
           "prompt": "Jemand Unbekanntes will sich treffen?",
-          "promptTts": "eine erwachsene Person fragen",
+          "promptTts": "Jemand Unbekanntes will sich treffen? Hör zu: eine erwachsene Person fragen.",
           "choices": [
             "sofort allein gehen",
             "eine erwachsene Person fragen"
@@ -640,7 +640,7 @@
         {
           "id": "de-num-l10-02",
           "prompt": "Ist jede Person im Netz ein Freund?",
-          "promptTts": "nein",
+          "promptTts": "Ist jede Person im Netz ein Freund? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -651,7 +651,7 @@
         {
           "id": "de-num-l10-03",
           "prompt": "Schreib: fremd",
-          "promptTts": "Schreib fremd",
+          "promptTts": "Schreib bitte das Wort fremd.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fremd"
@@ -662,7 +662,7 @@
         {
           "id": "de-num-l10-04",
           "prompt": "Adresse oder Schule an Unbekannte geben?",
-          "promptTts": "nein",
+          "promptTts": "Adresse oder Schule an Unbekannte geben? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -673,7 +673,7 @@
         {
           "id": "de-num-l10-05",
           "prompt": "Ein unbekannter Mensch ist oft…",
-          "promptTts": "fremd",
+          "promptTts": "Ein unbekannter Mensch ist oft… Hör zu, das Wort ist fremd.",
           "choices": [
             "fremd",
             "Erwachsene",
@@ -694,7 +694,7 @@
         {
           "id": "de-num-l11-01",
           "prompt": "Lange nur Bildschirm: was tun?",
-          "promptTts": "Pause",
+          "promptTts": "Lange nur Bildschirm: was tun? Hör zu: Pause.",
           "choices": [
             "Pause",
             "Passwort",
@@ -707,7 +707,7 @@
         {
           "id": "de-num-l11-02",
           "prompt": "Augen-Pause ist sinnvoll?",
-          "promptTts": "ja",
+          "promptTts": "Augen-Pause ist sinnvoll? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -718,7 +718,7 @@
         {
           "id": "de-num-l11-03",
           "prompt": "Schreib: Pause",
-          "promptTts": "Schreib Pause",
+          "promptTts": "Schreib bitte das Wort Pause.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Pause"
@@ -729,7 +729,7 @@
         {
           "id": "de-num-l11-04",
           "prompt": "Auch draussen spielen?",
-          "promptTts": "ja",
+          "promptTts": "Auch draussen spielen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -740,7 +740,7 @@
         {
           "id": "de-num-l11-05",
           "prompt": "Die ganze Nacht am Gerät?",
-          "promptTts": "nein",
+          "promptTts": "Die ganze Nacht am Gerät? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -760,7 +760,7 @@
         {
           "id": "de-num-l12-01",
           "prompt": "Reihenfolge: Schuhe, dann raus. Was kommt zuerst?",
-          "promptTts": "zuerst",
+          "promptTts": "Reihenfolge: Schuhe, dann raus. Was kommt zuerst? Hör zu: zuerst.",
           "choices": [
             "zuerst",
             "dann"
@@ -771,7 +771,7 @@
         {
           "id": "de-num-l12-02",
           "prompt": "Zuerst Hände waschen, ___ essen.",
-          "promptTts": "dann",
+          "promptTts": "Zuerst Hände waschen, ___ essen.. Hör zu, das Wort ist dann.",
           "choices": [
             "dann",
             "zuerst"
@@ -782,7 +782,7 @@
         {
           "id": "de-num-l12-03",
           "prompt": "Schreib: zuerst",
-          "promptTts": "Schreib zuerst",
+          "promptTts": "Schreib bitte das Wort zuerst.",
           "answerMode": "type",
           "acceptedAnswers": [
             "zuerst"
@@ -793,7 +793,7 @@
         {
           "id": "de-num-l12-04",
           "prompt": "Ein Rezept ist eine Sequenz?",
-          "promptTts": "ja",
+          "promptTts": "Ein Rezept ist eine Sequenz? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -804,7 +804,7 @@
         {
           "id": "de-num-l12-05",
           "prompt": "Schreib: dann",
-          "promptTts": "Schreib dann",
+          "promptTts": "Schreib bitte das Wort dann.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dann"
@@ -824,7 +824,7 @@
         {
           "id": "de-num-l13-01",
           "prompt": "Roboter soll nach ⬅️. Wohin?",
-          "promptTts": "links",
+          "promptTts": "Roboter soll nach ⬅️. Wohin? Hör zu: links.",
           "choices": [
             "links",
             "rechts"
@@ -835,7 +835,7 @@
         {
           "id": "de-num-l13-02",
           "prompt": "Roboter soll nach ➡️. Wohin?",
-          "promptTts": "rechts",
+          "promptTts": "Roboter soll nach ➡️. Wohin? Hör zu: rechts.",
           "choices": [
             "rechts",
             "links"
@@ -846,7 +846,7 @@
         {
           "id": "de-num-l13-03",
           "prompt": "Schreib: links",
-          "promptTts": "Schreib links",
+          "promptTts": "Schreib bitte das Wort links.",
           "answerMode": "type",
           "acceptedAnswers": [
             "links"
@@ -857,7 +857,7 @@
         {
           "id": "de-num-l13-04",
           "prompt": "Klare Schritte helfen dem Roboter?",
-          "promptTts": "ja",
+          "promptTts": "Klare Schritte helfen dem Roboter? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -869,7 +869,7 @@
         {
           "id": "de-num-l13-05",
           "prompt": "Schreib: rechts",
-          "promptTts": "Schreib rechts",
+          "promptTts": "Schreib bitte das Wort rechts.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rechts"
@@ -889,7 +889,7 @@
         {
           "id": "de-num-l14-01",
           "prompt": "Wiederhole dreimal: wie oft?",
-          "promptTts": "3",
+          "promptTts": "Wiederhole dreimal: wie oft? Hör zu: 3.",
           "choices": [
             "2",
             "3",
@@ -901,7 +901,7 @@
         {
           "id": "de-num-l14-02",
           "prompt": "Schreib die Zahl 3",
-          "promptTts": "Schreib drei",
+          "promptTts": "Schreib die Zahl 3. Hör zu, das Wort ist Schreib drei.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -912,7 +912,7 @@
         {
           "id": "de-num-l14-03",
           "prompt": "Eine Schleife wiederholt etwas?",
-          "promptTts": "ja",
+          "promptTts": "Eine Schleife wiederholt etwas? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -923,7 +923,7 @@
         {
           "id": "de-num-l14-04",
           "prompt": "Klatsch 3 Mal: 1, 2, …?",
-          "promptTts": "3",
+          "promptTts": "Klatsch 3 Mal: 1, 2, …? Hör zu: 3.",
           "choices": [
             "3",
             "1",
@@ -935,7 +935,7 @@
         {
           "id": "de-num-l14-05",
           "prompt": "Nie wiederholen, immer nur 1 Schritt?",
-          "promptTts": "nein",
+          "promptTts": "Nie wiederholen, immer nur 1 Schritt? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -955,7 +955,7 @@
         {
           "id": "de-num-l15-01",
           "prompt": "Wovon lebt ein Computer?",
-          "promptTts": "Strom",
+          "promptTts": "Wovon lebt ein Computer? Hör zu: Strom.",
           "choices": [
             "Strom",
             "Spielzeug",
@@ -968,7 +968,7 @@
         {
           "id": "de-num-l15-02",
           "prompt": "Ohne Strom bleibt der Bildschirm oft dunkel?",
-          "promptTts": "ja",
+          "promptTts": "Ohne Strom bleibt der Bildschirm oft dunkel? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -979,7 +979,7 @@
         {
           "id": "de-num-l15-03",
           "prompt": "Schreib: Strom",
-          "promptTts": "Schreib Strom",
+          "promptTts": "Schreib bitte das Wort Strom.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Strom"
@@ -990,7 +990,7 @@
         {
           "id": "de-num-l15-04",
           "prompt": "Akku leer: laden?",
-          "promptTts": "ja",
+          "promptTts": "Akku leer: laden? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1001,7 +1001,7 @@
         {
           "id": "de-num-l15-05",
           "prompt": "Gerät ins Wasser legen?",
-          "promptTts": "nein",
+          "promptTts": "Gerät ins Wasser legen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1021,7 +1021,7 @@
         {
           "id": "de-num-l16-01",
           "prompt": "Wie heisst das Netz der Seiten?",
-          "promptTts": "internet",
+          "promptTts": "Wie heisst das Netz der Seiten? Hör zu: internet.",
           "choices": [
             "internet",
             "Maus",
@@ -1034,7 +1034,7 @@
         {
           "id": "de-num-l16-02",
           "prompt": "Ist alles im Internet wahr?",
-          "promptTts": "nein",
+          "promptTts": "Ist alles im Internet wahr? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1045,7 +1045,7 @@
         {
           "id": "de-num-l16-03",
           "prompt": "Schreib: internet",
-          "promptTts": "Schreib internet",
+          "promptTts": "Schreib bitte das Wort internet.",
           "answerMode": "type",
           "acceptedAnswers": [
             "internet"
@@ -1056,7 +1056,7 @@
         {
           "id": "de-num-l16-04",
           "prompt": "Kann das Internet wie eine Bibliothek sein?",
-          "promptTts": "ja",
+          "promptTts": "Kann das Internet wie eine Bibliothek sein? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1067,7 +1067,7 @@
         {
           "id": "de-num-l16-05",
           "prompt": "Mit einer erwachsenen Person suchen?",
-          "promptTts": "ja",
+          "promptTts": "Mit einer erwachsenen Person suchen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1087,7 +1087,7 @@
         {
           "id": "de-num-l17-01",
           "prompt": "Bevor man ein Foto von jemand teilt?",
-          "promptTts": "fragen",
+          "promptTts": "Bevor man ein Foto von jemand teilt? Hör zu: fragen.",
           "choices": [
             "fragen",
             "einfach senden"
@@ -1099,7 +1099,7 @@
         {
           "id": "de-num-l17-02",
           "prompt": "Darf man jedes Foto ins Netz stellen?",
-          "promptTts": "nein",
+          "promptTts": "Darf man jedes Foto ins Netz stellen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1110,7 +1110,7 @@
         {
           "id": "de-num-l17-03",
           "prompt": "Schreib: Foto",
-          "promptTts": "Schreib Foto",
+          "promptTts": "Schreib bitte das Wort Foto.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Foto"
@@ -1121,7 +1121,7 @@
         {
           "id": "de-num-l17-04",
           "prompt": "Ein Kind auf einem Foto: Eltern fragen?",
-          "promptTts": "ja",
+          "promptTts": "Ein Kind auf einem Foto: Eltern fragen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1132,7 +1132,7 @@
         {
           "id": "de-num-l17-05",
           "prompt": "Standort an alle senden?",
-          "promptTts": "nein",
+          "promptTts": "Standort an alle senden? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1152,7 +1152,7 @@
         {
           "id": "de-num-l18-01",
           "prompt": "Wenn einem online mulmig ist?",
-          "promptTts": "stopp",
+          "promptTts": "Wenn einem online mulmig ist? Hör zu: stopp.",
           "choices": [
             "stopp",
             "fremd",
@@ -1165,7 +1165,7 @@
         {
           "id": "de-num-l18-02",
           "prompt": "Gerät weglegen und eine erwachsene Person holen?",
-          "promptTts": "ja",
+          "promptTts": "Gerät weglegen und eine erwachsene Person holen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1176,7 +1176,7 @@
         {
           "id": "de-num-l18-03",
           "prompt": "Schreib: stopp",
-          "promptTts": "Schreib stopp",
+          "promptTts": "Schreib bitte das Wort stopp.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stopp"
@@ -1187,7 +1187,7 @@
         {
           "id": "de-num-l18-04",
           "prompt": "Geheim halten wenn jemand unfreundlich ist?",
-          "promptTts": "nein",
+          "promptTts": "Geheim halten wenn jemand unfreundlich ist? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1198,7 +1198,7 @@
         {
           "id": "de-num-l18-05",
           "prompt": "Stopp sagen ist erlaubt?",
-          "promptTts": "ja",
+          "promptTts": "Stopp sagen ist erlaubt? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1218,7 +1218,7 @@
         {
           "id": "de-num-l19-01",
           "prompt": "Ein Computer zum Arbeiten ist eher ein…",
-          "promptTts": "Werkzeug",
+          "promptTts": "Ein Computer zum Arbeiten ist eher ein… Hör zu, das Wort ist Werkzeug.",
           "choices": [
             "Werkzeug",
             "Spielzeug"
@@ -1230,7 +1230,7 @@
         {
           "id": "de-num-l19-02",
           "prompt": "Ein Spiel auf dem Tablet ist eher…",
-          "promptTts": "Spielzeug",
+          "promptTts": "Ein Spiel auf dem Tablet ist eher… Hör zu, das Wort ist Spielzeug.",
           "choices": [
             "Spielzeug",
             "Werkzeug"
@@ -1242,7 +1242,7 @@
         {
           "id": "de-num-l19-03",
           "prompt": "Schreib: Werkzeug",
-          "promptTts": "Schreib Werkzeug",
+          "promptTts": "Schreib bitte das Wort Werkzeug.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Werkzeug"
@@ -1253,7 +1253,7 @@
         {
           "id": "de-num-l19-04",
           "prompt": "Kann dasselbe Gerät Werkzeug und Spiel sein?",
-          "promptTts": "ja",
+          "promptTts": "Kann dasselbe Gerät Werkzeug und Spiel sein? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1264,7 +1264,7 @@
         {
           "id": "de-num-l19-05",
           "prompt": "Schreib: Spielzeug",
-          "promptTts": "Schreib Spielzeug",
+          "promptTts": "Schreib bitte das Wort Spielzeug.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Spielzeug"
@@ -1284,7 +1284,7 @@
         {
           "id": "de-num-l20-01",
           "prompt": "Welches Gerät?",
-          "promptTts": "Computer",
+          "promptTts": "Welches Gerät? Hör zu: Computer.",
           "choices": [
             "Computer",
             "Spielzeug",
@@ -1297,7 +1297,7 @@
         {
           "id": "de-num-l20-02",
           "prompt": "Schreib: Passwort",
-          "promptTts": "Schreib Passwort",
+          "promptTts": "Schreib bitte das Wort Passwort.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Passwort"
@@ -1308,7 +1308,7 @@
         {
           "id": "de-num-l20-03",
           "prompt": "Passwort der Klasse erzählen?",
-          "promptTts": "nein",
+          "promptTts": "Passwort der Klasse erzählen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1319,7 +1319,7 @@
         {
           "id": "de-num-l20-04",
           "prompt": "Roboter ⬅️ ?",
-          "promptTts": "links",
+          "promptTts": "Roboter ⬅️ ? Hör zu: links.",
           "choices": [
             "links",
             "rechts"
@@ -1331,7 +1331,7 @@
         {
           "id": "de-num-l20-05",
           "prompt": "Schreib: stopp",
-          "promptTts": "Schreib stopp",
+          "promptTts": "Schreib bitte das Wort stopp.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stopp"

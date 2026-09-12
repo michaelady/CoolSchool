@@ -23,7 +23,7 @@
         {
           "id": "en-arts-l1-01",
           "prompt": "Which color?",
-          "promptTts": "red",
+          "promptTts": "Which color? Listen: red.",
           "choices": [
             "red",
             "blue",
@@ -36,7 +36,7 @@
         {
           "id": "en-arts-l1-02",
           "prompt": "Which color?",
-          "promptTts": "blue",
+          "promptTts": "Which color? Listen: blue.",
           "choices": [
             "blue",
             "red",
@@ -49,7 +49,7 @@
         {
           "id": "en-arts-l1-03",
           "prompt": "Which color?",
-          "promptTts": "yellow",
+          "promptTts": "Which color? Listen: yellow.",
           "choices": [
             "yellow",
             "red",
@@ -62,7 +62,7 @@
         {
           "id": "en-arts-l1-04",
           "prompt": "Type: red",
-          "promptTts": "Type red",
+          "promptTts": "Please type the word red.",
           "answerMode": "type",
           "acceptedAnswers": [
             "red"
@@ -74,7 +74,7 @@
         {
           "id": "en-arts-l1-05",
           "prompt": "Which color?",
-          "promptTts": "red",
+          "promptTts": "Which color? Listen: red.",
           "choices": [
             "red",
             "blue",
@@ -96,7 +96,7 @@
         {
           "id": "en-arts-l2-01",
           "prompt": "Which color?",
-          "promptTts": "green",
+          "promptTts": "Which color? Listen: green.",
           "choices": [
             "green",
             "red",
@@ -109,7 +109,7 @@
         {
           "id": "en-arts-l2-02",
           "prompt": "Which color?",
-          "promptTts": "orange",
+          "promptTts": "Which color? Listen: orange.",
           "choices": [
             "orange",
             "blue",
@@ -122,7 +122,7 @@
         {
           "id": "en-arts-l2-03",
           "prompt": "Which color?",
-          "promptTts": "purple",
+          "promptTts": "Which color? Listen: purple.",
           "choices": [
             "purple",
             "yellow",
@@ -135,7 +135,7 @@
         {
           "id": "en-arts-l2-04",
           "prompt": "Type: blue",
-          "promptTts": "Type blue",
+          "promptTts": "Please type the word blue.",
           "answerMode": "type",
           "acceptedAnswers": [
             "blue"
@@ -147,7 +147,7 @@
         {
           "id": "en-arts-l2-05",
           "prompt": "Which color?",
-          "promptTts": "green",
+          "promptTts": "Which color? Listen: green.",
           "choices": [
             "green",
             "red",
@@ -169,7 +169,7 @@
         {
           "id": "en-arts-l3-01",
           "prompt": "Which shape?",
-          "promptTts": "circle",
+          "promptTts": "Which shape? Listen: circle.",
           "choices": [
             "circle",
             "square",
@@ -182,7 +182,7 @@
         {
           "id": "en-arts-l3-02",
           "prompt": "Which shape?",
-          "promptTts": "square",
+          "promptTts": "Which shape? Listen: square.",
           "choices": [
             "square",
             "circle",
@@ -195,7 +195,7 @@
         {
           "id": "en-arts-l3-03",
           "prompt": "Which shape?",
-          "promptTts": "triangle",
+          "promptTts": "Which shape? Listen: triangle.",
           "choices": [
             "triangle",
             "circle",
@@ -208,7 +208,7 @@
         {
           "id": "en-arts-l3-04",
           "prompt": "Type: circle",
-          "promptTts": "Type circle",
+          "promptTts": "Please type the word circle.",
           "answerMode": "type",
           "acceptedAnswers": [
             "circle"
@@ -220,7 +220,7 @@
         {
           "id": "en-arts-l3-05",
           "prompt": "Does a circle have corners?",
-          "promptTts": "no",
+          "promptTts": "Does a circle have corners? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -240,7 +240,7 @@
         {
           "id": "en-arts-l4-01",
           "prompt": "Red plus yellow?",
-          "promptTts": "orange",
+          "promptTts": "Red plus yellow? Listen: orange.",
           "choices": [
             "orange",
             "green",
@@ -252,7 +252,7 @@
         {
           "id": "en-arts-l4-02",
           "prompt": "Blue plus yellow?",
-          "promptTts": "green",
+          "promptTts": "Blue plus yellow? Listen: green.",
           "choices": [
             "green",
             "orange",
@@ -264,7 +264,7 @@
         {
           "id": "en-arts-l4-03",
           "prompt": "Red plus blue?",
-          "promptTts": "purple",
+          "promptTts": "Red plus blue? Listen: purple.",
           "choices": [
             "purple",
             "green",
@@ -276,7 +276,7 @@
         {
           "id": "en-arts-l4-04",
           "prompt": "Type: green",
-          "promptTts": "Type green",
+          "promptTts": "Please type the word green.",
           "answerMode": "type",
           "acceptedAnswers": [
             "green"
@@ -287,7 +287,7 @@
         {
           "id": "en-arts-l4-05",
           "prompt": "Can we mix colors?",
-          "promptTts": "yes",
+          "promptTts": "Can we mix colors? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -307,7 +307,7 @@
         {
           "id": "en-arts-l5-01",
           "prompt": "What do we paint with?",
-          "promptTts": "brush",
+          "promptTts": "What do we paint with? Listen: brush.",
           "choices": [
             "brush",
             "drum",
@@ -320,7 +320,7 @@
         {
           "id": "en-arts-l5-02",
           "prompt": "What do we draw with?",
-          "promptTts": "crayon",
+          "promptTts": "What do we draw with? Listen: crayon.",
           "choices": [
             "crayon",
             "flute",
@@ -333,7 +333,7 @@
         {
           "id": "en-arts-l5-03",
           "prompt": "Type: brush",
-          "promptTts": "Type brush",
+          "promptTts": "Please type the word brush.",
           "answerMode": "type",
           "acceptedAnswers": [
             "brush"
@@ -345,7 +345,7 @@
         {
           "id": "en-arts-l5-04",
           "prompt": "Paper for painting?",
-          "promptTts": "yes",
+          "promptTts": "Paper for painting? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -356,7 +356,7 @@
         {
           "id": "en-arts-l5-05",
           "prompt": "Are scissors a tool?",
-          "promptTts": "yes",
+          "promptTts": "Are scissors a tool? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -377,7 +377,7 @@
         {
           "id": "en-arts-l6-01",
           "prompt": "How does it sound?",
-          "promptTts": "loud",
+          "promptTts": "How does it sound? Listen: loud.",
           "choices": [
             "loud",
             "soft"
@@ -389,7 +389,7 @@
         {
           "id": "en-arts-l6-02",
           "prompt": "How does it sound?",
-          "promptTts": "soft",
+          "promptTts": "How does it sound? Listen: soft.",
           "choices": [
             "soft",
             "loud"
@@ -401,7 +401,7 @@
         {
           "id": "en-arts-l6-03",
           "prompt": "Type: loud",
-          "promptTts": "Type loud",
+          "promptTts": "Please type the word loud.",
           "answerMode": "type",
           "acceptedAnswers": [
             "loud"
@@ -412,7 +412,7 @@
         {
           "id": "en-arts-l6-04",
           "prompt": "Whispering is…",
-          "promptTts": "soft",
+          "promptTts": "Whispering is… Listen, the word is soft.",
           "choices": [
             "soft",
             "loud"
@@ -423,7 +423,7 @@
         {
           "id": "en-arts-l6-05",
           "prompt": "A drum is often…",
-          "promptTts": "loud",
+          "promptTts": "A drum is often… Listen, the word is loud.",
           "choices": [
             "loud",
             "soft"
@@ -444,7 +444,7 @@
         {
           "id": "en-arts-l7-01",
           "prompt": "Which instrument?",
-          "promptTts": "drum",
+          "promptTts": "Which instrument? Listen: drum.",
           "choices": [
             "drum",
             "brush",
@@ -457,7 +457,7 @@
         {
           "id": "en-arts-l7-02",
           "prompt": "Which instrument?",
-          "promptTts": "piano",
+          "promptTts": "Which instrument? Listen: piano.",
           "choices": [
             "piano",
             "brush",
@@ -470,7 +470,7 @@
         {
           "id": "en-arts-l7-03",
           "prompt": "Which instrument?",
-          "promptTts": "flute",
+          "promptTts": "Which instrument? Listen: flute.",
           "choices": [
             "flute",
             "square",
@@ -483,7 +483,7 @@
         {
           "id": "en-arts-l7-04",
           "prompt": "Type: piano",
-          "promptTts": "Type piano",
+          "promptTts": "Please type the word piano.",
           "answerMode": "type",
           "acceptedAnswers": [
             "piano"
@@ -495,7 +495,7 @@
         {
           "id": "en-arts-l7-05",
           "prompt": "Can we dance to music?",
-          "promptTts": "yes",
+          "promptTts": "Can we dance to music? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -515,7 +515,7 @@
         {
           "id": "en-arts-l8-01",
           "prompt": "High or low sound?",
-          "promptTts": "high",
+          "promptTts": "High or low sound? Listen: high.",
           "choices": [
             "high",
             "low"
@@ -527,7 +527,7 @@
         {
           "id": "en-arts-l8-02",
           "prompt": "High or low sound?",
-          "promptTts": "low",
+          "promptTts": "High or low sound? Listen: low.",
           "choices": [
             "low",
             "high"
@@ -539,7 +539,7 @@
         {
           "id": "en-arts-l8-03",
           "prompt": "Type: high",
-          "promptTts": "Type high",
+          "promptTts": "Please type the word high.",
           "answerMode": "type",
           "acceptedAnswers": [
             "high"
@@ -550,7 +550,7 @@
         {
           "id": "en-arts-l8-04",
           "prompt": "A bird is often…",
-          "promptTts": "high",
+          "promptTts": "A bird is often… Listen, the word is high.",
           "choices": [
             "high",
             "low"
@@ -561,7 +561,7 @@
         {
           "id": "en-arts-l8-05",
           "prompt": "A big drum is often…",
-          "promptTts": "low",
+          "promptTts": "A big drum is often… Listen, the word is low.",
           "choices": [
             "low",
             "high"
@@ -581,7 +581,7 @@
         {
           "id": "en-arts-l9-01",
           "prompt": "What is next? 🟥🟦🟥 ?",
-          "promptTts": "🟦",
+          "promptTts": "What is next? 🟥🟦🟥 ? Listen: 🟦.",
           "choices": [
             "🟦",
             "🟨",
@@ -593,7 +593,7 @@
         {
           "id": "en-arts-l9-02",
           "prompt": "Pattern: ⭐🌙⭐ ?",
-          "promptTts": "🌙",
+          "promptTts": "Listen carefully to this word: Pattern: ⭐🌙⭐ ? Listen: 🌙.",
           "choices": [
             "🌙",
             "🍎",
@@ -605,7 +605,7 @@
         {
           "id": "en-arts-l9-03",
           "prompt": "How many 🟥 in 🟥🟦🟥?",
-          "promptTts": "Type the number",
+          "promptTts": "How many 🟥 in 🟥🟦🟥? Listen: Type the number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -616,7 +616,7 @@
         {
           "id": "en-arts-l9-04",
           "prompt": "Does a pattern repeat?",
-          "promptTts": "yes",
+          "promptTts": "Does a pattern repeat? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -627,7 +627,7 @@
         {
           "id": "en-arts-l9-05",
           "prompt": "Next if 🔺🔺⬜🔺🔺?",
-          "promptTts": "⬜",
+          "promptTts": "Listen carefully to this word: Next if 🔺🔺⬜🔺🔺? Listen: ⬜.",
           "choices": [
             "⬜",
             "🟦",
@@ -648,7 +648,7 @@
         {
           "id": "en-arts-l10-01",
           "prompt": "What feeling?",
-          "promptTts": "happy",
+          "promptTts": "What feeling? Listen: happy.",
           "choices": [
             "happy",
             "sad"
@@ -660,7 +660,7 @@
         {
           "id": "en-arts-l10-02",
           "prompt": "What feeling?",
-          "promptTts": "sad",
+          "promptTts": "What feeling? Listen: sad.",
           "choices": [
             "sad",
             "happy"
@@ -672,7 +672,7 @@
         {
           "id": "en-arts-l10-03",
           "prompt": "Type: happy",
-          "promptTts": "Type happy",
+          "promptTts": "Please type the word happy.",
           "answerMode": "type",
           "acceptedAnswers": [
             "happy"
@@ -683,7 +683,7 @@
         {
           "id": "en-arts-l10-04",
           "prompt": "The sun often feels…",
-          "promptTts": "happy",
+          "promptTts": "The sun often feels… Listen, the word is happy.",
           "choices": [
             "happy",
             "sad"
@@ -695,7 +695,7 @@
         {
           "id": "en-arts-l10-05",
           "prompt": "Can art be sad?",
-          "promptTts": "yes",
+          "promptTts": "Can art be sad? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -715,7 +715,7 @@
         {
           "id": "en-arts-l11-01",
           "prompt": "What do we do with paint?",
-          "promptTts": "paint",
+          "promptTts": "What do we do with paint? Listen: paint.",
           "choices": [
             "paint",
             "sing",
@@ -728,7 +728,7 @@
         {
           "id": "en-arts-l11-02",
           "prompt": "What do we do with the voice?",
-          "promptTts": "sing",
+          "promptTts": "What do we do with the voice? Listen: sing.",
           "choices": [
             "sing",
             "paint",
@@ -741,7 +741,7 @@
         {
           "id": "en-arts-l11-03",
           "prompt": "What do we do with blocks?",
-          "promptTts": "build",
+          "promptTts": "What do we do with blocks? Listen: build.",
           "choices": [
             "build",
             "sing",
@@ -754,7 +754,7 @@
         {
           "id": "en-arts-l11-04",
           "prompt": "Type: sing",
-          "promptTts": "Type sing",
+          "promptTts": "Please type the word sing.",
           "answerMode": "type",
           "acceptedAnswers": [
             "sing"
@@ -765,7 +765,7 @@
         {
           "id": "en-arts-l11-05",
           "prompt": "Is singing part of the arts?",
-          "promptTts": "yes",
+          "promptTts": "Is singing part of the arts? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -785,7 +785,7 @@
         {
           "id": "en-arts-l12-01",
           "prompt": "Claps: 1-2-3, how many?",
-          "promptTts": "3",
+          "promptTts": "Claps: 1-2-3, how many? Listen: 3.",
           "choices": [
             "2",
             "3",
@@ -797,7 +797,7 @@
         {
           "id": "en-arts-l12-02",
           "prompt": "How many beats: ♪♪♪♪ ?",
-          "promptTts": "Type four",
+          "promptTts": "How many beats: ♪♪♪♪ ? Listen: Type four.",
           "answerMode": "type",
           "acceptedAnswers": [
             "4"
@@ -808,7 +808,7 @@
         {
           "id": "en-arts-l12-03",
           "prompt": "Clapping evenly is rhythm?",
-          "promptTts": "yes",
+          "promptTts": "Clapping evenly is rhythm? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -819,7 +819,7 @@
         {
           "id": "en-arts-l12-04",
           "prompt": "Can we stamp to a song?",
-          "promptTts": "yes",
+          "promptTts": "Can we stamp to a song? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -830,7 +830,7 @@
         {
           "id": "en-arts-l12-05",
           "prompt": "Type: drum",
-          "promptTts": "Type drum",
+          "promptTts": "Please type the word drum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "drum"
@@ -851,7 +851,7 @@
         {
           "id": "en-arts-l13-01",
           "prompt": "Is red a warm color?",
-          "promptTts": "yes",
+          "promptTts": "Is red a warm color? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -863,7 +863,7 @@
         {
           "id": "en-arts-l13-02",
           "prompt": "Is blue rather cold?",
-          "promptTts": "yes",
+          "promptTts": "Is blue rather cold? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -875,7 +875,7 @@
         {
           "id": "en-arts-l13-03",
           "prompt": "Type: warm",
-          "promptTts": "Type warm",
+          "promptTts": "Please type the word warm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "warm"
@@ -886,7 +886,7 @@
         {
           "id": "en-arts-l13-04",
           "prompt": "Yellow: warm?",
-          "promptTts": "yes",
+          "promptTts": "Yellow: warm? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -898,7 +898,7 @@
         {
           "id": "en-arts-l13-05",
           "prompt": "Icy blue feels…",
-          "promptTts": "cold",
+          "promptTts": "Icy blue feels… Listen, the word is cold.",
           "choices": [
             "cold",
             "warm"
@@ -918,7 +918,7 @@
         {
           "id": "en-arts-l14-01",
           "prompt": "What feels rough?",
-          "promptTts": "bark",
+          "promptTts": "What feels rough? Listen: bark.",
           "choices": [
             "bark",
             "silk"
@@ -930,7 +930,7 @@
         {
           "id": "en-arts-l14-02",
           "prompt": "What feels soft?",
-          "promptTts": "wool",
+          "promptTts": "What feels soft? Listen: wool.",
           "choices": [
             "wool",
             "stone"
@@ -942,7 +942,7 @@
         {
           "id": "en-arts-l14-03",
           "prompt": "Type: soft",
-          "promptTts": "Type soft",
+          "promptTts": "Please type the word soft.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soft"
@@ -953,7 +953,7 @@
         {
           "id": "en-arts-l14-04",
           "prompt": "Can art have textures?",
-          "promptTts": "yes",
+          "promptTts": "Can art have textures? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -964,7 +964,7 @@
         {
           "id": "en-arts-l14-05",
           "prompt": "Is sandpaper rough?",
-          "promptTts": "yes",
+          "promptTts": "Is sandpaper rough? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -984,7 +984,7 @@
         {
           "id": "en-arts-l15-01",
           "prompt": "Movement to music?",
-          "promptTts": "dance",
+          "promptTts": "Movement to music? Listen: dance.",
           "choices": [
             "dance",
             "picture"
@@ -996,7 +996,7 @@
         {
           "id": "en-arts-l15-02",
           "prompt": "Something to look at?",
-          "promptTts": "picture",
+          "promptTts": "Something to look at? Listen: picture.",
           "choices": [
             "picture",
             "dance"
@@ -1008,7 +1008,7 @@
         {
           "id": "en-arts-l15-03",
           "prompt": "Type: dance",
-          "promptTts": "Type dance",
+          "promptTts": "Please type the word dance.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dance"
@@ -1019,7 +1019,7 @@
         {
           "id": "en-arts-l15-04",
           "prompt": "Is dance part of the arts?",
-          "promptTts": "yes",
+          "promptTts": "Is dance part of the arts? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1030,7 +1030,7 @@
         {
           "id": "en-arts-l15-05",
           "prompt": "Is a picture on the wall?",
-          "promptTts": "yes",
+          "promptTts": "Is a picture on the wall? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1050,7 +1050,7 @@
         {
           "id": "en-arts-l16-01",
           "prompt": "⬛⬜⬛ ?",
-          "promptTts": "⬜",
+          "promptTts": "Listen carefully to this word: ⬛⬜⬛ ? Listen: ⬜.",
           "choices": [
             "⬜",
             "🟥",
@@ -1062,7 +1062,7 @@
         {
           "id": "en-arts-l16-02",
           "prompt": "ABAB, what is B if A=⭐?",
-          "promptTts": "🌙",
+          "promptTts": "ABAB, what is B if A=⭐? Listen: 🌙.",
           "choices": [
             "🌙",
             "⭐",
@@ -1074,7 +1074,7 @@
         {
           "id": "en-arts-l16-03",
           "prompt": "Count of ⬛ in ⬛⬜⬛⬜",
-          "promptTts": "Type the number",
+          "promptTts": "Count of ⬛ in ⬛⬜⬛⬜. Listen, the word is Type the number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -1085,7 +1085,7 @@
         {
           "id": "en-arts-l16-04",
           "prompt": "Can patterns be colors?",
-          "promptTts": "yes",
+          "promptTts": "Can patterns be colors? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1096,7 +1096,7 @@
         {
           "id": "en-arts-l16-05",
           "prompt": "🔴🟢🔴 ?",
-          "promptTts": "🟢",
+          "promptTts": "Listen carefully to this word: 🔴🟢🔴 ? Listen: 🟢.",
           "choices": [
             "🟢",
             "🔵",
@@ -1117,7 +1117,7 @@
         {
           "id": "en-arts-l17-01",
           "prompt": "First note often?",
-          "promptTts": "do",
+          "promptTts": "First note often? Listen: do.",
           "choices": [
             "do",
             "fa",
@@ -1129,7 +1129,7 @@
         {
           "id": "en-arts-l17-02",
           "prompt": "Do, re, …?",
-          "promptTts": "mi",
+          "promptTts": "Do, re, …? Listen: mi.",
           "choices": [
             "mi",
             "sol",
@@ -1141,7 +1141,7 @@
         {
           "id": "en-arts-l17-03",
           "prompt": "Type: do",
-          "promptTts": "Type do",
+          "promptTts": "Type: do. Listen, the word is Type do.",
           "answerMode": "type",
           "acceptedAnswers": [
             "do"
@@ -1152,7 +1152,7 @@
         {
           "id": "en-arts-l17-04",
           "prompt": "Do notes help us sing?",
-          "promptTts": "yes",
+          "promptTts": "Do notes help us sing? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1163,7 +1163,7 @@
         {
           "id": "en-arts-l17-05",
           "prompt": "Does re come after do?",
-          "promptTts": "yes",
+          "promptTts": "Does re come after do? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1183,7 +1183,7 @@
         {
           "id": "en-arts-l18-01",
           "prompt": "Starry night: day or night?",
-          "promptTts": "night",
+          "promptTts": "Starry night: day or night? Listen: night.",
           "choices": [
             "night",
             "day"
@@ -1195,7 +1195,7 @@
         {
           "id": "en-arts-l18-02",
           "prompt": "Sunflowers: day or night?",
-          "promptTts": "day",
+          "promptTts": "Sunflowers: day or night? Listen: day.",
           "choices": [
             "day",
             "night"
@@ -1207,7 +1207,7 @@
         {
           "id": "en-arts-l18-03",
           "prompt": "Type: night",
-          "promptTts": "Type night",
+          "promptTts": "Please type the word night.",
           "answerMode": "type",
           "acceptedAnswers": [
             "night"
@@ -1218,7 +1218,7 @@
         {
           "id": "en-arts-l18-04",
           "prompt": "Can a picture tell a story?",
-          "promptTts": "yes",
+          "promptTts": "Can a picture tell a story? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1229,7 +1229,7 @@
         {
           "id": "en-arts-l18-05",
           "prompt": "Does the moon belong more to night?",
-          "promptTts": "yes",
+          "promptTts": "Does the moon belong more to night? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1250,7 +1250,7 @@
         {
           "id": "en-arts-l19-01",
           "prompt": "Do we decorate a card?",
-          "promptTts": "yes",
+          "promptTts": "Do we decorate a card? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1262,7 +1262,7 @@
         {
           "id": "en-arts-l19-02",
           "prompt": "What do we glue with?",
-          "promptTts": "glue",
+          "promptTts": "What do we glue with? Listen: glue.",
           "choices": [
             "glue",
             "drum",
@@ -1274,7 +1274,7 @@
         {
           "id": "en-arts-l19-03",
           "prompt": "Type: picture",
-          "promptTts": "Type picture",
+          "promptTts": "Please type the word picture.",
           "answerMode": "type",
           "acceptedAnswers": [
             "picture"
@@ -1285,7 +1285,7 @@
         {
           "id": "en-arts-l19-04",
           "prompt": "Is cutting paper creating?",
-          "promptTts": "yes",
+          "promptTts": "Is cutting paper creating? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1297,7 +1297,7 @@
         {
           "id": "en-arts-l19-05",
           "prompt": "May we choose colors?",
-          "promptTts": "yes",
+          "promptTts": "May we choose colors? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -1317,7 +1317,7 @@
         {
           "id": "en-arts-l20-01",
           "prompt": "Which color?",
-          "promptTts": "red",
+          "promptTts": "Which color? Listen: red.",
           "choices": [
             "red",
             "blue",
@@ -1330,7 +1330,7 @@
         {
           "id": "en-arts-l20-02",
           "prompt": "Type: piano",
-          "promptTts": "Type piano",
+          "promptTts": "Please type the word piano.",
           "answerMode": "type",
           "acceptedAnswers": [
             "piano"
@@ -1341,7 +1341,7 @@
         {
           "id": "en-arts-l20-03",
           "prompt": "Which shape?",
-          "promptTts": "circle",
+          "promptTts": "Which shape? Listen: circle.",
           "choices": [
             "circle",
             "square",
@@ -1354,7 +1354,7 @@
         {
           "id": "en-arts-l20-04",
           "prompt": "Loud or soft for a lullaby?",
-          "promptTts": "soft",
+          "promptTts": "Loud or soft for a lullaby? Listen: soft.",
           "choices": [
             "soft",
             "loud"
@@ -1365,7 +1365,7 @@
         {
           "id": "en-arts-l20-05",
           "prompt": "Type: yellow",
-          "promptTts": "Type yellow",
+          "promptTts": "Please type the word yellow.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yellow"

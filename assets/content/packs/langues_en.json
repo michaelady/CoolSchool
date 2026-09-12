@@ -23,7 +23,7 @@
         {
           "id": "en-langues-book-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Listen carefully to this word: book.",
           "choices": [
             "📚",
             "✏️",
@@ -35,7 +35,7 @@
         {
           "id": "en-langues-l1-type",
           "prompt": "Type: cat",
-          "promptTts": "Type cat",
+          "promptTts": "Please type the word cat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cat"
@@ -47,7 +47,7 @@
         {
           "id": "en-langues-pencil-02",
           "prompt": "pencil",
-          "promptTts": "pencil",
+          "promptTts": "Listen carefully to this word: pencil.",
           "choices": [
             "📚",
             "✏️",
@@ -59,7 +59,7 @@
         {
           "id": "en-langues-school-03",
           "prompt": "school",
-          "promptTts": "school",
+          "promptTts": "Listen carefully to this word: school.",
           "choices": [
             "🌳",
             "🏠",
@@ -71,7 +71,7 @@
         {
           "id": "en-langues-apple-04",
           "prompt": "apple",
-          "promptTts": "apple",
+          "promptTts": "Listen carefully to this word: apple.",
           "choices": [
             "🍎",
             "🌸",
@@ -83,7 +83,7 @@
         {
           "id": "en-langues-sun-05",
           "prompt": "sun",
-          "promptTts": "sun",
+          "promptTts": "Listen carefully to this word: sun.",
           "choices": [
             "⭐",
             "☀️",
@@ -104,7 +104,7 @@
         {
           "id": "en-langues-l2-type",
           "prompt": "Type: dog",
-          "promptTts": "Type dog",
+          "promptTts": "Please type the word dog.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dog"
@@ -116,7 +116,7 @@
         {
           "id": "en-langues-tree-02",
           "prompt": "tree",
-          "promptTts": "tree",
+          "promptTts": "Listen carefully to this word: tree.",
           "choices": [
             "🏠",
             "🌳",
@@ -128,7 +128,7 @@
         {
           "id": "en-langues-house-03",
           "prompt": "house",
-          "promptTts": "house",
+          "promptTts": "Listen carefully to this word: house.",
           "choices": [
             "🌳",
             "🏫",
@@ -140,7 +140,7 @@
         {
           "id": "en-langues-bag-04",
           "prompt": "bag",
-          "promptTts": "bag",
+          "promptTts": "Listen carefully to this word: bag.",
           "choices": [
             "🎒",
             "📚",
@@ -152,7 +152,7 @@
         {
           "id": "en-langues-star-05",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Listen carefully to this word: star.",
           "choices": [
             "☀️",
             "⭐",
@@ -164,7 +164,7 @@
         {
           "id": "en-langues-flower-06",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Listen carefully to this word: flower.",
           "choices": [
             "🌳",
             "🍎",
@@ -185,7 +185,7 @@
         {
           "id": "en-langues-book-01-l",
           "prompt": "Listen and tap",
-          "promptTts": "book",
+          "promptTts": "Listen carefully to this word: book.",
           "choices": [
             "📚",
             "✏️",
@@ -197,7 +197,7 @@
         {
           "id": "en-langues-pencil-02-l",
           "prompt": "Listen and tap",
-          "promptTts": "pencil",
+          "promptTts": "Listen carefully to this word: pencil.",
           "choices": [
             "📚",
             "✏️",
@@ -209,7 +209,7 @@
         {
           "id": "en-langues-school-03-l",
           "prompt": "Listen and tap",
-          "promptTts": "school",
+          "promptTts": "Listen carefully to this word: school.",
           "choices": [
             "🌳",
             "🏠",
@@ -221,7 +221,7 @@
         {
           "id": "en-langues-apple-04-l",
           "prompt": "Listen and tap",
-          "promptTts": "apple",
+          "promptTts": "Listen carefully to this word: apple.",
           "choices": [
             "🍎",
             "🌸",
@@ -233,7 +233,7 @@
         {
           "id": "en-langues-sun-05-l",
           "prompt": "Listen and tap",
-          "promptTts": "sun",
+          "promptTts": "Listen carefully to this word: sun.",
           "choices": [
             "⭐",
             "☀️",
@@ -318,7 +318,7 @@
         {
           "id": "en-langues-l5-01",
           "prompt": "Type: cat",
-          "promptTts": "Type cat",
+          "promptTts": "Please type the word cat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cat"
@@ -330,7 +330,7 @@
         {
           "id": "en-langues-l5-02",
           "prompt": "Type: sun",
-          "promptTts": "Type sun",
+          "promptTts": "Please type the word sun.",
           "answerMode": "type",
           "acceptedAnswers": [
             "sun"
@@ -342,7 +342,7 @@
         {
           "id": "en-langues-l5-03",
           "prompt": "Type: dog",
-          "promptTts": "Type dog",
+          "promptTts": "Please type the word dog.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dog"
@@ -354,7 +354,7 @@
         {
           "id": "en-langues-l5-04",
           "prompt": "Type: book",
-          "promptTts": "Type book",
+          "promptTts": "Please type the word book.",
           "answerMode": "type",
           "acceptedAnswers": [
             "book"
@@ -366,7 +366,7 @@
         {
           "id": "en-langues-l5-05",
           "prompt": "Type: tree",
-          "promptTts": "Type tree",
+          "promptTts": "Please type the word tree.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tree"
@@ -387,7 +387,7 @@
         {
           "id": "en-langues-l6-01",
           "prompt": "Type: school",
-          "promptTts": "Type school",
+          "promptTts": "Please type the word school.",
           "answerMode": "type",
           "acceptedAnswers": [
             "school"
@@ -399,7 +399,7 @@
         {
           "id": "en-langues-l6-02",
           "prompt": "Type: house",
-          "promptTts": "Type house",
+          "promptTts": "Please type the word house.",
           "answerMode": "type",
           "acceptedAnswers": [
             "house"
@@ -411,7 +411,7 @@
         {
           "id": "en-langues-l6-03",
           "prompt": "Type: apple",
-          "promptTts": "Type apple",
+          "promptTts": "Please type the word apple.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apple"
@@ -423,7 +423,7 @@
         {
           "id": "en-langues-l6-04",
           "prompt": "Type: flower",
-          "promptTts": "Type flower",
+          "promptTts": "Please type the word flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -435,7 +435,7 @@
         {
           "id": "en-langues-l6-05",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -456,7 +456,7 @@
         {
           "id": "en-langues-l7-01",
           "prompt": "Type: school",
-          "promptTts": "Type school",
+          "promptTts": "Please type the word school.",
           "answerMode": "type",
           "acceptedAnswers": [
             "school"
@@ -467,7 +467,7 @@
         {
           "id": "en-langues-l7-02",
           "prompt": "Type: apple",
-          "promptTts": "Type apple",
+          "promptTts": "Please type the word apple.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apple"
@@ -478,7 +478,7 @@
         {
           "id": "en-langues-l7-03",
           "prompt": "Type: flower",
-          "promptTts": "Type flower",
+          "promptTts": "Please type the word flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -489,7 +489,7 @@
         {
           "id": "en-langues-l7-04",
           "prompt": "Type: house",
-          "promptTts": "Type house",
+          "promptTts": "Please type the word house.",
           "answerMode": "type",
           "acceptedAnswers": [
             "house"
@@ -500,7 +500,7 @@
         {
           "id": "en-langues-l7-05",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -520,7 +520,7 @@
         {
           "id": "en-langues-cat-01",
           "prompt": "cat",
-          "promptTts": "cat",
+          "promptTts": "Listen carefully to this word: cat.",
           "choices": [
             "🐱",
             "🐕",
@@ -532,7 +532,7 @@
         {
           "id": "en-langues-dog-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Listen carefully to this word: dog.",
           "choices": [
             "🐱",
             "🐕",
@@ -544,7 +544,7 @@
         {
           "id": "en-langues-fish-03",
           "prompt": "fish",
-          "promptTts": "fish",
+          "promptTts": "Listen carefully to this word: fish.",
           "choices": [
             "🐱",
             "🐦",
@@ -556,7 +556,7 @@
         {
           "id": "en-langues-bird-04",
           "prompt": "bird",
-          "promptTts": "bird",
+          "promptTts": "Listen carefully to this word: bird.",
           "choices": [
             "🐦",
             "🐠",
@@ -568,7 +568,7 @@
         {
           "id": "en-langues-apple-05",
           "prompt": "apple",
-          "promptTts": "apple",
+          "promptTts": "Listen carefully to this word: apple.",
           "choices": [
             "🐱",
             "🍎",
@@ -589,7 +589,7 @@
         {
           "id": "en-langues-l9-01",
           "prompt": "Type: apple",
-          "promptTts": "Type apple",
+          "promptTts": "Please type the word apple.",
           "answerMode": "type",
           "acceptedAnswers": [
             "apple"
@@ -601,7 +601,7 @@
         {
           "id": "en-langues-l9-02",
           "prompt": "Type: bread",
-          "promptTts": "Type bread",
+          "promptTts": "Please type the word bread.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bread"
@@ -613,7 +613,7 @@
         {
           "id": "en-langues-l9-03",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -625,7 +625,7 @@
         {
           "id": "en-langues-l9-04",
           "prompt": "Type: fish",
-          "promptTts": "Type fish",
+          "promptTts": "Please type the word fish.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fish"
@@ -637,7 +637,7 @@
         {
           "id": "en-langues-l9-05",
           "prompt": "Type: flower",
-          "promptTts": "Type flower",
+          "promptTts": "Please type the word flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -658,7 +658,7 @@
         {
           "id": "en-langues-l10-01",
           "prompt": "Type: school",
-          "promptTts": "Type school",
+          "promptTts": "Please type the word school.",
           "answerMode": "type",
           "acceptedAnswers": [
             "school"
@@ -669,7 +669,7 @@
         {
           "id": "en-langues-l10-02",
           "prompt": "Type: flower",
-          "promptTts": "Type flower",
+          "promptTts": "Please type the word flower.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -680,7 +680,7 @@
         {
           "id": "en-langues-l10-03",
           "prompt": "Type: pencil",
-          "promptTts": "Type pencil",
+          "promptTts": "Please type the word pencil.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pencil"
@@ -691,7 +691,7 @@
         {
           "id": "en-langues-l10-04",
           "prompt": "Type: thanks",
-          "promptTts": "Type thanks",
+          "promptTts": "Please type the word thanks.",
           "answerMode": "type",
           "acceptedAnswers": [
             "thanks"
@@ -702,7 +702,7 @@
         {
           "id": "en-langues-l10-05",
           "prompt": "Type: hello",
-          "promptTts": "Type hello",
+          "promptTts": "Please type the word hello.",
           "answerMode": "type",
           "acceptedAnswers": [
             "hello"
@@ -722,7 +722,7 @@
         {
           "id": "en-langues-l11-01",
           "prompt": "Opposite of yes?",
-          "promptTts": "Opposite of yes?",
+          "promptTts": "Listen carefully to this word: Opposite of yes.",
           "choices": [
             "no",
             "yes",
@@ -734,7 +734,7 @@
         {
           "id": "en-langues-l11-02",
           "prompt": "Opposite of red?",
-          "promptTts": "Opposite of red?",
+          "promptTts": "Listen carefully to this word: Opposite of red.",
           "choices": [
             "blue",
             "red",
@@ -746,7 +746,7 @@
         {
           "id": "en-langues-l11-03",
           "prompt": "Opposite of big?",
-          "promptTts": "Opposite of big?",
+          "promptTts": "Listen carefully to this word: Opposite of big.",
           "choices": [
             "small",
             "big",
@@ -758,7 +758,7 @@
         {
           "id": "en-langues-l11-04",
           "prompt": "Opposite of day?",
-          "promptTts": "Opposite of day?",
+          "promptTts": "Listen carefully to this word: Opposite of day.",
           "choices": [
             "night",
             "day",
@@ -770,7 +770,7 @@
         {
           "id": "en-langues-l11-05",
           "prompt": "Opposite of hot?",
-          "promptTts": "Opposite of hot?",
+          "promptTts": "Listen carefully to this word: Opposite of hot.",
           "choices": [
             "cold",
             "hot",
@@ -791,7 +791,7 @@
         {
           "id": "en-langues-l12-01",
           "prompt": "Listen",
-          "promptTts": "hello",
+          "promptTts": "Listen carefully to this word: hello.",
           "choices": [
             "hello",
             "thanks",
@@ -803,7 +803,7 @@
         {
           "id": "en-langues-l12-02",
           "prompt": "Listen",
-          "promptTts": "thanks",
+          "promptTts": "Listen carefully to this word: thanks.",
           "choices": [
             "thanks",
             "hello",
@@ -815,7 +815,7 @@
         {
           "id": "en-langues-l12-03",
           "prompt": "Listen",
-          "promptTts": "yes",
+          "promptTts": "Listen Tap yes or no.",
           "choices": [
             "yes",
             "no",
@@ -827,7 +827,7 @@
         {
           "id": "en-langues-l12-04",
           "prompt": "Listen",
-          "promptTts": "no",
+          "promptTts": "Listen Tap yes or no.",
           "choices": [
             "no",
             "yes",
@@ -839,7 +839,7 @@
         {
           "id": "en-langues-l12-05",
           "prompt": "Listen",
-          "promptTts": "sun",
+          "promptTts": "Listen carefully to this word: sun.",
           "choices": [
             "sun",
             "cat",
@@ -860,7 +860,7 @@
         {
           "id": "en-langues-l13-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Listen carefully to this word: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -872,7 +872,7 @@
         {
           "id": "en-langues-l13-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Listen carefully to this word: Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -884,7 +884,7 @@
         {
           "id": "en-langues-l13-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Listen carefully to this word: Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -896,7 +896,7 @@
         {
           "id": "en-langues-l13-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Listen carefully to this word: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -908,7 +908,7 @@
         {
           "id": "en-langues-l13-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Listen carefully to this word: Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -929,7 +929,7 @@
         {
           "id": "en-langues-l14-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Listen carefully to this word: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -941,7 +941,7 @@
         {
           "id": "en-langues-l14-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Listen carefully to this word: Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -953,7 +953,7 @@
         {
           "id": "en-langues-l14-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Listen carefully to this word: Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -965,7 +965,7 @@
         {
           "id": "en-langues-l14-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Listen carefully to this word: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -977,7 +977,7 @@
         {
           "id": "en-langues-l14-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Listen carefully to this word: Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -989,7 +989,7 @@
         {
           "id": "en-langues-l14-06",
           "prompt": "Wasser",
-          "promptTts": "Wasser",
+          "promptTts": "Listen carefully to this word: Wasser.",
           "choices": [
             "💧",
             "⭐",
@@ -1010,7 +1010,7 @@
         {
           "id": "en-langues-l15-01",
           "prompt": "Type: Sonne",
-          "promptTts": "Type Sonne",
+          "promptTts": "Please type the word Sonne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sonne"
@@ -1022,7 +1022,7 @@
         {
           "id": "en-langues-l15-02",
           "prompt": "Type: Katze",
-          "promptTts": "Type Katze",
+          "promptTts": "Please type the word Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -1034,7 +1034,7 @@
         {
           "id": "en-langues-l15-03",
           "prompt": "Type: Haus",
-          "promptTts": "Type Haus",
+          "promptTts": "Please type the word Haus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -1046,7 +1046,7 @@
         {
           "id": "en-langues-l15-04",
           "prompt": "Type: Apfel",
-          "promptTts": "Type Apfel",
+          "promptTts": "Please type the word Apfel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Apfel"
@@ -1058,7 +1058,7 @@
         {
           "id": "en-langues-l15-05",
           "prompt": "Type: Baum",
-          "promptTts": "Type Baum",
+          "promptTts": "Please type the word Baum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Baum"
@@ -1079,7 +1079,7 @@
         {
           "id": "en-langues-l16-01",
           "prompt": "Listen and tap",
-          "promptTts": "Sonne",
+          "promptTts": "Listen carefully to this word: Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -1091,7 +1091,7 @@
         {
           "id": "en-langues-l16-02",
           "prompt": "Listen and tap",
-          "promptTts": "Katze",
+          "promptTts": "Listen carefully to this word: Katze.",
           "choices": [
             "⭐",
             "🐱",
@@ -1103,7 +1103,7 @@
         {
           "id": "en-langues-l16-03",
           "prompt": "Listen and tap",
-          "promptTts": "Haus",
+          "promptTts": "Listen carefully to this word: Haus.",
           "choices": [
             "🌳",
             "⭐",
@@ -1115,7 +1115,7 @@
         {
           "id": "en-langues-l16-04",
           "prompt": "Listen and tap",
-          "promptTts": "Apfel",
+          "promptTts": "Listen carefully to this word: Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -1127,7 +1127,7 @@
         {
           "id": "en-langues-l16-05",
           "prompt": "Listen and tap",
-          "promptTts": "Baum",
+          "promptTts": "Listen carefully to this word: Baum.",
           "choices": [
             "⭐",
             "🌳",
@@ -1148,7 +1148,7 @@
         {
           "id": "en-langues-l17-01",
           "prompt": "livre",
-          "promptTts": "livre",
+          "promptTts": "Listen carefully to this word: livre.",
           "choices": [
             "📚",
             "⭐",
@@ -1160,7 +1160,7 @@
         {
           "id": "en-langues-l17-02",
           "prompt": "chien",
-          "promptTts": "chien",
+          "promptTts": "Listen carefully to this word: chien.",
           "choices": [
             "🐕",
             "⭐",
@@ -1172,7 +1172,7 @@
         {
           "id": "en-langues-l17-03",
           "prompt": "fleur",
-          "promptTts": "fleur",
+          "promptTts": "Listen carefully to this word: fleur.",
           "choices": [
             "🌸",
             "⭐",
@@ -1184,7 +1184,7 @@
         {
           "id": "en-langues-l17-04",
           "prompt": "étoile",
-          "promptTts": "étoile",
+          "promptTts": "Listen carefully to this word: étoile.",
           "choices": [
             "⭐",
             "⭐",
@@ -1196,7 +1196,7 @@
         {
           "id": "en-langues-l17-05",
           "prompt": "pain",
-          "promptTts": "pain",
+          "promptTts": "Listen carefully to this word: pain.",
           "choices": [
             "🍞",
             "⭐",
@@ -1217,7 +1217,7 @@
         {
           "id": "en-langues-l18-01",
           "prompt": "livre",
-          "promptTts": "livre",
+          "promptTts": "Listen carefully to this word: livre.",
           "choices": [
             "📚",
             "⭐",
@@ -1229,7 +1229,7 @@
         {
           "id": "en-langues-l18-02",
           "prompt": "chien",
-          "promptTts": "chien",
+          "promptTts": "Listen carefully to this word: chien.",
           "choices": [
             "🐕",
             "⭐",
@@ -1241,7 +1241,7 @@
         {
           "id": "en-langues-l18-03",
           "prompt": "fleur",
-          "promptTts": "fleur",
+          "promptTts": "Listen carefully to this word: fleur.",
           "choices": [
             "🌸",
             "⭐",
@@ -1253,7 +1253,7 @@
         {
           "id": "en-langues-l18-04",
           "prompt": "étoile",
-          "promptTts": "étoile",
+          "promptTts": "Listen carefully to this word: étoile.",
           "choices": [
             "⭐",
             "⭐",
@@ -1265,7 +1265,7 @@
         {
           "id": "en-langues-l18-05",
           "prompt": "pain",
-          "promptTts": "pain",
+          "promptTts": "Listen carefully to this word: pain.",
           "choices": [
             "🍞",
             "⭐",
@@ -1277,7 +1277,7 @@
         {
           "id": "en-langues-l18-06",
           "prompt": "oiseau",
-          "promptTts": "oiseau",
+          "promptTts": "Listen carefully to this word: oiseau.",
           "choices": [
             "🐦",
             "⭐",
@@ -1298,7 +1298,7 @@
         {
           "id": "en-langues-l19-01",
           "prompt": "Type: livre",
-          "promptTts": "Type livre",
+          "promptTts": "Please type the word livre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "livre"
@@ -1310,7 +1310,7 @@
         {
           "id": "en-langues-l19-02",
           "prompt": "Type: chien",
-          "promptTts": "Type chien",
+          "promptTts": "Please type the word chien.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chien"
@@ -1322,7 +1322,7 @@
         {
           "id": "en-langues-l19-03",
           "prompt": "Type: fleur",
-          "promptTts": "Type fleur",
+          "promptTts": "Please type the word fleur.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fleur"
@@ -1334,7 +1334,7 @@
         {
           "id": "en-langues-l19-04",
           "prompt": "Type: étoile",
-          "promptTts": "Type étoile",
+          "promptTts": "Please type the word étoile.",
           "answerMode": "type",
           "acceptedAnswers": [
             "étoile"
@@ -1346,7 +1346,7 @@
         {
           "id": "en-langues-l19-05",
           "prompt": "Type: pain",
-          "promptTts": "Type pain",
+          "promptTts": "Please type the word pain.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pain"
@@ -1367,7 +1367,7 @@
         {
           "id": "en-langues-l20-01",
           "prompt": "Type: book",
-          "promptTts": "Type book",
+          "promptTts": "Please type the word book.",
           "answerMode": "type",
           "acceptedAnswers": [
             "book"
@@ -1379,7 +1379,7 @@
         {
           "id": "en-langues-l20-02",
           "prompt": "Type: cat",
-          "promptTts": "Type cat",
+          "promptTts": "Please type the word cat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cat"
@@ -1391,7 +1391,7 @@
         {
           "id": "en-langues-l20-03",
           "prompt": "Type: sun",
-          "promptTts": "Type sun",
+          "promptTts": "Please type the word sun.",
           "answerMode": "type",
           "acceptedAnswers": [
             "sun"
@@ -1403,7 +1403,7 @@
         {
           "id": "en-langues-l20-04",
           "prompt": "Type: house",
-          "promptTts": "Type house",
+          "promptTts": "Please type the word house.",
           "answerMode": "type",
           "acceptedAnswers": [
             "house"
@@ -1415,7 +1415,7 @@
         {
           "id": "en-langues-l20-05",
           "prompt": "Type: tree",
-          "promptTts": "Type tree",
+          "promptTts": "Please type the word tree.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tree"

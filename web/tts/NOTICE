@@ -13,3 +13,10 @@ Vendored engine (web/tts/mespeak.js, mespeak-core.js) and voice JSON
 These files are licensed under the GNU General Public License v3.
 See COPYING in this directory. The rest of CoolSchool is unchanged;
 this folder is the GPL TTS engine plus four language voice packages.
+
+FR / RO voice JSON still uses the vendored eSpeak dictionaries from
+meSpeak (`dict` field). Only the small `voice` text blob was edited:
+female formant / pitch-range profile, no echo, no breath, no Klatt
+variant. That text is the same eSpeak voice-file format (GPL-3) as the
+original male `fr` / `ro` packs. No MBROLA or third-party voice
+database was added.

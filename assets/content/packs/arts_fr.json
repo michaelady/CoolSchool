@@ -23,7 +23,7 @@
         {
           "id": "fr-arts-l1-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "rouge",
+          "promptTts": "Quelle couleur ? Écoute : rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -36,7 +36,7 @@
         {
           "id": "fr-arts-l1-02",
           "prompt": "Quelle couleur ?",
-          "promptTts": "bleu",
+          "promptTts": "Quelle couleur ? Écoute : bleu.",
           "choices": [
             "bleu",
             "rouge",
@@ -49,7 +49,7 @@
         {
           "id": "fr-arts-l1-03",
           "prompt": "Quelle couleur ?",
-          "promptTts": "jaune",
+          "promptTts": "Quelle couleur ? Écoute : jaune.",
           "choices": [
             "jaune",
             "rouge",
@@ -62,7 +62,7 @@
         {
           "id": "fr-arts-l1-04",
           "prompt": "Écris : rouge",
-          "promptTts": "Écris rouge",
+          "promptTts": "Écris le mot rouge, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rouge"
@@ -74,7 +74,7 @@
         {
           "id": "fr-arts-l1-05",
           "prompt": "Quelle couleur ?",
-          "promptTts": "rouge",
+          "promptTts": "Quelle couleur ? Écoute : rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -96,7 +96,7 @@
         {
           "id": "fr-arts-l2-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "vert",
+          "promptTts": "Quelle couleur ? Écoute : vert.",
           "choices": [
             "vert",
             "rouge",
@@ -109,7 +109,7 @@
         {
           "id": "fr-arts-l2-02",
           "prompt": "Quelle couleur ?",
-          "promptTts": "orange",
+          "promptTts": "Quelle couleur ? Écoute : orange.",
           "choices": [
             "orange",
             "bleu",
@@ -122,7 +122,7 @@
         {
           "id": "fr-arts-l2-03",
           "prompt": "Quelle couleur ?",
-          "promptTts": "violet",
+          "promptTts": "Quelle couleur ? Écoute : violet.",
           "choices": [
             "violet",
             "jaune",
@@ -135,7 +135,7 @@
         {
           "id": "fr-arts-l2-04",
           "prompt": "Écris : bleu",
-          "promptTts": "Écris bleu",
+          "promptTts": "Écris le mot bleu, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bleu"
@@ -147,7 +147,7 @@
         {
           "id": "fr-arts-l2-05",
           "prompt": "Quelle couleur ?",
-          "promptTts": "vert",
+          "promptTts": "Quelle couleur ? Écoute : vert.",
           "choices": [
             "vert",
             "rouge",
@@ -169,7 +169,7 @@
         {
           "id": "fr-arts-l3-01",
           "prompt": "Quelle forme ?",
-          "promptTts": "cercle",
+          "promptTts": "Quelle forme ? Écoute : cercle.",
           "choices": [
             "cercle",
             "carré",
@@ -182,7 +182,7 @@
         {
           "id": "fr-arts-l3-02",
           "prompt": "Quelle forme ?",
-          "promptTts": "carré",
+          "promptTts": "Quelle forme ? Écoute : carré.",
           "choices": [
             "carré",
             "cercle",
@@ -195,7 +195,7 @@
         {
           "id": "fr-arts-l3-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "triangle",
+          "promptTts": "Quelle forme ? Écoute : triangle.",
           "choices": [
             "triangle",
             "cercle",
@@ -208,7 +208,7 @@
         {
           "id": "fr-arts-l3-04",
           "prompt": "Écris : cercle",
-          "promptTts": "Écris cercle",
+          "promptTts": "Écris le mot cercle, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cercle"
@@ -220,7 +220,7 @@
         {
           "id": "fr-arts-l3-05",
           "prompt": "Un cercle a-t-il des coins ?",
-          "promptTts": "non",
+          "promptTts": "Un cercle a-t-il des coins ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -240,7 +240,7 @@
         {
           "id": "fr-arts-l4-01",
           "prompt": "Rouge plus jaune ?",
-          "promptTts": "orange",
+          "promptTts": "Rouge plus jaune ? Écoute : orange.",
           "choices": [
             "orange",
             "vert",
@@ -252,7 +252,7 @@
         {
           "id": "fr-arts-l4-02",
           "prompt": "Bleu plus jaune ?",
-          "promptTts": "vert",
+          "promptTts": "Bleu plus jaune ? Écoute : vert.",
           "choices": [
             "vert",
             "orange",
@@ -264,7 +264,7 @@
         {
           "id": "fr-arts-l4-03",
           "prompt": "Rouge plus bleu ?",
-          "promptTts": "violet",
+          "promptTts": "Rouge plus bleu ? Écoute : violet.",
           "choices": [
             "violet",
             "vert",
@@ -276,7 +276,7 @@
         {
           "id": "fr-arts-l4-04",
           "prompt": "Écris : vert",
-          "promptTts": "Écris vert",
+          "promptTts": "Écris le mot vert, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "vert"
@@ -287,7 +287,7 @@
         {
           "id": "fr-arts-l4-05",
           "prompt": "Peut-on mélanger les couleurs ?",
-          "promptTts": "oui",
+          "promptTts": "Peut-on mélanger les couleurs ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -307,7 +307,7 @@
         {
           "id": "fr-arts-l5-01",
           "prompt": "Avec quoi peindre ?",
-          "promptTts": "pinceau",
+          "promptTts": "Avec quoi peindre ? Écoute : pinceau.",
           "choices": [
             "pinceau",
             "tambour",
@@ -320,7 +320,7 @@
         {
           "id": "fr-arts-l5-02",
           "prompt": "Avec quoi dessiner ?",
-          "promptTts": "crayon",
+          "promptTts": "Avec quoi dessiner ? Écoute : crayon.",
           "choices": [
             "crayon",
             "flûte",
@@ -333,7 +333,7 @@
         {
           "id": "fr-arts-l5-03",
           "prompt": "Écris : pinceau",
-          "promptTts": "Écris pinceau",
+          "promptTts": "Écris le mot pinceau, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pinceau"
@@ -345,7 +345,7 @@
         {
           "id": "fr-arts-l5-04",
           "prompt": "Papier pour peindre ?",
-          "promptTts": "oui",
+          "promptTts": "Papier pour peindre ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -356,7 +356,7 @@
         {
           "id": "fr-arts-l5-05",
           "prompt": "Les ciseaux sont un outil ?",
-          "promptTts": "oui",
+          "promptTts": "Les ciseaux sont un outil ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -377,7 +377,7 @@
         {
           "id": "fr-arts-l6-01",
           "prompt": "Comment ça sonne ?",
-          "promptTts": "fort",
+          "promptTts": "Comment ça sonne ? Écoute : fort.",
           "choices": [
             "fort",
             "doux"
@@ -389,7 +389,7 @@
         {
           "id": "fr-arts-l6-02",
           "prompt": "Comment ça sonne ?",
-          "promptTts": "doux",
+          "promptTts": "Comment ça sonne ? Écoute : doux.",
           "choices": [
             "doux",
             "fort"
@@ -401,7 +401,7 @@
         {
           "id": "fr-arts-l6-03",
           "prompt": "Écris : fort",
-          "promptTts": "Écris fort",
+          "promptTts": "Écris le mot fort, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fort"
@@ -412,7 +412,7 @@
         {
           "id": "fr-arts-l6-04",
           "prompt": "Chuchoter est…",
-          "promptTts": "doux",
+          "promptTts": "Chuchoter est… Écoute, le mot est doux.",
           "choices": [
             "doux",
             "fort"
@@ -423,7 +423,7 @@
         {
           "id": "fr-arts-l6-05",
           "prompt": "Le tambour est souvent…",
-          "promptTts": "fort",
+          "promptTts": "Le tambour est souvent… Écoute, le mot est fort.",
           "choices": [
             "fort",
             "doux"
@@ -444,7 +444,7 @@
         {
           "id": "fr-arts-l7-01",
           "prompt": "Quel instrument ?",
-          "promptTts": "tambour",
+          "promptTts": "Quel instrument ? Écoute : tambour.",
           "choices": [
             "tambour",
             "pinceau",
@@ -457,7 +457,7 @@
         {
           "id": "fr-arts-l7-02",
           "prompt": "Quel instrument ?",
-          "promptTts": "piano",
+          "promptTts": "Quel instrument ? Écoute : piano.",
           "choices": [
             "piano",
             "pinceau",
@@ -470,7 +470,7 @@
         {
           "id": "fr-arts-l7-03",
           "prompt": "Quel instrument ?",
-          "promptTts": "flûte",
+          "promptTts": "Quel instrument ? Écoute : flûte.",
           "choices": [
             "flûte",
             "carré",
@@ -483,7 +483,7 @@
         {
           "id": "fr-arts-l7-04",
           "prompt": "Écris : piano",
-          "promptTts": "Écris piano",
+          "promptTts": "Écris le mot piano, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "piano"
@@ -495,7 +495,7 @@
         {
           "id": "fr-arts-l7-05",
           "prompt": "Peut-on danser sur la musique ?",
-          "promptTts": "oui",
+          "promptTts": "Peut-on danser sur la musique ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -515,7 +515,7 @@
         {
           "id": "fr-arts-l8-01",
           "prompt": "Son aigu ou grave ?",
-          "promptTts": "aigu",
+          "promptTts": "Son aigu ou grave ? Écoute : aigu.",
           "choices": [
             "aigu",
             "grave"
@@ -527,7 +527,7 @@
         {
           "id": "fr-arts-l8-02",
           "prompt": "Son aigu ou grave ?",
-          "promptTts": "grave",
+          "promptTts": "Son aigu ou grave ? Écoute : grave.",
           "choices": [
             "grave",
             "aigu"
@@ -539,7 +539,7 @@
         {
           "id": "fr-arts-l8-03",
           "prompt": "Écris : aigu",
-          "promptTts": "Écris aigu",
+          "promptTts": "Écris le mot aigu, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "aigu"
@@ -550,7 +550,7 @@
         {
           "id": "fr-arts-l8-04",
           "prompt": "Le oiseau est souvent…",
-          "promptTts": "aigu",
+          "promptTts": "Le oiseau est souvent… Écoute, le mot est aigu.",
           "choices": [
             "aigu",
             "grave"
@@ -561,7 +561,7 @@
         {
           "id": "fr-arts-l8-05",
           "prompt": "Un grand tambour est souvent…",
-          "promptTts": "grave",
+          "promptTts": "Un grand tambour est souvent… Écoute, le mot est grave.",
           "choices": [
             "grave",
             "aigu"
@@ -581,7 +581,7 @@
         {
           "id": "fr-arts-l9-01",
           "prompt": "Ensuite ? 🟥🟦🟥 ?",
-          "promptTts": "🟦",
+          "promptTts": "Écoute bien ce mot : Ensuite ? 🟥🟦🟥 ? Écoute : 🟦.",
           "choices": [
             "🟦",
             "🟨",
@@ -593,7 +593,7 @@
         {
           "id": "fr-arts-l9-02",
           "prompt": "Motif : ⭐🌙⭐ ?",
-          "promptTts": "🌙",
+          "promptTts": "Écoute bien ce mot : Motif : ⭐🌙⭐ ? Écoute : 🌙.",
           "choices": [
             "🌙",
             "🍎",
@@ -605,7 +605,7 @@
         {
           "id": "fr-arts-l9-03",
           "prompt": "Combien de 🟥 dans 🟥🟦🟥 ?",
-          "promptTts": "Écris le nombre",
+          "promptTts": "Combien de 🟥 dans 🟥🟦🟥 ? Écoute : Écris le nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -616,7 +616,7 @@
         {
           "id": "fr-arts-l9-04",
           "prompt": "Un motif se répète-t-il ?",
-          "promptTts": "oui",
+          "promptTts": "Un motif se répète-t-il ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -627,7 +627,7 @@
         {
           "id": "fr-arts-l9-05",
           "prompt": "Ensuite si 🔺🔺⬜🔺🔺 ?",
-          "promptTts": "⬜",
+          "promptTts": "Écoute bien ce mot : Ensuite si 🔺🔺⬜🔺🔺 ? Écoute : ⬜.",
           "choices": [
             "⬜",
             "🟦",
@@ -648,7 +648,7 @@
         {
           "id": "fr-arts-l10-01",
           "prompt": "Quelle émotion ?",
-          "promptTts": "joyeux",
+          "promptTts": "Quelle émotion ? Écoute : joyeux.",
           "choices": [
             "joyeux",
             "triste"
@@ -660,7 +660,7 @@
         {
           "id": "fr-arts-l10-02",
           "prompt": "Quelle émotion ?",
-          "promptTts": "triste",
+          "promptTts": "Quelle émotion ? Écoute : triste.",
           "choices": [
             "triste",
             "joyeux"
@@ -672,7 +672,7 @@
         {
           "id": "fr-arts-l10-03",
           "prompt": "Écris : joyeux",
-          "promptTts": "Écris joyeux",
+          "promptTts": "Écris le mot joyeux, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "joyeux"
@@ -683,7 +683,7 @@
         {
           "id": "fr-arts-l10-04",
           "prompt": "Le soleil paraît souvent…",
-          "promptTts": "joyeux",
+          "promptTts": "Le soleil paraît souvent… Écoute, le mot est joyeux.",
           "choices": [
             "joyeux",
             "triste"
@@ -695,7 +695,7 @@
         {
           "id": "fr-arts-l10-05",
           "prompt": "L’art peut-il être triste ?",
-          "promptTts": "oui",
+          "promptTts": "L’art peut-il être triste ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -715,7 +715,7 @@
         {
           "id": "fr-arts-l11-01",
           "prompt": "Que fait-on avec de la peinture ?",
-          "promptTts": "peindre",
+          "promptTts": "Que fait-on avec de la peinture ? Écoute : peindre.",
           "choices": [
             "peindre",
             "chanter",
@@ -728,7 +728,7 @@
         {
           "id": "fr-arts-l11-02",
           "prompt": "Que fait-on avec la voix ?",
-          "promptTts": "chanter",
+          "promptTts": "Que fait-on avec la voix ? Écoute : chanter.",
           "choices": [
             "chanter",
             "peindre",
@@ -741,7 +741,7 @@
         {
           "id": "fr-arts-l11-03",
           "prompt": "Que fait-on avec des cubes ?",
-          "promptTts": "construire",
+          "promptTts": "Que fait-on avec des cubes ? Écoute : construire.",
           "choices": [
             "construire",
             "chanter",
@@ -754,7 +754,7 @@
         {
           "id": "fr-arts-l11-04",
           "prompt": "Écris : chanter",
-          "promptTts": "Écris chanter",
+          "promptTts": "Écris le mot chanter, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chanter"
@@ -765,7 +765,7 @@
         {
           "id": "fr-arts-l11-05",
           "prompt": "Chanter fait-il partie des arts ?",
-          "promptTts": "oui",
+          "promptTts": "Chanter fait-il partie des arts ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -785,7 +785,7 @@
         {
           "id": "fr-arts-l12-01",
           "prompt": "Claps : 1-2-3, combien ?",
-          "promptTts": "3",
+          "promptTts": "Claps : 1-2-3, combien ? Écoute : 3.",
           "choices": [
             "2",
             "3",
@@ -797,7 +797,7 @@
         {
           "id": "fr-arts-l12-02",
           "prompt": "Combien de temps : ♪♪♪♪ ?",
-          "promptTts": "Écris quatre",
+          "promptTts": "Combien de temps : ♪♪♪♪ ? Écoute : Écris quatre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "4"
@@ -808,7 +808,7 @@
         {
           "id": "fr-arts-l12-03",
           "prompt": "Frapper régulièrement, c’est le rythme ?",
-          "promptTts": "oui",
+          "promptTts": "Frapper régulièrement, c’est le rythme ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -819,7 +819,7 @@
         {
           "id": "fr-arts-l12-04",
           "prompt": "Peut-on taper du pied sur une chanson ?",
-          "promptTts": "oui",
+          "promptTts": "Peut-on taper du pied sur une chanson ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -830,7 +830,7 @@
         {
           "id": "fr-arts-l12-05",
           "prompt": "Écris : tambour",
-          "promptTts": "Écris tambour",
+          "promptTts": "Écris le mot tambour, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tambour"
@@ -851,7 +851,7 @@
         {
           "id": "fr-arts-l13-01",
           "prompt": "Le rouge est-il chaud ?",
-          "promptTts": "oui",
+          "promptTts": "Le rouge est-il chaud ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -863,7 +863,7 @@
         {
           "id": "fr-arts-l13-02",
           "prompt": "Le bleu est-il plutôt froid ?",
-          "promptTts": "oui",
+          "promptTts": "Le bleu est-il plutôt froid ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -875,7 +875,7 @@
         {
           "id": "fr-arts-l13-03",
           "prompt": "Écris : chaud",
-          "promptTts": "Écris chaud",
+          "promptTts": "Écris le mot chaud, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chaud"
@@ -886,7 +886,7 @@
         {
           "id": "fr-arts-l13-04",
           "prompt": "Jaune : chaud ?",
-          "promptTts": "oui",
+          "promptTts": "Jaune : chaud ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -898,7 +898,7 @@
         {
           "id": "fr-arts-l13-05",
           "prompt": "Le bleu glacier paraît…",
-          "promptTts": "froid",
+          "promptTts": "Le bleu glacier paraît… Écoute, le mot est froid.",
           "choices": [
             "froid",
             "chaud"
@@ -918,7 +918,7 @@
         {
           "id": "fr-arts-l14-01",
           "prompt": "Qu’est-ce qui est rêche ?",
-          "promptTts": "écorce",
+          "promptTts": "Qu’est-ce qui est rêche ? Écoute : écorce.",
           "choices": [
             "écorce",
             "soie"
@@ -930,7 +930,7 @@
         {
           "id": "fr-arts-l14-02",
           "prompt": "Qu’est-ce qui est doux ?",
-          "promptTts": "laine",
+          "promptTts": "Qu’est-ce qui est doux ? Écoute : laine.",
           "choices": [
             "laine",
             "pierre"
@@ -942,7 +942,7 @@
         {
           "id": "fr-arts-l14-03",
           "prompt": "Écris : doux",
-          "promptTts": "Écris doux",
+          "promptTts": "Écris le mot doux, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "doux"
@@ -953,7 +953,7 @@
         {
           "id": "fr-arts-l14-04",
           "prompt": "L’art peut-il avoir des textures ?",
-          "promptTts": "oui",
+          "promptTts": "L’art peut-il avoir des textures ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -964,7 +964,7 @@
         {
           "id": "fr-arts-l14-05",
           "prompt": "Le papier de verre est rêche ?",
-          "promptTts": "oui",
+          "promptTts": "Le papier de verre est rêche ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -984,7 +984,7 @@
         {
           "id": "fr-arts-l15-01",
           "prompt": "Mouvement sur la musique ?",
-          "promptTts": "danse",
+          "promptTts": "Mouvement sur la musique ? Écoute : danse.",
           "choices": [
             "danse",
             "image"
@@ -996,7 +996,7 @@
         {
           "id": "fr-arts-l15-02",
           "prompt": "Quelque chose à regarder ?",
-          "promptTts": "image",
+          "promptTts": "Quelque chose à regarder ? Écoute : image.",
           "choices": [
             "image",
             "danse"
@@ -1008,7 +1008,7 @@
         {
           "id": "fr-arts-l15-03",
           "prompt": "Écris : danse",
-          "promptTts": "Écris danse",
+          "promptTts": "Écris le mot danse, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "danse"
@@ -1019,7 +1019,7 @@
         {
           "id": "fr-arts-l15-04",
           "prompt": "La danse fait-elle partie des arts ?",
-          "promptTts": "oui",
+          "promptTts": "La danse fait-elle partie des arts ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1030,7 +1030,7 @@
         {
           "id": "fr-arts-l15-05",
           "prompt": "Une image est au mur ?",
-          "promptTts": "oui",
+          "promptTts": "Une image est au mur ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1050,7 +1050,7 @@
         {
           "id": "fr-arts-l16-01",
           "prompt": "⬛⬜⬛ ?",
-          "promptTts": "⬜",
+          "promptTts": "Écoute bien ce mot : ⬛⬜⬛ ? Écoute : ⬜.",
           "choices": [
             "⬜",
             "🟥",
@@ -1062,7 +1062,7 @@
         {
           "id": "fr-arts-l16-02",
           "prompt": "ABAB, B si A=⭐ ?",
-          "promptTts": "🌙",
+          "promptTts": "ABAB, B si A=⭐ ? Écoute : 🌙.",
           "choices": [
             "🌙",
             "⭐",
@@ -1074,7 +1074,7 @@
         {
           "id": "fr-arts-l16-03",
           "prompt": "Nombre de ⬛ dans ⬛⬜⬛⬜",
-          "promptTts": "Écris le nombre",
+          "promptTts": "Nombre de ⬛ dans ⬛⬜⬛⬜. Écoute, le mot est Écris le nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -1085,7 +1085,7 @@
         {
           "id": "fr-arts-l16-04",
           "prompt": "Les motifs peuvent être des couleurs ?",
-          "promptTts": "oui",
+          "promptTts": "Les motifs peuvent être des couleurs ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1096,7 +1096,7 @@
         {
           "id": "fr-arts-l16-05",
           "prompt": "🔴🟢🔴 ?",
-          "promptTts": "🟢",
+          "promptTts": "Écoute bien ce mot : 🔴🟢🔴 ? Écoute : 🟢.",
           "choices": [
             "🟢",
             "🔵",
@@ -1117,7 +1117,7 @@
         {
           "id": "fr-arts-l17-01",
           "prompt": "Première note souvent ?",
-          "promptTts": "do",
+          "promptTts": "Première note souvent ? Écoute : do.",
           "choices": [
             "do",
             "fa",
@@ -1129,7 +1129,7 @@
         {
           "id": "fr-arts-l17-02",
           "prompt": "Do, ré, … ?",
-          "promptTts": "mi",
+          "promptTts": "Do, ré, … ? Écoute : mi.",
           "choices": [
             "mi",
             "sol",
@@ -1141,7 +1141,7 @@
         {
           "id": "fr-arts-l17-03",
           "prompt": "Écris : do",
-          "promptTts": "Écris do",
+          "promptTts": "Écris : do. Écoute, le mot est Écris do.",
           "answerMode": "type",
           "acceptedAnswers": [
             "do"
@@ -1152,7 +1152,7 @@
         {
           "id": "fr-arts-l17-04",
           "prompt": "Les notes aident à chanter ?",
-          "promptTts": "oui",
+          "promptTts": "Les notes aident à chanter ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1163,7 +1163,7 @@
         {
           "id": "fr-arts-l17-05",
           "prompt": "Ré vient après do ?",
-          "promptTts": "oui",
+          "promptTts": "Ré vient après do ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1183,7 +1183,7 @@
         {
           "id": "fr-arts-l18-01",
           "prompt": "Nuit étoilée : jour ou nuit ?",
-          "promptTts": "nuit",
+          "promptTts": "Nuit étoilée : jour ou nuit ? Écoute : nuit.",
           "choices": [
             "nuit",
             "jour"
@@ -1195,7 +1195,7 @@
         {
           "id": "fr-arts-l18-02",
           "prompt": "Tournesols : jour ou nuit ?",
-          "promptTts": "jour",
+          "promptTts": "Tournesols : jour ou nuit ? Écoute : jour.",
           "choices": [
             "jour",
             "nuit"
@@ -1207,7 +1207,7 @@
         {
           "id": "fr-arts-l18-03",
           "prompt": "Écris : nuit",
-          "promptTts": "Écris nuit",
+          "promptTts": "Écris le mot nuit, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "nuit"
@@ -1218,7 +1218,7 @@
         {
           "id": "fr-arts-l18-04",
           "prompt": "Une image raconte-t-elle une histoire ?",
-          "promptTts": "oui",
+          "promptTts": "Une image raconte-t-elle une histoire ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1229,7 +1229,7 @@
         {
           "id": "fr-arts-l18-05",
           "prompt": "La lune va plutôt avec la nuit ?",
-          "promptTts": "oui",
+          "promptTts": "La lune va plutôt avec la nuit ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1250,7 +1250,7 @@
         {
           "id": "fr-arts-l19-01",
           "prompt": "Décore-t-on une carte ?",
-          "promptTts": "oui",
+          "promptTts": "Décore-t-on une carte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1262,7 +1262,7 @@
         {
           "id": "fr-arts-l19-02",
           "prompt": "Avec quoi coller ?",
-          "promptTts": "colle",
+          "promptTts": "Avec quoi coller ? Écoute : colle.",
           "choices": [
             "colle",
             "tambour",
@@ -1274,7 +1274,7 @@
         {
           "id": "fr-arts-l19-03",
           "prompt": "Écris : image",
-          "promptTts": "Écris image",
+          "promptTts": "Écris le mot image, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "image"
@@ -1285,7 +1285,7 @@
         {
           "id": "fr-arts-l19-04",
           "prompt": "Le découpage est créer ?",
-          "promptTts": "oui",
+          "promptTts": "Le découpage est créer ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1297,7 +1297,7 @@
         {
           "id": "fr-arts-l19-05",
           "prompt": "Peut-on choisir les couleurs ?",
-          "promptTts": "oui",
+          "promptTts": "Peut-on choisir les couleurs ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1317,7 +1317,7 @@
         {
           "id": "fr-arts-l20-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "rouge",
+          "promptTts": "Quelle couleur ? Écoute : rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -1330,7 +1330,7 @@
         {
           "id": "fr-arts-l20-02",
           "prompt": "Écris : piano",
-          "promptTts": "Écris piano",
+          "promptTts": "Écris le mot piano, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "piano"
@@ -1341,7 +1341,7 @@
         {
           "id": "fr-arts-l20-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "cercle",
+          "promptTts": "Quelle forme ? Écoute : cercle.",
           "choices": [
             "cercle",
             "carré",
@@ -1354,7 +1354,7 @@
         {
           "id": "fr-arts-l20-04",
           "prompt": "Fort ou doux pour une berceuse ?",
-          "promptTts": "doux",
+          "promptTts": "Fort ou doux pour une berceuse ? Écoute : doux.",
           "choices": [
             "doux",
             "fort"
@@ -1365,7 +1365,7 @@
         {
           "id": "fr-arts-l20-05",
           "prompt": "Écris : jaune",
-          "promptTts": "Écris jaune",
+          "promptTts": "Écris le mot jaune, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "jaune"

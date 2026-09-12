@@ -23,7 +23,7 @@
         {
           "id": "fr-langues-book-01",
           "prompt": "livre",
-          "promptTts": "livre",
+          "promptTts": "Écoute bien ce mot : livre.",
           "choices": [
             "📚",
             "✏️",
@@ -35,7 +35,7 @@
         {
           "id": "fr-langues-l1-type",
           "prompt": "Écris : chat",
-          "promptTts": "Écris chat",
+          "promptTts": "Écris le mot chat, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chat"
@@ -47,7 +47,7 @@
         {
           "id": "fr-langues-pencil-02",
           "prompt": "crayon",
-          "promptTts": "crayon",
+          "promptTts": "Écoute bien ce mot : crayon.",
           "choices": [
             "📚",
             "✏️",
@@ -59,7 +59,7 @@
         {
           "id": "fr-langues-school-03",
           "prompt": "école",
-          "promptTts": "école",
+          "promptTts": "Écoute bien ce mot : école.",
           "choices": [
             "🌳",
             "🏠",
@@ -71,7 +71,7 @@
         {
           "id": "fr-langues-apple-04",
           "prompt": "pomme",
-          "promptTts": "pomme",
+          "promptTts": "Écoute bien ce mot : pomme.",
           "choices": [
             "🍎",
             "🌸",
@@ -83,7 +83,7 @@
         {
           "id": "fr-langues-sun-05",
           "prompt": "soleil",
-          "promptTts": "soleil",
+          "promptTts": "Écoute bien ce mot : soleil.",
           "choices": [
             "⭐",
             "☀️",
@@ -104,7 +104,7 @@
         {
           "id": "fr-langues-l2-type",
           "prompt": "Écris : chien",
-          "promptTts": "Écris chien",
+          "promptTts": "Écris le mot chien, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chien"
@@ -116,7 +116,7 @@
         {
           "id": "fr-langues-tree-02",
           "prompt": "arbre",
-          "promptTts": "arbre",
+          "promptTts": "Écoute bien ce mot : arbre.",
           "choices": [
             "🏠",
             "🌳",
@@ -128,7 +128,7 @@
         {
           "id": "fr-langues-house-03",
           "prompt": "maison",
-          "promptTts": "maison",
+          "promptTts": "Écoute bien ce mot : maison.",
           "choices": [
             "🌳",
             "🏫",
@@ -140,7 +140,7 @@
         {
           "id": "fr-langues-bag-04",
           "prompt": "sac",
-          "promptTts": "sac",
+          "promptTts": "Écoute bien ce mot : sac.",
           "choices": [
             "🎒",
             "📚",
@@ -152,7 +152,7 @@
         {
           "id": "fr-langues-star-05",
           "prompt": "étoile",
-          "promptTts": "étoile",
+          "promptTts": "Écoute bien ce mot : étoile.",
           "choices": [
             "☀️",
             "⭐",
@@ -164,7 +164,7 @@
         {
           "id": "fr-langues-flower-06",
           "prompt": "fleur",
-          "promptTts": "fleur",
+          "promptTts": "Écoute bien ce mot : fleur.",
           "choices": [
             "🌳",
             "🍎",
@@ -185,7 +185,7 @@
         {
           "id": "fr-langues-book-01-l",
           "prompt": "Écoute et touche",
-          "promptTts": "livre",
+          "promptTts": "Écoute bien ce mot : livre.",
           "choices": [
             "📚",
             "✏️",
@@ -197,7 +197,7 @@
         {
           "id": "fr-langues-pencil-02-l",
           "prompt": "Écoute et touche",
-          "promptTts": "crayon",
+          "promptTts": "Écoute bien ce mot : crayon.",
           "choices": [
             "📚",
             "✏️",
@@ -209,7 +209,7 @@
         {
           "id": "fr-langues-school-03-l",
           "prompt": "Écoute et touche",
-          "promptTts": "école",
+          "promptTts": "Écoute bien ce mot : école.",
           "choices": [
             "🌳",
             "🏠",
@@ -221,7 +221,7 @@
         {
           "id": "fr-langues-apple-04-l",
           "prompt": "Écoute et touche",
-          "promptTts": "pomme",
+          "promptTts": "Écoute bien ce mot : pomme.",
           "choices": [
             "🍎",
             "🌸",
@@ -233,7 +233,7 @@
         {
           "id": "fr-langues-sun-05-l",
           "prompt": "Écoute et touche",
-          "promptTts": "soleil",
+          "promptTts": "Écoute bien ce mot : soleil.",
           "choices": [
             "⭐",
             "☀️",
@@ -318,7 +318,7 @@
         {
           "id": "fr-langues-l5-01",
           "prompt": "Écris : chat",
-          "promptTts": "Écris chat",
+          "promptTts": "Écris le mot chat, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chat"
@@ -330,7 +330,7 @@
         {
           "id": "fr-langues-l5-02",
           "prompt": "Écris : soleil",
-          "promptTts": "Écris soleil",
+          "promptTts": "Écris le mot soleil, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soleil"
@@ -342,7 +342,7 @@
         {
           "id": "fr-langues-l5-03",
           "prompt": "Écris : chien",
-          "promptTts": "Écris chien",
+          "promptTts": "Écris le mot chien, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chien"
@@ -354,7 +354,7 @@
         {
           "id": "fr-langues-l5-04",
           "prompt": "Écris : livre",
-          "promptTts": "Écris livre",
+          "promptTts": "Écris le mot livre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "livre"
@@ -366,7 +366,7 @@
         {
           "id": "fr-langues-l5-05",
           "prompt": "Écris : arbre",
-          "promptTts": "Écris arbre",
+          "promptTts": "Écris le mot arbre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "arbre"
@@ -387,7 +387,7 @@
         {
           "id": "fr-langues-l6-01",
           "prompt": "Écris : école",
-          "promptTts": "Écris école",
+          "promptTts": "Écris le mot école, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "école"
@@ -399,7 +399,7 @@
         {
           "id": "fr-langues-l6-02",
           "prompt": "Écris : maison",
-          "promptTts": "Écris maison",
+          "promptTts": "Écris le mot maison, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "maison"
@@ -411,7 +411,7 @@
         {
           "id": "fr-langues-l6-03",
           "prompt": "Écris : pomme",
-          "promptTts": "Écris pomme",
+          "promptTts": "Écris le mot pomme, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pomme"
@@ -423,7 +423,7 @@
         {
           "id": "fr-langues-l6-04",
           "prompt": "Écris : fleur",
-          "promptTts": "Écris fleur",
+          "promptTts": "Écris le mot fleur, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fleur"
@@ -435,7 +435,7 @@
         {
           "id": "fr-langues-l6-05",
           "prompt": "Écris : eau",
-          "promptTts": "Écris eau",
+          "promptTts": "Écris le mot eau, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "eau"
@@ -456,7 +456,7 @@
         {
           "id": "fr-langues-l7-01",
           "prompt": "Écris : école",
-          "promptTts": "Écris école",
+          "promptTts": "Écris le mot école, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "école"
@@ -467,7 +467,7 @@
         {
           "id": "fr-langues-l7-02",
           "prompt": "Écris : étoile",
-          "promptTts": "Écris étoile",
+          "promptTts": "Écris le mot étoile, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "étoile"
@@ -478,7 +478,7 @@
         {
           "id": "fr-langues-l7-03",
           "prompt": "Écris : fleur",
-          "promptTts": "Écris fleur",
+          "promptTts": "Écris le mot fleur, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fleur"
@@ -489,7 +489,7 @@
         {
           "id": "fr-langues-l7-04",
           "prompt": "Écris : où",
-          "promptTts": "Écris où",
+          "promptTts": "Écris le mot où, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "où"
@@ -500,7 +500,7 @@
         {
           "id": "fr-langues-l7-05",
           "prompt": "Écris : été",
-          "promptTts": "Écris été",
+          "promptTts": "Écris le mot été, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "été"
@@ -520,7 +520,7 @@
         {
           "id": "fr-langues-cat-01",
           "prompt": "chat",
-          "promptTts": "chat",
+          "promptTts": "Écoute bien ce mot : chat.",
           "choices": [
             "🐱",
             "🐕",
@@ -532,7 +532,7 @@
         {
           "id": "fr-langues-dog-02",
           "prompt": "chien",
-          "promptTts": "chien",
+          "promptTts": "Écoute bien ce mot : chien.",
           "choices": [
             "🐱",
             "🐕",
@@ -544,7 +544,7 @@
         {
           "id": "fr-langues-fish-03",
           "prompt": "poisson",
-          "promptTts": "poisson",
+          "promptTts": "Écoute bien ce mot : poisson.",
           "choices": [
             "🐱",
             "🐦",
@@ -556,7 +556,7 @@
         {
           "id": "fr-langues-bird-04",
           "prompt": "oiseau",
-          "promptTts": "oiseau",
+          "promptTts": "Écoute bien ce mot : oiseau.",
           "choices": [
             "🐦",
             "🐠",
@@ -568,7 +568,7 @@
         {
           "id": "fr-langues-apple-05",
           "prompt": "pomme",
-          "promptTts": "pomme",
+          "promptTts": "Écoute bien ce mot : pomme.",
           "choices": [
             "🐱",
             "🍎",
@@ -589,7 +589,7 @@
         {
           "id": "fr-langues-l9-01",
           "prompt": "Écris : pomme",
-          "promptTts": "Écris pomme",
+          "promptTts": "Écris le mot pomme, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pomme"
@@ -601,7 +601,7 @@
         {
           "id": "fr-langues-l9-02",
           "prompt": "Écris : pain",
-          "promptTts": "Écris pain",
+          "promptTts": "Écris le mot pain, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pain"
@@ -613,7 +613,7 @@
         {
           "id": "fr-langues-l9-03",
           "prompt": "Écris : eau",
-          "promptTts": "Écris eau",
+          "promptTts": "Écris le mot eau, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "eau"
@@ -625,7 +625,7 @@
         {
           "id": "fr-langues-l9-04",
           "prompt": "Écris : poisson",
-          "promptTts": "Écris poisson",
+          "promptTts": "Écris le mot poisson, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "poisson"
@@ -637,7 +637,7 @@
         {
           "id": "fr-langues-l9-05",
           "prompt": "Écris : fleur",
-          "promptTts": "Écris fleur",
+          "promptTts": "Écris le mot fleur, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fleur"
@@ -658,7 +658,7 @@
         {
           "id": "fr-langues-l10-01",
           "prompt": "Écris : école",
-          "promptTts": "Écris école",
+          "promptTts": "Écris le mot école, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "école"
@@ -669,7 +669,7 @@
         {
           "id": "fr-langues-l10-02",
           "prompt": "Écris : fleur",
-          "promptTts": "Écris fleur",
+          "promptTts": "Écris le mot fleur, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fleur"
@@ -680,7 +680,7 @@
         {
           "id": "fr-langues-l10-03",
           "prompt": "Écris : crayon",
-          "promptTts": "Écris crayon",
+          "promptTts": "Écris le mot crayon, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "crayon"
@@ -691,7 +691,7 @@
         {
           "id": "fr-langues-l10-04",
           "prompt": "Écris : merci",
-          "promptTts": "Écris merci",
+          "promptTts": "Écris le mot merci, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "merci"
@@ -702,7 +702,7 @@
         {
           "id": "fr-langues-l10-05",
           "prompt": "Écris : bonjour",
-          "promptTts": "Écris bonjour",
+          "promptTts": "Écris le mot bonjour, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bonjour"
@@ -722,7 +722,7 @@
         {
           "id": "fr-langues-l11-01",
           "prompt": "Contraire de oui ?",
-          "promptTts": "Contraire de oui ?",
+          "promptTts": "Écoute bien ce mot : Contraire de oui .",
           "choices": [
             "non",
             "oui",
@@ -734,7 +734,7 @@
         {
           "id": "fr-langues-l11-02",
           "prompt": "Contraire de rouge ?",
-          "promptTts": "Contraire de rouge ?",
+          "promptTts": "Écoute bien ce mot : Contraire de rouge .",
           "choices": [
             "bleu",
             "rouge",
@@ -746,7 +746,7 @@
         {
           "id": "fr-langues-l11-03",
           "prompt": "Contraire de grand ?",
-          "promptTts": "Contraire de grand ?",
+          "promptTts": "Écoute bien ce mot : Contraire de grand .",
           "choices": [
             "petit",
             "grand",
@@ -758,7 +758,7 @@
         {
           "id": "fr-langues-l11-04",
           "prompt": "Contraire de jour ?",
-          "promptTts": "Contraire de jour ?",
+          "promptTts": "Écoute bien ce mot : Contraire de jour .",
           "choices": [
             "nuit",
             "jour",
@@ -770,7 +770,7 @@
         {
           "id": "fr-langues-l11-05",
           "prompt": "Contraire de chaud ?",
-          "promptTts": "Contraire de chaud ?",
+          "promptTts": "Écoute bien ce mot : Contraire de chaud .",
           "choices": [
             "froid",
             "chaud",
@@ -791,7 +791,7 @@
         {
           "id": "fr-langues-l12-01",
           "prompt": "Écoute",
-          "promptTts": "bonjour",
+          "promptTts": "Écoute bien ce mot : bonjour.",
           "choices": [
             "bonjour",
             "merci",
@@ -803,7 +803,7 @@
         {
           "id": "fr-langues-l12-02",
           "prompt": "Écoute",
-          "promptTts": "merci",
+          "promptTts": "Écoute bien ce mot : merci.",
           "choices": [
             "merci",
             "bonjour",
@@ -815,7 +815,7 @@
         {
           "id": "fr-langues-l12-03",
           "prompt": "Écoute",
-          "promptTts": "oui",
+          "promptTts": "Écoute Touche oui ou non.",
           "choices": [
             "oui",
             "non",
@@ -827,7 +827,7 @@
         {
           "id": "fr-langues-l12-04",
           "prompt": "Écoute",
-          "promptTts": "non",
+          "promptTts": "Écoute Touche oui ou non.",
           "choices": [
             "non",
             "oui",
@@ -839,7 +839,7 @@
         {
           "id": "fr-langues-l12-05",
           "prompt": "Écoute",
-          "promptTts": "soleil",
+          "promptTts": "Écoute bien ce mot : soleil.",
           "choices": [
             "soleil",
             "chat",
@@ -860,7 +860,7 @@
         {
           "id": "fr-langues-l13-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Écoute bien ce mot : Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -872,7 +872,7 @@
         {
           "id": "fr-langues-l13-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Écoute bien ce mot : Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -884,7 +884,7 @@
         {
           "id": "fr-langues-l13-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Écoute bien ce mot : Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -896,7 +896,7 @@
         {
           "id": "fr-langues-l13-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Écoute bien ce mot : Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -908,7 +908,7 @@
         {
           "id": "fr-langues-l13-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Écoute bien ce mot : Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -929,7 +929,7 @@
         {
           "id": "fr-langues-l14-01",
           "prompt": "Sonne",
-          "promptTts": "Sonne",
+          "promptTts": "Écoute bien ce mot : Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -941,7 +941,7 @@
         {
           "id": "fr-langues-l14-02",
           "prompt": "Katze",
-          "promptTts": "Katze",
+          "promptTts": "Écoute bien ce mot : Katze.",
           "choices": [
             "🐱",
             "⭐",
@@ -953,7 +953,7 @@
         {
           "id": "fr-langues-l14-03",
           "prompt": "Haus",
-          "promptTts": "Haus",
+          "promptTts": "Écoute bien ce mot : Haus.",
           "choices": [
             "🏠",
             "⭐",
@@ -965,7 +965,7 @@
         {
           "id": "fr-langues-l14-04",
           "prompt": "Apfel",
-          "promptTts": "Apfel",
+          "promptTts": "Écoute bien ce mot : Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -977,7 +977,7 @@
         {
           "id": "fr-langues-l14-05",
           "prompt": "Baum",
-          "promptTts": "Baum",
+          "promptTts": "Écoute bien ce mot : Baum.",
           "choices": [
             "🌳",
             "⭐",
@@ -989,7 +989,7 @@
         {
           "id": "fr-langues-l14-06",
           "prompt": "Wasser",
-          "promptTts": "Wasser",
+          "promptTts": "Écoute bien ce mot : Wasser.",
           "choices": [
             "💧",
             "⭐",
@@ -1010,7 +1010,7 @@
         {
           "id": "fr-langues-l15-01",
           "prompt": "Écris : Sonne",
-          "promptTts": "Écris Sonne",
+          "promptTts": "Écris le mot Sonne, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sonne"
@@ -1022,7 +1022,7 @@
         {
           "id": "fr-langues-l15-02",
           "prompt": "Écris : Katze",
-          "promptTts": "Écris Katze",
+          "promptTts": "Écris le mot Katze, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Katze"
@@ -1034,7 +1034,7 @@
         {
           "id": "fr-langues-l15-03",
           "prompt": "Écris : Haus",
-          "promptTts": "Écris Haus",
+          "promptTts": "Écris le mot Haus, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -1046,7 +1046,7 @@
         {
           "id": "fr-langues-l15-04",
           "prompt": "Écris : Apfel",
-          "promptTts": "Écris Apfel",
+          "promptTts": "Écris le mot Apfel, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Apfel"
@@ -1058,7 +1058,7 @@
         {
           "id": "fr-langues-l15-05",
           "prompt": "Écris : Baum",
-          "promptTts": "Écris Baum",
+          "promptTts": "Écris le mot Baum, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Baum"
@@ -1079,7 +1079,7 @@
         {
           "id": "fr-langues-l16-01",
           "prompt": "Écoute et touche",
-          "promptTts": "Sonne",
+          "promptTts": "Écoute bien ce mot : Sonne.",
           "choices": [
             "☀️",
             "⭐",
@@ -1091,7 +1091,7 @@
         {
           "id": "fr-langues-l16-02",
           "prompt": "Écoute et touche",
-          "promptTts": "Katze",
+          "promptTts": "Écoute bien ce mot : Katze.",
           "choices": [
             "⭐",
             "🐱",
@@ -1103,7 +1103,7 @@
         {
           "id": "fr-langues-l16-03",
           "prompt": "Écoute et touche",
-          "promptTts": "Haus",
+          "promptTts": "Écoute bien ce mot : Haus.",
           "choices": [
             "🌳",
             "⭐",
@@ -1115,7 +1115,7 @@
         {
           "id": "fr-langues-l16-04",
           "prompt": "Écoute et touche",
-          "promptTts": "Apfel",
+          "promptTts": "Écoute bien ce mot : Apfel.",
           "choices": [
             "🍎",
             "⭐",
@@ -1127,7 +1127,7 @@
         {
           "id": "fr-langues-l16-05",
           "prompt": "Écoute et touche",
-          "promptTts": "Baum",
+          "promptTts": "Écoute bien ce mot : Baum.",
           "choices": [
             "⭐",
             "🌳",
@@ -1148,7 +1148,7 @@
         {
           "id": "fr-langues-l17-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Écoute bien ce mot : book.",
           "choices": [
             "📚",
             "⭐",
@@ -1160,7 +1160,7 @@
         {
           "id": "fr-langues-l17-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Écoute bien ce mot : dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1172,7 +1172,7 @@
         {
           "id": "fr-langues-l17-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Écoute bien ce mot : flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1184,7 +1184,7 @@
         {
           "id": "fr-langues-l17-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Écoute bien ce mot : star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1196,7 +1196,7 @@
         {
           "id": "fr-langues-l17-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Écoute bien ce mot : bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1217,7 +1217,7 @@
         {
           "id": "fr-langues-l18-01",
           "prompt": "book",
-          "promptTts": "book",
+          "promptTts": "Écoute bien ce mot : book.",
           "choices": [
             "📚",
             "⭐",
@@ -1229,7 +1229,7 @@
         {
           "id": "fr-langues-l18-02",
           "prompt": "dog",
-          "promptTts": "dog",
+          "promptTts": "Écoute bien ce mot : dog.",
           "choices": [
             "🐕",
             "⭐",
@@ -1241,7 +1241,7 @@
         {
           "id": "fr-langues-l18-03",
           "prompt": "flower",
-          "promptTts": "flower",
+          "promptTts": "Écoute bien ce mot : flower.",
           "choices": [
             "🌸",
             "⭐",
@@ -1253,7 +1253,7 @@
         {
           "id": "fr-langues-l18-04",
           "prompt": "star",
-          "promptTts": "star",
+          "promptTts": "Écoute bien ce mot : star.",
           "choices": [
             "⭐",
             "⭐",
@@ -1265,7 +1265,7 @@
         {
           "id": "fr-langues-l18-05",
           "prompt": "bread",
-          "promptTts": "bread",
+          "promptTts": "Écoute bien ce mot : bread.",
           "choices": [
             "🍞",
             "⭐",
@@ -1277,7 +1277,7 @@
         {
           "id": "fr-langues-l18-06",
           "prompt": "bird",
-          "promptTts": "bird",
+          "promptTts": "Écoute bien ce mot : bird.",
           "choices": [
             "🐦",
             "⭐",
@@ -1298,7 +1298,7 @@
         {
           "id": "fr-langues-l19-01",
           "prompt": "Écris : book",
-          "promptTts": "Écris book",
+          "promptTts": "Écris le mot book, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "book"
@@ -1310,7 +1310,7 @@
         {
           "id": "fr-langues-l19-02",
           "prompt": "Écris : dog",
-          "promptTts": "Écris dog",
+          "promptTts": "Écris le mot dog, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dog"
@@ -1322,7 +1322,7 @@
         {
           "id": "fr-langues-l19-03",
           "prompt": "Écris : flower",
-          "promptTts": "Écris flower",
+          "promptTts": "Écris le mot flower, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "flower"
@@ -1334,7 +1334,7 @@
         {
           "id": "fr-langues-l19-04",
           "prompt": "Écris : star",
-          "promptTts": "Écris star",
+          "promptTts": "Écris le mot star, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "star"
@@ -1346,7 +1346,7 @@
         {
           "id": "fr-langues-l19-05",
           "prompt": "Écris : bread",
-          "promptTts": "Écris bread",
+          "promptTts": "Écris le mot bread, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "bread"
@@ -1367,7 +1367,7 @@
         {
           "id": "fr-langues-l20-01",
           "prompt": "Écris : livre",
-          "promptTts": "Écris livre",
+          "promptTts": "Écris le mot livre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "livre"
@@ -1379,7 +1379,7 @@
         {
           "id": "fr-langues-l20-02",
           "prompt": "Écris : chat",
-          "promptTts": "Écris chat",
+          "promptTts": "Écris le mot chat, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "chat"
@@ -1391,7 +1391,7 @@
         {
           "id": "fr-langues-l20-03",
           "prompt": "Écris : soleil",
-          "promptTts": "Écris soleil",
+          "promptTts": "Écris le mot soleil, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "soleil"
@@ -1403,7 +1403,7 @@
         {
           "id": "fr-langues-l20-04",
           "prompt": "Écris : maison",
-          "promptTts": "Écris maison",
+          "promptTts": "Écris le mot maison, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "maison"
@@ -1415,7 +1415,7 @@
         {
           "id": "fr-langues-l20-05",
           "prompt": "Écris : arbre",
-          "promptTts": "Écris arbre",
+          "promptTts": "Écris le mot arbre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "arbre"
