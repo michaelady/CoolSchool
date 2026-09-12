@@ -23,7 +23,7 @@
         {
           "id": "de-shs-l1-01",
           "prompt": "Wer ist das?",
-          "promptTts": "Mama",
+          "promptTts": "Wer ist das? Hör zu: Mama.",
           "choices": [
             "Mama",
             "Schule",
@@ -36,7 +36,7 @@
         {
           "id": "de-shs-l1-02",
           "prompt": "Wer ist das?",
-          "promptTts": "Papa",
+          "promptTts": "Wer ist das? Hör zu: Papa.",
           "choices": [
             "Papa",
             "Park",
@@ -49,7 +49,7 @@
         {
           "id": "de-shs-l1-03",
           "prompt": "Familie: wer fehlt?",
-          "promptTts": "ich",
+          "promptTts": "Familie: wer fehlt? Hör zu: ich.",
           "choices": [
             "ich",
             "Schweiz",
@@ -62,7 +62,7 @@
         {
           "id": "de-shs-l1-04",
           "prompt": "Schreib: Mama",
-          "promptTts": "Schreib Mama",
+          "promptTts": "Schreib bitte das Wort Mama.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Mama"
@@ -94,7 +94,7 @@
         {
           "id": "de-shs-l2-01",
           "prompt": "Wo schläft man?",
-          "promptTts": "im Bett",
+          "promptTts": "Wo schläft man? Hör zu: im Bett.",
           "choices": [
             "Haus",
             "Schule",
@@ -107,7 +107,7 @@
         {
           "id": "de-shs-l2-02",
           "prompt": "Wo kocht man?",
-          "promptTts": "in der Küche",
+          "promptTts": "Wo kocht man? Hör zu: in der Küche.",
           "choices": [
             "Küche",
             "Schule",
@@ -120,7 +120,7 @@
         {
           "id": "de-shs-l2-03",
           "prompt": "Schreib: Haus",
-          "promptTts": "Schreib Haus",
+          "promptTts": "Schreib bitte das Wort Haus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Haus"
@@ -132,7 +132,7 @@
         {
           "id": "de-shs-l2-04",
           "prompt": "Tür oder Fenster?",
-          "promptTts": "Fenster",
+          "promptTts": "Tür oder Fenster? Hör zu: Fenster.",
           "choices": [
             "Fenster",
             "Tür"
@@ -144,7 +144,7 @@
         {
           "id": "de-shs-l2-05",
           "prompt": "Wo wohnen wir?",
-          "promptTts": "Haus",
+          "promptTts": "Wo wohnen wir? Hör zu: Haus.",
           "choices": [
             "Haus",
             "Zug",
@@ -166,7 +166,7 @@
         {
           "id": "de-shs-l3-01",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Schule",
+          "promptTts": "Wohin gehöre ich? Hör zu: Schule.",
           "choices": [
             "Schule",
             "Haus",
@@ -179,7 +179,7 @@
         {
           "id": "de-shs-l3-02",
           "prompt": "Wer unterrichtet?",
-          "promptTts": "Lehrerin",
+          "promptTts": "Wer unterrichtet? Hör zu: Lehrerin.",
           "choices": [
             "Lehrerin",
             "Bäcker",
@@ -192,7 +192,7 @@
         {
           "id": "de-shs-l3-03",
           "prompt": "Schreib: Schule",
-          "promptTts": "Schreib Schule",
+          "promptTts": "Schreib bitte das Wort Schule.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schule"
@@ -204,7 +204,7 @@
         {
           "id": "de-shs-l3-04",
           "prompt": "Was braucht man in der Schule?",
-          "promptTts": "Stift",
+          "promptTts": "Was braucht man in der Schule? Hör zu: Stift.",
           "choices": [
             "Stift",
             "Velo",
@@ -217,7 +217,7 @@
         {
           "id": "de-shs-l3-05",
           "prompt": "Pause: wo spielen?",
-          "promptTts": "Park",
+          "promptTts": "Pause: wo spielen? Hör zu: Park.",
           "choices": [
             "Park",
             "Bäcker",
@@ -239,7 +239,7 @@
         {
           "id": "de-shs-l4-01",
           "prompt": "Welcher Tag kommt zuerst in der Woche (DE/CH Schule oft Montag)?",
-          "promptTts": "Montag",
+          "promptTts": "Welcher Tag kommt zuerst in der Woche (DE/CH Schule oft Montag)? Hör zu: Montag.",
           "choices": [
             "Montag",
             "gestern",
@@ -251,7 +251,7 @@
         {
           "id": "de-shs-l4-02",
           "prompt": "Heute oder gestern?",
-          "promptTts": "heute",
+          "promptTts": "Heute oder gestern? Hör zu: heute.",
           "choices": [
             "heute",
             "gestern"
@@ -262,7 +262,7 @@
         {
           "id": "de-shs-l4-03",
           "prompt": "Schreib: heute",
-          "promptTts": "Schreib heute",
+          "promptTts": "Schreib bitte das Wort heute.",
           "answerMode": "type",
           "acceptedAnswers": [
             "heute"
@@ -273,7 +273,7 @@
         {
           "id": "de-shs-l4-04",
           "prompt": "Was war vorher?",
-          "promptTts": "gestern",
+          "promptTts": "Was war vorher? Hör zu: gestern.",
           "choices": [
             "gestern",
             "heute"
@@ -305,7 +305,7 @@
         {
           "id": "de-shs-l5-01",
           "prompt": "Jahreszeit?",
-          "promptTts": "Sommer",
+          "promptTts": "Jahreszeit? Hör zu: Sommer.",
           "choices": [
             "Sommer",
             "Regen",
@@ -318,7 +318,7 @@
         {
           "id": "de-shs-l5-02",
           "prompt": "Jahreszeit?",
-          "promptTts": "Winter",
+          "promptTts": "Jahreszeit? Hör zu: Winter.",
           "choices": [
             "Winter",
             "Regen",
@@ -331,7 +331,7 @@
         {
           "id": "de-shs-l5-03",
           "prompt": "Jahreszeit?",
-          "promptTts": "Frühling",
+          "promptTts": "Jahreszeit? Hör zu: Frühling.",
           "choices": [
             "Frühling",
             "Regen",
@@ -344,7 +344,7 @@
         {
           "id": "de-shs-l5-04",
           "prompt": "Jahreszeit?",
-          "promptTts": "Herbst",
+          "promptTts": "Jahreszeit? Hör zu: Herbst.",
           "choices": [
             "Herbst",
             "Regen",
@@ -357,7 +357,7 @@
         {
           "id": "de-shs-l5-05",
           "prompt": "Schreib: Sommer",
-          "promptTts": "Schreib Sommer",
+          "promptTts": "Schreib bitte das Wort Sommer.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Sommer"
@@ -377,7 +377,7 @@
         {
           "id": "de-shs-l6-01",
           "prompt": "Welches Wetter?",
-          "promptTts": "Regen",
+          "promptTts": "Welches Wetter? Hör zu: Regen.",
           "choices": [
             "Regen",
             "Bäcker",
@@ -390,7 +390,7 @@
         {
           "id": "de-shs-l6-02",
           "prompt": "Welches Wetter?",
-          "promptTts": "Sonne",
+          "promptTts": "Welches Wetter? Hör zu: Sonne.",
           "choices": [
             "Sonne",
             "Schnee",
@@ -403,7 +403,7 @@
         {
           "id": "de-shs-l6-03",
           "prompt": "Welches Wetter?",
-          "promptTts": "Schnee",
+          "promptTts": "Welches Wetter? Hör zu: Schnee.",
           "choices": [
             "Schnee",
             "Regen",
@@ -416,7 +416,7 @@
         {
           "id": "de-shs-l6-04",
           "prompt": "Schreib: Regen",
-          "promptTts": "Schreib Regen",
+          "promptTts": "Schreib bitte das Wort Regen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Regen"
@@ -428,7 +428,7 @@
         {
           "id": "de-shs-l6-05",
           "prompt": "Braucht man einen Schirm?",
-          "promptTts": "Regen",
+          "promptTts": "Braucht man einen Schirm? Hör zu: Regen.",
           "choices": [
             "ja",
             "nein"
@@ -449,7 +449,7 @@
         {
           "id": "de-shs-l7-01",
           "prompt": "Viele Häuser und Busse?",
-          "promptTts": "Stadt",
+          "promptTts": "Viele Häuser und Busse? Hör zu: Stadt.",
           "choices": [
             "Stadt",
             "Dorf"
@@ -461,7 +461,7 @@
         {
           "id": "de-shs-l7-02",
           "prompt": "Wenig Häuser, Felder?",
-          "promptTts": "Dorf",
+          "promptTts": "Wenig Häuser, Felder? Hör zu: Dorf.",
           "choices": [
             "Dorf",
             "Stadt"
@@ -473,7 +473,7 @@
         {
           "id": "de-shs-l7-03",
           "prompt": "Schreib: Stadt",
-          "promptTts": "Schreib Stadt",
+          "promptTts": "Schreib bitte das Wort Stadt.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Stadt"
@@ -484,7 +484,7 @@
         {
           "id": "de-shs-l7-04",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Laden",
+          "promptTts": "Wohin gehöre ich? Hör zu: Laden.",
           "choices": [
             "Laden",
             "Berg",
@@ -497,7 +497,7 @@
         {
           "id": "de-shs-l7-05",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Park",
+          "promptTts": "Wohin gehöre ich? Hör zu: Park.",
           "choices": [
             "Park",
             "Bäcker",
@@ -519,7 +519,7 @@
         {
           "id": "de-shs-l8-01",
           "prompt": "Was ist das auf der Karte?",
-          "promptTts": "Berg",
+          "promptTts": "Was ist das auf der Karte? Hör zu: Berg.",
           "choices": [
             "Berg",
             "Laden",
@@ -532,7 +532,7 @@
         {
           "id": "de-shs-l8-02",
           "prompt": "Was ist das auf der Karte?",
-          "promptTts": "See",
+          "promptTts": "Was ist das auf der Karte? Hör zu: See.",
           "choices": [
             "See",
             "Bus",
@@ -545,7 +545,7 @@
         {
           "id": "de-shs-l8-03",
           "prompt": "Was fliesst?",
-          "promptTts": "Fluss",
+          "promptTts": "Was fliesst? Hör zu: Fluss.",
           "choices": [
             "Fluss",
             "Haus",
@@ -558,7 +558,7 @@
         {
           "id": "de-shs-l8-04",
           "prompt": "Schreib: See",
-          "promptTts": "Schreib See",
+          "promptTts": "Schreib bitte das Wort See.",
           "answerMode": "type",
           "acceptedAnswers": [
             "See"
@@ -569,7 +569,7 @@
         {
           "id": "de-shs-l8-05",
           "prompt": "Alpen sind…",
-          "promptTts": "Berg",
+          "promptTts": "Alpen sind… Hör zu, das Wort ist Berg.",
           "choices": [
             "Berg",
             "Laden",
@@ -603,7 +603,7 @@
         {
           "id": "de-shs-l9-02",
           "prompt": "Land?",
-          "promptTts": "Schweiz",
+          "promptTts": "Land? Hör zu: Schweiz.",
           "choices": [
             "Schweiz",
             "Frankreich",
@@ -616,7 +616,7 @@
         {
           "id": "de-shs-l9-03",
           "prompt": "Schreib: Schweiz",
-          "promptTts": "Schreib Schweiz",
+          "promptTts": "Schreib bitte das Wort Schweiz.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schweiz"
@@ -628,7 +628,7 @@
         {
           "id": "de-shs-l9-04",
           "prompt": "Hauptstadt (einfach): Bern?",
-          "promptTts": "ja",
+          "promptTts": "Hauptstadt (einfach): Bern? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -639,7 +639,7 @@
         {
           "id": "de-shs-l9-05",
           "prompt": "Gibt es Berge in der Schweiz?",
-          "promptTts": "ja",
+          "promptTts": "Gibt es Berge in der Schweiz? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -660,7 +660,7 @@
         {
           "id": "de-shs-l10-01",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Schule",
+          "promptTts": "Wohin gehöre ich? Hör zu: Schule.",
           "choices": [
             "Schule",
             "See",
@@ -673,7 +673,7 @@
         {
           "id": "de-shs-l10-02",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Laden",
+          "promptTts": "Wohin gehöre ich? Hör zu: Laden.",
           "choices": [
             "Laden",
             "Fluss",
@@ -686,7 +686,7 @@
         {
           "id": "de-shs-l10-03",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Park",
+          "promptTts": "Wohin gehöre ich? Hör zu: Park.",
           "choices": [
             "Park",
             "Bäcker",
@@ -699,7 +699,7 @@
         {
           "id": "de-shs-l10-04",
           "prompt": "Schreib: Park",
-          "promptTts": "Schreib Park",
+          "promptTts": "Schreib bitte das Wort Park.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Park"
@@ -711,7 +711,7 @@
         {
           "id": "de-shs-l10-05",
           "prompt": "Wo kauft man Brot?",
-          "promptTts": "Laden",
+          "promptTts": "Wo kauft man Brot? Hör zu: Laden.",
           "choices": [
             "Laden",
             "See",
@@ -733,7 +733,7 @@
         {
           "id": "de-shs-l11-01",
           "prompt": "Wer backt Brot?",
-          "promptTts": "Bäcker",
+          "promptTts": "Wer backt Brot? Hör zu: Bäcker.",
           "choices": [
             "Bäcker",
             "Ärztin",
@@ -746,7 +746,7 @@
         {
           "id": "de-shs-l11-02",
           "prompt": "Wer hilft wenn man krank ist?",
-          "promptTts": "Ärztin",
+          "promptTts": "Wer hilft wenn man krank ist? Hör zu: Ärztin.",
           "choices": [
             "Ärztin",
             "Bäcker",
@@ -759,7 +759,7 @@
         {
           "id": "de-shs-l11-03",
           "prompt": "Wer unterrichtet?",
-          "promptTts": "Lehrerin",
+          "promptTts": "Wer unterrichtet? Hör zu: Lehrerin.",
           "choices": [
             "Lehrerin",
             "Velo",
@@ -772,7 +772,7 @@
         {
           "id": "de-shs-l11-04",
           "prompt": "Schreib: Bäcker",
-          "promptTts": "Schreib Bäcker",
+          "promptTts": "Schreib bitte das Wort Bäcker.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Bäcker"
@@ -783,7 +783,7 @@
         {
           "id": "de-shs-l11-05",
           "prompt": "Hilft die Lehrerin in der Schule?",
-          "promptTts": "ja",
+          "promptTts": "Hilft die Lehrerin in der Schule? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -803,7 +803,7 @@
         {
           "id": "de-shs-l12-01",
           "prompt": "Was ist freundlich?",
-          "promptTts": "teilen",
+          "promptTts": "Was ist freundlich? Hör zu: teilen.",
           "choices": [
             "teilen",
             "schlagen"
@@ -814,7 +814,7 @@
         {
           "id": "de-shs-l12-02",
           "prompt": "Darf man schlagen?",
-          "promptTts": "nein",
+          "promptTts": "Darf man schlagen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -825,7 +825,7 @@
         {
           "id": "de-shs-l12-03",
           "prompt": "Schreib: teilen",
-          "promptTts": "Schreib teilen",
+          "promptTts": "Schreib bitte das Wort teilen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "teilen"
@@ -836,7 +836,7 @@
         {
           "id": "de-shs-l12-04",
           "prompt": "Warten bis man dran ist?",
-          "promptTts": "ja",
+          "promptTts": "Warten bis man dran ist? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -847,7 +847,7 @@
         {
           "id": "de-shs-l12-05",
           "prompt": "Helfen wir einander?",
-          "promptTts": "ja",
+          "promptTts": "Helfen wir einander? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -867,7 +867,7 @@
         {
           "id": "de-shs-l13-01",
           "prompt": "Früher Licht?",
-          "promptTts": "Kerze",
+          "promptTts": "Früher Licht? Hör zu: Kerze.",
           "choices": [
             "Kerze",
             "Lampe"
@@ -879,7 +879,7 @@
         {
           "id": "de-shs-l13-02",
           "prompt": "Heute Licht?",
-          "promptTts": "Lampe",
+          "promptTts": "Heute Licht? Hör zu: Lampe.",
           "choices": [
             "Lampe",
             "Kerze"
@@ -891,7 +891,7 @@
         {
           "id": "de-shs-l13-03",
           "prompt": "Schreib: gestern",
-          "promptTts": "Schreib gestern",
+          "promptTts": "Schreib bitte das Wort gestern.",
           "answerMode": "type",
           "acceptedAnswers": [
             "gestern"
@@ -902,7 +902,7 @@
         {
           "id": "de-shs-l13-04",
           "prompt": "Pferd oder Auto früher zum Fahren oft?",
-          "promptTts": "Pferd",
+          "promptTts": "Pferd oder Auto früher zum Fahren oft? Hör zu: Pferd.",
           "choices": [
             "Pferd",
             "Auto"
@@ -914,7 +914,7 @@
         {
           "id": "de-shs-l13-05",
           "prompt": "Heute oft Auto?",
-          "promptTts": "ja",
+          "promptTts": "Heute oft Auto? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -935,7 +935,7 @@
         {
           "id": "de-shs-l14-01",
           "prompt": "Welches Fahrzeug?",
-          "promptTts": "Velo",
+          "promptTts": "Welches Fahrzeug? Hör zu: Velo.",
           "choices": [
             "Velo",
             "See",
@@ -948,7 +948,7 @@
         {
           "id": "de-shs-l14-02",
           "prompt": "Welches Fahrzeug?",
-          "promptTts": "Bus",
+          "promptTts": "Welches Fahrzeug? Hör zu: Bus.",
           "choices": [
             "Bus",
             "Bäcker",
@@ -961,7 +961,7 @@
         {
           "id": "de-shs-l14-03",
           "prompt": "Welches Fahrzeug?",
-          "promptTts": "Zug",
+          "promptTts": "Welches Fahrzeug? Hör zu: Zug.",
           "choices": [
             "Zug",
             "Park",
@@ -974,7 +974,7 @@
         {
           "id": "de-shs-l14-04",
           "prompt": "Schreib: Bus",
-          "promptTts": "Schreib Bus",
+          "promptTts": "Schreib bitte das Wort Bus.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Bus"
@@ -986,7 +986,7 @@
         {
           "id": "de-shs-l14-05",
           "prompt": "Helm auf dem Velo?",
-          "promptTts": "ja",
+          "promptTts": "Helm auf dem Velo? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1006,7 +1006,7 @@
         {
           "id": "de-shs-l15-01",
           "prompt": "Nachbarland?",
-          "promptTts": "Frankreich",
+          "promptTts": "Nachbarland? Hör zu: Frankreich.",
           "choices": [
             "Frankreich",
             "Bäcker",
@@ -1019,7 +1019,7 @@
         {
           "id": "de-shs-l15-02",
           "prompt": "Ist Deutschland ein Nachbar der Schweiz?",
-          "promptTts": "ja",
+          "promptTts": "Ist Deutschland ein Nachbar der Schweiz? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1031,7 +1031,7 @@
         {
           "id": "de-shs-l15-03",
           "prompt": "Schreib: Frankreich",
-          "promptTts": "Schreib Frankreich",
+          "promptTts": "Schreib bitte das Wort Frankreich.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Frankreich"
@@ -1042,7 +1042,7 @@
         {
           "id": "de-shs-l15-04",
           "prompt": "Italien Nachbar?",
-          "promptTts": "ja",
+          "promptTts": "Italien Nachbar? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1054,7 +1054,7 @@
         {
           "id": "de-shs-l15-05",
           "prompt": "Hallo sagen ist freundlich?",
-          "promptTts": "ja",
+          "promptTts": "Hallo sagen ist freundlich? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1074,7 +1074,7 @@
         {
           "id": "de-shs-l16-01",
           "prompt": "Was kommt von der Kuh?",
-          "promptTts": "Milch",
+          "promptTts": "Was kommt von der Kuh? Hör zu: Milch.",
           "choices": [
             "Milch",
             "Bus",
@@ -1087,7 +1087,7 @@
         {
           "id": "de-shs-l16-02",
           "prompt": "Wo wachsen Äpfel?",
-          "promptTts": "Baum",
+          "promptTts": "Wo wachsen Äpfel? Hör zu: Baum.",
           "choices": [
             "Baum",
             "Zug",
@@ -1100,7 +1100,7 @@
         {
           "id": "de-shs-l16-03",
           "prompt": "Schreib: Milch",
-          "promptTts": "Schreib Milch",
+          "promptTts": "Schreib bitte das Wort Milch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Milch"
@@ -1112,7 +1112,7 @@
         {
           "id": "de-shs-l16-04",
           "prompt": "Gemüse vom Feld?",
-          "promptTts": "ja",
+          "promptTts": "Gemüse vom Feld? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1124,7 +1124,7 @@
         {
           "id": "de-shs-l16-05",
           "prompt": "Brot vom Bäcker?",
-          "promptTts": "ja",
+          "promptTts": "Brot vom Bäcker? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1145,7 +1145,7 @@
         {
           "id": "de-shs-l17-01",
           "prompt": "Was tun mit Papier?",
-          "promptTts": "recyclen",
+          "promptTts": "Was tun mit Papier? Hör zu: recyclen.",
           "choices": [
             "recyclen",
             "schlagen"
@@ -1157,7 +1157,7 @@
         {
           "id": "de-shs-l17-02",
           "prompt": "Müll in den See?",
-          "promptTts": "nein",
+          "promptTts": "Müll in den See? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1168,7 +1168,7 @@
         {
           "id": "de-shs-l17-03",
           "prompt": "Schreib: recyclen",
-          "promptTts": "Schreib recyclen",
+          "promptTts": "Schreib bitte das Wort recyclen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "recyclen"
@@ -1180,7 +1180,7 @@
         {
           "id": "de-shs-l17-04",
           "prompt": "Bäume schützen?",
-          "promptTts": "ja",
+          "promptTts": "Bäume schützen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1192,7 +1192,7 @@
         {
           "id": "de-shs-l17-05",
           "prompt": "Wohin mit Abfall?",
-          "promptTts": "Abfall",
+          "promptTts": "Wohin mit Abfall? Hör zu: Abfall.",
           "choices": [
             "Tonne",
             "See",
@@ -1213,7 +1213,7 @@
         {
           "id": "de-shs-l18-01",
           "prompt": "Was ist nett?",
-          "promptTts": "helfen",
+          "promptTts": "Was ist nett? Hör zu: helfen.",
           "choices": [
             "helfen",
             "schlagen"
@@ -1224,7 +1224,7 @@
         {
           "id": "de-shs-l18-02",
           "prompt": "Einer Person helfen die etwas trägt?",
-          "promptTts": "ja",
+          "promptTts": "Einer Person helfen die etwas trägt? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1235,7 +1235,7 @@
         {
           "id": "de-shs-l18-03",
           "prompt": "Schreib: helfen",
-          "promptTts": "Schreib helfen",
+          "promptTts": "Schreib bitte das Wort helfen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "helfen"
@@ -1246,7 +1246,7 @@
         {
           "id": "de-shs-l18-04",
           "prompt": "Danke sagen?",
-          "promptTts": "ja",
+          "promptTts": "Danke sagen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1257,7 +1257,7 @@
         {
           "id": "de-shs-l18-05",
           "prompt": "Teilen im Spiel?",
-          "promptTts": "ja",
+          "promptTts": "Teilen im Spiel? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1277,7 +1277,7 @@
         {
           "id": "de-shs-l19-01",
           "prompt": "Meine Gemeinde hat eine Schule?",
-          "promptTts": "ja",
+          "promptTts": "Meine Gemeinde hat eine Schule? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1289,7 +1289,7 @@
         {
           "id": "de-shs-l19-02",
           "prompt": "Gibt es oft einen Brunnen oder Platz?",
-          "promptTts": "ja",
+          "promptTts": "Gibt es oft einen Brunnen oder Platz? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1300,7 +1300,7 @@
         {
           "id": "de-shs-l19-03",
           "prompt": "Schreib: Gemeinde",
-          "promptTts": "Schreib Gemeinde",
+          "promptTts": "Schreib bitte das Wort Gemeinde.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Gemeinde"
@@ -1311,7 +1311,7 @@
         {
           "id": "de-shs-l19-04",
           "prompt": "Wohin gehöre ich?",
-          "promptTts": "Park",
+          "promptTts": "Wohin gehöre ich? Hör zu: Park.",
           "choices": [
             "Park",
             "Frankreich",
@@ -1324,7 +1324,7 @@
         {
           "id": "de-shs-l19-05",
           "prompt": "Bibliothek leiht Bücher?",
-          "promptTts": "ja",
+          "promptTts": "Bibliothek leiht Bücher? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1357,7 +1357,7 @@
         {
           "id": "de-shs-l20-02",
           "prompt": "Schreib: teilen",
-          "promptTts": "Schreib teilen",
+          "promptTts": "Schreib bitte das Wort teilen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "teilen"
@@ -1368,7 +1368,7 @@
         {
           "id": "de-shs-l20-03",
           "prompt": "Welches Wetter?",
-          "promptTts": "Regen",
+          "promptTts": "Welches Wetter? Hör zu: Regen.",
           "choices": [
             "Regen",
             "Bäcker",
@@ -1381,7 +1381,7 @@
         {
           "id": "de-shs-l20-04",
           "prompt": "Was ist freundlich?",
-          "promptTts": "helfen",
+          "promptTts": "Was ist freundlich? Hör zu: helfen.",
           "choices": [
             "helfen",
             "schlagen"
@@ -1392,7 +1392,7 @@
         {
           "id": "de-shs-l20-05",
           "prompt": "Schreib: Schweiz",
-          "promptTts": "Schreib Schweiz",
+          "promptTts": "Schreib bitte das Wort Schweiz.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Schweiz"

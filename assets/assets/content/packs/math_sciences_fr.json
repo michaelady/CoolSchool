@@ -23,7 +23,7 @@
         {
           "id": "fr-msn-l1-01",
           "prompt": "1 + 1 = ?",
-          "promptTts": "Combien font un plus un ?",
+          "promptTts": "Combien font un plus un ? Choisis le bon nombre.",
           "choices": [
             "1",
             "2",
@@ -35,7 +35,7 @@
         {
           "id": "fr-msn-l1-02",
           "prompt": "Combien ?",
-          "promptTts": "Combien de fleurs vois-tu ?",
+          "promptTts": "Combien de fleurs vois-tu ? Compte-les bien.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -51,7 +51,7 @@
         {
           "id": "fr-msn-l1-03",
           "prompt": "Combien ?",
-          "promptTts": "Combien de pommes vois-tu ?",
+          "promptTts": "Combien de pommes vois-tu ? Compte-les bien.",
           "choices": [
             "1",
             "2",
@@ -67,7 +67,7 @@
         {
           "id": "fr-msn-l1-04",
           "prompt": "Combien ?",
-          "promptTts": "Combien de étoiles vois-tu ?",
+          "promptTts": "Combien d'étoiles vois-tu ? Compte-les bien.",
           "choices": [
             "0",
             "1",
@@ -82,7 +82,7 @@
         {
           "id": "fr-msn-l1-05",
           "prompt": "2 + 1 = ?",
-          "promptTts": "Combien font deux plus un ?",
+          "promptTts": "Combien font deux plus un ? Choisis le bon nombre.",
           "choices": [
             "2",
             "3",
@@ -103,7 +103,7 @@
         {
           "id": "fr-msn-l2-01",
           "prompt": "Combien ?",
-          "promptTts": "Combien de pommes vois-tu ?",
+          "promptTts": "Combien de pommes vois-tu ? Compte-les bien.",
           "choices": [
             "3",
             "4",
@@ -121,7 +121,7 @@
         {
           "id": "fr-msn-l2-02",
           "prompt": "Combien ?",
-          "promptTts": "Combien de étoiles vois-tu ?",
+          "promptTts": "Combien d'étoiles vois-tu ? Compte-les bien.",
           "choices": [
             "4",
             "5",
@@ -140,7 +140,7 @@
         {
           "id": "fr-msn-l2-03",
           "prompt": "Combien ?",
-          "promptTts": "Combien de grenouilles vois-tu ?",
+          "promptTts": "Combien de grenouilles vois-tu ? Compte-les bien.",
           "choices": [
             "1",
             "2",
@@ -156,7 +156,7 @@
         {
           "id": "fr-msn-l2-04",
           "prompt": "Combien ?",
-          "promptTts": "Combien de points vois-tu ?",
+          "promptTts": "Combien de points vois-tu ? Compte-les bien.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -172,7 +172,7 @@
         {
           "id": "fr-msn-l2-05",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Combien font deux plus deux ?",
+          "promptTts": "Combien font deux plus deux ? Choisis le bon nombre.",
           "choices": [
             "3",
             "4",
@@ -193,7 +193,7 @@
         {
           "id": "fr-msn-l3-01",
           "prompt": "Combien ?",
-          "promptTts": "Combien de pommes vois-tu ?",
+          "promptTts": "Combien de pommes vois-tu ? Compte-les bien.",
           "choices": [
             "6",
             "7",
@@ -214,7 +214,7 @@
         {
           "id": "fr-msn-l3-02",
           "prompt": "Combien ?",
-          "promptTts": "Combien de étoiles vois-tu ?",
+          "promptTts": "Combien d'étoiles vois-tu ? Compte-les bien.",
           "choices": [
             "7",
             "8",
@@ -236,7 +236,7 @@
         {
           "id": "fr-msn-l3-03",
           "prompt": "Combien ?",
-          "promptTts": "Combien de fleurs vois-tu ?",
+          "promptTts": "Combien de fleurs vois-tu ? Compte-les bien.",
           "choices": [
             "9",
             "10",
@@ -260,7 +260,7 @@
         {
           "id": "fr-msn-l3-04",
           "prompt": "Combien ?",
-          "promptTts": "Combien de points vois-tu ?",
+          "promptTts": "Combien de points vois-tu ? Compte-les bien.",
           "answerMode": "type",
           "acceptedAnswers": [
             "6"
@@ -279,7 +279,7 @@
         {
           "id": "fr-msn-l3-05",
           "prompt": "Combien ?",
-          "promptTts": "Combien de grenouilles vois-tu ?",
+          "promptTts": "Combien de grenouilles vois-tu ? Compte-les bien.",
           "choices": [
             "8",
             "9",
@@ -311,7 +311,7 @@
         {
           "id": "fr-msn-l4-01",
           "prompt": "1 + 2 = ?",
-          "promptTts": "Combien font un plus deux ?",
+          "promptTts": "Combien font un plus deux ? Choisis le bon nombre.",
           "choices": [
             "2",
             "3",
@@ -323,7 +323,7 @@
         {
           "id": "fr-msn-l4-02",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Combien font deux plus deux ?",
+          "promptTts": "Combien font deux plus deux ? Choisis le bon nombre.",
           "choices": [
             "3",
             "4",
@@ -335,7 +335,7 @@
         {
           "id": "fr-msn-l4-03",
           "prompt": "3 + 1 = ?",
-          "promptTts": "Combien font trois plus un ?",
+          "promptTts": "Combien font trois plus un ? Choisis le bon nombre.",
           "choices": [
             "3",
             "4",
@@ -347,7 +347,7 @@
         {
           "id": "fr-msn-l4-04",
           "prompt": "4 + 1 = ?",
-          "promptTts": "Combien font quatre plus un ?",
+          "promptTts": "Combien font quatre plus un ? Choisis le bon nombre.",
           "choices": [
             "4",
             "5",
@@ -359,7 +359,7 @@
         {
           "id": "fr-msn-l4-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "Combien font deux plus trois ?",
+          "promptTts": "Combien font deux plus trois ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -379,7 +379,7 @@
         {
           "id": "fr-msn-l5-01",
           "prompt": "4 + 3 = ?",
-          "promptTts": "Combien font quatre plus trois ?",
+          "promptTts": "Combien font quatre plus trois ? Choisis le bon nombre.",
           "choices": [
             "6",
             "7",
@@ -391,7 +391,7 @@
         {
           "id": "fr-msn-l5-02",
           "prompt": "5 + 2 = ?",
-          "promptTts": "Combien font cinq plus deux ?",
+          "promptTts": "Combien font cinq plus deux ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "7"
@@ -402,7 +402,7 @@
         {
           "id": "fr-msn-l5-03",
           "prompt": "6 + 4 = ?",
-          "promptTts": "Combien font six plus quatre ?",
+          "promptTts": "Combien font six plus quatre ? Choisis le bon nombre.",
           "choices": [
             "9",
             "10",
@@ -414,7 +414,7 @@
         {
           "id": "fr-msn-l5-04",
           "prompt": "7 + 2 = ?",
-          "promptTts": "Combien font sept plus deux ?",
+          "promptTts": "Combien font sept plus deux ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -425,7 +425,7 @@
         {
           "id": "fr-msn-l5-05",
           "prompt": "3 + 5 = ?",
-          "promptTts": "Combien font trois plus cinq ?",
+          "promptTts": "Combien font trois plus cinq ? Choisis le bon nombre.",
           "choices": [
             "7",
             "8",
@@ -446,7 +446,7 @@
         {
           "id": "fr-msn-l6-01",
           "prompt": "5 − 2 = ?",
-          "promptTts": "Combien font cinq moins deux ?",
+          "promptTts": "Combien font cinq moins deux ? Choisis le bon nombre.",
           "choices": [
             "2",
             "3",
@@ -458,7 +458,7 @@
         {
           "id": "fr-msn-l6-02",
           "prompt": "6 − 1 = ?",
-          "promptTts": "Combien font six moins un ?",
+          "promptTts": "Combien font six moins un ? Choisis le bon nombre.",
           "choices": [
             "4",
             "5",
@@ -470,7 +470,7 @@
         {
           "id": "fr-msn-l6-03",
           "prompt": "8 − 3 = ?",
-          "promptTts": "Combien font huit moins trois ?",
+          "promptTts": "Combien font huit moins trois ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -481,7 +481,7 @@
         {
           "id": "fr-msn-l6-04",
           "prompt": "9 − 4 = ?",
-          "promptTts": "Combien font neuf moins quatre ?",
+          "promptTts": "Combien font neuf moins quatre ? Choisis le bon nombre.",
           "choices": [
             "4",
             "5",
@@ -493,7 +493,7 @@
         {
           "id": "fr-msn-l6-05",
           "prompt": "7 − 5 = ?",
-          "promptTts": "Combien font sept moins cinq ?",
+          "promptTts": "Combien font sept moins cinq ? Choisis le bon nombre.",
           "choices": [
             "1",
             "2",
@@ -514,7 +514,7 @@
         {
           "id": "fr-msn-l7-01",
           "prompt": "10 + 4 = ?",
-          "promptTts": "Combien font dix plus quatre ?",
+          "promptTts": "Combien font dix plus quatre ? Choisis le bon nombre.",
           "choices": [
             "13",
             "14",
@@ -526,7 +526,7 @@
         {
           "id": "fr-msn-l7-02",
           "prompt": "8 + 5 = ?",
-          "promptTts": "Combien font huit plus cinq ?",
+          "promptTts": "Combien font huit plus cinq ? Choisis le bon nombre.",
           "choices": [
             "12",
             "13",
@@ -538,7 +538,7 @@
         {
           "id": "fr-msn-l7-03",
           "prompt": "7 + 7 = ?",
-          "promptTts": "Combien font sept plus sept ?",
+          "promptTts": "Combien font sept plus sept ? Choisis le bon nombre.",
           "choices": [
             "13",
             "14",
@@ -550,7 +550,7 @@
         {
           "id": "fr-msn-l7-04",
           "prompt": "11 + 3 = ?",
-          "promptTts": "Combien font onze plus trois ?",
+          "promptTts": "Combien font onze plus trois ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "14"
@@ -561,7 +561,7 @@
         {
           "id": "fr-msn-l7-05",
           "prompt": "9 + 6 = ?",
-          "promptTts": "Combien font neuf plus six ?",
+          "promptTts": "Combien font neuf plus six ? Choisis le bon nombre.",
           "choices": [
             "14",
             "15",
@@ -582,7 +582,7 @@
         {
           "id": "fr-msn-l8-01",
           "prompt": "12 − 4 = ?",
-          "promptTts": "Combien font douze moins quatre ?",
+          "promptTts": "Combien font douze moins quatre ? Choisis le bon nombre.",
           "choices": [
             "7",
             "8",
@@ -594,7 +594,7 @@
         {
           "id": "fr-msn-l8-02",
           "prompt": "15 − 6 = ?",
-          "promptTts": "Combien font quinze moins six ?",
+          "promptTts": "Combien font quinze moins six ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -605,7 +605,7 @@
         {
           "id": "fr-msn-l8-03",
           "prompt": "11 − 3 = ?",
-          "promptTts": "Combien font onze moins trois ?",
+          "promptTts": "Combien font onze moins trois ? Choisis le bon nombre.",
           "choices": [
             "7",
             "8",
@@ -617,7 +617,7 @@
         {
           "id": "fr-msn-l8-04",
           "prompt": "14 − 5 = ?",
-          "promptTts": "Combien font quatorze moins cinq ?",
+          "promptTts": "Combien font quatorze moins cinq ? Choisis le bon nombre.",
           "choices": [
             "8",
             "9",
@@ -629,7 +629,7 @@
         {
           "id": "fr-msn-l8-05",
           "prompt": "18 − 9 = ?",
-          "promptTts": "Combien font dix-huit moins neuf ?",
+          "promptTts": "Combien font dix-huit moins neuf ? Choisis le bon nombre.",
           "choices": [
             "8",
             "9",
@@ -650,7 +650,7 @@
         {
           "id": "fr-msn-l9-01",
           "prompt": "2 + 2 = ?",
-          "promptTts": "Combien font deux plus deux ?",
+          "promptTts": "Combien font deux plus deux ? Choisis le bon nombre.",
           "choices": [
             "3",
             "4",
@@ -662,7 +662,7 @@
         {
           "id": "fr-msn-l9-02",
           "prompt": "4 + 4 = ?",
-          "promptTts": "Combien font quatre plus quatre ?",
+          "promptTts": "Combien font quatre plus quatre ? Choisis le bon nombre.",
           "choices": [
             "7",
             "8",
@@ -674,7 +674,7 @@
         {
           "id": "fr-msn-l9-03",
           "prompt": "5 + 5 = ?",
-          "promptTts": "Combien font cinq plus cinq ?",
+          "promptTts": "Combien font cinq plus cinq ? Choisis le bon nombre.",
           "choices": [
             "9",
             "10",
@@ -686,7 +686,7 @@
         {
           "id": "fr-msn-l9-04",
           "prompt": "6 + 6 = ?",
-          "promptTts": "Combien font six plus six ?",
+          "promptTts": "Combien font six plus six ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "12"
@@ -697,7 +697,7 @@
         {
           "id": "fr-msn-l9-05",
           "prompt": "8 + 8 = ?",
-          "promptTts": "Combien font huit plus huit ?",
+          "promptTts": "Combien font huit plus huit ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "16"
@@ -717,7 +717,7 @@
         {
           "id": "fr-msn-l10-01",
           "prompt": "20 + 10 = ?",
-          "promptTts": "Combien font vingt plus dix ?",
+          "promptTts": "Combien font vingt plus dix ? Choisis le bon nombre.",
           "choices": [
             "29",
             "30",
@@ -729,7 +729,7 @@
         {
           "id": "fr-msn-l10-02",
           "prompt": "30 + 5 = ?",
-          "promptTts": "Combien font trente plus cinq ?",
+          "promptTts": "Combien font trente plus cinq ? Choisis le bon nombre.",
           "choices": [
             "34",
             "35",
@@ -741,7 +741,7 @@
         {
           "id": "fr-msn-l10-03",
           "prompt": "40 + 4 = ?",
-          "promptTts": "Combien font quarante plus quatre ?",
+          "promptTts": "Combien font quarante plus quatre ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "44"
@@ -752,7 +752,7 @@
         {
           "id": "fr-msn-l10-04",
           "prompt": "20 − 5 = ?",
-          "promptTts": "Combien font vingt moins cinq ?",
+          "promptTts": "Combien font vingt moins cinq ? Choisis le bon nombre.",
           "choices": [
             "14",
             "15",
@@ -764,7 +764,7 @@
         {
           "id": "fr-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Écris vingt-cinq",
+          "promptTts": "Écris le nombre vingt-cinq, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -784,7 +784,7 @@
         {
           "id": "fr-msn-l11-01",
           "prompt": "21 + 8 = ?",
-          "promptTts": "Combien font vingt-et-un plus huit ?",
+          "promptTts": "Combien font vingt-et-un plus huit ? Choisis le bon nombre.",
           "choices": [
             "28",
             "29",
@@ -796,7 +796,7 @@
         {
           "id": "fr-msn-l11-02",
           "prompt": "40 − 10 = ?",
-          "promptTts": "Combien font quarante moins dix ?",
+          "promptTts": "Combien font quarante moins dix ? Choisis le bon nombre.",
           "choices": [
             "29",
             "30",
@@ -808,7 +808,7 @@
         {
           "id": "fr-msn-l11-03",
           "prompt": "15 + 15 = ?",
-          "promptTts": "Combien font quinze plus quinze ?",
+          "promptTts": "Combien font quinze plus quinze ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "30"
@@ -819,7 +819,7 @@
         {
           "id": "fr-msn-l11-04",
           "prompt": "33 − 3 = ?",
-          "promptTts": "Combien font trente-trois moins trois ?",
+          "promptTts": "Combien font trente-trois moins trois ? Choisis le bon nombre.",
           "choices": [
             "29",
             "30",
@@ -831,7 +831,7 @@
         {
           "id": "fr-msn-l11-05",
           "prompt": "12 + 18 = ?",
-          "promptTts": "Combien font douze plus dix-huit ?",
+          "promptTts": "Combien font douze plus dix-huit ? Choisis le bon nombre.",
           "choices": [
             "29",
             "30",
@@ -852,7 +852,7 @@
         {
           "id": "fr-msn-l12-01",
           "prompt": "50 + 20 = ?",
-          "promptTts": "Combien font cinquante plus vingt ?",
+          "promptTts": "Combien font cinquante plus vingt ? Choisis le bon nombre.",
           "choices": [
             "69",
             "70",
@@ -864,7 +864,7 @@
         {
           "id": "fr-msn-l12-02",
           "prompt": "40 + 40 = ?",
-          "promptTts": "Combien font quarante plus quarante ?",
+          "promptTts": "Combien font quarante plus quarante ? Choisis le bon nombre.",
           "choices": [
             "79",
             "80",
@@ -876,7 +876,7 @@
         {
           "id": "fr-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Écris cent",
+          "promptTts": "Écris le nombre cent, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -887,7 +887,7 @@
         {
           "id": "fr-msn-l12-04",
           "prompt": "90 − 10 = ?",
-          "promptTts": "Combien font quatre-vingt-dix moins dix ?",
+          "promptTts": "Combien font quatre-vingt-dix moins dix ? Choisis le bon nombre.",
           "choices": [
             "79",
             "80",
@@ -899,7 +899,7 @@
         {
           "id": "fr-msn-l12-05",
           "prompt": "60 + 7 = ?",
-          "promptTts": "Combien font soixante plus sept ?",
+          "promptTts": "Combien font soixante plus sept ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "67"
@@ -919,7 +919,7 @@
         {
           "id": "fr-msn-l13-01",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -931,7 +931,7 @@
         {
           "id": "fr-msn-l13-02",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -943,7 +943,7 @@
         {
           "id": "fr-msn-l13-03",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -955,7 +955,7 @@
         {
           "id": "fr-msn-l13-04",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -967,7 +967,7 @@
         {
           "id": "fr-msn-l13-05",
           "prompt": "Écris oui ou non : 🐱",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Écris le mot oui ou non, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oui"
@@ -988,7 +988,7 @@
         {
           "id": "fr-msn-l14-01",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "fr-msn-l14-02",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "fr-msn-l14-03",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "fr-msn-l14-04",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Plante ou animal ?",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "fr-msn-l14-05",
           "prompt": "Écris : plante ou animal — 🌼",
-          "promptTts": "Plante ou animal ?",
+          "promptTts": "Écris le mot plante ou animal, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plante"
@@ -1057,7 +1057,7 @@
         {
           "id": "fr-msn-l15-01",
           "prompt": "Quelle saison ?",
-          "promptTts": "Quelle saison ?",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "été",
             "hiver",
@@ -1070,7 +1070,7 @@
         {
           "id": "fr-msn-l15-02",
           "prompt": "Quelle saison ?",
-          "promptTts": "Quelle saison ?",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "hiver",
             "printemps",
@@ -1083,7 +1083,7 @@
         {
           "id": "fr-msn-l15-03",
           "prompt": "Quelle saison ?",
-          "promptTts": "Quelle saison ?",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "printemps",
             "automne",
@@ -1096,7 +1096,7 @@
         {
           "id": "fr-msn-l15-04",
           "prompt": "Quelle saison ?",
-          "promptTts": "Quelle saison ?",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "automne",
             "été",
@@ -1109,7 +1109,7 @@
         {
           "id": "fr-msn-l15-05",
           "prompt": "Écris : hiver",
-          "promptTts": "Écris hiver",
+          "promptTts": "Écris le mot hiver, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "hiver"
@@ -1130,7 +1130,7 @@
         {
           "id": "fr-msn-l16-01",
           "prompt": "Quel sens ?",
-          "promptTts": "Quel sens ?",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "voir",
             "entendre",
@@ -1143,7 +1143,7 @@
         {
           "id": "fr-msn-l16-02",
           "prompt": "Quel sens ?",
-          "promptTts": "Quel sens ?",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "entendre",
             "sentir",
@@ -1156,7 +1156,7 @@
         {
           "id": "fr-msn-l16-03",
           "prompt": "Quel sens ?",
-          "promptTts": "Quel sens ?",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "sentir",
             "goûter",
@@ -1169,7 +1169,7 @@
         {
           "id": "fr-msn-l16-04",
           "prompt": "Quel sens ?",
-          "promptTts": "Quel sens ?",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "goûter",
             "voir",
@@ -1182,7 +1182,7 @@
         {
           "id": "fr-msn-l16-05",
           "prompt": "Écris : voir",
-          "promptTts": "Écris voir",
+          "promptTts": "Écris le mot voir, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "voir"
@@ -1241,7 +1241,7 @@
         {
           "id": "fr-msn-l17-04",
           "prompt": "Écris : eau",
-          "promptTts": "Écris eau",
+          "promptTts": "Écris le mot eau, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "eau"
@@ -1253,7 +1253,7 @@
         {
           "id": "fr-msn-l17-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "Combien font deux plus trois ?",
+          "promptTts": "Combien font deux plus trois ? Choisis le bon nombre.",
           "choices": [
             "4",
             "5",
@@ -1274,7 +1274,7 @@
         {
           "id": "fr-msn-l18-01",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ?",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "cercle",
             "carré",
@@ -1287,7 +1287,7 @@
         {
           "id": "fr-msn-l18-02",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ?",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "carré",
             "triangle",
@@ -1300,7 +1300,7 @@
         {
           "id": "fr-msn-l18-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ?",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "triangle",
             "rectangle",
@@ -1313,7 +1313,7 @@
         {
           "id": "fr-msn-l18-04",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ?",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "rectangle",
             "cercle",
@@ -1326,7 +1326,7 @@
         {
           "id": "fr-msn-l18-05",
           "prompt": "Écris : cercle",
-          "promptTts": "Écris cercle",
+          "promptTts": "Écris le mot cercle, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cercle"
@@ -1369,7 +1369,7 @@
         {
           "id": "fr-msn-l19-03",
           "prompt": "10 + 10 = ?",
-          "promptTts": "Combien font dix plus dix ?",
+          "promptTts": "Combien font dix plus dix ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "20"
@@ -1392,7 +1392,7 @@
         {
           "id": "fr-msn-l19-05",
           "prompt": "8 − 3 = ?",
-          "promptTts": "Combien font huit moins trois ?",
+          "promptTts": "Combien font huit moins trois ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -1412,7 +1412,7 @@
         {
           "id": "fr-msn-l20-01",
           "prompt": "9 + 8 = ?",
-          "promptTts": "Combien font neuf plus huit ?",
+          "promptTts": "Combien font neuf plus huit ? Choisis le bon nombre.",
           "choices": [
             "16",
             "17",
@@ -1424,7 +1424,7 @@
         {
           "id": "fr-msn-l20-02",
           "prompt": "16 − 7 = ?",
-          "promptTts": "Combien font seize moins sept ?",
+          "promptTts": "Combien font seize moins sept ? Choisis le bon nombre.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -1435,7 +1435,7 @@
         {
           "id": "fr-msn-l20-03",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Est-ce vivant ?",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -1447,7 +1447,7 @@
         {
           "id": "fr-msn-l20-04",
           "prompt": "Écris : cercle",
-          "promptTts": "Écris cercle",
+          "promptTts": "Écris le mot cercle, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cercle"
@@ -1458,7 +1458,7 @@
         {
           "id": "fr-msn-l20-05",
           "prompt": "Combien ?",
-          "promptTts": "Combien de étoiles vois-tu ?",
+          "promptTts": "Combien d'étoiles vois-tu ? Compte-les bien.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"

@@ -23,7 +23,7 @@
         {
           "id": "en-msn-l1-01",
           "prompt": "1 + 1 = ?",
-          "promptTts": "What is one plus one?",
+          "promptTts": "What is one plus one? Choose the right number.",
           "choices": [
             "1",
             "2",
@@ -35,7 +35,7 @@
         {
           "id": "en-msn-l1-02",
           "prompt": "How many?",
-          "promptTts": "How many flowers do you see?",
+          "promptTts": "How many flowers do you see? Count them carefully.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -51,7 +51,7 @@
         {
           "id": "en-msn-l1-03",
           "prompt": "How many?",
-          "promptTts": "How many apples do you see?",
+          "promptTts": "How many apples do you see? Count them carefully.",
           "choices": [
             "1",
             "2",
@@ -67,7 +67,7 @@
         {
           "id": "en-msn-l1-04",
           "prompt": "How many?",
-          "promptTts": "How many stars do you see?",
+          "promptTts": "How many stars do you see? Count them carefully.",
           "choices": [
             "0",
             "1",
@@ -82,7 +82,7 @@
         {
           "id": "en-msn-l1-05",
           "prompt": "2 + 1 = ?",
-          "promptTts": "What is two plus one?",
+          "promptTts": "What is two plus one? Choose the right number.",
           "choices": [
             "2",
             "3",
@@ -103,7 +103,7 @@
         {
           "id": "en-msn-l2-01",
           "prompt": "How many?",
-          "promptTts": "How many apples do you see?",
+          "promptTts": "How many apples do you see? Count them carefully.",
           "choices": [
             "3",
             "4",
@@ -121,7 +121,7 @@
         {
           "id": "en-msn-l2-02",
           "prompt": "How many?",
-          "promptTts": "How many stars do you see?",
+          "promptTts": "How many stars do you see? Count them carefully.",
           "choices": [
             "4",
             "5",
@@ -140,7 +140,7 @@
         {
           "id": "en-msn-l2-03",
           "prompt": "How many?",
-          "promptTts": "How many frogs do you see?",
+          "promptTts": "How many frogs do you see? Count them carefully.",
           "choices": [
             "1",
             "2",
@@ -156,7 +156,7 @@
         {
           "id": "en-msn-l2-04",
           "prompt": "How many?",
-          "promptTts": "How many dots do you see?",
+          "promptTts": "How many dots do you see? Count them carefully.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -172,7 +172,7 @@
         {
           "id": "en-msn-l2-05",
           "prompt": "2 + 2 = ?",
-          "promptTts": "What is two plus two?",
+          "promptTts": "What is two plus two? Choose the right number.",
           "choices": [
             "3",
             "4",
@@ -193,7 +193,7 @@
         {
           "id": "en-msn-l3-01",
           "prompt": "How many?",
-          "promptTts": "How many apples do you see?",
+          "promptTts": "How many apples do you see? Count them carefully.",
           "choices": [
             "6",
             "7",
@@ -214,7 +214,7 @@
         {
           "id": "en-msn-l3-02",
           "prompt": "How many?",
-          "promptTts": "How many stars do you see?",
+          "promptTts": "How many stars do you see? Count them carefully.",
           "choices": [
             "7",
             "8",
@@ -236,7 +236,7 @@
         {
           "id": "en-msn-l3-03",
           "prompt": "How many?",
-          "promptTts": "How many flowers do you see?",
+          "promptTts": "How many flowers do you see? Count them carefully.",
           "choices": [
             "9",
             "10",
@@ -260,7 +260,7 @@
         {
           "id": "en-msn-l3-04",
           "prompt": "How many?",
-          "promptTts": "How many dots do you see?",
+          "promptTts": "How many dots do you see? Count them carefully.",
           "answerMode": "type",
           "acceptedAnswers": [
             "6"
@@ -279,7 +279,7 @@
         {
           "id": "en-msn-l3-05",
           "prompt": "How many?",
-          "promptTts": "How many frogs do you see?",
+          "promptTts": "How many frogs do you see? Count them carefully.",
           "choices": [
             "8",
             "9",
@@ -311,7 +311,7 @@
         {
           "id": "en-msn-l4-01",
           "prompt": "1 + 2 = ?",
-          "promptTts": "What is one plus two?",
+          "promptTts": "What is one plus two? Choose the right number.",
           "choices": [
             "2",
             "3",
@@ -323,7 +323,7 @@
         {
           "id": "en-msn-l4-02",
           "prompt": "2 + 2 = ?",
-          "promptTts": "What is two plus two?",
+          "promptTts": "What is two plus two? Choose the right number.",
           "choices": [
             "3",
             "4",
@@ -335,7 +335,7 @@
         {
           "id": "en-msn-l4-03",
           "prompt": "3 + 1 = ?",
-          "promptTts": "What is three plus one?",
+          "promptTts": "What is three plus one? Choose the right number.",
           "choices": [
             "3",
             "4",
@@ -347,7 +347,7 @@
         {
           "id": "en-msn-l4-04",
           "prompt": "4 + 1 = ?",
-          "promptTts": "What is four plus one?",
+          "promptTts": "What is four plus one? Choose the right number.",
           "choices": [
             "4",
             "5",
@@ -359,7 +359,7 @@
         {
           "id": "en-msn-l4-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "What is two plus three?",
+          "promptTts": "What is two plus three? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -379,7 +379,7 @@
         {
           "id": "en-msn-l5-01",
           "prompt": "4 + 3 = ?",
-          "promptTts": "What is four plus three?",
+          "promptTts": "What is four plus three? Choose the right number.",
           "choices": [
             "6",
             "7",
@@ -391,7 +391,7 @@
         {
           "id": "en-msn-l5-02",
           "prompt": "5 + 2 = ?",
-          "promptTts": "What is five plus two?",
+          "promptTts": "What is five plus two? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "7"
@@ -402,7 +402,7 @@
         {
           "id": "en-msn-l5-03",
           "prompt": "6 + 4 = ?",
-          "promptTts": "What is six plus four?",
+          "promptTts": "What is six plus four? Choose the right number.",
           "choices": [
             "9",
             "10",
@@ -414,7 +414,7 @@
         {
           "id": "en-msn-l5-04",
           "prompt": "7 + 2 = ?",
-          "promptTts": "What is seven plus two?",
+          "promptTts": "What is seven plus two? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -425,7 +425,7 @@
         {
           "id": "en-msn-l5-05",
           "prompt": "3 + 5 = ?",
-          "promptTts": "What is three plus five?",
+          "promptTts": "What is three plus five? Choose the right number.",
           "choices": [
             "7",
             "8",
@@ -446,7 +446,7 @@
         {
           "id": "en-msn-l6-01",
           "prompt": "5 − 2 = ?",
-          "promptTts": "What is five minus two?",
+          "promptTts": "What is five minus two? Choose the right number.",
           "choices": [
             "2",
             "3",
@@ -458,7 +458,7 @@
         {
           "id": "en-msn-l6-02",
           "prompt": "6 − 1 = ?",
-          "promptTts": "What is six minus one?",
+          "promptTts": "What is six minus one? Choose the right number.",
           "choices": [
             "4",
             "5",
@@ -470,7 +470,7 @@
         {
           "id": "en-msn-l6-03",
           "prompt": "8 − 3 = ?",
-          "promptTts": "What is eight minus three?",
+          "promptTts": "What is eight minus three? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -481,7 +481,7 @@
         {
           "id": "en-msn-l6-04",
           "prompt": "9 − 4 = ?",
-          "promptTts": "What is nine minus four?",
+          "promptTts": "What is nine minus four? Choose the right number.",
           "choices": [
             "4",
             "5",
@@ -493,7 +493,7 @@
         {
           "id": "en-msn-l6-05",
           "prompt": "7 − 5 = ?",
-          "promptTts": "What is seven minus five?",
+          "promptTts": "What is seven minus five? Choose the right number.",
           "choices": [
             "1",
             "2",
@@ -514,7 +514,7 @@
         {
           "id": "en-msn-l7-01",
           "prompt": "10 + 4 = ?",
-          "promptTts": "What is ten plus four?",
+          "promptTts": "What is ten plus four? Choose the right number.",
           "choices": [
             "13",
             "14",
@@ -526,7 +526,7 @@
         {
           "id": "en-msn-l7-02",
           "prompt": "8 + 5 = ?",
-          "promptTts": "What is eight plus five?",
+          "promptTts": "What is eight plus five? Choose the right number.",
           "choices": [
             "12",
             "13",
@@ -538,7 +538,7 @@
         {
           "id": "en-msn-l7-03",
           "prompt": "7 + 7 = ?",
-          "promptTts": "What is seven plus seven?",
+          "promptTts": "What is seven plus seven? Choose the right number.",
           "choices": [
             "13",
             "14",
@@ -550,7 +550,7 @@
         {
           "id": "en-msn-l7-04",
           "prompt": "11 + 3 = ?",
-          "promptTts": "What is eleven plus three?",
+          "promptTts": "What is eleven plus three? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "14"
@@ -561,7 +561,7 @@
         {
           "id": "en-msn-l7-05",
           "prompt": "9 + 6 = ?",
-          "promptTts": "What is nine plus six?",
+          "promptTts": "What is nine plus six? Choose the right number.",
           "choices": [
             "14",
             "15",
@@ -582,7 +582,7 @@
         {
           "id": "en-msn-l8-01",
           "prompt": "12 − 4 = ?",
-          "promptTts": "What is twelve minus four?",
+          "promptTts": "What is twelve minus four? Choose the right number.",
           "choices": [
             "7",
             "8",
@@ -594,7 +594,7 @@
         {
           "id": "en-msn-l8-02",
           "prompt": "15 − 6 = ?",
-          "promptTts": "What is fifteen minus six?",
+          "promptTts": "What is fifteen minus six? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -605,7 +605,7 @@
         {
           "id": "en-msn-l8-03",
           "prompt": "11 − 3 = ?",
-          "promptTts": "What is eleven minus three?",
+          "promptTts": "What is eleven minus three? Choose the right number.",
           "choices": [
             "7",
             "8",
@@ -617,7 +617,7 @@
         {
           "id": "en-msn-l8-04",
           "prompt": "14 − 5 = ?",
-          "promptTts": "What is fourteen minus five?",
+          "promptTts": "What is fourteen minus five? Choose the right number.",
           "choices": [
             "8",
             "9",
@@ -629,7 +629,7 @@
         {
           "id": "en-msn-l8-05",
           "prompt": "18 − 9 = ?",
-          "promptTts": "What is eighteen minus nine?",
+          "promptTts": "What is eighteen minus nine? Choose the right number.",
           "choices": [
             "8",
             "9",
@@ -650,7 +650,7 @@
         {
           "id": "en-msn-l9-01",
           "prompt": "2 + 2 = ?",
-          "promptTts": "What is two plus two?",
+          "promptTts": "What is two plus two? Choose the right number.",
           "choices": [
             "3",
             "4",
@@ -662,7 +662,7 @@
         {
           "id": "en-msn-l9-02",
           "prompt": "4 + 4 = ?",
-          "promptTts": "What is four plus four?",
+          "promptTts": "What is four plus four? Choose the right number.",
           "choices": [
             "7",
             "8",
@@ -674,7 +674,7 @@
         {
           "id": "en-msn-l9-03",
           "prompt": "5 + 5 = ?",
-          "promptTts": "What is five plus five?",
+          "promptTts": "What is five plus five? Choose the right number.",
           "choices": [
             "9",
             "10",
@@ -686,7 +686,7 @@
         {
           "id": "en-msn-l9-04",
           "prompt": "6 + 6 = ?",
-          "promptTts": "What is six plus six?",
+          "promptTts": "What is six plus six? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "12"
@@ -697,7 +697,7 @@
         {
           "id": "en-msn-l9-05",
           "prompt": "8 + 8 = ?",
-          "promptTts": "What is eight plus eight?",
+          "promptTts": "What is eight plus eight? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "16"
@@ -717,7 +717,7 @@
         {
           "id": "en-msn-l10-01",
           "prompt": "20 + 10 = ?",
-          "promptTts": "What is twenty plus ten?",
+          "promptTts": "What is twenty plus ten? Choose the right number.",
           "choices": [
             "29",
             "30",
@@ -729,7 +729,7 @@
         {
           "id": "en-msn-l10-02",
           "prompt": "30 + 5 = ?",
-          "promptTts": "What is thirty plus five?",
+          "promptTts": "What is thirty plus five? Choose the right number.",
           "choices": [
             "34",
             "35",
@@ -741,7 +741,7 @@
         {
           "id": "en-msn-l10-03",
           "prompt": "40 + 4 = ?",
-          "promptTts": "What is forty plus four?",
+          "promptTts": "What is forty plus four? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "44"
@@ -752,7 +752,7 @@
         {
           "id": "en-msn-l10-04",
           "prompt": "20 − 5 = ?",
-          "promptTts": "What is twenty minus five?",
+          "promptTts": "What is twenty minus five? Choose the right number.",
           "choices": [
             "14",
             "15",
@@ -764,7 +764,7 @@
         {
           "id": "en-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Type twenty-five",
+          "promptTts": "Please type the number twenty-five.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -784,7 +784,7 @@
         {
           "id": "en-msn-l11-01",
           "prompt": "21 + 8 = ?",
-          "promptTts": "What is twenty-one plus eight?",
+          "promptTts": "What is twenty-one plus eight? Choose the right number.",
           "choices": [
             "28",
             "29",
@@ -796,7 +796,7 @@
         {
           "id": "en-msn-l11-02",
           "prompt": "40 − 10 = ?",
-          "promptTts": "What is forty minus ten?",
+          "promptTts": "What is forty minus ten? Choose the right number.",
           "choices": [
             "29",
             "30",
@@ -808,7 +808,7 @@
         {
           "id": "en-msn-l11-03",
           "prompt": "15 + 15 = ?",
-          "promptTts": "What is fifteen plus fifteen?",
+          "promptTts": "What is fifteen plus fifteen? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "30"
@@ -819,7 +819,7 @@
         {
           "id": "en-msn-l11-04",
           "prompt": "33 − 3 = ?",
-          "promptTts": "What is thirty-three minus three?",
+          "promptTts": "What is thirty-three minus three? Choose the right number.",
           "choices": [
             "29",
             "30",
@@ -831,7 +831,7 @@
         {
           "id": "en-msn-l11-05",
           "prompt": "12 + 18 = ?",
-          "promptTts": "What is twelve plus eighteen?",
+          "promptTts": "What is twelve plus eighteen? Choose the right number.",
           "choices": [
             "29",
             "30",
@@ -852,7 +852,7 @@
         {
           "id": "en-msn-l12-01",
           "prompt": "50 + 20 = ?",
-          "promptTts": "What is fifty plus twenty?",
+          "promptTts": "What is fifty plus twenty? Choose the right number.",
           "choices": [
             "69",
             "70",
@@ -864,7 +864,7 @@
         {
           "id": "en-msn-l12-02",
           "prompt": "40 + 40 = ?",
-          "promptTts": "What is forty plus forty?",
+          "promptTts": "What is forty plus forty? Choose the right number.",
           "choices": [
             "79",
             "80",
@@ -876,7 +876,7 @@
         {
           "id": "en-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Type one hundred",
+          "promptTts": "Please type the number one hundred.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -887,7 +887,7 @@
         {
           "id": "en-msn-l12-04",
           "prompt": "90 − 10 = ?",
-          "promptTts": "What is ninety minus ten?",
+          "promptTts": "What is ninety minus ten? Choose the right number.",
           "choices": [
             "79",
             "80",
@@ -899,7 +899,7 @@
         {
           "id": "en-msn-l12-05",
           "prompt": "60 + 7 = ?",
-          "promptTts": "What is sixty plus seven?",
+          "promptTts": "What is sixty plus seven? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "67"
@@ -919,7 +919,7 @@
         {
           "id": "en-msn-l13-01",
           "prompt": "Is it living?",
-          "promptTts": "Is it living?",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -931,7 +931,7 @@
         {
           "id": "en-msn-l13-02",
           "prompt": "Is it living?",
-          "promptTts": "Is it living?",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -943,7 +943,7 @@
         {
           "id": "en-msn-l13-03",
           "prompt": "Is it living?",
-          "promptTts": "Is it living?",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -955,7 +955,7 @@
         {
           "id": "en-msn-l13-04",
           "prompt": "Is it living?",
-          "promptTts": "Is it living?",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -967,7 +967,7 @@
         {
           "id": "en-msn-l13-05",
           "prompt": "Type yes or no: 🐱",
-          "promptTts": "Is it living?",
+          "promptTts": "Please type the word yes or no.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yes"
@@ -988,7 +988,7 @@
         {
           "id": "en-msn-l14-01",
           "prompt": "Plant or animal?",
-          "promptTts": "Plant or animal?",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "en-msn-l14-02",
           "prompt": "Plant or animal?",
-          "promptTts": "Plant or animal?",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "en-msn-l14-03",
           "prompt": "Plant or animal?",
-          "promptTts": "Plant or animal?",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "en-msn-l14-04",
           "prompt": "Plant or animal?",
-          "promptTts": "Plant or animal?",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "en-msn-l14-05",
           "prompt": "Type: plant or animal — 🌼",
-          "promptTts": "Plant or animal?",
+          "promptTts": "Please type the word plant or animal.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plant"
@@ -1057,7 +1057,7 @@
         {
           "id": "en-msn-l15-01",
           "prompt": "Which season?",
-          "promptTts": "Which season?",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "summer",
             "winter",
@@ -1070,7 +1070,7 @@
         {
           "id": "en-msn-l15-02",
           "prompt": "Which season?",
-          "promptTts": "Which season?",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "winter",
             "spring",
@@ -1083,7 +1083,7 @@
         {
           "id": "en-msn-l15-03",
           "prompt": "Which season?",
-          "promptTts": "Which season?",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "spring",
             "autumn",
@@ -1096,7 +1096,7 @@
         {
           "id": "en-msn-l15-04",
           "prompt": "Which season?",
-          "promptTts": "Which season?",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "autumn",
             "summer",
@@ -1109,7 +1109,7 @@
         {
           "id": "en-msn-l15-05",
           "prompt": "Type: winter",
-          "promptTts": "Type winter",
+          "promptTts": "Please type the word winter.",
           "answerMode": "type",
           "acceptedAnswers": [
             "winter"
@@ -1130,7 +1130,7 @@
         {
           "id": "en-msn-l16-01",
           "prompt": "Which sense?",
-          "promptTts": "Which sense?",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "see",
             "hear",
@@ -1143,7 +1143,7 @@
         {
           "id": "en-msn-l16-02",
           "prompt": "Which sense?",
-          "promptTts": "Which sense?",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "hear",
             "smell",
@@ -1156,7 +1156,7 @@
         {
           "id": "en-msn-l16-03",
           "prompt": "Which sense?",
-          "promptTts": "Which sense?",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "smell",
             "taste",
@@ -1169,7 +1169,7 @@
         {
           "id": "en-msn-l16-04",
           "prompt": "Which sense?",
-          "promptTts": "Which sense?",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "taste",
             "see",
@@ -1182,7 +1182,7 @@
         {
           "id": "en-msn-l16-05",
           "prompt": "Type: see",
-          "promptTts": "Type see",
+          "promptTts": "Please type the word see.",
           "answerMode": "type",
           "acceptedAnswers": [
             "see"
@@ -1241,7 +1241,7 @@
         {
           "id": "en-msn-l17-04",
           "prompt": "Type: water",
-          "promptTts": "Type water",
+          "promptTts": "Please type the word water.",
           "answerMode": "type",
           "acceptedAnswers": [
             "water"
@@ -1253,7 +1253,7 @@
         {
           "id": "en-msn-l17-05",
           "prompt": "2 + 3 = ?",
-          "promptTts": "What is two plus three?",
+          "promptTts": "What is two plus three? Choose the right number.",
           "choices": [
             "4",
             "5",
@@ -1274,7 +1274,7 @@
         {
           "id": "en-msn-l18-01",
           "prompt": "Which shape?",
-          "promptTts": "Which shape?",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "circle",
             "square",
@@ -1287,7 +1287,7 @@
         {
           "id": "en-msn-l18-02",
           "prompt": "Which shape?",
-          "promptTts": "Which shape?",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "square",
             "triangle",
@@ -1300,7 +1300,7 @@
         {
           "id": "en-msn-l18-03",
           "prompt": "Which shape?",
-          "promptTts": "Which shape?",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "triangle",
             "rectangle",
@@ -1313,7 +1313,7 @@
         {
           "id": "en-msn-l18-04",
           "prompt": "Which shape?",
-          "promptTts": "Which shape?",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "rectangle",
             "circle",
@@ -1326,7 +1326,7 @@
         {
           "id": "en-msn-l18-05",
           "prompt": "Type: circle",
-          "promptTts": "Type circle",
+          "promptTts": "Please type the word circle.",
           "answerMode": "type",
           "acceptedAnswers": [
             "circle"
@@ -1347,7 +1347,7 @@
         {
           "id": "en-msn-l19-01",
           "prompt": "Which is longer?",
-          "promptTts": "Which is longer?",
+          "promptTts": "Which is longer? Choose the right answer.",
           "choices": [
             "—",
             "-"
@@ -1369,7 +1369,7 @@
         {
           "id": "en-msn-l19-03",
           "prompt": "10 + 10 = ?",
-          "promptTts": "What is ten plus ten?",
+          "promptTts": "What is ten plus ten? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "20"
@@ -1392,7 +1392,7 @@
         {
           "id": "en-msn-l19-05",
           "prompt": "8 − 3 = ?",
-          "promptTts": "What is eight minus three?",
+          "promptTts": "What is eight minus three? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"
@@ -1412,7 +1412,7 @@
         {
           "id": "en-msn-l20-01",
           "prompt": "9 + 8 = ?",
-          "promptTts": "What is nine plus eight?",
+          "promptTts": "What is nine plus eight? Choose the right number.",
           "choices": [
             "16",
             "17",
@@ -1424,7 +1424,7 @@
         {
           "id": "en-msn-l20-02",
           "prompt": "16 − 7 = ?",
-          "promptTts": "What is sixteen minus seven?",
+          "promptTts": "What is sixteen minus seven? Choose the right number.",
           "answerMode": "type",
           "acceptedAnswers": [
             "9"
@@ -1435,7 +1435,7 @@
         {
           "id": "en-msn-l20-03",
           "prompt": "Is it living?",
-          "promptTts": "Is it living?",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -1447,7 +1447,7 @@
         {
           "id": "en-msn-l20-04",
           "prompt": "Type: circle",
-          "promptTts": "Type circle",
+          "promptTts": "Please type the word circle.",
           "answerMode": "type",
           "acceptedAnswers": [
             "circle"
@@ -1458,7 +1458,7 @@
         {
           "id": "en-msn-l20-05",
           "prompt": "How many?",
-          "promptTts": "How many stars do you see?",
+          "promptTts": "How many stars do you see? Count them carefully.",
           "answerMode": "type",
           "acceptedAnswers": [
             "5"

@@ -23,7 +23,7 @@
         {
           "id": "fr-num-l1-01",
           "prompt": "Quel appareil ?",
-          "promptTts": "ordinateur",
+          "promptTts": "Quel appareil ? Écoute: ordinateur.",
           "choices": [
             "ordinateur",
             "ballon",
@@ -36,7 +36,7 @@
         {
           "id": "fr-num-l1-02",
           "prompt": "Quel appareil ?",
-          "promptTts": "tablette",
+          "promptTts": "Quel appareil ? Écoute: tablette.",
           "choices": [
             "tablette",
             "crayon",
@@ -49,7 +49,7 @@
         {
           "id": "fr-num-l1-03",
           "prompt": "Quel appareil ?",
-          "promptTts": "téléphone",
+          "promptTts": "Quel appareil ? Écoute: téléphone.",
           "choices": [
             "téléphone",
             "cuillère",
@@ -62,7 +62,7 @@
         {
           "id": "fr-num-l1-04",
           "prompt": "Écris : tablette",
-          "promptTts": "Écris tablette",
+          "promptTts": "Écris le mot tablette, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "tablette"
@@ -74,7 +74,7 @@
         {
           "id": "fr-num-l1-05",
           "prompt": "Un ordinateur est-il une machine ?",
-          "promptTts": "oui",
+          "promptTts": "Un ordinateur est-il une machine ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -94,7 +94,7 @@
         {
           "id": "fr-num-l2-01",
           "prompt": "Avec quoi montre-t-on sur l’ordinateur ?",
-          "promptTts": "souris",
+          "promptTts": "Avec quoi montre-t-on sur l’ordinateur ? Écoute: souris.",
           "choices": [
             "souris",
             "mot de passe",
@@ -107,7 +107,7 @@
         {
           "id": "fr-num-l2-02",
           "prompt": "Avec quoi écrit-on des lettres ?",
-          "promptTts": "clavier",
+          "promptTts": "Avec quoi écrit-on des lettres ? Écoute: clavier.",
           "choices": [
             "clavier",
             "jouet",
@@ -120,7 +120,7 @@
         {
           "id": "fr-num-l2-03",
           "prompt": "Où voit-on l’image ?",
-          "promptTts": "écran",
+          "promptTts": "Où voit-on l’image ? Écoute: écran.",
           "choices": [
             "écran",
             "souris",
@@ -133,7 +133,7 @@
         {
           "id": "fr-num-l2-04",
           "prompt": "Écris : souris",
-          "promptTts": "Écris souris",
+          "promptTts": "Écris le mot souris, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "souris"
@@ -145,7 +145,7 @@
         {
           "id": "fr-num-l2-05",
           "prompt": "Un clavier a-t-il des touches ?",
-          "promptTts": "oui",
+          "promptTts": "Un clavier a-t-il des touches ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -165,7 +165,7 @@
         {
           "id": "fr-num-l3-01",
           "prompt": "Appuyer sur la souris s’appelle souvent…",
-          "promptTts": "cliquer",
+          "promptTts": "Appuyer sur la souris s’appelle souvent… Écoute, le mot est cliquer.",
           "choices": [
             "cliquer",
             "dormir",
@@ -177,7 +177,7 @@
         {
           "id": "fr-num-l3-02",
           "prompt": "Entrer des lettres s’appelle…",
-          "promptTts": "taper",
+          "promptTts": "Entrer des lettres s’appelle… Écoute, le mot est taper.",
           "choices": [
             "taper",
             "courir",
@@ -189,7 +189,7 @@
         {
           "id": "fr-num-l3-03",
           "prompt": "Écris : cliquer",
-          "promptTts": "Écris cliquer",
+          "promptTts": "Écris le mot cliquer, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "cliquer"
@@ -200,7 +200,7 @@
         {
           "id": "fr-num-l3-04",
           "prompt": "Sur une tablette on tape avec le doigt ?",
-          "promptTts": "oui",
+          "promptTts": "Sur une tablette on tape avec le doigt ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -211,7 +211,7 @@
         {
           "id": "fr-num-l3-05",
           "prompt": "Écris le mot : oui",
-          "promptTts": "Écris oui",
+          "promptTts": "Écris le mot oui, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oui"
@@ -231,7 +231,7 @@
         {
           "id": "fr-num-l4-01",
           "prompt": "Une petite image qui ouvre un programme ?",
-          "promptTts": "icône",
+          "promptTts": "Une petite image qui ouvre un programme ? Écoute: icône.",
           "choices": [
             "icône",
             "soupe",
@@ -244,7 +244,7 @@
         {
           "id": "fr-num-l4-02",
           "prompt": "🗑️ est souvent la corbeille ?",
-          "promptTts": "oui",
+          "promptTts": "est souvent la corbeille ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -255,7 +255,7 @@
         {
           "id": "fr-num-l4-03",
           "prompt": "Écris : icône",
-          "promptTts": "Écris icône",
+          "promptTts": "Écris le mot icône, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "icône"
@@ -266,7 +266,7 @@
         {
           "id": "fr-num-l4-04",
           "prompt": "Une icône peut-elle être un appareil photo ?",
-          "promptTts": "oui",
+          "promptTts": "Une icône peut-elle être un appareil photo ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -278,7 +278,7 @@
         {
           "id": "fr-num-l4-05",
           "prompt": "Toutes les icônes sont-elles identiques ?",
-          "promptTts": "non",
+          "promptTts": "Toutes les icônes sont-elles identiques ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -298,7 +298,7 @@
         {
           "id": "fr-num-l5-01",
           "prompt": "Où range-t-on les fichiers ?",
-          "promptTts": "dossier",
+          "promptTts": "Où range-t-on les fichiers ? Écoute: dossier.",
           "choices": [
             "dossier",
             "inconnu",
@@ -311,7 +311,7 @@
         {
           "id": "fr-num-l5-02",
           "prompt": "Un document est souvent un…",
-          "promptTts": "fichier",
+          "promptTts": "Un document est souvent un… Écoute, le mot est fichier.",
           "choices": [
             "fichier",
             "adulte",
@@ -324,7 +324,7 @@
         {
           "id": "fr-num-l5-03",
           "prompt": "Écris : dossier",
-          "promptTts": "Écris dossier",
+          "promptTts": "Écris le mot dossier, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dossier"
@@ -336,7 +336,7 @@
         {
           "id": "fr-num-l5-04",
           "prompt": "Un dossier peut-il contenir beaucoup de fichiers ?",
-          "promptTts": "oui",
+          "promptTts": "Un dossier peut-il contenir beaucoup de fichiers ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -347,7 +347,7 @@
         {
           "id": "fr-num-l5-05",
           "prompt": "Chaque fichier va-t-il à la corbeille ?",
-          "promptTts": "non",
+          "promptTts": "Chaque fichier va-t-il à la corbeille ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -367,7 +367,7 @@
         {
           "id": "fr-num-l6-01",
           "prompt": "Qu’est-ce qui ferme un compte ?",
-          "promptTts": "mot de passe",
+          "promptTts": "Qu’est-ce qui ferme un compte ? Écoute: mot de passe.",
           "choices": [
             "mot de passe",
             "jouet",
@@ -380,7 +380,7 @@
         {
           "id": "fr-num-l6-02",
           "prompt": "Un mot de passe est-il un secret ?",
-          "promptTts": "oui",
+          "promptTts": "Un mot de passe est-il un secret ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -391,7 +391,7 @@
         {
           "id": "fr-num-l6-03",
           "prompt": "Écris : mot de passe",
-          "promptTts": "Écris mot de passe",
+          "promptTts": "Écris le mot mot de passe, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mot de passe"
@@ -402,7 +402,7 @@
         {
           "id": "fr-num-l6-04",
           "prompt": "1234 est très sûr ?",
-          "promptTts": "non",
+          "promptTts": "1234 est très sûr ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -413,7 +413,7 @@
         {
           "id": "fr-num-l6-05",
           "prompt": "Choisir un long mot de passe avec un adulte ?",
-          "promptTts": "oui",
+          "promptTts": "Choisir un long mot de passe avec un adulte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -433,7 +433,7 @@
         {
           "id": "fr-num-l7-01",
           "prompt": "Peut-on dire le mot de passe à toute la classe ?",
-          "promptTts": "non",
+          "promptTts": "Peut-on dire le mot de passe à toute la classe ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -444,7 +444,7 @@
         {
           "id": "fr-num-l7-02",
           "prompt": "Le mot de passe est…",
-          "promptTts": "secret",
+          "promptTts": "Le mot de passe est… Écoute, le mot est secret.",
           "choices": [
             "secret",
             "jouet",
@@ -456,7 +456,7 @@
         {
           "id": "fr-num-l7-03",
           "prompt": "Écris : secret",
-          "promptTts": "Écris secret",
+          "promptTts": "Écris le mot secret, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "secret"
@@ -467,7 +467,7 @@
         {
           "id": "fr-num-l7-04",
           "prompt": "Peut-on le dire à un adulte de confiance si on a besoin d’aide ?",
-          "promptTts": "oui",
+          "promptTts": "Peut-on le dire à un adulte de confiance si on a besoin d’aide ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -478,7 +478,7 @@
         {
           "id": "fr-num-l7-05",
           "prompt": "Le coller sur l’écran ?",
-          "promptTts": "non",
+          "promptTts": "Le coller sur l’écran ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -498,7 +498,7 @@
         {
           "id": "fr-num-l8-01",
           "prompt": "Qui demander si une fenêtre est bizarre ?",
-          "promptTts": "adulte",
+          "promptTts": "Qui demander si une fenêtre est bizarre ? Écoute: adulte.",
           "choices": [
             "adulte",
             "inconnu",
@@ -511,7 +511,7 @@
         {
           "id": "fr-num-l8-02",
           "prompt": "Télécharger sans demander ?",
-          "promptTts": "non",
+          "promptTts": "Télécharger sans demander ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -522,7 +522,7 @@
         {
           "id": "fr-num-l8-03",
           "prompt": "Écris : adulte",
-          "promptTts": "Écris adulte",
+          "promptTts": "Écris le mot adulte, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "adulte"
@@ -533,7 +533,7 @@
         {
           "id": "fr-num-l8-04",
           "prompt": "Pop-up : d’abord un adulte ?",
-          "promptTts": "oui",
+          "promptTts": "Pop-up: d’abord un adulte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -544,7 +544,7 @@
         {
           "id": "fr-num-l8-05",
           "prompt": "Cliquer « prix gagné » sans demander ?",
-          "promptTts": "non",
+          "promptTts": "Cliquer « prix gagné » sans demander ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -564,7 +564,7 @@
         {
           "id": "fr-num-l9-01",
           "prompt": "Comment doivent être les messages ?",
-          "promptTts": "gentil",
+          "promptTts": "Comment doivent être les messages ? Écoute: gentil.",
           "choices": [
             "gentil",
             "méchant"
@@ -576,7 +576,7 @@
         {
           "id": "fr-num-l9-02",
           "prompt": "Envoyer des mots méchants ?",
-          "promptTts": "non",
+          "promptTts": "Envoyer des mots méchants ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -587,7 +587,7 @@
         {
           "id": "fr-num-l9-03",
           "prompt": "Écris : gentil",
-          "promptTts": "Écris gentil",
+          "promptTts": "Écris le mot gentil, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "gentil"
@@ -598,7 +598,7 @@
         {
           "id": "fr-num-l9-04",
           "prompt": "S’il te plaît et merci aussi en ligne ?",
-          "promptTts": "oui",
+          "promptTts": "S’il te plaît et merci aussi en ligne ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -609,7 +609,7 @@
         {
           "id": "fr-num-l9-05",
           "prompt": "Transférer la photo de quelqu’un sans demander ?",
-          "promptTts": "non",
+          "promptTts": "Transférer la photo de quelqu’un sans demander ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -640,7 +640,7 @@
         {
           "id": "fr-num-l10-02",
           "prompt": "Chaque personne en ligne est-elle une amie ?",
-          "promptTts": "non",
+          "promptTts": "Chaque personne en ligne est-elle une amie ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -651,7 +651,7 @@
         {
           "id": "fr-num-l10-03",
           "prompt": "Écris : inconnu",
-          "promptTts": "Écris inconnu",
+          "promptTts": "Écris le mot inconnu, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "inconnu"
@@ -662,7 +662,7 @@
         {
           "id": "fr-num-l10-04",
           "prompt": "Donner adresse ou école à un inconnu ?",
-          "promptTts": "non",
+          "promptTts": "Donner adresse ou école à un inconnu ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -673,7 +673,7 @@
         {
           "id": "fr-num-l10-05",
           "prompt": "Une personne inconnue est souvent…",
-          "promptTts": "inconnu",
+          "promptTts": "Une personne inconnue est souvent… Écoute, le mot est inconnu.",
           "choices": [
             "inconnu",
             "adulte",
@@ -694,7 +694,7 @@
         {
           "id": "fr-num-l11-01",
           "prompt": "Longtemps uniquement l’écran : que faire ?",
-          "promptTts": "pause",
+          "promptTts": "Longtemps uniquement l’écran: que faire ? Écoute: pause.",
           "choices": [
             "pause",
             "mot de passe",
@@ -707,7 +707,7 @@
         {
           "id": "fr-num-l11-02",
           "prompt": "Une pause pour les yeux est utile ?",
-          "promptTts": "oui",
+          "promptTts": "Une pause pour les yeux est utile ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -718,7 +718,7 @@
         {
           "id": "fr-num-l11-03",
           "prompt": "Écris : pause",
-          "promptTts": "Écris pause",
+          "promptTts": "Écris le mot pause, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "pause"
@@ -729,7 +729,7 @@
         {
           "id": "fr-num-l11-04",
           "prompt": "Aussi jouer dehors ?",
-          "promptTts": "oui",
+          "promptTts": "Aussi jouer dehors ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -740,7 +740,7 @@
         {
           "id": "fr-num-l11-05",
           "prompt": "Toute la nuit sur l’appareil ?",
-          "promptTts": "non",
+          "promptTts": "Toute la nuit sur l’appareil ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -760,7 +760,7 @@
         {
           "id": "fr-num-l12-01",
           "prompt": "Ordre : chaussures, puis dehors. Qu’est-ce qui vient d’abord ?",
-          "promptTts": "d’abord",
+          "promptTts": "Ordre: chaussures, puis dehors. Qu’est-ce qui vient d’abord ? Écoute: d’abord.",
           "choices": [
             "d’abord",
             "ensuite"
@@ -771,7 +771,7 @@
         {
           "id": "fr-num-l12-02",
           "prompt": "D’abord se laver les mains, ___ manger.",
-          "promptTts": "ensuite",
+          "promptTts": "D’abord se laver les mains, ___ manger. Écoute, le mot est ensuite.",
           "choices": [
             "ensuite",
             "d’abord"
@@ -782,7 +782,7 @@
         {
           "id": "fr-num-l12-03",
           "prompt": "Écris : d’abord",
-          "promptTts": "Écris d’abord",
+          "promptTts": "Écris le mot d’abord, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "d’abord"
@@ -793,7 +793,7 @@
         {
           "id": "fr-num-l12-04",
           "prompt": "Une recette est une séquence ?",
-          "promptTts": "oui",
+          "promptTts": "Une recette est une séquence ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -804,7 +804,7 @@
         {
           "id": "fr-num-l12-05",
           "prompt": "Écris : ensuite",
-          "promptTts": "Écris ensuite",
+          "promptTts": "Écris le mot ensuite, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ensuite"
@@ -824,7 +824,7 @@
         {
           "id": "fr-num-l13-01",
           "prompt": "Le robot doit aller ⬅️. Où ?",
-          "promptTts": "gauche",
+          "promptTts": "Le robot doit aller à gauche. Où ? Écoute: gauche.",
           "choices": [
             "gauche",
             "droite"
@@ -835,7 +835,7 @@
         {
           "id": "fr-num-l13-02",
           "prompt": "Le robot doit aller ➡️. Où ?",
-          "promptTts": "droite",
+          "promptTts": "Le robot doit aller à droite. Où ? Écoute: droite.",
           "choices": [
             "droite",
             "gauche"
@@ -846,7 +846,7 @@
         {
           "id": "fr-num-l13-03",
           "prompt": "Écris : gauche",
-          "promptTts": "Écris gauche",
+          "promptTts": "Écris le mot gauche, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "gauche"
@@ -857,7 +857,7 @@
         {
           "id": "fr-num-l13-04",
           "prompt": "Des pas clairs aident le robot ?",
-          "promptTts": "oui",
+          "promptTts": "Des pas clairs aident le robot ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -869,7 +869,7 @@
         {
           "id": "fr-num-l13-05",
           "prompt": "Écris : droite",
-          "promptTts": "Écris droite",
+          "promptTts": "Écris le mot droite, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "droite"
@@ -889,7 +889,7 @@
         {
           "id": "fr-num-l14-01",
           "prompt": "Répète trois fois : combien ?",
-          "promptTts": "3",
+          "promptTts": "Répète trois fois: combien ? Écoute: 3.",
           "choices": [
             "2",
             "3",
@@ -901,7 +901,7 @@
         {
           "id": "fr-num-l14-02",
           "prompt": "Écris le nombre 3",
-          "promptTts": "Écris trois",
+          "promptTts": "Écris le nombre trois, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -912,7 +912,7 @@
         {
           "id": "fr-num-l14-03",
           "prompt": "Une boucle répète-t-elle quelque chose ?",
-          "promptTts": "oui",
+          "promptTts": "Une boucle répète-t-elle quelque chose ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -923,7 +923,7 @@
         {
           "id": "fr-num-l14-04",
           "prompt": "Tape 3 fois : 1, 2, … ?",
-          "promptTts": "3",
+          "promptTts": "Tape 3 fois: 1, 2, … ? Écoute: 3.",
           "choices": [
             "3",
             "1",
@@ -935,7 +935,7 @@
         {
           "id": "fr-num-l14-05",
           "prompt": "Ne jamais répéter, toujours 1 pas ?",
-          "promptTts": "non",
+          "promptTts": "Ne jamais répéter, toujours 1 pas ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -955,7 +955,7 @@
         {
           "id": "fr-num-l15-01",
           "prompt": "De quoi a besoin un ordinateur ?",
-          "promptTts": "électricité",
+          "promptTts": "De quoi a besoin un ordinateur ? Écoute: électricité.",
           "choices": [
             "électricité",
             "jouet",
@@ -968,7 +968,7 @@
         {
           "id": "fr-num-l15-02",
           "prompt": "Sans électricité l’écran reste souvent noir ?",
-          "promptTts": "oui",
+          "promptTts": "Sans électricité l’écran reste souvent noir ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -979,7 +979,7 @@
         {
           "id": "fr-num-l15-03",
           "prompt": "Écris : électricité",
-          "promptTts": "Écris électricité",
+          "promptTts": "Écris le mot électricité, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "électricité"
@@ -990,7 +990,7 @@
         {
           "id": "fr-num-l15-04",
           "prompt": "Batterie vide : charger ?",
-          "promptTts": "oui",
+          "promptTts": "Batterie vide: charger ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1001,7 +1001,7 @@
         {
           "id": "fr-num-l15-05",
           "prompt": "Mettre l’appareil dans l’eau ?",
-          "promptTts": "non",
+          "promptTts": "Mettre l’appareil dans l’eau ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1021,7 +1021,7 @@
         {
           "id": "fr-num-l16-01",
           "prompt": "Comment s’appelle le réseau des pages ?",
-          "promptTts": "internet",
+          "promptTts": "Comment s’appelle le réseau des pages ? Écoute: internet.",
           "choices": [
             "internet",
             "souris",
@@ -1034,7 +1034,7 @@
         {
           "id": "fr-num-l16-02",
           "prompt": "Tout est-il vrai sur internet ?",
-          "promptTts": "non",
+          "promptTts": "Tout est-il vrai sur internet ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1045,7 +1045,7 @@
         {
           "id": "fr-num-l16-03",
           "prompt": "Écris : internet",
-          "promptTts": "Écris internet",
+          "promptTts": "Écris le mot internet, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "internet"
@@ -1056,7 +1056,7 @@
         {
           "id": "fr-num-l16-04",
           "prompt": "Internet peut-il ressembler à une bibliothèque ?",
-          "promptTts": "oui",
+          "promptTts": "Internet peut-il ressembler à une bibliothèque ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1067,7 +1067,7 @@
         {
           "id": "fr-num-l16-05",
           "prompt": "Chercher avec un adulte ?",
-          "promptTts": "oui",
+          "promptTts": "Chercher avec un adulte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1087,7 +1087,7 @@
         {
           "id": "fr-num-l17-01",
           "prompt": "Avant de partager la photo de quelqu’un ?",
-          "promptTts": "demander",
+          "promptTts": "Avant de partager la photo de quelqu’un ? Écoute: demander.",
           "choices": [
             "demander",
             "envoyer juste"
@@ -1099,7 +1099,7 @@
         {
           "id": "fr-num-l17-02",
           "prompt": "Peut-on mettre chaque photo en ligne ?",
-          "promptTts": "non",
+          "promptTts": "Peut-on mettre chaque photo en ligne ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1110,7 +1110,7 @@
         {
           "id": "fr-num-l17-03",
           "prompt": "Écris : photo",
-          "promptTts": "Écris photo",
+          "promptTts": "Écris le mot photo, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "photo"
@@ -1121,7 +1121,7 @@
         {
           "id": "fr-num-l17-04",
           "prompt": "Un enfant sur une photo : demander aux parents ?",
-          "promptTts": "oui",
+          "promptTts": "Un enfant sur une photo: demander aux parents ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1132,7 +1132,7 @@
         {
           "id": "fr-num-l17-05",
           "prompt": "Envoyer sa position à tout le monde ?",
-          "promptTts": "non",
+          "promptTts": "Envoyer sa position à tout le monde ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1152,7 +1152,7 @@
         {
           "id": "fr-num-l18-01",
           "prompt": "Si on se sent mal en ligne ?",
-          "promptTts": "stop",
+          "promptTts": "Si on se sent mal en ligne ? Écoute: stop.",
           "choices": [
             "stop",
             "inconnu",
@@ -1165,7 +1165,7 @@
         {
           "id": "fr-num-l18-02",
           "prompt": "Poser l’appareil et chercher un adulte ?",
-          "promptTts": "oui",
+          "promptTts": "Poser l’appareil et chercher un adulte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1176,7 +1176,7 @@
         {
           "id": "fr-num-l18-03",
           "prompt": "Écris : stop",
-          "promptTts": "Écris stop",
+          "promptTts": "Écris le mot stop, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stop"
@@ -1187,7 +1187,7 @@
         {
           "id": "fr-num-l18-04",
           "prompt": "Garder secret si quelqu’un est méchant ?",
-          "promptTts": "non",
+          "promptTts": "Garder secret si quelqu’un est méchant ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1198,7 +1198,7 @@
         {
           "id": "fr-num-l18-05",
           "prompt": "A-t-on le droit de dire stop ?",
-          "promptTts": "oui",
+          "promptTts": "A-t-on le droit de dire stop ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1218,7 +1218,7 @@
         {
           "id": "fr-num-l19-01",
           "prompt": "Un ordinateur pour travailler est plutôt un…",
-          "promptTts": "outil",
+          "promptTts": "Un ordinateur pour travailler est plutôt un… Écoute, le mot est outil.",
           "choices": [
             "outil",
             "jouet"
@@ -1230,7 +1230,7 @@
         {
           "id": "fr-num-l19-02",
           "prompt": "Un jeu sur tablette est plutôt…",
-          "promptTts": "jouet",
+          "promptTts": "Un jeu sur tablette est plutôt… Écoute, le mot est jouet.",
           "choices": [
             "jouet",
             "outil"
@@ -1242,7 +1242,7 @@
         {
           "id": "fr-num-l19-03",
           "prompt": "Écris : outil",
-          "promptTts": "Écris outil",
+          "promptTts": "Écris le mot outil, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "outil"
@@ -1253,7 +1253,7 @@
         {
           "id": "fr-num-l19-04",
           "prompt": "Le même appareil peut-il être outil et jeu ?",
-          "promptTts": "oui",
+          "promptTts": "Le même appareil peut-il être outil et jeu ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1264,7 +1264,7 @@
         {
           "id": "fr-num-l19-05",
           "prompt": "Écris : jouet",
-          "promptTts": "Écris jouet",
+          "promptTts": "Écris le mot jouet, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "jouet"
@@ -1284,7 +1284,7 @@
         {
           "id": "fr-num-l20-01",
           "prompt": "Quel appareil ?",
-          "promptTts": "ordinateur",
+          "promptTts": "Quel appareil ? Écoute: ordinateur.",
           "choices": [
             "ordinateur",
             "jouet",
@@ -1297,7 +1297,7 @@
         {
           "id": "fr-num-l20-02",
           "prompt": "Écris : mot de passe",
-          "promptTts": "Écris mot de passe",
+          "promptTts": "Écris le mot mot de passe, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mot de passe"
@@ -1308,7 +1308,7 @@
         {
           "id": "fr-num-l20-03",
           "prompt": "Dire le mot de passe à la classe ?",
-          "promptTts": "non",
+          "promptTts": "Dire le mot de passe à la classe ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1319,7 +1319,7 @@
         {
           "id": "fr-num-l20-04",
           "prompt": "Robot ⬅️ ?",
-          "promptTts": "gauche",
+          "promptTts": "Robot à gauche ? Écoute: gauche.",
           "choices": [
             "gauche",
             "droite"
@@ -1331,7 +1331,7 @@
         {
           "id": "fr-num-l20-05",
           "prompt": "Écris : stop",
-          "promptTts": "Écris stop",
+          "promptTts": "Écris le mot stop, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "stop"

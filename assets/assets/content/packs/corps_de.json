@@ -23,7 +23,7 @@
         {
           "id": "de-corps-l1-01",
           "prompt": "Welcher Körperteil?",
-          "promptTts": "Kopf",
+          "promptTts": "Welcher Körperteil? Hör zu: Kopf.",
           "choices": [
             "Kopf",
             "Hand",
@@ -36,7 +36,7 @@
         {
           "id": "de-corps-l1-02",
           "prompt": "Welcher Körperteil?",
-          "promptTts": "Hand",
+          "promptTts": "Welcher Körperteil? Hör zu: Hand.",
           "choices": [
             "Hand",
             "Kopf",
@@ -49,7 +49,7 @@
         {
           "id": "de-corps-l1-03",
           "prompt": "Welcher Körperteil?",
-          "promptTts": "Fuss",
+          "promptTts": "Welcher Körperteil? Hör zu: Fuss.",
           "choices": [
             "Fuss",
             "Kopf",
@@ -62,7 +62,7 @@
         {
           "id": "de-corps-l1-04",
           "prompt": "Schreib: Hand",
-          "promptTts": "Schreib Hand",
+          "promptTts": "Schreib bitte das Wort Hand.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Hand"
@@ -74,7 +74,7 @@
         {
           "id": "de-corps-l1-05",
           "prompt": "Haben wir zwei Hände?",
-          "promptTts": "ja",
+          "promptTts": "Haben wir zwei Hände? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -94,7 +94,7 @@
         {
           "id": "de-corps-l2-01",
           "prompt": "Womit sehen wir?",
-          "promptTts": "Auge",
+          "promptTts": "Womit sehen wir? Hör zu: Auge.",
           "choices": [
             "Auge",
             "Ohr",
@@ -107,7 +107,7 @@
         {
           "id": "de-corps-l2-02",
           "prompt": "Womit hören wir?",
-          "promptTts": "Ohr",
+          "promptTts": "Womit hören wir? Hör zu: Ohr.",
           "choices": [
             "Ohr",
             "Auge",
@@ -120,7 +120,7 @@
         {
           "id": "de-corps-l2-03",
           "prompt": "Schreib: Kopf",
-          "promptTts": "Schreib Kopf",
+          "promptTts": "Schreib bitte das Wort Kopf.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Kopf"
@@ -131,7 +131,7 @@
         {
           "id": "de-corps-l2-04",
           "prompt": "Knie zum Beugen?",
-          "promptTts": "ja",
+          "promptTts": "Knie zum Beugen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -142,7 +142,7 @@
         {
           "id": "de-corps-l2-05",
           "prompt": "Nase zum Riechen?",
-          "promptTts": "ja",
+          "promptTts": "Nase zum Riechen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -163,7 +163,7 @@
         {
           "id": "de-corps-l3-01",
           "prompt": "Welche Bewegung?",
-          "promptTts": "rennen",
+          "promptTts": "Welche Bewegung? Hör zu: rennen.",
           "choices": [
             "rennen",
             "sitzen",
@@ -176,7 +176,7 @@
         {
           "id": "de-corps-l3-02",
           "prompt": "Welche Bewegung?",
-          "promptTts": "springen",
+          "promptTts": "Welche Bewegung? Hör zu: springen.",
           "choices": [
             "springen",
             "sitzen",
@@ -189,7 +189,7 @@
         {
           "id": "de-corps-l3-03",
           "prompt": "Welche Bewegung?",
-          "promptTts": "sitzen",
+          "promptTts": "Welche Bewegung? Hör zu: sitzen.",
           "choices": [
             "sitzen",
             "rennen",
@@ -202,7 +202,7 @@
         {
           "id": "de-corps-l3-04",
           "prompt": "Schreib: rennen",
-          "promptTts": "Schreib rennen",
+          "promptTts": "Schreib bitte das Wort rennen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rennen"
@@ -213,7 +213,7 @@
         {
           "id": "de-corps-l3-05",
           "prompt": "Ist Dehnen eine Bewegung?",
-          "promptTts": "ja",
+          "promptTts": "Ist Dehnen eine Bewegung? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -233,7 +233,7 @@
         {
           "id": "de-corps-l4-01",
           "prompt": "⬅️ ist?",
-          "promptTts": "links",
+          "promptTts": "links ist? Hör zu: links.",
           "choices": [
             "links",
             "rechts"
@@ -244,7 +244,7 @@
         {
           "id": "de-corps-l4-02",
           "prompt": "➡️ ist?",
-          "promptTts": "rechts",
+          "promptTts": "rechts ist? Hör zu: rechts.",
           "choices": [
             "rechts",
             "links"
@@ -255,7 +255,7 @@
         {
           "id": "de-corps-l4-03",
           "prompt": "Schreib: links",
-          "promptTts": "Schreib links",
+          "promptTts": "Schreib bitte das Wort links.",
           "answerMode": "type",
           "acceptedAnswers": [
             "links"
@@ -266,7 +266,7 @@
         {
           "id": "de-corps-l4-04",
           "prompt": "Zwei Hände: links und rechts?",
-          "promptTts": "ja",
+          "promptTts": "Zwei Hände: links und rechts? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -277,7 +277,7 @@
         {
           "id": "de-corps-l4-05",
           "prompt": "Schreib: rechts",
-          "promptTts": "Schreib rechts",
+          "promptTts": "Schreib bitte das Wort rechts.",
           "answerMode": "type",
           "acceptedAnswers": [
             "rechts"
@@ -297,7 +297,7 @@
         {
           "id": "de-corps-l5-01",
           "prompt": "Welcher Sport?",
-          "promptTts": "Fussball",
+          "promptTts": "Welcher Sport? Hör zu: Fussball.",
           "choices": [
             "Fussball",
             "schlafen",
@@ -310,7 +310,7 @@
         {
           "id": "de-corps-l5-02",
           "prompt": "Welcher Sport?",
-          "promptTts": "schwimmen",
+          "promptTts": "Welcher Sport? Hör zu: schwimmen.",
           "choices": [
             "schwimmen",
             "sitzen",
@@ -323,7 +323,7 @@
         {
           "id": "de-corps-l5-03",
           "prompt": "Schreib: Fussball",
-          "promptTts": "Schreib Fussball",
+          "promptTts": "Schreib bitte das Wort Fussball.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Fussball"
@@ -335,7 +335,7 @@
         {
           "id": "de-corps-l5-04",
           "prompt": "Kann Sport Spass machen?",
-          "promptTts": "ja",
+          "promptTts": "Kann Sport Spass machen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -346,7 +346,7 @@
         {
           "id": "de-corps-l5-05",
           "prompt": "Braucht man zum Schwimmen Wasser?",
-          "promptTts": "ja",
+          "promptTts": "Braucht man zum Schwimmen Wasser? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -366,7 +366,7 @@
         {
           "id": "de-corps-l6-01",
           "prompt": "Was ist die bessere Pause-Snack-Idee?",
-          "promptTts": "Frucht",
+          "promptTts": "Was ist die bessere Pause-Snack-Idee? Hör zu: Frucht.",
           "choices": [
             "Frucht",
             "Süssigkeit"
@@ -378,7 +378,7 @@
         {
           "id": "de-corps-l6-02",
           "prompt": "Jeden Tag nur Süsses?",
-          "promptTts": "nein",
+          "promptTts": "Jeden Tag nur Süsses? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -389,7 +389,7 @@
         {
           "id": "de-corps-l6-03",
           "prompt": "Schreib: Frucht",
-          "promptTts": "Schreib Frucht",
+          "promptTts": "Schreib bitte das Wort Frucht.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Frucht"
@@ -401,7 +401,7 @@
         {
           "id": "de-corps-l6-04",
           "prompt": "Gemüse ist oft gesund?",
-          "promptTts": "ja",
+          "promptTts": "Gemüse ist oft gesund? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -413,7 +413,7 @@
         {
           "id": "de-corps-l6-05",
           "prompt": "Apfel ist eine Frucht?",
-          "promptTts": "ja",
+          "promptTts": "Apfel ist eine Frucht? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -433,7 +433,7 @@
         {
           "id": "de-corps-l7-01",
           "prompt": "Was trinken wir oft?",
-          "promptTts": "Wasser",
+          "promptTts": "Was trinken wir oft? Hör zu: Wasser.",
           "choices": [
             "Wasser",
             "Süssigkeit",
@@ -446,7 +446,7 @@
         {
           "id": "de-corps-l7-02",
           "prompt": "Nach dem Sport trinken?",
-          "promptTts": "ja",
+          "promptTts": "Nach dem Sport trinken? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -457,7 +457,7 @@
         {
           "id": "de-corps-l7-03",
           "prompt": "Schreib: Wasser",
-          "promptTts": "Schreib Wasser",
+          "promptTts": "Schreib bitte das Wort Wasser.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Wasser"
@@ -469,7 +469,7 @@
         {
           "id": "de-corps-l7-04",
           "prompt": "Hilft Wasser dem Körper?",
-          "promptTts": "ja",
+          "promptTts": "Hilft Wasser dem Körper? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -480,7 +480,7 @@
         {
           "id": "de-corps-l7-05",
           "prompt": "Nur Saft den ganzen Tag?",
-          "promptTts": "nein",
+          "promptTts": "Nur Saft den ganzen Tag? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -500,7 +500,7 @@
         {
           "id": "de-corps-l8-01",
           "prompt": "Was braucht der Körper in der Nacht?",
-          "promptTts": "schlafen",
+          "promptTts": "Was braucht der Körper in der Nacht? Hör zu: schlafen.",
           "choices": [
             "schlafen",
             "Fussball",
@@ -513,7 +513,7 @@
         {
           "id": "de-corps-l8-02",
           "prompt": "Müde? Lieber Pause?",
-          "promptTts": "ja",
+          "promptTts": "Müde? Lieber Pause? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -524,7 +524,7 @@
         {
           "id": "de-corps-l8-03",
           "prompt": "Schreib: schlafen",
-          "promptTts": "Schreib schlafen",
+          "promptTts": "Schreib bitte das Wort schlafen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "schlafen"
@@ -535,7 +535,7 @@
         {
           "id": "de-corps-l8-04",
           "prompt": "Schlafen hilft wachsen?",
-          "promptTts": "ja",
+          "promptTts": "Schlafen hilft wachsen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -546,7 +546,7 @@
         {
           "id": "de-corps-l8-05",
           "prompt": "Die ganze Nacht spielen?",
-          "promptTts": "nein",
+          "promptTts": "Die ganze Nacht spielen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -566,7 +566,7 @@
         {
           "id": "de-corps-l9-01",
           "prompt": "Vor dem Essen?",
-          "promptTts": "waschen",
+          "promptTts": "Vor dem Essen? Hör zu: waschen.",
           "choices": [
             "waschen",
             "springen",
@@ -579,7 +579,7 @@
         {
           "id": "de-corps-l9-02",
           "prompt": "Nach dem WC Hände waschen?",
-          "promptTts": "ja",
+          "promptTts": "Nach dem WC Hände waschen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -590,7 +590,7 @@
         {
           "id": "de-corps-l9-03",
           "prompt": "Schreib: waschen",
-          "promptTts": "Schreib waschen",
+          "promptTts": "Schreib bitte das Wort waschen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "waschen"
@@ -602,7 +602,7 @@
         {
           "id": "de-corps-l9-04",
           "prompt": "Seife hilft?",
-          "promptTts": "ja",
+          "promptTts": "Seife hilft? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -613,7 +613,7 @@
         {
           "id": "de-corps-l9-05",
           "prompt": "Schmutzige Hände am Apfel?",
-          "promptTts": "nein",
+          "promptTts": "Schmutzige Hände am Apfel? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -633,7 +633,7 @@
         {
           "id": "de-corps-l10-01",
           "prompt": "Was putzen wir morgens?",
-          "promptTts": "Zähne",
+          "promptTts": "Was putzen wir morgens? Hör zu: Zähne.",
           "choices": [
             "Zähne",
             "Fussball",
@@ -646,7 +646,7 @@
         {
           "id": "de-corps-l10-02",
           "prompt": "Auch abends Zähne?",
-          "promptTts": "ja",
+          "promptTts": "Auch abends Zähne? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -657,7 +657,7 @@
         {
           "id": "de-corps-l10-03",
           "prompt": "Schreib: Zähne",
-          "promptTts": "Schreib Zähne",
+          "promptTts": "Schreib bitte das Wort Zähne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Zähne"
@@ -668,7 +668,7 @@
         {
           "id": "de-corps-l10-04",
           "prompt": "Zahnbürste benutzen?",
-          "promptTts": "ja",
+          "promptTts": "Zahnbürste benutzen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -680,7 +680,7 @@
         {
           "id": "de-corps-l10-05",
           "prompt": "Nur Süsses und nie putzen?",
-          "promptTts": "nein",
+          "promptTts": "Nur Süsses und nie putzen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -700,7 +700,7 @@
         {
           "id": "de-corps-l11-01",
           "prompt": "Auf dem Velo?",
-          "promptTts": "Helm",
+          "promptTts": "Auf dem Velo? Hör zu: Helm.",
           "choices": [
             "Helm",
             "Süssigkeit",
@@ -713,7 +713,7 @@
         {
           "id": "de-corps-l11-02",
           "prompt": "Schützt der Helm den Kopf?",
-          "promptTts": "ja",
+          "promptTts": "Schützt der Helm den Kopf? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -724,7 +724,7 @@
         {
           "id": "de-corps-l11-03",
           "prompt": "Schreib: Helm",
-          "promptTts": "Schreib Helm",
+          "promptTts": "Schreib bitte das Wort Helm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Helm"
@@ -735,7 +735,7 @@
         {
           "id": "de-corps-l11-04",
           "prompt": "Ohne Helm rasen?",
-          "promptTts": "nein",
+          "promptTts": "Ohne Helm rasen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -746,7 +746,7 @@
         {
           "id": "de-corps-l11-05",
           "prompt": "Gurt im Auto?",
-          "promptTts": "ja",
+          "promptTts": "Gurt im Auto? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -766,7 +766,7 @@
         {
           "id": "de-corps-l12-01",
           "prompt": "Im Wasser: mit wem?",
-          "promptTts": "einer erwachsenen Person",
+          "promptTts": "Im Wasser: mit wem? Hör zu: einer erwachsenen Person.",
           "choices": [
             "allein weit draussen",
             "einer erwachsenen Person"
@@ -777,7 +777,7 @@
         {
           "id": "de-corps-l12-02",
           "prompt": "Nicht schwimmen können: tiefes Wasser?",
-          "promptTts": "nein",
+          "promptTts": "Nicht schwimmen können: tiefes Wasser? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -788,7 +788,7 @@
         {
           "id": "de-corps-l12-03",
           "prompt": "Schreib: schwimmen",
-          "promptTts": "Schreib schwimmen",
+          "promptTts": "Schreib bitte das Wort schwimmen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "schwimmen"
@@ -799,7 +799,7 @@
         {
           "id": "de-corps-l12-04",
           "prompt": "Hilfe rufen wenn jemand nicht auftaucht?",
-          "promptTts": "ja",
+          "promptTts": "Hilfe rufen wenn jemand nicht auftaucht? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -810,7 +810,7 @@
         {
           "id": "de-corps-l12-05",
           "prompt": "Schwimmen ist Bewegung?",
-          "promptTts": "ja",
+          "promptTts": "Schwimmen ist Bewegung? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -830,7 +830,7 @@
         {
           "id": "de-corps-l13-01",
           "prompt": "Zusammen spielen?",
-          "promptTts": "Team",
+          "promptTts": "Zusammen spielen? Hör zu: Team.",
           "choices": [
             "Team",
             "Süssigkeit",
@@ -843,7 +843,7 @@
         {
           "id": "de-corps-l13-02",
           "prompt": "Im Team teilen wir den Ball?",
-          "promptTts": "ja",
+          "promptTts": "Im Team teilen wir den Ball? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -854,7 +854,7 @@
         {
           "id": "de-corps-l13-03",
           "prompt": "Schreib: Team",
-          "promptTts": "Schreib Team",
+          "promptTts": "Schreib bitte das Wort Team.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Team"
@@ -865,7 +865,7 @@
         {
           "id": "de-corps-l13-04",
           "prompt": "Nur ich, nie passen?",
-          "promptTts": "nein",
+          "promptTts": "Nur ich, nie passen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -876,7 +876,7 @@
         {
           "id": "de-corps-l13-05",
           "prompt": "Klatschen für andere ist nett?",
-          "promptTts": "ja",
+          "promptTts": "Klatschen für andere ist nett? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -896,7 +896,7 @@
         {
           "id": "de-corps-l14-01",
           "prompt": "Vor dem Sport?",
-          "promptTts": "dehnen",
+          "promptTts": "Vor dem Sport? Hör zu: dehnen.",
           "choices": [
             "dehnen",
             "Süssigkeit",
@@ -909,7 +909,7 @@
         {
           "id": "de-corps-l14-02",
           "prompt": "Aufwärmen schützt?",
-          "promptTts": "ja",
+          "promptTts": "Aufwärmen schützt? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -920,7 +920,7 @@
         {
           "id": "de-corps-l14-03",
           "prompt": "Schreib: dehnen",
-          "promptTts": "Schreib dehnen",
+          "promptTts": "Schreib bitte das Wort dehnen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "dehnen"
@@ -931,7 +931,7 @@
         {
           "id": "de-corps-l14-04",
           "prompt": "Kalt starten und sprinten ohne Vorbereitung?",
-          "promptTts": "nein",
+          "promptTts": "Kalt starten und sprinten ohne Vorbereitung? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -942,7 +942,7 @@
         {
           "id": "de-corps-l14-05",
           "prompt": "Arme kreisen ist Aufwärmen?",
-          "promptTts": "ja",
+          "promptTts": "Arme kreisen ist Aufwärmen? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -962,7 +962,7 @@
         {
           "id": "de-corps-l15-01",
           "prompt": "Was schlägt schneller nach dem Rennen?",
-          "promptTts": "Herz",
+          "promptTts": "Was schlägt schneller nach dem Rennen? Hör zu: Herz.",
           "choices": [
             "Herz",
             "Helm",
@@ -975,7 +975,7 @@
         {
           "id": "de-corps-l15-02",
           "prompt": "Kann man das Herz in der Brust spüren?",
-          "promptTts": "ja",
+          "promptTts": "Kann man das Herz in der Brust spüren? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -986,7 +986,7 @@
         {
           "id": "de-corps-l15-03",
           "prompt": "Schreib: Herz",
-          "promptTts": "Schreib Herz",
+          "promptTts": "Schreib bitte das Wort Herz.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Herz"
@@ -997,7 +997,7 @@
         {
           "id": "de-corps-l15-04",
           "prompt": "In der Pause wird der Puls ruhiger?",
-          "promptTts": "ja",
+          "promptTts": "In der Pause wird der Puls ruhiger? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1008,7 +1008,7 @@
         {
           "id": "de-corps-l15-05",
           "prompt": "Bewegung kann das Herz stärken?",
-          "promptTts": "ja",
+          "promptTts": "Bewegung kann das Herz stärken? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1028,7 +1028,7 @@
         {
           "id": "de-corps-l16-01",
           "prompt": "Nach starker Anstrengung?",
-          "promptTts": "Pause",
+          "promptTts": "Nach starker Anstrengung? Hör zu: Pause.",
           "choices": [
             "Pause",
             "Süssigkeit",
@@ -1041,7 +1041,7 @@
         {
           "id": "de-corps-l16-02",
           "prompt": "Trinken in der Pause?",
-          "promptTts": "ja",
+          "promptTts": "Trinken in der Pause? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1052,7 +1052,7 @@
         {
           "id": "de-corps-l16-03",
           "prompt": "Schreib: Pause",
-          "promptTts": "Schreib Pause",
+          "promptTts": "Schreib bitte das Wort Pause.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Pause"
@@ -1063,7 +1063,7 @@
         {
           "id": "de-corps-l16-04",
           "prompt": "Immer weiter ohne Stopp?",
-          "promptTts": "nein",
+          "promptTts": "Immer weiter ohne Stopp? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1074,7 +1074,7 @@
         {
           "id": "de-corps-l16-05",
           "prompt": "Pause gehört zum Sport?",
-          "promptTts": "ja",
+          "promptTts": "Pause gehört zum Sport? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1094,7 +1094,7 @@
         {
           "id": "de-corps-l17-01",
           "prompt": "Verlieren und die Hand geben?",
-          "promptTts": "fair",
+          "promptTts": "Verlieren und die Hand geben? Hör zu: fair.",
           "choices": [
             "ja",
             "nein"
@@ -1105,7 +1105,7 @@
         {
           "id": "de-corps-l17-02",
           "prompt": "Schummeln ist fair?",
-          "promptTts": "nein",
+          "promptTts": "Schummeln ist fair? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1116,7 +1116,7 @@
         {
           "id": "de-corps-l17-03",
           "prompt": "Schreib: fair",
-          "promptTts": "Schreib fair",
+          "promptTts": "Schreib bitte das Wort fair.",
           "answerMode": "type",
           "acceptedAnswers": [
             "fair"
@@ -1127,7 +1127,7 @@
         {
           "id": "de-corps-l17-04",
           "prompt": "Anderen gratulieren?",
-          "promptTts": "ja",
+          "promptTts": "Anderen gratulieren? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1138,7 +1138,7 @@
         {
           "id": "de-corps-l17-05",
           "prompt": "Regeln gelten für alle?",
-          "promptTts": "ja",
+          "promptTts": "Regeln gelten für alle? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1158,7 +1158,7 @@
         {
           "id": "de-corps-l18-01",
           "prompt": "Kalt draussen: was anziehen?",
-          "promptTts": "Mantel",
+          "promptTts": "Kalt draussen: was anziehen? Hör zu: Mantel.",
           "choices": [
             "Mantel",
             "schwimmen",
@@ -1171,7 +1171,7 @@
         {
           "id": "de-corps-l18-02",
           "prompt": "Sonne: Mütze oder Kapuze sinnvoll?",
-          "promptTts": "ja",
+          "promptTts": "Sonne: Mütze oder Kapuze sinnvoll? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1183,7 +1183,7 @@
         {
           "id": "de-corps-l18-03",
           "prompt": "Schreib: Mantel",
-          "promptTts": "Schreib Mantel",
+          "promptTts": "Schreib bitte das Wort Mantel.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Mantel"
@@ -1194,7 +1194,7 @@
         {
           "id": "de-corps-l18-04",
           "prompt": "Regen: Jacke?",
-          "promptTts": "ja",
+          "promptTts": "Regen: Jacke? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1205,7 +1205,7 @@
         {
           "id": "de-corps-l18-05",
           "prompt": "Barfuss im Schnee lange?",
-          "promptTts": "nein",
+          "promptTts": "Barfuss im Schnee lange? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1225,7 +1225,7 @@
         {
           "id": "de-corps-l19-01",
           "prompt": "Auf einem Bein stehen übt…",
-          "promptTts": "Balance",
+          "promptTts": "Auf einem Bein stehen übt… Hör zu, das Wort ist Balance.",
           "choices": [
             "Balance",
             "Süssigkeit",
@@ -1238,7 +1238,7 @@
         {
           "id": "de-corps-l19-02",
           "prompt": "Hilft Schauen beim Balancieren?",
-          "promptTts": "ja",
+          "promptTts": "Hilft Schauen beim Balancieren? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1249,7 +1249,7 @@
         {
           "id": "de-corps-l19-03",
           "prompt": "Schreib: Balance",
-          "promptTts": "Schreib Balance",
+          "promptTts": "Schreib bitte das Wort Balance.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Balance"
@@ -1260,7 +1260,7 @@
         {
           "id": "de-corps-l19-04",
           "prompt": "Weiche Matte zum Üben ok?",
-          "promptTts": "ja",
+          "promptTts": "Weiche Matte zum Üben ok? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1271,7 +1271,7 @@
         {
           "id": "de-corps-l19-05",
           "prompt": "Auf einer Mauer ohne Hilfe hoch oben?",
-          "promptTts": "nein",
+          "promptTts": "Auf einer Mauer ohne Hilfe hoch oben? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -1291,7 +1291,7 @@
         {
           "id": "de-corps-l20-01",
           "prompt": "Welcher Körperteil?",
-          "promptTts": "Hand",
+          "promptTts": "Welcher Körperteil? Hör zu: Hand.",
           "choices": [
             "Hand",
             "Mantel",
@@ -1304,7 +1304,7 @@
         {
           "id": "de-corps-l20-02",
           "prompt": "Schreib: Wasser",
-          "promptTts": "Schreib Wasser",
+          "promptTts": "Schreib bitte das Wort Wasser.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Wasser"
@@ -1316,7 +1316,7 @@
         {
           "id": "de-corps-l20-03",
           "prompt": "Auf dem Velo?",
-          "promptTts": "Helm",
+          "promptTts": "Auf dem Velo? Hör zu: Helm.",
           "choices": [
             "Helm",
             "Süssigkeit",
@@ -1328,7 +1328,7 @@
         {
           "id": "de-corps-l20-04",
           "prompt": "Was ist freundlich im Spiel?",
-          "promptTts": "fair",
+          "promptTts": "Was ist freundlich im Spiel? Hör zu: fair.",
           "choices": [
             "ja",
             "nein"
@@ -1339,7 +1339,7 @@
         {
           "id": "de-corps-l20-05",
           "prompt": "Schreib: springen",
-          "promptTts": "Schreib springen",
+          "promptTts": "Schreib bitte das Wort springen.",
           "answerMode": "type",
           "acceptedAnswers": [
             "springen"

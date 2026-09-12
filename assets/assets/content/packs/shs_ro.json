@@ -23,7 +23,7 @@
         {
           "id": "ro-shs-l1-01",
           "prompt": "Cine e?",
-          "promptTts": "mama",
+          "promptTts": "Cine e? Ascultă: mama.",
           "choices": [
             "mama",
             "școală",
@@ -36,7 +36,7 @@
         {
           "id": "ro-shs-l1-02",
           "prompt": "Cine e?",
-          "promptTts": "tata",
+          "promptTts": "Cine e? Ascultă: tata.",
           "choices": [
             "tata",
             "parc",
@@ -49,7 +49,7 @@
         {
           "id": "ro-shs-l1-03",
           "prompt": "Familie: cine lipsește?",
-          "promptTts": "eu",
+          "promptTts": "Familie: cine lipsește? Ascultă: eu.",
           "choices": [
             "eu",
             "Elveția",
@@ -62,7 +62,7 @@
         {
           "id": "ro-shs-l1-04",
           "prompt": "Scrie: mama",
-          "promptTts": "Scrie mama",
+          "promptTts": "Te rog, scrie cuvântul mama.",
           "answerMode": "type",
           "acceptedAnswers": [
             "mama"
@@ -94,7 +94,7 @@
         {
           "id": "ro-shs-l2-01",
           "prompt": "Unde dormim?",
-          "promptTts": "în pat",
+          "promptTts": "Unde dormim? Ascultă: în pat.",
           "choices": [
             "casă",
             "școală",
@@ -107,7 +107,7 @@
         {
           "id": "ro-shs-l2-02",
           "prompt": "Unde gătim?",
-          "promptTts": "în bucătărie",
+          "promptTts": "Unde gătim? Ascultă: în bucătărie.",
           "choices": [
             "bucătărie",
             "școală",
@@ -120,7 +120,7 @@
         {
           "id": "ro-shs-l2-03",
           "prompt": "Scrie: casă",
-          "promptTts": "Scrie casă",
+          "promptTts": "Te rog, scrie cuvântul casă.",
           "answerMode": "type",
           "acceptedAnswers": [
             "casă"
@@ -132,7 +132,7 @@
         {
           "id": "ro-shs-l2-04",
           "prompt": "Ușă sau fereastră?",
-          "promptTts": "fereastră",
+          "promptTts": "Ușă sau fereastră? Ascultă: fereastră.",
           "choices": [
             "fereastră",
             "ușă"
@@ -144,7 +144,7 @@
         {
           "id": "ro-shs-l2-05",
           "prompt": "Unde locuim?",
-          "promptTts": "casă",
+          "promptTts": "Unde locuim? Ascultă: casă.",
           "choices": [
             "casă",
             "tren",
@@ -166,7 +166,7 @@
         {
           "id": "ro-shs-l3-01",
           "prompt": "Unde e?",
-          "promptTts": "școală",
+          "promptTts": "Unde e? Ascultă: școală.",
           "choices": [
             "școală",
             "casă",
@@ -179,7 +179,7 @@
         {
           "id": "ro-shs-l3-02",
           "prompt": "Cine predă?",
-          "promptTts": "învățătoare",
+          "promptTts": "Cine predă? Ascultă: învățătoare.",
           "choices": [
             "învățătoare",
             "brutar",
@@ -192,7 +192,7 @@
         {
           "id": "ro-shs-l3-03",
           "prompt": "Scrie: școală",
-          "promptTts": "Scrie școală",
+          "promptTts": "Te rog, scrie cuvântul școală.",
           "answerMode": "type",
           "acceptedAnswers": [
             "școală"
@@ -204,7 +204,7 @@
         {
           "id": "ro-shs-l3-04",
           "prompt": "Ce trebuie la școală?",
-          "promptTts": "creion",
+          "promptTts": "Ce trebuie la școală? Ascultă: creion.",
           "choices": [
             "creion",
             "bicicletă",
@@ -217,7 +217,7 @@
         {
           "id": "ro-shs-l3-05",
           "prompt": "Pauză: unde ne jucăm?",
-          "promptTts": "parc",
+          "promptTts": "Pauză: unde ne jucăm? Ascultă: parc.",
           "choices": [
             "parc",
             "brutar",
@@ -239,7 +239,7 @@
         {
           "id": "ro-shs-l4-01",
           "prompt": "Ce zi începe adesea săptămâna de școală?",
-          "promptTts": "luni",
+          "promptTts": "Ce zi începe adesea săptămâna de școală? Ascultă: luni.",
           "choices": [
             "luni",
             "ieri",
@@ -251,7 +251,7 @@
         {
           "id": "ro-shs-l4-02",
           "prompt": "Azi sau ieri?",
-          "promptTts": "azi",
+          "promptTts": "Azi sau ieri? Ascultă: azi.",
           "choices": [
             "azi",
             "ieri"
@@ -262,7 +262,7 @@
         {
           "id": "ro-shs-l4-03",
           "prompt": "Scrie: azi",
-          "promptTts": "Scrie azi",
+          "promptTts": "Te rog, scrie cuvântul azi.",
           "answerMode": "type",
           "acceptedAnswers": [
             "azi"
@@ -273,7 +273,7 @@
         {
           "id": "ro-shs-l4-04",
           "prompt": "Ce a fost înainte?",
-          "promptTts": "ieri",
+          "promptTts": "Ce a fost înainte? Ascultă: ieri.",
           "choices": [
             "ieri",
             "azi"
@@ -305,7 +305,7 @@
         {
           "id": "ro-shs-l5-01",
           "prompt": "Anotimp?",
-          "promptTts": "vară",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: vară.",
           "choices": [
             "vară",
             "ploaie",
@@ -318,7 +318,7 @@
         {
           "id": "ro-shs-l5-02",
           "prompt": "Anotimp?",
-          "promptTts": "iarnă",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: iarnă.",
           "choices": [
             "iarnă",
             "ploaie",
@@ -331,7 +331,7 @@
         {
           "id": "ro-shs-l5-03",
           "prompt": "Anotimp?",
-          "promptTts": "primăvară",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: primăvară.",
           "choices": [
             "primăvară",
             "ploaie",
@@ -344,7 +344,7 @@
         {
           "id": "ro-shs-l5-04",
           "prompt": "Anotimp?",
-          "promptTts": "toamnă",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: toamnă.",
           "choices": [
             "toamnă",
             "ploaie",
@@ -357,7 +357,7 @@
         {
           "id": "ro-shs-l5-05",
           "prompt": "Scrie: vară",
-          "promptTts": "Scrie vară",
+          "promptTts": "Te rog, scrie cuvântul vară.",
           "answerMode": "type",
           "acceptedAnswers": [
             "vară"
@@ -377,7 +377,7 @@
         {
           "id": "ro-shs-l6-01",
           "prompt": "Ce vreme?",
-          "promptTts": "ploaie",
+          "promptTts": "Ce vreme? Ascultă: ploaie.",
           "choices": [
             "ploaie",
             "brutar",
@@ -390,7 +390,7 @@
         {
           "id": "ro-shs-l6-02",
           "prompt": "Ce vreme?",
-          "promptTts": "soare",
+          "promptTts": "Ce vreme? Ascultă: soare.",
           "choices": [
             "soare",
             "zăpadă",
@@ -403,7 +403,7 @@
         {
           "id": "ro-shs-l6-03",
           "prompt": "Ce vreme?",
-          "promptTts": "zăpadă",
+          "promptTts": "Ce vreme? Ascultă: zăpadă.",
           "choices": [
             "zăpadă",
             "ploaie",
@@ -416,7 +416,7 @@
         {
           "id": "ro-shs-l6-04",
           "prompt": "Scrie: ploaie",
-          "promptTts": "Scrie ploaie",
+          "promptTts": "Te rog, scrie cuvântul ploaie.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ploaie"
@@ -428,7 +428,7 @@
         {
           "id": "ro-shs-l6-05",
           "prompt": "Trebuie umbrelă?",
-          "promptTts": "ploaie",
+          "promptTts": "Trebuie umbrelă? Ascultă: ploaie.",
           "choices": [
             "da",
             "nu"
@@ -449,7 +449,7 @@
         {
           "id": "ro-shs-l7-01",
           "prompt": "Multe case și autobuze?",
-          "promptTts": "oraș",
+          "promptTts": "Multe case și autobuze? Ascultă: oraș.",
           "choices": [
             "oraș",
             "sat"
@@ -461,7 +461,7 @@
         {
           "id": "ro-shs-l7-02",
           "prompt": "Puține case, câmpuri?",
-          "promptTts": "sat",
+          "promptTts": "Puține case, câmpuri? Ascultă: sat.",
           "choices": [
             "sat",
             "oraș"
@@ -473,7 +473,7 @@
         {
           "id": "ro-shs-l7-03",
           "prompt": "Scrie: oraș",
-          "promptTts": "Scrie oraș",
+          "promptTts": "Te rog, scrie cuvântul oraș.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oraș"
@@ -484,7 +484,7 @@
         {
           "id": "ro-shs-l7-04",
           "prompt": "Unde e?",
-          "promptTts": "magazin",
+          "promptTts": "Unde e? Ascultă: magazin.",
           "choices": [
             "magazin",
             "munte",
@@ -497,7 +497,7 @@
         {
           "id": "ro-shs-l7-05",
           "prompt": "Unde e?",
-          "promptTts": "parc",
+          "promptTts": "Unde e? Ascultă: parc.",
           "choices": [
             "parc",
             "brutar",
@@ -519,7 +519,7 @@
         {
           "id": "ro-shs-l8-01",
           "prompt": "Ce e pe hartă?",
-          "promptTts": "munte",
+          "promptTts": "Ce e pe hartă? Ascultă: munte.",
           "choices": [
             "munte",
             "magazin",
@@ -532,7 +532,7 @@
         {
           "id": "ro-shs-l8-02",
           "prompt": "Ce e pe hartă?",
-          "promptTts": "lac",
+          "promptTts": "Ce e pe hartă? Ascultă: lac.",
           "choices": [
             "lac",
             "autobuz",
@@ -545,7 +545,7 @@
         {
           "id": "ro-shs-l8-03",
           "prompt": "Ce curge?",
-          "promptTts": "râu",
+          "promptTts": "Ce curge? Ascultă: râu.",
           "choices": [
             "râu",
             "casă",
@@ -558,7 +558,7 @@
         {
           "id": "ro-shs-l8-04",
           "prompt": "Scrie: lac",
-          "promptTts": "Scrie lac",
+          "promptTts": "Te rog, scrie cuvântul lac.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lac"
@@ -569,7 +569,7 @@
         {
           "id": "ro-shs-l8-05",
           "prompt": "Alpii sunt…",
-          "promptTts": "munte",
+          "promptTts": "Alpii sunt… Ascultă, cuvântul este munte.",
           "choices": [
             "munte",
             "magazin",
@@ -603,7 +603,7 @@
         {
           "id": "ro-shs-l9-02",
           "prompt": "Țară?",
-          "promptTts": "Elveția",
+          "promptTts": "Țară? Ascultă: Țară? Ascultă: Elveția.",
           "choices": [
             "Elveția",
             "Franța",
@@ -616,7 +616,7 @@
         {
           "id": "ro-shs-l9-03",
           "prompt": "Scrie: Elveția",
-          "promptTts": "Scrie Elveția",
+          "promptTts": "Te rog, scrie cuvântul Elveția.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Elveția"
@@ -628,7 +628,7 @@
         {
           "id": "ro-shs-l9-04",
           "prompt": "Capitală (simplu): Berna?",
-          "promptTts": "da",
+          "promptTts": "Capitală (simplu): Berna? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -639,7 +639,7 @@
         {
           "id": "ro-shs-l9-05",
           "prompt": "Sunt munți în Elveția?",
-          "promptTts": "da",
+          "promptTts": "Sunt munți în Elveția? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -660,7 +660,7 @@
         {
           "id": "ro-shs-l10-01",
           "prompt": "Unde e?",
-          "promptTts": "școală",
+          "promptTts": "Unde e? Ascultă: școală.",
           "choices": [
             "școală",
             "lac",
@@ -673,7 +673,7 @@
         {
           "id": "ro-shs-l10-02",
           "prompt": "Unde e?",
-          "promptTts": "magazin",
+          "promptTts": "Unde e? Ascultă: magazin.",
           "choices": [
             "magazin",
             "râu",
@@ -686,7 +686,7 @@
         {
           "id": "ro-shs-l10-03",
           "prompt": "Unde e?",
-          "promptTts": "parc",
+          "promptTts": "Unde e? Ascultă: parc.",
           "choices": [
             "parc",
             "brutar",
@@ -699,7 +699,7 @@
         {
           "id": "ro-shs-l10-04",
           "prompt": "Scrie: parc",
-          "promptTts": "Scrie parc",
+          "promptTts": "Te rog, scrie cuvântul parc.",
           "answerMode": "type",
           "acceptedAnswers": [
             "parc"
@@ -711,7 +711,7 @@
         {
           "id": "ro-shs-l10-05",
           "prompt": "Unde cumperi pâine?",
-          "promptTts": "magazin",
+          "promptTts": "Unde cumperi pâine? Ascultă: magazin.",
           "choices": [
             "magazin",
             "lac",
@@ -733,7 +733,7 @@
         {
           "id": "ro-shs-l11-01",
           "prompt": "Cine coace pâinea?",
-          "promptTts": "brutar",
+          "promptTts": "Cine coace pâinea? Ascultă: brutar.",
           "choices": [
             "brutar",
             "doctoriță",
@@ -746,7 +746,7 @@
         {
           "id": "ro-shs-l11-02",
           "prompt": "Cine ajută dacă ești bolnav?",
-          "promptTts": "doctoriță",
+          "promptTts": "Cine ajută dacă ești bolnav? Ascultă: doctoriță.",
           "choices": [
             "doctoriță",
             "brutar",
@@ -759,7 +759,7 @@
         {
           "id": "ro-shs-l11-03",
           "prompt": "Cine predă?",
-          "promptTts": "învățătoare",
+          "promptTts": "Cine predă? Ascultă: învățătoare.",
           "choices": [
             "învățătoare",
             "bicicletă",
@@ -772,7 +772,7 @@
         {
           "id": "ro-shs-l11-04",
           "prompt": "Scrie: brutar",
-          "promptTts": "Scrie brutar",
+          "promptTts": "Te rog, scrie cuvântul brutar.",
           "answerMode": "type",
           "acceptedAnswers": [
             "brutar"
@@ -783,7 +783,7 @@
         {
           "id": "ro-shs-l11-05",
           "prompt": "Învățătoarea ajută la școală?",
-          "promptTts": "da",
+          "promptTts": "Învățătoarea ajută la școală? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -803,7 +803,7 @@
         {
           "id": "ro-shs-l12-01",
           "prompt": "Ce e prietenos?",
-          "promptTts": "împărțim",
+          "promptTts": "Ce e prietenos? Ascultă: împărțim.",
           "choices": [
             "împărțim",
             "lovim"
@@ -814,7 +814,7 @@
         {
           "id": "ro-shs-l12-02",
           "prompt": "Ai voie să lovești?",
-          "promptTts": "nu",
+          "promptTts": "Ai voie să lovești? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -825,7 +825,7 @@
         {
           "id": "ro-shs-l12-03",
           "prompt": "Scrie: împărțim",
-          "promptTts": "Scrie împărțim",
+          "promptTts": "Te rog, scrie cuvântul împărțim.",
           "answerMode": "type",
           "acceptedAnswers": [
             "împărțim"
@@ -836,7 +836,7 @@
         {
           "id": "ro-shs-l12-04",
           "prompt": "Aștepți rândul?",
-          "promptTts": "da",
+          "promptTts": "Aștepți rândul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -847,7 +847,7 @@
         {
           "id": "ro-shs-l12-05",
           "prompt": "Ne ajutăm?",
-          "promptTts": "da",
+          "promptTts": "Ne ajutăm? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -867,7 +867,7 @@
         {
           "id": "ro-shs-l13-01",
           "prompt": "Lumină odinioară?",
-          "promptTts": "lumânare",
+          "promptTts": "Lumină odinioară? Ascultă: lumânare.",
           "choices": [
             "lumânare",
             "lampă"
@@ -879,7 +879,7 @@
         {
           "id": "ro-shs-l13-02",
           "prompt": "Lumină azi?",
-          "promptTts": "lampă",
+          "promptTts": "Lumină azi? Ascultă: lampă.",
           "choices": [
             "lampă",
             "lumânare"
@@ -891,7 +891,7 @@
         {
           "id": "ro-shs-l13-03",
           "prompt": "Scrie: ieri",
-          "promptTts": "Scrie ieri",
+          "promptTts": "Te rog, scrie cuvântul ieri.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ieri"
@@ -902,7 +902,7 @@
         {
           "id": "ro-shs-l13-04",
           "prompt": "Cal sau mașină mai des în trecut?",
-          "promptTts": "cal",
+          "promptTts": "Cal sau mașină mai des în trecut? Ascultă: cal.",
           "choices": [
             "cal",
             "mașină"
@@ -914,7 +914,7 @@
         {
           "id": "ro-shs-l13-05",
           "prompt": "Azi des mașina?",
-          "promptTts": "da",
+          "promptTts": "Azi des mașina? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -935,7 +935,7 @@
         {
           "id": "ro-shs-l14-01",
           "prompt": "Ce vehicul?",
-          "promptTts": "bicicletă",
+          "promptTts": "Ce vehicul? Ascultă: bicicletă.",
           "choices": [
             "bicicletă",
             "lac",
@@ -948,7 +948,7 @@
         {
           "id": "ro-shs-l14-02",
           "prompt": "Ce vehicul?",
-          "promptTts": "autobuz",
+          "promptTts": "Ce vehicul? Ascultă: autobuz.",
           "choices": [
             "autobuz",
             "brutar",
@@ -961,7 +961,7 @@
         {
           "id": "ro-shs-l14-03",
           "prompt": "Ce vehicul?",
-          "promptTts": "tren",
+          "promptTts": "Ce vehicul? Ascultă: tren.",
           "choices": [
             "tren",
             "parc",
@@ -974,7 +974,7 @@
         {
           "id": "ro-shs-l14-04",
           "prompt": "Scrie: autobuz",
-          "promptTts": "Scrie autobuz",
+          "promptTts": "Te rog, scrie cuvântul autobuz.",
           "answerMode": "type",
           "acceptedAnswers": [
             "autobuz"
@@ -986,7 +986,7 @@
         {
           "id": "ro-shs-l14-05",
           "prompt": "Cască pe bicicletă?",
-          "promptTts": "da",
+          "promptTts": "Cască pe bicicletă? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1006,7 +1006,7 @@
         {
           "id": "ro-shs-l15-01",
           "prompt": "Țară vecină?",
-          "promptTts": "Franța",
+          "promptTts": "Țară vecină? Ascultă: Franța.",
           "choices": [
             "Franța",
             "brutar",
@@ -1019,7 +1019,7 @@
         {
           "id": "ro-shs-l15-02",
           "prompt": "Germania e vecină cu Elveția?",
-          "promptTts": "da",
+          "promptTts": "Germania e vecină cu Elveția? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1031,7 +1031,7 @@
         {
           "id": "ro-shs-l15-03",
           "prompt": "Scrie: Franța",
-          "promptTts": "Scrie Franța",
+          "promptTts": "Te rog, scrie cuvântul Franța.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Franța"
@@ -1042,7 +1042,7 @@
         {
           "id": "ro-shs-l15-04",
           "prompt": "Italia e vecină?",
-          "promptTts": "da",
+          "promptTts": "Italia e vecină? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1054,7 +1054,7 @@
         {
           "id": "ro-shs-l15-05",
           "prompt": "A spune salut e frumos?",
-          "promptTts": "da",
+          "promptTts": "A spune salut e frumos? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1074,7 +1074,7 @@
         {
           "id": "ro-shs-l16-01",
           "prompt": "Ce vine de la vacă?",
-          "promptTts": "lapte",
+          "promptTts": "Ce vine de la vacă? Ascultă: lapte.",
           "choices": [
             "lapte",
             "autobuz",
@@ -1087,7 +1087,7 @@
         {
           "id": "ro-shs-l16-02",
           "prompt": "Unde cresc merele?",
-          "promptTts": "copac",
+          "promptTts": "Unde cresc merele? Ascultă: copac.",
           "choices": [
             "copac",
             "tren",
@@ -1100,7 +1100,7 @@
         {
           "id": "ro-shs-l16-03",
           "prompt": "Scrie: lapte",
-          "promptTts": "Scrie lapte",
+          "promptTts": "Te rog, scrie cuvântul lapte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "lapte"
@@ -1112,7 +1112,7 @@
         {
           "id": "ro-shs-l16-04",
           "prompt": "Legume de pe câmp?",
-          "promptTts": "da",
+          "promptTts": "Legume de pe câmp? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1124,7 +1124,7 @@
         {
           "id": "ro-shs-l16-05",
           "prompt": "Pâine de la brutar?",
-          "promptTts": "da",
+          "promptTts": "Pâine de la brutar? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1145,7 +1145,7 @@
         {
           "id": "ro-shs-l17-01",
           "prompt": "Ce facem cu hârtia?",
-          "promptTts": "reciclăm",
+          "promptTts": "Ce facem cu hârtia? Ascultă: reciclăm.",
           "choices": [
             "reciclăm",
             "lovim"
@@ -1157,7 +1157,7 @@
         {
           "id": "ro-shs-l17-02",
           "prompt": "Gunoi în lac?",
-          "promptTts": "nu",
+          "promptTts": "Gunoi în lac? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1168,7 +1168,7 @@
         {
           "id": "ro-shs-l17-03",
           "prompt": "Scrie: reciclăm",
-          "promptTts": "Scrie reciclăm",
+          "promptTts": "Te rog, scrie cuvântul reciclăm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "reciclăm"
@@ -1180,7 +1180,7 @@
         {
           "id": "ro-shs-l17-04",
           "prompt": "Protejăm copacii?",
-          "promptTts": "da",
+          "promptTts": "Protejăm copacii? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1192,7 +1192,7 @@
         {
           "id": "ro-shs-l17-05",
           "prompt": "Unde merge gunoiul?",
-          "promptTts": "gunoi",
+          "promptTts": "Unde merge gunoiul? Ascultă: gunoi.",
           "choices": [
             "pubelă",
             "lac",
@@ -1213,7 +1213,7 @@
         {
           "id": "ro-shs-l18-01",
           "prompt": "Ce e frumos?",
-          "promptTts": "ajutăm",
+          "promptTts": "Ce e frumos? Ascultă: ajutăm.",
           "choices": [
             "ajutăm",
             "lovim"
@@ -1224,7 +1224,7 @@
         {
           "id": "ro-shs-l18-02",
           "prompt": "Ajuți pe cineva care cară?",
-          "promptTts": "da",
+          "promptTts": "Ajuți pe cineva care cară? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1235,7 +1235,7 @@
         {
           "id": "ro-shs-l18-03",
           "prompt": "Scrie: ajutăm",
-          "promptTts": "Scrie ajutăm",
+          "promptTts": "Te rog, scrie cuvântul ajutăm.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ajutăm"
@@ -1246,7 +1246,7 @@
         {
           "id": "ro-shs-l18-04",
           "prompt": "Spui mulțumesc?",
-          "promptTts": "da",
+          "promptTts": "Spui mulțumesc? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1257,7 +1257,7 @@
         {
           "id": "ro-shs-l18-05",
           "prompt": "Împărțim la joc?",
-          "promptTts": "da",
+          "promptTts": "Împărțim la joc? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1277,7 +1277,7 @@
         {
           "id": "ro-shs-l19-01",
           "prompt": "Comuna mea are o școală?",
-          "promptTts": "da",
+          "promptTts": "Comuna mea are o școală? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1289,7 +1289,7 @@
         {
           "id": "ro-shs-l19-02",
           "prompt": "E adesea o piață?",
-          "promptTts": "da",
+          "promptTts": "E adesea o piață? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1300,7 +1300,7 @@
         {
           "id": "ro-shs-l19-03",
           "prompt": "Scrie: comună",
-          "promptTts": "Scrie comună",
+          "promptTts": "Te rog, scrie cuvântul comună.",
           "answerMode": "type",
           "acceptedAnswers": [
             "comună"
@@ -1311,7 +1311,7 @@
         {
           "id": "ro-shs-l19-04",
           "prompt": "Unde e?",
-          "promptTts": "parc",
+          "promptTts": "Unde e? Ascultă: parc.",
           "choices": [
             "parc",
             "Franța",
@@ -1324,7 +1324,7 @@
         {
           "id": "ro-shs-l19-05",
           "prompt": "Biblioteca împrumută cărți?",
-          "promptTts": "da",
+          "promptTts": "Biblioteca împrumută cărți? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -1357,7 +1357,7 @@
         {
           "id": "ro-shs-l20-02",
           "prompt": "Scrie: împărțim",
-          "promptTts": "Scrie împărțim",
+          "promptTts": "Te rog, scrie cuvântul împărțim.",
           "answerMode": "type",
           "acceptedAnswers": [
             "împărțim"
@@ -1368,7 +1368,7 @@
         {
           "id": "ro-shs-l20-03",
           "prompt": "Ce vreme?",
-          "promptTts": "ploaie",
+          "promptTts": "Ce vreme? Ascultă: ploaie.",
           "choices": [
             "ploaie",
             "brutar",
@@ -1381,7 +1381,7 @@
         {
           "id": "ro-shs-l20-04",
           "prompt": "Ce e prietenos?",
-          "promptTts": "ajutăm",
+          "promptTts": "Ce e prietenos? Ascultă: ajutăm.",
           "choices": [
             "ajutăm",
             "lovim"
@@ -1392,7 +1392,7 @@
         {
           "id": "ro-shs-l20-05",
           "prompt": "Scrie: Elveția",
-          "promptTts": "Scrie Elveția",
+          "promptTts": "Te rog, scrie cuvântul Elveția.",
           "answerMode": "type",
           "acceptedAnswers": [
             "Elveția"
