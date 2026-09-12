@@ -211,7 +211,7 @@
         {
           "id": "ro-num-l3-05",
           "prompt": "Scrie cuvântul: da",
-          "promptTts": "Ascultă bine acest cuvânt: Scrie da.",
+          "promptTts": "Te rog, scrie cuvântul da.",
           "answerMode": "type",
           "acceptedAnswers": [
             "da"
@@ -244,7 +244,7 @@
         {
           "id": "ro-num-l4-02",
           "prompt": "🗑️ e adesea coșul?",
-          "promptTts": "🗑️ e adesea coșul? Atinge da sau nu.",
+          "promptTts": "e adesea coșul? Atinge da sau nu.",
           "choices": [
             "da",
             "nu"
@@ -771,7 +771,7 @@
         {
           "id": "ro-num-l12-02",
           "prompt": "Mai întâi speli mâinile, ___ mănânci.",
-          "promptTts": "Mai întâi speli mâinile, ___ mănânci.. Ascultă, cuvântul este apoi.",
+          "promptTts": "Mai întâi speli mâinile, ___ mănânci. Ascultă, cuvântul este apoi.",
           "choices": [
             "apoi",
             "mai întâi"
@@ -824,7 +824,7 @@
         {
           "id": "ro-num-l13-01",
           "prompt": "Robotul trebuie ⬅️. Încotro?",
-          "promptTts": "Robotul trebuie ⬅️. Încotro? Ascultă: stânga.",
+          "promptTts": "Robotul trebuie la stânga. Încotro? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"
@@ -835,7 +835,7 @@
         {
           "id": "ro-num-l13-02",
           "prompt": "Robotul trebuie ➡️. Încotro?",
-          "promptTts": "Robotul trebuie ➡️. Încotro? Ascultă: dreapta.",
+          "promptTts": "Robotul trebuie la dreapta. Încotro? Ascultă: dreapta.",
           "choices": [
             "dreapta",
             "stânga"
@@ -901,7 +901,7 @@
         {
           "id": "ro-num-l14-02",
           "prompt": "Scrie numărul 3",
-          "promptTts": "Ascultă bine acest cuvânt: Scrie trei.",
+          "promptTts": "Te rog, scrie numărul 3.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -1319,7 +1319,7 @@
         {
           "id": "ro-num-l20-04",
           "prompt": "Robot ⬅️ ?",
-          "promptTts": "Ascultă bine acest cuvânt: Robot ⬅️ ? Ascultă: stânga.",
+          "promptTts": "Robot la stânga ? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"

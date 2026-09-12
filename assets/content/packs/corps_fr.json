@@ -23,7 +23,7 @@
         {
           "id": "fr-corps-l1-01",
           "prompt": "Quelle partie du corps ?",
-          "promptTts": "Quelle partie du corps ? Écoute : tête.",
+          "promptTts": "Quelle partie du corps ? Écoute: tête.",
           "choices": [
             "tête",
             "main",
@@ -36,7 +36,7 @@
         {
           "id": "fr-corps-l1-02",
           "prompt": "Quelle partie du corps ?",
-          "promptTts": "Quelle partie du corps ? Écoute : main.",
+          "promptTts": "Quelle partie du corps ? Écoute: main.",
           "choices": [
             "main",
             "tête",
@@ -49,7 +49,7 @@
         {
           "id": "fr-corps-l1-03",
           "prompt": "Quelle partie du corps ?",
-          "promptTts": "Quelle partie du corps ? Écoute : pied.",
+          "promptTts": "Quelle partie du corps ? Écoute: pied.",
           "choices": [
             "pied",
             "tête",
@@ -94,7 +94,7 @@
         {
           "id": "fr-corps-l2-01",
           "prompt": "Avec quoi voyons-nous ?",
-          "promptTts": "Avec quoi voyons-nous ? Écoute : œil.",
+          "promptTts": "Avec quoi voyons-nous ? Écoute: œil.",
           "choices": [
             "œil",
             "oreille",
@@ -107,7 +107,7 @@
         {
           "id": "fr-corps-l2-02",
           "prompt": "Avec quoi entendons-nous ?",
-          "promptTts": "Avec quoi entendons-nous ? Écoute : oreille.",
+          "promptTts": "Avec quoi entendons-nous ? Écoute: oreille.",
           "choices": [
             "oreille",
             "œil",
@@ -163,7 +163,7 @@
         {
           "id": "fr-corps-l3-01",
           "prompt": "Quel mouvement ?",
-          "promptTts": "Quel mouvement ? Écoute : courir.",
+          "promptTts": "Quel mouvement ? Écoute: courir.",
           "choices": [
             "courir",
             "s’asseoir",
@@ -176,7 +176,7 @@
         {
           "id": "fr-corps-l3-02",
           "prompt": "Quel mouvement ?",
-          "promptTts": "Quel mouvement ? Écoute : sauter.",
+          "promptTts": "Quel mouvement ? Écoute: sauter.",
           "choices": [
             "sauter",
             "s’asseoir",
@@ -189,7 +189,7 @@
         {
           "id": "fr-corps-l3-03",
           "prompt": "Quel mouvement ?",
-          "promptTts": "Quel mouvement ? Écoute : s’asseoir.",
+          "promptTts": "Quel mouvement ? Écoute: s’asseoir.",
           "choices": [
             "s’asseoir",
             "courir",
@@ -233,7 +233,7 @@
         {
           "id": "fr-corps-l4-01",
           "prompt": "⬅️ c’est ?",
-          "promptTts": "⬅️ c’est ? Écoute : gauche.",
+          "promptTts": "à gauche c’est ? Écoute: gauche.",
           "choices": [
             "gauche",
             "droite"
@@ -244,7 +244,7 @@
         {
           "id": "fr-corps-l4-02",
           "prompt": "➡️ c’est ?",
-          "promptTts": "➡️ c’est ? Écoute : droite.",
+          "promptTts": "à droite c’est ? Écoute: droite.",
           "choices": [
             "droite",
             "gauche"
@@ -266,7 +266,7 @@
         {
           "id": "fr-corps-l4-04",
           "prompt": "Deux mains : gauche et droite ?",
-          "promptTts": "Deux mains : gauche et droite ? Touche oui ou non.",
+          "promptTts": "Deux mains: gauche et droite ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -297,7 +297,7 @@
         {
           "id": "fr-corps-l5-01",
           "prompt": "Quel sport ?",
-          "promptTts": "Quel sport ? Écoute : football.",
+          "promptTts": "Quel sport ? Écoute: football.",
           "choices": [
             "football",
             "dormir",
@@ -310,7 +310,7 @@
         {
           "id": "fr-corps-l5-02",
           "prompt": "Quel sport ?",
-          "promptTts": "Quel sport ? Écoute : nager.",
+          "promptTts": "Quel sport ? Écoute: nager.",
           "choices": [
             "nager",
             "s’asseoir",
@@ -366,7 +366,7 @@
         {
           "id": "fr-corps-l6-01",
           "prompt": "Meilleure idée de goûter ?",
-          "promptTts": "Meilleure idée de goûter ? Écoute : fruit.",
+          "promptTts": "Meilleure idée de goûter ? Écoute: fruit.",
           "choices": [
             "fruit",
             "bonbon"
@@ -433,7 +433,7 @@
         {
           "id": "fr-corps-l7-01",
           "prompt": "Que buvons-nous souvent ?",
-          "promptTts": "Que buvons-nous souvent ? Écoute : eau.",
+          "promptTts": "Que buvons-nous souvent ? Écoute: eau.",
           "choices": [
             "eau",
             "bonbon",
@@ -500,7 +500,7 @@
         {
           "id": "fr-corps-l8-01",
           "prompt": "De quoi le corps a-t-il besoin la nuit ?",
-          "promptTts": "De quoi le corps a-t-il besoin la nuit ? Écoute : dormir.",
+          "promptTts": "De quoi le corps a-t-il besoin la nuit ? Écoute: dormir.",
           "choices": [
             "dormir",
             "football",
@@ -566,7 +566,7 @@
         {
           "id": "fr-corps-l9-01",
           "prompt": "Avant de manger ?",
-          "promptTts": "Avant de manger ? Écoute : laver.",
+          "promptTts": "Avant de manger ? Écoute: laver.",
           "choices": [
             "laver",
             "sauter",
@@ -633,7 +633,7 @@
         {
           "id": "fr-corps-l10-01",
           "prompt": "Que brosse-t-on le matin ?",
-          "promptTts": "Que brosse-t-on le matin ? Écoute : dents.",
+          "promptTts": "Que brosse-t-on le matin ? Écoute: dents.",
           "choices": [
             "dents",
             "football",
@@ -700,7 +700,7 @@
         {
           "id": "fr-corps-l11-01",
           "prompt": "À vélo ?",
-          "promptTts": "À vélo ? Écoute : casque.",
+          "promptTts": "À vélo ? Écoute: casque.",
           "choices": [
             "casque",
             "bonbon",
@@ -766,7 +766,7 @@
         {
           "id": "fr-corps-l12-01",
           "prompt": "Dans l’eau : avec qui ?",
-          "promptTts": "Dans l’eau : avec qui ? Écoute : un adulte.",
+          "promptTts": "Dans l’eau: avec qui ? Écoute: un adulte.",
           "choices": [
             "seul très loin",
             "un adulte"
@@ -777,7 +777,7 @@
         {
           "id": "fr-corps-l12-02",
           "prompt": "Si on ne sait pas nager : eau profonde ?",
-          "promptTts": "Si on ne sait pas nager : eau profonde ? Touche oui ou non.",
+          "promptTts": "Si on ne sait pas nager: eau profonde ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -830,7 +830,7 @@
         {
           "id": "fr-corps-l13-01",
           "prompt": "Jouer ensemble ?",
-          "promptTts": "Jouer ensemble ? Écoute : équipe.",
+          "promptTts": "Jouer ensemble ? Écoute: équipe.",
           "choices": [
             "équipe",
             "bonbon",
@@ -896,7 +896,7 @@
         {
           "id": "fr-corps-l14-01",
           "prompt": "Avant le sport ?",
-          "promptTts": "Avant le sport ? Écoute : s’étirer.",
+          "promptTts": "Avant le sport ? Écoute: s’étirer.",
           "choices": [
             "s’étirer",
             "bonbon",
@@ -962,7 +962,7 @@
         {
           "id": "fr-corps-l15-01",
           "prompt": "Qu’est-ce qui bat plus vite après une course ?",
-          "promptTts": "Qu’est-ce qui bat plus vite après une course ? Écoute : cœur.",
+          "promptTts": "Qu’est-ce qui bat plus vite après une course ? Écoute: cœur.",
           "choices": [
             "cœur",
             "casque",
@@ -1028,7 +1028,7 @@
         {
           "id": "fr-corps-l16-01",
           "prompt": "Après un gros effort ?",
-          "promptTts": "Après un gros effort ? Écoute : pause.",
+          "promptTts": "Après un gros effort ? Écoute: pause.",
           "choices": [
             "pause",
             "bonbon",
@@ -1094,7 +1094,7 @@
         {
           "id": "fr-corps-l17-01",
           "prompt": "Perdre et serrer la main ?",
-          "promptTts": "Perdre et serrer la main ? Écoute : fair-play.",
+          "promptTts": "Perdre et serrer la main ? Écoute: fair-play.",
           "choices": [
             "oui",
             "non"
@@ -1158,7 +1158,7 @@
         {
           "id": "fr-corps-l18-01",
           "prompt": "Dehors il fait froid : que mettre ?",
-          "promptTts": "Dehors il fait froid : que mettre ? Écoute : manteau.",
+          "promptTts": "Dehors il fait froid: que mettre ? Écoute: manteau.",
           "choices": [
             "manteau",
             "nager",
@@ -1171,7 +1171,7 @@
         {
           "id": "fr-corps-l18-02",
           "prompt": "Soleil : un chapeau utile ?",
-          "promptTts": "Soleil : un chapeau utile ? Touche oui ou non.",
+          "promptTts": "Soleil: un chapeau utile ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1194,7 +1194,7 @@
         {
           "id": "fr-corps-l18-04",
           "prompt": "Pluie : veste ?",
-          "promptTts": "Pluie : veste ? Touche oui ou non.",
+          "promptTts": "Pluie: veste ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1291,7 +1291,7 @@
         {
           "id": "fr-corps-l20-01",
           "prompt": "Quelle partie du corps ?",
-          "promptTts": "Quelle partie du corps ? Écoute : main.",
+          "promptTts": "Quelle partie du corps ? Écoute: main.",
           "choices": [
             "main",
             "manteau",
@@ -1316,7 +1316,7 @@
         {
           "id": "fr-corps-l20-03",
           "prompt": "À vélo ?",
-          "promptTts": "À vélo ? Écoute : casque.",
+          "promptTts": "À vélo ? Écoute: casque.",
           "choices": [
             "casque",
             "bonbon",
@@ -1328,7 +1328,7 @@
         {
           "id": "fr-corps-l20-04",
           "prompt": "Qu’est-ce qui est gentil au jeu ?",
-          "promptTts": "Qu’est-ce qui est gentil au jeu ? Écoute : fair-play.",
+          "promptTts": "Qu’est-ce qui est gentil au jeu ? Écoute: fair-play.",
           "choices": [
             "oui",
             "non"

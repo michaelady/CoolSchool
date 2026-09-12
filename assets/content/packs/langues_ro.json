@@ -254,7 +254,7 @@
         {
           "id": "ro-langues-l4-01",
           "prompt": "Prima literă din carte",
-          "promptTts": "Scrie prima literă din carte",
+          "promptTts": "Te rog, scrie cuvântul prima literă din carte.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -265,7 +265,7 @@
         {
           "id": "ro-langues-l4-02",
           "prompt": "Prima literă din soare",
-          "promptTts": "Scrie prima literă din soare",
+          "promptTts": "Te rog, scrie cuvântul prima literă din soare.",
           "answerMode": "type",
           "acceptedAnswers": [
             "s"
@@ -276,7 +276,7 @@
         {
           "id": "ro-langues-l4-03",
           "prompt": "Prima literă din pisică",
-          "promptTts": "Scrie prima literă din pisică",
+          "promptTts": "Te rog, scrie cuvântul prima literă din pisică.",
           "answerMode": "type",
           "acceptedAnswers": [
             "p"
@@ -287,7 +287,7 @@
         {
           "id": "ro-langues-l4-04",
           "prompt": "Prima literă din câine",
-          "promptTts": "Scrie prima literă din câine",
+          "promptTts": "Te rog, scrie cuvântul prima literă din câine.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -298,7 +298,7 @@
         {
           "id": "ro-langues-l4-05",
           "prompt": "Prima literă din copac",
-          "promptTts": "Scrie prima literă din copac",
+          "promptTts": "Te rog, scrie cuvântul prima literă din copac.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -722,7 +722,7 @@
         {
           "id": "ro-langues-l11-01",
           "prompt": "Contrarul lui da?",
-          "promptTts": "Ascultă bine acest cuvânt: Contrarul lui da.",
+          "promptTts": "Contrarul lui da? Alege răspunsul potrivit.",
           "choices": [
             "nu",
             "da",
@@ -734,7 +734,7 @@
         {
           "id": "ro-langues-l11-02",
           "prompt": "Contrarul lui roșu?",
-          "promptTts": "Ascultă bine acest cuvânt: Contrarul lui roșu.",
+          "promptTts": "Contrarul lui roșu? Alege răspunsul potrivit.",
           "choices": [
             "albastru",
             "roșu",
@@ -746,7 +746,7 @@
         {
           "id": "ro-langues-l11-03",
           "prompt": "Contrarul lui mare?",
-          "promptTts": "Ascultă bine acest cuvânt: Contrarul lui mare.",
+          "promptTts": "Contrarul lui mare? Alege răspunsul potrivit.",
           "choices": [
             "mic",
             "mare",
@@ -758,7 +758,7 @@
         {
           "id": "ro-langues-l11-04",
           "prompt": "Contrarul lui zi?",
-          "promptTts": "Ascultă bine acest cuvânt: Contrarul lui zi.",
+          "promptTts": "Contrarul lui zi? Alege răspunsul potrivit.",
           "choices": [
             "noapte",
             "zi",
@@ -770,7 +770,7 @@
         {
           "id": "ro-langues-l11-05",
           "prompt": "Contrarul lui cald?",
-          "promptTts": "Ascultă bine acest cuvânt: Contrarul lui cald.",
+          "promptTts": "Contrarul lui cald? Alege răspunsul potrivit.",
           "choices": [
             "rece",
             "cald",

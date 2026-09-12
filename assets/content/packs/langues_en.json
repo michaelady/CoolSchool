@@ -254,7 +254,7 @@
         {
           "id": "en-langues-l4-01",
           "prompt": "First letter of book",
-          "promptTts": "Type the first letter of book",
+          "promptTts": "Please type the word the first letter of book.",
           "answerMode": "type",
           "acceptedAnswers": [
             "b"
@@ -265,7 +265,7 @@
         {
           "id": "en-langues-l4-02",
           "prompt": "First letter of sun",
-          "promptTts": "Type the first letter of sun",
+          "promptTts": "Please type the word the first letter of sun.",
           "answerMode": "type",
           "acceptedAnswers": [
             "s"
@@ -276,7 +276,7 @@
         {
           "id": "en-langues-l4-03",
           "prompt": "First letter of cat",
-          "promptTts": "Type the first letter of cat",
+          "promptTts": "Please type the word the first letter of cat.",
           "answerMode": "type",
           "acceptedAnswers": [
             "c"
@@ -287,7 +287,7 @@
         {
           "id": "en-langues-l4-04",
           "prompt": "First letter of dog",
-          "promptTts": "Type the first letter of dog",
+          "promptTts": "Please type the word the first letter of dog.",
           "answerMode": "type",
           "acceptedAnswers": [
             "d"
@@ -298,7 +298,7 @@
         {
           "id": "en-langues-l4-05",
           "prompt": "First letter of tree",
-          "promptTts": "Type the first letter of tree",
+          "promptTts": "Please type the word the first letter of tree.",
           "answerMode": "type",
           "acceptedAnswers": [
             "t"
@@ -722,7 +722,7 @@
         {
           "id": "en-langues-l11-01",
           "prompt": "Opposite of yes?",
-          "promptTts": "Listen carefully to this word: Opposite of yes.",
+          "promptTts": "Opposite of yes? Choose the right answer.",
           "choices": [
             "no",
             "yes",
@@ -734,7 +734,7 @@
         {
           "id": "en-langues-l11-02",
           "prompt": "Opposite of red?",
-          "promptTts": "Listen carefully to this word: Opposite of red.",
+          "promptTts": "Opposite of red? Choose the right answer.",
           "choices": [
             "blue",
             "red",
@@ -746,7 +746,7 @@
         {
           "id": "en-langues-l11-03",
           "prompt": "Opposite of big?",
-          "promptTts": "Listen carefully to this word: Opposite of big.",
+          "promptTts": "Opposite of big? Choose the right answer.",
           "choices": [
             "small",
             "big",
@@ -758,7 +758,7 @@
         {
           "id": "en-langues-l11-04",
           "prompt": "Opposite of day?",
-          "promptTts": "Listen carefully to this word: Opposite of day.",
+          "promptTts": "Opposite of day? Choose the right answer.",
           "choices": [
             "night",
             "day",
@@ -770,7 +770,7 @@
         {
           "id": "en-langues-l11-05",
           "prompt": "Opposite of hot?",
-          "promptTts": "Listen carefully to this word: Opposite of hot.",
+          "promptTts": "Opposite of hot? Choose the right answer.",
           "choices": [
             "cold",
             "hot",

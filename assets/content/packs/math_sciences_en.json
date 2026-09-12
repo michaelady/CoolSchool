@@ -764,7 +764,7 @@
         {
           "id": "en-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Listen carefully to this word: Type twenty-five.",
+          "promptTts": "Please type the number twenty-five.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "en-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Listen carefully to this word: Type one hundred.",
+          "promptTts": "Please type the number one hundred.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -919,7 +919,7 @@
         {
           "id": "en-msn-l13-01",
           "prompt": "Is it living?",
-          "promptTts": "Listen carefully to this word: Is it living.",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -931,7 +931,7 @@
         {
           "id": "en-msn-l13-02",
           "prompt": "Is it living?",
-          "promptTts": "Listen carefully to this word: Is it living.",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -943,7 +943,7 @@
         {
           "id": "en-msn-l13-03",
           "prompt": "Is it living?",
-          "promptTts": "Listen carefully to this word: Is it living.",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -955,7 +955,7 @@
         {
           "id": "en-msn-l13-04",
           "prompt": "Is it living?",
-          "promptTts": "Listen carefully to this word: Is it living.",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"
@@ -967,7 +967,7 @@
         {
           "id": "en-msn-l13-05",
           "prompt": "Type yes or no: 🐱",
-          "promptTts": "Type yes or no: 🐱. Listen, the word is Is it living.",
+          "promptTts": "Please type the word yes or no.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yes"
@@ -988,7 +988,7 @@
         {
           "id": "en-msn-l14-01",
           "prompt": "Plant or animal?",
-          "promptTts": "Listen carefully to this word: Plant or animal.",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "en-msn-l14-02",
           "prompt": "Plant or animal?",
-          "promptTts": "Listen carefully to this word: Plant or animal.",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "en-msn-l14-03",
           "prompt": "Plant or animal?",
-          "promptTts": "Listen carefully to this word: Plant or animal.",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "en-msn-l14-04",
           "prompt": "Plant or animal?",
-          "promptTts": "Listen carefully to this word: Plant or animal.",
+          "promptTts": "Plant or animal? Choose the right answer.",
           "choices": [
             "plant",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "en-msn-l14-05",
           "prompt": "Type: plant or animal — 🌼",
-          "promptTts": "Type: plant or animal — 🌼. Listen, the word is Plant or animal.",
+          "promptTts": "Please type the word plant or animal.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plant"
@@ -1057,7 +1057,7 @@
         {
           "id": "en-msn-l15-01",
           "prompt": "Which season?",
-          "promptTts": "Listen carefully to this word: Which season.",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "summer",
             "winter",
@@ -1070,7 +1070,7 @@
         {
           "id": "en-msn-l15-02",
           "prompt": "Which season?",
-          "promptTts": "Listen carefully to this word: Which season.",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "winter",
             "spring",
@@ -1083,7 +1083,7 @@
         {
           "id": "en-msn-l15-03",
           "prompt": "Which season?",
-          "promptTts": "Listen carefully to this word: Which season.",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "spring",
             "autumn",
@@ -1096,7 +1096,7 @@
         {
           "id": "en-msn-l15-04",
           "prompt": "Which season?",
-          "promptTts": "Listen carefully to this word: Which season.",
+          "promptTts": "Which season? Choose the right answer.",
           "choices": [
             "autumn",
             "summer",
@@ -1130,7 +1130,7 @@
         {
           "id": "en-msn-l16-01",
           "prompt": "Which sense?",
-          "promptTts": "Listen carefully to this word: Which sense.",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "see",
             "hear",
@@ -1143,7 +1143,7 @@
         {
           "id": "en-msn-l16-02",
           "prompt": "Which sense?",
-          "promptTts": "Listen carefully to this word: Which sense.",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "hear",
             "smell",
@@ -1156,7 +1156,7 @@
         {
           "id": "en-msn-l16-03",
           "prompt": "Which sense?",
-          "promptTts": "Listen carefully to this word: Which sense.",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "smell",
             "taste",
@@ -1169,7 +1169,7 @@
         {
           "id": "en-msn-l16-04",
           "prompt": "Which sense?",
-          "promptTts": "Listen carefully to this word: Which sense.",
+          "promptTts": "Which sense? Choose the right answer.",
           "choices": [
             "taste",
             "see",
@@ -1274,7 +1274,7 @@
         {
           "id": "en-msn-l18-01",
           "prompt": "Which shape?",
-          "promptTts": "Listen carefully to this word: Which shape.",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "circle",
             "square",
@@ -1287,7 +1287,7 @@
         {
           "id": "en-msn-l18-02",
           "prompt": "Which shape?",
-          "promptTts": "Listen carefully to this word: Which shape.",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "square",
             "triangle",
@@ -1300,7 +1300,7 @@
         {
           "id": "en-msn-l18-03",
           "prompt": "Which shape?",
-          "promptTts": "Listen carefully to this word: Which shape.",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "triangle",
             "rectangle",
@@ -1313,7 +1313,7 @@
         {
           "id": "en-msn-l18-04",
           "prompt": "Which shape?",
-          "promptTts": "Listen carefully to this word: Which shape.",
+          "promptTts": "Which shape? Choose the right answer.",
           "choices": [
             "rectangle",
             "circle",
@@ -1347,7 +1347,7 @@
         {
           "id": "en-msn-l19-01",
           "prompt": "Which is longer?",
-          "promptTts": "Listen carefully to this word: Which is longer.",
+          "promptTts": "Which is longer? Choose the right answer.",
           "choices": [
             "—",
             "-"
@@ -1435,7 +1435,7 @@
         {
           "id": "en-msn-l20-03",
           "prompt": "Is it living?",
-          "promptTts": "Listen carefully to this word: Is it living.",
+          "promptTts": "Is it living? Choose the right answer.",
           "choices": [
             "yes",
             "no"

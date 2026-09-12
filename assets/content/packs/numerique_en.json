@@ -177,7 +177,7 @@
         {
           "id": "en-num-l3-02",
           "prompt": "Entering letters is called…",
-          "promptTts": "Entering letters is called… Listen, the word is type.",
+          "promptTts": "Please type the word type.",
           "choices": [
             "type",
             "run",
@@ -211,7 +211,7 @@
         {
           "id": "en-num-l3-05",
           "prompt": "Type the word: yes",
-          "promptTts": "Listen carefully to this word: Type yes.",
+          "promptTts": "Please type the word yes.",
           "answerMode": "type",
           "acceptedAnswers": [
             "yes"
@@ -244,7 +244,7 @@
         {
           "id": "en-num-l4-02",
           "prompt": "Is 🗑️ often the trash?",
-          "promptTts": "Is 🗑️ often the trash? Tap yes or no.",
+          "promptTts": "Is often the trash? Tap yes or no.",
           "choices": [
             "yes",
             "no"
@@ -771,7 +771,7 @@
         {
           "id": "en-num-l12-02",
           "prompt": "First wash hands, ___ eat.",
-          "promptTts": "First wash hands, ___ eat.. Listen, the word is then.",
+          "promptTts": "First wash hands, ___ eat. Listen, the word is then.",
           "choices": [
             "then",
             "first"
@@ -824,7 +824,7 @@
         {
           "id": "en-num-l13-01",
           "prompt": "The robot should go ⬅️. Where?",
-          "promptTts": "The robot should go ⬅️. Where? Listen: left.",
+          "promptTts": "The robot should go left. Where? Listen: left.",
           "choices": [
             "left",
             "right"
@@ -835,7 +835,7 @@
         {
           "id": "en-num-l13-02",
           "prompt": "The robot should go ➡️. Where?",
-          "promptTts": "The robot should go ➡️. Where? Listen: right.",
+          "promptTts": "The robot should go right. Where? Listen: right.",
           "choices": [
             "right",
             "left"
@@ -901,7 +901,7 @@
         {
           "id": "en-num-l14-02",
           "prompt": "Type the number 3",
-          "promptTts": "Listen carefully to this word: Type three.",
+          "promptTts": "Please type the number 3.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -1319,7 +1319,7 @@
         {
           "id": "en-num-l20-04",
           "prompt": "Robot ⬅️ ?",
-          "promptTts": "Listen carefully to this word: Robot ⬅️ ? Listen: left.",
+          "promptTts": "Robot left ? Listen: left.",
           "choices": [
             "left",
             "right"

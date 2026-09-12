@@ -305,7 +305,7 @@
         {
           "id": "ro-shs-l5-01",
           "prompt": "Anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Anotimp? Ascultă: vară.",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: vară.",
           "choices": [
             "vară",
             "ploaie",
@@ -318,7 +318,7 @@
         {
           "id": "ro-shs-l5-02",
           "prompt": "Anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Anotimp? Ascultă: iarnă.",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: iarnă.",
           "choices": [
             "iarnă",
             "ploaie",
@@ -331,7 +331,7 @@
         {
           "id": "ro-shs-l5-03",
           "prompt": "Anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Anotimp? Ascultă: primăvară.",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: primăvară.",
           "choices": [
             "primăvară",
             "ploaie",
@@ -344,7 +344,7 @@
         {
           "id": "ro-shs-l5-04",
           "prompt": "Anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Anotimp? Ascultă: toamnă.",
+          "promptTts": "Anotimp? Ascultă: Anotimp? Ascultă: toamnă.",
           "choices": [
             "toamnă",
             "ploaie",
@@ -603,7 +603,7 @@
         {
           "id": "ro-shs-l9-02",
           "prompt": "Țară?",
-          "promptTts": "Ascultă bine acest cuvânt: Țară? Ascultă: Elveția.",
+          "promptTts": "Țară? Ascultă: Țară? Ascultă: Elveția.",
           "choices": [
             "Elveția",
             "Franța",

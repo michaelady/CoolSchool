@@ -211,7 +211,7 @@
         {
           "id": "de-num-l3-05",
           "prompt": "Schreib das Wort: ja",
-          "promptTts": "Hör gut zu, das Wort ist Schreib ja.",
+          "promptTts": "Schreib bitte das Wort ja.",
           "answerMode": "type",
           "acceptedAnswers": [
             "ja"
@@ -244,7 +244,7 @@
         {
           "id": "de-num-l4-02",
           "prompt": "Ist 🗑️ oft der Papierkorb?",
-          "promptTts": "Ist 🗑️ oft der Papierkorb? Tippe ja oder nein.",
+          "promptTts": "Ist oft der Papierkorb? Tippe ja oder nein.",
           "choices": [
             "ja",
             "nein"
@@ -771,7 +771,7 @@
         {
           "id": "de-num-l12-02",
           "prompt": "Zuerst Hände waschen, ___ essen.",
-          "promptTts": "Zuerst Hände waschen, ___ essen.. Hör zu, das Wort ist dann.",
+          "promptTts": "Zuerst Hände waschen, ___ essen. Hör zu, das Wort ist dann.",
           "choices": [
             "dann",
             "zuerst"
@@ -824,7 +824,7 @@
         {
           "id": "de-num-l13-01",
           "prompt": "Roboter soll nach ⬅️. Wohin?",
-          "promptTts": "Roboter soll nach ⬅️. Wohin? Hör zu: links.",
+          "promptTts": "Roboter soll nach links. Wohin? Hör zu: links.",
           "choices": [
             "links",
             "rechts"
@@ -835,7 +835,7 @@
         {
           "id": "de-num-l13-02",
           "prompt": "Roboter soll nach ➡️. Wohin?",
-          "promptTts": "Roboter soll nach ➡️. Wohin? Hör zu: rechts.",
+          "promptTts": "Roboter soll nach rechts. Wohin? Hör zu: rechts.",
           "choices": [
             "rechts",
             "links"
@@ -901,7 +901,7 @@
         {
           "id": "de-num-l14-02",
           "prompt": "Schreib die Zahl 3",
-          "promptTts": "Hör gut zu, das Wort ist Schreib drei.",
+          "promptTts": "Schreib bitte die Zahl drei.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -1319,7 +1319,7 @@
         {
           "id": "de-num-l20-04",
           "prompt": "Roboter ⬅️ ?",
-          "promptTts": "Roboter ⬅️ ? Hör zu: links.",
+          "promptTts": "Roboter links ? Hör zu: links.",
           "choices": [
             "links",
             "rechts"

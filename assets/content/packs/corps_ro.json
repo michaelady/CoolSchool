@@ -233,7 +233,7 @@
         {
           "id": "ro-corps-l4-01",
           "prompt": "⬅️ e?",
-          "promptTts": "Ascultă bine acest cuvânt: ⬅️ e? Ascultă: stânga.",
+          "promptTts": "la stânga e? Ascultă: stânga.",
           "choices": [
             "stânga",
             "dreapta"
@@ -244,7 +244,7 @@
         {
           "id": "ro-corps-l4-02",
           "prompt": "➡️ e?",
-          "promptTts": "Ascultă bine acest cuvânt: ➡️ e? Ascultă: dreapta.",
+          "promptTts": "la dreapta e? Ascultă: dreapta.",
           "choices": [
             "dreapta",
             "stânga"

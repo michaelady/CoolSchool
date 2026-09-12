@@ -233,7 +233,7 @@
         {
           "id": "en-corps-l4-01",
           "prompt": "⬅️ is?",
-          "promptTts": "Listen carefully to this word: ⬅️ is? Listen: left.",
+          "promptTts": "left is? Listen: left.",
           "choices": [
             "left",
             "right"
@@ -244,7 +244,7 @@
         {
           "id": "en-corps-l4-02",
           "prompt": "➡️ is?",
-          "promptTts": "Listen carefully to this word: ➡️ is? Listen: right.",
+          "promptTts": "right is? Listen: right.",
           "choices": [
             "right",
             "left"

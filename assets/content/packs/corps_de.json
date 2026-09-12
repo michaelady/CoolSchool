@@ -233,7 +233,7 @@
         {
           "id": "de-corps-l4-01",
           "prompt": "⬅️ ist?",
-          "promptTts": "⬅️ ist? Hör zu: links.",
+          "promptTts": "links ist? Hör zu: links.",
           "choices": [
             "links",
             "rechts"
@@ -244,7 +244,7 @@
         {
           "id": "de-corps-l4-02",
           "prompt": "➡️ ist?",
-          "promptTts": "➡️ ist? Hör zu: rechts.",
+          "promptTts": "rechts ist? Hör zu: rechts.",
           "choices": [
             "rechts",
             "links"

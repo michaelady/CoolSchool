@@ -764,7 +764,7 @@
         {
           "id": "fr-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Écoute bien ce mot : Écris vingt-cinq.",
+          "promptTts": "Écris le nombre vingt-cinq, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "fr-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Écoute bien ce mot : Écris cent.",
+          "promptTts": "Écris le nombre cent, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -919,7 +919,7 @@
         {
           "id": "fr-msn-l13-01",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Écoute bien ce mot : Est-ce vivant .",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -931,7 +931,7 @@
         {
           "id": "fr-msn-l13-02",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Écoute bien ce mot : Est-ce vivant .",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -943,7 +943,7 @@
         {
           "id": "fr-msn-l13-03",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Écoute bien ce mot : Est-ce vivant .",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -955,7 +955,7 @@
         {
           "id": "fr-msn-l13-04",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Écoute bien ce mot : Est-ce vivant .",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"
@@ -967,7 +967,7 @@
         {
           "id": "fr-msn-l13-05",
           "prompt": "Écris oui ou non : 🐱",
-          "promptTts": "Écris oui ou non : 🐱. Écoute, le mot est Est-ce vivant .",
+          "promptTts": "Écris le mot oui ou non, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oui"
@@ -988,7 +988,7 @@
         {
           "id": "fr-msn-l14-01",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Écoute bien ce mot : Plante ou animal .",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "fr-msn-l14-02",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Écoute bien ce mot : Plante ou animal .",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "fr-msn-l14-03",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Écoute bien ce mot : Plante ou animal .",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "fr-msn-l14-04",
           "prompt": "Plante ou animal ?",
-          "promptTts": "Écoute bien ce mot : Plante ou animal .",
+          "promptTts": "Plante ou animal ? Choisis la bonne réponse.",
           "choices": [
             "plante",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "fr-msn-l14-05",
           "prompt": "Écris : plante ou animal — 🌼",
-          "promptTts": "Écris : plante ou animal — 🌼. Écoute, le mot est Plante ou animal .",
+          "promptTts": "Écris le mot plante ou animal, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plante"
@@ -1057,7 +1057,7 @@
         {
           "id": "fr-msn-l15-01",
           "prompt": "Quelle saison ?",
-          "promptTts": "Écoute bien ce mot : Quelle saison .",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "été",
             "hiver",
@@ -1070,7 +1070,7 @@
         {
           "id": "fr-msn-l15-02",
           "prompt": "Quelle saison ?",
-          "promptTts": "Écoute bien ce mot : Quelle saison .",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "hiver",
             "printemps",
@@ -1083,7 +1083,7 @@
         {
           "id": "fr-msn-l15-03",
           "prompt": "Quelle saison ?",
-          "promptTts": "Écoute bien ce mot : Quelle saison .",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "printemps",
             "automne",
@@ -1096,7 +1096,7 @@
         {
           "id": "fr-msn-l15-04",
           "prompt": "Quelle saison ?",
-          "promptTts": "Écoute bien ce mot : Quelle saison .",
+          "promptTts": "Quelle saison ? Choisis la bonne réponse.",
           "choices": [
             "automne",
             "été",
@@ -1130,7 +1130,7 @@
         {
           "id": "fr-msn-l16-01",
           "prompt": "Quel sens ?",
-          "promptTts": "Écoute bien ce mot : Quel sens .",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "voir",
             "entendre",
@@ -1143,7 +1143,7 @@
         {
           "id": "fr-msn-l16-02",
           "prompt": "Quel sens ?",
-          "promptTts": "Écoute bien ce mot : Quel sens .",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "entendre",
             "sentir",
@@ -1156,7 +1156,7 @@
         {
           "id": "fr-msn-l16-03",
           "prompt": "Quel sens ?",
-          "promptTts": "Écoute bien ce mot : Quel sens .",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "sentir",
             "goûter",
@@ -1169,7 +1169,7 @@
         {
           "id": "fr-msn-l16-04",
           "prompt": "Quel sens ?",
-          "promptTts": "Écoute bien ce mot : Quel sens .",
+          "promptTts": "Quel sens ? Choisis la bonne réponse.",
           "choices": [
             "goûter",
             "voir",
@@ -1274,7 +1274,7 @@
         {
           "id": "fr-msn-l18-01",
           "prompt": "Quelle forme ?",
-          "promptTts": "Écoute bien ce mot : Quelle forme .",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "cercle",
             "carré",
@@ -1287,7 +1287,7 @@
         {
           "id": "fr-msn-l18-02",
           "prompt": "Quelle forme ?",
-          "promptTts": "Écoute bien ce mot : Quelle forme .",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "carré",
             "triangle",
@@ -1300,7 +1300,7 @@
         {
           "id": "fr-msn-l18-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "Écoute bien ce mot : Quelle forme .",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "triangle",
             "rectangle",
@@ -1313,7 +1313,7 @@
         {
           "id": "fr-msn-l18-04",
           "prompt": "Quelle forme ?",
-          "promptTts": "Écoute bien ce mot : Quelle forme .",
+          "promptTts": "Quelle forme ? Choisis la bonne réponse.",
           "choices": [
             "rectangle",
             "cercle",
@@ -1435,7 +1435,7 @@
         {
           "id": "fr-msn-l20-03",
           "prompt": "Est-ce vivant ?",
-          "promptTts": "Écoute bien ce mot : Est-ce vivant .",
+          "promptTts": "Est-ce vivant ? Choisis la bonne réponse.",
           "choices": [
             "oui",
             "non"

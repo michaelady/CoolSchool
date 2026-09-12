@@ -254,7 +254,7 @@
         {
           "id": "de-langues-l4-01",
           "prompt": "Erster Buchstabe von Buch",
-          "promptTts": "Schreib den ersten Buchstaben von Buch",
+          "promptTts": "Schreib bitte das Wort den ersten Buchstaben von Buch.",
           "answerMode": "type",
           "acceptedAnswers": [
             "B"
@@ -265,7 +265,7 @@
         {
           "id": "de-langues-l4-02",
           "prompt": "Erster Buchstabe von Sonne",
-          "promptTts": "Schreib den ersten Buchstaben von Sonne",
+          "promptTts": "Schreib bitte das Wort den ersten Buchstaben von Sonne.",
           "answerMode": "type",
           "acceptedAnswers": [
             "S"
@@ -276,7 +276,7 @@
         {
           "id": "de-langues-l4-03",
           "prompt": "Erster Buchstabe von Katze",
-          "promptTts": "Schreib den ersten Buchstaben von Katze",
+          "promptTts": "Schreib bitte das Wort den ersten Buchstaben von Katze.",
           "answerMode": "type",
           "acceptedAnswers": [
             "K"
@@ -287,7 +287,7 @@
         {
           "id": "de-langues-l4-04",
           "prompt": "Erster Buchstabe von Hund",
-          "promptTts": "Schreib den ersten Buchstaben von Hund",
+          "promptTts": "Schreib bitte das Wort den ersten Buchstaben von Hund.",
           "answerMode": "type",
           "acceptedAnswers": [
             "H"
@@ -298,7 +298,7 @@
         {
           "id": "de-langues-l4-05",
           "prompt": "Erster Buchstabe von Baum",
-          "promptTts": "Schreib den ersten Buchstaben von Baum",
+          "promptTts": "Schreib bitte das Wort den ersten Buchstaben von Baum.",
           "answerMode": "type",
           "acceptedAnswers": [
             "B"
@@ -722,7 +722,7 @@
         {
           "id": "de-langues-l11-01",
           "prompt": "Gegenteil von ja?",
-          "promptTts": "Hör gut zu, das Wort ist Gegenteil von ja.",
+          "promptTts": "Gegenteil von ja? Wähle die richtige Antwort.",
           "choices": [
             "nein",
             "ja",
@@ -734,7 +734,7 @@
         {
           "id": "de-langues-l11-02",
           "prompt": "Gegenteil von rot?",
-          "promptTts": "Hör gut zu, das Wort ist Gegenteil von rot.",
+          "promptTts": "Gegenteil von rot? Wähle die richtige Antwort.",
           "choices": [
             "blau",
             "rot",
@@ -746,7 +746,7 @@
         {
           "id": "de-langues-l11-03",
           "prompt": "Gegenteil von gross?",
-          "promptTts": "Hör gut zu, das Wort ist Gegenteil von gross.",
+          "promptTts": "Gegenteil von gross? Wähle die richtige Antwort.",
           "choices": [
             "klein",
             "gross",
@@ -758,7 +758,7 @@
         {
           "id": "de-langues-l11-04",
           "prompt": "Gegenteil von tag?",
-          "promptTts": "Hör gut zu, das Wort ist Gegenteil von tag.",
+          "promptTts": "Gegenteil von tag? Wähle die richtige Antwort.",
           "choices": [
             "nacht",
             "tag",
@@ -770,7 +770,7 @@
         {
           "id": "de-langues-l11-05",
           "prompt": "Gegenteil von heiss?",
-          "promptTts": "Hör gut zu, das Wort ist Gegenteil von heiss.",
+          "promptTts": "Gegenteil von heiss? Wähle die richtige Antwort.",
           "choices": [
             "kalt",
             "heiss",

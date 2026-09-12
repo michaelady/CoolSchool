@@ -23,7 +23,7 @@
         {
           "id": "fr-arts-l1-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : rouge.",
+          "promptTts": "Quelle couleur ? Écoute: rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -36,7 +36,7 @@
         {
           "id": "fr-arts-l1-02",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : bleu.",
+          "promptTts": "Quelle couleur ? Écoute: bleu.",
           "choices": [
             "bleu",
             "rouge",
@@ -49,7 +49,7 @@
         {
           "id": "fr-arts-l1-03",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : jaune.",
+          "promptTts": "Quelle couleur ? Écoute: jaune.",
           "choices": [
             "jaune",
             "rouge",
@@ -74,7 +74,7 @@
         {
           "id": "fr-arts-l1-05",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : rouge.",
+          "promptTts": "Quelle couleur ? Écoute: rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -96,7 +96,7 @@
         {
           "id": "fr-arts-l2-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : vert.",
+          "promptTts": "Quelle couleur ? Écoute: vert.",
           "choices": [
             "vert",
             "rouge",
@@ -109,7 +109,7 @@
         {
           "id": "fr-arts-l2-02",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : orange.",
+          "promptTts": "Quelle couleur ? Écoute: orange.",
           "choices": [
             "orange",
             "bleu",
@@ -122,7 +122,7 @@
         {
           "id": "fr-arts-l2-03",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : violet.",
+          "promptTts": "Quelle couleur ? Écoute: violet.",
           "choices": [
             "violet",
             "jaune",
@@ -147,7 +147,7 @@
         {
           "id": "fr-arts-l2-05",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : vert.",
+          "promptTts": "Quelle couleur ? Écoute: vert.",
           "choices": [
             "vert",
             "rouge",
@@ -169,7 +169,7 @@
         {
           "id": "fr-arts-l3-01",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ? Écoute : cercle.",
+          "promptTts": "Quelle forme ? Écoute: cercle.",
           "choices": [
             "cercle",
             "carré",
@@ -182,7 +182,7 @@
         {
           "id": "fr-arts-l3-02",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ? Écoute : carré.",
+          "promptTts": "Quelle forme ? Écoute: carré.",
           "choices": [
             "carré",
             "cercle",
@@ -195,7 +195,7 @@
         {
           "id": "fr-arts-l3-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ? Écoute : triangle.",
+          "promptTts": "Quelle forme ? Écoute: triangle.",
           "choices": [
             "triangle",
             "cercle",
@@ -240,7 +240,7 @@
         {
           "id": "fr-arts-l4-01",
           "prompt": "Rouge plus jaune ?",
-          "promptTts": "Rouge plus jaune ? Écoute : orange.",
+          "promptTts": "Rouge plus jaune ? Écoute: orange.",
           "choices": [
             "orange",
             "vert",
@@ -252,7 +252,7 @@
         {
           "id": "fr-arts-l4-02",
           "prompt": "Bleu plus jaune ?",
-          "promptTts": "Bleu plus jaune ? Écoute : vert.",
+          "promptTts": "Bleu plus jaune ? Écoute: vert.",
           "choices": [
             "vert",
             "orange",
@@ -264,7 +264,7 @@
         {
           "id": "fr-arts-l4-03",
           "prompt": "Rouge plus bleu ?",
-          "promptTts": "Rouge plus bleu ? Écoute : violet.",
+          "promptTts": "Rouge plus bleu ? Écoute: violet.",
           "choices": [
             "violet",
             "vert",
@@ -307,7 +307,7 @@
         {
           "id": "fr-arts-l5-01",
           "prompt": "Avec quoi peindre ?",
-          "promptTts": "Avec quoi peindre ? Écoute : pinceau.",
+          "promptTts": "Avec quoi peindre ? Écoute: pinceau.",
           "choices": [
             "pinceau",
             "tambour",
@@ -320,7 +320,7 @@
         {
           "id": "fr-arts-l5-02",
           "prompt": "Avec quoi dessiner ?",
-          "promptTts": "Avec quoi dessiner ? Écoute : crayon.",
+          "promptTts": "Avec quoi dessiner ? Écoute: crayon.",
           "choices": [
             "crayon",
             "flûte",
@@ -377,7 +377,7 @@
         {
           "id": "fr-arts-l6-01",
           "prompt": "Comment ça sonne ?",
-          "promptTts": "Comment ça sonne ? Écoute : fort.",
+          "promptTts": "Comment ça sonne ? Écoute: fort.",
           "choices": [
             "fort",
             "doux"
@@ -389,7 +389,7 @@
         {
           "id": "fr-arts-l6-02",
           "prompt": "Comment ça sonne ?",
-          "promptTts": "Comment ça sonne ? Écoute : doux.",
+          "promptTts": "Comment ça sonne ? Écoute: doux.",
           "choices": [
             "doux",
             "fort"
@@ -444,7 +444,7 @@
         {
           "id": "fr-arts-l7-01",
           "prompt": "Quel instrument ?",
-          "promptTts": "Quel instrument ? Écoute : tambour.",
+          "promptTts": "Quel instrument ? Écoute: tambour.",
           "choices": [
             "tambour",
             "pinceau",
@@ -457,7 +457,7 @@
         {
           "id": "fr-arts-l7-02",
           "prompt": "Quel instrument ?",
-          "promptTts": "Quel instrument ? Écoute : piano.",
+          "promptTts": "Quel instrument ? Écoute: piano.",
           "choices": [
             "piano",
             "pinceau",
@@ -470,7 +470,7 @@
         {
           "id": "fr-arts-l7-03",
           "prompt": "Quel instrument ?",
-          "promptTts": "Quel instrument ? Écoute : flûte.",
+          "promptTts": "Quel instrument ? Écoute: flûte.",
           "choices": [
             "flûte",
             "carré",
@@ -515,7 +515,7 @@
         {
           "id": "fr-arts-l8-01",
           "prompt": "Son aigu ou grave ?",
-          "promptTts": "Son aigu ou grave ? Écoute : aigu.",
+          "promptTts": "Son aigu ou grave ? Écoute: aigu.",
           "choices": [
             "aigu",
             "grave"
@@ -527,7 +527,7 @@
         {
           "id": "fr-arts-l8-02",
           "prompt": "Son aigu ou grave ?",
-          "promptTts": "Son aigu ou grave ? Écoute : grave.",
+          "promptTts": "Son aigu ou grave ? Écoute: grave.",
           "choices": [
             "grave",
             "aigu"
@@ -581,7 +581,7 @@
         {
           "id": "fr-arts-l9-01",
           "prompt": "Ensuite ? 🟥🟦🟥 ?",
-          "promptTts": "Écoute bien ce mot : Ensuite ? 🟥🟦🟥 ? Écoute : 🟦.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "🟦",
             "🟨",
@@ -593,7 +593,7 @@
         {
           "id": "fr-arts-l9-02",
           "prompt": "Motif : ⭐🌙⭐ ?",
-          "promptTts": "Écoute bien ce mot : Motif : ⭐🌙⭐ ? Écoute : 🌙.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "🌙",
             "🍎",
@@ -605,7 +605,7 @@
         {
           "id": "fr-arts-l9-03",
           "prompt": "Combien de 🟥 dans 🟥🟦🟥 ?",
-          "promptTts": "Écoute bien ce mot : Écris le nombre.",
+          "promptTts": "Écris le nombre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -627,7 +627,7 @@
         {
           "id": "fr-arts-l9-05",
           "prompt": "Ensuite si 🔺🔺⬜🔺🔺 ?",
-          "promptTts": "Écoute bien ce mot : Ensuite si 🔺🔺⬜🔺🔺 ? Écoute : ⬜.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "⬜",
             "🟦",
@@ -648,7 +648,7 @@
         {
           "id": "fr-arts-l10-01",
           "prompt": "Quelle émotion ?",
-          "promptTts": "Quelle émotion ? Écoute : joyeux.",
+          "promptTts": "Quelle émotion ? Écoute: joyeux.",
           "choices": [
             "joyeux",
             "triste"
@@ -660,7 +660,7 @@
         {
           "id": "fr-arts-l10-02",
           "prompt": "Quelle émotion ?",
-          "promptTts": "Quelle émotion ? Écoute : triste.",
+          "promptTts": "Quelle émotion ? Écoute: triste.",
           "choices": [
             "triste",
             "joyeux"
@@ -715,7 +715,7 @@
         {
           "id": "fr-arts-l11-01",
           "prompt": "Que fait-on avec de la peinture ?",
-          "promptTts": "Que fait-on avec de la peinture ? Écoute : peindre.",
+          "promptTts": "Que fait-on avec de la peinture ? Écoute: peindre.",
           "choices": [
             "peindre",
             "chanter",
@@ -728,7 +728,7 @@
         {
           "id": "fr-arts-l11-02",
           "prompt": "Que fait-on avec la voix ?",
-          "promptTts": "Que fait-on avec la voix ? Écoute : chanter.",
+          "promptTts": "Que fait-on avec la voix ? Écoute: chanter.",
           "choices": [
             "chanter",
             "peindre",
@@ -741,7 +741,7 @@
         {
           "id": "fr-arts-l11-03",
           "prompt": "Que fait-on avec des cubes ?",
-          "promptTts": "Que fait-on avec des cubes ? Écoute : construire.",
+          "promptTts": "Que fait-on avec des cubes ? Écoute: construire.",
           "choices": [
             "construire",
             "chanter",
@@ -797,7 +797,7 @@
         {
           "id": "fr-arts-l12-02",
           "prompt": "Combien de temps : ♪♪♪♪ ?",
-          "promptTts": "Écris le nombre quatre.",
+          "promptTts": "Écris le nombre quatre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "4"
@@ -886,7 +886,7 @@
         {
           "id": "fr-arts-l13-04",
           "prompt": "Jaune : chaud ?",
-          "promptTts": "Jaune : chaud ? Touche oui ou non.",
+          "promptTts": "Jaune: chaud ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -918,7 +918,7 @@
         {
           "id": "fr-arts-l14-01",
           "prompt": "Qu’est-ce qui est rêche ?",
-          "promptTts": "Qu’est-ce qui est rêche ? Écoute : écorce.",
+          "promptTts": "Qu’est-ce qui est rêche ? Écoute: écorce.",
           "choices": [
             "écorce",
             "soie"
@@ -930,7 +930,7 @@
         {
           "id": "fr-arts-l14-02",
           "prompt": "Qu’est-ce qui est doux ?",
-          "promptTts": "Qu’est-ce qui est doux ? Écoute : laine.",
+          "promptTts": "Qu’est-ce qui est doux ? Écoute: laine.",
           "choices": [
             "laine",
             "pierre"
@@ -984,7 +984,7 @@
         {
           "id": "fr-arts-l15-01",
           "prompt": "Mouvement sur la musique ?",
-          "promptTts": "Mouvement sur la musique ? Écoute : danse.",
+          "promptTts": "Mouvement sur la musique ? Écoute: danse.",
           "choices": [
             "danse",
             "image"
@@ -996,7 +996,7 @@
         {
           "id": "fr-arts-l15-02",
           "prompt": "Quelque chose à regarder ?",
-          "promptTts": "Quelque chose à regarder ? Écoute : image.",
+          "promptTts": "Quelque chose à regarder ? Écoute: image.",
           "choices": [
             "image",
             "danse"
@@ -1050,7 +1050,7 @@
         {
           "id": "fr-arts-l16-01",
           "prompt": "⬛⬜⬛ ?",
-          "promptTts": "Écoute bien ce mot : ⬛⬜⬛ ? Écoute : ⬜.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "⬜",
             "🟥",
@@ -1062,7 +1062,7 @@
         {
           "id": "fr-arts-l16-02",
           "prompt": "ABAB, B si A=⭐ ?",
-          "promptTts": "ABAB, B si A=⭐ ? Écoute : 🌙.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "🌙",
             "⭐",
@@ -1074,7 +1074,7 @@
         {
           "id": "fr-arts-l16-03",
           "prompt": "Nombre de ⬛ dans ⬛⬜⬛⬜",
-          "promptTts": "Écoute bien ce mot : Écris le nombre.",
+          "promptTts": "Écris le nombre, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "2"
@@ -1096,7 +1096,7 @@
         {
           "id": "fr-arts-l16-05",
           "prompt": "🔴🟢🔴 ?",
-          "promptTts": "Écoute bien ce mot : 🔴🟢🔴 ? Écoute : 🟢.",
+          "promptTts": "Qu’est-ce qui vient ensuite dans le motif ? Choisis la bonne image.",
           "choices": [
             "🟢",
             "🔵",
@@ -1117,7 +1117,7 @@
         {
           "id": "fr-arts-l17-01",
           "prompt": "Première note souvent ?",
-          "promptTts": "Première note souvent ? Écoute : do.",
+          "promptTts": "Première note souvent ? Écoute: do.",
           "choices": [
             "do",
             "fa",
@@ -1129,7 +1129,7 @@
         {
           "id": "fr-arts-l17-02",
           "prompt": "Do, ré, … ?",
-          "promptTts": "Do, ré, … ? Écoute : mi.",
+          "promptTts": "Do, ré, … ? Écoute: mi.",
           "choices": [
             "mi",
             "sol",
@@ -1141,7 +1141,7 @@
         {
           "id": "fr-arts-l17-03",
           "prompt": "Écris : do",
-          "promptTts": "Écoute bien ce mot : Écris do.",
+          "promptTts": "Écris le mot do, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "do"
@@ -1183,7 +1183,7 @@
         {
           "id": "fr-arts-l18-01",
           "prompt": "Nuit étoilée : jour ou nuit ?",
-          "promptTts": "Nuit étoilée : jour ou nuit ? Écoute : nuit.",
+          "promptTts": "Nuit étoilée: jour ou nuit ? Écoute: nuit.",
           "choices": [
             "nuit",
             "jour"
@@ -1195,7 +1195,7 @@
         {
           "id": "fr-arts-l18-02",
           "prompt": "Tournesols : jour ou nuit ?",
-          "promptTts": "Tournesols : jour ou nuit ? Écoute : jour.",
+          "promptTts": "Tournesols: jour ou nuit ? Écoute: jour.",
           "choices": [
             "jour",
             "nuit"
@@ -1262,7 +1262,7 @@
         {
           "id": "fr-arts-l19-02",
           "prompt": "Avec quoi coller ?",
-          "promptTts": "Avec quoi coller ? Écoute : colle.",
+          "promptTts": "Avec quoi coller ? Écoute: colle.",
           "choices": [
             "colle",
             "tambour",
@@ -1317,7 +1317,7 @@
         {
           "id": "fr-arts-l20-01",
           "prompt": "Quelle couleur ?",
-          "promptTts": "Quelle couleur ? Écoute : rouge.",
+          "promptTts": "Quelle couleur ? Écoute: rouge.",
           "choices": [
             "rouge",
             "bleu",
@@ -1341,7 +1341,7 @@
         {
           "id": "fr-arts-l20-03",
           "prompt": "Quelle forme ?",
-          "promptTts": "Quelle forme ? Écoute : cercle.",
+          "promptTts": "Quelle forme ? Écoute: cercle.",
           "choices": [
             "cercle",
             "carré",
@@ -1354,7 +1354,7 @@
         {
           "id": "fr-arts-l20-04",
           "prompt": "Fort ou doux pour une berceuse ?",
-          "promptTts": "Fort ou doux pour une berceuse ? Écoute : doux.",
+          "promptTts": "Fort ou doux pour une berceuse ? Écoute: doux.",
           "choices": [
             "doux",
             "fort"

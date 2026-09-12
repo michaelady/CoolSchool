@@ -764,7 +764,7 @@
         {
           "id": "ro-msn-l10-05",
           "prompt": "25",
-          "promptTts": "Scrie douăzeci și cinci",
+          "promptTts": "Te rog, scrie numărul douăzeci și cinci.",
           "answerMode": "type",
           "acceptedAnswers": [
             "25"
@@ -876,7 +876,7 @@
         {
           "id": "ro-msn-l12-03",
           "prompt": "100",
-          "promptTts": "Ascultă bine acest cuvânt: Scrie o sută.",
+          "promptTts": "Te rog, scrie numărul o sută.",
           "answerMode": "type",
           "acceptedAnswers": [
             "100"
@@ -919,7 +919,7 @@
         {
           "id": "ro-msn-l13-01",
           "prompt": "Este viu?",
-          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
+          "promptTts": "Este viu? Alege răspunsul potrivit.",
           "choices": [
             "da",
             "nu"
@@ -931,7 +931,7 @@
         {
           "id": "ro-msn-l13-02",
           "prompt": "Este viu?",
-          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
+          "promptTts": "Este viu? Alege răspunsul potrivit.",
           "choices": [
             "da",
             "nu"
@@ -943,7 +943,7 @@
         {
           "id": "ro-msn-l13-03",
           "prompt": "Este viu?",
-          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
+          "promptTts": "Este viu? Alege răspunsul potrivit.",
           "choices": [
             "da",
             "nu"
@@ -955,7 +955,7 @@
         {
           "id": "ro-msn-l13-04",
           "prompt": "Este viu?",
-          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
+          "promptTts": "Este viu? Alege răspunsul potrivit.",
           "choices": [
             "da",
             "nu"
@@ -967,7 +967,7 @@
         {
           "id": "ro-msn-l13-05",
           "prompt": "Scrie da sau nu: 🐱",
-          "promptTts": "Scrie da sau nu: 🐱. Ascultă, cuvântul este Este viu.",
+          "promptTts": "Te rog, scrie cuvântul da sau nu.",
           "answerMode": "type",
           "acceptedAnswers": [
             "da"
@@ -988,7 +988,7 @@
         {
           "id": "ro-msn-l14-01",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
+          "promptTts": "Plantă sau animal? Alege răspunsul potrivit.",
           "choices": [
             "plantă",
             "animal"
@@ -1000,7 +1000,7 @@
         {
           "id": "ro-msn-l14-02",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
+          "promptTts": "Plantă sau animal? Alege răspunsul potrivit.",
           "choices": [
             "plantă",
             "animal"
@@ -1012,7 +1012,7 @@
         {
           "id": "ro-msn-l14-03",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
+          "promptTts": "Plantă sau animal? Alege răspunsul potrivit.",
           "choices": [
             "plantă",
             "animal"
@@ -1024,7 +1024,7 @@
         {
           "id": "ro-msn-l14-04",
           "prompt": "Plantă sau animal?",
-          "promptTts": "Ascultă bine acest cuvânt: Plantă sau animal.",
+          "promptTts": "Plantă sau animal? Alege răspunsul potrivit.",
           "choices": [
             "plantă",
             "animal"
@@ -1036,7 +1036,7 @@
         {
           "id": "ro-msn-l14-05",
           "prompt": "Scrie: plantă sau animal — 🌼",
-          "promptTts": "Scrie: plantă sau animal — 🌼. Ascultă, cuvântul este Plantă sau animal.",
+          "promptTts": "Te rog, scrie cuvântul plantă sau animal.",
           "answerMode": "type",
           "acceptedAnswers": [
             "plantă"
@@ -1057,7 +1057,7 @@
         {
           "id": "ro-msn-l15-01",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
+          "promptTts": "Ce anotimp? Alege răspunsul potrivit.",
           "choices": [
             "vară",
             "iarnă",
@@ -1070,7 +1070,7 @@
         {
           "id": "ro-msn-l15-02",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
+          "promptTts": "Ce anotimp? Alege răspunsul potrivit.",
           "choices": [
             "iarnă",
             "primăvară",
@@ -1083,7 +1083,7 @@
         {
           "id": "ro-msn-l15-03",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
+          "promptTts": "Ce anotimp? Alege răspunsul potrivit.",
           "choices": [
             "primăvară",
             "toamnă",
@@ -1096,7 +1096,7 @@
         {
           "id": "ro-msn-l15-04",
           "prompt": "Ce anotimp?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce anotimp.",
+          "promptTts": "Ce anotimp? Alege răspunsul potrivit.",
           "choices": [
             "toamnă",
             "vară",
@@ -1130,7 +1130,7 @@
         {
           "id": "ro-msn-l16-01",
           "prompt": "Ce simț?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
+          "promptTts": "Ce simț? Alege răspunsul potrivit.",
           "choices": [
             "văd",
             "aud",
@@ -1143,7 +1143,7 @@
         {
           "id": "ro-msn-l16-02",
           "prompt": "Ce simț?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
+          "promptTts": "Ce simț? Alege răspunsul potrivit.",
           "choices": [
             "aud",
             "miros",
@@ -1156,7 +1156,7 @@
         {
           "id": "ro-msn-l16-03",
           "prompt": "Ce simț?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
+          "promptTts": "Ce simț? Alege răspunsul potrivit.",
           "choices": [
             "miros",
             "gust",
@@ -1169,7 +1169,7 @@
         {
           "id": "ro-msn-l16-04",
           "prompt": "Ce simț?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce simț.",
+          "promptTts": "Ce simț? Alege răspunsul potrivit.",
           "choices": [
             "gust",
             "văd",
@@ -1274,7 +1274,7 @@
         {
           "id": "ro-msn-l18-01",
           "prompt": "Ce formă?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
+          "promptTts": "Ce formă? Alege răspunsul potrivit.",
           "choices": [
             "cerc",
             "pătrat",
@@ -1287,7 +1287,7 @@
         {
           "id": "ro-msn-l18-02",
           "prompt": "Ce formă?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
+          "promptTts": "Ce formă? Alege răspunsul potrivit.",
           "choices": [
             "pătrat",
             "triunghi",
@@ -1300,7 +1300,7 @@
         {
           "id": "ro-msn-l18-03",
           "prompt": "Ce formă?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
+          "promptTts": "Ce formă? Alege răspunsul potrivit.",
           "choices": [
             "triunghi",
             "dreptunghi",
@@ -1313,7 +1313,7 @@
         {
           "id": "ro-msn-l18-04",
           "prompt": "Ce formă?",
-          "promptTts": "Ascultă bine acest cuvânt: Ce formă.",
+          "promptTts": "Ce formă? Alege răspunsul potrivit.",
           "choices": [
             "dreptunghi",
             "cerc",
@@ -1435,7 +1435,7 @@
         {
           "id": "ro-msn-l20-03",
           "prompt": "Este viu?",
-          "promptTts": "Ascultă bine acest cuvânt: Este viu.",
+          "promptTts": "Este viu? Alege răspunsul potrivit.",
           "choices": [
             "da",
             "nu"

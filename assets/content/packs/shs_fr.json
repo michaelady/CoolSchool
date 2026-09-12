@@ -23,7 +23,7 @@
         {
           "id": "fr-shs-l1-01",
           "prompt": "Qui est-ce ?",
-          "promptTts": "Qui est-ce ? Écoute : maman.",
+          "promptTts": "Qui est-ce ? Écoute: maman.",
           "choices": [
             "maman",
             "école",
@@ -36,7 +36,7 @@
         {
           "id": "fr-shs-l1-02",
           "prompt": "Qui est-ce ?",
-          "promptTts": "Qui est-ce ? Écoute : papa.",
+          "promptTts": "Qui est-ce ? Écoute: papa.",
           "choices": [
             "papa",
             "parc",
@@ -49,7 +49,7 @@
         {
           "id": "fr-shs-l1-03",
           "prompt": "Famille : qui manque ?",
-          "promptTts": "Famille : qui manque ? Écoute : moi.",
+          "promptTts": "Famille: qui manque ? Écoute: moi.",
           "choices": [
             "moi",
             "Suisse",
@@ -94,7 +94,7 @@
         {
           "id": "fr-shs-l2-01",
           "prompt": "Où dort-on ?",
-          "promptTts": "Où dort-on ? Écoute : dans le lit.",
+          "promptTts": "Où dort-on ? Écoute: dans le lit.",
           "choices": [
             "maison",
             "école",
@@ -107,7 +107,7 @@
         {
           "id": "fr-shs-l2-02",
           "prompt": "Où cuisine-t-on ?",
-          "promptTts": "Où cuisine-t-on ? Écoute : dans la cuisine.",
+          "promptTts": "Où cuisine-t-on ? Écoute: dans la cuisine.",
           "choices": [
             "cuisine",
             "école",
@@ -132,7 +132,7 @@
         {
           "id": "fr-shs-l2-04",
           "prompt": "Porte ou fenêtre ?",
-          "promptTts": "Porte ou fenêtre ? Écoute : fenêtre.",
+          "promptTts": "Porte ou fenêtre ? Écoute: fenêtre.",
           "choices": [
             "fenêtre",
             "porte"
@@ -144,7 +144,7 @@
         {
           "id": "fr-shs-l2-05",
           "prompt": "Où habitons-nous ?",
-          "promptTts": "Où habitons-nous ? Écoute : maison.",
+          "promptTts": "Où habitons-nous ? Écoute: maison.",
           "choices": [
             "maison",
             "train",
@@ -166,7 +166,7 @@
         {
           "id": "fr-shs-l3-01",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : école.",
+          "promptTts": "Où est-ce ? Écoute: école.",
           "choices": [
             "école",
             "maison",
@@ -179,7 +179,7 @@
         {
           "id": "fr-shs-l3-02",
           "prompt": "Qui enseigne ?",
-          "promptTts": "Qui enseigne ? Écoute : enseignante.",
+          "promptTts": "Qui enseigne ? Écoute: enseignante.",
           "choices": [
             "enseignante",
             "boulanger",
@@ -204,7 +204,7 @@
         {
           "id": "fr-shs-l3-04",
           "prompt": "De quoi a-t-on besoin à l’école ?",
-          "promptTts": "De quoi a-t-on besoin à l’école ? Écoute : crayon.",
+          "promptTts": "De quoi a-t-on besoin à l’école ? Écoute: crayon.",
           "choices": [
             "crayon",
             "vélo",
@@ -217,7 +217,7 @@
         {
           "id": "fr-shs-l3-05",
           "prompt": "Récré : où jouer ?",
-          "promptTts": "Récré : où jouer ? Écoute : parc.",
+          "promptTts": "Récré: où jouer ? Écoute: parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -239,7 +239,7 @@
         {
           "id": "fr-shs-l4-01",
           "prompt": "Quel jour commence souvent la semaine d’école ?",
-          "promptTts": "Quel jour commence souvent la semaine d’école ? Écoute : lundi.",
+          "promptTts": "Quel jour commence souvent la semaine d’école ? Écoute: lundi.",
           "choices": [
             "lundi",
             "hier",
@@ -251,7 +251,7 @@
         {
           "id": "fr-shs-l4-02",
           "prompt": "Aujourd’hui ou hier ?",
-          "promptTts": "Aujourd’hui ou hier ? Écoute : aujourd’hui.",
+          "promptTts": "Aujourd’hui ou hier ? Écoute: aujourd’hui.",
           "choices": [
             "aujourd’hui",
             "hier"
@@ -273,7 +273,7 @@
         {
           "id": "fr-shs-l4-04",
           "prompt": "Qu’est-ce qui était avant ?",
-          "promptTts": "Qu’est-ce qui était avant ? Écoute : hier.",
+          "promptTts": "Qu’est-ce qui était avant ? Écoute: hier.",
           "choices": [
             "hier",
             "aujourd’hui"
@@ -305,7 +305,7 @@
         {
           "id": "fr-shs-l5-01",
           "prompt": "Saison ?",
-          "promptTts": "Écoute bien ce mot : Saison ? Écoute : été.",
+          "promptTts": "Saison ? Écoute : Saison ? Écoute: été.",
           "choices": [
             "été",
             "pluie",
@@ -318,7 +318,7 @@
         {
           "id": "fr-shs-l5-02",
           "prompt": "Saison ?",
-          "promptTts": "Écoute bien ce mot : Saison ? Écoute : hiver.",
+          "promptTts": "Saison ? Écoute : Saison ? Écoute: hiver.",
           "choices": [
             "hiver",
             "pluie",
@@ -331,7 +331,7 @@
         {
           "id": "fr-shs-l5-03",
           "prompt": "Saison ?",
-          "promptTts": "Écoute bien ce mot : Saison ? Écoute : printemps.",
+          "promptTts": "Saison ? Écoute : Saison ? Écoute: printemps.",
           "choices": [
             "printemps",
             "pluie",
@@ -344,7 +344,7 @@
         {
           "id": "fr-shs-l5-04",
           "prompt": "Saison ?",
-          "promptTts": "Écoute bien ce mot : Saison ? Écoute : automne.",
+          "promptTts": "Saison ? Écoute : Saison ? Écoute: automne.",
           "choices": [
             "automne",
             "pluie",
@@ -377,7 +377,7 @@
         {
           "id": "fr-shs-l6-01",
           "prompt": "Quel temps ?",
-          "promptTts": "Quel temps ? Écoute : pluie.",
+          "promptTts": "Quel temps ? Écoute: pluie.",
           "choices": [
             "pluie",
             "boulanger",
@@ -390,7 +390,7 @@
         {
           "id": "fr-shs-l6-02",
           "prompt": "Quel temps ?",
-          "promptTts": "Quel temps ? Écoute : soleil.",
+          "promptTts": "Quel temps ? Écoute: soleil.",
           "choices": [
             "soleil",
             "neige",
@@ -403,7 +403,7 @@
         {
           "id": "fr-shs-l6-03",
           "prompt": "Quel temps ?",
-          "promptTts": "Quel temps ? Écoute : neige.",
+          "promptTts": "Quel temps ? Écoute: neige.",
           "choices": [
             "neige",
             "pluie",
@@ -428,7 +428,7 @@
         {
           "id": "fr-shs-l6-05",
           "prompt": "Faut-il un parapluie ?",
-          "promptTts": "Faut-il un parapluie ? Écoute : pluie.",
+          "promptTts": "Faut-il un parapluie ? Écoute: pluie.",
           "choices": [
             "oui",
             "non"
@@ -449,7 +449,7 @@
         {
           "id": "fr-shs-l7-01",
           "prompt": "Beaucoup de maisons et de bus ?",
-          "promptTts": "Beaucoup de maisons et de bus ? Écoute : ville.",
+          "promptTts": "Beaucoup de maisons et de bus ? Écoute: ville.",
           "choices": [
             "ville",
             "village"
@@ -461,7 +461,7 @@
         {
           "id": "fr-shs-l7-02",
           "prompt": "Peu de maisons, des champs ?",
-          "promptTts": "Peu de maisons, des champs ? Écoute : village.",
+          "promptTts": "Peu de maisons, des champs ? Écoute: village.",
           "choices": [
             "village",
             "ville"
@@ -484,7 +484,7 @@
         {
           "id": "fr-shs-l7-04",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : magasin.",
+          "promptTts": "Où est-ce ? Écoute: magasin.",
           "choices": [
             "magasin",
             "montagne",
@@ -497,7 +497,7 @@
         {
           "id": "fr-shs-l7-05",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : parc.",
+          "promptTts": "Où est-ce ? Écoute: parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -519,7 +519,7 @@
         {
           "id": "fr-shs-l8-01",
           "prompt": "Qu’est-ce que c’est sur la carte ?",
-          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute : montagne.",
+          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute: montagne.",
           "choices": [
             "montagne",
             "magasin",
@@ -532,7 +532,7 @@
         {
           "id": "fr-shs-l8-02",
           "prompt": "Qu’est-ce que c’est sur la carte ?",
-          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute : lac.",
+          "promptTts": "Qu’est-ce que c’est sur la carte ? Écoute: lac.",
           "choices": [
             "lac",
             "bus",
@@ -545,7 +545,7 @@
         {
           "id": "fr-shs-l8-03",
           "prompt": "Qu’est-ce qui coule ?",
-          "promptTts": "Qu’est-ce qui coule ? Écoute : rivière.",
+          "promptTts": "Qu’est-ce qui coule ? Écoute: rivière.",
           "choices": [
             "rivière",
             "maison",
@@ -603,7 +603,7 @@
         {
           "id": "fr-shs-l9-02",
           "prompt": "Pays ?",
-          "promptTts": "Écoute bien ce mot : Pays ? Écoute : Suisse.",
+          "promptTts": "Pays ? Écoute : Pays ? Écoute: Suisse.",
           "choices": [
             "Suisse",
             "France",
@@ -628,7 +628,7 @@
         {
           "id": "fr-shs-l9-04",
           "prompt": "Capitale (simple) : Berne ?",
-          "promptTts": "Capitale (simple) : Berne ? Touche oui ou non.",
+          "promptTts": "Capitale (simple): Berne ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -660,7 +660,7 @@
         {
           "id": "fr-shs-l10-01",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : école.",
+          "promptTts": "Où est-ce ? Écoute: école.",
           "choices": [
             "école",
             "lac",
@@ -673,7 +673,7 @@
         {
           "id": "fr-shs-l10-02",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : magasin.",
+          "promptTts": "Où est-ce ? Écoute: magasin.",
           "choices": [
             "magasin",
             "rivière",
@@ -686,7 +686,7 @@
         {
           "id": "fr-shs-l10-03",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : parc.",
+          "promptTts": "Où est-ce ? Écoute: parc.",
           "choices": [
             "parc",
             "boulanger",
@@ -711,7 +711,7 @@
         {
           "id": "fr-shs-l10-05",
           "prompt": "Où achète-t-on du pain ?",
-          "promptTts": "Où achète-t-on du pain ? Écoute : magasin.",
+          "promptTts": "Où achète-t-on du pain ? Écoute: magasin.",
           "choices": [
             "magasin",
             "lac",
@@ -733,7 +733,7 @@
         {
           "id": "fr-shs-l11-01",
           "prompt": "Qui fait le pain ?",
-          "promptTts": "Qui fait le pain ? Écoute : boulanger.",
+          "promptTts": "Qui fait le pain ? Écoute: boulanger.",
           "choices": [
             "boulanger",
             "docteure",
@@ -746,7 +746,7 @@
         {
           "id": "fr-shs-l11-02",
           "prompt": "Qui aide si on est malade ?",
-          "promptTts": "Qui aide si on est malade ? Écoute : docteure.",
+          "promptTts": "Qui aide si on est malade ? Écoute: docteure.",
           "choices": [
             "docteure",
             "boulanger",
@@ -759,7 +759,7 @@
         {
           "id": "fr-shs-l11-03",
           "prompt": "Qui enseigne ?",
-          "promptTts": "Qui enseigne ? Écoute : enseignante.",
+          "promptTts": "Qui enseigne ? Écoute: enseignante.",
           "choices": [
             "enseignante",
             "vélo",
@@ -803,7 +803,7 @@
         {
           "id": "fr-shs-l12-01",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "Qu’est-ce qui est gentil ? Écoute : partager.",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute: partager.",
           "choices": [
             "partager",
             "frapper"
@@ -867,7 +867,7 @@
         {
           "id": "fr-shs-l13-01",
           "prompt": "Lumière autrefois ?",
-          "promptTts": "Lumière autrefois ? Écoute : bougie.",
+          "promptTts": "Lumière autrefois ? Écoute: bougie.",
           "choices": [
             "bougie",
             "lampe"
@@ -879,7 +879,7 @@
         {
           "id": "fr-shs-l13-02",
           "prompt": "Lumière aujourd’hui ?",
-          "promptTts": "Lumière aujourd’hui ? Écoute : lampe.",
+          "promptTts": "Lumière aujourd’hui ? Écoute: lampe.",
           "choices": [
             "lampe",
             "bougie"
@@ -902,7 +902,7 @@
         {
           "id": "fr-shs-l13-04",
           "prompt": "Cheval ou voiture autrefois ?",
-          "promptTts": "Cheval ou voiture autrefois ? Écoute : cheval.",
+          "promptTts": "Cheval ou voiture autrefois ? Écoute: cheval.",
           "choices": [
             "cheval",
             "voiture"
@@ -935,7 +935,7 @@
         {
           "id": "fr-shs-l14-01",
           "prompt": "Quel véhicule ?",
-          "promptTts": "Quel véhicule ? Écoute : vélo.",
+          "promptTts": "Quel véhicule ? Écoute: vélo.",
           "choices": [
             "vélo",
             "lac",
@@ -948,7 +948,7 @@
         {
           "id": "fr-shs-l14-02",
           "prompt": "Quel véhicule ?",
-          "promptTts": "Quel véhicule ? Écoute : bus.",
+          "promptTts": "Quel véhicule ? Écoute: bus.",
           "choices": [
             "bus",
             "boulanger",
@@ -961,7 +961,7 @@
         {
           "id": "fr-shs-l14-03",
           "prompt": "Quel véhicule ?",
-          "promptTts": "Quel véhicule ? Écoute : train.",
+          "promptTts": "Quel véhicule ? Écoute: train.",
           "choices": [
             "train",
             "parc",
@@ -1006,7 +1006,7 @@
         {
           "id": "fr-shs-l15-01",
           "prompt": "Pays voisin ?",
-          "promptTts": "Pays voisin ? Écoute : France.",
+          "promptTts": "Pays voisin ? Écoute: France.",
           "choices": [
             "France",
             "boulanger",
@@ -1074,7 +1074,7 @@
         {
           "id": "fr-shs-l16-01",
           "prompt": "Qu’est-ce qui vient de la vache ?",
-          "promptTts": "Qu’est-ce qui vient de la vache ? Écoute : lait.",
+          "promptTts": "Qu’est-ce qui vient de la vache ? Écoute: lait.",
           "choices": [
             "lait",
             "bus",
@@ -1087,7 +1087,7 @@
         {
           "id": "fr-shs-l16-02",
           "prompt": "Où poussent les pommes ?",
-          "promptTts": "Où poussent les pommes ? Écoute : arbre.",
+          "promptTts": "Où poussent les pommes ? Écoute: arbre.",
           "choices": [
             "arbre",
             "train",
@@ -1145,7 +1145,7 @@
         {
           "id": "fr-shs-l17-01",
           "prompt": "Que faire du papier ?",
-          "promptTts": "Que faire du papier ? Écoute : recycler.",
+          "promptTts": "Que faire du papier ? Écoute: recycler.",
           "choices": [
             "recycler",
             "frapper"
@@ -1192,7 +1192,7 @@
         {
           "id": "fr-shs-l17-05",
           "prompt": "Où mettre les déchets ?",
-          "promptTts": "Où mettre les déchets ? Écoute : déchets.",
+          "promptTts": "Où mettre les déchets ? Écoute: déchets.",
           "choices": [
             "poubelle",
             "lac",
@@ -1213,7 +1213,7 @@
         {
           "id": "fr-shs-l18-01",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "Qu’est-ce qui est gentil ? Écoute : aider.",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute: aider.",
           "choices": [
             "aider",
             "frapper"
@@ -1311,7 +1311,7 @@
         {
           "id": "fr-shs-l19-04",
           "prompt": "Où est-ce ?",
-          "promptTts": "Où est-ce ? Écoute : parc.",
+          "promptTts": "Où est-ce ? Écoute: parc.",
           "choices": [
             "parc",
             "France",
@@ -1368,7 +1368,7 @@
         {
           "id": "fr-shs-l20-03",
           "prompt": "Quel temps ?",
-          "promptTts": "Quel temps ? Écoute : pluie.",
+          "promptTts": "Quel temps ? Écoute: pluie.",
           "choices": [
             "pluie",
             "boulanger",
@@ -1381,7 +1381,7 @@
         {
           "id": "fr-shs-l20-04",
           "prompt": "Qu’est-ce qui est gentil ?",
-          "promptTts": "Qu’est-ce qui est gentil ? Écoute : aider.",
+          "promptTts": "Qu’est-ce qui est gentil ? Écoute: aider.",
           "choices": [
             "aider",
             "frapper"

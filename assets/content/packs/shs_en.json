@@ -305,7 +305,7 @@
         {
           "id": "en-shs-l5-01",
           "prompt": "Season?",
-          "promptTts": "Listen carefully to this word: Season? Listen: summer.",
+          "promptTts": "Season? Listen: Season? Listen: summer.",
           "choices": [
             "summer",
             "rain",
@@ -318,7 +318,7 @@
         {
           "id": "en-shs-l5-02",
           "prompt": "Season?",
-          "promptTts": "Listen carefully to this word: Season? Listen: winter.",
+          "promptTts": "Season? Listen: Season? Listen: winter.",
           "choices": [
             "winter",
             "rain",
@@ -331,7 +331,7 @@
         {
           "id": "en-shs-l5-03",
           "prompt": "Season?",
-          "promptTts": "Listen carefully to this word: Season? Listen: spring.",
+          "promptTts": "Season? Listen: Season? Listen: spring.",
           "choices": [
             "spring",
             "rain",
@@ -344,7 +344,7 @@
         {
           "id": "en-shs-l5-04",
           "prompt": "Season?",
-          "promptTts": "Listen carefully to this word: Season? Listen: autumn.",
+          "promptTts": "Season? Listen: Season? Listen: autumn.",
           "choices": [
             "autumn",
             "rain",
@@ -603,7 +603,7 @@
         {
           "id": "en-shs-l9-02",
           "prompt": "Country?",
-          "promptTts": "Listen carefully to this word: Country? Listen: Switzerland.",
+          "promptTts": "Country? Listen: Country? Listen: Switzerland.",
           "choices": [
             "Switzerland",
             "France",

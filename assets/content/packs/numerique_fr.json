@@ -23,7 +23,7 @@
         {
           "id": "fr-num-l1-01",
           "prompt": "Quel appareil ?",
-          "promptTts": "Quel appareil ? Écoute : ordinateur.",
+          "promptTts": "Quel appareil ? Écoute: ordinateur.",
           "choices": [
             "ordinateur",
             "ballon",
@@ -36,7 +36,7 @@
         {
           "id": "fr-num-l1-02",
           "prompt": "Quel appareil ?",
-          "promptTts": "Quel appareil ? Écoute : tablette.",
+          "promptTts": "Quel appareil ? Écoute: tablette.",
           "choices": [
             "tablette",
             "crayon",
@@ -49,7 +49,7 @@
         {
           "id": "fr-num-l1-03",
           "prompt": "Quel appareil ?",
-          "promptTts": "Quel appareil ? Écoute : téléphone.",
+          "promptTts": "Quel appareil ? Écoute: téléphone.",
           "choices": [
             "téléphone",
             "cuillère",
@@ -94,7 +94,7 @@
         {
           "id": "fr-num-l2-01",
           "prompt": "Avec quoi montre-t-on sur l’ordinateur ?",
-          "promptTts": "Avec quoi montre-t-on sur l’ordinateur ? Écoute : souris.",
+          "promptTts": "Avec quoi montre-t-on sur l’ordinateur ? Écoute: souris.",
           "choices": [
             "souris",
             "mot de passe",
@@ -107,7 +107,7 @@
         {
           "id": "fr-num-l2-02",
           "prompt": "Avec quoi écrit-on des lettres ?",
-          "promptTts": "Avec quoi écrit-on des lettres ? Écoute : clavier.",
+          "promptTts": "Avec quoi écrit-on des lettres ? Écoute: clavier.",
           "choices": [
             "clavier",
             "jouet",
@@ -120,7 +120,7 @@
         {
           "id": "fr-num-l2-03",
           "prompt": "Où voit-on l’image ?",
-          "promptTts": "Où voit-on l’image ? Écoute : écran.",
+          "promptTts": "Où voit-on l’image ? Écoute: écran.",
           "choices": [
             "écran",
             "souris",
@@ -211,7 +211,7 @@
         {
           "id": "fr-num-l3-05",
           "prompt": "Écris le mot : oui",
-          "promptTts": "Écoute bien ce mot : Écris oui.",
+          "promptTts": "Écris le mot oui, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "oui"
@@ -231,7 +231,7 @@
         {
           "id": "fr-num-l4-01",
           "prompt": "Une petite image qui ouvre un programme ?",
-          "promptTts": "Une petite image qui ouvre un programme ? Écoute : icône.",
+          "promptTts": "Une petite image qui ouvre un programme ? Écoute: icône.",
           "choices": [
             "icône",
             "soupe",
@@ -244,7 +244,7 @@
         {
           "id": "fr-num-l4-02",
           "prompt": "🗑️ est souvent la corbeille ?",
-          "promptTts": "🗑️ est souvent la corbeille ? Touche oui ou non.",
+          "promptTts": "est souvent la corbeille ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -298,7 +298,7 @@
         {
           "id": "fr-num-l5-01",
           "prompt": "Où range-t-on les fichiers ?",
-          "promptTts": "Où range-t-on les fichiers ? Écoute : dossier.",
+          "promptTts": "Où range-t-on les fichiers ? Écoute: dossier.",
           "choices": [
             "dossier",
             "inconnu",
@@ -367,7 +367,7 @@
         {
           "id": "fr-num-l6-01",
           "prompt": "Qu’est-ce qui ferme un compte ?",
-          "promptTts": "Qu’est-ce qui ferme un compte ? Écoute : mot de passe.",
+          "promptTts": "Qu’est-ce qui ferme un compte ? Écoute: mot de passe.",
           "choices": [
             "mot de passe",
             "jouet",
@@ -498,7 +498,7 @@
         {
           "id": "fr-num-l8-01",
           "prompt": "Qui demander si une fenêtre est bizarre ?",
-          "promptTts": "Qui demander si une fenêtre est bizarre ? Écoute : adulte.",
+          "promptTts": "Qui demander si une fenêtre est bizarre ? Écoute: adulte.",
           "choices": [
             "adulte",
             "inconnu",
@@ -533,7 +533,7 @@
         {
           "id": "fr-num-l8-04",
           "prompt": "Pop-up : d’abord un adulte ?",
-          "promptTts": "Pop-up : d’abord un adulte ? Touche oui ou non.",
+          "promptTts": "Pop-up: d’abord un adulte ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -564,7 +564,7 @@
         {
           "id": "fr-num-l9-01",
           "prompt": "Comment doivent être les messages ?",
-          "promptTts": "Comment doivent être les messages ? Écoute : gentil.",
+          "promptTts": "Comment doivent être les messages ? Écoute: gentil.",
           "choices": [
             "gentil",
             "méchant"
@@ -694,7 +694,7 @@
         {
           "id": "fr-num-l11-01",
           "prompt": "Longtemps uniquement l’écran : que faire ?",
-          "promptTts": "Longtemps uniquement l’écran : que faire ? Écoute : pause.",
+          "promptTts": "Longtemps uniquement l’écran: que faire ? Écoute: pause.",
           "choices": [
             "pause",
             "mot de passe",
@@ -760,7 +760,7 @@
         {
           "id": "fr-num-l12-01",
           "prompt": "Ordre : chaussures, puis dehors. Qu’est-ce qui vient d’abord ?",
-          "promptTts": "Ordre : chaussures, puis dehors. Qu’est-ce qui vient d’abord ? Écoute : d’abord.",
+          "promptTts": "Ordre: chaussures, puis dehors. Qu’est-ce qui vient d’abord ? Écoute: d’abord.",
           "choices": [
             "d’abord",
             "ensuite"
@@ -771,7 +771,7 @@
         {
           "id": "fr-num-l12-02",
           "prompt": "D’abord se laver les mains, ___ manger.",
-          "promptTts": "D’abord se laver les mains, ___ manger.. Écoute, le mot est ensuite.",
+          "promptTts": "D’abord se laver les mains, ___ manger. Écoute, le mot est ensuite.",
           "choices": [
             "ensuite",
             "d’abord"
@@ -824,7 +824,7 @@
         {
           "id": "fr-num-l13-01",
           "prompt": "Le robot doit aller ⬅️. Où ?",
-          "promptTts": "Le robot doit aller ⬅️. Où ? Écoute : gauche.",
+          "promptTts": "Le robot doit aller à gauche. Où ? Écoute: gauche.",
           "choices": [
             "gauche",
             "droite"
@@ -835,7 +835,7 @@
         {
           "id": "fr-num-l13-02",
           "prompt": "Le robot doit aller ➡️. Où ?",
-          "promptTts": "Le robot doit aller ➡️. Où ? Écoute : droite.",
+          "promptTts": "Le robot doit aller à droite. Où ? Écoute: droite.",
           "choices": [
             "droite",
             "gauche"
@@ -889,7 +889,7 @@
         {
           "id": "fr-num-l14-01",
           "prompt": "Répète trois fois : combien ?",
-          "promptTts": "Répète trois fois : combien ? Écoute : 3.",
+          "promptTts": "Répète trois fois: combien ? Écoute: 3.",
           "choices": [
             "2",
             "3",
@@ -901,7 +901,7 @@
         {
           "id": "fr-num-l14-02",
           "prompt": "Écris le nombre 3",
-          "promptTts": "Écoute bien ce mot : Écris trois.",
+          "promptTts": "Écris le nombre trois, s’il te plaît.",
           "answerMode": "type",
           "acceptedAnswers": [
             "3"
@@ -923,7 +923,7 @@
         {
           "id": "fr-num-l14-04",
           "prompt": "Tape 3 fois : 1, 2, … ?",
-          "promptTts": "Tape 3 fois : 1, 2, … ? Écoute : 3.",
+          "promptTts": "Tape 3 fois: 1, 2, … ? Écoute: 3.",
           "choices": [
             "3",
             "1",
@@ -955,7 +955,7 @@
         {
           "id": "fr-num-l15-01",
           "prompt": "De quoi a besoin un ordinateur ?",
-          "promptTts": "De quoi a besoin un ordinateur ? Écoute : électricité.",
+          "promptTts": "De quoi a besoin un ordinateur ? Écoute: électricité.",
           "choices": [
             "électricité",
             "jouet",
@@ -990,7 +990,7 @@
         {
           "id": "fr-num-l15-04",
           "prompt": "Batterie vide : charger ?",
-          "promptTts": "Batterie vide : charger ? Touche oui ou non.",
+          "promptTts": "Batterie vide: charger ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1021,7 +1021,7 @@
         {
           "id": "fr-num-l16-01",
           "prompt": "Comment s’appelle le réseau des pages ?",
-          "promptTts": "Comment s’appelle le réseau des pages ? Écoute : internet.",
+          "promptTts": "Comment s’appelle le réseau des pages ? Écoute: internet.",
           "choices": [
             "internet",
             "souris",
@@ -1087,7 +1087,7 @@
         {
           "id": "fr-num-l17-01",
           "prompt": "Avant de partager la photo de quelqu’un ?",
-          "promptTts": "Avant de partager la photo de quelqu’un ? Écoute : demander.",
+          "promptTts": "Avant de partager la photo de quelqu’un ? Écoute: demander.",
           "choices": [
             "demander",
             "envoyer juste"
@@ -1121,7 +1121,7 @@
         {
           "id": "fr-num-l17-04",
           "prompt": "Un enfant sur une photo : demander aux parents ?",
-          "promptTts": "Un enfant sur une photo : demander aux parents ? Touche oui ou non.",
+          "promptTts": "Un enfant sur une photo: demander aux parents ? Touche oui ou non.",
           "choices": [
             "oui",
             "non"
@@ -1152,7 +1152,7 @@
         {
           "id": "fr-num-l18-01",
           "prompt": "Si on se sent mal en ligne ?",
-          "promptTts": "Si on se sent mal en ligne ? Écoute : stop.",
+          "promptTts": "Si on se sent mal en ligne ? Écoute: stop.",
           "choices": [
             "stop",
             "inconnu",
@@ -1284,7 +1284,7 @@
         {
           "id": "fr-num-l20-01",
           "prompt": "Quel appareil ?",
-          "promptTts": "Quel appareil ? Écoute : ordinateur.",
+          "promptTts": "Quel appareil ? Écoute: ordinateur.",
           "choices": [
             "ordinateur",
             "jouet",
@@ -1319,7 +1319,7 @@
         {
           "id": "fr-num-l20-04",
           "prompt": "Robot ⬅️ ?",
-          "promptTts": "Écoute bien ce mot : Robot ⬅️ ? Écoute : gauche.",
+          "promptTts": "Robot à gauche ? Écoute: gauche.",
           "choices": [
             "gauche",
             "droite"

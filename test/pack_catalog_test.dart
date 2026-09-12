@@ -34,6 +34,39 @@ void main() {
           for (final exercise in level.exercises) {
             expect(exercise.promptTts, isNotEmpty);
             expect(RegExp(r'\d\s*[+\-−]').hasMatch(exercise.promptTts), isFalse);
+            expect(
+              RegExp(
+                r'[\u{1F000}-\u{1FAFF}\u{2190}-\u{21FF}\u{2300}-\u{23FF}\u{25A0}-\u{25FF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{266A}-\u{266F}]',
+                unicode: true,
+              ).hasMatch(exercise.promptTts),
+              isFalse,
+              reason: '${pack.id}/$locale ${exercise.id} spoken emoji → ${exercise.promptTts}',
+            );
+            expect(
+              RegExp(
+                r'(écoute bien ce mot|hör gut zu, das wort ist|ascultă bine acest cuvânt|listen carefully to this word).{0,8}(schreib|écris|ecris|type|scrie)',
+                caseSensitive: false,
+              ).hasMatch(exercise.promptTts),
+              isFalse,
+              reason: '${pack.id}/$locale ${exercise.id} type wrap → ${exercise.promptTts}',
+            );
+            if (locale != 'en') {
+              expect(
+                exercise.promptTts.toLowerCase(),
+                isNot(contains('listen to this word')),
+                reason: '${pack.id}/$locale ${exercise.id} → ${exercise.promptTts}',
+              );
+              expect(
+                exercise.promptTts.toLowerCase(),
+                isNot(contains('listen carefully')),
+                reason: '${pack.id}/$locale ${exercise.id} → ${exercise.promptTts}',
+              );
+              expect(
+                exercise.promptTts,
+                isNot(contains('Type the number')),
+                reason: '${pack.id}/$locale ${exercise.id} → ${exercise.promptTts}',
+              );
+            }
             if (exercise.isType) {
               typed += 1;
               expect(exercise.acceptedAnswers, isNotEmpty);
@@ -83,6 +116,17 @@ void main() {
     final roType = loadPack('shs', 'ro').levels.first.exercises
         .firstWhere((item) => item.isType);
     expect(roType.promptTts.toLowerCase(), contains('cuvântul'));
+    final frNumber = loadPack('arts', 'fr').levels[8].exercises[2];
+    expect(frNumber.isType, isTrue);
+    expect(frNumber.promptTts, contains('Écris le nombre'));
+    expect(frNumber.promptTts, contains('plaît'));
+    expect(frNumber.promptTts, isNot(contains('Écoute bien ce mot')));
+    final deNumber = loadPack('arts', 'de').levels[8].exercises[2];
+    expect(deNumber.promptTts, contains('Schreib bitte die Zahl'));
+    expect(deNumber.promptTts, isNot(contains('Hör gut zu')));
+    final roNumber = loadPack('arts', 'ro').levels[8].exercises[2];
+    expect(roNumber.promptTts, contains('Te rog, scrie numărul'));
+    expect(roNumber.promptTts, isNot(contains('Ascultă bine acest cuvânt')));
   });
 
   test('math packs fold counting and spoken subtraction', () {
